@@ -1,0 +1,45 @@
+/* App.vue related styling */
+@import "./base.css";
+
+:root {
+  --color-navigation-background: var(--greyish-dark) 
+}
+
+body {
+    background-color: var(--greyish-deep);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Default styling */
+#app {
+    color: var(--color-font-1);
+    margin: 0 auto;
+    /* padding: 2rem; */
+    font-weight: normal;
+}
+
+/* Navigation */
+.navigation {
+  background-color: var(--color-navigation-background);
+  display: flex; /* Use flexbox for the navigation */
+  justify-content: flex-start; /* Align items to the start (left) */
+  align-items: center; /* Vertically center the items */
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.navigation-button {
+  color: var(--vt-c-text-dark-2);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-right: 0.5rem; /* Add some space between the buttons */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.navigation-button:hover {
+  background-color: var(--green-mild);
+  color: var(--grey-vibrant);
+}
