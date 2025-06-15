@@ -1,3 +1,7 @@
+/* ============================================================ ..
+    Base definitions
+.. ============================================================ */
+
 /* color palette */
 :root {
   --greyish-deepest: #161618;
@@ -6,26 +10,24 @@
   --greyish-mild: #202127;
   --greyish-soft: #39485C;
 
+  --grey-dark: #32363F;
+  --grey-mild: #959595;
+  --grey-soft: #96969D;
+  --grey-vibrant: #DEDED5;
+
   --green-mild: #2B7552;
   --green-soft: #41B883;
   --green-vibrant: #3DD68C;
 
-  --grey-mild: #959595;
-  --grey-soft: #96969D;
-  --grey-vibrant: #DEDED5;
+  --purple-dark: #666C9B;
+  --purple-mild: #A8B1FF;
+  --purple-soft: #6D7EFF;
+  --purple-vibrant: #3048FF;
 }
 
 /* semantic color variables for this project */
 :root {
-  --color-font-1: var(--grey-soft);
-  --color-font-2: var(--grey-vibrant);
+  --color-font-1: var(--grey-vibrant);
+  --color-font-2: var(--grey-soft);
   --color-font-3: var(--grey-mild);
-}
-
-.header-text {
-    font-size: medium;
-}
-
-.content{
-  padding: 1rem;
 }

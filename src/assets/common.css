@@ -1,0 +1,39 @@
+/* ============================================================ ..
+    Common styling, imported by most vues
+.. ============================================================ */
+
+@import "./base.css";
+
+.header-title {
+  margin: 1rem;
+  font-size: x-large;
+  color: var(--purple-dark);
+  font-family: "Segoe UI";
+  font-weight: 700;
+}
+
+.header {
+  margin: 1rem;
+  font-size: large;
+  color: var(--color-font-2);
+  font-family: "Segoe UI";
+  font-weight: 500;
+}
+
+.content{
+  padding: 1rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.link {
+  font-weight: 700;
+  color: var(--grey-soft);
+}
+
+.link:hover {
+  font-weight: 700;
+  color: var(--green-soft);
+}

@@ -1,5 +1,5 @@
 /* App.vue related styling */
-@import "./base.css";
+@import "./common.css";
 
 :root {
   --color-navigation-background: var(--greyish-dark) 
@@ -24,22 +24,34 @@ body {
 .navigation {
   background-color: var(--color-navigation-background);
   display: flex; /* Use flexbox for the navigation */
-  justify-content: flex-start; /* Align items to the start (left) */
+  justify-content: space-between; /* Space items with buttons on the left and title on the right */
   align-items: center; /* Vertically center the items */
-  width: 100%;
+  width: 100;
   padding: 0 1rem;
   margin: 0;
 }
 
+.navigation-buttons {
+  display: flex; /* Use flexbox for the buttons container */
+  gap: 0.5rem; /* Add space between the buttons */
+  padding: 0.5rem;
+}
+
 .navigation-button {
   color: var(--vt-c-text-dark-2);
+  text-decoration: none; /* Remove underline from links */
   padding: 0.5rem;
   border-radius: 0.2rem;
-  margin-right: 0.5rem; /* Add some space between the buttons */
-  text-decoration: none; /* Remove underline from links */
 }
 
 .navigation-button:hover {
   background-color: var(--green-mild);
   color: var(--grey-vibrant);
+}
+
+.navigation-title {
+  padding: 0.5rem;
+  /* Optional: Add additional styles for the title */
+  color: white;
+  font-weight: bold;
 }

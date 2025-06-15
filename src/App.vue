@@ -3,16 +3,18 @@
 </script>
 
 <template>
-  <div id="app">
-    <!-- Navigation Links -->
-    <nav class="navigation">
+
+  <!-- Navigation Links -->
+  <nav class="navigation">
+    <div class="navigation-buttons">
       <router-link to="/" class="navigation-button">Home</router-link>
       <router-link to="/about" class="navigation-button">About</router-link>
-    </nav>
+    </div>
+    <div class="navigation-title"> dea</div>
+  </nav>
 
-    <!-- Router View -->
-    <router-view class="content"/>
-  </div>
+  <!-- Router View -->
+  <router-view class="content"/>
 </template>
 
 <style scoped>
