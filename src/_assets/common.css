@@ -37,3 +37,22 @@
   font-weight: 700;
   color: var(--green-soft);
 }
+
+.button {
+  background-color: var(--green-mild);
+  color: var(--grey-vibrant); 
+  border: none;
+  padding: 0.3rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: var(--green-dark);
+  color: var(--grey-mild);
+}

@@ -1,5 +1,12 @@
+<!--============================================================ ...
+     About tab
+... ============================================================ -->
+    
+<style>
+    @import '@/_assets/common.css';
+</style>
+
 <script>
-    import '../assets/base.css'
 </script>
 
 <template>
@@ -36,5 +43,3 @@
     </div>
 </template>
 
-<style>
-</style>

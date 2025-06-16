@@ -15,5 +15,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: "/",
+  input: {
+    index: 'public/index.html', // Path to your main index.html
+    events: 'public/events.html', // Path to your events.html
+    about: 'public/about.html', // Path to your about.html
+  }
 })

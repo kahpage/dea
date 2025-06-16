@@ -1,3 +1,7 @@
+/* ============================================================ ..
+    Definitions related to the "app" wrapper (header etc)
+.. ============================================================ */
+
 /* App.vue related styling */
 @import "./common.css";
 
@@ -23,17 +27,17 @@ body {
 /* Navigation */
 .navigation {
   background-color: var(--color-navigation-background);
-  display: flex; /* Use flexbox for the navigation */
-  justify-content: space-between; /* Space items with buttons on the left and title on the right */
-  align-items: center; /* Vertically center the items */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
   width: 100;
   padding: 0 1rem;
   margin: 0;
 }
 
 .navigation-buttons {
-  display: flex; /* Use flexbox for the buttons container */
-  gap: 0.5rem; /* Add space between the buttons */
+  display: flex;
+  gap: 0.5rem;
   padding: 0.5rem;
 }
 
@@ -51,7 +55,6 @@ body {
 
 .navigation-title {
   padding: 0.5rem;
-  /* Optional: Add additional styles for the title */
-  color: white;
+  color: var(--gray-mild);
   font-weight: bold;
 }
