@@ -6,11 +6,29 @@
     @import '@/_assets/common.css';
 </style>
 
-<script>
-    // import jsonData from '../../databases/yougakudann/yougakudann.json';
+<script setup>
+  import { ref } from "vue";
+  import axiosInstance from '@/_axios/axios_config.js'; 
 
-    // function LoadData() { () => console.log("jsonData.length")}
+  const test_var = ref(0);
+  const jsonData = ref([]);
 
+  function test() {
+    console.log(test_var);
+    test_var.value++;
+  }
+
+  function fetch_data() {
+    axiosInstance.get('/databases/yougakudann/yougakudann.json')
+      .then(response => {
+        console.log(response.data);
+        jsonData.value = response.data;
+      })
+      .catch(error => {
+        // Log any errors that occur during the fetch
+        console.error('Error fetching data:', error);
+      });
+  }
 </script>
 
 <template>
@@ -18,17 +36,10 @@
     <head><title>dea | Event List</title></head>
 
     <div class="header">
-        Here is the event list. To load it, click <button @click="loadData" class="button">Load Data</button>
+      Here is the event list. To load it, click {{ test_var }}
+      <button @click="fetch_data" class="button">Click</button>
     </div>
-
-    <!-- <p> Hi {{ jsonData.length }} </p> -->
-
-    <!-- <div v-if="jsonData.length">
-      <div v-for="item in jsonData" :key="item.id">
-        {{ item.name }}
-      </div>
-    </div>
-    <p v-else>No data available.</p> -->
+    
 </template>
 
 

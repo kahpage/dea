@@ -6,7 +6,7 @@
     @import '@/_assets/common.css';
 </style>
 
-<script>
+<script setup>
 </script>
 
 <template>
