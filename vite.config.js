@@ -4,8 +4,11 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
+import { resolve } from 'path'
+
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/',
   plugins: [
     vue(),
     vueDevTools(),
@@ -16,8 +19,8 @@ export default defineConfig({
     },
   },
   input: {
-    index: 'public/index.html', // Path to your main index.html
-    events: 'public/events.html', // Path to your events.html
-    about: 'public/about.html', // Path to your about.html
+    index: resolve(__dirname, './index.html'), // Path to your main index.html
+    events: resolve(__dirname, './public/events.html'), // Path to your events.html
+    about: resolve(__dirname, './public/about.html'), // Path to your about.html
   },
 })
