@@ -8,7 +8,7 @@
 
 <script setup>
   import { ref } from "vue";
-  import axiosInstance from '@/axios/axios_config.js'; 
+  import axiosInstance from '@/axios/axios_config.js';
 
   const test_var = ref(0);
   const jsonData = ref([]);
@@ -19,7 +19,7 @@
   }
 
   function fetch_data() {
-    axiosInstance.get('/databases/yougakudann/yougakudann.json')
+    axiosInstance.get( './databases/yougakudann/yougakudann.json')
       .then(response => {
         console.log(response.data);
         jsonData.value = response.data;
