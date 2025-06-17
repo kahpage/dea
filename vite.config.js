@@ -10,6 +10,7 @@ const outDir = resolve(__dirname, 'dist')
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/dea/",
   root,
   plugins: [
     vue(),
