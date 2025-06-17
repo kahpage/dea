@@ -9,9 +9,12 @@
 <script setup>
   import { ref } from "vue";
   import axiosInstance from '@/axios/axios_config.js';
+  const baseUrl = import.meta.env.VITE_APP_BASE_URL;
 
   const test_var = ref(0);
   const jsonData = ref([]);
+
+  const public_path = import.meta.env.MODE == 'production' ? `/dea/` : `../`
 
   function test() {
     console.log(test_var);
@@ -19,7 +22,7 @@
   }
 
   function fetch_data() {
-    axiosInstance.get( './databases/yougakudann/yougakudann.json')
+    axiosInstance.get( `${public_path}databases/yougakudann/yougakudann.json`)
       .then(response => {
         console.log(response.data);
         jsonData.value = response.data;

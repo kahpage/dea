@@ -6,8 +6,23 @@
 import { execa } from "execa";
 import fs from "fs";
 
+async function checkGitStatus() {
+  try {
+    const { stdout } = await execa('git', ['status', '--porcelain']);
+    if (stdout.trim() !== '') {
+      console.error('Error: There are unstaged changes in the repository. Please commit or stash them before proceeding.');
+      process.exit(1);
+    }
+  } catch (error) {
+    console.error('Error checking git status:', error.message);
+    process.exit(1);
+  }
+}
+
 (async () => {
   try {
+    await checkGitStatus();
+    
     await execa('git', ['checkout', '--orphan', 'gh-pages']);
     console.log('Building started...');
     await execa('npm', ['run', 'build']);
