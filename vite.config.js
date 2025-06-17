@@ -8,7 +8,7 @@ import { resolve } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/dea/',
   plugins: [
     vue(),
     vueDevTools(),
