@@ -3,8 +3,8 @@
 ... ============================================================ -->
 
 <script setup>
-  import "@/_assets/app.css"
-  import Navigation from "@/_components/Navigation.vue"
+  import "@/assets/app.css"
+  import Navigation from "@/components/Navigation.vue"
   import EventList from "./EventList.vue"
 </script>
 

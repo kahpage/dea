@@ -3,9 +3,9 @@
 ... ============================================================ -->
 
 <script setup>
-  import "@/_assets/app.css"
-  import Navigation from "@/_components/Navigation.vue"
-  import Home from "./Home.vue"
+  import "./assets/app.css"
+  import Navigation from "./components/Navigation.vue"
+  import Home from "./home/Home.vue"
 </script>
 
 <template>

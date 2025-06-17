@@ -3,7 +3,7 @@
 ... ============================================================ -->
 
 <style>
-    @import '@/_assets/common.css';
+    @import '../assets/common.css';
 </style>
 
 <script setup>

@@ -1,14 +1,16 @@
 import { fileURLToPath, URL } from 'node:url'
+import { resolve } from 'node:path'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
-import { resolve } from 'path'
+const root = resolve(__dirname, 'src')
+const outDir = resolve(__dirname, 'dist')
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/dea/',
+  root,
   plugins: [
     vue(),
     vueDevTools(),
@@ -18,9 +20,15 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  input: {
-    index: resolve(__dirname, './index.html'), // Path to your main index.html
-    events: resolve(__dirname, './public/events.html'), // Path to your events.html
-    about: resolve(__dirname, './public/about.html'), // Path to your about.html
-  },
+  build: {
+    outDir,
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: resolve(root, 'index.html'),
+        about: resolve(root, 'about', 'index.html'),
+        events: resolve(root, 'events', 'index.html'),
+      }
+    }
+  }
 })

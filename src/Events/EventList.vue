@@ -3,12 +3,12 @@
 ... ============================================================ -->
 
 <style>
-    @import '@/_assets/common.css';
+    @import '@/assets/common.css';
 </style>
 
 <script setup>
   import { ref } from "vue";
-  import axiosInstance from '@/_axios/axios_config.js'; 
+  import axiosInstance from '@/axios/axios_config.js'; 
 
   const test_var = ref(0);
   const jsonData = ref([]);
