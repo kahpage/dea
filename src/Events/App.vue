@@ -12,6 +12,5 @@
   <!-- Router View -->
   <Navigation />
   <EventList />
-  <a>Test</a>
   
 </template>

@@ -90,15 +90,16 @@ if __name__ == '__main__':
     print("TODO...")
 
     print("====== Copying databases and related media ... ======")
-    for dbfile in valid_database_files:
+    for db_name in valid_database_files:
+        db_file = valid_database_files[db_name]
         new_db_file_path = PATH_public_databases / db_file.stem # new path
         print(f"mkdir {new_db_file_path}...")
-        new_db_file_path.mkdir(parents=True)
+        new_db_file_path.mkdir(parents=True, exist_ok=True)
 
         print(f"Running shutil.copy2({db_file}, {new_db_file_path})...")
         shutil.copy2(db_file, new_db_file_path)
         old_media_folder_path = db_file.parent / "media"
-        if old_media_folder_path:
+        if old_media_folder_path.exists() and old_media_folder_path.is_dir():
             new_media_folder_path = new_db_file_path / "media"
             print(f"Running shutil.copytree({old_media_folder_path}, {new_media_folder_path})...")
-            shutil.copytree(old_media_folder_path, new_media_folder_path)
+            shutil.copytree(old_media_folder_path, new_media_folder_path, dirs_exist_ok=True)

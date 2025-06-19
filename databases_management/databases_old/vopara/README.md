@@ -14,71 +14,7 @@ Here are detailled are the sources used for making this database. Any contributi
 * Find if some event cancelled
 
 ## Sources:
-
-**VOCALOID PARADISE** (2008.06.22)
-
-- Date, Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para_list.htm)
-
-**VOCALOID PARADISE 2** (2009.11.22)
-
-- Date, Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para02_list.htm)
-
-**VOCALOID PARADISE 3** (2010.03.28)
-
-- Date, Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para03_list.htm)
-
-**VOCALOID PARADISE 4** (2010.10.31)
-
-- Date, Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para04_list.htm)
-
-**VOCALOID PARADISE 5** (2011.03.27)
-
-- Date, Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para05_list.htm)
-
-**VOCALOID PARADISE 6** (2011.10.30)
-
-- Date: [vocadb.net](https://vocadb.net/E/22/vocaloid-paradise-6)
-- Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para06_list.htm)
-
-**VOCALOID PARADISE 7** (2012.10.28)
-
-- Date: [ttc.ninja-web.net/vo-para/index.html (archive)](https://web.archive.org/web/20120309003013/http://ttc.ninja-web.net/vo-para/index.html)
-- Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para07_list.htm)
-
-**VOCALOID PARADISE 8** (2013.10.20)
-
-- Date: [ttc.ninja-web.net/vo-para/index.html (archive)](https://web.archive.org/web/20130220172703/http://ttc.ninja-web.net/vo-para/index.html)
-- Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para08_list.htm)
-
-**VOCALOID PARADISE 9** (2014.10.19)
-
-- Date: [vocadb.net](https://vocadb.net/E/1132/vocaloid-paradise-9)
-- Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para09_list.htm)
-
-**VOCALOID PARADISE 10** (2015.10.11)
-
-- Date: [vocadb.net](https://vocadb.net/E/1172/vocaloid-paradise-10)
-- Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para10_list.htm)
-
-**VOCALOID PARADISE 11** (2016.10.02)
-
-- Date: [vocadb.net](https://vocadb.net/E/1219/vocaloid-paradise-11)
-- Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para11_list.htm)
-
-**VOCALOID PARADISE 12** (2017.10.15)
-
-- Date: [vocadb.net](https://vocadb.net/E/1355/vocaloid-paradise-12)
-- Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para12_list.htm)
-
-**VOCALOID PARADISE 13** (2018.09.16)
-
-- Date: [vocadb.net](https://vocadb.net/E/1602/vocaloid-paradise-13)
-- Participating circles: [ttc.ninja-web.net/vo-para](https://ttc.ninja-web.net/vo-para/vo-para13_list.htm)
-
-**VOCALOID PARADISE 14** (2019.10.20, cancelled ?)
-
-- Date: [ttc.ninja-web.net (archive)](https://web.archive.org/web/20211203064330/http://ttc.ninja-web.net/vo-para/index.html)
-- Participating circles: _Missing_ !
+VOPARA DONE IN DB
 
 **VOCALOID PARADISE 関西** (2012.03.25)
 
