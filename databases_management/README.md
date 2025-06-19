@@ -2,6 +2,28 @@
 
 Here is stored the "raw" databases and handled the database management.
 
+## Folder structure
+
+This databases_management is made of:
+
+- [databases_to_export](./databases_to_export/) folder, containing the "raw" databases
+- possible old files and folers, explicitely annoted as so
+- Python utilities
+    - `helper_lib.py` defines a few functions for the other scripts
+    - `structs_db.py` defines classes to more easily create databases of valid format
+    - `export_databases.py` will "export" the databases to the `public/databases` folder of the website
+
+## About database export
+
+Basically, exporting the database consists in finding all databases, indexing them in one file of known path, allowing the scripts on the static website to access the other databases. It will then copy the database files (same name as parent folder) and the `media` folder only.
+
+To perform this action, run `python export_databases.py`. (Requires python 3.10+)
+
+---
+
+---
+
+## Old README.md, will be changed later
 ## Content
 
 ( OLD

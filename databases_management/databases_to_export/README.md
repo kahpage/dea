@@ -21,3 +21,5 @@ This is the intended folder layout:
 
 The best way to make a database is to use the provided python structs in `strucs_db.py`, allowing one to create json files with correct format. Please refer to `yougakudann/helper/make_db_ygd.py` for an example application.
 
+
+Please note that each json file should contain information on 1 event group only (content being `json.dump(event_group.get_json(), f)`).
