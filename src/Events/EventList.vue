@@ -20,9 +20,25 @@
     console.log(test_var);
     test_var.value++;
   }
+  
+  function fetch_db_index() {
+    axiosInstance.get( `${public_path}databases/database_file_index.json`)
+      .then(response => {
+        console.log(response.data);
+        // jsonData.value = response.data;
+        for (const db_name in response.data) {
+          fetch_db(response.data[db_name]);
+        }
 
-  function fetch_data() {
-    axiosInstance.get( `${public_path}databases/yougakudann/yougakudann.json`)
+      })
+      .catch(error => {
+        // Log any errors that occur during the fetch
+        console.error('Error fetching data:', error);
+      });
+  }
+
+  function fetch_db(db_name) {
+    axiosInstance.get( `${public_path}databases/${db_name}/${db_name}.json`)
       .then(response => {
         console.log(response.data);
         jsonData.value = response.data;
@@ -32,6 +48,18 @@
         console.error('Error fetching data:', error);
       });
   }
+
+  // function fetch_data() {
+  //   axiosInstance.get( `${public_path}databases/yougakudann/yougakudann.json`)
+  //     .then(response => {
+  //       console.log(response.data);
+  //       jsonData.value = response.data;
+  //     })
+  //     .catch(error => {
+  //       // Log any errors that occur during the fetch
+  //       console.error('Error fetching data:', error);
+  //     });
+  // }
 </script>
 
 <template>
@@ -40,7 +68,7 @@
 
     <div class="header">
       Here is the event list. To load it, click {{ test_var }}
-      <button @click="fetch_data" class="button">Click</button>
+      <button @click="fetch_db_index" class="button">Click</button>
     </div>
     
 </template>

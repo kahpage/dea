@@ -15,9 +15,6 @@ PATH_databases_to_export = PATH_CURRENT_DIR / "databases_to_export" # databases_
 PATH_public_databases = PATH_ROOT / "src" / "public" / "databases" # public/databases/ folder
 DB_FILE_ENCODING = "utf-8"
 
-def get_db_file_relative_path(db_file_name: str) -> str: # Relative to PATH_databases_to_export
-    return f"./{db_file_name}/{db_file_name}.json"
-
 if __name__ == '__main__':
     print("======= EXPORTING DATABASES... =======")
     print(f"{PATH_databases_to_export=}")
@@ -80,7 +77,7 @@ if __name__ == '__main__':
 
         print(f"Database found: {new_even_group}")
         valid_database_files[new_even_group] = db_file
-        database_file_index[new_even_group] = get_db_file_relative_path(db_file.stem)
+        database_file_index[new_even_group] = db_file.stem
 
     path_database_file_index = PATH_public_databases / "database_file_index.json"
     with path_database_file_index.open("w+", encoding=DB_FILE_ENCODING) as f:
