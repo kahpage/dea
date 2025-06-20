@@ -15,6 +15,67 @@ PATH_databases_to_export = PATH_CURRENT_DIR / "databases_to_export" # databases_
 PATH_public_databases = PATH_ROOT / "src" / "public" / "databases" # public/databases/ folder
 DB_FILE_ENCODING = "utf-8"
 
+def is_database_folder(folder_path: Path) -> bool:
+    """Returns whether path is (valid) database folder: contains a .json file with same name as parent.
+    Won't test if the json file has correct format."""
+    if not folder_path.exists() or not folder_path.is_dir():
+        return False
+    
+    folder_name = folder_path.name
+    db_file_path = folder_path / f"{folder_name}.json"
+    if not db_file_path.exists() or not db_file_path.is_file():
+        return False
+    
+    return True
+
+def recursive_database_indexing(folder: Path) -> dict[str, Any]:
+    """Recursive search and database indexer. { "@databases": [], subcategory1: {}, subcategory2: {},...}"""
+    index_this_folder: dict[str, Any] = {"@databases": []}
+    for dir in (dir for dir in folder.iterdir() if dir.is_dir()):
+        folder_name = dir.name
+        if not is_database_folder(dir):
+            # Normal folder
+            index_this_folder[folder_name] = recursive_database_indexing(dir)
+        else:
+            # Database folder, try opening it
+            db_file_path = dir / f'{dir.name}.json'
+            try:
+                with db_file_path.open("r", encoding="utf-8") as f:
+                    content = json.load(f)
+                if not isinstance(content, dict):
+                    raise ValueError(f"WARNING: invalid format, invalid described structure in {db_file_path}")
+                if "aliases" not in content:
+                    raise ValueError(f"WARNING: invalid format, 'aliases' should be in json file in {db_file_path}")
+                index_this_folder["@databases"].append(dir.name)
+                print(f"db file found at {db_file_path}")
+            except Exception as e:
+                print(f"WARNING: json file {db_file_path} 's format is invalid ! {e}")
+    return index_this_folder
+
+def recursive_copy_from_database_index(index: dict[str, Any], root_path_list: list[str] = []) -> None:
+    """Copies the databases to public/databases/ while preserving the folder structure, using the database index"""
+    for db_name in index.get("@databases", []):
+        # For databases of current folder
+        db_folder_path = PATH_databases_to_export / "/".join(root_path_list) / db_name
+        db_file_path = db_folder_path / f"{db_name}.json"
+        new_db_file_path = PATH_public_databases  / "/".join(root_path_list) / db_name / f"{db_name}.json" # new path
+        
+        print(f"mkdir {new_db_file_path.parent} ...")
+        new_db_file_path.parent.mkdir(parents=True, exist_ok=True)
+
+        print(f"Running shutil.copy2({db_file_path}, {new_db_file_path.parent}) ...")
+        shutil.copy2(db_file_path, new_db_file_path.parent)
+
+        old_media_folder_path = db_folder_path / "media"
+        if old_media_folder_path.exists() and old_media_folder_path.is_dir():
+            new_media_folder_path = new_db_file_path.parent / "media"
+            print(f"Running shutil.copytree({old_media_folder_path}, {new_media_folder_path})...")
+            shutil.copytree(old_media_folder_path, new_media_folder_path, dirs_exist_ok=True)
+    
+    for subfolder_name in index:
+        if subfolder_name != "@databases":
+            recursive_copy_from_database_index(index[subfolder_name], root_path_list + [subfolder_name])
+
 if __name__ == '__main__':
     print("======= EXPORTING DATABASES... =======")
     print(f"{PATH_databases_to_export=}")
@@ -33,73 +94,16 @@ if __name__ == '__main__':
         shutil.rmtree(PATH_public_databases)
     PATH_public_databases.mkdir() 
 
-    print("====== Finding all databases in databases_to_export... ======")
-    database_files: list[Path] = []
-    for item in PATH_databases_to_export.iterdir():
-        if not item.is_dir():
-            continue
+    print("====== Finding all databases in databases_to_export ... ======")    
+    database_index = recursive_database_indexing(PATH_databases_to_export)
+
+    print("====== Copying found databases to public/databases/ ... ======")
+    recursive_copy_from_database_index(database_index)
     
-        folder_name = item.name
-        db_file = item / f"{folder_name}.json"
+    print("Saving index file ...")
+    index_file_path = PATH_public_databases / "database_file_index.json"
+    index_file_path.parent.mkdir(parents=True, exist_ok=True)
+    with index_file_path.open("w+", encoding="utf-8") as f:
+        json.dump(database_index, f, ensure_ascii=False)
 
-        if not db_file.exists() or not db_file.is_file():
-            continue # invalid file
-
-        database_files.append(db_file)
-        print(f"db file found {db_file}")
     
-    
-    print("====== Making the database file index... ======")
-    valid_database_files: dict[str, Path] = {}            # {name: Path to that file} 
-    database_file_index: dict[str, str] = {} # {name: path relative to public/databases/} to act as index
-    for db_file in database_files:
-        try:
-            with db_file.open("r", encoding=DB_FILE_ENCODING) as f:
-                content = json.load(f)
-        
-            if not isinstance(content, dict):
-                raise TypeError(f"Invalid json format : {type(content)=}, should be dict")
-        except Exception as e:
-            print(f"WARNING: invalid json for file {db_file} ! {e}")
-            print("Aborted !")
-            exit()
-        
-        if "aliases" not in content or len(content["aliases"]) == 0:
-            print(f"WARNING: invalid aliases for event group of file {db_file} !")
-            print("Aborted !")
-            exit()
-
-        new_even_group = content["aliases"][0]
-        if new_even_group in database_file_index:
-            print(f"WARNING: duplicate event group ! {new_even_group=} ")
-            print("Aborted !")
-            exit()
-
-        print(f"Database found: {new_even_group}")
-        valid_database_files[new_even_group] = db_file
-        database_file_index[new_even_group] = db_file.stem
-
-    path_database_file_index = PATH_public_databases / "database_file_index.json"
-    with path_database_file_index.open("w+", encoding=DB_FILE_ENCODING) as f:
-        json.dump(database_file_index,f, ensure_ascii=False)
-    print(f"Saved database_file_index at {path_database_file_index}")
-
-    print("====== Making the event list database ... ======")
-    database_event_list: dict[str, Any] = {}
-    # TODO
-    print("TODO...")
-
-    print("====== Copying databases and related media ... ======")
-    for db_name in valid_database_files:
-        db_file = valid_database_files[db_name]
-        new_db_file_path = PATH_public_databases / db_file.stem # new path
-        print(f"mkdir {new_db_file_path}...")
-        new_db_file_path.mkdir(parents=True, exist_ok=True)
-
-        print(f"Running shutil.copy2({db_file}, {new_db_file_path})...")
-        shutil.copy2(db_file, new_db_file_path)
-        old_media_folder_path = db_file.parent / "media"
-        if old_media_folder_path.exists() and old_media_folder_path.is_dir():
-            new_media_folder_path = new_db_file_path / "media"
-            print(f"Running shutil.copytree({old_media_folder_path}, {new_media_folder_path})...")
-            shutil.copytree(old_media_folder_path, new_media_folder_path, dirs_exist_ok=True)
