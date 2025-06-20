@@ -101,7 +101,7 @@ async function fetch_db(db_name) {
     });
 }
 
-function fetch_databases() {
+async function fetch_databases() {
   /* Fetch databases and fill category_groups */
   if (!props.event_categ_index.hasOwnProperty("@databases")) {
     console.log("Failed A ", props.event_categ_index);
@@ -113,7 +113,7 @@ function fetch_databases() {
   } // Invalid @databases
 
   for (const db_name in props.event_categ_index["@databases"]) {
-    fetch_db(props.event_categ_index["@databases"][db_name]);
+    await fetch_db(props.event_categ_index["@databases"][db_name]);
   }
 }
 
