@@ -29,13 +29,14 @@ def is_database_folder(folder_path: Path) -> bool:
     return True
 
 def recursive_database_indexing(folder: Path) -> dict[str, Any]:
-    """Recursive search and database indexer. { "@databases": [], subcategory1: {}, subcategory2: {},...}"""
-    index_this_folder: dict[str, Any] = {"@databases": []}
+    """Recursive search and database indexer. { "@databases": [], "@count": n, subcategory1: {}, subcategory2: {},...}"""
+    index_this_folder: dict[str, Any] = {"@databases": [], "@count": 0}
     for dir in (dir for dir in folder.iterdir() if dir.is_dir()):
         folder_name = dir.name
         if not is_database_folder(dir):
             # Normal folder
             index_this_folder[folder_name] = recursive_database_indexing(dir)
+            index_this_folder["@count"] += index_this_folder[folder_name]["@count"] # Increase count
         else:
             # Database folder, try opening it
             db_file_path = dir / f'{dir.name}.json'
@@ -47,6 +48,7 @@ def recursive_database_indexing(folder: Path) -> dict[str, Any]:
                 if "aliases" not in content:
                     raise ValueError(f"WARNING: invalid format, 'aliases' should be in json file in {db_file_path}")
                 index_this_folder["@databases"].append(dir.name)
+                index_this_folder["@count"] += 1
                 print(f"db file found at {db_file_path}")
             except Exception as e:
                 print(f"WARNING: json file {db_file_path} 's format is invalid ! {e}")
@@ -73,7 +75,7 @@ def recursive_copy_from_database_index(index: dict[str, Any], root_path_list: li
             shutil.copytree(old_media_folder_path, new_media_folder_path, dirs_exist_ok=True)
     
     for subfolder_name in index:
-        if subfolder_name != "@databases":
+        if subfolder_name not in ["@databases", "@count"]:
             recursive_copy_from_database_index(index[subfolder_name], root_path_list + [subfolder_name])
 
 if __name__ == '__main__':

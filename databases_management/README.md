@@ -19,6 +19,14 @@ Basically, exporting the database consists in finding all databases, indexing th
 
 To perform this action, run `python export_databases.py`. (Requires python 3.10+)
 
+## Allowed databases_to_export folder tree
+
+A *valid* database entry is defined as a folder of name `folder_name` containing `folder_name.json` database content (result of `json.dump(f, event_group.get_json())`). This folder can be placed in any subfolder which is not under a folder defining a valid database. 
+
+Basically, one may organize the databases with subfolders as it wishes, except no database nested inside valid database folders.
+
+This allows defining event group *Categories* and any nested categories. Please note that the order of these is, as for now, defined by the order python indexes the folders.
+
 ---
 
 ---
