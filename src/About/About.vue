@@ -39,7 +39,7 @@
     <div class="header-title"> Licensing and stuff </div>
     <div class="header">
         While all code provided by me can be seen as open (MIT License), this website does share hosted content that may be copyrighted in some ways.<br>
-        This is unavoidable by nature, but is why sourcing everything is important: credits indirectly the original sources (especially if dead), and also allows sharing the database without its assests.
+        This is unavoidable by nature, but is why sourcing everything is important.
     </div>
 </template>
 
