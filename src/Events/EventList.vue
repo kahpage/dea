@@ -7,7 +7,7 @@
   import axiosInstance from '@/axios/axios_config.js';
   import EventCategory from "./components/EventCategory.vue";
 
-  import event_list_index from '@/public/databases/event_list_index.json' // Static database import
+  import event_list_index from '@/assets/static_databases/event_list_index.json' // Static database import
 
   const baseUrl = import.meta.env.VITE_APP_BASE_URL;
 
@@ -15,7 +15,7 @@
   // const total = ref(0)           // Total databases registered in index
   // const database_file_index = ref({}); // Index content
 
-  const public_path = import.meta.env.MODE == 'production' ? `/dea/` : `../`
+  // const public_path = import.meta.env.MODE == 'production' ? `/dea/` : `../`
   
 </script>
 

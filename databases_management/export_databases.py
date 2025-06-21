@@ -13,6 +13,7 @@ PATH_CURRENT_DIR = Path(__file__).parent
 PATH_ROOT = PATH_CURRENT_DIR.parent
 PATH_databases_to_export = PATH_CURRENT_DIR / "databases_to_export" # databases_to_export/ folder
 PATH_public_databases = PATH_ROOT / "src" / "public" / "databases" # public/databases/ folder
+PATH_static_databases = PATH_ROOT / "src" / "assets" / "static_databases" # assets/databases/ folder (directly imported database files)
 DB_FILE_ENCODING = "utf-8"
 
 def is_database_folder(folder_path: Path) -> bool:
@@ -106,19 +107,38 @@ if __name__ == '__main__':
     print("======= EXPORTING DATABASES... =======")
     print(f"{PATH_databases_to_export=}")
     print(f"{PATH_public_databases=}")
+    print(f"{PATH_static_databases=}")
     if not PATH_databases_to_export.is_dir():
         print("WARNING: Invalid paths. Please create an empty public/databases/ folder if it is missing.")
         print("Aborted !")
         exit()
 
-    if PATH_public_databases.is_dir():
-        print("====== Clearing public/databases/... ======")
+    exists_pub_db, exists_sta_db = PATH_public_databases.is_dir(), PATH_static_databases.is_dir()
+    if exists_pub_db and exists_sta_db:
+        print("====== Clearing public/databases/ and assets/static_databases/ ... ======")
+        ans = input(f"The content of the following folder will be deteleted. Enter YES to confirm:\n{PATH_public_databases}\n{PATH_static_databases}\n")
+        if ans != "YES":
+            print("Aborted !")
+            exit()
+        shutil.rmtree(PATH_public_databases)
+        shutil.rmtree(PATH_static_databases)
+    elif exists_pub_db: # Only public
+        print("====== Clearing public/databases/ ... ======")
         ans = input(f"The content of the following folder will be deteleted. Enter YES to confirm:\n{PATH_public_databases}\n")
         if ans != "YES":
             print("Aborted !")
             exit()
         shutil.rmtree(PATH_public_databases)
-    PATH_public_databases.mkdir() 
+    elif exists_sta_db: # Only static
+        print("====== Clearing assets/static_databases/ ... ======")
+        ans = input(f"The content of the following folder will be deteleted. Enter YES to confirm:\n{PATH_static_databases}\n")
+        if ans != "YES":
+            print("Aborted !")
+            exit()
+        shutil.rmtree(PATH_static_databases)
+
+    PATH_public_databases.mkdir()
+    PATH_static_databases.mkdir() 
 
     print("====== Finding all databases in databases_to_export ... ======")    
     database_index, event_list_index = recursive_database_indexing(PATH_databases_to_export)
@@ -126,13 +146,13 @@ if __name__ == '__main__':
     print("====== Copying found databases to public/databases/ ... ======")
     recursive_copy_from_database_index(database_index)
     
-    index_file_path = PATH_public_databases / "database_file_index.json"
+    index_file_path = PATH_static_databases / "database_file_index.json"
     index_file_path.parent.mkdir(parents=True, exist_ok=True)
     print(f"Saving index file at {index_file_path}...")
     with index_file_path.open("w+", encoding="utf-8") as f:
         json.dump(database_index, f, ensure_ascii=False)
         
-    eg_db_file_path = PATH_public_databases / "event_list_index.json"
+    eg_db_file_path = PATH_static_databases / "event_list_index.json"
     eg_db_file_path.parent.mkdir(parents=True, exist_ok=True)
     print(f"Saving event groups database file at {eg_db_file_path}...")
     with eg_db_file_path.open("w+", encoding="utf-8") as f:
