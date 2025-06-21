@@ -28,15 +28,37 @@ def is_database_folder(folder_path: Path) -> bool:
     
     return True
 
-def recursive_database_indexing(folder: Path) -> dict[str, Any]:
-    """Recursive search and database indexer. { "@databases": [], "@count": n, subcategory1: {}, subcategory2: {},...}"""
+def clean_database_to_event_group(content: dict[str, Any]) -> dict[str, Any]:
+    """Retrieve only content relevant to the event list."""
+    out_dict: dict[str, Any] = {}
+    out_dict["aliases"] = content["aliases"]
+
+    if "events" in content:
+        events_out: list[dict[str, Any]] = []
+        for i in range(len(content["events"])):
+            event_out = {}
+            event_out["aliases"] = content["events"][i]["aliases"]
+            if "dates" in content["events"][i]:
+                event_out["dates"] = content["events"][i]["dates"]
+            events_out.append(event_out)
+        out_dict["events"] = events_out
+    
+    return out_dict
+
+def recursive_database_indexing(folder: Path) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Recursive search and database indexer.
+    ret[0] = { "@databases": [], "@count": n, subcategory1: {}, subcategory2: {},...}
+    ret[1] = { "@databases": [{eg_db1: {}, ...}], "@count": n, subcategory1: {}, subcategory2: {},...}
+    """
     index_this_folder: dict[str, Any] = {"@databases": [], "@count": 0}
+    eg_db_this_folder: dict[str, Any] = {"@databases": [], "@count": 0}
     for dir in (dir for dir in folder.iterdir() if dir.is_dir()):
         folder_name = dir.name
         if not is_database_folder(dir):
             # Normal folder
-            index_this_folder[folder_name] = recursive_database_indexing(dir)
+            index_this_folder[folder_name], eg_db_this_folder[folder_name] = recursive_database_indexing(dir)
             index_this_folder["@count"] += index_this_folder[folder_name]["@count"] # Increase count
+            eg_db_this_folder["@count"] += index_this_folder[folder_name]["@count"]
         else:
             # Database folder, try opening it
             db_file_path = dir / f'{dir.name}.json'
@@ -49,10 +71,12 @@ def recursive_database_indexing(folder: Path) -> dict[str, Any]:
                     raise ValueError(f"WARNING: invalid format, 'aliases' should be in json file in {db_file_path}")
                 index_this_folder["@databases"].append(dir.name)
                 index_this_folder["@count"] += 1
+                eg_db_this_folder["@databases"].append(clean_database_to_event_group(content))
+                eg_db_this_folder["@count"] += 1
                 print(f"db file found at {db_file_path}")
             except Exception as e:
                 print(f"WARNING: json file {db_file_path} 's format is invalid ! {e}")
-    return index_this_folder
+    return index_this_folder, eg_db_this_folder
 
 def recursive_copy_from_database_index(index: dict[str, Any], root_path_list: list[str] = []) -> None:
     """Copies the databases to public/databases/ while preserving the folder structure, using the database index"""
@@ -97,15 +121,20 @@ if __name__ == '__main__':
     PATH_public_databases.mkdir() 
 
     print("====== Finding all databases in databases_to_export ... ======")    
-    database_index = recursive_database_indexing(PATH_databases_to_export)
+    database_index, event_list_index = recursive_database_indexing(PATH_databases_to_export)
 
     print("====== Copying found databases to public/databases/ ... ======")
     recursive_copy_from_database_index(database_index)
     
-    print("Saving index file ...")
     index_file_path = PATH_public_databases / "database_file_index.json"
     index_file_path.parent.mkdir(parents=True, exist_ok=True)
+    print(f"Saving index file at {index_file_path}...")
     with index_file_path.open("w+", encoding="utf-8") as f:
         json.dump(database_index, f, ensure_ascii=False)
-
+        
+    eg_db_file_path = PATH_public_databases / "event_list_index.json"
+    eg_db_file_path.parent.mkdir(parents=True, exist_ok=True)
+    print(f"Saving event groups database file at {eg_db_file_path}...")
+    with eg_db_file_path.open("w+", encoding="utf-8") as f:
+        json.dump(event_list_index, f, ensure_ascii=False)
     
