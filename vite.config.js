@@ -29,6 +29,7 @@ export default defineConfig({
         main: resolve(root, 'index.html'),
         about: resolve(root, 'about', 'index.html'),
         event_list: resolve(root, 'event_list', 'index.html'),
+        event_detail: resolve(root, 'event_detail', 'index.html'),
       }
     }
   }
