@@ -19,24 +19,24 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    event_group_db: {
-      type: Object,
-      required: true
-    }
-  },
-  computed: {
-    headerTitles() {
-      return this.event_group_db["aliases"].join(" / ")
-    },
-    descriptionEvents() {
-      if (!this.event_group_db.hasOwnProperty("events")) {
+<script setup>
+import { ref, computed } from "vue";
+
+const props = defineProps({
+  event_group_db: Object,
+  ar_path: Array,
+});
+
+const headerTitles = computed(() => {
+  return props.event_group_db["aliases"].join(" / ")
+});
+
+const descriptionEvents = computed(() => {
+      if (!props.event_group_db.hasOwnProperty("events")) {
         return [];
       }
       
-      let events = this.event_group_db["events"];
+      let events = props.event_group_db["events"];
       let descs = []; // Description, of format { dates: "", name: "" };
 
       events.forEach(event => {
@@ -51,9 +51,7 @@ export default {
       });
 
       return descs
-    }
-  }
-};
+    });
 </script>
 
 <style scoped>
