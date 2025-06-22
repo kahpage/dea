@@ -79,6 +79,13 @@ function get_event_db(response_data) {
   }
 }
 
+function makeLinksClickable(text) {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  return text.replace(urlRegex, function(url) {
+    return '<a class="embedded-link" href="' + url + '" target="_blank">' + url + '</a>';
+  });
+}
+
 // Watch for changes in db_path_description and db_path_event_name
 watchEffect(async () => {
   if (db_path_description.value && db_path_event_name.value) {
@@ -89,6 +96,7 @@ watchEffect(async () => {
     );
   }
 });
+
 </script>
 
 <template>
@@ -104,17 +112,95 @@ watchEffect(async () => {
   <div v-else>
     <div v-if="!event_data">Loading database {{ props.db_path }}...</div>
     <div v-else>
-      <!-- event_data= {{ event_data }} -->
+      <div class="ed-div"> 
+
+        <div class="ed-header">{{event_data.aliases.join(" / ")}}</div>
+
+        <div v-if="event_data?.dates" class="ed-dates"> Dates: {{ event_data?.dates ?? "" }}</div>
+        
+        <div v-if="event_data?.circles && Array.isArray(event_data.circles) && event_data.circles.length > 0">
+          <div>Circle list:</div>
+          <table>
+            <thead>
+              <tr><th>Aliases</th><th>Pen Names</th><th>pos</th><th>links</th></tr>
+            </thead>
+            <tbody>
+              <tr v-for="(circle, i) in event_data.circles" :key="i">
+                <th>{{ circle?.position ?? '' }}</th>
+                <th>{{ circle?.aliases?.join(" / ") ?? '' }}</th>
+                <th>{{ circle?.pen_names?.join(" / ") ?? '' }}</th>
+                <th><span v-html="makeLinksClickable(circle?.links?.join(', ') ?? '')"></span></th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="ed-sources" v-if="event_data?.sources">
+        <h3>Sources</h3>
+        <p v-for="(source_, i) in event_data.sources" :key="i">
+          <span v-if="source_.type">({{ source_.type[0] }}, {{ source_.type[1] }}) </span>
+          <span v-if="source_?.source" v-html="makeLinksClickable(source_.source)"></span>
+        </p>
+      </div>
     </div>
   </div>
-
-  <p>props.db_path = {{ props.db_path }}</p>
-  <p>db_path_args = {{ db_path_args }}</p>
-  <p>db_path_description = {{ db_path_description }}</p>
-  <p>db_path_event_name = {{ db_path_event_name }}</p>
-  <p>event_data = {{ event_data }}</p>
 </template>
 
-<style>
-@import "@/assets/common.css";
+<style scoped>
+  @import "@/assets/common.css";
+
+  .ed-div {
+    padding: 1em;
+    /* border: 2px solid var(--greyish-soft); */
+    background-color: var(--greyish-dark);
+    width: auto;
+  }
+
+  .ed-header {
+    color: var(--scarlet-soft);
+    font-weight: 700;
+    font-size: x-large;
+  }
+
+  .ed-dates {
+    color: var(--grey-soft);
+    font-style: italic;
+  }
+
+  table {
+    width: auto;
+    margin: 1em 0;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(59, 57, 57, 0.15);
+    border: 3px solid var(--scarlet-dark);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: left;
+    border-collapse: separate; 
+    border-spacing: 0;
+  }
+
+  thead tr {
+    background-color: var(--scarlet-dark);
+    color: var(--grey-vibrant);
+    text-align: left;
+  }
+
+  th {
+    padding: 0 0.3em;
+    text-align: left;
+    color: var(--grey-soft)
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--grey-dark);
+  }
+
+  .ed-sources {
+    padding: 1em;
+    /* background-color: var(--scarlet-deep); */
+  }
+
 </style>
