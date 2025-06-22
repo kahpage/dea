@@ -122,7 +122,7 @@ watchEffect(async () => {
           <div>Circle list:</div>
           <table>
             <thead>
-              <tr><th>Aliases</th><th>Pen Names</th><th>pos</th><th>links</th></tr>
+              <tr><th>Position</th><th>Aliases</th><th>Pen Names</th><th>links</th></tr>
             </thead>
             <tbody>
               <tr v-for="(circle, i) in event_data.circles" :key="i">
