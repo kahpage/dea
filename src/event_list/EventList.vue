@@ -31,7 +31,7 @@
     </a>
     <hr>
 
-    <EventCategory v-if="event_list_index !== undefined" :event_list_index="event_list_index" :ec_name="''"></EventCategory>
+    <EventCategory v-if="event_list_index !== undefined" :event_list_index="event_list_index" :ec_name="''" :ar_path="[]"></EventCategory>
 
 </template>
 

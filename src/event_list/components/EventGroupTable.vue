@@ -17,6 +17,7 @@
       </tbody>
     </table>
   </div>
+    <!-- {{  props.ar_path}} -->
 </template>
 
 <script setup>

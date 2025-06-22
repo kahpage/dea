@@ -14,7 +14,7 @@
       <!-- Event groups for this category -->
       <div v-for="(val, i) in categoryGroups" :key="i">
         <!-- TODO: fetch -->
-        <EventGroupTable :event_group_db="val" />
+        <EventGroupTable :event_group_db="val" :ar_path="ar_path.concat(val)"/>
       </div>
 
       <!-- Sub categories -->
@@ -23,6 +23,7 @@
           v-if="sub_categ_desc.index != undefined"
           :event_list_index="sub_categ_desc.index"
           :ec_name="sub_categ_desc.name"
+          :ar_path="props.ar_path.concat(sub_categ_desc.name)"
         />
       </div>
     </div>
@@ -37,7 +38,8 @@ import axiosInstance from "@/axios/axios_config.js";
 const props = defineProps({
   event_list_index: Object,
   ec_name: String,
-}); //   ar_path: Array,
+  ar_path: Array, // Array representation of path to current category
+});
 
 const event_categ_count = computed(() =>
   props.event_list_index.hasOwnProperty("@count")
