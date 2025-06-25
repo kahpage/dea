@@ -23,7 +23,7 @@
         The goal of this project is to archive content related to japanese doujin events.<br>
         At least for now, the main focus is to find, archive and provide as much info on events where artists shared their music.<br>
         <br>
-        This project DOES NOT SUPPORT PIRACY of content, but aims at providing an easy to access archive of pubicly-available resources related to the events.
+        This project DOES NOT SUPPORT PIRACY of content, but may host assets such as official images as it aims at providing an easy to access archive of publicly-available resources related to the events.
     </div>
     
     <div class="header-title"> Contributing </div>
