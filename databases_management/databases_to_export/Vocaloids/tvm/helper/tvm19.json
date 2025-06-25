@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER19",
+        "ボーマス19",
+        "VOM@S19"
+    ],
+    "dates": "2012.02.05",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm19ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm19",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "19_tvm19hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm19ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm19ippan.htm"
+    ]
+}

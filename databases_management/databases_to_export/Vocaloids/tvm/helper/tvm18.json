@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER18",
+        "ボーマス18",
+        "VOM@S18"
+    ],
+    "dates": "2011.11.19",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm18ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm18",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "18_tvm18hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm18ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm18ippan.htm"
+    ]
+}

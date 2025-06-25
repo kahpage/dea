@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER14",
+        "ボーマス14",
+        "VOM@S14"
+    ],
+    "dates": "2010.11.14",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm14ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm14",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "14_tvm14hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm14ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm14ippan.htm"
+    ]
+}

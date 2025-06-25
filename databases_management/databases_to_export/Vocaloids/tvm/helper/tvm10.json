@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER10",
+        "ボーマス10",
+        "VOM@S10"
+    ],
+    "dates": "2009.11.15",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm10ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm10",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "10_tvm10hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm10ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm10ippan.htm"
+    ]
+}

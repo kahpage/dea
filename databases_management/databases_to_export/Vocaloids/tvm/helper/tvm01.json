@@ -1,0 +1,538 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER",
+        "THE VOC@LOiD M@STER 1",
+        "ボーマス",
+        "ボーマス1",
+        "VOM@S",
+        "VOM@S1"
+    ],
+    "dates": "2007.11.03",
+    "circles": [
+        {
+            "aliases": [
+                "東*南*東"
+            ],
+            "pen_names": [
+                "米"
+            ],
+            "position": "音01",
+            "comment": "出展: 初音ミクアンソロジー「初音ミクる伝説」600円（52P）"
+        },
+        {
+            "aliases": [
+                "空色の音"
+            ],
+            "pen_names": [
+                "天風そら"
+            ],
+            "position": "音02",
+            "comment": "出展: 新刊「うたのいろ」（オフセ本　B5　20p）"
+        },
+        {
+            "aliases": "サークル（株）ライチ（津田沼光夜）",
+            "position": "音03"
+        },
+        {
+            "aliases": [
+                "電気ショック"
+            ],
+            "pen_names": [
+                "しんやそうきち"
+            ],
+            "position": "音04",
+            "comment": "出展: 新刊「Fantastic Tune」（TOPに表紙イラスト有）"
+        },
+        {
+            "aliases": [
+                "快刷楽仁社"
+            ],
+            "pen_names": [
+                "涼岸☆薪"
+            ],
+            "position": "音05",
+            "comment": "出展: 新刊（TOPに表紙予定イラスト有）"
+        },
+        {
+            "aliases": [
+                "OZON DANCE"
+            ],
+            "pen_names": [
+                "相模いちすけ"
+            ],
+            "position": "音06",
+            "comment": "出展: 新刊「ボーカロイドは唄を歌うか？」（TOPに表紙、日記にサンプル有）"
+        },
+        {
+            "aliases": [
+                "うみやませんり"
+            ],
+            "pen_names": [
+                "胡せんり"
+            ],
+            "position": "音07",
+            "comment": "出展: 新刊「詩のある部屋」（TOPに表紙、Blogにサンプル有）"
+        },
+        {
+            "aliases": [
+                "クロキノコ"
+            ],
+            "pen_names": [
+                "くろり"
+            ],
+            "position": "音08",
+            "comment": "出展: 新刊「ミクだく」（成人向）表紙サンプル有新刊「ミクカピバラ」（成人向）表紙・本文サンプル有"
+        },
+        {
+            "aliases": [
+                "水星工房"
+            ],
+            "pen_names": [
+                "よしだまき"
+            ],
+            "position": "音09",
+            "comment": "出展: 新刊「ミクが野原で歌ったら」（TOPにサンプル有）くるくる堂制作「デスクトップみくみく（仮）」"
+        },
+        {
+            "aliases": "あかねのね（アキアカネ）（仏さんじょ）",
+            "position": "音10",
+            "comment": "出展: こっそりコピー本を無料配布"
+        },
+        {
+            "aliases": [
+                "東京ジルバボウイズ&ユバシリカステン"
+            ],
+            "pen_names": [
+                "平沢ケンゴ&塚本ミエイ"
+            ],
+            "position": "音11",
+            "comment": "出展: 新刊「ハツネ」400円（TOPに表紙サンプル有）"
+        },
+        {
+            "aliases": [
+                "DANGER=ZONE"
+            ],
+            "pen_names": [
+                "刻田門大"
+            ],
+            "position": "音12",
+            "comment": "出展: 新刊"
+        },
+        {
+            "aliases": [
+                "鴨屋"
+            ],
+            "pen_names": [
+                "神代はるな"
+            ],
+            "position": "音13",
+            "comment": "出展: 新刊「ネギ日記」（TOPに表紙サンプル有　コピー本200円）"
+        },
+        {
+            "aliases": [
+                "コマイズム"
+            ],
+            "pen_names": [
+                "ワス"
+            ],
+            "position": "音14",
+            "comment": "出展: 新刊「ミックミク毒電波チャンネル」（11月1日付にイラスト有　ゲスト参加：雫組）"
+        },
+        {
+            "aliases": [
+                "リボン結び"
+            ],
+            "pen_names": [
+                "B4田まき"
+            ],
+            "position": "音15",
+            "comment": "出展: 無料配布（成人向け）"
+        },
+        {
+            "aliases": [
+                "flow"
+            ],
+            "pen_names": [
+                "まりあ"
+            ],
+            "position": "音16",
+            "comment": "出展: コピー誌のみ　100円コピー誌セット（コピー誌＋A3ラミポス）　300円"
+        },
+        {
+            "aliases": [
+                "月の雫&ketchup"
+            ],
+            "pen_names": [
+                "ひぐちのりえ&久試きり"
+            ],
+            "position": "音17",
+            "comment": "出展: 新刊（TOPに表紙サンプル有）（イラスト・4コマコピー本）"
+        },
+        {
+            "aliases": [
+                "COLOR MOTION"
+            ],
+            "pen_names": [
+                "瑞乃勇人"
+            ],
+            "position": "音18",
+            "comment": "出展: 新刊「Full Miku（ふるみっく）」200円（日記にイラスト有　コピー本）"
+        },
+        {
+            "aliases": [
+                "ねぎ☆だく"
+            ],
+            "pen_names": [
+                "sara"
+            ],
+            "position": "音19",
+            "comment": "出展: 新刊（最大2冊）"
+        },
+        {
+            "aliases": [
+                "ロマンティック身体検査"
+            ],
+            "pen_names": [
+                "中村べーた"
+            ],
+            "position": "音20",
+            "comment": "出展: 新刊「HATSUNE！！！」（R-18　TOPに表紙サンプル有）"
+        },
+        {
+            "aliases": [
+                "Petite*Cerisier"
+            ],
+            "pen_names": [
+                "さくら*さくら"
+            ],
+            "position": "音21",
+            "comment": "出展: （サイトに特設インフォメーション有）新刊「みくすもん」（ミクギャグ本400円）新刊「みっくみっくにしてあげる」（ミクイラスト本100円）委託コピー無料配布初音ミクバック無料配布"
+        },
+        {
+            "aliases": [
+                "nEetest"
+            ],
+            "pen_names": [
+                "ユーシャ"
+            ],
+            "position": "音22",
+            "comment": "出展: 新刊「NO TITLE.」400円（TOPにイラスト有）新刊特典「みくづめ。」（コピー本）"
+        },
+        {
+            "aliases": [
+                "MAGICAL    CHOCOLATE"
+            ],
+            "pen_names": [
+                "Sarta"
+            ],
+            "position": "音23"
+        },
+        {
+            "aliases": [
+                "赤字救済倶楽部"
+            ],
+            "pen_names": [
+                "こいづみあこ"
+            ],
+            "position": "音24",
+            "comment": "出展: 新作「グッズセット」1000円（マグカップ、ラミカ2種、ビニールバック、コピ本　のセット）既刊「Kirschu」300円（サイトにサンプル有）"
+        },
+        {
+            "aliases": [
+                "exA"
+            ],
+            "pen_names": [
+                "もも"
+            ],
+            "position": "音25",
+            "comment": "出展: 新刊（コピー本）"
+        },
+        {
+            "aliases": [
+                "すたじおあ～る"
+            ],
+            "pen_names": [
+                "あ～る"
+            ],
+            "position": "音26",
+            "comment": "出展: 新刊「偽初音」"
+        },
+        {
+            "aliases": [
+                "空の捜索記"
+            ],
+            "pen_names": [
+                "琴上現"
+            ],
+            "position": "音27",
+            "comment": "出展: 新刊「NEGI TORO☆」"
+        },
+        {
+            "aliases": [
+                "くりぃむサイダー"
+            ],
+            "pen_names": [
+                "烏丸蓮耶"
+            ],
+            "position": "音28",
+            "comment": "出展: 新刊「ROUGH-MIX」（TOPにイラスト有）"
+        },
+        {
+            "aliases": [
+                "真昇龍軒"
+            ],
+            "pen_names": [
+                "りーた・伊賀"
+            ],
+            "position": "音29",
+            "comment": "出展: 新刊「歌え！！初音ミク～ネギ伝説編」（TOPにイラスト日記に本文サンプル有）"
+        },
+        {
+            "aliases": [
+                "Quaerter Iceshop&NECO青龍"
+            ],
+            "pen_names": [
+                "ともえひむろ&矢野芳典"
+            ],
+            "position": "音30",
+            "comment": "出展: 新作「初音ミク紙袋」（サイトにサンプル有）"
+        },
+        {
+            "aliases": [
+                "e-motion"
+            ],
+            "pen_names": [
+                "しらかわまよ"
+            ],
+            "position": "音31",
+            "comment": "出展: 新刊「初音ミクのインストールに失敗しました」500円（18禁）新作「ちょこっと講座付動画CD」500円（講座動画CDはセットから単品に変わりました　サイトにサンプル、ニコニコに表紙動画有）"
+        },
+        {
+            "aliases": [
+                "PGG"
+            ],
+            "pen_names": [
+                "ハヅキリョウ"
+            ],
+            "position": "音32",
+            "comment": "出展: 新刊「mixture」（サイトに表紙本文サンプル有）"
+        },
+        {
+            "aliases": [
+                "Project Hatsumiku"
+            ],
+            "pen_names": [
+                "Land-Y"
+            ],
+            "position": "音33",
+            "comment": "出展: 新作（初音ミクが音楽に合わせて踊る動画素材）"
+        },
+        {
+            "aliases": "生娘愛好会（仮復活ページ）（よしごる）",
+            "position": "音34"
+        },
+        {
+            "aliases": [
+                "SPRING    BLUE"
+            ],
+            "pen_names": [
+                "さつ村京介"
+            ],
+            "position": "音35",
+            "comment": "出展: 新作（オリジナルボーカルCD）"
+        },
+        {
+            "aliases": [
+                "TATAMI Stugiwo"
+            ],
+            "pen_names": [
+                "りば"
+            ],
+            "position": "音36",
+            "comment": "出展: 新作「みくみくのなく頃に」（サイトにジャケットイラスト有）"
+        },
+        {
+            "aliases": [
+                "Try-Line"
+            ],
+            "pen_names": [
+                "華夜"
+            ],
+            "position": "音37",
+            "comment": "出展: 新作「MIKU-MIX」（CG集）（サイトにサンプル有）"
+        },
+        {
+            "aliases": [
+                "黒社会"
+            ],
+            "pen_names": [
+                "香港之悪"
+            ],
+            "position": "音38"
+        },
+        {
+            "aliases": [
+                "規格外。Exnted"
+            ],
+            "pen_names": [
+                "itotin"
+            ],
+            "position": "音39",
+            "comment": "出展: 新刊「初音ミクの凹凸が変更可能な件について。」400円（サイトに表紙イラスト有・オールカラー本）委託「B5　24Pコピー誌」（サークル：安楽駅屋）委託「初音ミクペーパークラフト」（サークル：安楽駅屋）"
+        },
+        {
+            "aliases": [
+                "URAN-FACTORY"
+            ],
+            "pen_names": [
+                "URAN"
+            ],
+            "position": "音40",
+            "comment": "出展: 新刊「240☆えっち　☆体験版☆」300円（ポストカード2枚付）"
+        },
+        {
+            "aliases": [
+                "REI’s ROOM"
+            ],
+            "pen_names": [
+                "REI"
+            ],
+            "position": "音41",
+            "comment": "出展: 再版「ミク★ミク★ミラクル！」"
+        },
+        {
+            "aliases": [
+                "趣味工房にんじんわいん"
+            ],
+            "pen_names": [
+                "ARA"
+            ],
+            "position": "音42",
+            "comment": "出展: 新作「フルミクアルバム「Mimic」」（仙台戦隊みくれんじゃー）"
+        },
+        {
+            "aliases": [
+                "けいすけ"
+            ],
+            "pen_names": [
+                "けいすけ"
+            ],
+            "position": "音43",
+            "comment": "出展: 新作「しあわせ２００％」500円"
+        },
+        {
+            "aliases": [
+                "オト ノ カケラ"
+            ],
+            "pen_names": [
+                "SilverWolf"
+            ],
+            "position": "音44",
+            "comment": "出展: 新作「猫になった日／きみの体温（ぬくもり） Preview    Release」委託「ナツノウタ＠初音ミク」委託「garnet RIVER 5枚」"
+        },
+        {
+            "aliases": [
+                "creazuma"
+            ],
+            "pen_names": [
+                "azuma"
+            ],
+            "position": "音45",
+            "comment": "出展: 元気だして／なやみごと／あなたの歌姫１１／３　ボーマスで発表した曲の歌詞"
+        },
+        {
+            "aliases": [
+                "っ´Д｀）っゼロ式の家"
+            ],
+            "pen_names": [
+                "神斬ゼロ式"
+            ],
+            "position": "音46",
+            "comment": "出展: 新作「フルミクアルバム「Mimic」」（仙台戦隊みくれんじゃー）"
+        },
+        {
+            "aliases": [
+                "S-STYLE"
+            ],
+            "pen_names": [
+                "せっつぁん"
+            ],
+            "position": "音47"
+        },
+        {
+            "aliases": [
+                "夢幻工房"
+            ],
+            "pen_names": [
+                "SAT"
+            ],
+            "position": "音48",
+            "comment": "出展: 新作「この歌声届けるの」（全7曲）委託「ミク☆ブラスター！」（サークル：小松菜屋）"
+        },
+        {
+            "aliases": [
+                "Studio    Stdio"
+            ],
+            "pen_names": [
+                "成島怜也"
+            ],
+            "position": "音49",
+            "comment": "出展: 新作「@rigatto! Lyric/Raspberry on the Shortcake Lyric」"
+        },
+        {
+            "aliases": [
+                "ちょむ工房"
+            ],
+            "pen_names": [
+                "TakeponG"
+            ],
+            "position": "音50",
+            "comment": "出展: 新作「教えて!! 魔法のLyric（リリック）」サイトにサンプル有"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20071020193402/http://ketto.com/tvm/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: http://npass.net/the_vocloid_mst/",
+            "type": [
+                "Reliable",
+                "OfficialExt"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "1_20071020193402_tvm_logo.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20071020193402/http://ketto.com/tvm/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "1_20071020193402_tvm_bana.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20071020193402/http://ketto.com/tvm/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://web.archive.org/web/20071020193402/http://ketto.com/tvm/"
+    ]
+}

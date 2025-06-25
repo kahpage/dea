@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER13",
+        "ボーマス13",
+        "VOM@S13"
+    ],
+    "dates": "2010.07.19",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm13ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm13",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "13_tvm13hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm13ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm13ippan.htm"
+    ]
+}

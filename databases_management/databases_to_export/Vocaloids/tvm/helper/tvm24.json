@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD 超 M@STER 24",
+        "THE VOC@LOiD M@STER24",
+        "ボーマス24",
+        "VOM@S24"
+    ],
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm24ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm24",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "24_tvm24hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm24ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm24ippan.htm"
+    ]
+}

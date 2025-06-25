@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M＠STER 22 Night Special",
+        "THE VOC@LOiD M@STER22",
+        "ボーマス22",
+        "VOM@S22"
+    ],
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm22ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm22",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "22_tvm22hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm22ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm22ippan.htm"
+    ]
+}

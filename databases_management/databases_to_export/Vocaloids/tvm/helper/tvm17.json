@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER17",
+        "ボーマス17",
+        "VOM@S17"
+    ],
+    "dates": "2011.09.04",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm17ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm17",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "17_tvm17hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm17ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm17ippan.htm"
+    ]
+}

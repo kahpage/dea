@@ -1,0 +1,40 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER29",
+        "ボーマス29",
+        "VOM@S29"
+    ],
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm29ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm29",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "29_tvm29hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm29ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm29ippan.htm"
+    ]
+}
