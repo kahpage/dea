@@ -115,13 +115,15 @@ watchEffect(async () => {
       <div class="ed-div"> 
 
         <div class="ed-header">{{event_data.aliases.join(" / ")}}</div>
+        
+        <a class="ed-parent"> Parent event group: {{ db_path_args[db_path_args.length - 2] }}  </a>
 
         <div v-if="event_data?.dates" class="ed-dates"> Dates: {{ event_data?.dates ?? "" }}</div>
         
         <div v-if="event_data?.circles && Array.isArray(event_data.circles) && event_data.circles.length > 0">
-          <div>Circle list:</div>
           <table>
             <thead>
+              <tr><th colspan="4" class="ed-table-title">Participating circles </th></tr> 
               <tr><th>Position</th><th>Aliases</th><th>Pen Names</th><th>links</th></tr>
             </thead>
             <tbody>
@@ -164,6 +166,11 @@ watchEffect(async () => {
   }
 
   .ed-dates {
+    color: var(--grey-vibrant);
+    font-style: italic;
+  }
+
+  .ed-parent {
     color: var(--grey-soft);
     font-style: italic;
   }
@@ -182,7 +189,7 @@ watchEffect(async () => {
     border-spacing: 0;
   }
 
-  thead tr {
+  thead {
     background-color: var(--scarlet-dark);
     color: var(--grey-vibrant);
     text-align: left;
@@ -194,10 +201,13 @@ watchEffect(async () => {
     color: var(--grey-light)
   }
 
-  tr:nth-child(even) {
+  tbody tr:nth-child(odd) {
     background-color: var(--grey-dark);
   }
-
+  .ed-table-title {
+    font-size: larger;
+    text-align: center;
+  }
   .ed-sources {
     padding: 1em;
     /* background-color: var(--scarlet-deep); */
