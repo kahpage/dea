@@ -56,3 +56,12 @@
   background-color: var(--green-dark);
   color: var(--grey-mild);
 }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: var(--purple-mild)
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}

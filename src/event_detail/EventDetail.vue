@@ -158,7 +158,7 @@ watchEffect(async () => {
   }
 
   .ed-header {
-    color: var(--scarlet-soft);
+    color: var(--scarlet-vibrant);
     font-weight: 700;
     font-size: x-large;
   }
@@ -191,7 +191,7 @@ watchEffect(async () => {
   th {
     padding: 0 0.3em;
     text-align: left;
-    color: var(--grey-soft)
+    color: var(--grey-light)
   }
 
   tr:nth-child(even) {
