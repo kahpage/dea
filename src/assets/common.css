@@ -65,3 +65,63 @@ a:link, a:visited {
 a:hover, a:active {
   text-decoration: underline;
 }
+
+/* Round switches (based on https://www.w3schools.com/howto/howto_css_switch.asp)*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 2.8em;
+  height: 1.2em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0.3em;
+  right: 0;
+  bottom: 0;
+  background-color: var(--grey-mild);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 0.8em;
+  width: 0.8em;
+  left: 0.2em;
+  bottom: 0.2em;
+  background-color: var(--grey-vibrant);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--purple-dark);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 0.2em var(--purple-dark);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(1em);
+  -ms-transform: translateX(1em);
+  transform: translateX(1.3em);
+}
+
+.slider.round {
+  border-radius: 1em;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

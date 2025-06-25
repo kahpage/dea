@@ -12,7 +12,26 @@ const public_path = import.meta.env.MODE == "production" ? `/dea/` : `/dea/`; //
 const route = useRoute();
 const props = defineProps({
   db_path: String,
+  toggle_states: Object,
 });
+
+const event_data = ref(null);
+
+const do_show_media = computed(() => {
+  if (!props.toggle_states || !props.toggle_states.hasOwnProperty("media")) {return false;}
+  return props.toggle_states["media"]
+});
+
+const media_folder_path = computed(() => {
+  return [`${public_path}databases`]
+    .concat(db_path_description.value)
+    .concat("media").join("/")
+});
+
+const media_list = computed(() => {
+  if (!event_data.value || !event_data.value.hasOwnProperty("media")) {return [];}
+  return event_data.value.media;
+})
 
 const db_path_args = computed(() => {
   return props.db_path ? props.db_path.split("/").filter(Boolean) : [];
@@ -30,7 +49,6 @@ const db_path_event_name = computed(() => {
     : null;
 });
 
-const event_data = ref(null);
 
 async function fetch_db() {
   // Construct the URL using the parameters
@@ -104,7 +122,7 @@ watchEffect(async () => {
   <head>
     <title>dea | Event Detail</title>
   </head>
-
+  
   <div class="header-title">Event detail</div>
   <div v-if="!props.db_path" class="header">
     Invalid database to fetch: "{{ props.db_path }}"
@@ -112,14 +130,16 @@ watchEffect(async () => {
   <div v-else>
     <div v-if="!event_data">Loading database {{ props.db_path }}...</div>
     <div v-else>
+      <!-- ===== EVENT GROUP DB FETCHED ===== -->
       <div class="ed-div"> 
 
-        <div class="ed-header">{{event_data.aliases.join(" / ")}}</div>
+        <div v-if="event_data.hasOwnProperty('aliases')" class="ed-header">{{event_data.aliases.join(" / ")}}</div>
         
         <a class="ed-parent"> Parent event group: {{ db_path_args[db_path_args.length - 2] }}  </a>
 
         <div v-if="event_data?.dates" class="ed-dates"> Dates: {{ event_data?.dates ?? "" }}</div>
         
+      <!-- ===== CIRCLE LIST ===== -->
         <div v-if="event_data?.circles && Array.isArray(event_data.circles) && event_data.circles.length > 0">
           <table>
             <thead>
@@ -138,6 +158,8 @@ watchEffect(async () => {
         </div>
       </div>
 
+      <!-- ===== SOURCES ===== -->
+
       <div class="ed-sources" v-if="event_data?.sources">
         <h3>Sources</h3>
         <p v-for="(source_, i) in event_data.sources" :key="i">
@@ -145,8 +167,25 @@ watchEffect(async () => {
           <span v-if="source_?.source" v-html="makeLinksClickable(source_.source)"></span>
         </p>
       </div>
+      
+      <!-- ===== MEDIA ===== -->
+
+      <div v-if="do_show_media" class="ed-media">
+        <h3>Media</h3>
+        <div v-for="(media, index) in media_list" :key="index">
+          <img :src="media_folder_path + '/' + media?.path" :alt="'Image ' + media.path" style="max-width: 100%; height: auto;" />
+          <div v-if="media.hasOwnProperty('sources')">
+            <div v-for="(source_, j) in media?.sources" :key="j">
+              <span v-if="source_.hasOwnProperty('type')">({{ source_["type"][0] }}, {{ source_["type"][1] }})</span>
+              {{ source_.source }}
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
+
 </template>
 
 <style scoped>
