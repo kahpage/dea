@@ -23,38 +23,3 @@ body {
     /* padding: 2rem; */
     font-weight: normal;
 }
-
-/* Navigation */
-.navigation {
-  background-color: var(--color-navigation-background);
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
-  width: 100;
-  padding: 0 1rem;
-  margin: 0;
-}
-
-.navigation-buttons {
-  display: flex;
-  gap: 0.5rem;
-  padding: 0.5rem;
-}
-
-.navigation-button {
-  color: var(--vt-c-text-dark-2);
-  text-decoration: none; /* Remove underline from links */
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-}
-
-.navigation-button:hover {
-  background-color: var(--green-mild);
-  color: var(--grey-vibrant);
-}
-
-.navigation-title {
-  padding: 0.5rem;
-  color: var(--gray-mild);
-  font-weight: bold;
-}
