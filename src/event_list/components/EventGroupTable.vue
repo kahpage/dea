@@ -12,7 +12,12 @@
       </thead>
       <tbody>
         <tr v-for="(val, i) in descriptionEvents" :key="i">
-            <th>{{val.dates}}</th><th>{{val.name}}</th>
+            <th>
+              {{val.dates}}
+            </th>
+            <th>
+              <a :href="ar_path_complete.concat(val.name).join('/')">{{val.name}}</a>
+            </th>
         </tr>
       </tbody>
     </table>
@@ -25,11 +30,15 @@ import { ref, computed } from "vue";
 
 const props = defineProps({
   event_group_db: Object,
-  ar_path: Array,
+  eg_ar_path: Array, // Of containing event group
 });
 
 const headerTitles = computed(() => {
-  return props.event_group_db["aliases"].join(" / ")
+  return props.event_group_db["aliases"].join(" / ");
+});
+
+const ar_path_complete = computed(() => { // Complete ar_path to construct target url
+  return ["/dea/event_detail/#"].concat(props.eg_ar_path);
 });
 
 const descriptionEvents = computed(() => {

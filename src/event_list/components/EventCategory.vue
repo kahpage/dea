@@ -14,7 +14,7 @@
       <!-- Event groups for this category -->
       <div v-for="(val, i) in categoryGroups" :key="i">
         <!-- TODO: fetch -->
-        <EventGroupTable :event_group_db="val" :ar_path="ar_path.concat(val)"/>
+        <EventGroupTable :event_group_db="val" :eg_ar_path="ar_path.concat(i)" :event_index="i" />
       </div>
 
       <!-- Sub categories -->
@@ -77,12 +77,12 @@ const eventCategChildrenListIndexes = computed(() => {
 const categoryGroups = computed(() => {
   if (!props.event_list_index.hasOwnProperty("@databases")) {return [];}
   
-  let out_array = [];
+  let out_dict = {};
   for (const el in props.event_list_index["@databases"]) {
-    out_array.push(props.event_list_index["@databases"][el])
+    out_dict[el] = props.event_list_index["@databases"][el]
   }
-
-  return out_array;
+  
+  return out_dict;
 });
 
 </script>

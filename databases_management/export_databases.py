@@ -49,10 +49,10 @@ def clean_database_to_event_group(content: dict[str, Any]) -> dict[str, Any]:
 def recursive_database_indexing(folder: Path) -> tuple[dict[str, Any], dict[str, Any]]:
     """Recursive search and database indexer.
     ret[0] = { "@databases": [], "@count": n, subcategory1: {}, subcategory2: {},...}
-    ret[1] = { "@databases": [{eg_db1: {}, ...}], "@count": n, subcategory1: {}, subcategory2: {},...}
+    ret[1] = { "@databases": {eg1: {eg_db_1}, ...}, "@count": n, subcategory1: {}, subcategory2: {},...}
     """
     index_this_folder: dict[str, Any] = {"@databases": [], "@count": 0}
-    eg_db_this_folder: dict[str, Any] = {"@databases": [], "@count": 0}
+    eg_db_this_folder: dict[str, Any] = {"@databases": {}, "@count": 0}
     for dir in (dir for dir in folder.iterdir() if dir.is_dir()):
         folder_name = dir.name
         if not is_database_folder(dir):
@@ -72,7 +72,7 @@ def recursive_database_indexing(folder: Path) -> tuple[dict[str, Any], dict[str,
                     raise ValueError(f"WARNING: invalid format, 'aliases' should be in json file in {db_file_path}")
                 index_this_folder["@databases"].append(dir.name)
                 index_this_folder["@count"] += 1
-                eg_db_this_folder["@databases"].append(clean_database_to_event_group(content))
+                eg_db_this_folder["@databases"][dir.name] = clean_database_to_event_group(content)
                 eg_db_this_folder["@count"] += 1
                 print(f"db file found at {db_file_path}")
             except Exception as e:
