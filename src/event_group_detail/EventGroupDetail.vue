@@ -15,17 +15,9 @@ const public_path = import.meta.env.MODE == "production" ? `/dea/` : `/dea/`; //
 const route = useRoute();
 const props = defineProps({
   db_path: String,
-  toggle_states: Object,
 });
 
 const event_group_data = ref(null);
-
-const do_show_media = computed(() => {
-  if (!props.toggle_states || !props.toggle_states.hasOwnProperty("media")) {
-    return false;
-  }
-  return props.toggle_states["media"];
-});
 
 const media_folder_path = computed(() => {
   return [`${public_path}databases`]
