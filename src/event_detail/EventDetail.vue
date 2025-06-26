@@ -6,7 +6,8 @@
 import { ref, computed, watchEffect } from "vue";
 import { useRoute } from "vue-router";
 import axiosInstance from "@/axios/axios_config.js";
-import makeLinksClickable from '@/assets/utils.js';
+import makeLinksClickable from "@/assets/utils.js";
+import ToggleShow from "@/components/ToggleShow.vue";
 
 const public_path = import.meta.env.MODE == "production" ? `/dea/` : `/dea/`; // Path of public/ folder
 
@@ -133,7 +134,15 @@ watchEffect(async () => {
           {{ event_data.aliases.join(" / ") }}
         </div>
 
-        <a class="ed-parent">
+        <a
+          class="ed-parent"
+          :href="
+            [`/dea/event_group_detail/#`]
+              .concat(db_path_args)
+              .slice(0, -1)
+              .join('/')
+          "
+        >
           Parent event group: {{ db_path_args[db_path_args.length - 2] }}
         </a>
 
@@ -180,9 +189,11 @@ watchEffect(async () => {
       </div>
 
       <!-- ===== SOURCES ===== -->
-
-      <div class="ed-sources" v-if="event_data?.sources">
-        <h3>Sources</h3>
+      <ToggleShow
+        class="ts-sources"
+        :button_text="'Sources'"
+        v-if="event_data?.sources"
+      >
         <p v-for="(source_, i) in event_data.sources" :key="i">
           <span v-if="source_.type"
             >({{ source_.type[0] }}, {{ source_.type[1] }})
@@ -192,12 +203,11 @@ watchEffect(async () => {
             v-html="makeLinksClickable(source_.source)"
           ></span>
         </p>
-      </div>
+      </ToggleShow>
 
       <!-- ===== MEDIA ===== -->
 
-      <div v-if="do_show_media" class="ed-media-div">
-        <h3>Media</h3>
+      <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_data">
         <div
           v-if="
             !media_list || Array.isArray(media_list) & (media_list.length == 0)
@@ -217,13 +227,13 @@ watchEffect(async () => {
                 <span v-if="source_.hasOwnProperty('type')"
                   >({{ source_["type"][0] }}, {{ source_["type"][1] }})</span
                 >
-                <br>
+                <br />
                 <span v-html="makeLinksClickable(source_.source)"></span>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </ToggleShow>
     </div>
   </div>
 </template>
@@ -249,7 +259,7 @@ watchEffect(async () => {
   font-style: italic;
 }
 
-.ed-parent {
+a.ed-parent {
   color: var(--grey-soft);
   font-style: italic;
 }
@@ -287,9 +297,10 @@ tbody tr:nth-child(odd) {
   font-size: larger;
   text-align: center;
 }
-.ed-sources {
-  padding: 1em;
-  /* background-color: var(--scarlet-deep); */
+
+.ts-sources {
+  margin-left: 1em;
+  width: min-content;
 }
 
 /* event group media */
@@ -297,7 +308,7 @@ tbody tr:nth-child(odd) {
   padding: 1em;
   box-sizing: border-box;
   text-wrap: wrap;
-  word-wrap: break-word; 
+  word-wrap: break-word;
 }
 
 .ed-media {

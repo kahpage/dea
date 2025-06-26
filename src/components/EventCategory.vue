@@ -32,7 +32,7 @@
 
 <script setup>
 import EventGroupTable from "./EventGroupTable.vue";
-import { ref, computed, onMounted } from "vue";
+import { computed } from "vue";
 import axiosInstance from "@/axios/axios_config.js";
 
 const props = defineProps({

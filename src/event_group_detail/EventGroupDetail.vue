@@ -6,8 +6,9 @@
 import { ref, computed, watchEffect } from "vue";
 import { useRoute } from "vue-router";
 import axiosInstance from "@/axios/axios_config.js";
-import makeLinksClickable from '@/assets/utils.js';
+import makeLinksClickable from "@/assets/utils.js";
 import EventGroupTable from "@/components/EventGroupTable.vue";
+import ToggleShow from "@/components/ToggleShow.vue";
 
 const public_path = import.meta.env.MODE == "production" ? `/dea/` : `/dea/`; // Path of public/ folder
 
@@ -34,7 +35,10 @@ const media_folder_path = computed(() => {
 });
 
 const media_list = computed(() => {
-  if (!event_group_data.value || !event_group_data.value.hasOwnProperty("media")) {
+  if (
+    !event_group_data.value ||
+    !event_group_data.value.hasOwnProperty("media")
+  ) {
     return [];
   }
   return event_group_data.value.media;
@@ -47,12 +51,11 @@ const db_path_args = computed(() => {
 async function fetch_db() {
   // Construct the URL using the parameters
   event_group_data.value = {};
-  let db_name = db_path_args.value[db_path_args.value.length - 1]
+  let db_name = db_path_args.value[db_path_args.value.length - 1];
   let ar_path_more = [`${public_path}databases`]
     .concat(db_path_args.value)
     .concat([`${db_name}.json`]);
   let db_url = ar_path_more.join("/"); // complete path
-  console.log(ar_path_more)
   console.log(`Fetching ${db_url}...`); // Log the fetched data
 
   try {
@@ -62,21 +65,20 @@ async function fetch_db() {
     }
 
     console.log("NEW FETCHED: ", response.data); // Log the fetched data
-    if (!response.data.hasOwnProperty("aliases")) {return;}
+    if (!response.data.hasOwnProperty("aliases")) {
+      return;
+    }
     event_group_data.value = response.data;
   } catch (error) {
     console.error("Error fetching data:", error); // Log any errors that occur during the fetch
   }
 }
 
-
 // Watch for changes in db_path_args and db_path_event_name
 watchEffect(async () => {
   if (db_path_args.value) {
     console.log("Url change detected, now fetching new event data...");
-    const data = await fetch_db(
-      db_path_args.value,
-    );
+    const data = await fetch_db(db_path_args.value);
   }
 });
 </script>
@@ -91,15 +93,25 @@ watchEffect(async () => {
     Invalid database to fetch: "{{ props.db_path }}"
   </div>
   <div v-else>
-    <div v-if="!event_group_data ||!event_group_data.hasOwnProperty('aliases')">Loading database {{ props.db_path }}...</div>
+    <div
+      v-if="!event_group_data || !event_group_data.hasOwnProperty('aliases')"
+    >
+      Loading database {{ props.db_path }}...
+    </div>
     <div v-else>
       <!-- ===== EVENT GROUP DB FETCHED ===== -->
-      <EventGroupTable :event_group_db="event_group_data" :eg_ar_path="db_path_args" />
-      
+      <EventGroupTable
+        :event_group_db="event_group_data"
+        :eg_ar_path="db_path_args"
+      />
+
       <!-- ===== SOURCES ===== -->
 
-      <div class="egd-sources" v-if="event_group_data?.sources">
-        <h3>Sources</h3>
+      <ToggleShow
+        class="ts-sources"
+        :button_text="'Sources'"
+        v-if="event_group_data?.sources"
+      >
         <p v-for="(source_, i) in event_group_data.sources" :key="i">
           <span v-if="source_.type"
             >({{ source_.type[0] }}, {{ source_.type[1] }})
@@ -109,12 +121,11 @@ watchEffect(async () => {
             v-html="makeLinksClickable(source_.source)"
           ></span>
         </p>
-      </div>
+      </ToggleShow>
 
       <!-- ===== MEDIA ===== -->
 
-      <div v-if="do_show_media" class="egd-media-div">
-        <h3>Media</h3>
+      <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_group_data">
         <div
           v-if="
             !media_list || Array.isArray(media_list) & (media_list.length == 0)
@@ -134,13 +145,13 @@ watchEffect(async () => {
                 <span v-if="source_.hasOwnProperty('type')"
                   >({{ source_["type"][0] }}, {{ source_["type"][1] }})</span
                 >
-                <br>
+                <br />
                 <span v-html="makeLinksClickable(source_.source)"></span>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </ToggleShow>
     </div>
   </div>
 </template>
