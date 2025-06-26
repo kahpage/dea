@@ -31,12 +31,12 @@ class Source:
     """Source description."""
     source: str # url, file path, or quick description of the source
     type: tuple[ReliabilityTypes, OriginTypes] # Type of source (Reliability, Origin)
-    comment: Optional[str] = None # Additionnal comment
+    comments: Optional[str] = None # Additionnal comments
 
     def get_json(self) -> dict[str, Any]:
         out_dict = { "source": self.source, "type": (str(self.type[0]), str(self.type[1])) }
-        if (self.comment is not None) and (is_to_add(self.comment)): # not None and not ""
-            out_dict["comment"] = self.comment
+        if (self.comments is not None) and (is_to_add(self.comments)): # not None and not ""
+            out_dict["comments"] = self.comments
         return out_dict
     
 @dataclass
@@ -47,14 +47,14 @@ class Medium:
     path: str # Path name to that medium
     sources: Optional[list[Source]] = field(default_factory=list)
 
-    comment: Optional[str] = None # Additionnal comment
+    comments: Optional[str] = None # Additionnal comments
 
     def get_json(self) -> dict[str, Any]:
         out_dict: dict[str, Any] = {"path": self.path}
         if (self.sources is not None) and (is_to_add(self.sources)): # not None and at least one
             out_dict["sources"] = [source.get_json() for source in self.sources]
-        if (self.comment is not None) and (is_to_add(self.comment)): # not None and not ""
-            out_dict["comment"] = self.comment
+        if (self.comments is not None) and (is_to_add(self.comments)): # not None and not ""
+            out_dict["comments"] = self.comments
         return out_dict
 
 
@@ -73,7 +73,7 @@ class Circle:
 
     links: list[str] = field(default_factory=list) # List of official links related to that event participation, such as the links given by the Event circle participation announcement 
 
-    comment: Optional[str] = None # Additionnal comment
+    comments: Optional[str] = None # Additionnal comments
     
     def get_json(self) -> dict[str, Any]:
         if not self.aliases: # if None or not at least one
@@ -90,8 +90,8 @@ class Circle:
             out_dict["media"] = [medium.get_json() for medium in self.media]
         if (self.links is not None) and (is_to_add(self.links)):
             out_dict["links"] = self.links
-        if (self.comment is not None) and (is_to_add(self.comment)): # not None and not ""
-            out_dict["comment"] = self.comment
+        if (self.comments is not None) and (is_to_add(self.comments)): # not None and not ""
+            out_dict["comments"] = self.comments
 
         return out_dict
 
@@ -111,7 +111,7 @@ class Event:
 
     links: list[str] = field(default_factory=list) # List of official links related to that Event (announcement tweet, website, ...)
 
-    comment: Optional[str] = None # Additionnal comment
+    comments: Optional[str] = None # Additionnal comments
     
     def get_json(self) -> dict[str, Any]:
         if not self.aliases: # if None or not at least one
@@ -128,8 +128,8 @@ class Event:
             out_dict["media"] = [medium.get_json() for medium in self.media]
         if (self.links is not None) and (is_to_add(self.links)):
             out_dict["links"] = self.links
-        if (self.comment is not None) and (is_to_add(self.comment)): # not None and not ""
-            out_dict["comment"] = self.comment
+        if (self.comments is not None) and (is_to_add(self.comments)): # not None and not ""
+            out_dict["comments"] = self.comments
 
         return out_dict
 
@@ -162,6 +162,6 @@ class EventGroup:
             out_dict["media"] = [medium.get_json() for medium in self.media]
         if (self.links is not None) and (is_to_add(self.links)):
             out_dict["links"] = self.links
-        if (self.comment is not None) and (is_to_add(self.comment)): # not None and not ""
-            out_dict["comment"] = self.comment
+        if (self.comments is not None) and (is_to_add(self.comments)): # not None and not ""
+            out_dict["comments"] = self.comments
         return out_dict
