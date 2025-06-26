@@ -4,7 +4,7 @@
 
 <template>
   <div class="eg-div">
-    <a class="eg-title">{{ headerTitles }}</a>
+    <a class="eg-title" :href='eg_href'>{{ headerTitles }}</a>
 
     <table>
       <thead>
@@ -22,7 +22,6 @@
       </tbody>
     </table>
   </div>
-    <!-- {{  props.ar_path}} -->
 </template>
 
 <script setup>
@@ -34,6 +33,7 @@ const props = defineProps({
 });
 
 const headerTitles = computed(() => {
+  if (!props.event_group_db.hasOwnProperty("aliases")) {return ""};
   return props.event_group_db["aliases"].join(" / ");
 });
 
@@ -62,6 +62,10 @@ const descriptionEvents = computed(() => {
 
       return descs
     });
+
+const eg_href = computed(() => {
+  return ["/dea/event_group_detail/#"].concat(props.eg_ar_path).join("/");
+});
 </script>
 
 <style scoped>
@@ -74,7 +78,7 @@ const descriptionEvents = computed(() => {
     width: auto;
   }
 
-  .eg-title {
+  a.eg-title {
     margin: 1em 0;
     font-size: x-large;
     color: var(--green-mild);

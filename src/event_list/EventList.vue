@@ -5,7 +5,7 @@
 <script setup>
   import { ref } from "vue";
   import axiosInstance from '@/axios/axios_config.js';
-  import EventCategory from "./components/EventCategory.vue";
+  import EventCategory from "@/components/EventCategory.vue";
 
   import event_list_index from '@/assets/static_databases/event_list_index.json' // Static database import
 
