@@ -147,7 +147,7 @@ class EventGroup:
 
     links: list[str] = field(default_factory=list) # List of official links related to that EventGroup (tweeter account, websites, ...)
 
-    comment: Optional[str] = None # Additionnal comment
+    comments: Optional[str] = None # Additionnal comments
 
     def get_json(self) -> dict[str, Any]:
         if not self.aliases: # if None or not at least one
