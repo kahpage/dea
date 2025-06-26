@@ -6867,10 +6867,10 @@
             ],
             "media": [
                 {
-                    "path": "https://web.archive.org/web/20150330164633/http://vo-para.birdzberth.com/image/vpk4_catalog.jpg",
+                    "path": "kansai4_20150330164633_vpk4_catalog.jpg",
                     "sources": [
                         {
-                            "source": "kansai4_20150330164633_vpk4_catalog.jpg",
+                            "source": "https://web.archive.org/web/20150330164633/http://vo-para.birdzberth.com/image/vpk4_catalog.jpg",
                             "type": [
                                 "Reliable",
                                 "Official"
@@ -6879,10 +6879,10 @@
                     ]
                 },
                 {
-                    "path": "https://web.archive.org/web/20150703140840/http://vo-para.birdzberth.com/index/img/vpk4.png",
+                    "path": "kansai4_20150703140840_vpk4.png",
                     "sources": [
                         {
-                            "source": "kansai4_20150703140840_vpk4.png",
+                            "source": "https://web.archive.org/web/20150703140840/http://vo-para.birdzberth.com/index/img/vpk4.png",
                             "type": [
                                 "Reliable",
                                 "Official"
@@ -9443,10 +9443,10 @@
             ],
             "media": [
                 {
-                    "path": "https://web.archive.org/web/20171019042409/http://vo-para.birdzberth.com/",
+                    "path": "kansai7_20171019042409_top_image2.png",
                     "sources": [
                         {
-                            "source": "kansai7_20171019042409_top_image2.png",
+                            "source": "https://web.archive.org/web/20171019042409/http://vo-para.birdzberth.com/",
                             "type": [
                                 "Reliable",
                                 "Official"
