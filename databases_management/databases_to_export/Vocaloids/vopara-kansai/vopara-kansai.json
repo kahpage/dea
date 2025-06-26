@@ -3411,6 +3411,37 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "path": "kansai3_20140704025155_mainimg_vpk.jpg",
+                    "sources": [
+                        {
+                            "source": "https://web.archive.org/web/20140704025155/http://vo-para.birdzberth.com/",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        },
+                        {
+                            "source": "Why attached to vo-para Kansai 3: https://ameblo.jp/chrolea/entry-11786343639.html",
+                            "type": [
+                                "Likely",
+                                "External"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "path": "kansai3_o0800045012864218860.jpg",
+                    "sources": [
+                        {
+                            "source": "https://ameblo.jp/chrolea/entry-11786343639.html",
+                            "type": [
+                                "Likely",
+                                "External"
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -9463,18 +9494,6 @@
             "sources": [
                 {
                     "source": "https://web.archive.org/web/20130119113708/http://vo-para.birdzberth.com/",
-                    "type": [
-                        "Reliable",
-                        "Official"
-                    ]
-                }
-            ]
-        },
-        {
-            "path": "kansai_20140704025155_mainimg_vpk.jpg",
-            "sources": [
-                {
-                    "source": "https://web.archive.org/web/20140704025155/http://vo-para.birdzberth.com/",
                     "type": [
                         "Reliable",
                         "Official"
