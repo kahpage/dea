@@ -84,9 +84,9 @@ if __name__ == '__main__':
             soup = BeautifulSoup(f.read(), features="html.parser")
         table_tag = soup.select_one("table[border='1']")
         if table_tag:
-            raw_tags = table_tag.select("tr")
-            if raw_tags:
-                for raw_tag in raw_tags:
+            row_tags = table_tag.select("tr")
+            if row_tags:
+                for raw_tag in row_tags:
                     cols = raw_tag.select('td')
                     if cols and len(cols) == 5:
                         position = f"SP数{cols[3].get_text(strip=True)}"
@@ -136,9 +136,9 @@ if __name__ == '__main__':
             soup = BeautifulSoup(f.read(), features="html.parser")
         table_tag = soup.select_one("table[border='1']")
         if table_tag:
-            raw_tags = table_tag.select("tr")
-            if raw_tags:
-                for raw_tag in raw_tags:
+            row_tags = table_tag.select("tr")
+            if row_tags:
+                for raw_tag in row_tags:
                     cols = raw_tag.select('td')
                     if cols and len(cols) == 5:
                         position = f"SP数{cols[3].get_text(strip=True)}"
@@ -210,9 +210,9 @@ if __name__ == '__main__':
             soup = BeautifulSoup(f.read(), features="html.parser")
         table_tag = soup.select_one("table[border='1']")
         if table_tag:
-            raw_tags = table_tag.select("tr")
-            if raw_tags:
-                for raw_tag in raw_tags:
+            row_tags = table_tag.select("tr")
+            if row_tags:
+                for raw_tag in row_tags:
                     cols = raw_tag.select('td')
                     if cols and len(cols) == 5:
                         position = f"SP数{cols[3].get_text(strip=True)}"

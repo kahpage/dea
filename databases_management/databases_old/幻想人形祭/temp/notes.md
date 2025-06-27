@@ -1,1 +1,0 @@
-https://web.archive.org/web/20170724004453/http://yougakudann.onlyevent.info:80/
