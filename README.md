@@ -11,7 +11,7 @@ This repository was made with a Vue.js as its core. It contains two main compone
 
 ## Contribute
 
-Help of any kind would be greatly appreciated, be it on interface (I am a bad web dev) or on archived content. Please refer to the [website](kahpage.github.io/dea/) for additionnal information.
+Help of any kind would be greatly appreciated, be it on interface (I am a bad web dev) or on archived content. Please refer to the [website](https://kahpage.github.io/dea/) for additionnal information.
 
 ## Updating the database
 
