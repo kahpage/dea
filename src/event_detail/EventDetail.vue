@@ -167,7 +167,16 @@ watchEffect(async () => {
             <tbody>
               <tr v-for="(circle, i) in event_data.circles" :key="i">
                 <th>{{ circle?.position ?? "" }}</th>
-                <th>{{ circle?.aliases?.join(" / ") ?? "" }}</th>
+                <th>
+                  <span
+                    v-if="
+                      circle &&
+                      circle.hasOwnProperty('aliases') &&
+                      Array.isArray(circle['aliases'])
+                    "
+                    >{{ circle?.aliases?.join(" / ") ?? "" }}</span
+                  >
+                </th>
                 <th>{{ circle?.pen_names?.join(" / ") ?? "" }}</th>
                 <th>
                   <span
@@ -197,6 +206,18 @@ watchEffect(async () => {
         </p>
       </ToggleShow>
 
+      <!-- ===== Comments ===== -->
+
+      <ToggleShow
+        class="ed-comments"
+        :button_text="'Comments'"
+        v-if="event_data && event_data.hasOwnProperty('comments')"
+      >
+        <p v-for="(row, i) in event_data.comments.split('\n')" :key="i">
+          {{ row }}
+        </p>
+      </ToggleShow>
+      
       <!-- ===== MEDIA ===== -->
 
       <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_data">
