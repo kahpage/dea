@@ -14,8 +14,8 @@
                 {
                     "source": "Date: https://shiosyakeyakini.info/touhouEvent/pb_event.php?id=52",
                     "type": [
-                        "Reliable",
-                        "OfficialExt"
+                        "Likely",
+                        "External"
                     ]
                 }
             ],
@@ -642,8 +642,8 @@
                 {
                     "source": "Date: https://shiosyakeyakini.info/touhouEvent/pb_event.php?id=52",
                     "type": [
-                        "Reliable",
-                        "Official"
+                        "Likely",
+                        "External"
                     ]
                 }
             ],

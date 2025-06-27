@@ -4,6 +4,7 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- https://shiosyakeyakini.info/touhouEvent/
 - https://web.archive.org/web/20150311191527/http://ttc.ninja-web.net:80/vp-ex/paper_vp-ex.htm
 - 京都ボカロ合同
 - ようせいげんき！ (source: https://web.archive.org/web/20110811213205/http://www.puniket.com/cirno/cirno_list01.htm)
