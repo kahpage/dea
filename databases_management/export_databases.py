@@ -90,8 +90,13 @@ def recursive_copy_from_database_index(index: dict[str, Any], root_path_list: li
         print(f"mkdir {new_db_file_path.parent} ...")
         new_db_file_path.parent.mkdir(parents=True, exist_ok=True)
 
-        print(f"Running shutil.copy2({db_file_path}, {new_db_file_path.parent}) ...")
-        shutil.copy2(db_file_path, new_db_file_path.parent)
+        with db_file_path.open("r+", encoding="utf-8") as f:
+            old_content = json.load(f)
+        with new_db_file_path.open("w+", encoding="utf-8") as f:
+            json.dump(old_content, f, ensure_ascii=False) # remove indent
+
+        # print(f"Running shutil.copy2({db_file_path}, {new_db_file_path.parent}) ...")
+        # shutil.copy2(db_file_path, new_db_file_path.parent)
 
         old_media_folder_path = db_folder_path / "media"
         if old_media_folder_path.exists() and old_media_folder_path.is_dir():
