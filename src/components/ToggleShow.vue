@@ -5,6 +5,7 @@
 <template>
   <div class="ts-div">
     <button class="ts-button" @click="toggleVisibility" >
+      <span v-if="is_hidden">⏵</span><span v-else>⏷</span>
       {{ props.button_text }}
     </button>
     <div v-if="do_prevent_load">
@@ -56,6 +57,7 @@ function toggleVisibility() {
     font-size: large;
     border-radius: 1em;
     margin: 0.5em;
+    white-space: nowrap;
 }
 
 .ts-content {

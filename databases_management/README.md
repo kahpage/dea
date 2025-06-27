@@ -43,6 +43,7 @@ This allows defining event group *Categories* and any nested categories. Please 
 
 # Notes
 ## Planned
+- https://web.archive.org/web/20150311191527/http://ttc.ninja-web.net:80/vp-ex/paper_vp-ex.htm
 - 京都ボカロ合同
 - ようせいげんき！ (source: https://web.archive.org/web/20110811213205/http://www.puniket.com/cirno/cirno_list01.htm)
 - 幻想人形祭
