@@ -6,6 +6,7 @@
   <div>
     <!-- Category header. Only if name!='' (root)-->
     <div v-if="ec_name" class="header-title">
+      <section :id="ec_name"></section>
       {{ ec_name }}
       <span v-if="event_categ_count >= 0">({{ event_categ_count }})</span>
     </div>
@@ -13,7 +14,7 @@
     <div class="ec-container">
       <!-- Event groups for this category -->
       <div v-for="(val, i) in categoryGroups" :key="i">
-        <!-- TODO: fetch -->
+        <section :id="i"></section>
         <EventGroupTable :event_group_db="val" :eg_ar_path="ar_path.concat(i)" :event_index="i" />
       </div>
 
@@ -75,14 +76,8 @@ const eventCategChildrenListIndexes = computed(() => {
 });
 
 const categoryGroups = computed(() => {
-  if (!props.event_list_index.hasOwnProperty("@databases")) {return [];}
-  
-  let out_dict = {};
-  for (const el in props.event_list_index["@databases"]) {
-    out_dict[el] = props.event_list_index["@databases"][el]
-  }
-  
-  return out_dict;
+  if (!props.event_list_index.hasOwnProperty("@databases") || !props.event_list_index["@databases"]) {return [];}
+  return props.event_list_index["@databases"];
 });
 
 </script>
@@ -91,7 +86,7 @@ const categoryGroups = computed(() => {
 @import "@/assets/common.css";
 
 .ec-container {
-  margin: 0.5em;
+  margin: 0.5em 0 0.5em 0.5em;
   /* border: 2px solid var(--greyish-soft); */
   background-color: var(--greyish-dark);
   width: auto;
