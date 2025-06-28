@@ -31,6 +31,7 @@ export default defineConfig({
         event_list: resolve(root, 'event_list', 'index.html'),
         event_detail: resolve(root, 'event_detail', 'index.html'),
         event_group_detail: resolve(root, 'event_group_detail', 'index.html'),
+        circle_participation: resolve(root, 'circle_participation', 'index.html'),
       }
     }
   }
