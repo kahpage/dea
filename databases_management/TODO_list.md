@@ -4,6 +4,8 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- https://web.archive.org/web/20250208154142/https://mattari-an.net/shu-kai/cutlist/cutlist.html
+- https://web.archive.org/web/20230706171443/https://mattari-an.net/shu-kai/
 - https://shiosyakeyakini.info/touhouEvent/
 - https://web.archive.org/web/20150311191527/http://ttc.ninja-web.net:80/vp-ex/paper_vp-ex.htm
 - 京都ボカロ合同

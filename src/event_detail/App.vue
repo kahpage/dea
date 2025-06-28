@@ -10,7 +10,7 @@
 
 <template>
   <!-- Router View -->
-  <Navigation :toggles="['media']" @onToggleUpdate="handleToggleUpdate" />
+  <Navigation/>
   <router-view v-slot="{ Component }">
     <component :is="Component"/>
   </router-view>
