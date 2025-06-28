@@ -3779,7 +3779,9 @@
         },
         {
             "aliases": [
-                "07th村民集会"
+                "07th村民集会",
+                "07th Sonmin Shuukai",
+                "07th Village Assembly"
             ],
             "dates": "2022.10.15",
             "circles": [
@@ -5378,9 +5380,21 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "path": "7th_Fe4eeiEUAAIi6qJ.jpg",
+                    "sources": [
+                        {
+                            "source": "https://x.com/Villagerrally/status/1580234369783824385",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
                 }
             ],
-            "comments": "20th anniversary of 7th Expansion, linked here: https://web.archive.org/web/20221008021911/https://07th-expansion.net/event/07thdaienkai/."
+            "comments": "20th anniversary of 7th Expansion, linked here: https://web.archive.org/web/20221008021911/https://07th-expansion.net/event/07thdaienkai/.\nMisc: https://07thpublicbath.web.fc2.com/\nMisc: https://07th-expansion.net/event/07thdaienkai/"
         },
         {
             "aliases": [
@@ -5845,6 +5859,18 @@
                     "sources": [
                         {
                             "source": "https://web.archive.org/web/20230529001620/https://mattari-an.net/shu-kai/",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "path": "8_FzYerKSacAUd41N.jpg",
+                    "sources": [
+                        {
+                            "source": "https://x.com/Villagerrally/status/1672558042146287616",
                             "type": [
                                 "Reliable",
                                 "Official"
@@ -6993,6 +7019,18 @@
                     "sources": [
                         {
                             "source": "https://07th-expansion.fandom.com/wiki/Hinamizawa_Village_Assembly",
+                            "type": [
+                                "Likely",
+                                "External"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "path": "gou_1500x500.jpg",
+                    "sources": [
+                        {
+                            "source": "https://web.archive.org/web/20250628093254/https://pbs.twimg.com/profile_banners/1337735537046646787/1750460093/1500x500",
                             "type": [
                                 "Likely",
                                 "External"

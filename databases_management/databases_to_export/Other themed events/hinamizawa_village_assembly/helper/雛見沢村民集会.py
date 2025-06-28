@@ -4,12 +4,6 @@ from pathlib import Path
 import json
 from bs4 import BeautifulSoup
 
-#TODO: https://web.archive.org/web/*/http://shu-kai.hinamizawa.info:80/*
-#TODO: https://www.google.com/search?q=%E9%9B%9B%E8%A6%8B%E6%B2%A2%E6%9D%91%E6%B0%91%E9%9B%86%E4%BC%9A%E3%81%B7%E3%81%A1&client=firefox-b-d&sca_esv=abe885a07177dc20&udm=2&biw=1440&bih=776&sxsrf=AE3TifN3fNcVpzXPjjrvoDs4-WiCiUH0LQ%3A1751083032040&ei=GGhfaKynAvSokdUPweysGQ&ved=0ahUKEwisk-PQnJOOAxV0VKQEHUE2KwMQ4dUDCBE&uact=5&oq=%E9%9B%9B%E8%A6%8B%E6%B2%A2%E6%9D%91%E6%B0%91%E9%9B%86%E4%BC%9A%E3%81%B7%E3%81%A1&gs_lp=EgNpbWciG-mbm-imi-ayouadkeawkembhuS8muOBt-OBoUiVHVCEEFisG3ACeACQAQCYAcMCoAHUBKoBBTItMS4xuAEDyAEA-AEC-AEBmAIAoAIAmAMAiAYBkgcAoAdmsgcAuAcAwgcAyAcA&sclient=img#vhid=RA0VMmwJUmluXM&vssid=mosaic
-#TODO: https://x.com/Villagerrally/status/1795449416070926444
-#TODO: https://x.com/Villagerrally*
-# TODO:(petit) https://web.archive.org/web/20130308102727/http://www.comic-state.com/html/only/hinamizawa.html
-
 if __name__ == '__main__':
     save_folder_path = Path(__file__).parent
     events: list[Event] = []
