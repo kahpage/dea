@@ -114,7 +114,22 @@ watchEffect(async () => {
           ></span>
         </p>
       </ToggleShow>
-
+      
+      <!-- ===== LINKS ===== -->
+      <ToggleShow class="ts-sources" :button_text="'Links'" v-if="event_group_data">
+        <div
+          v-if="
+            !event_group_data?.links || Array.isArray(event_group_data?.links) & (event_group_data?.links == 0)
+          "
+        >
+          (None)
+        </div>
+        <div class="ed-links">
+          <div v-for="(link, index) in event_group_data?.links" :key="index">
+              <span v-html="makeLinksClickable(link)"></span>
+          </div>
+        </div>
+      </ToggleShow>
       <!-- ===== MEDIA ===== -->
 
       <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_group_data">

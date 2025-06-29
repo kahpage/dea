@@ -4,6 +4,9 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- (complete VOCALOID STATION) https://web.archive.org/web/20160406195600/http://slash.sakuraweb.com/blog/web/about-us.html
+- https://thwiki.cc/%E4%B8%8A%E6%B5%B7THONLY
+- https://x.com/oxygenlra/status/1723718671082881261
 - http://web.archive.org/web/20100711073143fw_/http://www.taiga-s.co.jp/rhs/maicomi/index.html
 - https://web.archive.org/web/20130710182523/http://slash.sakuraweb.com/event/link.htm
 - https://web.archive.org/web/20130710182714/http://slash.sakuraweb.com/event/archive/

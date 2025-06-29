@@ -1,8 +1,8 @@
 {
-  "aliases": ["VOCVOCALOID STATION"],
+  "aliases": ["VOCALOID STATION", "OVERDRIVE!! SECOND", "OVERDRIVE!! 2"],
   "events": [
     {
-      "aliases": ["VOCALOID STATION"],
+      "aliases": ["VOCALOID STATION", "OVERDRIVE!! SECOND", "OVERDRIVE!! 2"],
       "dates": "2011.10.02",
       "circles": [
         {
@@ -226,8 +226,27 @@
               "type": ["Reliable", "Official"]
             }
           ]
+        },
+        {
+          "path": "od_20110811024331_banner.gif",
+          "sources": [
+            {
+              "source": "https://web.archive.org/web/20111006170202/http://slash.sakuraweb.com/event/vo_sta/",
+              "type": ["Reliable", "Official"]
+            }
+          ]
+        },
+        {
+          "path": "od_20110811024331_top4.jpg",
+          "sources": [
+            {
+              "source": "https://web.archive.org/web/20111006170202/http://slash.sakuraweb.com/event/vo_sta/",
+              "type": ["Reliable", "Official"]
+            }
+          ]
         }
-      ]
+      ],
+      "comments": "I was unable to find out if 1. There is a separate circle list for OVERDRIVE!!, 2. if there was a first OVERDRIVE!! event. Thus for now, I am adding 1 (merged?) entry.\nThis link may be able to help but there are too many pages to go through https://web.archive.org/web/20160406195600/http://slash.sakuraweb.com/blog/web/about-us.html."
     }
   ],
   "links": [

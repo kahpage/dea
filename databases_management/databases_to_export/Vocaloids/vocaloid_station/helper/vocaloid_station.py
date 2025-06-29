@@ -1,4 +1,5 @@
 # https://web.archive.org/web/20130710182339/http://slash.sakuraweb.com/event/circlelist.htm
+# https://web.archive.org/web/20160406195600/http://slash.sakuraweb.com/blog/web/about-us.html
 
 from db_structs import Medium, Circle, Event, EventGroup, Source, ReliabilityTypes, OriginTypes
 from pathlib import Path
