@@ -4,6 +4,9 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- https://x.com/voca_st/status/1018457181073489920
+- https://x.com/voiceroidmarch/status/751040016055349248
+- https://web.archive.org/web/20161024211505/http://kagamine-no-ochakai.jp/link.html
 - (complete VOCALOID STATION) https://web.archive.org/web/20160406195600/http://slash.sakuraweb.com/blog/web/about-us.html
 - https://thwiki.cc/%E4%B8%8A%E6%B5%B7THONLY
 - https://x.com/oxygenlra/status/1723718671082881261
