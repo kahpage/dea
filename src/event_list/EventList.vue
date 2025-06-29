@@ -35,7 +35,7 @@ const baseUrl = import.meta.env.VITE_APP_BASE_URL;
       />
     </div>
     <div class="el-menu">
-      <a class="el-menu-title" href="#top" title="Go Top">⏶</a><span class="el-menu-title">Content</span>
+      <a class="el-menu-title" href="#top" title="Go Top">▲</a><span class="el-menu-title">Content</span>
       <EventListMenuCategory
         v-if="event_list_index !== undefined"
         :event_list_index="event_list_index"
@@ -65,15 +65,20 @@ const baseUrl = import.meta.env.VITE_APP_BASE_URL;
 .el-menu {
   width: 25%;
   background-color: var(--greyish-mild);
-  padding-left: 1em;
+  padding-left: 0.5em;
   padding-top: 1em;
   height: 100%;
   overflow-y: auto;
   box-sizing: border-box;
 }
 
-.el-menu-title, a.el-menu-title {
+.el-menu-title {
   font-size: x-large;
+  font-weight: 700;
+  color: var(--purple-deep);
+}
+a.el-menu-title {
+  font-size: medium;
   font-weight: 700;
   color: var(--purple-deep);
 }

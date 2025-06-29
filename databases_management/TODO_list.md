@@ -4,13 +4,21 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- http://web.archive.org/web/20100711073143fw_/http://www.taiga-s.co.jp/rhs/maicomi/index.html
+- https://web.archive.org/web/20130710182523/http://slash.sakuraweb.com/event/link.htm
+- https://web.archive.org/web/20130710182714/http://slash.sakuraweb.com/event/archive/
+- https://web.archive.org/web/20130710182817/http://slash.sakuraweb.com/event/publicity.htm
+- https://web.archive.org/web/20111006170202/http://slash.sakuraweb.com/event/vo_sta/
+- https://web.archive.org/web/20071020193755/http://ketto.com/sf/
+- https://ketto.com/tvm/tvm33ippan.htm (for image http://mimi.ketto.com/g/mi33hyousi.jpg)
+- https://web.archive.org/web/20140424164312/http://mattari-an.net/yuzukike/
+- https://web.archive.org/web/20210102134216/https://meikasai.com/ -> cf https://www.thwiki.cc/- %E4%B8%9C%E6%96%B9%E5%90%8D%E5%8D%8E%E7%A5%AD there is every source !
 - https://web.archive.org/web/20250208154142/https://mattari-an.net/shu-kai/cutlist/cutlist.html
 - https://web.archive.org/web/20230706171443/https://mattari-an.net/shu-kai/
 - https://shiosyakeyakini.info/touhouEvent/
 - https://web.archive.org/web/20150311191527/http://ttc.ninja-web.net:80/vp-ex/paper_vp-ex.htm
 - 京都ボカロ合同
 - ようせいげんき！ (source: https://web.archive.org/web/20110811213205/http://www.puniket.com/cirno/cirno_list01.htm)
-- 幻想人形祭
 - Comiket
 - RTS
 - M3

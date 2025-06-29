@@ -66,7 +66,7 @@ if __name__ == '__main__':
     exists_pub_db, exists_sta_db = PATH_public_databases.is_dir(), PATH_static_databases.is_dir()
     if exists_pub_db and exists_sta_db:
         print("====== Clearing public/databases/ and assets/static_databases/ ... ======")
-        ans = input(f"The content of the following folder will be deteleted. Enter YES to confirm:\n{PATH_public_databases}\n{PATH_static_databases}\n")
+        ans = input(f"The content of the following folder will be deteleted:\n{PATH_public_databases}\n{PATH_static_databases}\nEnter YES to confirm:\n")
         if ans != "YES":
             print("Aborted !")
             exit()

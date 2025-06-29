@@ -118,7 +118,7 @@ watchEffect(async () => {
     Invalid database to fetch: "{{ props.db_path }}"
   </div>
   <div v-else>
-    <div v-if="!event_data">Loading database {{ props.db_path }}...</div>
+    <div v-if="!event_data || !event_data.hasOwnProperty('aliases')">Loading database {{ props.db_path }}...</div>
     <div v-else>
       <!-- ===== EVENT GROUP DB FETCHED ===== -->
       <div class="ed-div">
