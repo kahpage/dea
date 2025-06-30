@@ -20,12 +20,12 @@
 <template>
     <!-- Title -->
     <head><title>dea | Circle Participation</title></head>
-
+x
     <div class="header-title">Circle Participation</div>
     <div class="header">List of participating circles registered in the database.</div>
 
     <div class="cp-div">
-      <input v-model="keywords" placeholder="Keywords">
+      <input v-model="keywords" placeholder="Keywords"> ({{ filtered_circles.length }} results)
 
       <table class="cp-table">
         <thead>
