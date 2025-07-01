@@ -153,7 +153,7 @@ watchEffect(async () => {
           <table>
             <thead>
               <tr>
-                <th colspan="4" class="ed-table-title">
+                <th colspan="5" class="ed-table-title">
                   Participating circles
                 </th>
               </tr>
@@ -162,6 +162,7 @@ watchEffect(async () => {
                 <th>Aliases</th>
                 <th>Pen Names</th>
                 <th>links</th>
+                <th>media</th>
               </tr>
             </thead>
             <tbody>
@@ -182,6 +183,14 @@ watchEffect(async () => {
                   <span
                     v-html="makeLinksClickable(circle?.links?.join(', ') ?? '')"
                   ></span>
+                </th>
+                <th>
+                  <span v-if="circle.hasOwnProperty('media')">
+                    <a v-for="(m, i) in circle.media" :key="i" 
+                    :href="[`${public_path}databases`].concat(db_path_description).concat(['media', m.path]).join('/')">
+                      {{ i+1 }}
+                    </a>
+                  </span>
                 </th>
               </tr>
             </tbody>

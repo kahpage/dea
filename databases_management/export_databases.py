@@ -178,19 +178,18 @@ if __name__ == '__main__':
     @dataclass
     class ParticipatingCircle: # Circle for that index
         names: list[str] = field(default_factory=list) # aliases & pen_names
-        event_ar_path: list[str] = field(default_factory=list) # Array path to Event for this participation
         event_name: str = "" # Event name to display
 
         def get_json(self) -> dict[str, Any]:
             return {
                 "names": self.names,
-                "event_ar_path": self.event_ar_path,
                 "event_name": self.event_name
             }
     
-    circle_index: list[ParticipatingCircle] = []
-    def recursive_circle_index(index: dict[str, Any], root_path_list: list[str] = []) -> None:
+    # circle_index: list[ParticipatingCircle] = []
+    def recursive_circle_index(index: dict[str, Any], root_path_list: list[str] = []) -> dict[str,Any]:
         """Copies the databases to public/databases/ while preserving the folder structure, using the database index"""
+        this_circle_index: dict[str,Any] = {}
         for db_name in index.get("@databases", []):
             # For databases of current folder
             db_folder_path = PATH_databases_to_export / "/".join(root_path_list) / db_name
@@ -207,7 +206,8 @@ if __name__ == '__main__':
                     continue
                 if "circles" not in event or not event['circles']:
                     continue
-
+                
+                event_index = []
                 for circle in event['circles']:
                     names = []
                     if "aliases" in circle:
@@ -215,21 +215,22 @@ if __name__ == '__main__':
                     if "pen_names" in circle:
                         names.extend(circle["pen_names"])
 
-                    circle_index.append(ParticipatingCircle(
+                    event_index.append(ParticipatingCircle(
                         names=names,
-                        event_ar_path=root_path_list + [db_name],
                         event_name=event["aliases"][0]
-                    ))
+                    ).get_json())
+                this_circle_index[db_name] = event_index
 
         for subfolder_name in index:
             if subfolder_name not in ["@databases", "@count"]:
-                recursive_circle_index(index[subfolder_name], root_path_list + [subfolder_name])
-    
-    recursive_circle_index(database_index)
+                this_circle_index[subfolder_name] = recursive_circle_index(index[subfolder_name], root_path_list + [subfolder_name])
+        return this_circle_index
+
+    circle_index = recursive_circle_index(database_index)
     circle_index_file_path = PATH_static_databases / "circle_participation_index.json"
     
     circle_index_file_path.parent.mkdir(parents=True, exist_ok=True)
     print(f"Saving circle database file at {circle_index_file_path}...")
     with circle_index_file_path.open("w+", encoding="utf-8") as f:
-        json.dump([ind.get_json() for ind in circle_index], f, ensure_ascii=False, indent=STATIC_JSON_INDENT)
+        json.dump(circle_index, f, ensure_ascii=False, indent=STATIC_JSON_INDENT)
 
