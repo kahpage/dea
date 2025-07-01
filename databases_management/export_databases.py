@@ -219,7 +219,10 @@ if __name__ == '__main__':
                         names=names,
                         event_name=event["aliases"][0]
                     ).get_json())
-                this_circle_index[db_name] = event_index
+                if db_name in this_circle_index:
+                    this_circle_index[db_name] += event_index
+                else:
+                    this_circle_index[db_name] = event_index
 
         for subfolder_name in index:
             if subfolder_name not in ["@databases", "@count"]:

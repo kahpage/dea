@@ -697,24 +697,68 @@ if __name__ == '__main__':
         with (save_folder_path / f"vs{i}.json").open("w+", encoding='utf-8') as f:
             json.dump(event.get_json(), f, indent=4, ensure_ascii=False)
 
-    events_raw = []
-    names = ["1","1z","2","3","4","5","6","7","8","9","10","11","11z"]
-    for p in (Path(__file__).with_name(f"vs{name}.json") for name in names):
-        with p.open("r", encoding='utf-8') as f:
-            events_raw.append(json.load(f))
+    if True:
+        # ==== vocaloid street dummy (dummy for circle list not attached) ====
+        i = "99"
+        circles_ = []
+        with (Path(__file__).parent / "raw99.htm").open("rb") as f:
+            soup = BeautifulSoup(f.read(), features="html.parser")
+        table_tag = soup.select_one("table")
+        for row in table_tag.select("tr"):
+            cols = row.select("td")
+            if len(cols) == 4:
+                name = cols[0].get_text(strip=True)
+                pen_name = cols[1].get_text(strip=True)
+
+                links=[]
+                hp_tag = cols[2].select_one("a")
+                if hp_tag and "href" in hp_tag.attrs:
+                    links.append(hp_tag["href"])
+                twi_tag = cols[3].select_one("a")
+                if twi_tag and "href" in twi_tag.attrs:
+                    links.append(twi_tag["href"])
+
+                circles_.append(Circle(
+                    aliases=[name],
+                    pen_names=[pen_name],
+                    links=links,
+                ))
+
+
+        media_ = []
+        event = Event(
+            aliases=["VOCALOID STREET (dummy)"],
+            dates="(dummy)",
+            circles=circles_,
+            media=media_,
+            sources=[
+                Source("Participating circles: https://web.archive.org/web/20240811115121/https://voca-st.com/circleList", (ReliabilityTypes.Reliable, OriginTypes.Official)),  
+            ],
+            comments="Dummy event, to add the corresponding circle entries to the database. This should be reviewed at some point though ! TODO"
+        )
+        events.append(event)
+        with (save_folder_path / f"vs{i}.json").open("w+", encoding='utf-8') as f:
+            json.dump(event.get_json(), f, indent=4, ensure_ascii=False)
+
+
+    # events_raw = []
+    # names = ["1","1z","2","3","4","5","6","7","8","9","10","11","11z"]
+    # for p in (Path(__file__).with_name(f"vs{name}.json") for name in names):
+    #     with p.open("r", encoding='utf-8') as f:
+    #         events_raw.append(json.load(f))
         
 
-    eg = EventGroup(
-        events = [],
-        aliases=["VOCALOID STREET","ボーカロイドストリート","ボカスト"],
-        links=["http://voca-st.com/", "https://x.com/voca_st"],
-        sources=[
-        ],
-        comments="There might be an offset in the credited circles. For events 9 & 10 I used the definitive lists, but I don't know how to place https://web.archive.org/web/20240811115121/https://voca-st.com/circleList (which is probably 8)"
-    )
-    content = eg.get_json()
-    content["events"] = events_raw
-    with (save_folder_path / "vs.json").open("w+", encoding='utf-8') as f:
-        json.dump(content, f, indent=4, ensure_ascii=False)
+    # eg = EventGroup(
+    #     events = [],
+    #     aliases=["VOCALOID STREET","ボーカロイドストリート","ボカスト"],
+    #     links=["http://voca-st.com/", "https://x.com/voca_st"],
+    #     sources=[
+    #     ],
+    #     comments="There might be an offset in the credited circles. For events 9 & 10 I used the definitive lists, but I don't know how to place https://web.archive.org/web/20240811115121/https://voca-st.com/circleList (which is probably 8)"
+    # )
+    # content = eg.get_json()
+    # content["events"] = events_raw
+    # with (save_folder_path / "vs.json").open("w+", encoding='utf-8') as f:
+    #     json.dump(content, f, indent=4, ensure_ascii=False)
 
     
