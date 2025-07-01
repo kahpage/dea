@@ -4,28 +4,52 @@
 
 <script setup>
   import { ref, computed } from "vue";
-  import circle_index from '@/assets/static_databases/circle_participation_index.json' // Static database import
+  import circle_raw_index from '@/assets/static_databases/circle_participation_index.json' // Static database import
 
   const keywords= ref("")
 
-  const filtered_circles = computed(() => { // According to keywords
-      let query = keywords.value.trim().toLowerCase();
-      return circle_index.filter(circle => {
-        return circle.names.some(name => name.trim().toLowerCase().includes(query)); // Check if any name in the circle's names array includes the search query
-      });
+  function recursive_fill_circle_index(current_raw_index, ar_path) {
+    let current_circle_list = []
+
+    for (const db_name in current_raw_index) {
+      if (Array.isArray(current_raw_index[db_name])) { // Not a subfolder, but a db
+        let raw = current_raw_index[db_name]
+        for (const key in raw) {
+          raw[key]["event_ar_path"] = ar_path.concat(db_name) // add ar_path
+        }
+        current_circle_list = [].concat(current_circle_list, raw)
+      } else { // A subfolder
+        let raw = recursive_fill_circle_index(current_raw_index[db_name], ar_path.concat(db_name))
+        current_circle_list = [].concat(current_circle_list, raw)
+      }
+    }
+     
+    return current_circle_list
+  }
+  
+  const circle_index = computed(() => {
+    return recursive_fill_circle_index(circle_raw_index, [])
   })
 
+  const filtered_circles = computed(() => { // According to keywords
+    if (!circle_index || !circle_index.value || !Array.isArray(circle_index.value)) {return []}
+
+    let query = keywords.value.trim().toLowerCase();
+    return circle_index.value.filter(circle => {
+      return circle.names.some(name => name.trim().toLowerCase().includes(query)); // Check if any name in the circle's names array includes the search query
+    });
+  })
 </script>
 
 <template>
     <!-- Title -->
     <head><title>dea | Circle Participation</title></head>
-x
+
     <div class="header-title">Circle Participation</div>
     <div class="header">List of participating circles registered in the database.</div>
 
     <div class="cp-div">
-      <input v-model="keywords" placeholder="Keywords"> ({{ filtered_circles.length }} results)
+      <input v-model="keywords" placeholder="Keywords"> ({{ filtered_circles?.length }} results)
 
       <table class="cp-table">
         <thead>
@@ -53,8 +77,6 @@ x
         </tbody>
       </table>
     </div>
-
-    <hr>
 </template>
 
 <style>
