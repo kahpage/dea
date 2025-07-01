@@ -1781,7 +1781,8 @@
             }
           ]
         }
-      ]
+      ],
+      "comments": "Simultanous with MUSIC COMMUNICATION 7."
     },
     {
       "aliases": [
@@ -1828,7 +1829,8 @@
             }
           ]
         }
-      ]
+      ],
+      "comments": "Simultanous with MUSIC COMMUNICATION 9."
     },
     {
       "aliases": [
@@ -3600,7 +3602,8 @@
             }
           ]
         }
-      ]
+      ],
+      "comments": "Simultanous with MUSIC COMMUNICATION 11."
     },
     {
       "aliases": [
@@ -4988,7 +4991,8 @@
             }
           ]
         }
-      ]
+      ],
+      "comments": "Simultanous with MUSIC COMMUNICATION 14."
     }
   ],
   "media": [
@@ -5005,5 +5009,6 @@
   "links": [
     "https://web.archive.org/web/20110721205632/http://vo-para.birdzberth.com/",
     "https://x.com/m_comi"
-  ]
+  ],
+  "comments": "Simultanous with MUSIC COMMUNICATION 16."
 }

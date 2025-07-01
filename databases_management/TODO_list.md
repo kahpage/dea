@@ -4,7 +4,10 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
-- https://x.com/voca_st/status/1018457181073489920
+- https://web.archive.org/web/20130323043740/http://m-comi.birdzberth.com/
+- https://web.archive.org/web/20110816001210/http://m-comi.birdzberth.com/
+- meikyu https://web.archive.org/web/20081006234339/http://m-comi.birdzberth.com:80/
+- miku fes https://web.archive.org/web/20081121181353/http://m-comi.birdzberth.com/about.html
 - https://x.com/voiceroidmarch/status/751040016055349248
 - https://web.archive.org/web/20161024211505/http://kagamine-no-ochakai.jp/link.html
 - (complete VOCALOID STATION) https://web.archive.org/web/20160406195600/http://slash.sakuraweb.com/blog/web/about-us.html
