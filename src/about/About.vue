@@ -11,7 +11,7 @@
 
 <template>
     <!-- Title -->
-    <head><title>dea | Base</title></head>
+    <head><title>dea | About</title></head>
 
     <div class="header-title"> About </div>
     <div class="header">
