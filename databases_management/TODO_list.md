@@ -4,6 +4,17 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- https://web.archive.org/web/20180413062023/http://mattari-an.net:80/syutugeki/map2.pdf
+- https://web.archive.org/web/20211024081511/https://mattari-an.net/PD/kannai.pdf
+- ACCORDING TO CATALOG, all these events were under a broad event banner (like shirotorisai here) https://web.archive.org/web/20160501183256/http://mattari-an.net/keyparty/0921Webcatalog.pdf
+- https://web.archive.org/web/20160501190937/http://mattari-an.net/keyparty/0921WebcatalogA.pdf
+- https://web.archive.org/web/20160501183256/http://mattari-an.net/keyparty/0921Webcatalog.pdf
+- http://kpckg.blog.fc2.com/blog-entry-52.html
+- & simult https://web.archive.org/web/20101209075931/http://mattari-an.net/littlebusters/
+- little busters partyR simult keyparty 4 https://web.archive.org/web/20121114164021/http://mattari-an.net/littlebusters/
+- & simult https://web.archive.org/web/20101209075931/http://mattari-an.net/angelbeats/
+- https://web.archive.org/web/20140426153732/http://mattari-an.net/keyparty/
+- https://web.archive.org/web/20211104124505/https://mattari-an.net/syutugeki/meika_G-X.pdf
 - https://web.archive.org/web/20130323043740/http://m-comi.birdzberth.com/
 - https://web.archive.org/web/20110816001210/http://m-comi.birdzberth.com/
 - meikyu https://web.archive.org/web/20081006234339/http://m-comi.birdzberth.com:80/
