@@ -4,6 +4,7 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- special project: https://www.m3net.jp/event/1999f.php
 - https://web.archive.org/web/20180413062023/http://mattari-an.net:80/syutugeki/map2.pdf
 - https://web.archive.org/web/20211024081511/https://mattari-an.net/PD/kannai.pdf
 - ACCORDING TO CATALOG, all these events were under a broad event banner (like shirotorisai here) https://web.archive.org/web/20160501183256/http://mattari-an.net/keyparty/0921Webcatalog.pdf

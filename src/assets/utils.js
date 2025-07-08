@@ -3,7 +3,7 @@
  */
 
 function makeLinksClickable(text) {
-  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  const urlRegex = /(https?:\/\/[^\s,]+)/g;
   return text.replace(urlRegex, function (url) {
     return (
       '<a class="embedded-link" href="' +

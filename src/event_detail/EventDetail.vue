@@ -142,6 +142,24 @@ watchEffect(async () => {
           Dates: {{ event_data?.dates ?? "" }}
         </div>
 
+        <div v-if="event_data?.links && Array.isArray(event_data.links)" class="ed-links">
+          Links: <span v-html="makeLinksClickable(event_data.links.join(', '))"></span>
+        </div>
+        
+      <!-- ===== Notes ===== -->
+      <ToggleShow
+        class="ts-notes"
+        :button_text="'Notes'"
+        v-if="event_data?.notes"
+        :default_hidden="false"
+      >
+        <div class="ts-notes-div">
+          <p v-for="(line, i) in event_data.notes.split('\n')" :key="i">
+            {{ line }}
+          </p>
+        </div>
+      </ToggleShow>
+
         <!-- ===== CIRCLE LIST ===== -->
         <div
           v-if="
@@ -344,5 +362,18 @@ tbody tr:nth-child(odd) {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.ts-notes {
+  margin-left: -0.5em;
+  max-width: 95%;
+}
+
+.ts-notes-div {
+  width: 95%;
+}
+
+.ts-notes-div p {
+  word-wrap: break-word;
 }
 </style>

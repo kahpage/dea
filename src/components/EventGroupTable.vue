@@ -6,6 +6,9 @@
   <div class="eg-div">
     <a class="eg-title" :href='eg_href'>{{ headerTitles }}</a>
 
+    <div v-if="props.show_details && props.event_group_db.hasOwnProperty('links') && Array.isArray(props.event_group_db.links)" class="eg-links">
+      Links: <span v-html="makeLinksClickable(props.event_group_db?.links.join(', '))"></span>
+    </div>
     <table>
       <thead>
         <tr><th>Event</th>      <th>Date</th></tr>
@@ -26,10 +29,12 @@
 
 <script setup>
 import { ref, computed } from "vue";
+import makeLinksClickable from "@/assets/utils.js";
 
 const props = defineProps({
   event_group_db: Object,
   eg_ar_path: Array, // Of containing event group
+  show_details: { type: Boolean, required: false, default: false }, // If should show details such as links or notes
 });
 
 const headerTitles = computed(() => {
@@ -114,4 +119,6 @@ const eg_href = computed(() => {
   tr:nth-child(even) {
     background-color: var(--grey-dark);
   }
+
+  .eg-links {}
 </style>

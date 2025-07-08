@@ -95,6 +95,7 @@ watchEffect(async () => {
       <EventGroupTable
         :event_group_db="event_group_data"
         :eg_ar_path="db_path_args"
+        :show_details="true"
       />
 
       <!-- ===== SOURCES ===== -->
