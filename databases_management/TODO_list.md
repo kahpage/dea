@@ -4,6 +4,7 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- For m3, archive videos such as the refered one here: https://www.m3net.jp/event/2011f.php
 - special project: https://www.m3net.jp/event/1999f.php
 - https://web.archive.org/web/20180413062023/http://mattari-an.net:80/syutugeki/map2.pdf
 - https://web.archive.org/web/20211024081511/https://mattari-an.net/PD/kannai.pdf

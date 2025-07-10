@@ -1,0 +1,4555 @@
+{
+  "aliases": ["M3-25", "M3-2010春"],
+  "dates": "2010.05.05",
+  "circles": [
+    {
+      "aliases": ["forest+うさころにー+はなとオニキス"],
+      "position": "A01",
+      "links": ["http://www.ne.jp/asahi/hana/forest/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n新作は多分ありませんが、旧作とＴシャツを持っていきます。"
+    },
+    {
+      "aliases": ["galapagos"],
+      "position": "A02",
+      "links": ["http://media-zone.org/galapagos/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n声優原田ひとみと村木康生によるプログレポップユニットです、プログレッシブなポップスをお届けします！"
+    },
+    {
+      "aliases": ["SYNC.ART'S"],
+      "position": "A03",
+      "links": ["http://syncarts.jp"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nいろいろなジャンルの女性ボーカル曲をオリジナルやら東方アレンジやら…"
+    },
+    {
+      "aliases": ["encounter+"],
+      "position": "A04",
+      "links": ["http://encounter-p.net/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n流歌と桃梨による音楽ユニット。"
+    },
+    {
+      "aliases": ["solfa"],
+      "position": "A05",
+      "links": ["http://www.solfa.asia/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nmarble sky recordsがsolfaへ名称変更しました！iyuna/my sound life/iyunalineの作品を発表中です。ゆこそ新作出ます！！"
+    },
+    {
+      "aliases": ["Primary"],
+      "position": "A06",
+      "links": ["http://primary-yuiko.com/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nPrimary・yuikoのオリジナルボーカルＣＤを制作しています。新作ある予定。"
+    },
+    {
+      "aliases": ["葉月ゆら"],
+      "position": "A07",
+      "links": ["http://hatukiyura.sakura.ne.jp/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n流麗ゴシック・民族音楽を盛り込んだDrop×葉月ゆらユニット「清風明月」の新作を予定しております。"
+    },
+    {
+      "aliases": ["remof"],
+      "position": "A08",
+      "links": ["http://remof.net/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nオリジナル創作サークル「remof」２年ぶりのフルアルバムです！"
+    },
+    {
+      "aliases": ["Barbarian On The Groove"],
+      "position": "A09",
+      "links": ["http://www.astronotes.jp/bog-official/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n時に激しく、時にメランコリックに、時に穏やかに、プリミティブな感覚を研ぎ澄ましたBOGサウンドを！"
+    },
+    {
+      "aliases": ["鞠音家"],
+      "position": "A10",
+      "links": ["http://www.marineya.com/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n歌い手の真理絵が主催するサークル『鞠音家』です。自ら発信する表現の場として参加します。"
+    },
+    {
+      "aliases": ["ALLEGORY WORKS"],
+      "position": "A11",
+      "links": ["http://kotukimiya.com/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nボーカル・コツキミヤのサークルです。"
+    },
+    {
+      "aliases": ["Aoharu visioN"],
+      "position": "A12",
+      "links": ["http://www.aoharu.net/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n自称元気と癒しサプリメントな音楽発信しています。今回は、アニソンカバーＣＤも出ちゃうかも。"
+    },
+    {
+      "aliases": ["LC:AZE"],
+      "position": "A13",
+      "links": ["http://lcaze.com/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nフルボーカルアルバム作ってます。"
+    },
+    {
+      "aliases": ["羽っ鳥もさく共和国"],
+      "position": "A14",
+      "links": ["http://wamojsbhhtr.sakura.ne.jp"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n日々楽しい音楽を模索しております。"
+    },
+    {
+      "aliases": ["twinkle*twinkle"],
+      "position": "A15",
+      "links": ["http://breathe.halfmoon.jp/twinkle/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n坂上なちの個人サークルです。オリジナルボーカルCDを出しています。"
+    },
+    {
+      "aliases": ["FataMorgana"],
+      "position": "A16",
+      "links": ["http://fatamorgana.jp/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n歌い手・遊女（ゆな）の個人サークル。ダークだったりほのぼのだったり気ままに活動中。"
+    },
+    {
+      "aliases": ["てつ×ねこ"],
+      "position": "A17",
+      "links": ["http://www.team-nekokan.com/tetuxneko/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nロックだったりレトロだったり、な感じのCDがあるかも知れません。"
+    },
+    {
+      "aliases": ["不可逆HARDCORE"],
+      "position": "A18",
+      "links": ["http://www20.atwiki.jp/2ch-hardcore/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n２ちゃんねるのDTMスレで集まった有志によるハードコアコンピです。"
+    },
+    {
+      "aliases": ["ばーどちゅーん"],
+      "position": "A19,A20",
+      "links": ["http://birdtune.jp/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n無料CD配布やります！10曲以上収録！女性ボーカルのオリジナル電波ソングのばーどちゅーん。今回は新譜あり。東方アレンジ・ボーカロイド作品！ポスター付きです。"
+    },
+    {
+      "aliases": ["Ａｙａｉ　Ｆａｃｔｏｒｙ"],
+      "position": "A21,A22",
+      "links": ["http://factory.ayainatsuko.com"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n井上みゆ・綾依夏子他、アイドルや声優参加のアルバム頒布。生ヴァイオリン志向が特徴です。"
+    },
+    {
+      "aliases": ["Wastefields"],
+      "position": "A23",
+      "links": ["http://blog.wastefields.com/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nPCゲームアレンジやオリジナル、VOCALOIDや男性Voなどいろいろやってます。"
+    },
+    {
+      "aliases": ["ぶるーすとらいぷす"],
+      "position": "A24",
+      "links": ["http://bluestripes.mkplus.info/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nC78頒布開始ギャルゲ音楽CDのデモ版あります！お気軽に遊びに来てください"
+    },
+    {
+      "aliases": ["Diverse System"],
+      "position": "A25",
+      "links": ["http://diverse.jp"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nBEMANI REMIXのCDを製作したりしておりますが、今回は違うかも知れません。"
+    },
+    {
+      "aliases": ["Ｄｅｌｉｇｈｔｓ　music"],
+      "position": "A26",
+      "links": ["http://delights.in/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nオリジナルのクラブコンピを中心に頒布しています。新譜は当サークル楽曲のセルフリミックスＣＤです。"
+    },
+    {
+      "aliases": ["AVSS"],
+      "position": "A27,A28",
+      "links": ["http://avss.tk"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nBPPM130前後のクラブトラックを中心に色々やってます。今回”サンレコ”を企画製作中。"
+    },
+    {
+      "aliases": ["The grave of princess"],
+      "position": "A29,A30",
+      "links": ["http://thegraveofprincess.web.fc2.com/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\n男性ヴォーカル中心の音楽サークル。ヴィジュアル系風ボイス、そして奇妙で不気味でどこか哀しい音楽に乗せて深く沈んだ世界観をお送りいたします。"
+    },
+    {
+      "aliases": ["MintJam"],
+      "position": "A31,A32",
+      "links": ["http://www.mintjam.net/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nロックを基調として、商業・同人またにかけ活動するサウンドクリエーターチームです。"
+    },
+    {
+      "aliases": ["ななふれっと"],
+      "position": "A33",
+      "links": ["http://7fret.com/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nラフランス、逆から読んでもラフランス　そんな音楽　とゴム"
+    },
+    {
+      "aliases": ["ＭＩＳＥＲＩＣＯＲＤＩＡ"],
+      "position": "A34",
+      "links": ["http://www.nicovideo.jp/mylist/11430148"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nゆよ☆花Project、メンバーも増えて初アルバム出してみました。趣味丸出しの曲達、どうぞ聴いてみてくださいっ！"
+    },
+    {
+      "aliases": ["Jumping Spider"],
+      "position": "A35,A36",
+      "links": ["http://blog.livedoor.jp/isapan/"],
+      "comments": "Block: [ A ] (音楽：オリジナル・カバー)\nいさじとかにぱんによる、「ふと思いついた楽しいこと」を形にしちゃうサークルです。"
+    },
+    {
+      "aliases": ["D'z PARADISE"],
+      "position": "B01",
+      "links": ["http://www.dzpara.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nゲーム系ネタCDとか、ラジオっぽいCDとか、今までM3で上映した作品のDVDとか出します。"
+    },
+    {
+      "aliases": ["颱風壱家"],
+      "position": "B02",
+      "links": ["http://www.typhoonikka.com"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n颱風壱家はおかわり自由！新譜が出せたらいいなぁ～"
+    },
+    {
+      "aliases": ["だんだん組"],
+      "position": "B03",
+      "links": ["http://dang2.nobody.jp/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n東方ドラマCDサークルです既出四作品「紅美鈴と魔女の卵」「ケロちゃん川流れ」「東方落語魔理沙出世だせ！」「グリモワールオブアリス」頒布予定！"
+    },
+    {
+      "aliases": ["Ritorno"],
+      "position": "B04",
+      "links": ["http://ritorno.lar.jp/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n前作ミュージカル風ドラマCD「Canna Duex～ある少女と霧の話～」と、同シリーズの新作「Canna Cinq～ある姫君と人形師の話～」を頒布予定。浸るように、沈むように、世界に溺れる夢をご堪能頂ければ幸いです。"
+    },
+    {
+      "aliases": ["ラピス・ラズリ"],
+      "position": "B05,B06",
+      "links": ["http://project-zero.sakura.ne.jp/lapis/index.html"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n今回の舞台は彼らの故郷でもあるエルム。物語はついに佳境！エルム奪還に向けてそれぞれのキャラが動き出す！"
+    },
+    {
+      "aliases": ["めみゅっと　＆　memut under ground"],
+      "position": "B07",
+      "links": ["http://www.memut.net/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n80話以上収録したオーディオドラマ集の販売（2500円）"
+    },
+    {
+      "aliases": ["あにおん"],
+      "position": "B08",
+      "links": ["http://www.あにおん.jp"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n完全オリジナルのドラマCDと、そのイメージソング・キャラクターソング(主にA-POP系)を制作しています。"
+    },
+    {
+      "aliases": ["ひげいち。うぇぶ"],
+      "position": "B09",
+      "links": ["http://higeichiwav.blog54.fc2.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n目覚ましＣＤ。お電話ＣＤ。甘えられＣＤ。もきゅもきゅな妄想を垂れ流す。"
+    },
+    {
+      "aliases": ["～White Canvas～"],
+      "position": "B10",
+      "links": ["http://white-canvas.if.tv"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nオリジナルＣＤドラマや二次創作のＣＤドラマの販売を行っています♪サイトではWebドラマも配信していますので、ぜひ遊びに来てください☆"
+    },
+    {
+      "aliases": ["ＲＭＲ"],
+      "position": "B11",
+      "links": ["http://www1.ttcn.ne.jp/~rmr/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n完全オリジナルのＳＦロボットアクションボイスドラマを制作する創作集団！主題歌・劇中音楽もオリジナルです！"
+    },
+    {
+      "aliases": ["クロスオーバー"],
+      "position": "B12",
+      "links": ["http://www.h4.dion.ne.jp/~x-over/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n自然な音をより自然に、自然な演技をよりナチュラルにと目指す高クオリティオーディオドラマ制作サークル☆"
+    },
+    {
+      "aliases": ["ＡＲＣＦＯＸ"],
+      "position": "B13",
+      "links": ["http://woodruff.press.ne.jp/arcfox/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n創部１１年、ほぼ完全オリジナルのドラマＣＤを制作しているアフレコサークルです。"
+    },
+    {
+      "aliases": ["KINOKHRONIKA RECORD"],
+      "position": "B14",
+      "links": ["http://www.kinokhronika.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n創作サウンドドラマ制作　「音で創る”小さな世界”の物語」"
+    },
+    {
+      "aliases": ["総合マルチメディアサークル『GOD』"],
+      "position": "B15",
+      "links": ["http://gateofdream.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nノリと勢いが迸る！そんなオリジナルドラマCDを頒布（の予定）！！名前負け感 ＼バリバリ／ なサークルですが、ソコについて触れられると泣いちゃうので勘弁してください。マジ勘弁。"
+    },
+    {
+      "aliases": ["Dreamy Earth"],
+      "position": "B16",
+      "links": ["http://www.southern-square.jp/dreamy-earth/arigato/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n当サークルの初作品となるボイスドラマ「ありがとう　～夏の奇跡～」、いよいよ最終章をリリース予定！　一人の少女が夏休みで体験した奇跡的な出来事と、それによって変化する少女の生き様を描いた作品です。"
+    },
+    {
+      "aliases": ["Fortune Stone"],
+      "position": "B17",
+      "links": ["http://fortunestone.fc2web.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nオリジナルから童話、版権、BLと様々なジャンルのドラマCDを製作しています。"
+    },
+    {
+      "aliases": ["クマステ"],
+      "position": "B18",
+      "links": ["http://kumastation.radilog.net/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n「僕の道。君の予感。少年ライダーヴァイラス」ドラマCD頒布。中恵光城OP/ED収録"
+    },
+    {
+      "aliases": ["組体操"],
+      "position": "B19",
+      "links": ["http://www5f.biglobe.ne.jp/~mayotai/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nオリジナルのシュールなショートコントが満載のＣＤを作ってます。"
+    },
+    {
+      "aliases": ["ふりかけ隊"],
+      "position": "B20",
+      "links": ["http://furikake.daa.jp/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nオリジナルのファンタジー、コメディ、青春ストーリーをボイスドラマにしてます。"
+    },
+    {
+      "aliases": ["FunnyJunk"],
+      "position": "B21",
+      "links": ["http://funnyjunk.jp"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n前回から大幅にリニューアルしたFunnyJunk！新シリーズも開始されるぞ！詳細はHPをチェック！"
+    },
+    {
+      "aliases": ["ま～坊のまったりたいむ"],
+      "position": "B22",
+      "links": ["http://blog.livedoor.jp/kainmaster/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n売れない声優の私「ま～坊」が、似たような境遇の声優仲間たちの、知名度を上げるための悪あがき…？"
+    },
+    {
+      "aliases": ["S-Scape"],
+      "position": "B23",
+      "links": ["http://blank.sakura.ne.jp/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n何気ない日常の出来事をボイスドラマにしています。青春要素多め。全年齢向けです。"
+    },
+    {
+      "aliases": ["ＴＥＰＳ"],
+      "position": "B24",
+      "links": ["http://tepsnet.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nただの歌じゃない！「歌てぷ」新作何か出る予定！"
+    },
+    {
+      "aliases": ["un mini-monstre"],
+      "position": "B25",
+      "links": ["http://unmini-monstre.sakura.ne.jp/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n色をテーマにした歌とボイスドラマCD「SPECTRUM」シリーズ第二段、今回は黄色と緑でお送りします。前回のテーマ、赤と青盤も置いてます！"
+    },
+    {
+      "aliases": ["碧空プラネタリウム"],
+      "position": "B26",
+      "links": ["http://hekiku.net"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n空気を閉じ込めた、透明な物語を製作しています。"
+    },
+    {
+      "aliases": ["創作集団マルチ・ポット"],
+      "position": "B27",
+      "links": ["http://multipot.futene.net/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n『マルチ・ポット』＝様々な物事を展開していくものをモットーとしています。皆様を楽しい世界へと誘える、サポート役となれるよう、様々なジャンルのボイスドラマをお届けいたします。"
+    },
+    {
+      "aliases": ["なにがし放送局"],
+      "position": "B28",
+      "links": ["http://www.voiceblog.jp/nbs/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nおじいちゃん！何食べてるの！？ウチのドラマCDじゃない！ダメよ食べちゃ！プラスチックは消化できない云々かんぬん…"
+    },
+    {
+      "aliases": ["音声劇団　Dream★Phase"],
+      "position": "B29",
+      "links": ["http://dreamphase.uijin.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n関西在住の音声劇団です。一年ぶりに連続作品の新作の頒布します。"
+    },
+    {
+      "aliases": ["ヴォイスドラマサークル　ＡＭＥ"],
+      "position": "B30",
+      "links": ["http://ame-stp.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nオリジナルヴォイスドラマを制作している団体です＾＾　メンバーも募集してます！"
+    },
+    {
+      "aliases": ["M.D.O."],
+      "position": "B31",
+      "links": ["http://mdo.rossa.cc/index.html"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n暗いドラマと明るいドラマを頒布します。"
+    },
+    {
+      "aliases": ["W/H"],
+      "position": "B32",
+      "links": ["http://w-h.inazure.jp/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n初参加になります。オリジナルのボイスドラマを頒布予定です。「W/H」の世界をお楽しみ下さい。"
+    },
+    {
+      "aliases": ["RBC"],
+      "position": "B33",
+      "links": ["http://www.rbcnet.jp/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n今回はM3では初お目見えの２年ぶり新作音響劇「密造酒を作らふ！」を持参します"
+    },
+    {
+      "aliases": ["ハーモスフィア"],
+      "position": "B34",
+      "links": ["http://harmosphere.net/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n創作サウンドドラマ制作ユニットです。どこか仄暗い、人々の佇まいと都市風景を音に描いてお送りします。今春より活動を再開致しました。"
+    },
+    {
+      "aliases": ["Spiral Spirit"],
+      "position": "B35",
+      "links": ["http://spiralspirit.net/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n「少年」をテーマにオリジナルドラマCDを制作しています！新作擬人化ドラマCD[東京23区の少年-城南編-]発行予定です。"
+    },
+    {
+      "aliases": ["A.N.D"],
+      "position": "B36",
+      "links": ["http://rocketeer.cc/and/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nオリジナルボイスドラマ「青の向こうに、恋をした」を頒布予定です。"
+    },
+    {
+      "aliases": ["RICORA MUSIC TEAM"],
+      "position": "B37",
+      "links": ["http://www.ed.noda.tus.ac.jp/ricora/MusicTeam/index.html"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nこの欄に関して私は真に驚くべきPRを見つけたが、ここはそれを書くには狭すぎる。……嘘ですごめんなさいオリジナルで様々なジャンルあります。"
+    },
+    {
+      "aliases": ["LivelyAngels"],
+      "position": "B38",
+      "links": ["http://www.livelyangels.org/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n怪しいモノも怪しくないモノも、なぜかボカロもあります。"
+    },
+    {
+      "aliases": ["RAVE BRIGADE"],
+      "position": "B39",
+      "links": ["http://ravebrigade.nobody.jp/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n対特定趣向人種指向性ハードコアテクノ"
+    },
+    {
+      "aliases": ["Sapphire's Room"],
+      "position": "B40",
+      "links": ["http://osaka.cool.ne.jp/aozuna/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nオールドスクールなハードコア中心、ところによりテクノ"
+    },
+    {
+      "aliases": ["luvtrax"],
+      "position": "B41",
+      "links": ["http://luvtrax.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nハードハウス新譜アリマス。"
+    },
+    {
+      "aliases": ["FOXYUN RECORDS"],
+      "position": "B42",
+      "links": ["http://cannojp.com/foxyun/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n2009年の活動まとめ。脱線陸前超特急！時速2m！"
+    },
+    {
+      "aliases": ["KIZAN'S"],
+      "position": "B43",
+      "links": ["http://sound.jp/kizan/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nchiptuneでgabbaっぽいオリジナル曲を作っています。"
+    },
+    {
+      "aliases": ["C.jam-packed"],
+      "position": "B44",
+      "links": ["http://2style.jp/arusu830/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nオリジナルの同人誌、グッズ、音楽ＣＤを制作しているサイトです。"
+    },
+    {
+      "aliases": ["Psychedelic Lodge"],
+      "position": "B45",
+      "links": ["http://www.plodge.org/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nドイツ音響系やコズミックロックに影響を受けたエレクトロ＋プログレみたいなことやってます。"
+    },
+    {
+      "aliases": ["FLOATING SYNC"],
+      "position": "B46",
+      "links": ["http://www.fsx.or.tv/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nオリジナルCD-R(テクノ、エレクトロ、インダストリアル、インテリジェント…)"
+    },
+    {
+      "aliases": ["千葉大学サウンドクリエイト研究会"],
+      "position": "B47",
+      "links": ["http://soundcreate.seesaa.net/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n作曲に関心のある者たちが集う千葉大学のサークル。主たる活動内容はオリジナル楽曲の作成とオムニバスCDの作製。"
+    },
+    {
+      "aliases": ["TO-MAX"],
+      "position": "B48",
+      "links": ["http://www.k2.dion.ne.jp/~to-max"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n新作は「1つの楽曲に特化した」オリジナル・リミックス・ノンストップの2枚組を予定しています！"
+    },
+    {
+      "aliases": ["ais."],
+      "position": "B49",
+      "links": ["http://aisyu.com"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nEUROBEATダイスキ(・ω・)"
+    },
+    {
+      "aliases": ["T-Rify.D"],
+      "position": "B50",
+      "links": ["http://rin.s101.xrea.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n暗い曲を発表しています。ゴシック・ホラーと言った要素。インストものです"
+    },
+    {
+      "aliases": ["Sound Escape"],
+      "position": "B51",
+      "links": ["http://sound.jp/soundescape/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nピアノハウスを主体とした、ゆったりとした曲を書いてます。"
+    },
+    {
+      "aliases": ["Euro Trance Project"],
+      "position": "B52",
+      "links": ["http://lv4.gozaru.jp"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n９０年代後半から２０００年代初頭のトランス[ユーロ・エピック・ダッチトランス]を意識したコンピレーションプロジェクト"
+    },
+    {
+      "aliases": ["SKETCH UP! Recordings"],
+      "position": "B53",
+      "links": ["http://sketchuprecordings.seesaa.net/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nDJ 490とDJ Norikenのスプリットアルバム、先鋭製作中！"
+    },
+    {
+      "aliases": ["Articx@Planet＋クロネコラウンジ"],
+      "position": "B54",
+      "links": ["http://articxplanet.yukihotaru.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n福岡発！ハードコア、トランス、ドラムンベースなど多彩なテクノサウンドをお届け！合同出店のクロネコラウンジではVOCALOIDによるテクノポップや東方Projectのハウスアレンジなど扱ってます"
+    },
+    {
+      "aliases": ["from～?～"],
+      "position": "B55",
+      "links": ["http://www.fromsendai.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n仙台にて開催中のサブカル他オールジャンルのクラブイベント「from～?～」!!"
+    },
+    {
+      "aliases": ["CLID-Alpha Pulse-"],
+      "position": "B56",
+      "links": ["http://www.clid-alphapulse.net/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nオリジナルボーカルアルバムを製作しています。機械仕掛けの都市を舞台にしたアルバム「Over...」を頒布予定！"
+    },
+    {
+      "aliases": ["LBT"],
+      "position": "B57",
+      "links": ["http://www.lbt-web.com/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\n”ファンキー＆ビール”がテーマのダンスミュージックレーベルです。12inchアナログを中心に、CDリリース、ライブ、DJ活動、漫画制作を行っています。"
+    },
+    {
+      "aliases": ["sun3 FielD"],
+      "position": "B58",
+      "links": ["http://succinicacid.hp.infoseek.co.jp/"],
+      "comments": "Block: [ B ] (音楽：オリジナル、音響：ドラマ・その他)\nトランス・ハードコアといったクラブミュージックを中心に製作しています。"
+    },
+    {
+      "aliases": ["MONOMIND"],
+      "position": "C01",
+      "links": ["http://www.m2ind.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nオリジナルのハウストラック(BPM130前後)を頒布予定です。音エンジニア・東方での活動も"
+    },
+    {
+      "aliases": ["Phonotaxis"],
+      "position": "C02",
+      "links": ["http://phonotaxis.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n主にアンビエント寄りにジャンルレスのテーマコンピCDを制作しています。"
+    },
+    {
+      "aliases": ["L.E.N.Records"],
+      "position": "C03",
+      "links": ["http://djtrance.saikyou.biz/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nテクノ、トランス、ハウス等を中心にしたオリジナル電子音楽を作っています"
+    },
+    {
+      "aliases": ["Rising Sun Nova"],
+      "position": "C04",
+      "links": ["http://www.razuna.net/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n濃いテクノ好きな人にオススメしてます。"
+    },
+    {
+      "aliases": ["gatearray recordings"],
+      "position": "C05",
+      "links": ["http://gatearray-recordings.net"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nPresenceシリーズ新作と、一部バックカタログを頒布予定。"
+    },
+    {
+      "aliases": ["家鴨とDMST"],
+      "position": "C06",
+      "links": ["http://ameblo.jp/ahillrecords/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n生きのイイFreakyな日本語ラップやってます"
+    },
+    {
+      "aliases": ["FunctioN-Five"],
+      "position": "C07",
+      "links": ["http://kusunoki.qp.land.to/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n今年もおテクノ致します。　どうぞよろしく！！"
+    },
+    {
+      "aliases": ["Indolence"],
+      "position": "C08",
+      "links": ["http://indolence.jimdo.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nDubstepやSkweeeなどのジャンルに焦点を当てたオリジナルのCDを頒布予定です。"
+    },
+    {
+      "aliases": ["Genetic Atmosphere"],
+      "position": "C09",
+      "links": ["http://genetica.rejec.net/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n相変わらず四畳半の自宅スタジオでトランスとか作ってます。"
+    },
+    {
+      "aliases": ["saxifrage"],
+      "position": "C10",
+      "links": ["http://www.saxifrage.info/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nゆったり寛ぎながら楽しめる電子音楽を目指して活動しています。"
+    },
+    {
+      "aliases": ["Tactical Espionage Records"],
+      "position": "C11",
+      "links": ["http://terecords.blog45.fc2.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n普段は仙台の辺りのクラブなんかで活動していたりいなかったり"
+    },
+    {
+      "aliases": ["JKN Recordings"],
+      "position": "C12",
+      "links": ["http://d.hatena.ne.jp/rakutensai/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n暗いです"
+    },
+    {
+      "aliases": ["砂塵音樂室"],
+      "position": "C13",
+      "links": ["http://hoecat.web.infoseek.co.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nいつもの感じで行きます"
+    },
+    {
+      "aliases": ["未来研究会"],
+      "position": "C14",
+      "links": ["http://miraikenkyukai.hp.infoseek.co.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n9回目参加。静かな感じのテクノでコンピCD作ってます。主に、アンビエント、エレクトロニカの打ち込み音楽で、一部ヴォーカルや生楽器あり。ブライアンイーノの話出来ます。"
+    },
+    {
+      "aliases": ["wH-Label"],
+      "position": "C15",
+      "links": ["http://sm.2-d.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n毎度おなじみTechnoticMixtureも、はや4作目になります。　今回で既存譜面を全部頒布終了する予定です。"
+    },
+    {
+      "aliases": ["M&C Rec."],
+      "position": "C16",
+      "links": ["http://www.ariaster.sakura.ne.jp"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nハードコアテクノ、ハードダンス、ハードエナジーの楽曲を製作しています。"
+    },
+    {
+      "aliases": ["Sound.AVE"],
+      "position": "C17",
+      "links": ["http://soundave.net"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n4つ打ちでないジャンルを中心に活動しています"
+    },
+    {
+      "aliases": ["LOTS."],
+      "position": "C18",
+      "links": ["http://www.lilt.net/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n齋藤博人オリジナル音楽CD。新譜が間に合えばテクノ系。"
+    },
+    {
+      "aliases": ["DESTINO"],
+      "position": "C19",
+      "links": ["http://www.destino-records.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nボーカル入り、オリジナルのユーロビートやハイパーテクノのCDを制作しています！90'sダンスミュージックが中心ですが、ディスコやトランスも作っています♪"
+    },
+    {
+      "aliases": ["オナテックレコード"],
+      "position": "C20",
+      "links": ["http://com.nicovideo.jp/community/co29667"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nネタモノテクノやニコニコ生放送で演奏した楽曲をコンパイルしたＣＤを頒布予定です"
+    },
+    {
+      "aliases": ["SPEEDKING PRODUCTIONS"],
+      "position": "C21",
+      "links": ["http://blog.livedoor.jp/speedkingprod/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nオリジナルの90年代初期テクノコンピなどをリリースしています。また、Podcast「SPEEDKING RADIO」も配信中！"
+    },
+    {
+      "aliases": ["RMT"],
+      "position": "C22",
+      "links": ["http://r-m-t.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nテクノとかエレクトロニカをまったりやってます"
+    },
+    {
+      "aliases": ["GABA AGONIST"],
+      "position": "C23",
+      "links": ["http://www.myspace.com/gabaagonist"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nハーコアテクノ、ノイズなどハードな音響を作成しています"
+    },
+    {
+      "aliases": ["cubegrams"],
+      "position": "C24",
+      "links": ["http://www.cubegrams.com"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nダークサイケの早回しを中心にトラックを制作。"
+    },
+    {
+      "aliases": ["絃奏水琴樂章"],
+      "position": "C25",
+      "links": ["http://melodic-harp.net/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nM3開催当日は「立夏」　暑い夏に向けてChillの準備を。"
+    },
+    {
+      "aliases": ["ipse-dixit"],
+      "position": "C26",
+      "links": ["http://www.ipse-dixit.net/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nOrganic+\"Inorganic\"=\"ipse-dixit\" \"ipse-dixit\"+\"Shoegazer\"=\"???\""
+    },
+    {
+      "aliases": ["Altanaphixx"],
+      "position": "C27",
+      "links": ["http://www.altanaphixx.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nオリジナル＆音ゲーリミックス＆映像のクラブ音楽指向サークルです。ただいまメンバー一同、新譜リリースに向けて鋭意活動中です＾＾"
+    },
+    {
+      "aliases": ["KINZOK ON"],
+      "position": "C28",
+      "links": ["http://kinzoku.xxxxxxxx.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nHARDSTYLEとかGABBAとか好きです"
+    },
+    {
+      "aliases": ["MOB SQUAD TOKYO"],
+      "position": "C29",
+      "links": ["http://ameblo.jp/mobsquadtokyo/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n国内外のハードコアテクノクリエイターの作品を多数紹介しています。"
+    },
+    {
+      "aliases": ["AsianDynasty Records"],
+      "position": "C30",
+      "links": ["http://www.asiandynasty.net"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nハードテクノ新作、TM NETWORKテクノ系トリビュート、廃墟萌えインダストリアル・テクノ等、「テクノ」なCDを頒布します！"
+    },
+    {
+      "aliases": ["ぷねうまレコード"],
+      "position": "C31",
+      "links": ["http://www.pneuma.sakura.ne.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n主に女性ボーカルでテクノポップのコンピレーションＣＤを作っています。FL-chan作者Uruidoさんも参加！"
+    },
+    {
+      "aliases": ["NSd."],
+      "position": "C32",
+      "links": ["http://nsd-official.info"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nチルアウト・ラウンジ風味の楽曲をお届けします。"
+    },
+    {
+      "aliases": ["curled-coil"],
+      "position": "C33",
+      "links": ["http://curled-coil.com"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nDrum'nBass/LiquidFunkもどきとかTranceもどきとか色々。"
+    },
+    {
+      "aliases": ["E.V."],
+      "position": "C34",
+      "links": ["http://qan.sakura.ne.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n狼と香辛料をイメージして作った音楽CD他、Trance・TechnoメインのオリジナルCD、智代アフターアレンジCDなどを頒布予定。"
+    },
+    {
+      "aliases": ["G.C.M Records"],
+      "position": "C35",
+      "links": ["http://www.gcmstyle.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nアンメルツPによるVOCALOIDオリジナル楽曲CDを頒布します。"
+    },
+    {
+      "aliases": ["P.B.R(ぱびぃろっく)"],
+      "position": "C36",
+      "links": ["http://pb6.blog9.fc2.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n音楽サークル「Ｐ．Ｂ．Ｒ（ぱびぃろっく）」のブログです。 ボカロオリジナルをハードにピュアに表現していきます。"
+    },
+    {
+      "aliases": ["GRASPER"],
+      "position": "C37",
+      "links": ["http://www.geocities.jp/sequence_grasper/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n2年ぶりの参加です。ミク&ルカのデュエット曲を含む新譜を頒布します。野郎2人組ユニットSQ-Rの新譜もあるかも!?"
+    },
+    {
+      "aliases": ["ELECTROCUTICA"],
+      "position": "C38",
+      "links": ["http://electrocutica.com"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n【完全変態】きもちわるくて　きもちいいものを　つくる。"
+    },
+    {
+      "aliases": ["KATACHI"],
+      "position": "C39",
+      "links": ["http://kataichi.blog91.fc2.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nKATAとTAICHIによるテクノポップ系ユニットです。ピコピコから激しいギターまで色々やります！（予定"
+    },
+    {
+      "aliases": ["もえ＠みくる"],
+      "position": "C40",
+      "links": ["http://moemikuru.web.fc2.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nオリジナル歌曲ゲスト多数サークル。ボーカロイド中心の活動でしたが今年から生の歌声に挑戦！ロリィタノイロォゼさんとのコラボもあります。"
+    },
+    {
+      "aliases": ["Estuary"],
+      "position": "C41",
+      "links": ["http://est.ceres.ne.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n変なオリジナル曲をVOCALOIDが元気いっぱいに歌います"
+    },
+    {
+      "aliases": ["Sound Factory Carolina"],
+      "position": "C42",
+      "links": ["http://carolina.web.infoseek.co.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nヘヴィメタルを軸としたオリジナル、ゲームアレンジをやってます。"
+    },
+    {
+      "aliases": ["Surround Attack"],
+      "position": "C43",
+      "links": ["http://surroundattack.web.fc2.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n幅広いジャンルのボーカロイド曲を取り揃えております"
+    },
+    {
+      "aliases": ["大だるみ"],
+      "position": "C44",
+      "links": ["http://www7b.biglobe.ne.jp/~o_darumi/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nボーカロイドのオリジナルCDを主に制作しております。"
+    },
+    {
+      "aliases": ["Floating Cloud"],
+      "position": "C45",
+      "links": ["http://floatingcloud.net/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n初音ミクのオリジナルポップと男性ボーカルオリジナルロックで活動中。ギターロックがウリです。"
+    },
+    {
+      "aliases": ["-skyclip-"],
+      "position": "C46",
+      "links": ["http://www.sky-clip.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nVOCALOID曲と小説を併せたものを頒布予定です"
+    },
+    {
+      "aliases": ["DragonTree"],
+      "position": "C47",
+      "links": ["http://dragontree.sakura.ne.jp"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n時に切なく時にノリノリ、鏡音リンのオリジナル第２弾新譜予定！他、オーガストと東方のアレンジを"
+    },
+    {
+      "aliases": ["Sonic Hybrid Orchestra"],
+      "position": "C48",
+      "links": ["http://sound.jp/s-h-omega/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nシンフォニックメタルなオリジナル・アレンジ（東方、FFなど）等いろいろやってます！"
+    },
+    {
+      "aliases": ["Ash Blind"],
+      "position": "C49",
+      "links": ["http://ashblind.smat.ne.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nVOCALOIDのオリジナルCDを制作しています。路線はオルタナ・メタル・バラードなど。"
+    },
+    {
+      "aliases": ["シマコー房"],
+      "position": "C50",
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n初参加です。オリジナルボカロアルバムやオリジナルElectronica系楽曲のＣＤの販売予定です。"
+    },
+    {
+      "aliases": ["まろ☆まろ"],
+      "position": "C51",
+      "links": ["http://maromaro-music.net"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n主に初音ミクオリジナル、たまにkey系アレンジを制作しています。"
+    },
+    {
+      "aliases": ["Senses Circuit"],
+      "position": "C52",
+      "links": ["http://www.senses-circuit.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n某社のサウンドクリエイターとして色々な作品のBGMや効果音を作っています。今回は歌い手に友人のココを迎え、初音ミクと一緒にポップで可愛い感じの作品を作れたらなぁと思っています。もちろんいつも通り全曲オリジナルでいきます。普段は自サイトでフリーのBGM、効果音等をメインに配布。今までに発表したCDの多くは素材としても利用可能です。"
+    },
+    {
+      "aliases": ["cityline90"],
+      "position": "C53",
+      "links": ["http://cityline90.web.fc2.com"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nオリジナルでボーカロイド、インストクラブ系&シューティングゲームBGMアレンジをやってるサークルです。"
+    },
+    {
+      "aliases": ["くたくた製作所"],
+      "position": "C54",
+      "links": ["http://blog.livedoor.jp/kutakuta_seisaku/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nＤＴＭでオリジナル作曲。VOCALOID使ったり、生楽器収録したり、おまけトラックに命かけてたり…。"
+    },
+    {
+      "aliases": ["ＦＭ おんげん美人局"],
+      "position": "C55",
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n初音ミクが歌うＦＭ音源の楽曲を出します"
+    },
+    {
+      "aliases": ["スタジオ 風月"],
+      "position": "C56",
+      "links": ["http://fugetsu.wordpress.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n初音ミク＋チップチューンとかイージーリスニング系インスト制作やってます！"
+    },
+    {
+      "aliases": ["CatStyles"],
+      "position": "C57",
+      "links": ["http://cat-styles.sakura.ne.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n音楽制作サークルＣａｔＳｔｙｌｅｓです。現在はアレンジ中心に好き勝手やってます。"
+    },
+    {
+      "aliases": ["clear quartz"],
+      "position": "C58",
+      "links": ["http://clearquartz.web.fc2.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n東方楽曲のメタル・ロック・プログレアレンジ。"
+    },
+    {
+      "aliases": ["瀬戸八十八夜"],
+      "position": "C59",
+      "links": ["http://seto8.web.fc2.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nヴォーカルだったら男性・女性・トランス・ロック・ジャズまで幅広く、机の上にはフィギュアのあるフリーダムサークルです。今回も見るだけでも！"
+    },
+    {
+      "aliases": ["WILD CAT RECORD"],
+      "position": "C60",
+      "links": ["http://wildcatrecord.bake-neko.net/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n主にHR・HM系のアレンジで活動してます。"
+    },
+    {
+      "aliases": ["Lost Garden"],
+      "position": "C61",
+      "links": ["http://lostgarden.coresv.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nKey、東方projectの楽曲を中心にハウス・トランスアレンジを作成しております"
+    },
+    {
+      "aliases": ["ポチとてぬぐひ"],
+      "position": "C62",
+      "links": ["http://members.ld.infoseek.co.jp/ma_kun1201/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n東方のアレンジを中心に、年速3mm位のペースで活動中・・・"
+    },
+    {
+      "aliases": ["Mundane BM"],
+      "position": "C63",
+      "links": ["http://www.hayasoft.com/tranqy/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nはじめまして、サークル、Mundane BM です。PRすることがない、とってもしがないサークルですが、ジャンルレスなＣＤを目指してます！"
+    },
+    {
+      "aliases": ["Digitalic Party"],
+      "position": "C64",
+      "links": ["http://digitalic-party.net"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n東方ボーカルアレンジアルバム頒布予定"
+    },
+    {
+      "aliases": ["そぉい（笑）"],
+      "position": "C65",
+      "links": ["http://www.soy-w.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nどうも、そぉい（笑）です。サークルメンバー3人の無節操なごった煮東方アレンジをしてますのでよろしければ是非とも。"
+    },
+    {
+      "aliases": ["M3tamix Records"],
+      "position": "C66",
+      "links": ["http://www.m3tamix.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n東方、STGトランスリミックスアルバム頒布予定です。"
+    },
+    {
+      "aliases": ["Carbonic Acid"],
+      "position": "C67",
+      "links": ["http://tansan.futene.net/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n東方HR/HMアレンジ！ギターインストの他、ゲストボーカルを招いての歌モノも！"
+    },
+    {
+      "aliases": ["Shadow Children"],
+      "position": "C68",
+      "links": ["http://www.wind.sannet.ne.jp/shadow_c/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n東方ブラバン応援アレンジ第2弾を頒布予定です！"
+    },
+    {
+      "aliases": ["ぶーにゃんぶーにょん"],
+      "position": "C69",
+      "links": ["http://ayase.parfe.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n旧COHCOA Projectです。新サークル「Firinity Factory」から東方フルボーカルアレンジアルバムを出すかもしれません！"
+    },
+    {
+      "aliases": ["Chroma"],
+      "position": "C70",
+      "links": ["http://cydec3.web.fc2.com/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nトランス、テクノを中心にオリジナルやらアレンジやら作ってます。"
+    },
+    {
+      "aliases": ["スキマ産業「桃色支部」"],
+      "position": "C71",
+      "links": ["http://momoirosibu.seesaa.net/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\n音に関する様々な作品を制作するサークルです。"
+    },
+    {
+      "aliases": ["Golden City Factory"],
+      "position": "C72",
+      "links": ["http://www.gcfactory.sakura.ne.jp/"],
+      "comments": "Block: [ C ] (音楽：オリジナル・カバー)\nPCゲームなどのリミックスを発表しています。"
+    },
+    {
+      "aliases": ["Sound∞Infinity"],
+      "position": "D01",
+      "links": ["http://soundinfinity.iza-yoi.net/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n４つ打ちの東方アレンジ。ハードコアテクノ多めです。"
+    },
+    {
+      "aliases": ["Foreground Eclipse"],
+      "position": "D02",
+      "links": ["http://www.fg-eclipse.net/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nエモ好きのエモ好きによるエモ好きのためのサークル。"
+    },
+    {
+      "aliases": ["kapparecords"],
+      "position": "D03",
+      "links": ["http://www5f.biglobe.ne.jp/~kapparecords/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n新作はオリジナル作品＋新ジャンルアレンジ作品に挑戦中。東方アレンジ再発予定。"
+    },
+    {
+      "aliases": ["文鳥Ｏｎｌｉｎｅ。"],
+      "position": "D04",
+      "links": ["http://buncholine.web.fc2.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n新作東方アレンジＣＤ『Suger+Strike』プレビュー版配布予定"
+    },
+    {
+      "aliases": ["FRONTIER CREATE"],
+      "position": "D05",
+      "links": ["http://www.frontier-create.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n東方Projectヴォーカルアレンジを頒布予定です。"
+    },
+    {
+      "aliases": ["鳩小屋"],
+      "position": "D06",
+      "links": ["http://hato-sp.sakura.ne.jp/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n東方projectのインストアレンジCDを予定してます。"
+    },
+    {
+      "aliases": ["firephlex productions"],
+      "position": "D07",
+      "links": ["http://firephlex.seesaa.net/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n踊れたり、実験的だったりする東方アレンジをやってます。"
+    },
+    {
+      "aliases": ["DESTRUCTIVE ANGEL"],
+      "position": "D08",
+      "links": ["http://www.destructive-angel.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nほとんど元「っ´Д｀)っゼロ式の家」です。メロディアス疾走壮大バリバリドキューンなシンフォニックやゲーム音楽要素を含んだメタルだとかユーロトランス寄りなそんなオリジナルとかアレンジとかやっとります。"
+    },
+    {
+      "aliases": ["minimum electric design"],
+      "position": "D09",
+      "links": ["http://miniele.web.fc2.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n東方ポストロック・エレクトロニカアレンジCD頒布"
+    },
+    {
+      "aliases": ["音遊人"],
+      "position": "D10",
+      "links": ["http://music.geocities.jp/chapemusic/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nあの曲のカバー！そしてプロがおりなすドラマＣＤ。。必見です＾＾"
+    },
+    {
+      "aliases": ["Whoopee!records"],
+      "position": "D11",
+      "links": ["http://www.whoopeerec.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nアニメソングやゲームミュージックのアレンジ"
+    },
+    {
+      "aliases": ["M@ximizE"],
+      "position": "D12",
+      "links": ["http://nasu-b.nsf.jp/maximize/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n「３和音アレンジ」シリーズ、今度は「アニメソングを３和音で表現してみた」です！"
+    },
+    {
+      "aliases": ["とらふえ屋"],
+      "position": "D13",
+      "links": ["http://torafue.web.fc2.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nリコーダー多重録音でアニソン等を演奏してます。４コマ原作アニメ曲、シムシティ(SFC)、MOSAIC.WAVなど。"
+    },
+    {
+      "aliases": ["クレバスランプ"],
+      "position": "D14",
+      "links": ["http://crevasselamp.net"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nアレンジときどきオリジナルを中心に制作。東方、なのはを予定。少数ですが無料配布CDもあります。"
+    },
+    {
+      "aliases": ["不気味社"],
+      "position": "D15",
+      "links": ["http://www.bukimi.com/maal/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nささめきこと・・・アイマス・・・ドレミファミ～ソ～レ～ソ～・・・"
+    },
+    {
+      "aliases": ["@n-Guilla Sounds"],
+      "position": "D16",
+      "links": ["http://blog.denpa100.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n「アニソン100連発　メガ電波ww」と題して、アニソンのカバー＆リミックスアルバムを１ヶ月に１枚（１０曲）を計１０枚リリース予定。（現在６枚リリース中。※4月現在）"
+    },
+    {
+      "aliases": ["LAL"],
+      "position": "D17",
+      "links": ["http://www.lalnet.info/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n取り扱いは、なのは、マクロスF、他アニソンのフルボイス、東方、Falcom です。"
+    },
+    {
+      "aliases": ["EtlanZ"],
+      "position": "D18",
+      "links": ["http://www.etlanz.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nファイナルファンタジー・サガ・聖剣伝説などのスクウェア系作品と、ファミコン・ＰＣエンジン・ＭＳＸと言ったレトロゲーム系まで、幅広いアレンジを行っている音楽サークルです。原曲のイメージを残しつつも、 現代の音で新鮮に楽しめるアレンジを目標にしています。また、CDの収録曲は、皆さんから頂いたリクエストにより決定し、どのCDもかなりのボリューム（曲数）でお楽しみ頂けます。"
+    },
+    {
+      "aliases": ["Carmina Lunae"],
+      "position": "D19",
+      "links": ["http://carminalunae.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n今回はイトケンもといSaGaシリーズアレンジをします！イトケン最高☆その他、聖剣シリーズ、ルドラの秘宝、ゼルダの伝説、オリジナルピアノなども取り扱っております。"
+    },
+    {
+      "aliases": ["ArtificialHeart"],
+      "position": "D20",
+      "links": ["http://artificial-heart.sakura.ne.jp/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n不景気を人工心臓が吹っ飛ばす！！"
+    },
+    {
+      "aliases": ["FoggyRoots"],
+      "position": "D21",
+      "links": ["http://k-fr.net/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n毎回適当なテーマと、ソレに沿っていれば何でもあり的なオムニバスを企画してたりしてなかったり。"
+    },
+    {
+      "aliases": ["むせのーと"],
+      "position": "D22",
+      "links": ["http://musenote.blog10.fc2.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nファルコム音楽アレンジイベントの主催もしております。"
+    },
+    {
+      "aliases": ["HYUTEC"],
+      "position": "D23",
+      "links": ["http://www.hyutec.jp/hyutec/hyutec.htm"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nニッチなゲームミュージックのアレンジCD作ってます！"
+    },
+    {
+      "aliases": ["f-clef"],
+      "position": "D24",
+      "links": ["http://ununu.nu/f-clef/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nゲーム音楽を 生楽器でやってます． 使用楽器は，主に マンドロンセロ，リコーダー，クラシックギターです． 他に，「全部ミク」もやってます．"
+    },
+    {
+      "aliases": ["GET IN THE RING"],
+      "position": "D25",
+      "links": ["http://takichaaaan.hp.infoseek.co.jp/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n新作は昔懐かしの「餓狼伝説シリーズ」のアレンジです。東方アレンジCDも頒布予定です。"
+    },
+    {
+      "aliases": ["C-hicken工房"],
+      "position": "D26",
+      "links": ["http://c-hicken.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n今回はロックマンのアレンジをやります。"
+    },
+    {
+      "aliases": ["Magical Trick Society"],
+      "position": "D27",
+      "links": ["http://www.magicaltrick.com"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nレトロゲームを中心としたゲーム音楽のアレンジアルバムを頒布しています。"
+    },
+    {
+      "aliases": ["aerophonon"],
+      "position": "D28",
+      "links": ["http://aerophonon.jp"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nすってはっくん アレンジCDをリリース予定"
+    },
+    {
+      "aliases": ["オリゴレコード"],
+      "position": "D29",
+      "links": ["http://origo-record.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n4つボタンゲームだけと思いきや、最近メンバーが趣味にはしり始めました"
+    },
+    {
+      "aliases": ["ぐうのねサウンズ"],
+      "position": "D30",
+      "links": ["http://www.studiosatuki.com/guunone/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nstudio皐改めぐうのねサウンズです！スーファミの名作音楽を商業作家の人達がこぞってアレンジ致します。"
+    },
+    {
+      "aliases": ["ぶらは堂本舗"],
+      "position": "D31",
+      "links": ["http://www.ykz909.net/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nゲーム音楽のCD-Rをアレンジで配布"
+    },
+    {
+      "aliases": ["salvation by faith records"],
+      "position": "D32",
+      "links": ["http://sbfr.info/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nM3春では地獄アレンジを出したsbfr、さて今回は…！？そもそも新作が出るのか…！？"
+    },
+    {
+      "aliases": ["柊サイコセラピー"],
+      "position": "D33",
+      "links": ["http://www.k3.dion.ne.jp/~s1999/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n主にSTGの曲をアレンジしています。今年はオリジナルも出せたらいいな。"
+    },
+    {
+      "aliases": ["七誌"],
+      "position": "D34",
+      "links": ["http://nanashi0089.web.fc2.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nまたメダロットアレンジなんかやってみたいなとか思っております。"
+    },
+    {
+      "aliases": ["MUSiC FANTASY TACTICS"],
+      "position": "D35",
+      "links": ["http://mft.exdeath.info/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nFFT・TAシリーズのオンラインアレンジ音楽イベントです。昨年秋開催した第5回の参加曲集を頒布予定です。"
+    },
+    {
+      "aliases": ["cy:cle"],
+      "position": "D36",
+      "links": ["http://www.cyle.biz/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n親切なミントさんの為に「２」作ります。デュープリズムアレンジです。"
+    },
+    {
+      "aliases": ["BPM:Maximum Creations"],
+      "position": "D37",
+      "links": ["http://bm-creations.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n相変わらずiM@Sな僕らですが、これからも多分そうです（笑）"
+    },
+    {
+      "aliases": ["あいりす☆どるふぃん"],
+      "position": "D38",
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nリトルバスターズ！ダ・カーポのイメージ、アレンジ楽曲　ライブを中心に活動を予定"
+    },
+    {
+      "aliases": ["Colis"],
+      "position": "D39",
+      "links": ["http://colis.jp"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n1年ぶりに新譜\"key \"アレンジの頒布。わふたー！あとレトロゲームアレンジも出ます。"
+    },
+    {
+      "aliases": ["laughing out loud"],
+      "position": "D40",
+      "links": ["http://lollol.client.jp/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nTrance, Techno, Pianoを中心とした楽曲や、ダンスミュージック等、様々なジャンルの楽曲を制作しています。"
+    },
+    {
+      "aliases": ["CM11"],
+      "position": "D41",
+      "links": ["http://www.cm11.net/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n某専門学校に通うメンバーで構成されたサークルです。それぞれの好みを表に出したマルチジャンルＣＤを頒布予定です。初参加となりますが、よろしくお願いします。"
+    },
+    {
+      "aliases": ["Usakichi.Mu"],
+      "position": "D42",
+      "links": ["http://usakichi-mu.info/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n前回配布しそこねたkanonアレンジを出します。他にもオリジナルCDや東方アレンジもありまっせ！"
+    },
+    {
+      "aliases": ["Zephyr Cradle"],
+      "position": "D43",
+      "links": ["http://www.zephyr-cradle.info/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nスクウェア、Key、空の軌跡などを中心に、原曲拡張～情熱的、民族的なアレンジで活動しています。"
+    },
+    {
+      "aliases": ["switchworks"],
+      "position": "D44",
+      "links": ["http://s1224.com"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nSOU1と愉快な仲間たち"
+    },
+    {
+      "aliases": ["Final Food Shoppings"],
+      "position": "D45",
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nジャンルを問わず、いろんな音楽でアレンジなどを作ります。"
+    },
+    {
+      "aliases": ["Singerly"],
+      "position": "D46",
+      "links": ["http://errant.mydns.to/singerly/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nゲームアレンジのコラボレーション！カップリングソングス頒布中"
+    },
+    {
+      "aliases": ["CREATION漁業組合"],
+      "position": "D47",
+      "links": ["http://oblivion.dip.jp/creation/index.htm"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nCreation Recordsとツンデレ漁業組合の合同サークルです"
+    },
+    {
+      "aliases": ["Link to you?"],
+      "position": "D48",
+      "links": ["http://kobe.cool.ne.jp/linker/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nTRANCE/Dance系インスト、Rock/POPSボーカルもの、VOCALOIDなど色々やってます"
+    },
+    {
+      "aliases": ["ヒメゴト。"],
+      "position": "D49",
+      "links": ["http://himegoto.sakura.ne.jp/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nメロディアスなヒメゴト。メタルのサウンドに、切ない恋心をのせて皆様のもとへお届けします☆メロスピ、ネオクラ要素が多めですが、メロディ重視＋女性ボーカルで、普段メタルを聴かない方でも聴きやすい楽曲になっていると思いますので、是非お立ち寄りください！"
+    },
+    {
+      "aliases": ["Sentire"],
+      "position": "D50",
+      "links": ["http://sentire.jp/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nオリジナルの歌ものやってます。新作を出す予定です"
+    },
+    {
+      "aliases": ["VELGA"],
+      "position": "D51",
+      "links": ["http://www.myspace.com/velgaktkr"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nVelforest.×Dragon Guardian　女性ボーカル／シンフォニック／メロデス／アニソン"
+    },
+    {
+      "aliases": ["Cinnamon Apple Tea"],
+      "position": "D52",
+      "links": ["http://cinnamonappletea.web.fc2.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nオリジナルのいわゆるガールズ・ロックをやっています。"
+    },
+    {
+      "aliases": ["sounio"],
+      "position": "D53",
+      "links": ["http://sounio.ehoh.net/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n激しめのインストロックをお探しの方。既刊共々よろしくお願いします。"
+    },
+    {
+      "aliases": ["苅田狼藉"],
+      "position": "D54",
+      "links": ["http://choybalsan.at.infoseek.co.jp/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n基本、男二人が気持ち悪い歌を気持ち悪い声で気持ちよく歌う集団です。最近は女性ボーカルやボーカロイドが歌ってます。"
+    },
+    {
+      "aliases": ["namefault"],
+      "position": "D55",
+      "links": ["http://namefault.com"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n心に痛みを残す曲を作りたいです。"
+    },
+    {
+      "aliases": ["LesJours"],
+      "position": "D56",
+      "links": ["http://lesjours.net"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n2回目参加です！女性ボーカルのV系アニメ系楽曲を製作しています。"
+    },
+    {
+      "aliases": ["AmaTeras"],
+      "position": "D57",
+      "links": ["http://ama-teras.com"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nヴィジュアルロックとトランスに拘った、男性＆女性ヴォーカルによるオリジナルCDを配布中。"
+    },
+    {
+      "aliases": ["Gravel"],
+      "position": "D58",
+      "links": ["http://gravelhp.web.fc2.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nヴィジュアル系インスパイアな同人音楽で活動しています。"
+    },
+    {
+      "aliases": ["SILVER TORNADO"],
+      "position": "D59",
+      "links": ["http://silvertornado.holy.jp/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n透き通る女性Voが奏でる壮大なメタル+アニソンのユニット♪　関西にてライブ活動中＆CD発売中★　あなたはこのメロディの竜巻に耐えられるか…"
+    },
+    {
+      "aliases": ["ROUTE-ZERO"],
+      "position": "D60",
+      "links": ["http://karmart.sakura.ne.jp/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n東方アレンジetcで活動するサークル「KARMART」のtechi.kによる、オリジナル中心のNEW PROJECT。ジャンルの観念に囚われないロック・ミュージックをお届けします。"
+    },
+    {
+      "aliases": ["CrossWish〔一貴堂〕"],
+      "position": "D61",
+      "links": ["http://kazukidou.web.fc2.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n女性ヴォーカル＆キャラクターセリフ。ヴィジュアル系やハードロック、メタル寄りの耽美主義な方や、アニソン系のキャッチーでＰＯＰな歌メロが好きな方は特に楽しめる音を追求"
+    },
+    {
+      "aliases": ["無菌シロクマ"],
+      "position": "D62",
+      "links": ["http://mukin-shirokuma.net/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nシロクマ音響エレクトロニック９０年代ポップス"
+    },
+    {
+      "aliases": ["roxie"],
+      "position": "D63",
+      "links": ["http://roxie.bbbjp.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nヴィジュアル系を基調に、オーケストラや民族音楽を融合させたV系プロジェクト"
+    },
+    {
+      "aliases": ["SPARESPINE"],
+      "position": "D64",
+      "links": ["http://sparespine.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nギター、ベース、ドラムを生演奏でメロディアスなヘヴィメタルをやってます。"
+    },
+    {
+      "aliases": ["CN2&TEAR*"],
+      "position": "D65",
+      "links": ["http://mure.sakura.ne.jp/cn2/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n少女や色、女王様等をキーワードに幻想的or激しい歌曲CDを作っています。"
+    },
+    {
+      "aliases": ["APAZOME"],
+      "position": "D66",
+      "links": ["http://www.apazome.net/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nポストロック、エレクトロニカを中心に活動しています。"
+    },
+    {
+      "aliases": ["Shokun Hellharmonic Orchestra"],
+      "position": "D67",
+      "links": ["http://www.myspace.com/shokunhell"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nクラシックの名曲をオーケストラ＋バンド＋サンプリングでロック・メタル・ヒップホップなどにアレンジしています。"
+    },
+    {
+      "aliases": ["Collage Musica Horic"],
+      "position": "D68",
+      "links": ["http://www.cm-horic.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nギターがキラリと光る、女性ボーカルメインのバンド系ミュージックを制作しています。新作&無料配布CDアリ！"
+    },
+    {
+      "aliases": ["あめのむらくも"],
+      "position": "D69",
+      "links": ["http://www.amenomurakumo.net"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n『疾走する旋律』をテーマに、独自の世界観をクサメタルで描きます。"
+    },
+    {
+      "aliases": ["べろシティ"],
+      "position": "D70",
+      "links": ["http://www.berocity.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\nナマコ食べたことありますか？　あんな感じです"
+    },
+    {
+      "aliases": ["神風小町"],
+      "position": "D71",
+      "links": ["http://www.geocities.jp/yoneyamabasist/kakihito/top.html"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n和風・ゴシック・デジタルビート等を取り入れた、女性ヴォーカルのロックをやっています。"
+    },
+    {
+      "aliases": ["TATAMI STUGIWO"],
+      "position": "D72",
+      "links": ["http://www.tatami-st.com/"],
+      "comments": "Block: [ D ] (音楽：オリジナル・カバー)\n毎度おなじみTATAMI STUGIWOです。オリジナル音楽中心に頒布致します。"
+    },
+    {
+      "aliases": ["SUNRISE FACTORY"],
+      "position": "E01",
+      "links": ["http://sunrisefactory.sakura.ne.jp/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nバンド出身のアーティスト達による、ギターインストアルバムを制作。"
+    },
+    {
+      "aliases": ["Fabulatore"],
+      "position": "E02",
+      "links": ["http://www.fabulatore.com"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n男声ヴォーカル主体で、歌あり、語りあり、ロックから民族音楽まで幅広いジャンルの楽曲を詰め込んだ珠玉の一作、Fabulatore Demo album 「Littera」　どうぞ、お楽しみください！"
+    },
+    {
+      "aliases": ["Valhalla"],
+      "position": "E03",
+      "links": ["http://www.val-halla.net"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nゴシックを基盤とし、独特の世界を作っています。"
+    },
+    {
+      "aliases": ["SWORD OF JUSTICE"],
+      "position": "E04",
+      "links": ["http://www.soj.razor.jp/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nHR/HMを中心とした女性ヴォーカル曲やインスト曲をやっています。"
+    },
+    {
+      "aliases": ["Engage Blue"],
+      "position": "E05",
+      "links": ["http://www.engageblue.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n胡散臭い似非退廃ロックやらハードコアを節操無く。"
+    },
+    {
+      "aliases": ["Margall"],
+      "position": "E06",
+      "links": ["http://margall.s228.xrea.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n5thアルバム「Sol-Lit 」から約1年の時を経て・・・最新6thアルバム「RELOAD」を発表！！今までとは違う、新生Margallの音楽にアナタはどこまで曲がれるか！？"
+    },
+    {
+      "aliases": ["takrockers!!"],
+      "position": "E07",
+      "links": ["http://takrockers.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\ntakrockers!!って知ってるかい。中略。ボヤボヤしてると後ろからバッサリだ！どっちもどっちも！どっちもどっちも！"
+    },
+    {
+      "aliases": ["Sprite Wing"],
+      "position": "E08",
+      "links": ["http://spritewing.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nオリジナル男女ボーカルCDを作っています。"
+    },
+    {
+      "aliases": ["lunetia"],
+      "position": "E09",
+      "links": ["http://www.myspace.com/lunetiamusic"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nニコ動歌い手の『neko』と『ルシュカ』のユニットです！オリジナルのスクリーモ、エモ等をやってます！"
+    },
+    {
+      "aliases": ["10-Gallon"],
+      "position": "E10",
+      "links": ["http://10-gallon.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n今回の10-Gallonはオリジナル曲に挑戦！今までの東方アレンジとは一味違う10-Gallonをお試しあれ！"
+    },
+    {
+      "aliases": ["COMA WHITE MUSIC"],
+      "position": "E11",
+      "links": ["http://www43.tok2.com/home/comawhite/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nインダストリアルメタルな音にヘヴィなギターを重ね、打ち込みで色をつけた楽曲を作成しております。VOCALOID作品も発売予定です。"
+    },
+    {
+      "aliases": ["Fluorite"],
+      "position": "E12",
+      "links": ["http://www.geocities.jp/tsui_bass/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nAXBITES、ex-GalneryusのBassのTsui率いる、女性Voのメロディックへヴィメタルバンド"
+    },
+    {
+      "aliases": ["楽園バニシュ"],
+      "position": "E13",
+      "comments": "Block: [ E ] (音楽：オリジナル)\n叙情的なオリジナル音楽を制作しています。"
+    },
+    {
+      "aliases": ["神楽坂一丁目通信局"],
+      "position": "E14",
+      "links": ["http://www.ed.kagu.tus.ac.jp/~tbn/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n東京理科大学の創作系サークル(通称：かぐちょ)の音楽部門です。パソコンを使って作曲しています。オリジナルCDを販売します。"
+    },
+    {
+      "aliases": ["夢月まりあ"],
+      "position": "E15",
+      "links": ["http://mariataso.com"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n声優やりながら細々とシンガーソングライターとしてオリジナル曲作ってます"
+    },
+    {
+      "aliases": ["かるしゅ～みゅ"],
+      "position": "E16",
+      "links": ["http://calshu-myu.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nコンピュータアート研究会のDTM班として活動しています。"
+    },
+    {
+      "aliases": ["タドスケン・ファクトリー3号店"],
+      "position": "E17",
+      "links": ["http://atmosound.net/karikari/mochimochi.html"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nポップス好きのタドスケと、クラシック好きのケンの合同サークルです。"
+    },
+    {
+      "aliases": ["ミュゼット物語Ⅱ"],
+      "position": "E18",
+      "links": ["http://www.musettestories.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n豪華声優陣を起用したアコーディオンファンタジーPOPS。"
+    },
+    {
+      "aliases": ["Ｔｅａｍ．▼"],
+      "position": "E19",
+      "links": ["http://teamdelta.web.fc2.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n作曲家３人組の音楽サークル。ジャンルも多岐にわたり、多様な女性Voを起用"
+    },
+    {
+      "aliases": ["33.turbo"],
+      "position": "E20",
+      "links": ["http://33turbo.blog.shinobi.jp/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nあなたを元気に！電波やアニソンカバーやってます"
+    },
+    {
+      "aliases": ["Chrono Gram"],
+      "position": "E21",
+      "links": ["http://www.chrono.sakura.ne.jp/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nオリジナル音楽・ゲーム制作サークルです。今回は音楽CDを配布します。"
+    },
+    {
+      "aliases": ["風ノ音堂"],
+      "position": "E22",
+      "links": ["http://www.kazenonedou.com"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n“水のある風景”をテーマにしたアルバムを頒布予定です。"
+    },
+    {
+      "aliases": ["吉田御殿"],
+      "position": "E23",
+      "links": ["http://jirohendrix.sakura.ne.jp/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nゆうくんちゃん、ポリフォニカ、アトリエかぐや等の音楽で知られる吉田仁郎の趣味サークル。今回は多分女性ボーカルもの。"
+    },
+    {
+      "aliases": ["ホームラウンド"],
+      "position": "E24",
+      "links": ["http://16.xmbs.jp/homeround/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n日常ファンタジーをテーマに活動しているユニットです。創作漫画サークルR-PANDAとのコラボレーション企画第3弾CDを配布します！"
+    },
+    {
+      "aliases": ["God's sake"],
+      "position": "E25",
+      "links": ["http://nihilism.hanagasumi.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n切ない系、ボーカルＣＤ配布します。　初のオリジナル曲も参入予定★"
+    },
+    {
+      "aliases": ["ろしあんブラック"],
+      "position": "E26",
+      "links": ["http://www.russian-black.com"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nオリジナルボーカルＣＤ等を製作しています。曲調はポップス・ロックが主です。初参加ですが頑張りますので、よろしくお願いします。"
+    },
+    {
+      "aliases": ["muon"],
+      "position": "E27",
+      "links": ["http://neko.mokuren.ne.jp/yuzuki/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nオリジナル音楽創作サークルです。"
+    },
+    {
+      "aliases": ["安心な僕ら。"],
+      "position": "E28",
+      "links": ["http://yokare.sakura.ne.jp/ansin_bokura/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nメガネ男子ポップの新作を予定しています。"
+    },
+    {
+      "aliases": ["Nearsighted Pear Latte"],
+      "position": "E29",
+      "links": ["http://nearsightedpearlatte.fc2.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nM3には初参加です！アルバムが出・・・したいです（希望）！"
+    },
+    {
+      "aliases": ["れいんふぉれすと"],
+      "position": "E30",
+      "links": ["http://rainforest.harmony.fm/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n女性ボーカリスト暮月夕可をフィーチャーしたマキシＣＤリリース"
+    },
+    {
+      "aliases": ["ADIEU"],
+      "position": "E31",
+      "links": ["http://www.a-dieu.jp/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nみんなで良い作品を作る為に頑張っています"
+    },
+    {
+      "aliases": ["Plan Melodica"],
+      "position": "E32",
+      "links": ["http://www.sound-libero.net/planmelodica.html"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n女性ボーカルの音楽製作ユニットです。ＰＣゲーム主題歌への楽曲提供、デジタルポップ・テクノ等を中心にオリジナル曲を制作しています。"
+    },
+    {
+      "aliases": ["THE多摩川（仮）"],
+      "position": "E33",
+      "links": ["http://tamagawa.k-free.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n2010年10回目の参加となるM3では10作目記念ということで初のプレス盤CDで頒布します。中身はM3でおなじみの歌姫達が歌ってくれているガールズコンピレーションです。"
+    },
+    {
+      "aliases": ["The Spring Beach Works."],
+      "position": "E34",
+      "links": ["http://www.haruhama.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nこんにちは、The Spring Beach Works.です。女声ボーカル曲をメインに、やりたいものはなんでもありのノンジャンルで活動してます。"
+    },
+    {
+      "aliases": ["Orange Music"],
+      "position": "E35",
+      "links": ["http://orangemusic.syncl.jp/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n女性ボーカル中心の曲作りを行っています！アイドルCDの委託販売も行います。"
+    },
+    {
+      "aliases": ["ArcadiaHearts"],
+      "position": "E36",
+      "links": ["http://arcadiamusic.web.fc2.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n毎回物語やテーマに基づきながら、ファンタジー、ゴシックヒーリングに傾いた音楽を制作中。M3初参加、新譜頒布予定です。宜しくお願いします☆"
+    },
+    {
+      "aliases": ["東京農工大学　作曲・DTMサークル"],
+      "position": "E37",
+      "links": ["http://cctat.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n創設から3年目を迎える農工大の作曲サークルです。ジャンルにこだわらず、自由に楽曲を制作しています。新作と旧作ちょこっとを頒布予定です。"
+    },
+    {
+      "aliases": ["ももみかん"],
+      "position": "E38",
+      "links": ["http://momomikan.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nオリジナル女性ボーカルミニアルバム「ふるーつぽんち」頒布します。元気をお届け☆を目標に活動中です！"
+    },
+    {
+      "aliases": ["安井麗之"],
+      "position": "E39",
+      "links": ["http://www.rino-y.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nキュン…と前向きになれる唄。女性ボーカル。オリジナルのポップス。ゲーム主題歌をイメージした楽曲やゲームへのオマージュ的作品など。"
+    },
+    {
+      "aliases": ["Spround"],
+      "position": "E40",
+      "links": ["http://www.pontora.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n主にオリジナル楽曲を制作しています。"
+    },
+    {
+      "aliases": ["てくてく"],
+      "position": "E41",
+      "links": ["http://tekuteku.pupu.jp/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n昭和のアニメソング等を愛する、ソロシンガー愛甲ミカのＣＤがあります♪"
+    },
+    {
+      "aliases": ["E-MP"],
+      "position": "E42",
+      "links": ["http://emp6319.seesaa.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n今回は生歌と久々のインスト！予定！"
+    },
+    {
+      "aliases": ["Pianos DauGe"],
+      "position": "E43",
+      "links": ["http://pianosdauge.org"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n架空の町“ヘイセイ町”を舞台にした二匹のネコの物語。綺麗なボーカルアルバムです。"
+    },
+    {
+      "aliases": ["boo.pro"],
+      "position": "E44",
+      "links": ["http://odayu.boo.jp/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nユニットVOSTOK９の新作や、オリジナル作品を中心に上質な作品を目指しています"
+    },
+    {
+      "aliases": ["G protein-coupled receptor"],
+      "position": "E45",
+      "comments": "Block: [ E ] (音楽：オリジナル)\nオリジナルのボーカル曲を作っているサークルです。"
+    },
+    {
+      "aliases": ["エルゴノミクステンポ"],
+      "position": "E46",
+      "links": ["http://ertempo.skr.jp"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n新作アルバムを頒布します♪"
+    },
+    {
+      "aliases": ["Hal on Pax"],
+      "position": "E47",
+      "links": ["http://halonpax.blog65.fc2.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nジャンルを問わないオリジナル楽曲の制作を行っております。"
+    },
+    {
+      "aliases": ["i:vy"],
+      "position": "E48",
+      "links": ["http://i-vy.info/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n50年先に聴いても色褪せないような、暖かくなるような、ちょっぴり切ないような、そんな幸せなメロディを探してます。届いたらいいな♪"
+    },
+    {
+      "aliases": ["tsundeRECords"],
+      "position": "E49",
+      "links": ["http://shiro-suku.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nロック・エレクトロニカを主体とした女性ボーカルを作ってます。ボイスCDも作っています！"
+    },
+    {
+      "aliases": ["petit four"],
+      "position": "E50",
+      "links": ["http://petitfourttm.blog117.fc2.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n綾倉盟と市松椿によるボーカルユニット。小さな幸せを、あなたに。"
+    },
+    {
+      "aliases": ["サークルKSK"],
+      "position": "E51",
+      "links": ["http://circle010ksk.web.fc2.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nピアノ＋女性ボーカル（ゲスト）によるオリジナル曲を頒布予定"
+    },
+    {
+      "aliases": ["うたたねりんご"],
+      "position": "E52",
+      "links": ["http://www.ab.cyberhome.ne.jp/~utataneringo/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n朱色と飛鳥硝子による音楽ユニットです。オリジナルのポップスやロックを作っています。切なくて激しい曲や、女性ヴォーカルの熱い曲が聴きたい方は是非試聴にいらしてください♪"
+    },
+    {
+      "aliases": ["ももじゃむ"],
+      "position": "E53",
+      "links": ["http://yuririn.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n80年代の正統派なアイドルポップスとアニソンカバーのＣＤを作ってます。"
+    },
+    {
+      "aliases": ["くじら音楽部"],
+      "position": "E54",
+      "links": ["http://kujira-ongaku.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nピコピコキュートでキャッチーな楽曲を揃えています"
+    },
+    {
+      "aliases": ["AP Sounds"],
+      "position": "E55",
+      "links": ["http://www.ap-sounds.com"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nボイスドラマ企画等へ提供した楽曲を集めたアルバム第二弾を発表します。沢山の歌い手様、作詞家様に参加頂いた、ファンタスティックで素敵なアルバムです。"
+    },
+    {
+      "aliases": ["Mille Face"],
+      "position": "E56",
+      "links": ["http://www.milleface.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n女性ボーカルによるオリジナル。ポップ、ロック、エレクトロニカ、民族等。マスコットニョロリンのCDもあり。"
+    },
+    {
+      "aliases": ["M●THERsDAY"],
+      "position": "E57",
+      "links": ["http://sound.jp/mothers/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nM●THERsDAY」は、ピアノと女性ヴォーカルを中心とした打ち込みPOPユニットです。オリジナルをメインにカバー曲等、様々なジャンルに挑戦しています"
+    },
+    {
+      "aliases": ["こより"],
+      "position": "E58",
+      "links": ["http://pop-united.jp/koyori/m/index.html"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nメタル好きとポップス好きがバンド組んでるイカとキノコのエレメンタル「こより」です。"
+    },
+    {
+      "aliases": ["Pajama-Party"],
+      "position": "E59",
+      "links": ["http://www.pajama-music.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nPajama-Partyは歌ものを中心に幅広い曲調のオリジナルを作っているサークルですー。ぱじゃまー！"
+    },
+    {
+      "aliases": ["Armonia"],
+      "position": "E60",
+      "links": ["http://armonia.seesaa.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nM3春に向けて女性ボーカル物の新譜を制作中です。今回の作品のテーマは\"ココロ奮わすメロディアスなファンタジー！\"です。ぜひお立ち寄りください。"
+    },
+    {
+      "aliases": ["coolpeche"],
+      "position": "E61",
+      "links": ["http://park17.wakwak.com/~one/coolpeche/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\nヘタリアのイメージソング二次創作　ボーカルアルバム作ってます。"
+    },
+    {
+      "aliases": ["SOLSTiTiALIS"],
+      "position": "E62",
+      "links": ["http://www.solstitialis.com/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n楽曲と物語によって独特の世界観を創作する音楽グループ。絵本のような微睡みの世界が、どうかあなたに降りそそぎますように・・・"
+    },
+    {
+      "aliases": ["Re:harmonize"],
+      "position": "E63",
+      "links": ["http://reharmonize.net/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n情景の見える音楽をテーマにてろてろやっています。"
+    },
+    {
+      "aliases": ["はぴねす"],
+      "position": "E64",
+      "links": ["http://happiness.rash.jp/voice/"],
+      "comments": "Block: [ E ] (音楽：オリジナル)\n女性ボーカルオリジナル曲を自作して頒布しています！"
+    },
+    {
+      "aliases": ["SOUND HOLIC"],
+      "position": "F01",
+      "links": ["http://www.sound-holic.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方アレンジCDやDVD等の頒布を予定しております！"
+    },
+    {
+      "aliases": ["XOTIC"],
+      "position": "F02",
+      "links": ["http://www.s3n-music.com"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nかっこいいロック目指してます。"
+    },
+    {
+      "aliases": ["Unlucky Morpheus"],
+      "position": "F03",
+      "links": ["http://sound.jp/ankimo/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n悶絶必至の東方テクニカルメロディックスピードメタルアレンジです。"
+    },
+    {
+      "aliases": ["∞INFINITY∞"],
+      "position": "F04",
+      "links": ["http://infinity-web.syncl.jp/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方ロックアレンジのサークルです！"
+    },
+    {
+      "aliases": ["Girl's short hair"],
+      "position": "F05",
+      "links": ["http://girlsshorthair.iaigiri.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nガールでロックな短髪少女です。(メンバーは全員男です)"
+    },
+    {
+      "aliases": ["豚乙女"],
+      "position": "F06",
+      "links": ["http://butaotome.web.fc2.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方フルヴォーカルアレンジＣＤ出来ました。ピアノロックが好きな方に聞いてもらいたい、大人のロックです。"
+    },
+    {
+      "aliases": ["TUMENECO"],
+      "position": "F07",
+      "links": ["http://nameya.s269.xrea.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nメロコアパンクなボーカルアレンジCDを製作予定です"
+    },
+    {
+      "aliases": ["DDBY"],
+      "position": "F08",
+      "links": ["http://ddby.jp/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nClubサウンドを意識したDrum'n'Bass、ブレイクビーツアレンジ。"
+    },
+    {
+      "aliases": ["かくてるM49"],
+      "position": "F09",
+      "links": ["http://cocktail-m49.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n今回は東方アレンジかオリジナルの会場限定CD-R的なものを持っていければと思っております。"
+    },
+    {
+      "aliases": ["右京屋"],
+      "position": "F10",
+      "links": ["http://ukyouya.web.fc2.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方アレンジやオリジナル作品を制作しています。"
+    },
+    {
+      "aliases": ["38BEETS"],
+      "position": "F11",
+      "links": ["http://www.38beets.net/index.html"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方Project中心アレンジサークル、主にトランス等ダンス系アレンジをメインとして活動"
+    },
+    {
+      "aliases": ["Alice Music"],
+      "position": "F12",
+      "links": ["http://alicemusic.ciao.jp/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n38BEETSと合同でフルボーカルアルバム出します♪"
+    },
+    {
+      "aliases": ["彩音 ～xi-on～"],
+      "position": "F13",
+      "links": ["http://xion.art-studio.cc/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方アレンジ楽曲・VOCALOIDオリジナル楽曲を発表しています。"
+    },
+    {
+      "aliases": ["rythmique"],
+      "position": "F14",
+      "links": ["http://rythmique.mu-sic.jp/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方Projectの曲をアレンジしています。今回のテーマはディスコです。"
+    },
+    {
+      "aliases": ["Cis-Trance"],
+      "position": "F15",
+      "links": ["http://technetium.jp/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方でJUMPSTYLE!!!!どこまでできるかチャレンジ！！"
+    },
+    {
+      "aliases": ["IRON ATTACK!"],
+      "position": "F16",
+      "links": ["http://sound.jp/ironchino/attack.html"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方HM/HRアレンジCD"
+    },
+    {
+      "aliases": ["efs"],
+      "position": "F17",
+      "links": ["http://efs.holy.jp/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方projectアレンジアルバムを中心にボーカル曲を制作。"
+    },
+    {
+      "aliases": ["Silver Forest"],
+      "position": "F18",
+      "links": ["http://www.silver--forest.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方アレンジCD作ってます"
+    },
+    {
+      "aliases": ["Kraster"],
+      "position": "F19",
+      "links": ["http://kraster.jp"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方フルボーカルアレンジサークルです。女声、男声ともにあり。"
+    },
+    {
+      "aliases": ["Azure&Sands"],
+      "position": "F20",
+      "links": ["http://bunbun-aya.ath.cx/~tainokobone/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n楽しい東方アレンジかもしれない。"
+    },
+    {
+      "aliases": ["Sound Online"],
+      "position": "F21",
+      "links": ["http://soundonline.info/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n東方楽曲のクラブアレンジ、及びオリジナル"
+    },
+    {
+      "aliases": ["-PF AUDIO-"],
+      "position": "F22",
+      "links": ["http://ameblo.jp/pfaudio/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nおそらく新作を頒布します"
+    },
+    {
+      "aliases": ["AYUTRICA"],
+      "position": "F23",
+      "links": ["http://ayutrica.s-lea.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n「音楽を通して一つの世界を表現」をテーマとして活動している同人音楽サークルです。透明感のあるヴォーカルと、バンドサウンドを主体にオーケストラ・アンサンブルと荘厳なクワイアーが絡む、リアリティーのあるサウンドをお楽しみください！"
+    },
+    {
+      "aliases": ["5150"],
+      "position": "F24",
+      "links": ["http://ryu-5150.jp/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n久々のオリジナルCDを出します。シンフォニック東方Ⅲ-先行版-もアリ。"
+    },
+    {
+      "aliases": ["Souwer cherry"],
+      "position": "F25",
+      "links": ["http://www.souwer.net/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n女性ボーカル・Souwer個人サークル。熱く切なく激しくをモットーに作成したオリジナルＣＤを頒布してます。"
+    },
+    {
+      "aliases": ["C.H.S"],
+      "position": "F26",
+      "links": ["http://www.c-h-s.net/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nハードコアのようなそうでないようなオリジナルとアレンジ"
+    },
+    {
+      "aliases": ["999 Recordings"],
+      "position": "F27",
+      "links": ["http://www.technorch.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nハードテクノ・ハードダンス・ハードコアテクノCD制作 / 同人音楽及びDJ入門書籍"
+    },
+    {
+      "aliases": ["UOM Records"],
+      "position": "F28",
+      "links": ["http://www.voiceblog.jp/kimu25/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nハードコアを中心に様々な四つ打ちクラブ、ダンスミュージックなどを製作しています。クラブイベントなどで実際に使用出来るトラック作成に励んでいます。"
+    },
+    {
+      "aliases": ["Exhausted Record"],
+      "position": "F29",
+      "links": ["http://www.exhaustedrecord.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n気が付けば活動5年目になっていました。私も年老いていました。"
+    },
+    {
+      "aliases": ["大江戸宅急便"],
+      "position": "F30",
+      "links": ["http://www.ooedo.jp"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nボカロCDと、金町新作があるといいな　いいなぁー。"
+    },
+    {
+      "aliases": ["けしスタジオ"],
+      "position": "F31,F32",
+      "links": ["http://sincere.ddo.jp"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nオムニバスCDやゲームアレンジなど"
+    },
+    {
+      "aliases": ["ちょむ工房"],
+      "position": "F33",
+      "links": ["http://www.chomkoubou.com"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nVOCALOIDを使ったPOP&ROCKなオリジナルアルバムと、新作はボカロでレトロゲームカバーの予定"
+    },
+    {
+      "aliases": ["STYLE.S"],
+      "position": "F34",
+      "links": ["http://www.s-style.tv/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nSHUNでございます,ボーカロイドでのオリジナル作品が主っス!"
+    },
+    {
+      "aliases": ["Magicberry Fields"],
+      "position": "F35",
+      "links": ["http://magicberry.nobody.jp/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n初音ミクによるラブソング集「Never...キミのすべてを」を頒布予定です。"
+    },
+    {
+      "aliases": ["放浪茶屋"],
+      "position": "F36",
+      "links": ["http://members.ld.infoseek.co.jp/vjirian/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\n今回の新作ＣＤは、今までと若干雰囲気の違う楽曲達になっています。"
+    },
+    {
+      "aliases": ["5/4TAKEPOD"],
+      "position": "F37",
+      "links": ["http://www.sf.airnet.ne.jp/tkst/takepod"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nデＰか！槇タケポンか！それが問題だ！"
+    },
+    {
+      "aliases": ["S.C.X"],
+      "position": "F38",
+      "links": ["http://scx-ct.net/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nオリジナルの歌モノやクラブ系トラックを制作しています。"
+    },
+    {
+      "aliases": ["イオシス"],
+      "position": "F39,F40",
+      "links": ["http://www.iosysos.com/"],
+      "comments": "Block: [ F ] (音楽：オリジナル・カバー)\nいろいろやってますが、音楽中心です。"
+    },
+    {
+      "aliases": ["CLOSED/UNDERGROUND"],
+      "position": "G01,G02",
+      "links": ["http://www.rekka.jp/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n内輪ネタから壮大世界系まで、そのとき気分が乗ったものを中心に、ジャンル問わず作っています。"
+    },
+    {
+      "aliases": ["Project Nostalgia / 作ってみた業者"],
+      "position": "G03",
+      "links": ["http://nostalgia.takap.tk/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nVOCALOIDのおっさんホイホイアルバムを頒布。その他ドラマＣＤ、ラジオＣＤ等も"
+    },
+    {
+      "aliases": ["おさむらい部"],
+      "position": "G04",
+      "links": ["http://osamuraisan.com"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nニコニコ動画で知っている人は知っている『アコギでロックしてみた』のおさむらいさんが、名曲を好き勝手にアレンジ。ロックはしたりしなかったり。"
+    },
+    {
+      "aliases": ["リサレコ"],
+      "position": "G05,G06",
+      "links": ["http://lisa-rec.net/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nすぃ☆ぱら新作カバーCD、新作ゲームのデモやボカロ曲等てんこもりです。"
+    },
+    {
+      "aliases": ["LOOPCUBE"],
+      "position": "G07",
+      "links": ["http://loopcube.net"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nまた一年ぶりの参加となります、LOOPCUBEです。"
+    },
+    {
+      "aliases": ["おちゃのこSTUDIO"],
+      "position": "G08",
+      "links": ["http://studi-o.nankairoiro.com/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nflashゲームとボイスドラマと音楽CD（・ｖ・*）無料配布もあり"
+    },
+    {
+      "aliases": ["GWAVE"],
+      "position": "G09,G10",
+      "links": ["http://gwave.surpara.com/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nPC美少女ゲーム系音楽CDを販売しています"
+    },
+    {
+      "aliases": ["CLOCK MUSIC"],
+      "position": "G11",
+      "links": ["http://clock-music.net/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n「駿太」「52度の彼方」に続く、犬猫ＣＤ第３弾。"
+    },
+    {
+      "aliases": ["KENZO-STUDIO"],
+      "position": "G12",
+      "links": ["http://www.kenzo-studio.com/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n現在製作中のオリジナルＡＤＶゲームのイメージアルバムを頒布します。"
+    },
+    {
+      "aliases": ["THE KEEPERS"],
+      "position": "G13",
+      "links": ["http://marii-k.com/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nスペインTV、英国BBCも大絶賛のライブパフォーマンスを誇る、歌って、踊って、コントができる、ダンスアイドルユニット『THE KEEPERS』"
+    },
+    {
+      "aliases": ["OnlineProject"],
+      "position": "G14",
+      "links": ["http://blog.livedoor.jp/onlineproject/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n初参加です。オリジナル曲を配布予定です。"
+    },
+    {
+      "aliases": ["クランベリースタジオ"],
+      "position": "G15,G16",
+      "links": ["http://www.cranberry-studio.com/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nオリジナル女性ボーカルを中心に活動しています。今年は美弥乃静、永井真衣、妄想spica☆などのアーティストのアルバムを制作予定です。"
+    },
+    {
+      "aliases": ["へっどほんトーキョー"],
+      "position": "G17",
+      "links": ["http://headphone-tokyo.com/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nとくPによるボーカロイドオリジナル楽曲他　　新譜予定"
+    },
+    {
+      "aliases": ["電脳空間カウボーイズ"],
+      "position": "G18",
+      "links": ["http://keith.weblogs.jp/cyberspace/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nPodcast「アキバ系！電脳空間カウボーイズ」を配信している電脳空間カウボーイズです。Podcastの過去配信分、番組中で紹介したオリジナル・サイバースペースミュージックをパッケージングして領布予定！"
+    },
+    {
+      "aliases": ["ザラスドットコム"],
+      "position": "G19",
+      "links": ["http://www.zarasu.com/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n新作は２Dのオリジナルロボットアクション「超法戦隊S.T.7[エスティーセブン]」プロモーションアニメの予定です。"
+    },
+    {
+      "aliases": ["irodori"],
+      "position": "G20",
+      "links": ["http://www.iro-dori.jp/index.html"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n毎月20日、ニコニコ動画にて自主制作アニメを作って上げております。やっぱりアニメ作るのは大変ですが楽しいです。良かったら見に来て下さい！"
+    },
+    {
+      "aliases": ["とるば堂＆スーパースィープ"],
+      "position": "G21,G22",
+      "links": ["http://troubador.panic.or.jp/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n久々のサンプリングマスターズ。アルバムリリース予定"
+    },
+    {
+      "aliases": ["ZIZZ STUDIO / Amnicola"],
+      "position": "G23,G24",
+      "links": ["http://www.zizz-studio.com/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\nZIZZ STUDIOです。"
+    },
+    {
+      "aliases": ["F.A.T.S"],
+      "position": "G25",
+      "links": ["http://www.flightairplanes.jp"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n旅客機擬人化をモチーフとした映像作品を制作しています、ローンチは相変わらず遅れています"
+    },
+    {
+      "aliases": ["arcane"],
+      "position": "G26",
+      "links": ["http://arcane.jp/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n商業、自主制作問わず活動しています"
+    },
+    {
+      "aliases": ["Soranetarium"],
+      "position": "G27",
+      "links": ["http://soranetarium.com"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n生きる喜び、争いの切なさなどをテーマにしたノスタルジック楽曲を多く発表しています。"
+    },
+    {
+      "aliases": ["Voltage of Imagination"],
+      "position": "G28",
+      "links": ["http://www.voltagenation.com/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n従来のジャンルやスタイルに囚われず、自由なスタイルで 「まるで映画を制作するかのように」 音楽を創作することをポリシーにしています。"
+    },
+    {
+      "aliases": ["DystopiaGround"],
+      "position": "G29,G30",
+      "links": ["http://dg-nao.jp/"],
+      "comments": "Block: [ G ] (音楽：オリジナル、マルチメディア、映像)\n「No A-pop, No Life！」を信念とする音楽制作集団。元fripsideのnaoが歌う新作シングルCD（2曲入り）を頒布予定。"
+    },
+    {
+      "aliases": ["earth Japan SOFT"],
+      "position": "H01",
+      "links": ["http://earthj.net/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n完全オリジナル仮想RPGイメージアルバム第二段を数年ぶりにリリース予定"
+    },
+    {
+      "aliases": ["七月堂"],
+      "position": "H02",
+      "links": ["http://www.shichigatsudo.co.jp/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n新感覚CD「音の詩集」響音遊戯シリーズを製作し、詩と音楽の融合をめざしています。"
+    },
+    {
+      "aliases": ["Label・I.O.S."],
+      "position": "H03",
+      "links": ["http://labelios.fc2web.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n理数系ミニマル作家Caol iLA、生演奏ジャズフュージョン服部暁典、キュアボイスLindenbaumの３作家のサークルです。Lindenbaum新作頒布予定。"
+    },
+    {
+      "aliases": ["Ashulapita"],
+      "position": "H04",
+      "links": ["http://ashulapita.syncl.jp/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nアルバムコンセプトに「海」を掲げて４曲入り（予定）のミニアルバム発売予定です！"
+    },
+    {
+      "aliases": ["TOYBOX"],
+      "position": "H05,H06",
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nおもちゃ箱のように遊び心とおもしろ楽しくがモットー"
+    },
+    {
+      "aliases": ["蒼咲雫の幻想音楽館"],
+      "position": "H07",
+      "links": ["http://www.aosakishizuku.jp/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n当館へようこそ！幻想的なストーリーをテーマとした民族系オリジナル音楽を頒布致します。全曲試聴可能です☆どうぞお気軽にお越しくださいませ♪（*・ｖ・*）"
+    },
+    {
+      "aliases": ["Grand Menu"],
+      "position": "H08",
+      "links": ["http://www.grandmenu.net/flash/fla.html"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n幅広いジャンルのオリジナル曲で活動しているバンドです！"
+    },
+    {
+      "aliases": ["Shekend"],
+      "position": "H09",
+      "links": ["http://shekend.seesaa.net/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nShekend（速水晨、るぅか、Orc）です。個性溢れるインスト曲を制作しています。"
+    },
+    {
+      "aliases": ["ちえのわ"],
+      "position": "H10",
+      "links": ["http://tie2478.exout.net/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nオリジナル曲を中心に活動しています。クラシックを基調にはしてますが、ジャンルにこだわらずいろいろな曲を作っています。"
+    },
+    {
+      "aliases": ["EBI Zanmai"],
+      "position": "H11",
+      "links": ["http://sound.jp/ebi_zanmai/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n癒しの民俗音楽があなたの耳を吹き抜ける。（只今新作準備中！）"
+    },
+    {
+      "aliases": ["那津みかん"],
+      "position": "H12",
+      "links": ["http://mikamika.candypop.jp/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n癒しサウンドのインストをメインに活動しており、昨年完売したアルバム「Arcadia」がレーベルCDになって今年２月に復活致します！新たに３曲追加しております。"
+    },
+    {
+      "aliases": ["バナナ工房"],
+      "position": "H13",
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nバナナ工房はバンド、アイドルなどに楽曲提供を行っている作曲集団です。満を持してM3に初参加することになりました。頒布予定物は女性ボーカルのオリジナル楽曲CDです。よろしくおねがいします！！"
+    },
+    {
+      "aliases": ["pumpkingdom"],
+      "position": "H14",
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n女性ボーカル入りのオリジナルです！ポップで萌えから壮大で切ない曲まで目一杯を詰め込みました！！聴いて下さい！"
+    },
+    {
+      "aliases": ["null"],
+      "position": "H15",
+      "links": ["http://null.voxx.jp"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nエレクトリックエモーショナルポップバンドとして活動しております。"
+    },
+    {
+      "aliases": ["ダンジョン木村"],
+      "position": "H16",
+      "links": ["http://bian.in/danjyonkimura"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nファミコン音源によるオリジナルの神曲の販売。そしてさらに・・・？"
+    },
+    {
+      "aliases": ["ミュージックバイエスユー"],
+      "position": "H17",
+      "links": ["http://musicby-su.com"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n毒電波ならまかせてね。カオスな電波ソングいっぱいあるよ！"
+    },
+    {
+      "aliases": ["ProjectTRI"],
+      "position": "H18",
+      "links": ["http://www.projecttri.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n歌い手PUPIの全俺CD頒布します！"
+    },
+    {
+      "aliases": ["LYDIA GRAVE"],
+      "position": "H19",
+      "links": ["http://lydiagrave.net/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n京都発 ソリッドポップなオリジナル女性ヴォーカルものを中心に活動しています"
+    },
+    {
+      "aliases": ["ホロビ・テ"],
+      "position": "H20",
+      "links": ["http://members3.jcom.home.ne.jp/yyyxxx/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nゴシック／ダークな雰囲気が好きな方は是非試聴してみてください。　女性ヴォーカル／ピアノ／弦を主軸にメタル／ジャズ／テクノ／ワールド　ジャンルを無理に意識せずに制作しています。"
+    },
+    {
+      "aliases": ["MYU-RECORDINGS / TILDE"],
+      "position": "H21",
+      "links": ["http://www.myu-recordings.com/m3/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nコンピュータミュージック系オリジナルCD"
+    },
+    {
+      "aliases": ["電脳遊戯音楽少女楽団"],
+      "position": "H22",
+      "links": ["http://pomepome.net/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n電脳遊戯音楽少女楽団はゲーム付音楽CDを頒布しています。ゲームを楽しみながら音楽も聴けるプリティーチャーミーな世界をお楽しみください。"
+    },
+    {
+      "aliases": ["チョリ60"],
+      "position": "H23",
+      "links": ["http://sound.jp/choli60/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n単純なメロディにひねくれた歌詞、コケティッシュなボーカルの声にヤミツキ間違いなし。"
+    },
+    {
+      "aliases": ["ヴェクセルドミナンテ"],
+      "position": "H24",
+      "links": ["http://wechdomi.org"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n打ち込みは使わず、音そのものの良さを引き出して音楽を創っています。"
+    },
+    {
+      "aliases": ["てらりすと"],
+      "position": "H25",
+      "links": ["http://www.terarist.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n「なかないシリーズ」のボーカル新良エツ子と、「ミュージカル黒執事」の音楽担当等で活躍中の和田俊輔（デス電所）がユニットを結成☆「妄想ミュージカル楽団」としてミュージカル仕立ての組曲や物語を皆様にお送りいたします♪"
+    },
+    {
+      "aliases": ["アン・ドロシー"],
+      "position": "H26",
+      "links": ["http://daedaluslabo.com/per4m/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nロボット４体によるパフォーマンスユニット「Per4m」を展示します。アン・ドロシーはロボットパフォーマーのプロデュースとＣＤ等関連グッズを販売しています。"
+    },
+    {
+      "aliases": ["Silky Records"],
+      "position": "H27",
+      "links": ["http://www.silky-r.com/alj/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nジャンルにとらわれず、多種多様な音楽を制作しています！"
+    },
+    {
+      "aliases": ["和装侍系音楽集団「MYST.」"],
+      "position": "H28",
+      "links": ["http://www.kagami.tv/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n「現代の音楽シーン」を主戦場にVo「佳上哲也」を核として結成された激音楽団（Rock Band）である。日本人のDNAに眠る「侍魂」を鼓舞し、また構成員各々が胸に抱く様々な「想い」を実現するため、武具を楽器に換え、戦いを歌に代えて、TOKYOに居城を構え、活動する現代SAMURAI集団"
+    },
+    {
+      "aliases": ["Junksystem."],
+      "position": "H29",
+      "links": ["http://www.junksystem.jp"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nVo.零、Key.空、Gt.瀬那の3人組ハイスピードデジタルユニット。オリジナル楽曲のCD・ライブDVDの他、メンバー参加のドラマCDもあります。スペースでの音源・映像試聴可能です。"
+    },
+    {
+      "aliases": ["SOUND ARMS"],
+      "position": "H30",
+      "links": ["http://soundarms.com"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nSOUND ARMSはVo.可変型のバンドであり、音楽制作集団です。現在Vo.は001【荻上トモ】、002【羽華】、003【零】の3人が担当中。今回は新曲CD発表予定です。"
+    },
+    {
+      "aliases": ["実験台モルモット"],
+      "position": "H31",
+      "links": ["http://jikkendai.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nギター、ベース、ドラムの他に、ピアノとヴァイオリンからなる演奏にのせて、高音のファルセットボーカルが、孤独と切なさを歌います。頑張ろうと思っても頑張れないときに聴いてください。"
+    },
+    {
+      "aliases": ["したいがぁるくぅ"],
+      "position": "H32",
+      "links": ["http://what-a.wonderful.to/s_girl/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nヤンデレロック～テンポのイイコメディボイスドラマまでジャンルの枠を超えて幅広く活動中！！"
+    },
+    {
+      "aliases": ["電樂レコード"],
+      "position": "H33",
+      "links": ["http://www.dengaku.net/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n打ち込みによるクラブ系やチップチューンの楽曲を作っています"
+    },
+    {
+      "aliases": ["twitsgazer"],
+      "position": "H34",
+      "links": ["http://www.twitsgazer.net/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\ntwitter発の宅録シューゲイザーのコンピレーションアルバム企画"
+    },
+    {
+      "aliases": ["Age of Beginning"],
+      "position": "H35",
+      "links": ["http://www.age-of-beginning.jp/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nAge of Beginning第4弾はTrance CDとHardCore CDの2枚同時リリース！"
+    },
+    {
+      "aliases": ["プラムソニック"],
+      "position": "H36",
+      "links": ["http://www.plumsonic.net/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n80年代に誰もが夢見た未来のテクノロジーが今ここに。2039年製アンドロイド結羽がご案内します。"
+    },
+    {
+      "aliases": ["CANDYPOP LABEL"],
+      "position": "H37",
+      "links": ["http://candypop.hormone.co.jp/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nM3初参戦！間に合えば新作！間に合わなくてもDJ実演！！"
+    },
+    {
+      "aliases": ["HimemaniK"],
+      "position": "H38",
+      "links": ["http://www.myspace.com/himemanik"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nヒメマニクは、スーパー♀ヴォイス☆姫宮美緒☆をフィーチュアしたエレクトロ指向のJ-Rockユニット。メロディアスなラウドロックを基本とするが、エレクトロな香りがしたり、時にはダンサブルな4つ打ちだったりする。"
+    },
+    {
+      "aliases": ["Rae"],
+      "position": "H39",
+      "links": ["http://www.myspace.com/raetokyo"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n今までのシングル2枚と新作のアルバム頒布予定！完全オリジナルインスト。歌ものもあるかもです。"
+    },
+    {
+      "aliases": ["こってりだむれこ～ど"],
+      "position": "H40",
+      "links": ["http://edbako.sblo.jp/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nオリジナル、アニメ・ゲームソングのカバーをハードコア・テクノでアレンジしてお届けします"
+    },
+    {
+      "aliases": ["えむないんこーぽれーしょん"],
+      "position": "H41",
+      "links": ["http://m9project.blog117.fc2.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nアニソン、ゲーソン、などのリミックスからボカロなどのオリジナルまで製作しています。"
+    },
+    {
+      "aliases": ["Space Theater"],
+      "position": "H42",
+      "links": ["http://www.myspace.com/spacetheatre"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n「宇宙」をテーマとした新世代シンセサイザー音楽です。"
+    },
+    {
+      "aliases": ["Lunatic-mermaid"],
+      "position": "H43",
+      "links": ["http://hikaru-web.jpn.org"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n間に合うかは微妙ですが(汗)、新作を発表できるようにしたいと思っていますっ"
+    },
+    {
+      "aliases": ["高天原応用通信研究所"],
+      "position": "H44",
+      "links": ["http://pony.tail.net/song/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nKORG ELECTRIBEやDS-10でその場mixをやります。たまにVOCALOID入ります。"
+    },
+    {
+      "aliases": ["鉄球レコード"],
+      "position": "H45",
+      "links": ["http://sound.jp/tekcurecords/m/m3/index.htm"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n様々なスタイルのエレクトロニックミュージックを、独自の解釈で追求するアングラレーベル。"
+    },
+    {
+      "aliases": ["team-FSR"],
+      "position": "H46",
+      "links": ["http://ip.tosp.co.jp/i.asp?i=teamfsr"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nteam-FSRの楽曲vs反抗期のリンレン！！恒例のあのバージョンも収録！！"
+    },
+    {
+      "aliases": ["FMPSG"],
+      "position": "H47,H48",
+      "links": ["http://taka-p.homeip.net/fmpsg/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nFM音源・PSG音源・波形メモリ音源等の１チップ音源にこだわって製作したカヴァー及びオリジナル作品集を発行。　新作「FMPSG013(仮)」をリリース予定！"
+    },
+    {
+      "aliases": ["MKG"],
+      "position": "H49",
+      "links": ["http://mkg.traumereisymphonica.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n目・耳どちらでも楽しめる絵本仕様の新アルバムを出す予定です！"
+    },
+    {
+      "aliases": ["流田Project"],
+      "position": "H50",
+      "links": ["http://nagareda.exblog.jp"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n流田Ｐがバンドでアニソンシリーズをレコーディングしてみた。"
+    },
+    {
+      "aliases": ["ひんにゅ～んず"],
+      "position": "H51",
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nバンドでやるからには意味がある。をモットーにアニメ音楽やゲーム音楽をロック、ポップス、ジャズとジャンルを問わずアレンジし、新しい形で皆様にお届けいたします。今回はラブプラスの曲を小洒落た曲にアレンジ予定です"
+    },
+    {
+      "aliases": ["twinbird"],
+      "position": "H52",
+      "links": ["http://www.geocities.jp/twinbird2007/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n君望や地獄少女、ハルヒ・ペルソナ３などの曲をピアノでカバーしています。原曲リスペクトピアノソロアルバムをお楽しみ下さい"
+    },
+    {
+      "aliases": ["田村包"],
+      "position": "H53",
+      "links": ["http://tamuradaddy.jimdo.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n特撮ヒーロー好きに捧ぐ！オリジナル＆アレンジCDシリーズ"
+    },
+    {
+      "aliases": ["Lunatic Gate"],
+      "position": "H54",
+      "links": ["http://www.lunatic-gate.net"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n今回こそDDRアレンジを出したい"
+    },
+    {
+      "aliases": ["回路-kairo-"],
+      "position": "H55",
+      "links": ["http://www.k-a-i-r-o.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nThe Beautiful World..."
+    },
+    {
+      "aliases": ["身内大集合"],
+      "position": "H56",
+      "links": ["http://miuchidaishuugo.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n成分は、民族系とハードロックが多量に含まれて降ります。"
+    },
+    {
+      "aliases": ["劇団粋雅堂"],
+      "position": "H57",
+      "links": ["http://suigadou.hp.infoseek.co.jp"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n『同人演劇』=二次創作作品を舞台で上演する劇団です。5月中旬に次回公演『CAILLINAD(再演)』を上演する予定です。M3では公演DVD(CLANNAD二次創作)や上演台本(新海誠オマージュ、ローゼンメイデン二次創作)の他、オリジナルドラマCDの頒布しています"
+    },
+    {
+      "aliases": ["友引"],
+      "position": "H58",
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n綾川雪弥のゆきラジCD出します！"
+    },
+    {
+      "aliases": ["AKITOLET"],
+      "position": "H59",
+      "links": ["http://akitolet.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n幻想退廃的な世界を歌と物語でお届けします。新作CD「Ａ*」販売予定！"
+    },
+    {
+      "aliases": ["sound劇団AltRia"],
+      "position": "H60",
+      "links": ["http://altria.cool-music.org/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n音に特化した声の劇団です。幻想を、物語を運びます"
+    },
+    {
+      "aliases": ["大ACTER団"],
+      "position": "H61",
+      "links": ["http://daiacterdan.iza-yoi.net/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n演技力向上を目指す声劇サークル、大ACTER団！楽しくわいわい活動する仲良しサークルですが、やるときゃしっかりやりきります！是非お立ち寄り下さい！"
+    },
+    {
+      "aliases": ["ばっどえんど"],
+      "position": "H62",
+      "links": ["http://www.badend.jp/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nオリジナルシナリオのボイスドラマ頒布を中心に活動しています。ＨＰにてドラマを無償公開中です。"
+    },
+    {
+      "aliases": ["CresCod'A"],
+      "position": "H63",
+      "links": ["http://www.crescoda.biz/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n00年代の哀愁六区なV系に影響を受けた音楽と映像をやってます。"
+    },
+    {
+      "aliases": ["happytune"],
+      "position": "H64",
+      "links": ["http://happytune.info/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n音楽を中心としたエンターテインメントコンテンツを製作しているサークルです。"
+    },
+    {
+      "aliases": ["ちーむどらむすこ"],
+      "position": "H65",
+      "links": ["http://www.doramusuco.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n声優陣によるフルボイスのドラマ・ムービーをお楽しみ下さい。"
+    },
+    {
+      "aliases": ["サークルあとすた"],
+      "position": "H66",
+      "links": ["http://circle.atosuta.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n『好きなことを、もっとゆる～く、もっと楽し～く、やったらイイんじゃない～？』的なノリで集った同人サークルです。メンバーに「アトスタ」のヘッド約２名が含まれていることから、その名もそのまま「サークルあとすた」扱っている作品はほぼオリジナル。声優畑の人が多いので、作品もサウンドノベル的なモノや歌モノになりがちだけど 大目に見て下さいｗ"
+    },
+    {
+      "aliases": ["音田楽"],
+      "position": "H67",
+      "links": ["http://maruta.be/odengaku"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\n創作音系ジャンルで活動サークルを、評論誌「音田楽」を核にCDレビューやインタビュー、ライヴレポートなどを交えて紹介する応援活動をしています。"
+    },
+    {
+      "aliases": ["Atelier KANZAN"],
+      "position": "H68",
+      "links": ["http://kanz.x0.com/"],
+      "comments": "Block: [ H ] (音楽：オリジナル、音響：ドラマ、マルチメディア、映像)\nファンタジーと歯のアニメを作ってます。"
+    },
+    {
+      "aliases": ["君の美術館"],
+      "position": "I01",
+      "links": ["http://www.kimino-museum.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nオリジナル作品\"monologue\"の最終章を頒布予定です。"
+    },
+    {
+      "aliases": ["uniMemo Pro"],
+      "position": "I02",
+      "links": ["http://unimemo.net/info/M3/index.html"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nヴァイオリン主体の民族音楽。ヴァイオリンとギターは生演奏で、ドラムやウッドベースなどを使用したスピード感溢れる楽曲をお届けします。是非ご試聴下さい。（国内プレスCD）"
+    },
+    {
+      "aliases": ["Krik/Krak"],
+      "position": "I03",
+      "links": ["http://www.krik-krak.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n女声フルボーカルで綴る創作歌物語集。新作発行予定。"
+    },
+    {
+      "aliases": ["Kleio"],
+      "position": "I04",
+      "links": ["http://kleios.web.fc2.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n女性ボーカル２人による、オリジナルストーリーCDを頒布予定です。"
+    },
+    {
+      "aliases": ["Neo Classica ASCendant"],
+      "position": "I05,I06",
+      "links": ["http://neoclassica-asc.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n【耳で鑑賞する絵画】答えはあなたの中に…"
+    },
+    {
+      "aliases": ["不気味社音響基礎研究所"],
+      "position": "I07",
+      "links": ["http://www.bukimi.com/sfl/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nオンド・マルトノ ソロ曲集 SACD Hybridでリリース"
+    },
+    {
+      "aliases": ["雪蛍"],
+      "position": "I08",
+      "links": ["http://homepage3.nifty.com/tumaranaimonodesuga/index.html"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nプログレか民俗音楽が好きな人は是非聞いてみて下さいな"
+    },
+    {
+      "aliases": ["子子子子"],
+      "position": "I09",
+      "links": ["http://nekojishi.yokochou.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n初参加の子子子子（ねこじし）です。オリジナル同人ＳＴＧのサントラを販売します。体験版の配布なども行うかもしれません。"
+    },
+    {
+      "aliases": ["DMMD"],
+      "position": "I10",
+      "links": ["http://www.musica-due.com/dmmd/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nテーマはピアノレッスン。 先生から与えられた曲しか弾かない（弾けない）レッスン中の人にも、 弾く曲が偏りがち独学ピアノの人にも、 バラエティーに富んだレパートリーを提供します。 初級から中・上級まで難易度も幅広く取りそろえました。"
+    },
+    {
+      "aliases": ["曲つくりサークル"],
+      "position": "I11",
+      "links": ["http://kyokutsukuri.web.fc2.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n曲、つくってます。"
+    },
+    {
+      "aliases": ["Grand　Thaw"],
+      "position": "I12",
+      "links": ["http://inouedelta.web.infoseek.co.jp/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n音楽とイメージ（イラスト、映像）による複合創作コンテンツの運営。現在2種のコンセプト・ラベル（DeltaRecords，LALA&MeRRY）にて活動中"
+    },
+    {
+      "aliases": ["Big South Valley Music"],
+      "position": "I13",
+      "links": ["http://www.bsvmusic.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nソロ・ギター、ソロ・ピアノ、プラネタリウム番組のサウンドトラックなど"
+    },
+    {
+      "aliases": ["signal+noise"],
+      "position": "I14",
+      "links": ["http://signalnoise.jp/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nフュージョンぽい何かを作ってます。"
+    },
+    {
+      "aliases": ["Ricefield Village Labo"],
+      "position": "I15",
+      "links": ["http://www.ricefield-village.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nRicefield Village　Laboに所属する人達のサークル。プロとして活躍している人からプロを目指し活動してる人、趣味で音楽活動をしてる人が所属。ジャンルや形態は様々～バンド・インスト・生演奏・民族音楽・オーケストラ etc・・・　個性豊かな様々なサウンドをお届けします！"
+    },
+    {
+      "aliases": ["little figments"],
+      "position": "I16",
+      "links": ["http://little.figments.jp/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n昔ながらのDTMポップな曲を作っています。"
+    },
+    {
+      "aliases": ["遊楽団"],
+      "position": "I17",
+      "links": ["http://yu-gakudan.jp"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nニューエイジやフュージョン系のインスト。同人ゲームのサントラやHPのBGM等を制作してマス。"
+    },
+    {
+      "aliases": ["Unit GrowSphere"],
+      "position": "I18",
+      "links": ["http://www5.airnet.ne.jp/~krerik/ugs/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n毎度ながら曲の旋律で世界と物語を構成する、文字のない絵本のようなオリジナルアルバムを予定しています。"
+    },
+    {
+      "aliases": ["good morning for bad holiday"],
+      "position": "I19",
+      "links": ["http://gmfbh.is-mine.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nelectronica+pianoな感じです！"
+    },
+    {
+      "aliases": ["Musicworkstation"],
+      "position": "I20",
+      "links": ["http://musicworkstation.jp"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nsaxメインなオリジナルなsmoothJazzやってます。"
+    },
+    {
+      "aliases": ["Studio Lepus"],
+      "position": "I21",
+      "links": ["http://www.geocities.jp/studio_lepus/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n民族風打ち込みサウンドとイラスト・小説のコラボレーションによる、幻想的な世界を舞台としたオリジナルコンセプトアルバムを頒布予定です。風や草木・土の匂いが漂う曲から神秘的な曲まで、興味のある方は是非お立ち寄りください。"
+    },
+    {
+      "aliases": ["しろかがみ"],
+      "position": "I22",
+      "links": ["http://shirokagami.tabigeinin.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n「民族音楽＋電子音＋女性Ｖｏ＝しろかがみ」です．明るめの楽曲を配布予定"
+    },
+    {
+      "aliases": ["CONSIDER"],
+      "position": "I23",
+      "links": ["http://torio.mydns.jp/consider/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nピアノを主体としたオリジナル音楽です。"
+    },
+    {
+      "aliases": ["星猫音楽"],
+      "position": "I24",
+      "links": ["http://hoshineko.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n民族系インスト音楽CDです。歌モノ・コーラスも少しあり。"
+    },
+    {
+      "aliases": ["micro planet"],
+      "position": "I25",
+      "links": ["http://microplanet.web.fc2.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n癒し系オリジナルサントラアルバム頒布予定。東方アレンジCDもあります！"
+    },
+    {
+      "aliases": ["あまつぶ"],
+      "position": "I26",
+      "links": ["http://www.geocities.jp/wanwanpurin5/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nオリジナルCDと、スーパードンキーコングシリーズのアレンジCDを頒布予定です。"
+    },
+    {
+      "aliases": ["織姫"],
+      "position": "I27",
+      "links": ["http://www.amanogawa.to/moe/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n古き良きロマン主義的な同人文化を縦糸に、クラシック音楽を横糸に"
+    },
+    {
+      "aliases": ["Phonoscape Factory"],
+      "position": "I28",
+      "links": ["http://homepage1.nifty.com/Exass/Phonoscape/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nオリジナルのサウンドトラックやポップなボーカルを主体に制作しています"
+    },
+    {
+      "aliases": ["Black Onyx"],
+      "position": "I29",
+      "links": ["http://www.ne.jp/asahi/rgf/ace/black-onyx/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n幻想ヒーリング＆民俗音楽のインストゥルメンタルです。"
+    },
+    {
+      "aliases": ["Twilight Magic Orchestra"],
+      "position": "I30",
+      "links": ["http://twilightmagic.org/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n高音質、高品質を合言葉に活動を行っているサークルです。"
+    },
+    {
+      "aliases": ["PrincePrincessProject"],
+      "position": "I31",
+      "links": ["http://princeprincess-p.lar.jp/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nRe:sound childrenを筆頭に活動しているアーティスト様を中心にした企画・制作グループです。音楽の企画から、ヴォーカルドラマなんかも作っております。"
+    },
+    {
+      "aliases": ["青空音楽工房"],
+      "position": "I32",
+      "links": ["http://aozora-music-studio.seesaa.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n今回で6作目!!テーマは【かわいらしさ】です。ジャケットも曲もかわいらしく仕上がる予定…？"
+    },
+    {
+      "aliases": ["Re:sound children"],
+      "position": "I33",
+      "links": ["http://resound.lar.jp/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n音楽海賊団Re:soundchildrenです。物語りを歌で奏でながらお宝（夢）に向って航海してます。一人でも多くの方に、共鳴者（乗組員）になって頂きたく、日々頑張っています。どうぞよろしくお願いいたします。"
+    },
+    {
+      "aliases": ["トキノスキップ"],
+      "position": "I34",
+      "links": ["http://www.tokinoskip.silk.to/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nストーリー性のある歌詞と曲でアニメなどのテーマのような曲作りをめざし活動しています。"
+    },
+    {
+      "aliases": ["Heal Abenue"],
+      "position": "I35",
+      "links": ["http://healabenue.jp/weblog/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nメンバーがそれぞれの視点で癒しを表現。癒しってゆったりとは限りませんよね？"
+    },
+    {
+      "aliases": ["GOLDFISH"],
+      "position": "I36",
+      "comments": "Block: [ I ] (音楽：オリジナル)\n金魚は独りな心に沁みる曲を歌います。少女文学的な歌詞にジャズベースのちょっと暗い曲調、少年から少女まで歌い分けるボーカルで幻想的なライブを展開します。"
+    },
+    {
+      "aliases": ["趣味工房にんじんわいん"],
+      "position": "I37",
+      "links": ["http://www2u.biglobe.ne.jp/~anpanman/index.html"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n「聞くＲＰＧ」を制作しています。"
+    },
+    {
+      "aliases": ["流浪の民"],
+      "position": "I38",
+      "links": ["http://www3.to/dareka"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nファンタジー音楽をやっています。たまに迷走します。え？　新譜？　なんか出ればいいな（希望系）。"
+    },
+    {
+      "aliases": ["UtAGe"],
+      "position": "I39",
+      "links": ["http://utagemusic.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nピアノ、ギターから弦楽器まで、生演奏をふんだんに使用しております。"
+    },
+    {
+      "aliases": ["Sing, R. Sing!"],
+      "position": "I40",
+      "links": ["http://www.singrsing.com/doujin/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n鍵盤ハーモニカでオリジナルやってます"
+    },
+    {
+      "aliases": ["劇団フォレスト"],
+      "position": "I41",
+      "links": ["http://081.in/forest_gakuya/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n物語性のある音楽をお届けいたします。今回は恋のお話。"
+    },
+    {
+      "aliases": ["Music Pandora"],
+      "position": "I42",
+      "links": ["http://pandora.bufsiz.jp/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n生録音のクラシック・ジャズを中心に活動しています。オリジナルピアノソロ新譜予定！"
+    },
+    {
+      "aliases": ["ウチナキレコード"],
+      "position": "I43",
+      "links": ["http://uchinaki.com"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n少し泥臭くて懐かしいうたを歌っています。民族風味・多重コーラス系。"
+    },
+    {
+      "aliases": ["MOYASHI-TEA"],
+      "position": "I44",
+      "links": ["http://www.moyashi-tea.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n民族ファンタジーなサントラなど。最近はヴォーカルものに挑戦するしないで白熱！！（一人で）"
+    },
+    {
+      "aliases": ["懐古リリック"],
+      "position": "I45",
+      "links": ["http://kaikolyric.com"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n懐かしく奏でる音　透過していく世界　繋がり綴る物語。"
+    },
+    {
+      "aliases": ["ソラユラ"],
+      "position": "I46",
+      "links": ["http://homepage3.nifty.com/sorayura/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n歌い手Noeの個人サークルです。アカペラで様々な世界を表現していきます。声だけでどこまでできるか挑戦中。"
+    },
+    {
+      "aliases": ["Casket"],
+      "position": "I47",
+      "links": ["http://www.yukinohana.net/~casket/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n毎度おなじみ非癒し島嶼ケルト系トラッドミクスチュアアルバムです。運が良ければ何かグッズも。"
+    },
+    {
+      "aliases": ["XL Project"],
+      "position": "I48",
+      "links": ["http://www.xlproject.cc/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nXL Projectが１年半ぶりにオリジナル、今回はフルヴォーカルマキシを販売！"
+    },
+    {
+      "aliases": ["月読レコード"],
+      "position": "I49",
+      "links": ["http://www.tsukuyomi-rec.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nプログレ、クラシック、現代音楽、雅楽などの流れを汲む、此処にしかない音楽をお届けします！"
+    },
+    {
+      "aliases": ["Cocon"],
+      "position": "I50",
+      "links": ["http://kito.cocotte.jp/cocon/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n女性ヴォーカル・バイオリン・絵師で構成する創作ユニットです。"
+    },
+    {
+      "aliases": ["ABSOLUTE CASTAWAY"],
+      "position": "I51",
+      "links": ["http://shule-aroon.sakura.ne.jp/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n歌や役者、幅広くまったりと表現活動して日々を過ごす、中恵光城の個人サークル。"
+    },
+    {
+      "aliases": ["しちごさん。"],
+      "position": "I52",
+      "links": ["http://shimotsukin.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n霜月はるか・日山尚の合同サークル。オリジナルファンタジー作品を色々作っています。"
+    },
+    {
+      "aliases": ["RomariaCrusade"],
+      "position": "I53",
+      "links": ["http://romariacrusade.web.fc2.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nＭ３新作は出来ていれば物語アルバム連作最後の集合作です！"
+    },
+    {
+      "aliases": ["FUTON"],
+      "position": "I54",
+      "links": ["http://www.futonweb.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nジャズとラテンと映画と、ドキドキ。オトナテイストでオリジナル楽曲とLittlewitchアレンジを。"
+    },
+    {
+      "aliases": ["A little bit"],
+      "position": "I55",
+      "links": ["http://page.freett.com/gotoharuki/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n女性ヴォーカル・後藤ハルキがオリジナルＣＤを制作しています。2年ぶりに新作予定！"
+    },
+    {
+      "aliases": ["Melody"],
+      "position": "I56",
+      "links": ["http://fancy.freespace.jp/kaorin/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n愛原圭織の個人サークル。童話を題材にした初のソロアルバム「Sugar Tale」頒布！ぷらいむまりぃの旧作もあります♪"
+    },
+    {
+      "aliases": ["Starry Garden"],
+      "position": "I57",
+      "links": ["http://www.starry-garden.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n紺野聖の3rdアルバムを頒布予定です。今回は「天使と堕天使」をテーマに制作しています。是非お立ち寄りください☆"
+    },
+    {
+      "aliases": ["I.L.C -Image Leaf Craft-"],
+      "position": "I58",
+      "links": ["http://image.main.jp"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n約3年ぶりにオリジナルボーカルアルバムを発売予定。"
+    },
+    {
+      "aliases": ["ないしょの音楽館"],
+      "position": "I59",
+      "links": ["http://naki.michikusa.jp/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nいつもとはちょっと違う新作を準備中です☆"
+    },
+    {
+      "aliases": ["Dolphin Time"],
+      "position": "I60",
+      "links": ["http://www.rikkun.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n葉山らしさを追求してみました。楽しんでいるのが伝わると嬉しいです♪"
+    },
+    {
+      "aliases": ["Ｃｉｅｌｕｃｈｔ"],
+      "position": "I61",
+      "links": ["http://cielucht.soragoto.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n今回Ｍ３初参加のツインボーカルユニットです。「空」をテーマにした１作目アルバムを販売します！"
+    },
+    {
+      "aliases": ["WaCha!"],
+      "position": "I62",
+      "links": ["http://www.wa-cha.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n人との繋がりを大切に、顔を合わせながらの作品作りにこだわります。"
+    },
+    {
+      "aliases": ["Hollow Mellow"],
+      "position": "I63",
+      "links": ["http://luna-waltz.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n闇×病ユニット。めらみぽっぷ、saRi、梨丘いるまによるダークで幻想的な御伽話。各ソロ作品も取り扱います。新譜有ります。"
+    },
+    {
+      "aliases": ["こすもぽりたん"],
+      "position": "I64",
+      "links": ["http://home1.netpalace.jp/cosmopolitan/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nこすもぽりたん初企画！バンドサウンドを中心にオリジナルボーカルアルバム頒布予定です。"
+    },
+    {
+      "aliases": ["LINKAGE"],
+      "position": "I65",
+      "links": ["http://link-age.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n女性Vo.＆打ち込みメインのオリジナル音楽ユニット。新譜（アルバム）リリース予定です。"
+    },
+    {
+      "aliases": ["SunnyVale"],
+      "position": "I66",
+      "links": ["http://www.sunnyvale-online.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nダンス、シンセポップ系中心の女性ボーカルユニット。オリジナルの他に「けいおん！」などのアニソンやFFなどゲーム音楽のアレンジも制作しています。"
+    },
+    {
+      "aliases": ["amorphous"],
+      "position": "I67",
+      "links": ["http://amorphousmusic.blog84.fc2.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nCrystal Sphereのコンポーザー・りでるのソロプロジェクト。「不定形少女音楽」をテーマに、クラシックやエレクトロニカの要素を取り入れたオリジナルの音楽を作っています。"
+    },
+    {
+      "aliases": ["Crystal Sphere"],
+      "position": "I68",
+      "links": ["http://www.crystal-sphere.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nオリジナルSFシリーズ『snow*flake』完結！　それに合わせ新譜も発行予定です。"
+    },
+    {
+      "aliases": ["SGD"],
+      "position": "I69",
+      "links": ["http://asian-head.com"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n都内・横浜を中心にLIVE活動を行っています！衣装は学生服を着て、青春をテーマにしたオリジナルをお届けしています！！CDの３曲目「Truth」はFM世田谷を始め、６０局ネットで流れました！！皆様に懐かしさとさわやかな音楽を聴いて欲しいです☆"
+    },
+    {
+      "aliases": ["神風"],
+      "position": "I70",
+      "links": ["http://kamikazejoe.blog8.fc2.com/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nオリジナルの男性ボーカルのポップスです"
+    },
+    {
+      "aliases": ["桜ノ咲音響産業"],
+      "position": "I71,I72",
+      "links": ["http://sakion.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n女性ボーカル中心のポップス系オリジナル曲を頒布しています。新作予定です。"
+    },
+    {
+      "aliases": ["O+N Factory"],
+      "position": "I73",
+      "links": ["http://eightmelodies.net"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nのんべんだらーり音楽ユニット。バンド活動はじめました♪"
+    },
+    {
+      "aliases": ["SK-LAND"],
+      "position": "I74",
+      "links": ["http://skland.dip.jp/skland/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n「Inspire Enjoyment」をキーワードに活動しているサークルです！映像・音楽・画像・写真・ゲームなどのコンテンツをホームページで好評配信中です。今回も、男性／女性ボーカルのＣＤを複数発売します！"
+    },
+    {
+      "aliases": ["卯油屋"],
+      "position": "I75",
+      "links": ["http://sound.jp/youkaiflat/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n妖怪やら物語を題材にした音楽を無料で配布しまくる卯油主催の捨て身ユニットです。"
+    },
+    {
+      "aliases": ["クロマチック・マーク"],
+      "position": "I76",
+      "links": ["http://matiere.main.jp/CMMK/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\nゲストボーカルを迎えてトランス系ポップスミニアルバムを頒布します。"
+    },
+    {
+      "aliases": ["flow:lie's（旧fluorite）"],
+      "position": "I77",
+      "links": ["http://www.justmystage.com/home/gbfluorite/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n旧fluorite。完全オリジナルで、女性ツインボーカル。物語性のある個性的な音楽を目指しています。"
+    },
+    {
+      "aliases": ["煩悩少女"],
+      "position": "I78",
+      "links": ["http://homepage.mac.com/im108record"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n多ジャンル女子ボーカル系DTMサークル煩悩少女です。"
+    },
+    {
+      "aliases": ["KAGURA"],
+      "position": "I79",
+      "links": ["http://kaguramiko.sakura.ne.jp/KAGURA.html"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n現在は「MOON ABEILLE」シリーズが進行中。新作を持って行きたいです！！"
+    },
+    {
+      "aliases": ["Vivid Surround Theater"],
+      "position": "I80",
+      "links": ["http://vst.ninja-web.net/"],
+      "comments": "Block: [ I ] (音楽：オリジナル)\n今回も新作の歌モノを持って行きますよ～"
+    },
+    {
+      "aliases": ["clover fields"],
+      "position": "J01",
+      "links": ["http://www.ab.auone-net.jp/~clover-f"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n矢吹高音（高音の部屋）とMiel（音色庭園）のユニット「clover fields」です。「和風」テイストなどを取り入れた女性ボーカルによるオリジナル曲を制作しています。"
+    },
+    {
+      "aliases": ["MiddleIsland"],
+      "position": "J02",
+      "links": ["http://www.middleisland.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nピアノを中心とした様々なジャンルを哀愁的に表現したサウンドを制作しています。"
+    },
+    {
+      "aliases": ["のらねこ容器"],
+      "position": "J03",
+      "comments": "Block: [ J ] (音楽：オリジナル)\n結構萌えてるのらねこ容器ですちゅっちゅ。"
+    },
+    {
+      "aliases": ["Telunascoape"],
+      "position": "J04",
+      "links": ["http://homepage2.nifty.com/telunascoape/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n旋律が綴るファンタジックストーリー。その中で生きるキャラクターたち、躍動するシーンを聴いてください。"
+    },
+    {
+      "aliases": ["一人華飯スペシャル"],
+      "position": "J05",
+      "links": ["http://kakkin.pro.tok2.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n某黄うさの中の人が一人で気ままに書いて焼いて出す一連の動作。旧作『ぽっぷ☆STAR以下略』と新作何か持ち込んでます"
+    },
+    {
+      "aliases": ["七色ビタミン"],
+      "position": "J06",
+      "links": ["http://sp-ss.com/snowdrop/nanairo/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナルで女性ボーカルものです。久しぶりに新譜予定しています。"
+    },
+    {
+      "aliases": ["PolyphonicBranch"],
+      "position": "J07",
+      "links": ["http://polyphonicbranch.seesaa.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n新譜発表いたします！"
+    },
+    {
+      "aliases": ["ショーシー　無"],
+      "position": "J08",
+      "comments": "Block: [ J ] (音楽：オリジナル)\n作品には何らかのメッセージを込めているので、多くの人に聴いて頂きたい。"
+    },
+    {
+      "aliases": ["みさきんぐだむ"],
+      "position": "J09",
+      "links": ["http://misaking.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nポップンミュージック等で活動中のボーカル・作詞家、有馬美咲個人サークル。オリジナルボーカルCDやその他CDを制作しています。"
+    },
+    {
+      "aliases": ["electric prophet"],
+      "position": "J10",
+      "links": ["http://www.electric-prophet.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nシンセサイザーを中心としたサウンドと楽曲に応じたゲストボーカル達によって歌われる、機械仕掛けの物語音楽。"
+    },
+    {
+      "aliases": ["Twilightz"],
+      "position": "J11",
+      "links": ["http://twilightz.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nブラックミュージックをベースに様々なジャンルと融合したオリジナル曲を制作しています"
+    },
+    {
+      "aliases": ["Magical sand-y"],
+      "position": "J12",
+      "links": ["http://www.myspace.com/magicalsandy"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナルの女性ボーカルアニソン系ポップスバンドです。全曲生楽器生バンド演奏です。"
+    },
+    {
+      "aliases": ["Mamyukka"],
+      "position": "J13",
+      "links": ["http://mamyukka.tank.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nファンタジーなボーカル音楽CDを制作しています。アラビアンな新作予定です。"
+    },
+    {
+      "aliases": ["ロータスルートオーケストラ"],
+      "position": "J14",
+      "links": ["http://yk.cage.to/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n今回はほんわか系シングルと、コラボシングルを予定しています！"
+    },
+    {
+      "aliases": ["ロリィタ ノイロォゼ"],
+      "position": "J15",
+      "links": ["http://lolita-neurosis.biz/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nピアノ生演奏＋女性ボーカルのオリジナル曲です。"
+    },
+    {
+      "aliases": ["リラウンジ"],
+      "position": "J16",
+      "links": ["http://music.geocities.jp/re_lounge/#"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n爽やか系音楽ユニット「リラウンジ」CD、待望の第二弾！！"
+    },
+    {
+      "aliases": ["MOOVe RECORDS"],
+      "position": "J17",
+      "links": ["http://www.myspace.com/moove-records"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n福井裕佳梨などの声優やアイドルのCDをM3特別価格の\\500均一で販売！"
+    },
+    {
+      "aliases": ["STELS806"],
+      "position": "J18",
+      "links": ["http://www.stels806.com"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nクラシカル・バロック・ゴシック要素をベースに、幅広い表現を追求してるサークルです。発行予定は\"Queen of Wand\"名義のオリジナル女性ボーカル物の新作。"
+    },
+    {
+      "aliases": ["冬虫夏草"],
+      "position": "J19",
+      "links": ["http://huyumushinatsukusa.hp.infoseek.co.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nプログレッシブな歌モノCDと、壮大なオーケストラによるインストCDを頒布します。"
+    },
+    {
+      "aliases": ["感傷ベクトル"],
+      "position": "J20",
+      "links": ["http://www.sen-vec.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n自、他サークルの漫画、絵などとコラボしたりで活動中"
+    },
+    {
+      "aliases": ["Canary Records"],
+      "position": "J21",
+      "links": ["http://canaryrecords.clover.vc/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n『かわいらしく、かしましく、バカバカしく』がモットーです。"
+    },
+    {
+      "aliases": ["ちびっこフォーク"],
+      "position": "J22",
+      "links": ["http://happyvoice.gozaru.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n星名優子のオリジナルボーカルCDを頒布します。新作予定あります。"
+    },
+    {
+      "aliases": ["Ｌｉｎｋ"],
+      "position": "J23",
+      "links": ["http://id2.fm-p.jp/523/letslink/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n少年ボイス声優によるツインボーカルユニットで、ポップにロックにオリジナル曲を歌います"
+    },
+    {
+      "aliases": ["音楽コンテストコミュニティ「クレオフーガ」"],
+      "position": "J24",
+      "links": ["http://creofuga.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n音楽コンテストで優秀な作品を集めてCD化しています。"
+    },
+    {
+      "aliases": ["the forget-me-not"],
+      "position": "J25",
+      "links": ["http://einherjer.hp.infoseek.co.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n昨年発表したボーカルアルバムに続き、豪華ゲストボーカルを迎え、90年代アニメソングをリスペクトしたポップでキャッチーなシングルを発表します。"
+    },
+    {
+      "aliases": ["little white snow"],
+      "position": "J26",
+      "links": ["http://snow-illusion.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナルヴォーカルメインで活動しています。なんだってー!?そうか俺達はとんでもないまちがi(ry"
+    },
+    {
+      "aliases": ["72☆"],
+      "position": "J27",
+      "links": ["http://72boshi.web.fc2.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n女性ボーカル曲のミニアルバムかアルバム頒布しますー！"
+    },
+    {
+      "aliases": ["雪月"],
+      "position": "J28",
+      "links": ["http://aonokioku.sakura.ne.jp/setsugetsu/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナルを中心にジャンル問わず幅広くやっています。"
+    },
+    {
+      "aliases": ["Bellmonte"],
+      "position": "J29",
+      "links": ["http://www.bellmonte.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n記憶をテーマにした作品「Memories」。夢をテーマにした新作。それに加え、新ユニット（男性ボーカル×女性ボーカル）のＣＤを頒布します。幾千の夢の中から、あなたは何を選びますか？"
+    },
+    {
+      "aliases": ["秋の空"],
+      "position": "J30",
+      "links": ["http://anraku.nothing.sh/akisora/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nまったりめのボーカルもの。オリジナル中心の三澤秋個人サークル。"
+    },
+    {
+      "aliases": ["うさぎちゃんねる★"],
+      "position": "J31",
+      "links": ["http://ameblo.jp/mimiusaki/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n卯咲ミミのオリジナルヴォーカルＣＤ販売予定です。第一弾はパワフルなカッコイイサウンドになってます。"
+    },
+    {
+      "aliases": ["doubleeleven"],
+      "position": "J32",
+      "links": ["http://www.doubleeleven.net"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n山下航生の個人サークル。声優のakariとのユニットdoubleeleven UpperCutでの新作発表予定ありです！"
+    },
+    {
+      "aliases": ["おでんぱ☆スタジオ"],
+      "position": "J33",
+      "links": ["http://odenpa.jp"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n萌えでお電波な歌に特化したサークルです！無駄に壮大なストーリーのボイスドラマも制作中☆"
+    },
+    {
+      "aliases": ["幼蚕文庫"],
+      "position": "J34",
+      "links": ["http://page.freett.com/siro_toto/index.html"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n童話めいた自作自唱の楽曲および、新譜に於いてはロックやテクノポップも予定しております。"
+    },
+    {
+      "aliases": ["2-dimension"],
+      "position": "J35",
+      "links": ["http://2-dimension.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n続きはWebで！"
+    },
+    {
+      "aliases": ["bear Muse"],
+      "position": "J36",
+      "links": ["http://ameblo.jp/kyou-no-kyo/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nボーカルkyo-koの個人サークル。オリジナルです。2nd mini Album出します♪"
+    },
+    {
+      "aliases": ["Last Promise"],
+      "position": "J37",
+      "links": ["http://thelastpromise.com"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n女性ボーカルによるオリジナルの楽曲を制作するLast Promise。4作目のCDを頒布予定です。"
+    },
+    {
+      "aliases": ["POPNESSSEIZETHEWORLD"],
+      "position": "J38",
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナルストーリーに基づいたコンセプトを軸に、女性ヴォーカルによる叙情派オリジナル楽曲のCDを制作しています。"
+    },
+    {
+      "aliases": ["ROUGH TIME"],
+      "position": "J39",
+      "links": ["http://roughtime.hp.infoseek.co.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n新作は久々のオリジナルギターインスト作品予定です。Fusion,Blues,Jazzrockなど。"
+    },
+    {
+      "aliases": ["ピコミール by NanosizeMir"],
+      "position": "J40",
+      "links": ["http://nanosizemir.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナル音楽ユニットのNanosizeMirです！今回は番外編「ピコミール」として参加。デジタル系楽曲が沢山詰まったアルバムを頒布します。「小さなせかい」も置いてるよ！"
+    },
+    {
+      "aliases": ["鈴葉屋"],
+      "position": "J41",
+      "links": ["http://www.geocities.jp/ym_noir/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n多重コーラスを用いた幻想的な旋律を基調とした楽曲を製作している個人サークルです。民俗音楽やオーケストラ、室内楽などを取り入れた様々な音楽を展開しています。"
+    },
+    {
+      "aliases": ["BRAINBOX"],
+      "position": "J42",
+      "links": ["http://www16.big.or.jp/~f-psyche/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nユニット『Orange Paw』や初音ミクなど、女性ボーカルの作品を制作しています。ポップ・ファンタジー・切な系までをキュートでドリーミーな歌声でお届けします。どれも一見すると正統派、実はちょっとねじくれたポップス系オリジナルとなっています。"
+    },
+    {
+      "aliases": ["Rocketeer Tracks"],
+      "position": "J43",
+      "links": ["http://rocketeer.cc/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nコンポーザーの中川ネタロウとボーカルの南条あきらの二人で作ってます。ロック／ポップ主体のオリジナルボーカルCDを頒布予定です。"
+    },
+    {
+      "aliases": ["mind-S-cape"],
+      "position": "J44",
+      "links": ["http://mind-s-cape.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nゲストボーカルさんを迎えて、オリジナル楽曲オンリーの女性ボーカルCDを制作しています。"
+    },
+    {
+      "aliases": ["COLORFUL TONE -空降時音-"],
+      "position": "J045",
+      "links": ["http://koecho.raindrop.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n作曲から歌、ジャケットデザインまですべて一人で作成しているひとりぼっちサークルです！民族的、幻想的な音楽をつくることを目標に活動しています。オリジナル女性ボーカルCD頒布します。"
+    },
+    {
+      "aliases": ["UM.FT"],
+      "position": "J046",
+      "comments": "Block: [ J ] (音楽：オリジナル)\n女性二人で歌っています。好きな音、好きな音楽で楽しく歌うことを目標に。ファンタジー色の強い民族系音楽に、ミュージカルをちょっと混ぜた感じの3拍子、5拍子、6拍子の曲を好みます。"
+    },
+    {
+      "aliases": ["とおくできこえる デンシオン"],
+      "position": "J047",
+      "links": ["http://matsule.hp.infoseek.co.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n電子音によるイージーリスニング等？"
+    },
+    {
+      "aliases": ["type*winged"],
+      "position": "J048",
+      "links": ["http://typewinged.rdy.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nファンタジー風ストーリー音楽を制作中です。"
+    },
+    {
+      "aliases": ["Team Get Away"],
+      "position": "J049",
+      "links": ["http://tga-studio.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nTGA2010初夏。「いつものTGAインストアルバム」に加えて、遂にオリジナルボーカルユニットがデビューします！"
+    },
+    {
+      "aliases": ["黒川庵"],
+      "position": "J050",
+      "links": ["http://www.kurokawaan.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n音楽やドラマなど幅広い活動を行っております。ボカロあり。"
+    },
+    {
+      "aliases": ["GANDHARVA"],
+      "position": "J051",
+      "comments": "Block: [ J ] (音楽：オリジナル)\n鉄道音素材によるエセエレクトロニカと仏具を打楽器にしたがえたオリジナル曲。"
+    },
+    {
+      "aliases": ["ＳＪＶ－ＳＣ"],
+      "position": "J052",
+      "links": ["http://odiakes.net/sjv/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナル新作「Ｎｅｕｔｒａｌ」頒布予定。詳しくはＷｅｂで。"
+    },
+    {
+      "aliases": ["AquaMusique"],
+      "position": "J053",
+      "links": ["http://www,seeasea.net"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n幻想的なサウンドで独特の世界観を表現します。日中活動中。"
+    },
+    {
+      "aliases": ["Dragon Spilal Music"],
+      "position": "J054",
+      "links": ["http://www1.odn.ne.jp/~cbj91770/dragonspi.htm"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n主にオリジナルの変拍子を多用したインストハードフュージョン、ロックを発表しています。バンドもの、打ち込みもの、歌ものもあり。"
+    },
+    {
+      "aliases": ["Nota e Petalo"],
+      "position": "J055",
+      "links": ["http://stilla.nomaki.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n民族・賛美歌・バラードな雰囲気の楽曲を作っています。新作は物語組曲を予定。"
+    },
+    {
+      "aliases": ["毎朝数千の天使を殺してから"],
+      "position": "J056",
+      "links": ["http://aughtsider.xrea.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n今年はstudiotomato時代の物でちゃんと発表してない奴をリメイクしたりしようかなと思ってます。"
+    },
+    {
+      "aliases": ["Sound of Ciel"],
+      "position": "J057",
+      "links": ["http://soundofciel.blog111.fc2.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n順調に行けば、新作のインストゥルメンタルアルバムを頒布する予定です。"
+    },
+    {
+      "aliases": ["アルトノイラント"],
+      "position": "J058",
+      "links": ["http://altneuland.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nピアノソロを中心に作曲、アレンジ作品を作っています。"
+    },
+    {
+      "aliases": ["DoLL/都築きせの"],
+      "position": "J059",
+      "links": ["http://kiseno.itigo.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n再活動致しました！知らなかった方も知っていらっしゃる方もよろしくお願い致します。"
+    },
+    {
+      "aliases": ["T'ienLung"],
+      "position": "J060",
+      "links": ["http://tienlung.fuyu.gs/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n主にフリーウェアゲームを公開しています。サントラCDも領布中。"
+    },
+    {
+      "aliases": ["Сказка"],
+      "position": "J061",
+      "comments": "Block: [ J ] (音楽：オリジナル)\n童話のような世界観を目指して日々音作りに励んでいます。"
+    },
+    {
+      "aliases": ["Cosmic Joker Records"],
+      "position": "J062",
+      "links": ["http://www.cosmicjoker-records.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n通りすがりのアンビエントミュージックサークル。"
+    },
+    {
+      "aliases": ["ねこあしレコード"],
+      "position": "J063",
+      "links": ["http://www.nekoashirecords.com"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n壮大なオーケストラ作品群を作る予定です。予定。１枚１００円。"
+    },
+    {
+      "aliases": ["DANDE LION"],
+      "position": "J064",
+      "links": ["http://kusanagi.nobody.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n物語を想像できる。そんな音楽を目指してます！"
+    },
+    {
+      "aliases": ["in the blue"],
+      "position": "J065",
+      "links": ["http://www.tiara.cc/~blueblue/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n民族音楽・NewAge・EasyListeningを中心としたオリジナル曲（インスト＆ボーカル曲）を制作しています。"
+    },
+    {
+      "aliases": ["elder flower"],
+      "position": "J066",
+      "links": ["http://blog.elder-flower.com"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n幻想的な音楽を作っています。"
+    },
+    {
+      "aliases": ["valagfare symphony"],
+      "position": "J067",
+      "links": ["http://valagfare.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n幻想的で神秘、儚く切ないオーケストラ楽曲を作ってます"
+    },
+    {
+      "aliases": ["なんかどう"],
+      "position": "J068",
+      "links": ["http://www.nankado.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nアンビエント、非西欧音楽、ダブ、電子音楽などの文脈をふまえて趣味の音楽を作っています。"
+    },
+    {
+      "aliases": ["とじ」"],
+      "position": "J069",
+      "links": ["http://www.muzie.co.jp/artist/r006571/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n初参加です。バンブラDXを使ってオリジナル曲を作ってます。当日、バンブラをお持ちの方には楽譜データを配布します。"
+    },
+    {
+      "aliases": ["鈴虫模様"],
+      "position": "J070",
+      "links": ["http://suzumushimoyou.web.fc2.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nクラシック系からクラブ系まで様々な曲を制作しています。今回も新作を出せるよう頑張ります。"
+    },
+    {
+      "aliases": ["音のなる森"],
+      "position": "J071",
+      "links": ["http://sgof.skr.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナル楽曲（映画やゲーム系のインスト）を気ままに創作しております。"
+    },
+    {
+      "aliases": ["スタジオ山奥"],
+      "position": "J072",
+      "links": ["http://namihei.heya.jp"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n1枚目は地球を愛する心、2枚目はショタ好き精神から出来ています。（予定）"
+    },
+    {
+      "aliases": ["Hagall"],
+      "position": "J073",
+      "links": ["http://hagall.hacca.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n幻想的、郷愁などがテーマ。インスト・歌曲を織り交ぜた、CDアルバムを頒布予定です。"
+    },
+    {
+      "aliases": ["kisoba"],
+      "position": "J074",
+      "links": ["http://kisoba.info/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n思わせぶりなタイトルのオリジナルインストゥルメンタル曲。"
+    },
+    {
+      "aliases": ["吉田音楽製作所"],
+      "position": "J075",
+      "links": ["http://sound.jp/yoshipro/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nなんかすごくヤバいです"
+    },
+    {
+      "aliases": ["develop sky"],
+      "position": "J076",
+      "links": ["http://developsky.yu-nagi.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nテクノやトランス寄りのオリジナルボーカル曲出します"
+    },
+    {
+      "aliases": ["Shinon"],
+      "position": "J077",
+      "comments": "Block: [ J ] (音楽：オリジナル)\n初心者ですが、試行錯誤しつついろんなジャンルに挑戦してみたいです！"
+    },
+    {
+      "aliases": ["こわまたかおり"],
+      "position": "J078",
+      "links": ["http://kowamatakaori.ichiya-boshi.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n音楽制作現場「こわまたかおり」です。管理人・かおるーし のソロ作品(「五十嵐馨」名義)と、出来たらフリーロック・ユニット「うさぎ工場」の作品を持って行きます。ポップであり、且つどこかがおかしい音楽をお求めの方は是非どうぞ。"
+    },
+    {
+      "aliases": ["AZURE FACTORY"],
+      "position": "J079",
+      "links": ["http://azurenesssakuya.blog92.fc2.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナル新作ＣＤあります"
+    },
+    {
+      "aliases": ["studio rapicco"],
+      "position": "J080",
+      "links": ["http://www.geocities.jp/rapicco123/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nピアノ・ロック・テクノ・アカペラ・ポップス…様々なジャンルのオリジナル曲をディープな音で表現しています。"
+    },
+    {
+      "aliases": ["ああああ"],
+      "position": "J081",
+      "links": ["http://jinsei.undo.jp"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナルアキバ系女性ボーカルロック。二次元への想いを音に込めました！"
+    },
+    {
+      "aliases": ["_blank"],
+      "position": "J082",
+      "links": ["http://blank2.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nPCゲーム『カスタム隷奴3』主題歌のYUINAが4年ぶりにボーカル復帰しました。オリジナル新譜あり。"
+    },
+    {
+      "aliases": ["at home"],
+      "position": "J083",
+      "links": ["http://space.geocities.jp/cspdy002"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n五十嵐明日香です。新作持って行きますｖ"
+    },
+    {
+      "aliases": ["Naturanotes"],
+      "position": "J084",
+      "comments": "Block: [ J ] (音楽：オリジナル)\n親しみやすいメロディとアレンジをモットーにオリジナルソングを作っています。"
+    },
+    {
+      "aliases": ["PLEASURE HARMONIZE"],
+      "position": "J085",
+      "links": ["http://pleasureharmoniz.sakura.ne.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナルのボーカル曲を人間が歌ったりVOCALOIDに歌ってもらったりしています"
+    },
+    {
+      "aliases": ["Lune Rouge"],
+      "position": "J086",
+      "links": ["http://eyekunon.amearare.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n幻想的な音楽作りを目指して日々模索中です。"
+    },
+    {
+      "aliases": ["Neume"],
+      "position": "J087",
+      "links": ["http://neume.jp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナルの女性ボーカル曲やってます。"
+    },
+    {
+      "aliases": ["Twinkle Callion"],
+      "position": "J088",
+      "links": ["http://twinklecallion.com/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n明るく可愛いロリ系ポップスからヤンデレゴシックメタルまで各種取り揃ってます(*´∀｀*)v"
+    },
+    {
+      "aliases": ["In a fog"],
+      "position": "J089",
+      "links": ["http://etc3.ifdef.jp"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n歌もの／インストを問わず、オリジナル曲を打ち込みで制作、CDにて頒布しています。"
+    },
+    {
+      "aliases": ["Mel Seeds"],
+      "position": "J090",
+      "links": ["http://music.geocities.jp/melseeds_alice/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n雪月ありすによる個人サークルです。Mel Seeds（メルシーズ）とはゲール語で喜びという言葉『メル』と英語の『種』をあわせた造語であり、創り出した作品が聞いてもらった人にとって喜びの種となれたらという願いをこめ、活動しています。"
+    },
+    {
+      "aliases": ["in cremonica mono+"],
+      "position": "J091",
+      "links": ["http://cremona.mond.jp"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nほのぼのあったかポップスを作ってます。"
+    },
+    {
+      "aliases": ["Stephanotis"],
+      "position": "J092",
+      "links": ["http://chantez.web.fc2.com"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n元気が出る、優しい気持ちになる、そんなイメージのCD配布予定。ちょっぴり神秘的。"
+    },
+    {
+      "aliases": ["wits"],
+      "position": "J093",
+      "links": ["http://wits.homeip.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n春をテーマとしたオリジナルミニコンピアルバムを頒布します！是非遊びに来てくださいっ"
+    },
+    {
+      "aliases": ["cloud monitor"],
+      "position": "J094",
+      "links": ["http://cloudmonitor.com"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n人と機械が平和に共存できますよう、音楽や絵に願いをこめて‥。"
+    },
+    {
+      "aliases": ["K1-Style"],
+      "position": "J095",
+      "links": ["http://www.k1-style.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nオリジナルでポップス・ロックを中心に、一人黙々と活動しております。たまに東方、アイマスのアレンジとか。"
+    },
+    {
+      "aliases": ["CIT SOFTMEDIA DTM TEAM"],
+      "position": "J096",
+      "links": ["http://softmedia.sakura.ne.jp/project/dtm/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\n千葉工業大学ソフトメディア研究会DTM班が製作した音楽CDを販売します。"
+    },
+    {
+      "aliases": ["Sound Puzzle"],
+      "position": "J097",
+      "links": ["http://soundpuzzle.net/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nテキスト音楽サクラによるオリジナル曲、東方アレンジを頒布予定です。"
+    },
+    {
+      "aliases": ["R-DSP"],
+      "position": "J098",
+      "links": ["http://rock-break.hp.infoseek.co.jp/dsp/"],
+      "comments": "Block: [ J ] (音楽：オリジナル)\nDAWソフトを用いた作曲活動を趣旨とした集団"
+    },
+    {
+      "aliases": ["Mellut×Nia"],
+      "position": "K001",
+      "links": ["http://mellutnia1025.xxxxxxxx.jp/index.html"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nMINATOとNIWAの二人が歌う、独特の世界……。"
+    },
+    {
+      "aliases": ["Melo9"],
+      "position": "K002",
+      "links": ["http://www.voiceblog.jp/melomelocute/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nバーチャルネットアイドルをコンセプトに萌えソング、電波ソングを制作しています。"
+    },
+    {
+      "aliases": ["RBLeo"],
+      "position": "K003",
+      "links": ["http://www.k3.dion.ne.jp/~earth-s/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n「うみねこのなく頃に」のイメージソングと本編未使用曲を含めたBGMを収録したCDを頒布予定です。"
+    },
+    {
+      "aliases": ["Fairy Tail"],
+      "position": "K004",
+      "links": ["http://www.la-forest.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n今回はインストCDを頒布予定。旧作のファンタジーポップもあります。"
+    },
+    {
+      "aliases": ["加水分解"],
+      "position": "K005",
+      "links": ["http://www.ran.miraru.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオリジナルストーリー音楽を作ってます。FFのアレンジ曲も出す予定です。"
+    },
+    {
+      "aliases": ["PrimeLine"],
+      "position": "K006",
+      "links": ["http://y-infi.com/primeline/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオリジナル楽曲を作成して活動中。"
+    },
+    {
+      "aliases": ["bona"],
+      "position": "K007",
+      "links": ["http://homepage3.nifty.com/bona/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nM3初参加！生楽器(ギター、歌、ピアノ、ドラム)を中心に使用し、退廃的な世界観をジャジィにポップに表現！男女混合ボーカルによるおどろおどろしさを追求していきます。"
+    },
+    {
+      "aliases": ["マイル～ム"],
+      "position": "K008",
+      "links": ["http://members.jcom.home.ne.jp/tento/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nファミコン、PCエンジン、スーパーファミコン、セガサターン、PC-FX、ワンダースワンなど、家庭用ゲーム機の実機で音楽を作っています。"
+    },
+    {
+      "aliases": ["DTXFiles.nmk"],
+      "position": "K009",
+      "links": ["http://mio-hosina.tn.st/index.html"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nストーリーボーカルプロジェクト[ClarityOratorio]発行中！"
+    },
+    {
+      "aliases": ["Notte"],
+      "position": "K010",
+      "links": ["http://nottemenu.sakura.ne.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n新作「Endroll」は、オリジナルストーリー・アトランティスのイメージソングＣＤです。"
+    },
+    {
+      "aliases": ["ちゅーりっぷ堂"],
+      "position": "K011",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n熱血ロボットソングと電波の融合をお楽しみください♪"
+    },
+    {
+      "aliases": ["7th_chord"],
+      "position": "K012",
+      "links": ["http://chord7th.web.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n初参加です。よろしくお願いします。"
+    },
+    {
+      "aliases": ["イキグサレ"],
+      "position": "K013",
+      "links": ["http://destroy.aki.gs/ikigusare/ikigusare.html"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n明るく元気に気持ち悪い曲をお送りいたします"
+    },
+    {
+      "aliases": ["来夢来人"],
+      "position": "K014",
+      "links": ["http://lime-light.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n歌うメイドのいるカラオケBOX来夢来人です、宜しくお願いします！"
+    },
+    {
+      "aliases": ["xxx? －3 cross－"],
+      "position": "K015",
+      "links": ["http://xxx-3cross.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n多種多彩な楽曲と歌声を駆使し、童話を題材にしたデビューミニアルバムを配布予定！"
+    },
+    {
+      "aliases": ["Q&Aレコード"],
+      "position": "K016",
+      "links": ["http://www.qanda-records.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nいぬいカルテットとかぼすとそらみみの音源が揃うのはここだけ！"
+    },
+    {
+      "aliases": ["Sound Mattya"],
+      "position": "K017",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n発足したばかりのサークルでまだまだ未熟ですが、よろしくお願いします。曲はうたものではなく、ＢＧＭ中心です。"
+    },
+    {
+      "aliases": ["テクニカ"],
+      "position": "K018",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nおきらくご気楽にマイペースで音と歌と言葉を楽しんでいます。"
+    },
+    {
+      "aliases": ["Aube de Cre'puscule"],
+      "position": "K019",
+      "links": ["http://aubedecrepuscule.web.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nシンガーソングライター・セネが送る、“現実に起こりうる物語”をテーマに創作活動しています。とある男子中学生を主人公に、人の心とは、正義とはなんぞやということを悪魔等を登場させて曲が進みます。初参加です。よろしくお願いします。"
+    },
+    {
+      "aliases": ["サクヤビメ"],
+      "position": "K020",
+      "links": ["http://sakuyabimesaku.web.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオリジナル音楽と写真＆映像（動画ＰＶ）を同時に活動しています。"
+    },
+    {
+      "aliases": ["どみね・じぇす・きりすて"],
+      "position": "K021",
+      "links": ["http://www.dominest.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n新オリジナル楽曲（メタル・ロック・ゲーム音楽・クラシックなど要素を含む）を販売致します！"
+    },
+    {
+      "aliases": ["Ark of Phantasm"],
+      "position": "K022",
+      "links": ["http://winna.hp.infoseek.co.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nメロディックスピードメタルからピアノソロヒーリングまで，あらゆるジャンルの網羅を目指しているサークルです．でもやっぱり速い曲は大好き．"
+    },
+    {
+      "aliases": ["M∞USEION"],
+      "position": "K023",
+      "links": ["http://www.maroon.dti.ne.jp/moouseion/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n女性Voでシンフォニック、ゴシック、民謡…etcなメタルが満載！無料配布CDも…あり！？フルートとヴァイオリンによるリリカルな旋律にツーバス疾走とか！！ツインギターに三味線でツーバス疾走とか！！！"
+    },
+    {
+      "aliases": ["HystiaЯica"],
+      "position": "K024",
+      "links": ["http://hystiarica.web.fc2.com/index.html"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n初参加、「ひすてぃありか」って読みます。オリジナル幻想物語をご堪能ください♪物語音楽、V系、メタル、ゴシックが好きな人は是非聴いてみてください☆無料配布CDもございます☆"
+    },
+    {
+      "aliases": ["nano PARADISE"],
+      "position": "K025",
+      "links": ["http://nano-paradise.com"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nパンクやロックを中心とした女性ボーカルメインのオリジナル楽曲を製作しています!"
+    },
+    {
+      "aliases": ["PiSSJOY THE SOUND DRiLLS"],
+      "position": "K026",
+      "links": ["http://www.myspace.com/pissjoythesounddrills"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nhttp://mf247.jp/artist/pissjoythesounddrills"
+    },
+    {
+      "aliases": ["Ｒ計画"],
+      "position": "K027",
+      "links": ["http://trompe-loeil.net/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n米国で修行してきたヴォーカリストR（仮）が中心となって、同人文化とRockの融合を目指すユニットです。"
+    },
+    {
+      "aliases": ["Glacier"],
+      "position": "K028",
+      "links": ["http://www.web-glacier.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n男性ボーカル「來」と作詞「た～ゆ～」の音楽ユニット。物語性のある楽曲をメインに製作しています。"
+    },
+    {
+      "aliases": ["石敢當-stela-"],
+      "position": "K029",
+      "links": ["http://stela777.blog13.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n琉球発の熱きヴィジュアル＋埼玉生まれのひどいヴィジュアル！まさに１＋１＝ぬ！"
+    },
+    {
+      "aliases": ["Roman so Words"],
+      "position": "K030",
+      "links": ["http://www.myspace.com/romansowords"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n女性Voオリジナルロック・メタルユニットです。ただひたすらにメロディアス。どこまでもメロディアス。でもたまにテクニカル・・・そんな楽曲にロマンのある言葉をのせて・・・。"
+    },
+    {
+      "aliases": ["くろいちごひめ"],
+      "position": "K031",
+      "links": ["http://www3.to/15hime"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nロックをメインにヒーリング、アンビエント、民族、宗教音楽要素などをプラスした少女系ボーカルオリジナル。Secret Garden、Enya、Bjorkあたりをダークでゴシック・メルヘンにした感じ…？前サークルのうみねこのなく頃にのHR、メロコアバンドアレンジCDもあります。"
+    },
+    {
+      "aliases": ["leo-g"],
+      "position": "K032",
+      "links": ["http://leo-g.x0.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nDTMとギターサウンドによるデジタルロックです。"
+    },
+    {
+      "aliases": ["Nightmare of OMEGA"],
+      "position": "K033",
+      "links": ["http://www.myspace.com/thenightmareofomega"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n正統派からちょっと変わったメタルまで色々やってます。バンドじゃなくて個人です。"
+    },
+    {
+      "aliases": ["三ツ星☆リストランテ"],
+      "position": "K034",
+      "links": ["http://3ristorante.blog85.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n前回に引き続きファンタジー感溢れるロックのシングルを多分頒布します。サークル名に反して曲は意外とマトモです。"
+    },
+    {
+      "aliases": ["HRK studio"],
+      "position": "K035",
+      "links": ["http://hrk.fam.cx"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n打ち込みによるオリジナル曲。プログレ、ハードロック、イージーリスニングっぽい。あとクラシック曲のアレンジ。"
+    },
+    {
+      "aliases": ["RaggedFriend"],
+      "position": "K036",
+      "links": ["http://www.geocities.jp/m_sailent/index.html"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nM3初参加です。オリジナル楽曲を中心に活動をしております。muzieにて公開している楽曲も収録し、すべて手直しを行っておりますので、是非聴いてみてください～。"
+    },
+    {
+      "aliases": ["tecra.info"],
+      "position": "K037",
+      "links": ["http://tecra.info/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n鉄道とテクノ。小田急線の車窓から。"
+    },
+    {
+      "aliases": ["STR"],
+      "position": "K038",
+      "links": ["http://str3.org"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオリジナルのバンドサウンドやクラブミュージックを制作。ひと味違うおしゃれな音楽をお届けします。"
+    },
+    {
+      "aliases": ["Bamboo&Cryptomeria"],
+      "position": "K039",
+      "links": ["http://akiba.geocities.jp/bamboocryptomeria/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nM3初参加です！IDM/Electronica/Ambientやゲームミュージック、VOCALOID２を使用した歌物を完全オリジナルで頒布予定です♪"
+    },
+    {
+      "aliases": ["LINEAR"],
+      "position": "K040",
+      "links": ["http://www.linear.nu"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nクラブイベントを開催している「LINEAR」が、本格的クラブテクノをお届けします"
+    },
+    {
+      "aliases": ["NMB"],
+      "position": "K041",
+      "links": ["http://www2.pf-x.net/~nmb/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nパワフルな女性ヴォーカルを中心に、さまざまなジャンルの要素を取り入れた音楽を提供いたします。"
+    },
+    {
+      "aliases": ["CarboHydrate"],
+      "position": "K042",
+      "links": ["http://sound.jp/csc-luv/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nビッグビートサイコー"
+    },
+    {
+      "aliases": ["HOLOCRON MUSIC"],
+      "position": "K043",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nM-Projectのメインレーベル。新作ミックス出します。"
+    },
+    {
+      "aliases": ["P.G.Factory"],
+      "position": "K044",
+      "links": ["http://plagarec.sakura.ne.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n活動１０周年！ということで心機一転、原点に返った新曲を出そうと思います！"
+    },
+    {
+      "aliases": ["Pilgrim"],
+      "position": "K045",
+      "links": ["http://www.voiceblog.jp/pilgrim/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nブレイクビーツを軸に、硬めなループミュージックやってます。ドラムンベースやダブステップがお好きな方は是非！"
+    },
+    {
+      "aliases": ["Spin→Out"],
+      "position": "K046",
+      "links": ["http://spinoutgroup.blog.shinobi.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nDS-10やStylphone他ガジェットサウンドを楽しんでいます。"
+    },
+    {
+      "aliases": ["Nostalgia Grimoire"],
+      "position": "K047",
+      "links": ["http://nostaltique.blog9.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n基本的にはHardcoreやGabba等のジャンルをメインに創作していくつもりです。オリジナルとアレンジの割合はだいたい半々位です。たまにまったく異なるジャンルの製作もあるかもしれません。"
+    },
+    {
+      "aliases": ["Magic Scientist"],
+      "position": "K048",
+      "links": ["http://plaza.rakuten.co.jp/aiharaharu/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n去年の活動を振り返って思ったことがあります。今年は、「踊りたくなる」曲を作ろうと思いました。なので、「踊りたくなる」曲を今年は作っていきます。"
+    },
+    {
+      "aliases": ["あんかけ屋"],
+      "position": "K049",
+      "links": ["http://www.ankakeya.net/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n東方ProjectハードコアCDやキャラボイスでテクノCDを頒布する予定です！"
+    },
+    {
+      "aliases": ["Reg;"],
+      "position": "K050",
+      "links": ["http://nprat.web.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nMOTTO！MOTTO！！うま味溢れるトランスコア"
+    },
+    {
+      "aliases": ["A.G.経営デッドロッカーズ"],
+      "position": "K051",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n原作ファン（ガンダム）の方もクラブ音楽ファンの方も楽しんで頂けるようなネタ物テクノ作ってます"
+    },
+    {
+      "aliases": ["charmstyle"],
+      "position": "K052",
+      "links": ["http://charmstyle.jp"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nTrance、House、HappyHardcoreなどのオリジナル。2ndアルバムを頒布予定です。"
+    },
+    {
+      "aliases": ["NKRN"],
+      "position": "K053",
+      "links": ["http://www.nkrn.net/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nエレクトロやブレイクコア、IDMをベースにして、ゲームやアニメの曲をカバーしたり、オリジナル曲を作っています。"
+    },
+    {
+      "aliases": ["α-helix"],
+      "position": "K054",
+      "links": ["http://alphahelix.dip.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nM３用の新譜出します。さらにテクノ押しで。"
+    },
+    {
+      "aliases": ["EXTRA SYSTEM."],
+      "position": "K055",
+      "links": ["http://extrasystem.sakura.ne.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオリジナルのハードハウスなどを作る予定です。"
+    },
+    {
+      "aliases": ["○"],
+      "position": "K056",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nミニマル"
+    },
+    {
+      "aliases": ["radio -virtual."],
+      "position": "K057",
+      "links": ["http://dot908.net/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n主にヨツウチで地味でミニマルなテクノやってます。"
+    },
+    {
+      "aliases": ["suzuka+"],
+      "position": "K058",
+      "links": ["http://www.myspace.com/xxsuzukaxx"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nsuzuka個人オリジナルキラキラ音エレクトロニカです。1st,2nd・・・新作も持ってきます！お友達も参加かも？！"
+    },
+    {
+      "aliases": ["KAISERZXNONXZ"],
+      "position": "K059",
+      "links": ["http://kikumano.hp.infoseek.co.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオンガクヨ、コウシンセヨ"
+    },
+    {
+      "aliases": ["ピコピコ安全県"],
+      "position": "K060",
+      "links": ["http://pikoan.hp.infoseek.co.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nメロディアスなハードなごきげんインストテクノポップです。"
+    },
+    {
+      "aliases": ["percent-Age"],
+      "position": "K061",
+      "links": ["http://percentxxxage.web.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\npercent-Age、本領発揮。マルチタイプテクノの奔流、3度目の覚醒!!"
+    },
+    {
+      "aliases": ["Muse Lab"],
+      "position": "K062",
+      "links": ["http://www3.to/muselab/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nリスニング向けのテクノ、トランスを作っています。"
+    },
+    {
+      "aliases": ["秋葉原航空"],
+      "position": "K063",
+      "links": ["http://www.myspace.com/akihabaraairline"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nけいおん！等アニメ、ゲームの声ネタを用いたサンプリングテクノ"
+    },
+    {
+      "aliases": ["TOKYO COM"],
+      "position": "K064",
+      "links": ["http://aquantum.web.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nテクノな人に、なりたい。"
+    },
+    {
+      "aliases": ["すてれおはいばい"],
+      "position": "K065",
+      "links": ["http://www.geocities.co.jp/manafuro/stereo/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nMac用音楽素材Mac音ナナを中心とした音楽CDを作ってます。たまねぎ"
+    },
+    {
+      "aliases": ["shin entertainment"],
+      "position": "K066",
+      "links": ["http://shin.ohuda.com/circle.html"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nVOCALOID等で制作した楽曲+イラスト+物語のコラボ作品の音楽CD制作"
+    },
+    {
+      "aliases": ["M.M.P.M."],
+      "position": "K067",
+      "links": ["http://konjyous.gozaru.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nボーカルM.KeiとVOCALOIDのコラボ（デュオ）によるオリジナル曲やってます。"
+    },
+    {
+      "aliases": ["味らく"],
+      "position": "K068",
+      "links": ["http://ameblo.jp/himi-haruhiro/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nVOCALOIDのオリジナル楽曲を作成しています。"
+    },
+    {
+      "aliases": ["Frima reve"],
+      "position": "K069",
+      "links": ["http://rue-ribes.sakura.ne.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n「どうせ、嘘。」　　　　---をテーマに、巡音ルカ楽曲CDを出します。"
+    },
+    {
+      "aliases": ["the Standard Of Living"],
+      "position": "K070",
+      "links": ["http://thundersugiyama.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nテクノ、パンク系のオリジナル系の新作ＣＤを領布いたします"
+    },
+    {
+      "aliases": ["メロスピ愛してますが何か？"],
+      "position": "K071",
+      "links": ["http://sound.jp/niu/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nただの参加者には興味ありません。この中でヘヴィメタル、特にシンフォニックメタル、メロディックスピードメタルにピンと来た方がいたら、あたしのところに来なさい。以上。"
+    },
+    {
+      "aliases": ["nya-studio"],
+      "position": "K072",
+      "links": ["http://www.nya-studio.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n■ - 個人スペース初参加です。キャッチーでキュンキュンする楽曲を目指して製作中！"
+    },
+    {
+      "aliases": ["全裸ネクタイ"],
+      "position": "K073",
+      "links": ["http://www.moecity.jp/home/kurabes2sqsc/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n今回はネタでなくて、割とガチでやると思います！（多分インストＣＤ）"
+    },
+    {
+      "aliases": ["nobleSphere"],
+      "position": "K074",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n2次元の素晴らしさを分かち合いましょう"
+    },
+    {
+      "aliases": ["わいしゅがーぷろじぇくと"],
+      "position": "K075",
+      "links": ["http://www.myspace.com/y-sugar-project"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nテクノ・ポップ・ロック・アンビエント・ｅｔｃ作ってます。基本雑多です。新譜（オリジナル・ルカ・ミク・メグ曲予定）とM3-2009秋で頒布しました、あくうかんさうんどの「空の地図」を頒布します。"
+    },
+    {
+      "aliases": ["-空詩--創造言詩-"],
+      "position": "K076",
+      "links": ["http://aikawa.soragoto.net"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n幻想系を中心としたオリジナル楽曲をお届けします。"
+    },
+    {
+      "aliases": ["服部ピザ"],
+      "position": "K077",
+      "links": ["http://hattoripizza.web.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nボカロなどのオリジナル曲配布"
+    },
+    {
+      "aliases": ["U1☆Rock"],
+      "position": "K078",
+      "links": ["http://ameblo.jp/gl-tachan/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nエモいとか言える大人になりたいです。"
+    },
+    {
+      "aliases": ["H add9"],
+      "position": "K079",
+      "links": ["http://www.myspace.com/hadd9"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nヴォーカロイドを使ったオリジナルソングを制作しています。少し懐かしい感じのJ-ポップ、歌謡ロックが中心です。"
+    },
+    {
+      "aliases": ["ホワホワ8"],
+      "position": "K080",
+      "links": ["http://www.hotfunny.net/howa8/index.html"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nホワホワPと8ch（はっちゃん）が2人でいろいろやるよー。アニソンカバー、リミックス、オリジナルなど！"
+    },
+    {
+      "aliases": ["Darkness of Iris"],
+      "position": "K081",
+      "links": ["http://www.geocities.jp/darkness_of_iris/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nアニソントランスアレンジ。BPM400越え、ピアノ、ストリングス、ピコピコ等。"
+    },
+    {
+      "aliases": ["Ontembaar Ster Records"],
+      "position": "K082",
+      "links": ["http://ontembaarster.blog100.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n変な曲ばっか作ってます。ハードコアテクノ系です。ガバですハピコアです。ネタです。ちなみに初参加です。"
+    },
+    {
+      "aliases": ["Music Load"],
+      "position": "K083",
+      "links": ["http://f39.aaa.livedoor.jp/~hirokazu/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nM3初参加です。リコーダーで色々なゲームの曲を演奏してます。"
+    },
+    {
+      "aliases": ["East Breaks In Thousand"],
+      "position": "K084",
+      "links": ["http://ebi1000.net/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n相変わらずアニメ、ゲーム音楽にアーメンブレイクを乗せてブレイクコアと言い張ってます。多少のことは大目に見ればいいと思う。"
+    },
+    {
+      "aliases": ["ASIA LUNAR"],
+      "position": "K085",
+      "links": ["http://sound.jp/asialunar/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nゲームボーイとMac音ナナを使ったCDを出します。ゲームボーイはレトロゲームアレンジとオリジナルの両方あります。"
+    },
+    {
+      "aliases": ["PapermoonFactory Sound Team"],
+      "position": "K086",
+      "links": ["http://papermoon.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nPapermoonFactoryの音楽チーム作品第3弾。今回も今更な感じで、ZoomのF1ゲーム「OVERTAKE」のアレンジ集です。"
+    },
+    {
+      "aliases": ["横浜裏未来研究所"],
+      "position": "K087",
+      "links": ["http://www.activeworks.ne.jp/~lightning100/yokoura.html"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n90年代ぐらいまでのゲームをDS-10でリミックスやってます。（M3初参加）"
+    },
+    {
+      "aliases": ["Ｃｉｒｃｌｅ　Ｓ＆Ｇ"],
+      "position": "K088",
+      "links": ["http://navy.ap.teacup.com/sandg/2.html"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n基本はレトロゲーサウンド攻略、たまにオリジナル仮想サントラ製作。"
+    },
+    {
+      "aliases": ["AgeSAge"],
+      "position": "K089",
+      "links": ["http://2ages.sakuraweb.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n無料配布するので、ぜひ足を運んでください。イベント初参加ですがよろしくお願いします。"
+    },
+    {
+      "aliases": ["nakanoise"],
+      "position": "K090",
+      "links": ["http://nakanoise.biz/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nmotherのBGMをギターでアレンジしてます。"
+    },
+    {
+      "aliases": ["BLAST　AND　R"],
+      "position": "K091",
+      "links": ["http://www.muzie.co.jp/artist/a062557/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nゲーム音楽のカバーをメインに活動しています。活動して間もないですが、よろしくお願いします！"
+    },
+    {
+      "aliases": ["とほほお～けすとら"],
+      "position": "K092",
+      "links": ["http://tohohoorchestra.web.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n東方project楽曲のオーケストラアレンジがメインです。人気曲はもちろんマイナーなところも拾っていく予定です。"
+    },
+    {
+      "aliases": ["JunKY-jaM"],
+      "position": "K093",
+      "links": ["http://jak.mistywhite.net/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nもっと熱くなれよ！でおなじみのJunKY-jaMです。Sound Catalog001もよろしく！"
+    },
+    {
+      "aliases": ["七瀬屋"],
+      "position": "K094",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n初参加です。東方アレンジをのそのそ頒布します。"
+    },
+    {
+      "aliases": ["Bitter Quartz"],
+      "position": "K095",
+      "links": ["http://biqa.blog108.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n海外のガバキックしか作ってません。オリジナルのが多いかも。"
+    },
+    {
+      "aliases": ["SuganoMusic"],
+      "position": "K096",
+      "links": ["http://sugano.lar.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n本家イタリアのレーベルへ楽曲提供するSuganoMusicのサークル配信開始！"
+    },
+    {
+      "aliases": ["Till-na-n-og"],
+      "position": "K097",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n四人の奏者と、六人の歌い手が織り成す、夢幻の世界。第一弾は東方projectをカバーいたします。"
+    },
+    {
+      "aliases": ["Discord Registers"],
+      "position": "K098",
+      "links": ["http://discordregisters.iza-yoi.net/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nEWIとギターのコンビ。シンセサイザーを多用したインストHR/HM系統がメインです。"
+    },
+    {
+      "aliases": ["Red innocence"],
+      "position": "K099",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n主に東方アレンジCD+オリジナル曲で活動しています。"
+    },
+    {
+      "aliases": ["Frozen System Records"],
+      "position": "K100",
+      "links": ["http://fsr.jpn.org/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n東方ハードコアアレンジで初参加です。"
+    },
+    {
+      "aliases": ["studio#3"],
+      "position": "K101",
+      "links": ["http://studio-n3.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nノリと酒が友達の勢いだけサークルです。"
+    },
+    {
+      "aliases": ["月面着陸ファージ"],
+      "position": "K102",
+      "links": ["http://be4you.jp/mocchie/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n東方の高速テクノアレンジをしています。"
+    },
+    {
+      "aliases": ["ましろ。"],
+      "position": "K103",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nはじめてのサークル参加ですがよろしくお願いします。"
+    },
+    {
+      "aliases": ["奏音"],
+      "position": "K104",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n初参加です。 東方のデジタルアレンジ　女性ボーカルです。"
+    },
+    {
+      "aliases": ["午前四時"],
+      "position": "K105",
+      "links": ["http://www16.atpages.jp/~iam4/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n東方男声RockアレンジCD持っていきます！"
+    },
+    {
+      "aliases": ["椛亭"],
+      "position": "K106",
+      "links": ["http://namaiya.web.fc2.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n電子楽器を使ったり、エレクトロな東方アレンジ"
+    },
+    {
+      "aliases": ["さぼてん天使"],
+      "position": "K107",
+      "links": ["http://www3.to/saboten-tensi"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n新作を出せたらいいなぁ～と思っています。現在ＨＰも新しく制作中です。。。"
+    },
+    {
+      "aliases": ["ムラサキノオト"],
+      "position": "K108",
+      "links": ["http://ameblo.jp/purplesounds/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n昨夏、秋姉妹合同誌に収録された東方二次創作ドラマの続編を頒布予定。他にもなんかやるかも？"
+    },
+    {
+      "aliases": ["Der seeraevber"],
+      "position": "K109",
+      "links": ["http://dese.lolipop.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n鉄道擬人化作品大好評につき再販しました！その他にもファンタジー・BL・GLあります♪ニココニ動画にてCM配信中！"
+    },
+    {
+      "aliases": ["faReer"],
+      "position": "K110",
+      "links": ["http://fareer03.kitunebi.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオリジナルドラマCD(＋歌少々)。基本的にメンバーが書きたい、演じたいと思ったものを中心に皆様にも十二分に楽しんで頂ける物を制作出来ればと思っています。"
+    },
+    {
+      "aliases": ["D.A.S Enjecty"],
+      "position": "K111",
+      "links": ["http://das-e.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオリジナルボイスドラマを制作してます。"
+    },
+    {
+      "aliases": ["サークル非常口"],
+      "position": "K112",
+      "links": ["http://hizyouguti.kacchaokkana.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nファンタジー、学園恋愛、SFなどの完全オリジナルドラマCDを作成しております。"
+    },
+    {
+      "aliases": ["MusicBall"],
+      "position": "K113",
+      "links": ["http://star69.sub.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオリジナルボイスドラマを中心に制作しています。ボーカルCDも販売します！無料配布もあるかも？"
+    },
+    {
+      "aliases": ["ゆのみ"],
+      "position": "K114",
+      "links": ["http://koebu.com/user/yunomiswc"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n個性的な声を持った役者たちが、完全オリジナル脚本で面白おかしく声による芝居を繰り広げます。あなたの好みの声の持ち主は見つかるかな？"
+    },
+    {
+      "aliases": ["ougeki"],
+      "position": "K115",
+      "links": ["http://www.ougeki.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオリジナルのワインの擬人化キャラクターのボイスＣＤを作ってます。続々進化する予定。ゲームもやってます。"
+    },
+    {
+      "aliases": ["にょみっくす！！焔戯"],
+      "position": "K116",
+      "links": ["http://nyo.xii.jp/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n創作音声劇を細々と楽しく制作してます。"
+    },
+    {
+      "aliases": ["spring　ａｑｕａ"],
+      "position": "K117",
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオリジナル作品「lie on one's back quisling」のアフレコＣＤを販売します。よかったら、足を運んでください。"
+    },
+    {
+      "aliases": ["UFO County"],
+      "position": "K118",
+      "links": ["http://www.geocities.jp/ufo_county/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\nオルタナティブを出発点にノイズ、ミニマル、アンビエント、エクスペリメントに傾倒しています。音響素材集や音楽制作のツールも製作中です。"
+    },
+    {
+      "aliases": ["カヲル"],
+      "position": "K119",
+      "links": ["http://savan.rossa.cc/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n朗読ＣＤを製作しています。新譜があると・・・いいな・・・。"
+    },
+    {
+      "aliases": ["こだまプロダクト"],
+      "position": "K120",
+      "links": ["http://koukaongen.com/"],
+      "comments": "Block: [ K ] (音楽：オリジナル・カバー、音響：ドラマ・その他)\n生録音中心の音響素材ライブラリ(効果音ライブラリ)を頒布します。今回はDVD-R4枚組です。◎全素材試聴可能です。ぜひ遊びに来て下さい。"
+    },
+    {
+      "aliases": ["Asriel"],
+      "position": "L01,L02",
+      "links": ["http://www.asriel.jp/m/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n楽曲に「静」と「動」を取り入れ、ファンタジー要素のある楽曲とバンドサウンドを基調とした曲を展開。2008年メジャーデビューを果たしTVアニメ・コンシューマ向けゲーム主題歌等を担当。また、同年に都内でワンマンライブを敢行し、満員御礼の成功を収める。今年は更にインディーズ活動にも力を入れ、精力的なLive活動を目標に準備を進めている。"
+    },
+    {
+      "aliases": ["空色絵本"],
+      "position": "L03",
+      "links": ["http://www.sorairoehon.net/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n歌、電気、ギター、フィードバック、エイリアスノイズ、"
+    },
+    {
+      "aliases": ["綾菓処"],
+      "position": "L04",
+      "links": ["http://ryorca.net/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n歌って踊れる通訳で占い師で作詞家、綾菓のやりたい放題サークル☆"
+    },
+    {
+      "aliases": ["はな*うた"],
+      "position": "L05",
+      "links": ["http://hananouta.seesaa.net/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nガールズユニット「りさのうたうたうたいまぁす」やオリジナルアニメーション「ぱぷぴぷ」など、オリジナルの楽曲や映像作品を頒布中！"
+    },
+    {
+      "aliases": ["MOOK-TV"],
+      "position": "L06",
+      "links": ["http://mook-tv.com/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nオリジナルアニメとボーカロイド楽曲。「音研」シリーズあるよ。"
+    },
+    {
+      "aliases": ["Rose&Rosary"],
+      "position": "L07",
+      "links": ["http://hakenkreuz-maiden.com/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nアキバ等で活動中のゴシック系ロックバンドです。アキバ系アイドルさんのオムニバスCDも当スペースで発売しまーす。"
+    },
+    {
+      "aliases": ["我侭☆王子"],
+      "position": "L08",
+      "links": ["http://www.geocities.co.jp/AnimeComic-Ink/2214/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n参加して下さった方の演技向上の機会になるようなボイスドラマを作っています。"
+    },
+    {
+      "aliases": ["cc.amaretto"],
+      "position": "L09",
+      "links": ["http://cc.amaretto.jp/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n女性ボーカルのオリジナル曲を中心に制作しています。"
+    },
+    {
+      "aliases": ["AdamKadmon"],
+      "position": "L10",
+      "links": ["http://ak.jeez.jp/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n廃頽的ゴシック・ロックを基調とした女性ボーカル(ツインボーカル)によるオリジナル作品を制作しています。美麗イラスト＆特殊パッケージによる AdamKadmon 1st CD 『Rosa』 を発表します。"
+    },
+    {
+      "aliases": ["k'musica"],
+      "position": "L11",
+      "links": ["http://km.xii.jp/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nロック系クロスオーバーのオリジナルボーカルCDを制作しています。"
+    },
+    {
+      "aliases": ["Corky Voce"],
+      "position": "L12",
+      "links": ["http://www.corkyvoce.com/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n物語性重視の2nd Album 配布予定です！"
+    },
+    {
+      "aliases": ["Attrielectrock"],
+      "position": "L13",
+      "links": ["http://triangler.net"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n今回、サークル初のオリジナルＣＤの頒布となります。メインボーカルに南条あきらを招き、二つの感性が融合した独自の世界観となっております。"
+    },
+    {
+      "aliases": ["STARAVID"],
+      "position": "L14",
+      "links": ["http://www.staravid.com"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nSHIHOのオリジナル楽曲制作のSTARAVIDがSHIHOと共にM3初参戦！！"
+    },
+    {
+      "aliases": ["YOTSUHA"],
+      "position": "L15",
+      "links": ["http://www.yotsuha.jp/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nYOTSUHA予告編ミニアルバム発売。"
+    },
+    {
+      "aliases": ["Liz Triangle"],
+      "position": "L16",
+      "links": ["http://liz-tora.com"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nLiz Triangleオリジナル第３段ミニアルバム発売！"
+    },
+    {
+      "aliases": ["corleonis"],
+      "position": "L17",
+      "links": ["http://corleonis.info/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nオリジナルのフルアルバムを頒布する予定です"
+    },
+    {
+      "aliases": ["binaria"],
+      "position": "L18",
+      "links": ["http://binaria.net"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nベストアルバムを制作中です。"
+    },
+    {
+      "aliases": ["Alieson"],
+      "position": "L19",
+      "links": ["http://www.alieson.net/html/index.html"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n同時の世界観を描いた、オリジナル女性ボーカル作品を頒布しています"
+    },
+    {
+      "aliases": ["DeviceHigh"],
+      "position": "L20",
+      "links": ["http://devicehigh.matrix.jp/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nTVアニメ：スクールデイズのOPを担当したDevieHighです。新作を出しますのでよろしくお願いします！"
+    },
+    {
+      "aliases": ["さおりぷろじぇくと。"],
+      "position": "L21",
+      "links": ["http://www.sorrel.info"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n微々幻想系の歌もの＆ポップス歌ものを中心に、朗読をまじえたり、ボイスドラマCDなども製作しています。"
+    },
+    {
+      "aliases": ["Re:Volte"],
+      "position": "L22",
+      "links": ["http://re-volte.net/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n長編オリジナル作品ASTROLOGIA 第４弾頒布開始予定"
+    },
+    {
+      "aliases": ["Fanatasista"],
+      "position": "L23",
+      "links": ["http://yanagingar.com/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n柳英一郎のオリジナル音楽サークルです。"
+    },
+    {
+      "aliases": ["atmosphere"],
+      "position": "L24",
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n今回より、サークル名が『BACK GATE WOLF』より『atmosphere』と変わりました。オリジナルボイスドラマを制作しております。今回は、毎回好評を頂いている『MIYU reading aloud project』の新作や、現在制作中の作品を頒布予定です。"
+    },
+    {
+      "aliases": ["vivid'sＢ"],
+      "position": "L25",
+      "links": ["http://vividsb.com/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n元気っ娘☆西沢はぐみが歌う電波やポップなイカソングです。新譜ございます。"
+    },
+    {
+      "aliases": ["stretta di mano"],
+      "position": "L26",
+      "links": ["http://www.tsukiko-voice.com/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n月子の個人サークルです。オリジナルボーカルCDを頒布します。今回もKTGさんとのアルバムともう１つ、新作２枚頒布予定です。"
+    },
+    {
+      "aliases": ["Ether"],
+      "position": "L27",
+      "links": ["http://www.ether-music.com/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nオリジナル女性ヴォーカルシンフォニックロック！ゴシックや男女ツインボーカルもあり！今回も疾走しますっ！！"
+    },
+    {
+      "aliases": ["たいほー池"],
+      "position": "L28",
+      "links": ["http://taihooike.sakura.ne.jp/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n女性Voのオリジナルのアニソン(？)をやってます。ロック、メタルよりの音楽性です。"
+    },
+    {
+      "aliases": ["メリディアンローグ"],
+      "position": "L29",
+      "links": ["http://meridianrogue.com/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nお蔭様でメジャーデビュー致しました！それでもＭ３には出ます！オリジナル男性ボーカルものです。"
+    },
+    {
+      "aliases": ["YAMAGEN'S DEVILELIET"],
+      "position": "L30",
+      "links": ["http://devileliet.gozaru.jp/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nデス声とクリーンが絡む感じのメタルコア的なものをやっております。新譜持ってきますので宜しくお願いしますっ"
+    },
+    {
+      "aliases": ["Gungnir over rev"],
+      "position": "L31",
+      "links": ["http://gungni.com"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nみんなで突き進む！愉快なクルーが集う、アットホームな海賊船。そして、”歌・詞・音楽”を”歌い・紡ぎ・奏で”形にするサークル。webラジオも配信中！"
+    },
+    {
+      "aliases": ["えびす食堂"],
+      "position": "L32",
+      "links": ["http://www2s.biglobe.ne.jp/~TK-2/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n好きな戦国武将は坂本 龍馬です。"
+    },
+    {
+      "aliases": ["Cerisier"],
+      "position": "L33",
+      "links": ["http://fumi.moe.to"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n美少女ゲーム主題歌・ピコピコサウンド・デジロック等。桜ふみ新譜を取り扱っています。"
+    },
+    {
+      "aliases": ["Studio-Kurage"],
+      "position": "L34",
+      "links": ["http://studio-kurage.jugem.jp/?eid=3"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\njazz/electronicaを中心にしたちょっとセンチなポップス。変拍子ファンは必聴。"
+    },
+    {
+      "aliases": ["肋骨拳 ～Rock乙Punch～"],
+      "position": "L35",
+      "links": ["http://sound.jp/rokkotsupunch/x/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n大阪を中心に活動する団体です。月に１～２回集まって活動しています。内容は稽古をしたり談笑したり、、、どちらが多いかはナイショってことで。"
+    },
+    {
+      "aliases": ["NOMARK"],
+      "position": "L36",
+      "links": ["http://nomark.skr.jp/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nオリジナルファンタジー系ボイスドラマ＋ストーリー音楽CDを制作しています。"
+    },
+    {
+      "aliases": ["猫の福音"],
+      "position": "L37",
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n女性Ｖｏ．くろねこが幻想的、且つ切ないメロディをポップでロックなサウンドに乗せてお届けします。"
+    },
+    {
+      "aliases": ["Sylfiore"],
+      "position": "L38",
+      "links": ["http://www.sylfiore.sakura.ne.jp"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n時に幻想的で、時にハードな楽曲作りを目指します。"
+    },
+    {
+      "aliases": ["Siestail"],
+      "position": "L39",
+      "links": ["http://siestail.net/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nそれなりにキュートでそれなりにポップなオリジナル曲とか。東方アレンジもあるよ"
+    },
+    {
+      "aliases": ["est"],
+      "position": "L40",
+      "links": ["http://homepage1.nifty.com/est/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nきらきら元気かわいいオリジナル・ガールズポップのツインボーカル・ユニット「女の子プロジェクト」のCDを制作しています。"
+    },
+    {
+      "aliases": ["Sugar plum Garden"],
+      "position": "L41",
+      "links": ["http://miruchu.chu.jp/spg/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n橋本鏡也×佳織みちる　ロック中心　新感覚ユニット"
+    },
+    {
+      "aliases": ["antipasto"],
+      "position": "L42",
+      "links": ["http://www.antipasto-caffe.com/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nM3初参加です！声優さんによるオリジナルドラマCD（吸血鬼モノ&陰陽師モノ）を頒布します。他には乙女向けの同人ゲームも制作中です。よろしくお願いします！"
+    },
+    {
+      "aliases": ["Alternative ending"],
+      "position": "L43",
+      "links": ["http://miko.s234.xrea.com/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nmikoの個人サークルです。オリジナルで音楽を作っています。"
+    },
+    {
+      "aliases": ["mimei"],
+      "position": "L44",
+      "links": ["http://totsu-kuni.net/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nレトロで幻想的な和洋折衷曲のＣＤを発行しています。"
+    },
+    {
+      "aliases": ["六弦アリス"],
+      "position": "L45",
+      "links": ["http://www.rokugen.net/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\n清く正しく美しく黒く。"
+    },
+    {
+      "aliases": ["WAVE"],
+      "position": "L46",
+      "links": ["http://www.circle-wave.net/"],
+      "comments": "Block: [ L ] (音楽：オリジナル、音響：ドラマ、マルチメディア)\nアレンジ、オリジナルを問わず幅広い音楽CDを制作。"
+    }
+  ],
+  "sources": [
+    {
+      "source": "Date, Participating circles: https://www.m3net.jp/event/2010s.php",
+      "type": ["Reliable", "Official"]
+    }
+  ]
+}

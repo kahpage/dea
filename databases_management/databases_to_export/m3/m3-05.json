@@ -208,8 +208,7 @@
     },
     {
       "aliases": ["イエロートライマジック東京出張所"],
-      "position": "07b",
-      "links": [null]
+      "position": "07b"
     },
     {
       "aliases": ["GFK Records"],
@@ -1625,7 +1624,7 @@
   ],
   "sources": [
     {
-      "source": "Date, Participating circles : https://www.m3net.jp/event/2000s.php",
+      "source": "Date, Participating circles: https://www.m3net.jp/event/2000s.php",
       "type": ["Reliable", "Official"]
     }
   ],
