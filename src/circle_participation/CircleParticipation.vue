@@ -46,6 +46,8 @@ const circle_index_lowered = computed(() => {
     return {
       ...circle,
       names: circle.names.map((name) => name.trim().toLowerCase()), // Lowercase all names
+      misc: circle.misc && Array.isArray(circle.misc)?circle.misc.map((name) => name.trim().toLowerCase()):null, // Lowercase all misc
+      event_name: circle.event_name.trim().toLowerCase(), // Lowercase event name
     };
   });
 });
@@ -64,7 +66,8 @@ const filtered_circles = computed(() => {
   return circle_index_lowered.value.filter((circle) => {
     let matchNames = circle.names.some((name) => name.includes(query)); // Check if any name in the circle's names array includes the search query
     let matchEvent = circle.event_name.toLowerCase().includes(query); // Check for event match
-    return matchNames || matchEvent; // Return true if either matches
+    let matchMisc = circle.misc && circle.misc.some((misc) => misc.toLowerCase().includes(query));
+    return matchNames || matchEvent || matchMisc; // Return true if either matches
   
   });
 });

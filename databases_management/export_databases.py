@@ -179,12 +179,16 @@ if __name__ == '__main__':
     class ParticipatingCircle: # Circle for that index
         names: list[str] = field(default_factory=list) # aliases & pen_names
         event_name: str = "" # Event name to display
+        misc: list[str] = field(default_factory=list) # Other fields to search in, e.g. comments
 
         def get_json(self) -> dict[str, Any]:
-            return {
+            out_dict = {
                 "names": self.names,
-                "event_name": self.event_name
+                "event_name": self.event_name,
             }
+            if self.misc:
+                out_dict["misc"] = self.misc
+            return out_dict
     
     # circle_index: list[ParticipatingCircle] = []
     def recursive_circle_index(index: dict[str, Any], root_path_list: list[str] = []) -> dict[str,Any]:
@@ -214,10 +218,15 @@ if __name__ == '__main__':
                         names.extend(circle["aliases"])
                     if "pen_names" in circle:
                         names.extend(circle["pen_names"])
-
+                    misc = []
+                    if "comments" in circle:
+                        misc.append(circle["comments"])
+                    if "links" in circle and circle["links"]:
+                        misc.extend(circle["links"])
                     event_index.append(ParticipatingCircle(
                         names=names,
-                        event_name=event["aliases"][0]
+                        event_name=event["aliases"][0],
+                        misc=misc
                     ).get_json())
                 if db_name in this_circle_index:
                     this_circle_index[db_name] += event_index
