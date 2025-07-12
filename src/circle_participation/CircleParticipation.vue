@@ -1,128 +1,210 @@
-<!--============================================================ ...
-     Event List page
-... ============================================================ -->
-
 <script setup>
-  import { ref, computed } from "vue";
-  import circle_raw_index from '@/assets/static_databases/circle_participation_index.json' // Static database import
+import { useVirtualList } from "@vueuse/core";
+import { computed, shallowRef } from "vue";
+import { ref } from "vue";
+import circle_raw_index from "@/assets/static_databases/circle_participation_index.json"; // Static database import
 
-  const keywords= ref("")
+const keywords = ref("");
 
-  function recursive_fill_circle_index(current_raw_index, ar_path) {
-    let current_circle_list = []
+function recursive_fill_circle_index(current_raw_index, ar_path) {
+  let current_circle_list = [];
 
-    for (const db_name in current_raw_index) {
-      if (Array.isArray(current_raw_index[db_name])) { // Not a subfolder, but a db
-        let raw = current_raw_index[db_name]
-        for (const key in raw) {
-          raw[key]["event_ar_path"] = ar_path.concat(db_name) // add ar_path
-        }
-        current_circle_list = [].concat(current_circle_list, raw)
-      } else { // A subfolder
-        let raw = recursive_fill_circle_index(current_raw_index[db_name], ar_path.concat(db_name))
-        current_circle_list = [].concat(current_circle_list, raw)
+  for (const db_name in current_raw_index) {
+    if (Array.isArray(current_raw_index[db_name])) {
+      // Not a subfolder, but a db
+      let raw = current_raw_index[db_name];
+      for (const key in raw) {
+        raw[key]["event_ar_path"] = ar_path.concat(db_name); // add ar_path
       }
+      current_circle_list = [].concat(current_circle_list, raw);
+    } else {
+      // A subfolder
+      let raw = recursive_fill_circle_index(
+        current_raw_index[db_name],
+        ar_path.concat(db_name)
+      );
+      current_circle_list = [].concat(current_circle_list, raw);
     }
-     
-    return current_circle_list
   }
+
+  return current_circle_list;
+}
+
+const circle_index = computed(() => {
+  return recursive_fill_circle_index(circle_raw_index, []);
+});
+
+const circle_index_lowered = computed(() => {
+  if (
+    !circle_index ||
+    !circle_index.value ||
+    !Array.isArray(circle_index.value)
+  ) {
+    return [];
+  }
+  return circle_index.value.map((circle) => {
+    return {
+      ...circle,
+      names: circle.names.map((name) => name.trim().toLowerCase()), // Lowercase all names
+    };
+  });
+});
+
+const filtered_circles = computed(() => {
+  // According to keywords
+  if (
+    !circle_index ||
+    !circle_index.value ||
+    !Array.isArray(circle_index.value)
+  ) {
+    return [];
+  }
+
+  let query = keywords.value.trim().toLowerCase();
+  return circle_index_lowered.value.filter((circle) => {
+    let matchNames = circle.names.some((name) => name.includes(query)); // Check if any name in the circle's names array includes the search query
+    let matchEvent = circle.event_name.toLowerCase().includes(query); // Check for event match
+    return matchNames || matchEvent; // Return true if either matches
   
-  const circle_index = computed(() => {
-    return recursive_fill_circle_index(circle_raw_index, [])
-  })
+  });
+});
 
-  const filtered_circles = computed(() => { // According to keywords
-    if (!circle_index || !circle_index.value || !Array.isArray(circle_index.value)) {return []}
+const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
+  filtered_circles,
+  {
+    itemHeight: 22,
+    // overscan: 10,
+  }
+);
 
-    let query = keywords.value.trim().toLowerCase();
-    return circle_index.value.filter(circle => {
-      return circle.names.some(name => name.trim().toLowerCase().includes(query)); // Check if any name in the circle's names array includes the search query
-    });
-  })
+function searchUpdate () {
+  keywords.value = event.target.value;
+  scrollTo(0);
+}
 </script>
 
 <template>
-    <!-- Title -->
-    <head><title>dea | Circle Participation</title></head>
+  <!-- Title -->
+  <head><title>dea | Circle Participation</title></head>
 
-    <div class="header-title">Circle Participation</div>
-    <div class="header">List of participating circles registered in the database.</div>
+  <div class="header-title">Circle Participation</div>
+  <div class="header">List of participating circles registered in the database.</div>
+  
+  <input class="cp-input" :value="keywords" @input="searchUpdate" placeholder="Keywords" /> ({{filtered_circles?.length}} results)
 
-    <div class="cp-div">
-      <input v-model="keywords" placeholder="Keywords"> ({{ filtered_circles?.length }} results)
+  <div class="cp-div">
+    
+    <table class="cp-header-table">
+      <thead>
+        <tr>
+          <th colspan="4" class="cp-table-title">
+            Participating circles
+          </th>
+        </tr>
+        <tr>
+          <th>Names / Pen Names</th>
+          <th >Event</th>
+        </tr>
+      </thead>
+    </table>
 
-      <table class="cp-table">
-        <thead>
-          <tr>
-            <th colspan="4" class="cp-table-title">
-              Participating circles
-            </th>
-          </tr>
-          <tr>
-            <th>Names / Pen Names</th>
-            <th>Event</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="(circle, i) in filtered_circles" :key="i">
-            <th>
-              {{ circle.names.join(" / ") }}
-            </th>
-            <th>
-              <a class="cp-event-link" :href="['/dea/event_detail/#'].concat(circle.event_ar_path).concat(circle.event_name).join('/')">
-                {{ circle.event_name }}
-              </a>
-            </th>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+      <div class="cp-vlist">
+        <div v-bind="containerProps" class="cp-vlist-component">
+          <div v-bind="wrapperProps">
+            <div
+              v-for="(circle, i) in list"
+              :key="i"
+              class="cp-vlist-item"
+            > 
+              <div :class="circle.index % 2 === 0 ? 'cp-vlist-item-even' : 'cp-vlist-item-odd'">
+                <!-- {{ circle }} -->
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>{{ circle.data.names.join(", ") }}</th>
+                      <th>
+                        <a class="cp-event-link" :href="['/dea/event_detail/#'].concat(circle.data.event_ar_path).concat(circle.data.event_name).join('/')">
+                          {{ circle.data.event_name }}
+                        </a>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 </template>
 
-<style>
-    @import '@/assets/common.css';
+<style scoped>
 
   .cp-div {
-    padding: 1em;
-  }
-    
-  table {
-    width: 100%;
-    margin: 1em 0;
+    margin: 1em;
+    background-color: var(--orange-dark);
+    color: var(--grey-vibrant);
+    text-align: left;
     font-size: 18px;
     font-family: Arial, sans-serif;
     box-shadow: 0 0 20px #3b393926;
     border: 3px solid var(--orange-dark);
     border-radius: 5px;
-    overflow: hidden;
-    text-align: left;
-    border-collapse: separate;
-    border-spacing: 0;
+  }
+  
+  .cp-header-table {
+    width: 100%;
   }
 
-  thead {
-    background-color: var(--orange-dark);
-    color: var(--grey-vibrant);
-    text-align: left;
-  }
-
-  th {
-    padding: 0 0.3em;
-    text-align: left;
-    color: var(--grey-light);
-  }
-
-  tbody tr:nth-child(odd) {
-    background-color: var(--grey-dark);
-  }
   .cp-table-title {
     font-size: larger;
     text-align: center;
     font-weight: 700;
   }
 
+  .cp-vlist {
+    margin: 0 0.25em;
+    /* background-color: red; */
+  }
+
+  .cp-vlist-component {
+    height: 30em;
+  }
+  
+  /* Color even cp-vlist-component based on index in vlist */
+  .cp-vlist-item {
+    height: 22px;
+    padding: 0;
+    background-color: var(--grey-dark);
+    color: var(--grey-light);
+  }
+
+  .cp-vlist-item-even {
+  }
+  .cp-vlist-item-odd {
+    background-color: var(--greyish-deep);
+  }
+
+  .cp-input {
+    margin-left: 1em;
+  }
+
+  th:nth-child(2) {
+    text-align: right;    
+    padding-right: 1em;
+  }
+  
+  table {
+    width: 100%;
+  }
+
+  tr {
+    padding: 0 0.3em;
+    color: var(--grey-light);
+    width: 100%;
+  }
+
   a.cp-event-link {
     color: var(--scarlet-soft);
   }
-
 </style>
