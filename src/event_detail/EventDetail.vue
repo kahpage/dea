@@ -9,6 +9,9 @@ import axiosInstance from "@/axios/axios_config.js";
 import makeLinksClickable from "@/assets/utils.js";
 import ToggleShow from "@/components/ToggleShow.vue";
 
+import PopUpManager from "../components/PopUpManager.vue";
+import PopUpCircledetails from "./PopUpCircledetails.vue";
+
 const public_path = import.meta.env.MODE == "production" ? `/dea/` : `/dea/`; // Path of public/ folder
 
 const route = useRoute();
@@ -105,6 +108,18 @@ watchEffect(async () => {
     );
   }
 });
+
+import {useTemplateRef, markRaw} from 'vue';
+const popUpManager = useTemplateRef('popUpManager');
+function popupCircleDetails(circle_db) {
+  console.log("circle_db :", circle_db)
+
+  let count = popUpManager.value.popups.length + 1;
+  popUpManager.value.addPopup(
+    markRaw(PopUpCircledetails),
+    {circle_db: circle_db, db_path: db_path_description.value}
+  )
+}
 </script>
 
 <template>
@@ -180,7 +195,7 @@ watchEffect(async () => {
                 <th>Aliases</th>
                 <th>Pen Names</th>
                 <th>links</th>
-                <th>media</th>
+                <th>details</th>
               </tr>
             </thead>
             <tbody>
@@ -203,12 +218,7 @@ watchEffect(async () => {
                   ></span>
                 </th>
                 <th>
-                  <span v-if="circle.hasOwnProperty('media')">
-                    <a v-for="(m, i) in circle.media" :key="i" 
-                    :href="[`${public_path}databases`].concat(db_path_description).concat(['media', m.path]).join('/')">
-                      {{ i+1 }}
-                    </a>
-                  </span>
+                  <button @click="popupCircleDetails(circle)">↗</button>
                 </th>
               </tr>
             </tbody>
@@ -276,6 +286,8 @@ watchEffect(async () => {
       </ToggleShow>
     </div>
   </div>
+
+  <PopUpManager ref="popUpManager" />
 </template>
 
 <style scoped>
@@ -283,9 +295,7 @@ watchEffect(async () => {
 
 .ed-div {
   padding: 1em;
-  /* border: 2px solid var(--greyish-soft); */
   background-color: var(--greyish-dark);
-  width: auto;
 }
 
 .ed-header {
@@ -333,6 +343,7 @@ th {
 tbody tr:nth-child(odd) {
   background-color: var(--grey-dark);
 }
+
 .ed-table-title {
   font-size: larger;
   text-align: center;

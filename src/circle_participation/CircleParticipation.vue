@@ -63,12 +63,12 @@ const filtered_circles = computed(() => {
   }
 
   let query = keywords.value.trim().toLowerCase();
-  return circle_index_lowered.value.filter((circle) => {
-    let matchNames = circle.names.some((name) => name.includes(query)); // Check if any name in the circle's names array includes the search query
-    let matchEvent = circle.event_name.toLowerCase().includes(query); // Check for event match
-    let matchMisc = circle.misc && circle.misc.some((misc) => misc.toLowerCase().includes(query));
+  return circle_index.value.filter((circle, index) => {
+    let circle_lowered = circle_index_lowered.value[index];
+    let matchNames = circle_lowered.names.some((name) => name.includes(query)); // Check if any name in the circle's names array includes the search query
+    let matchEvent = circle_lowered.event_name.toLowerCase().includes(query); // Check for event match
+    let matchMisc = circle_lowered.misc && circle_lowered.misc.some((misc) => misc.toLowerCase().includes(query));
     return matchNames || matchEvent || matchMisc; // Return true if either matches
-  
   });
 });
 
