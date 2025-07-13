@@ -6,11 +6,9 @@
 import { ref, computed, watchEffect } from "vue";
 import { useRoute } from "vue-router";
 import axiosInstance from "@/axios/axios_config.js";
-import makeLinksClickable from "@/assets/utils.js";
+import {makeLinksClickable, public_path} from "@/assets/utils.js";
 import EventGroupTable from "@/components/EventGroupTable.vue";
 import ToggleShow from "@/components/ToggleShow.vue";
-
-const public_path = import.meta.env.MODE == "production" ? `/dea/` : `/dea/`; // Path of public/ folder
 
 const route = useRoute();
 const props = defineProps({
