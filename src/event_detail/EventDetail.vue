@@ -6,10 +6,12 @@
 import { ref, computed, watchEffect } from "vue";
 import { useRoute } from "vue-router";
 import axiosInstance from "@/axios/axios_config.js";
-import makeLinksClickable from "@/assets/utils.js";
+import {makeLinksClickable, public_path} from "@/assets/utils.js";
 import ToggleShow from "@/components/ToggleShow.vue";
+import {useTemplateRef, markRaw} from 'vue';
 
-const public_path = import.meta.env.MODE == "production" ? `/dea/` : `/dea/`; // Path of public/ folder
+import PopUpManager from "../components/PopUpManager.vue";
+import PopUpCircledetails from "./PopUpCircledetails.vue";
 
 const route = useRoute();
 const props = defineProps({
@@ -95,6 +97,15 @@ function get_event_db(response_data) {
   }
 }
 
+/* PopUpManager */
+const popUpManager = useTemplateRef('popUpManager');
+function popupCircleDetails(circle_db) {
+  popUpManager.value.addPopup(
+    markRaw(PopUpCircledetails),
+    {circle_db: circle_db, db_path: db_path_description.value}
+  )
+}
+
 // Watch for changes in db_path_description and db_path_event_name
 watchEffect(async () => {
   if (db_path_description.value && db_path_event_name.value) {
@@ -105,6 +116,7 @@ watchEffect(async () => {
     );
   }
 });
+
 </script>
 
 <template>
@@ -180,7 +192,7 @@ watchEffect(async () => {
                 <th>Aliases</th>
                 <th>Pen Names</th>
                 <th>links</th>
-                <th>media</th>
+                <th>details</th>
               </tr>
             </thead>
             <tbody>
@@ -203,12 +215,10 @@ watchEffect(async () => {
                   ></span>
                 </th>
                 <th>
-                  <span v-if="circle.hasOwnProperty('media')">
-                    <a v-for="(m, i) in circle.media" :key="i" 
-                    :href="[`${public_path}databases`].concat(db_path_description).concat(['media', m.path]).join('/')">
-                      {{ i+1 }}
-                    </a>
-                  </span>
+                  <button class='ed-popup-button'
+                   @click="popupCircleDetails(circle)"
+                   title="Show circle details"
+                   >🡵</button>
                 </th>
               </tr>
             </tbody>
@@ -276,6 +286,8 @@ watchEffect(async () => {
       </ToggleShow>
     </div>
   </div>
+
+  <PopUpManager ref="popUpManager" />
 </template>
 
 <style scoped>
@@ -283,9 +295,7 @@ watchEffect(async () => {
 
 .ed-div {
   padding: 1em;
-  /* border: 2px solid var(--greyish-soft); */
   background-color: var(--greyish-dark);
-  width: auto;
 }
 
 .ed-header {
@@ -333,6 +343,7 @@ th {
 tbody tr:nth-child(odd) {
   background-color: var(--grey-dark);
 }
+
 .ed-table-title {
   font-size: larger;
   text-align: center;
@@ -375,5 +386,17 @@ tbody tr:nth-child(odd) {
 
 .ts-notes-div p {
   word-wrap: break-word;
+}
+
+.ed-popup-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--orange-light);
+  font-weight: 900;
+}
+
+.ed-popup-button:hover {
+  color: var(--orange-vibrant);
 }
 </style>

@@ -15,4 +15,6 @@ function makeLinksClickable(text) {
   });
 }
 
-export default makeLinksClickable;
+const public_path = import.meta.env.MODE == "production" ? `/dea/` : `/dea/`; // Path of public/ folder
+
+export {makeLinksClickable, public_path};

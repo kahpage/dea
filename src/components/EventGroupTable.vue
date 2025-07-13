@@ -29,7 +29,7 @@
 
 <script setup>
 import { ref, computed } from "vue";
-import makeLinksClickable from "@/assets/utils.js";
+import {makeLinksClickable} from "@/assets/utils.js";
 
 const props = defineProps({
   event_group_db: Object,
