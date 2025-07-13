@@ -215,7 +215,10 @@ watchEffect(async () => {
                   ></span>
                 </th>
                 <th>
-                  <button @click="popupCircleDetails(circle)">↗</button>
+                  <button class='ed-popup-button'
+                   @click="popupCircleDetails(circle)"
+                   title="Show circle details"
+                   >🡵</button>
                 </th>
               </tr>
             </tbody>
@@ -383,5 +386,17 @@ tbody tr:nth-child(odd) {
 
 .ts-notes-div p {
   word-wrap: break-word;
+}
+
+.ed-popup-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--orange-light);
+  font-weight: 900;
+}
+
+.ed-popup-button:hover {
+  color: var(--orange-vibrant);
 }
 </style>

@@ -151,7 +151,10 @@ function popupCircleDetails(circle_partial_db) {
                 <tbody>
                   <tr>
                     <th>
-                      <button @click="popupCircleDetails(circle.data)">↗</button>
+                      <button class='cp-popup-button' 
+                        @click="popupCircleDetails(circle.data)"
+                        title="Show circle (partial) details"
+                      >🡵</button>
                       {{ circle.data.names.join(" / ") }}
                     </th>
                     <th>
@@ -246,5 +249,17 @@ tr {
 
 a.cp-event-link {
   color: var(--scarlet-soft);
+}
+
+.cp-popup-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--orange-light);
+  font-weight: 900;
+}
+
+.cp-popup-button:hover {
+  color: var(--orange-vibrant);
 }
 </style>
