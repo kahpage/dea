@@ -8,6 +8,7 @@ import { useRoute } from "vue-router";
 import axiosInstance from "@/axios/axios_config.js";
 import {makeLinksClickable, public_path} from "@/assets/utils.js";
 import ToggleShow from "@/components/ToggleShow.vue";
+import {useTemplateRef, markRaw} from 'vue';
 
 import PopUpManager from "../components/PopUpManager.vue";
 import PopUpCircledetails from "./PopUpCircledetails.vue";
@@ -96,6 +97,15 @@ function get_event_db(response_data) {
   }
 }
 
+/* PopUpManager */
+const popUpManager = useTemplateRef('popUpManager');
+function popupCircleDetails(circle_db) {
+  popUpManager.value.addPopup(
+    markRaw(PopUpCircledetails),
+    {circle_db: circle_db, db_path: db_path_description.value}
+  )
+}
+
 // Watch for changes in db_path_description and db_path_event_name
 watchEffect(async () => {
   if (db_path_description.value && db_path_event_name.value) {
@@ -107,17 +117,6 @@ watchEffect(async () => {
   }
 });
 
-import {useTemplateRef, markRaw} from 'vue';
-const popUpManager = useTemplateRef('popUpManager');
-function popupCircleDetails(circle_db) {
-  console.log("circle_db :", circle_db)
-
-  let count = popUpManager.value.popups.length + 1;
-  popUpManager.value.addPopup(
-    markRaw(PopUpCircledetails),
-    {circle_db: circle_db, db_path: db_path_description.value}
-  )
-}
 </script>
 
 <template>

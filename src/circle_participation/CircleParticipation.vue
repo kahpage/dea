@@ -1,8 +1,10 @@
 <script setup>
 import { useVirtualList } from "@vueuse/core";
-import { computed, shallowRef } from "vue";
+import { computed, useTemplateRef, markRaw } from "vue";
 import { ref } from "vue";
 import circle_raw_index from "@/assets/static_databases/circle_participation_index.json"; // Static database import
+import PopUpManager from "../components/PopUpManager.vue";
+import PopUpCirclePartialdetails from "./PopUpCirclePartialdetails.vue";
 
 const keywords = ref("");
 
@@ -46,7 +48,10 @@ const circle_index_lowered = computed(() => {
     return {
       ...circle,
       names: circle.names.map((name) => name.trim().toLowerCase()), // Lowercase all names
-      misc: circle.misc && Array.isArray(circle.misc)?circle.misc.map((name) => name.trim().toLowerCase()):null, // Lowercase all misc
+      misc:
+        circle.misc && Array.isArray(circle.misc)
+          ? circle.misc.map((name) => name.trim().toLowerCase())
+          : null, // Lowercase all misc
       event_name: circle.event_name.trim().toLowerCase(), // Lowercase event name
     };
   });
@@ -67,7 +72,9 @@ const filtered_circles = computed(() => {
     let circle_lowered = circle_index_lowered.value[index];
     let matchNames = circle_lowered.names.some((name) => name.includes(query)); // Check if any name in the circle's names array includes the search query
     let matchEvent = circle_lowered.event_name.toLowerCase().includes(query); // Check for event match
-    let matchMisc = circle_lowered.misc && circle_lowered.misc.some((misc) => misc.toLowerCase().includes(query));
+    let matchMisc =
+      circle_lowered.misc &&
+      circle_lowered.misc.some((misc) => misc.toLowerCase().includes(query));
     return matchNames || matchEvent || matchMisc; // Return true if either matches
   });
 });
@@ -80,134 +87,164 @@ const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
   }
 );
 
-function searchUpdate () {
+function searchUpdate(event) {
   keywords.value = event.target.value;
   scrollTo(0);
+}
+
+/* PopUpManager */
+const popUpManager = useTemplateRef('popUpManager');
+function popupCircleDetails(circle_partial_db) {
+  console.log("circle_partial_db :", circle_partial_db);
+  popUpManager.value.addPopup(
+    markRaw(PopUpCirclePartialdetails),
+    {circle_db: circle_partial_db, db_path: circle_partial_db.event_ar_path}
+  )
 }
 </script>
 
 <template>
   <!-- Title -->
-  <head><title>dea | Circle Participation</title></head>
+  <head>
+    <title>dea | Circle Participation</title>
+  </head>
 
   <div class="header-title">Circle Participation</div>
-  <div class="header">List of participating circles registered in the database.</div>
-  
-  <input class="cp-input" :value="keywords" @input="searchUpdate" placeholder="Keywords" /> ({{filtered_circles?.length}} results)
+  <div class="header">
+    List of participating circles registered in the database.
+  </div>
+
+  <input
+    class="cp-input"
+    :value="keywords"
+    @input="searchUpdate"
+    placeholder="Keywords"
+  />
+  ({{ filtered_circles?.length }} results)
 
   <div class="cp-div">
-    
     <table class="cp-header-table">
       <thead>
         <tr>
-          <th colspan="4" class="cp-table-title">
-            Participating circles
-          </th>
+          <th colspan="4" class="cp-table-title">Participating circles</th>
         </tr>
         <tr>
           <th>Names / Pen Names</th>
-          <th >Event</th>
+          <th>Event</th>
         </tr>
       </thead>
     </table>
 
-      <div class="cp-vlist">
-        <div v-bind="containerProps" class="cp-vlist-component">
-          <div v-bind="wrapperProps">
+    <div class="cp-vlist">
+      <div v-bind="containerProps" class="cp-vlist-component">
+        <div v-bind="wrapperProps">
+          <div v-for="(circle, i) in list" :key="i" class="cp-vlist-item">
             <div
-              v-for="(circle, i) in list"
-              :key="i"
-              class="cp-vlist-item"
-            > 
-              <div :class="circle.index % 2 === 0 ? 'cp-vlist-item-even' : 'cp-vlist-item-odd'">
-                <!-- {{ circle }} -->
-                <table>
-                  <tbody>
-                    <tr>
-                      <th>{{ circle.data.names.join(", ") }}</th>
-                      <th>
-                        <a class="cp-event-link" :href="['/dea/event_detail/#'].concat(circle.data.event_ar_path).concat(circle.data.event_name).join('/')">
-                          {{ circle.data.event_name }}
-                        </a>
-                      </th>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              :class="
+                circle.index % 2 === 0
+                  ? 'cp-vlist-item-even'
+                  : 'cp-vlist-item-odd'
+              "
+            >
+              <!-- {{ circle }} -->
+              <table>
+                <tbody>
+                  <tr>
+                    <th>
+                      <button @click="popupCircleDetails(circle.data)">↗</button>
+                      {{ circle.data.names.join(" / ") }}
+                    </th>
+                    <th>
+                      <a
+                        class="cp-event-link"
+                        :href="
+                          ['/dea/event_detail/#']
+                            .concat(circle.data.event_ar_path)
+                            .concat(circle.data.event_name)
+                            .join('/')
+                        "
+                      >
+                        {{ circle.data.event_name }}
+                      </a>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </div>
+  <PopUpManager ref="popUpManager" />
 </template>
 
 <style scoped>
+.cp-div {
+  margin: 1em;
+  background-color: var(--orange-dark);
+  color: var(--grey-vibrant);
+  text-align: left;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 20px #3b393926;
+  border: 3px solid var(--orange-dark);
+  border-radius: 5px;
+}
 
-  .cp-div {
-    margin: 1em;
-    background-color: var(--orange-dark);
-    color: var(--grey-vibrant);
-    text-align: left;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 0 20px #3b393926;
-    border: 3px solid var(--orange-dark);
-    border-radius: 5px;
-  }
-  
-  .cp-header-table {
-    width: 100%;
-  }
+.cp-header-table {
+  width: 100%;
+}
 
-  .cp-table-title {
-    font-size: larger;
-    text-align: center;
-    font-weight: 700;
-  }
+.cp-table-title {
+  font-size: larger;
+  text-align: center;
+  font-weight: 700;
+}
 
-  .cp-vlist {
-    margin: 0 0.25em;
-    /* background-color: red; */
-  }
+.cp-vlist {
+  margin: 0 0.25em;
+  /* background-color: red; */
+}
 
-  .cp-vlist-component {
-    height: 30em;
-  }
-  
-  /* Color even cp-vlist-component based on index in vlist */
-  .cp-vlist-item {
-    height: 22px;
-    padding: 0;
-    background-color: var(--grey-dark);
-    color: var(--grey-light);
-  }
+.cp-vlist-component {
+  height: 30em;
+}
 
-  .cp-vlist-item-even {
-  }
-  .cp-vlist-item-odd {
-    background-color: var(--greyish-deep);
-  }
+/* Color even cp-vlist-component based on index in vlist */
+.cp-vlist-item {
+  height: 22px;
+  padding: 0;
+  background-color: var(--grey-dark);
+  color: var(--grey-light);
+}
 
-  .cp-input {
-    margin-left: 1em;
-  }
+.cp-vlist-item-even {
+}
+.cp-vlist-item-odd {
+  background-color: var(--greyish-deep);
+}
 
-  th:nth-child(2) {
-    text-align: right;    
-    padding-right: 1em;
-  }
-  
-  table {
-    width: 100%;
-  }
+.cp-input {
+  margin-left: 1em;
+}
 
-  tr {
-    padding: 0 0.3em;
-    color: var(--grey-light);
-    width: 100%;
-  }
+th:nth-child(2) {
+  text-align: right;
+  padding-right: 1em;
+}
 
-  a.cp-event-link {
-    color: var(--scarlet-soft);
-  }
+table {
+  width: 100%;
+}
+
+tr {
+  padding: 0 0.3em;
+  color: var(--grey-light);
+  width: 100%;
+}
+
+a.cp-event-link {
+  color: var(--scarlet-soft);
+}
 </style>
