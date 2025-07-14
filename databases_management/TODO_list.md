@@ -4,6 +4,7 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- http://www.ahoge.com/old/2007event.html
 - https://web.archive.org/web/20070714203401/http://www.m3net.jp/pr/pr0.html
 - https://web.archive.org/web/19981201072645/http://www.creation-office.com/creation/
 - For m3, archive videos such as the refered one here: https://www.m3net.jp/event/2011f.php
