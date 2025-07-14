@@ -4,6 +4,8 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- https://web.archive.org/web/20070714203401/http://www.m3net.jp/pr/pr0.html
+- https://web.archive.org/web/19981201072645/http://www.creation-office.com/creation/
 - For m3, archive videos such as the refered one here: https://www.m3net.jp/event/2011f.php
 - special project: https://www.m3net.jp/event/1999f.php
 - https://archive.org/details/comicsquare-vol-16
