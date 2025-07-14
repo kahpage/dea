@@ -6,12 +6,13 @@
 import { ref, computed, watchEffect } from "vue";
 import { useRoute } from "vue-router";
 import axiosInstance from "@/axios/axios_config.js";
-import {makeLinksClickable, public_path} from "@/assets/utils.js";
+import { makeLinksClickable, public_path } from "@/assets/utils.js";
 import ToggleShow from "@/components/ToggleShow.vue";
-import {useTemplateRef, markRaw} from 'vue';
+import { useTemplateRef, markRaw } from "vue";
 
 import PopUpManager from "../components/PopUpManager.vue";
 import PopUpCircledetails from "./PopUpCircledetails.vue";
+import MediaGrid from "../components/MediaGrid.vue";
 
 const route = useRoute();
 const props = defineProps({
@@ -19,20 +20,6 @@ const props = defineProps({
 });
 
 const event_data = ref(null);
-
-const media_folder_path = computed(() => {
-  return [`${public_path}databases`]
-    .concat(db_path_description.value)
-    .concat("media")
-    .join("/");
-});
-
-const media_list = computed(() => {
-  if (!event_data.value || !event_data.value.hasOwnProperty("media")) {
-    return [];
-  }
-  return event_data.value.media;
-});
 
 const db_path_args = computed(() => {
   return props.db_path ? props.db_path.split("/").filter(Boolean) : [];
@@ -98,12 +85,12 @@ function get_event_db(response_data) {
 }
 
 /* PopUpManager */
-const popUpManager = useTemplateRef('popUpManager');
+const popUpManager = useTemplateRef("popUpManager");
 function popupCircleDetails(circle_db) {
-  popUpManager.value.addPopup(
-    markRaw(PopUpCircledetails),
-    {circle_db: circle_db, db_path: db_path_description.value}
-  )
+  popUpManager.value.addPopup(markRaw(PopUpCircledetails), {
+    circle_db: circle_db,
+    db_path: db_path_description.value,
+  });
 }
 
 // Watch for changes in db_path_description and db_path_event_name
@@ -116,7 +103,6 @@ watchEffect(async () => {
     );
   }
 });
-
 </script>
 
 <template>
@@ -130,7 +116,9 @@ watchEffect(async () => {
     Invalid database to fetch: "{{ props.db_path }}"
   </div>
   <div v-else>
-    <div v-if="!event_data || !event_data.hasOwnProperty('aliases')">Loading database {{ props.db_path }}...</div>
+    <div v-if="!event_data || !event_data.hasOwnProperty('aliases')">
+      Loading database {{ props.db_path }}...
+    </div>
     <div v-else>
       <!-- ===== EVENT GROUP DB FETCHED ===== -->
       <div class="ed-div">
@@ -154,23 +142,27 @@ watchEffect(async () => {
           Dates: {{ event_data?.dates ?? "" }}
         </div>
 
-        <div v-if="event_data?.links && Array.isArray(event_data.links)" class="ed-links">
-          Links: <span v-html="makeLinksClickable(event_data.links.join(', '))"></span>
+        <div
+          v-if="event_data?.links && Array.isArray(event_data.links)"
+          class="ed-links"
+        >
+          Links:
+          <span v-html="makeLinksClickable(event_data.links.join(', '))"></span>
         </div>
-        
-      <!-- ===== Notes ===== -->
-      <ToggleShow
-        class="ts-notes"
-        :button_text="'Notes'"
-        v-if="event_data?.notes"
-        :default_hidden="false"
-      >
-        <div class="ts-notes-div">
-          <p v-for="(line, i) in event_data.notes.split('\n')" :key="i">
-            {{ line }}
-          </p>
-        </div>
-      </ToggleShow>
+
+        <!-- ===== Notes ===== -->
+        <ToggleShow
+          class="ts-notes"
+          :button_text="'Notes'"
+          v-if="event_data?.notes"
+          :default_hidden="false"
+        >
+          <div class="ts-notes-div">
+            <p v-for="(line, i) in event_data.notes.split('\n')" :key="i">
+              {{ line }}
+            </p>
+          </div>
+        </ToggleShow>
 
         <!-- ===== CIRCLE LIST ===== -->
         <div
@@ -215,10 +207,13 @@ watchEffect(async () => {
                   ></span>
                 </th>
                 <th>
-                  <button class='ed-popup-button'
-                   @click="popupCircleDetails(circle)"
-                   title="Show circle details"
-                   >🡵</button>
+                  <button
+                    class="ed-popup-button"
+                    @click="popupCircleDetails(circle)"
+                    title="Show circle details"
+                  >
+                    🡵
+                  </button>
                 </th>
               </tr>
             </tbody>
@@ -254,35 +249,11 @@ watchEffect(async () => {
           {{ row }}
         </p>
       </ToggleShow>
-      
+
       <!-- ===== MEDIA ===== -->
 
       <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_data">
-        <div
-          v-if="
-            !media_list || Array.isArray(media_list) & (media_list.length == 0)
-          "
-        >
-          (None)
-        </div>
-        <div class="ed-media">
-          <div v-for="(media, index) in media_list" :key="index">
-            <img
-              :src="media_folder_path + '/' + media?.path"
-              :alt="'Image ' + media.path"
-              style="max-width: 100%; height: auto"
-            />
-            <div v-if="media.hasOwnProperty('sources')">
-              <div v-for="(source_, j) in media?.sources" :key="j">
-                <span v-if="source_.hasOwnProperty('type')"
-                  >({{ source_["type"][0] }}, {{ source_["type"][1] }})</span
-                >
-                <br />
-                <span v-html="makeLinksClickable(source_.source)"></span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <MediaGrid :media_list="event_data.media" :media_folder_path="[`${public_path}databases`].concat([db_path_description, 'media']).join('/')"/>
       </ToggleShow>
     </div>
   </div>
@@ -352,27 +323,6 @@ tbody tr:nth-child(odd) {
 .ts-sources {
   margin-left: 1em;
   width: min-content;
-}
-
-/* event group media */
-.ed-media-div {
-  padding: 1em;
-  box-sizing: border-box;
-  text-wrap: wrap;
-  word-wrap: break-word;
-}
-
-.ed-media {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-  gap: 1em;
-  justify-content: center;
-}
-
-.ed-media-div img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 .ts-notes {

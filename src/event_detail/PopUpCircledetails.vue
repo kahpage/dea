@@ -30,22 +30,7 @@
 
       <div v-if="circle_db.hasOwnProperty('media')">
         <span class="info-name">Media:</span>
-        <div v-for="(m, i) in circle_db.media" :key="i" >
-          <img
-            :src="[`${public_path}databases`].concat(db_path).concat(['media', m.path]).join('/')"
-            :alt="'Image ' + m.path"
-            style="max-width: 100%; height: auto"
-          />
-          <div v-if="m.hasOwnProperty('sources')">
-            <div v-for="(source_, j) in m?.sources" :key="j">
-              <span v-if="source_.hasOwnProperty('type')"
-                >({{ source_["type"][0] }}, {{ source_["type"][1] }})</span
-              >
-              <br />
-              <span v-html="makeLinksClickable(source_.source)"></span>
-            </div>
-          </div>
-        </div>
+        <MediaGrid :media_list="circle_db.media" :media_folder_path="[`${public_path}databases`].concat([db_path, 'media']).join('/')"/>
       </div>
 
     </div>
@@ -55,6 +40,7 @@
 <script setup>
 import PopUpGeneric from '../components/PopUpGeneric.vue';
 import {makeLinksClickable, public_path} from "@/assets/utils.js";
+import MediaGrid from '../components/MediaGrid.vue';
 
 const props = defineProps({
   circle_db: {
