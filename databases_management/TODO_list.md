@@ -4,6 +4,10 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- "banners"/"sbanner" (of probably circles) to link to circles (https://web.archive.org/web/*/http://www.m3net.jp/*)
+- https://web.archive.org/web/20150319213628/http://www.m3net.jp/img/OtakuSummit.jpg
+- (and other similar banners) https://web.archive.org/web/20210424083411/http://www.m3net.jp/img/m3online_banner2.jpg
+- https://web.archive.org/web/20031011182500/http://www.comicr.net/
 - http://www.ahoge.com/old/2007event.html
 - https://web.archive.org/web/20070714203401/http://www.m3net.jp/pr/pr0.html
 - https://web.archive.org/web/19981201072645/http://www.creation-office.com/creation/
@@ -98,3 +102,7 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 ### TODO other
 
 - Browse already browsed events (comiket, vopara, yougakudann, ...) and find all mentionned events
+- http://www.ahoge.com/
+- https://blackangel.main.jp/
+- https://oddb.main.jp/
+- http://suite.s164.xrea.com/
