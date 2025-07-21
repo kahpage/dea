@@ -108,7 +108,8 @@ watchEffect(async () => {
 <template>
   <!-- Title -->
   <head>
-    <title>dea | Event Detail</title>
+    <title v-if="event_data?.aliases">dea | Event Detail {{ " - " + event_data?.aliases?.join(" / ")}}</title>
+    <title v-else>dea | Event Detail</title>
   </head>
 
   <div class="header-title">Event detail</div>

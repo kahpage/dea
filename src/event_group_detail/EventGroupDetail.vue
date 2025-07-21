@@ -76,7 +76,8 @@ watchEffect(async () => {
 <template>
   <!-- Title -->
   <head>
-    <title>dea | Event Group Detail</title>
+    <title v-if="event_group_data?.aliases">dea | Event Group Detail {{ " - " + event_group_data?.aliases?.join(" / ")}}</title>
+    <title v-else>dea | Event Group Detail</title>
   </head>
   <div class="header-title">Event group detail</div>
   <div v-if="!props.db_path" class="header">
