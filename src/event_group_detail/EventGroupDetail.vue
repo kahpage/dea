@@ -162,7 +162,7 @@ watchEffect(async () => {
 
       <!-- Stats -->
       <ToggleShow class="ts-sources" :button_text="'Stats'" v-if="event_group_data?.events">
-        <BarChart :data="event_group_data.events.map(e => ({value: e?.circles?.length ? e.circles.length : 0, name: e?.aliases[0]}))" :title="'Event participation'"/>
+        <BarChart :data="event_group_data.events.map(e => ({value: e?.circles?.length, name: e?.aliases[0]}))" :title="'Event participation'"/>
       </ToggleShow>
     </div>
   </div>
