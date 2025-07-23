@@ -9,6 +9,7 @@ import axiosInstance from "@/axios/axios_config.js";
 import {makeLinksClickable, public_path} from "@/assets/utils.js";
 import EventGroupTable from "@/components/EventGroupTable.vue";
 import ToggleShow from "@/components/ToggleShow.vue";
+import BarChart from "../components/BarChart.vue";
 
 const route = useRoute();
 const props = defineProps({
@@ -98,7 +99,6 @@ watchEffect(async () => {
       />
 
       <!-- ===== SOURCES ===== -->
-
       <ToggleShow
         class="ts-sources"
         :button_text="'Sources'"
@@ -130,8 +130,8 @@ watchEffect(async () => {
           </div>
         </div>
       </ToggleShow>
-      <!-- ===== MEDIA ===== -->
 
+      <!-- ===== MEDIA ===== -->
       <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_group_data">
         <div
           v-if="
@@ -158,6 +158,11 @@ watchEffect(async () => {
             </div>
           </div>
         </div>
+      </ToggleShow>
+
+      <!-- Stats -->
+      <ToggleShow class="ts-sources" :button_text="'Stats'" v-if="event_group_data?.events">
+        <BarChart :data="event_group_data.events.map(e => ({value: e?.circles?.length ? e.circles.length : 0, name: e?.aliases[0]}))" :title="'Event participation'"/>
       </ToggleShow>
     </div>
   </div>
