@@ -1782,7 +1782,7 @@
           ]
         }
       ],
-      "comments": "Simultanous with MUSIC COMMUNICATION 7."
+      "description": "Simultanous with MUSIC COMMUNICATION 7."
     },
     {
       "aliases": [
@@ -1830,7 +1830,7 @@
           ]
         }
       ],
-      "comments": "Simultanous with MUSIC COMMUNICATION 9."
+      "description": "Simultanous with MUSIC COMMUNICATION 9."
     },
     {
       "aliases": [
@@ -3603,7 +3603,7 @@
           ]
         }
       ],
-      "comments": "Simultanous with MUSIC COMMUNICATION 11."
+      "description": "Simultanous with MUSIC COMMUNICATION 11."
     },
     {
       "aliases": [
@@ -4992,7 +4992,7 @@
           ]
         }
       ],
-      "comments": "Simultanous with MUSIC COMMUNICATION 14."
+      "description": "Simultanous with MUSIC COMMUNICATION 14."
     }
   ],
   "media": [
@@ -5010,5 +5010,5 @@
     "https://web.archive.org/web/20110721205632/http://vo-para.birdzberth.com/",
     "https://x.com/m_comi"
   ],
-  "comments": "Simultanous with MUSIC COMMUNICATION 16."
+  "description": "Simultanous with MUSIC COMMUNICATION 16."
 }

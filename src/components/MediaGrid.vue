@@ -39,6 +39,12 @@
 
         <!-- Image -->
         <div v-else-if="isImage(media)">
+          <a
+            class="format-image-link"
+            :href="props.media_folder_path + '/' + media.path"
+            target="_blank"
+            :title="'Image ' + media.path"
+          > {{ media.path }}</a><br />
           <img
             class="format-image"
             :src="props.media_folder_path + '/' + media.path"
@@ -59,13 +65,18 @@
           </a>
         </div>
 
-        <div v-if="media.hasOwnProperty('sources')">
+        <div v-if="media?.sources"> <!-- Sources -->
           <div v-for="(source_, j) in media.sources" :key="j">
             <span v-if="source_.hasOwnProperty('type')"
               >({{ source_["type"][0] }}, {{ source_["type"][1] }})</span
             >
-            <br />
+            <br v-if="j < media.sources.length - 1"/>
             <span v-html="makeLinksClickable(source_.source)"></span>
+          </div>
+        </div>
+        <div v-if="media?.comments"> <!-- Comments -->
+          <div v-for="(row, j) in media.comments.split('\n')" :key="j">
+            <p><span v-html="makeLinksClickable(row)"></span></p>
           </div>
         </div>
         <hr v-if="index < props.media_list.length - 1" />
@@ -133,7 +144,8 @@ a.format-link:hover {
   text-decoration: underline;
 }
 
-a.format-image {
+a.format-image-link {
+  color: var(--purple-soft);
 }
 .format-image {
 }

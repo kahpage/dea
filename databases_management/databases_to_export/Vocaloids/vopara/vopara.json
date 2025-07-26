@@ -1,6 +1,6 @@
 {
   "aliases": ["VOCALOID PARADISE", "ボーパラ", "vo-para"],
-  "comments": "- Retrieve covers\n- Retrieve banner (at least from https://vocadb.net/E/22/vocaloid-paradise-6)\n- Do the same for vopara kansai https://web.archive.org/web/20120320070201/http://vo-para.birdzberth.com/\n- find participating circles for side vopara\n- https://web.archive.org/web/20171117102026/http://ttc.ninja-web.net/vp-ex/\n- replace dates from vocadb with dates from here (https://web.archive.org/web/20160219102424/http://ttc.ninja-web.net/vo-para/index.html and other dates)\n\n* Find if some event cancelled",
+  "comments": "TODO: - Retrieve covers\n- Retrieve banner (at least from https://vocadb.net/E/22/vocaloid-paradise-6)\n- Do the same for vopara kansai https://web.archive.org/web/20120320070201/http://vo-para.birdzberth.com/\n- find participating circles for side vopara\n- https://web.archive.org/web/20171117102026/http://ttc.ninja-web.net/vp-ex/\n- replace dates from vocadb with dates from here (https://web.archive.org/web/20160219102424/http://ttc.ninja-web.net/vo-para/index.html and other dates)\n\n* Find if some event cancelled",
   "media": [
     {
       "path": "banner1_20111006041646_vp-bn01.jpg",
@@ -4551,7 +4551,8 @@
           ]
         }
       ],
-      "comments": "Simultanous with MUSIC COMMUNICATION 3.\n\nこの度は、ボーパラ５に多くの申込ありがとうございました。\n募集数を大幅に上回る\n285サークル316スペース\nもの申込がありましたが、３階Ａ面→３階全面へ拡大を行ったため、申込されたサークル様は全て当選となりました。\nまた、今回はボーパラでは初めての企業出展２社を受け入れました。\nボーパラ５＋同時開催イベントで実施した東日本大震災の義捐金払込報告は\nこちら\n。\n開催日： 2011年3月27日（日）\n開催場所：\n京都市勧業館（みやこめっせ）\n３階\n第３展示場A面\n→\n第３展示場全面\n同時開催：\n・\nリトバスパーティー４\n（リトルバスターズ！）\n・\nAB即売会戦線２\n（Angel \n    Beats!）\n・\nKeyパーティー\n（Key作品総合）\n・\nMUSIC COMMUNICATION 3\n（音系）\n・\n乙HiME☆復活祭 9\n（舞-HiME/舞-乙HiME）"
+      "description": "Simultanous with MUSIC COMMUNICATION 3.",
+      "comments": "この度は、ボーパラ５に多くの申込ありがとうございました。\n募集数を大幅に上回る\n285サークル316スペース\nもの申込がありましたが、３階Ａ面→３階全面へ拡大を行ったため、申込されたサークル様は全て当選となりました。\nまた、今回はボーパラでは初めての企業出展２社を受け入れました。\nボーパラ５＋同時開催イベントで実施した東日本大震災の義捐金払込報告は\nこちら\n。\n開催日： 2011年3月27日（日）\n開催場所：\n京都市勧業館（みやこめっせ）\n３階\n第３展示場A面\n→\n第３展示場全面\n同時開催：\n・\nリトバスパーティー４\n（リトルバスターズ！）\n・\nAB即売会戦線２\n（Angel \n    Beats!）\n・\nKeyパーティー\n（Key作品総合）\n・\nMUSIC COMMUNICATION 3\n（音系）\n・\n乙HiME☆復活祭 9\n（舞-HiME/舞-乙HiME）"
     },
     {
       "aliases": ["VOCALOID PARADISE 6", "ボーパラ6"],

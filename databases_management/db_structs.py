@@ -51,12 +51,16 @@ class Source:
     """Source description."""
     source: str # url, file path, or quick description of the source
     type: tuple[ReliabilityTypes, OriginTypes] # Type of source (Reliability, Origin)
-    comments: Optional[str] = None # Additionnal comments
+    comments: Optional[str] = None # Additionnal comments (unused for now).
+    description: Optional[str] = None # Description (unused for now).
+
 
     def get_json(self) -> dict[str, Any]:
         out_dict = { "source": self.source, "type": (str(self.type[0]), str(self.type[1])) }
         if (self.comments is not None) and (is_to_add(self.comments)): # not None and not ""
             out_dict["comments"] = self.comments
+        if (self.description is not None) and (is_to_add(self.description)): # not None and not ""
+            out_dict["description"] = self.description
         return out_dict
     
 @dataclass
@@ -67,7 +71,8 @@ class Medium:
     path: str # Path name to that medium
     sources: Optional[list[Source]] = field(default_factory=list)
 
-    comments: Optional[str] = None # Additionnal comments
+    comments: Optional[str] = None # Additionnal comments (unused for now).
+    description: Optional[str] = None # Description (unused for now).
 
     def get_json(self) -> dict[str, Any]:
         out_dict: dict[str, Any] = {"path": self.path}
@@ -75,6 +80,8 @@ class Medium:
             out_dict["sources"] = [source.get_json() for source in self.sources]
         if (self.comments is not None) and (is_to_add(self.comments)): # not None and not ""
             out_dict["comments"] = self.comments
+        if (self.description is not None) and (is_to_add(self.description)): # not None and not ""
+            out_dict["description"] = self.description
         return out_dict
 
 
@@ -93,7 +100,8 @@ class Circle:
 
     links: list[str] = field(default_factory=list) # List of official links related to that event participation, such as the links given by the Event circle participation announcement 
 
-    comments: Optional[str] = None # Additionnal comments
+    comments: Optional[str] = None # Additionnal comments.
+    description: Optional[str] = None # Description (unused for now).
     
     def get_json(self) -> dict[str, Any]:
         if not self.aliases: # if None or not at least one
@@ -112,6 +120,8 @@ class Circle:
             out_dict["links"] = self.links
         if (self.comments is not None) and (is_to_add(self.comments)): # not None and not ""
             out_dict["comments"] = self.comments
+        if (self.description is not None) and (is_to_add(self.description)): # not None and not ""
+            out_dict["description"] = self.description
 
         return out_dict
 
@@ -131,8 +141,8 @@ class Event:
 
     links: list[str] = field(default_factory=list) # List of official links related to that Event (announcement tweet, website, ...)
 
-    notes: Optional[str] = None # Notes shown on event_detail pages to describe that event.
     comments: Optional[str] = None # Additionnal comments
+    description: Optional[str] = None # Description shown on event_detail pages to describe that event.
     
     def get_json(self) -> dict[str, Any]:
         if not self.aliases: # if None or not at least one
@@ -151,6 +161,8 @@ class Event:
             out_dict["links"] = self.links
         if (self.comments is not None) and (is_to_add(self.comments)): # not None and not ""
             out_dict["comments"] = self.comments
+        if (self.description is not None) and (is_to_add(self.description)): # not None and not ""
+            out_dict["description"] = self.description
 
         return out_dict
 
@@ -168,8 +180,8 @@ class EventGroup:
 
     links: list[str] = field(default_factory=list) # List of official links related to that EventGroup (tweeter account, websites, ...)
 
-    notes: Optional[str] = None # Notes shown on event_group_detail pages to describe that event group.
     comments: Optional[str] = None # Additionnal comments
+    description: Optional[str] = None # Description shown on event_group_detail pages to describe that event group.
 
     def get_json(self) -> dict[str, Any]:
         if not self.aliases: # if None or not at least one
@@ -186,4 +198,7 @@ class EventGroup:
             out_dict["links"] = self.links
         if (self.comments is not None) and (is_to_add(self.comments)): # not None and not ""
             out_dict["comments"] = self.comments
+        if (self.description is not None) and (is_to_add(self.description)): # not None and not ""
+            out_dict["description"] = self.description
+            
         return out_dict

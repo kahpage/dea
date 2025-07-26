@@ -153,16 +153,16 @@ watchEffect(async () => {
           <span v-html="makeLinksClickable(event_data.links.join(', '))"></span>
         </div>
 
-        <!-- ===== Notes ===== -->
+        <!-- ===== Description ===== -->
         <ToggleShow
-          class="ts-notes"
-          :button_text="'Notes'"
-          v-if="event_data?.notes"
+          class="ts-description"
+          :button_text="'Description'"
+          v-if="event_data?.description"
           :default_hidden="false"
         >
-          <div class="ts-notes-div">
-            <p v-for="(line, i) in event_data.notes.split('\n')" :key="i">
-              {{ line }}
+          <div class="ts-description-div">
+            <p v-for="(row, i) in event_data.description.split('\n')" :key="i">
+              <span v-html="makeLinksClickable(row)"></span>
             </p>
           </div>
         </ToggleShow>
@@ -247,7 +247,7 @@ watchEffect(async () => {
       <ToggleShow
         class="ed-comments"
         :button_text="'Comments'"
-        v-if="event_data && event_data.hasOwnProperty('comments')"
+        v-if="event_data && event_data?.comments"
       >
         <p v-for="(row, i) in event_data.comments.split('\n')" :key="i">
           {{ row }}
@@ -276,9 +276,20 @@ watchEffect(async () => {
 <style scoped>
 @import "@/assets/common.css";
 
+.ed-div {
+  padding: 1em;
+  background-color: var(--greyish-dark);
+}
+
+.ed-header {
+  color: var(--scarlet-vibrant);
+  font-weight: 700;
+  font-size: x-large;
+}
+
 .table-div {
   width: 98vw; 
-  margin: 1em;
+  margin-top: 1em;
   overflow: hidden;
   border-radius: 0.7em;
 }
@@ -324,16 +335,16 @@ tbody tr:nth-child(odd) {
   width: min-content;
 }
 
-.ts-notes {
+.ts-description {
   margin-left: -0.5em;
   max-width: 95%;
 }
 
-.ts-notes-div {
+.ts-description-div {
   width: 95%;
 }
 
-.ts-notes-div p {
+.ts-description-div p {
   word-wrap: break-word;
 }
 
@@ -347,6 +358,10 @@ tbody tr:nth-child(odd) {
 
 .ed-popup-button:hover {
   color: var(--orange-vibrant);
+}
+
+p {
+  margin: 0;
 }
 
 </style>

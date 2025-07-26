@@ -9,6 +9,13 @@
     <div v-if="props.show_details && props.event_group_db.hasOwnProperty('links') && Array.isArray(props.event_group_db.links)" class="eg-links">
       Links: <span v-html="makeLinksClickable(props.event_group_db?.links.join(', '))"></span>
     </div>
+    <!-- ===== Description ===== -->
+    <ToggleShow class="ts-description" v-if="props.event_group_db?.description" :button_text="'Description'" :default_hidden="false" >
+      <p v-for="(row, i) in props.event_group_db.description.split('\n')" :key="i">
+        <span v-html="makeLinksClickable(row)"></span>
+      </p>
+    </ToggleShow>
+
     <table>
       <thead>
         <tr><th>Event</th>      <th>Date</th></tr>
@@ -28,8 +35,9 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { computed } from "vue";
 import {makeLinksClickable} from "@/assets/utils.js";
+import ToggleShow from "@/components/ToggleShow.vue";
 
 const props = defineProps({
   event_group_db: Object,
@@ -121,4 +129,15 @@ const eg_href = computed(() => {
   }
 
   .eg-links {}
+
+  .ts-description {
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  .ts-description p {
+    margin: 0 0;
+    word-wrap: break-word;
+  }
 </style>

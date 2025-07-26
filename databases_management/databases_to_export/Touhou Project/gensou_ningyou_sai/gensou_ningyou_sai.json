@@ -33,7 +33,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幺樂団カァニバル！4."
+            "description": "Simultaneous to 幺樂団カァニバル！4."
         },
         {
             "aliases": [
@@ -241,7 +241,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幺樂団カァニバル！5."
+            "description": "Simultaneous to 幺樂団カァニバル！5."
         },
         {
             "aliases": [
@@ -272,7 +272,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幺樂団カァニバル！6."
+            "description": "Simultaneous to 幺樂団カァニバル！6."
         },
         {
             "aliases": [
@@ -353,7 +353,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幺樂団カァニバル！7."
+            "description": "Simultaneous to 幺樂団カァニバル！7."
         },
         {
             "aliases": [
@@ -420,7 +420,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幺樂団カァニバル！8."
+            "description": "Simultaneous to 幺樂団カァニバル！8."
         },
         {
             "aliases": [
@@ -529,7 +529,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幺樂団カァニバル！9."
+            "description": "Simultaneous to 幺樂団カァニバル！9."
         },
         {
             "aliases": [
@@ -546,7 +546,8 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幺樂団カァニバル！10.\nNote: Can't tell apart participating circles of 幻想人形祭4 and 幺樂団カァニバル!10 from https://web.archive.org/web/20200918213754/http://yougakudann.dojin.com/splist.html"
+            "description": "Simultaneous to 幺樂団カァニバル！10",
+            "comments": "Can't tell apart participating circles of 幻想人形祭4 and 幺樂団カァニバル!10 from https://web.archive.org/web/20200918213754/http://yougakudann.dojin.com/splist.html"
         },
         {
             "aliases": [
@@ -570,7 +571,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幺樂団カァニバル！10R."
+            "description": "Simultaneous to 幺樂団カァニバル！10R."
         },
         {
             "aliases": [
@@ -619,7 +620,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幺樂団カァニバル！11."
+            "description": "Simultaneous to 幺樂団カァニバル！11."
         },
         {
             "aliases": [
@@ -647,7 +648,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幺樂団カァニバル！12."
+            "description": "Simultaneous to 幺樂団カァニバル！12."
         }
     ],
     "sources": [
@@ -671,5 +672,6 @@
         "https://yougakudan.blogspot.com",
         "https://x.com/yougakudan_info"
     ],
-    "comments": "Child event of 幺樂団カァニバル！\nFor now, images in common with yougakudann are in the media folder as duplicates, same name.\nYup, confusing name order but please refer to the sources."
+    "description": "Child event of 幺樂団カァニバル！",
+    "comments": "For now, images in common with yougakudann are in the media folder as duplicates, same name.\nYup, confusing event name order but please refer to the sources."
 }

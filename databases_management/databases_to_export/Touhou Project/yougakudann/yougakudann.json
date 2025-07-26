@@ -3,7 +3,7 @@
         "幺樂団カァニバル！",
         "yougakudann"
     ],
-    "comments": "* Find original '1_609.jpg' (from touhoudb.com)\n- Try 'http://web.archive.org/web/20160129115656/http://yougakudan.blogspot.jp/2013/03/blog-post_26.html' with 26 variying, to find list of participant for 4th\n- Verify if 10th was cancelled (reason why 10R)\n- Find participating circles for 1st, 4th, 6th and 10R\n- Find possible alternative covers like 1st and 2nd (by browsing all archived for the site)\n- Complete 6th, perhaps start with [that](https://touhou.arrangement-chronicle.com/event/series/%E5%B9%BA%E6%A8%82%E5%9B%A3%E3%82%AB%E3%82%A1%E3%83%8B%E3%83%90%E3%83%AB%EF%BC%81/%E5%B9%BA%E6%A8%82%E5%9B%A3%E3%82%AB%E3%82%A1%E3%83%8B%E3%83%90%E3%83%AB%EF%BC%816/arrange_songs)",
+    "comments": "TODO: * Find original '1_609.jpg' (from touhoudb.com)\n- Try 'http://web.archive.org/web/20160129115656/http://yougakudan.blogspot.jp/2013/03/blog-post_26.html' with 26 variying, to find list of participant for 4th\n- Verify if 10th was cancelled (reason why 10R)\n- Find participating circles for 1st, 4th, 6th and 10R\n- Find possible alternative covers like 1st and 2nd (by browsing all archived for the site)\n- Complete 6th, perhaps start with [that](https://touhou.arrangement-chronicle.com/event/series/%E5%B9%BA%E6%A8%82%E5%9B%A3%E3%82%AB%E3%82%A1%E3%83%8B%E3%83%90%E3%83%AB%EF%BC%81/%E5%B9%BA%E6%A8%82%E5%9B%A3%E3%82%AB%E3%82%A1%E3%83%8B%E3%83%90%E3%83%AB%EF%BC%816/arrange_songs)",
     "events": [
         {
             "aliases": [
@@ -2268,7 +2268,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幻想人形祭・卯."
+            "description": "Simultaneous to 幻想人形祭・卯."
         },
         {
             "aliases": [
@@ -2733,7 +2733,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幻想人形祭・長."
+            "description": "Simultaneous to 幻想人形祭・長."
         },
         {
             "aliases": [
@@ -2763,7 +2763,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幻想人形祭・霜."
+            "description": "Simultaneous to 幻想人形祭・霜."
         },
         {
             "aliases": [
@@ -3126,7 +3126,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幻想人形祭 (4th edition)."
+            "description": "Simultaneous to 幻想人形祭 (4th edition)."
         },
         {
             "aliases": [
@@ -3519,7 +3519,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幻想人形祭2 (5th edition)."
+            "description": "Simultaneous to 幻想人形祭2 (5th edition)."
         },
         {
             "aliases": [
@@ -4422,7 +4422,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幻想人形祭3 (6th edition)."
+            "description": "Simultaneous to 幻想人形祭3 (6th edition)."
         },
         {
             "aliases": [
@@ -4606,7 +4606,8 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幻想人形祭4 (7th edition).\nNote: Perhaps cancelled ? # TODO verify if cancelled (reason why 10R)"
+            "description": "Simultaneous to 幻想人形祭4 (7th edition).",
+            "comments": "Note: Perhaps cancelled ? # TODO verify if cancelled (reason why 10R)"
         },
         {
             "aliases": [
@@ -4643,7 +4644,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幻想人形祭4R (8th edition)."
+            "description": "Simultaneous to 幻想人形祭4R (8th edition)."
         },
         {
             "aliases": [
@@ -5063,7 +5064,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幻想人形祭5 (9th edition)."
+            "description": "Simultaneous to 幻想人形祭5 (9th edition)."
         },
         {
             "aliases": [
@@ -5480,7 +5481,7 @@
                     ]
                 }
             ],
-            "comments": "Simultaneous to 幻想人形祭6 (10th edition)."
+            "description": "Simultaneous to 幻想人形祭6 (10th edition)."
         },
         {
             "aliases": [

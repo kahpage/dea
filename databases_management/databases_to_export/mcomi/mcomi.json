@@ -8,7 +8,7 @@
         "https://web.archive.org/web/20080827212908/http://m-comi.birdzberth.com/",
         "https://x.com/m_comi"
     ],
-    "comments": "Co-events with VOCALOID PARADISE 関西.",
+    "description": "Co-events with VOCALOID PARADISE 関西.",
     "events": [
         {
             "aliases": [
@@ -1227,7 +1227,7 @@
                     ]
                 }
             ],
-            "comments": "Simultanous with VOCALOID PARADISE 5."
+            "description": "Simultanous with VOCALOID PARADISE 5."
         },
         {
             "aliases": [
@@ -2785,7 +2785,7 @@
                     ]
                 }
             ],
-            "comments": "Simultanous with VOCALOID PARADISE 関西 2."
+            "description": "Simultanous with VOCALOID PARADISE 関西 2."
         },
         {
             "aliases": [
@@ -3343,7 +3343,7 @@
                     ]
                 }
             ],
-            "comments": "Simultanous with VOCALOID PARADISE 関西 3."
+            "description": "Simultanous with VOCALOID PARADISE 関西 3."
         },
         {
             "aliases": [
@@ -4054,7 +4054,7 @@
                     ]
                 }
             ],
-            "comments": "Simultanous with VOCALOID PARADISE 関西 4."
+            "description": "Simultanous with VOCALOID PARADISE 関西 4."
         },
         {
             "aliases": [
@@ -4465,8 +4465,7 @@
                         }
                     ]
                 }
-            ],
-            "comments": "https://web.archive.org/web/20151027100842/http://m-comi.birdzberth.com/"
+            ]
         },
         {
             "aliases": [
@@ -4498,7 +4497,7 @@
                     ]
                 }
             ],
-            "comments": "Simultanous with VOCALOID PARADISE 関西 6."
+            "description": "Simultanous with VOCALOID PARADISE 関西 6."
         },
         {
             "aliases": [
@@ -4837,7 +4836,7 @@
                     ]
                 }
             ],
-            "comments": "Simultanous with VOCALOID PARADISE 関西 7."
+            "description": "Simultanous with VOCALOID PARADISE 関西 7."
         }
     ]
 }

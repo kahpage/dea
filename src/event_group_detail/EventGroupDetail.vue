@@ -136,6 +136,13 @@ watchEffect(async () => {
       <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_group_data">
         <MediaGrid :media_list="media_list" :media_folder_path="[`${public_path}databases`].concat(db_path_args).concat('media').join('/')"/>
       </ToggleShow>
+      
+      <!-- ===== COMMENTS ===== -->
+      <ToggleShow class="ts-comments" :button_text="'Comments'" v-if="event_group_data?.comments">
+        <p v-for="(row, i) in event_group_data.comments.split('\n')" :key="i">
+          {{ row }}
+        </p>
+      </ToggleShow>
 
       <!-- Stats -->
       <ToggleShow class="ts-sources" :button_text="'Stats'" v-if="event_group_data?.events">
