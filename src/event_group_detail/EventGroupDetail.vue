@@ -10,6 +10,7 @@ import {makeLinksClickable, public_path} from "@/assets/utils.js";
 import EventGroupTable from "@/components/EventGroupTable.vue";
 import ToggleShow from "@/components/ToggleShow.vue";
 import BarChart from "../components/BarChart.vue";
+import MediaGrid from "../components/MediaGrid.vue";
 
 const route = useRoute();
 const props = defineProps({
@@ -133,31 +134,7 @@ watchEffect(async () => {
 
       <!-- ===== MEDIA ===== -->
       <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_group_data">
-        <div
-          v-if="
-            !media_list || Array.isArray(media_list) & (media_list.length == 0)
-          "
-        >
-          (None)
-        </div>
-        <div class="ed-media">
-          <div v-for="(media, index) in media_list" :key="index">
-            <img
-              :src="media_folder_path + '/' + media?.path"
-              :alt="'Image ' + media.path"
-              style="max-width: 100%; height: auto"
-            />
-            <div v-if="media.hasOwnProperty('sources')">
-              <div v-for="(source_, j) in media?.sources" :key="j">
-                <span v-if="source_.hasOwnProperty('type')"
-                  >({{ source_["type"][0] }}, {{ source_["type"][1] }})</span
-                >
-                <br />
-                <span v-html="makeLinksClickable(source_.source)"></span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <MediaGrid :media_list="media_list" :media_folder_path="[`${public_path}databases`].concat(db_path_args).concat('media').join('/')"/>
       </ToggleShow>
 
       <!-- Stats -->

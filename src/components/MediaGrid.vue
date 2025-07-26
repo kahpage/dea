@@ -105,8 +105,9 @@ function isImage(media) {
   justify-content: center;
   overflow-y: scroll;
   background-color: var(--greyish-dark);
-  max-height: 100vh;
+  max-height: 70vh;
   border: 1px solid var(--greyish-soft);
+  max-width: 95vw;
 }
 
 .media-div hr {

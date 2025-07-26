@@ -1,5 +1,5 @@
 <template>
-  <span :style="{ width: props.width, height: props.height, display: 'flex' }">
+  <span :style="{ width: props.width, height: props.height, display: 'flex', box_sizing: 'border-box'}">
     <div class="chart-div">
       <h3 class="chart-title">{{ props.title }}</h3>
       <h1 class="bar-hover-display" :style="{ opacity: isHovered ? 0.8 : 0 }">

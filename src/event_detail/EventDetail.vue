@@ -108,7 +108,9 @@ watchEffect(async () => {
 <template>
   <!-- Title -->
   <head>
-    <title v-if="event_data?.aliases">dea | Event Detail {{ " - " + event_data?.aliases?.join(" / ")}}</title>
+    <title v-if="event_data?.aliases">
+      dea | Event Detail {{ " - " + event_data?.aliases?.join(" / ") }}
+    </title>
     <title v-else>dea | Event Detail</title>
   </head>
 
@@ -172,8 +174,9 @@ watchEffect(async () => {
             Array.isArray(event_data.circles) &&
             event_data.circles.length > 0
           "
+          class="table-div"
         >
-          <table>
+          <table class="ed-table">
             <thead>
               <tr>
                 <th colspan="5" class="ed-table-title">
@@ -254,7 +257,15 @@ watchEffect(async () => {
       <!-- ===== MEDIA ===== -->
 
       <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_data">
-        <MediaGrid :media_list="event_data.media" :media_folder_path="[`${public_path}databases`].concat([db_path_description, 'media']).join('/')"/>
+        <MediaGrid
+          :media_list="event_data.media"
+          :media_folder_path="
+            [`${public_path}databases`]
+              .concat(db_path_description)
+              .concat('media')
+              .join('/')
+          "
+        />
       </ToggleShow>
     </div>
   </div>
@@ -265,39 +276,29 @@ watchEffect(async () => {
 <style scoped>
 @import "@/assets/common.css";
 
-.ed-div {
-  padding: 1em;
-  background-color: var(--greyish-dark);
-}
-
-.ed-header {
-  color: var(--scarlet-vibrant);
-  font-weight: 700;
-  font-size: x-large;
-}
-
-.ed-dates {
-  color: var(--grey-vibrant);
-  font-style: italic;
-}
-
-a.ed-parent {
-  color: var(--grey-soft);
-  font-style: italic;
-}
-
-table {
-  width: auto;
-  margin: 1em 0;
-  font-size: 18px;
-  font-family: Arial, sans-serif;
-  box-shadow: 0 0 20px rgba(59, 57, 57, 0.15);
-  border: 3px solid var(--scarlet-dark);
-  border-radius: 5px;
+.table-div {
+  width: 98vw; 
+  margin: 1em;
   overflow: hidden;
+  border-radius: 0.7em;
+}
+
+.ed-table {
+  width: 100%;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 1em rgba(59, 57, 57, 0.15);
+  border: 0.2em solid var(--scarlet-dark);
   text-align: left;
-  border-collapse: separate;
-  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.ed-table th, .ed-table td {
+  text-align: left;
+  color: var(--grey-light);
+  word-wrap: break-word;
+  max-width: 45vw;
 }
 
 thead {
@@ -306,19 +307,16 @@ thead {
   text-align: left;
 }
 
-th {
-  padding: 0 0.3em;
-  text-align: left;
-  color: var(--grey-light);
+.ed-table-title {
+  text-align: center !important; 
+  font-size: x-large;
+  padding-bottom: 0.3em;
+  background-color: var(--scarlet-dark);
+  color: var(--grey-vibrant);
 }
 
 tbody tr:nth-child(odd) {
   background-color: var(--grey-dark);
-}
-
-.ed-table-title {
-  font-size: larger;
-  text-align: center;
 }
 
 .ts-sources {
@@ -350,4 +348,5 @@ tbody tr:nth-child(odd) {
 .ed-popup-button:hover {
   color: var(--orange-vibrant);
 }
+
 </style>
