@@ -1,6 +1,4 @@
 # https://www.m3net.jp/event/index.php
-# TODO media from all: https://web.archive.org/web/19990421002548/http://mmm.panic.or.jp:80/
-# TODO: browse for new stuff on web archive.org basically
 
 from db_structs import Medium, Circle, Event, EventGroup, Source, ReliabilityTypes, OriginTypes
 from pathlib import Path

@@ -1,29 +1,67 @@
 <script setup>
 import { useVirtualList } from "@vueuse/core";
 import { computed, useTemplateRef, markRaw } from "vue";
+import { public_path } from "@/assets/utils.js";
 import { ref } from "vue";
-import circle_raw_index from "@/assets/static_databases/circle_participation_index.json"; // Static database import
+import circle_raw_compact_index from "@/assets/static_databases/circle_participation_compact_index.json"; // Static database import
 import PopUpManager from "../components/PopUpManager.vue";
 import PopUpCirclePartialdetails from "./PopUpCirclePartialdetails.vue";
+import axiosInstance from "@/axios/axios_config.js";
 
+const search_state = ref("Disabled"); // Disabled, Loading, Enabled, Error
 const keywords = ref("");
+const circle_raw_extensive_index = ref({}); // Extensive index variant
 
-function recursive_fill_circle_index(current_raw_index, ar_path) {
+function recursive_fill_circle_extensive_index(current_raw_index, ar_path) {
+  // Extensive index variant
   let current_circle_list = [];
 
-  for (const db_name in current_raw_index) {
-    if (Array.isArray(current_raw_index[db_name])) {
-      // Not a subfolder, but a db
-      let raw = current_raw_index[db_name];
-      for (const key in raw) {
-        raw[key]["event_ar_path"] = ar_path.concat(db_name); // add ar_path
+  for (const key in current_raw_index) {
+    if (Array.isArray(current_raw_index[key])) {
+      /* Content is array: key is an event name */
+      let raw = current_raw_index[key];
+      for (const circle_i in raw) {
+        raw[circle_i]["event_ar_path"] = ar_path.concat(key); // add ar_path
+        raw[circle_i]["event_name"] = key; // add event name
       }
+
       current_circle_list = [].concat(current_circle_list, raw);
     } else {
-      // A subfolder
-      let raw = recursive_fill_circle_index(
-        current_raw_index[db_name],
-        ar_path.concat(db_name)
+      /* Content is object: folder, key is the folder name */
+      let raw = recursive_fill_circle_extensive_index(
+        current_raw_index[key],
+        ar_path.concat(key)
+      );
+      current_circle_list = [].concat(current_circle_list, raw);
+    }
+  }
+
+  return current_circle_list;
+}
+function recursive_fill_compact_circle_index(
+  current_raw_compact_index,
+  ar_path
+) {
+  // Compact index variant
+  let current_circle_list = [];
+
+  for (const key in current_raw_compact_index) {
+    if (Array.isArray(current_raw_compact_index[key])) {
+      /* Content is array: key is an event name */
+      let raw = current_raw_compact_index[key];
+      for (const circle_i in raw) {
+        let circle = {
+          ar_path: ar_path.concat(key), // add ar_path
+          event_name: key, // add event name
+          names: raw[circle_i], // add names
+        };
+        current_circle_list.push(circle);
+      }
+    } else {
+      /* Content is object: folder, key is the folder name */
+      let raw = recursive_fill_compact_circle_index(
+        current_raw_compact_index[key],
+        ar_path.concat(key)
       );
       current_circle_list = [].concat(current_circle_list, raw);
     }
@@ -32,8 +70,25 @@ function recursive_fill_circle_index(current_raw_index, ar_path) {
   return current_circle_list;
 }
 
+const circle_extensive_index = computed(() => {
+  if (!circle_raw_extensive_index.value || !Object.keys(circle_raw_extensive_index.value).length) {
+    return []; // Return empty array if no data is available
+  }
+  return recursive_fill_circle_extensive_index(circle_raw_extensive_index.value, []);
+});
+
+const circle_compact_index = computed(() => {
+  return recursive_fill_compact_circle_index(circle_raw_compact_index, []);
+});
+
 const circle_index = computed(() => {
-  return recursive_fill_circle_index(circle_raw_index, []);
+  if (search_state.value === "Enabled") {
+    // Extensive index
+    return circle_extensive_index.value;
+  } else {
+    // Compact index
+    return circle_compact_index.value;
+  }
 });
 
 const circle_index_lowered = computed(() => {
@@ -82,42 +137,102 @@ const filtered_circles = computed(() => {
 const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
   filtered_circles,
   {
-    itemHeight: 22,
+    itemHeight: 10,
     // overscan: 10,
   }
 );
 
-function searchUpdate(event) {
+function onSearchUpdate(event) {
   keywords.value = event.target.value;
   scrollTo(0);
 }
 
+/* Deep Search Activation */
+function activateExtensiveSearch() {
+  if (search_state.value !== "Disabled") {
+    console.warn(
+      "activateExtensiveSearch was called while Deep Search is already activated or loading."
+    );
+    return; // Do not activate if already enabled or loading
+  }
+
+  search_state.value = "Loading";
+  fetch_circle_index();
+}
+
+async function fetch_circle_index() {
+  /* Fetch the (extensive) circle index */
+  circle_raw_extensive_index.value = {}; // Reset the index
+
+  // Construct the URL
+  let index_url = [`${public_path}databases`]
+    .concat(["circle_participation_extensive_index.json"])
+    .join("/");
+  console.log(`Fetching ${index_url}...`); // Log the fetched data
+
+  try {
+    const response = await axiosInstance.get(index_url);
+
+    console.log("NEW FETCHED: ", response); // Log the fetched data
+    circle_raw_extensive_index.value = response.data; // Set the fetched data to the index
+    search_state.value = "Enabled"; // Set the state to enabled after fetching
+  } catch (error) {
+    search_state.value = "Error"; // Set the state to error if fetching fails
+    console.error("Error fetching data:", error); // Log any errors that occur during the fetch
+  }
+}
+
 /* PopUpManager */
-const popUpManager = useTemplateRef('popUpManager');
+const popUpManager = useTemplateRef("popUpManager");
 function popupCircleDetails(circle_partial_db) {
-  console.log("circle_partial_db :", circle_partial_db);
-  popUpManager.value.addPopup(
-    markRaw(PopUpCirclePartialdetails),
-    {circle_db: circle_partial_db, db_path: circle_partial_db.event_ar_path}
-  )
+  // console.log("circle_partial_db :", circle_partial_db);
+  popUpManager.value.addPopup(markRaw(PopUpCirclePartialdetails), {
+    circle_db: circle_partial_db,
+    db_path: circle_partial_db.event_ar_path,
+  });
 }
 </script>
 
 <template>
   <!-- Title -->
   <head>
-    <title>dea | Circle Participation</title>
+    <title v-if="search_state == 'Enabled'">
+      dea | Circle Participation (extensive search)
+    </title>
+    <title v-else>dea | Circle Participation</title>
   </head>
 
   <div class="header-title">Circle Participation</div>
   <div class="header">
-    List of participating circles registered in the database.
+    List of participating circles in the database.
+  </div>
+
+  <div class="ds-header">
+    <div v-if="search_state == 'Disabled'">
+      Circle extensive search is not activated. Searching circle names and event names only.  <br />
+      <button class="ds-button" @click="activateExtensiveSearch" title="Activating will download a rather large file.">
+        Enable Circle Extensive Search
+      </button>
+    </div>
+    <div v-if="search_state == 'Error'">
+      ERROR. Try again ?
+      <button class="ds-button" @click="activateExtensiveSearch">
+        Activate Circle Extensive Search
+      </button>
+    </div>
+    <div v-if="search_state == 'Loading'">
+      Circle Extensive Search is loading (downloading
+      <i>circle_participation_index.json</i>) ...
+    </div>
+    <div v-if="search_state == 'Enabled'">
+      Circle Extensive Search is activated. Searching in more fields.
+    </div>
   </div>
 
   <input
     class="cp-input"
     :value="keywords"
-    @input="searchUpdate"
+    @input="onSearchUpdate"
     placeholder="Keywords"
   />
   ({{ filtered_circles?.length }} results)
@@ -151,10 +266,13 @@ function popupCircleDetails(circle_partial_db) {
                 <tbody>
                   <tr>
                     <th>
-                      <button class='cp-popup-button' 
+                      <button
+                        class="cp-popup-button"
                         @click="popupCircleDetails(circle.data)"
                         title="Show circle (partial) details"
-                      >🡵</button>
+                      >
+                        🡵
+                      </button>
                       {{ circle.data.names.join(" / ") }}
                     </th>
                     <th>
@@ -163,7 +281,6 @@ function popupCircleDetails(circle_partial_db) {
                         :href="
                           ['/dea/event_detail/#']
                             .concat(circle.data.event_ar_path)
-                            .concat(circle.data.event_name)
                             .join('/')
                         "
                       >
@@ -183,6 +300,8 @@ function popupCircleDetails(circle_partial_db) {
 </template>
 
 <style scoped>
+@import "@/assets/common.css";
+
 .cp-div {
   margin: 1em;
   background-color: var(--orange-dark);
@@ -229,6 +348,7 @@ function popupCircleDetails(circle_partial_db) {
 }
 
 .cp-input {
+  margin-top: 1em;
   margin-left: 1em;
 }
 
@@ -261,5 +381,24 @@ a.cp-event-link {
 
 .cp-popup-button:hover {
   color: var(--orange-vibrant);
+}
+
+.ds-header {
+  margin-left: 1rem;
+  font-size: large;
+  color: var(--purple-dark);
+  font-family: "Segoe UI";
+  font-weight: 500;
+}
+
+.ds-button {
+  background-color: var(--purple-deeper);
+  color: var(--greyish-light);
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2);
+  font-weight: 600;
 }
 </style>

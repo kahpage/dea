@@ -1,6 +1,6 @@
 # databases_management
 
-Here is stored the "raw" databases and handled the database-related management.
+Here are stored the "raw" databases and handled the database-related management.
 
 ## Folder structure
 
