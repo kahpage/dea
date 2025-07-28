@@ -149,7 +149,7 @@ function onSearchUpdate(event) {
 
 /* Deep Search Activation */
 function activateExtensiveSearch() {
-  if (search_state.value !== "Disabled") {
+  if (search_state.value !== "Disabled" && search_state.value !== "Error") {
     console.warn(
       "activateExtensiveSearch was called while Deep Search is already activated or loading."
     );
