@@ -4,6 +4,12 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- https://www.fromjapan.co.jp/japan/fr/item/search/%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88+%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0/Al_11_Yh_RaRmMr_N_N_0A00ja000_N/ shows that catalogue CD up to C83 at least
+- https://www.comiket.co.jp/cd-rom/QandA.html (changelog of C57 catalog CD perhaps)
+- エアコミケ (https://web.archive.org/web/20231209043210/https://www.comiket.co.jp/)
+- media related to comike press ? https://web.archive.org/web/20240126165538/https://www.comiket.co.jp/ (their banners for example) and press pdfs https://web.archive.org/web/20250404192004/https://www.comiket.co.jp/info-a/C102/C102distributions.html
+- https://web.archive.org/web/20250112211002/https://comiket.co.jp/info-a/C105/C105distributions.html
+- m3 catalogue to download and host externally
 - "banners"/"sbanner" (of probably circles) to link to circles (https://web.archive.org/web/*/http://www.m3net.jp/*)
 - https://web.archive.org/web/20150319213628/http://www.m3net.jp/img/OtakuSummit.jpg
 - (and other similar banners) https://web.archive.org/web/20210424083411/http://www.m3net.jp/img/m3online_banner2.jpg

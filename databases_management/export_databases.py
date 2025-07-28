@@ -178,23 +178,26 @@ if __name__ == '__main__':
     @dataclass
     class ParticipatingCircle: # Circle for that index
         names: list[str] = field(default_factory=list) # aliases & pen_names
-        event_name: str = "" # Event name to display
         misc: list[str] = field(default_factory=list) # Other fields to search in, e.g. comments
 
         def get_json(self) -> dict[str, Any]:
             out_dict = {
                 "names": self.names,
-                "event_name": self.event_name,
             }
             if self.misc:
                 out_dict["misc"] = self.misc
             return out_dict
+        
+        def get_compact_json(self) -> list[str]:
+            """Returns a compact version of the circle, with only names and event_name."""
+            return self.names
     
     # circle_index: list[ParticipatingCircle] = []
-    def recursive_circle_index(index: dict[str, Any], root_path_list: list[str] = []) -> dict[str,Any]:
-        """Copies the databases to public/databases/ while preserving the folder structure, using the database index"""
+    def recursive_circle_index(index: dict[str, Any], root_path_list: list[str] = []) -> tuple[dict[str,Any], dict[str,Any]]:
+        """Indexes all participating circles for events, using the database index. Makes a complete and a compacted (only limited fields) index"""
         this_circle_index: dict[str,Any] = {}
-        for db_name in index.get("@databases", []):
+        this_circle_compact_index: dict[str,Any] = {}
+        for db_name in index.get("@databases", []): # db_name is the eg
             # For databases of current folder
             db_folder_path = PATH_databases_to_export / "/".join(root_path_list) / db_name
             db_file_path = db_folder_path / f"{db_name}.json"
@@ -205,13 +208,17 @@ if __name__ == '__main__':
             if "events" not in event_content or not event_content["events"]:
                 continue
             
+            this_circle_index[db_name] = {} # if dict: event_group, if list: event and elems are circles
+            this_circle_compact_index[db_name] = {}
+
             for event in event_content["events"]:
                 if "aliases" not in event or not event["aliases"]:
                     continue
                 if "circles" not in event or not event['circles']:
                     continue
                 
-                event_index = []
+                event_circle_index = []
+                event_circle_compact_index = []
                 for circle in event['circles']:
                     names = []
                     if "aliases" in circle:
@@ -223,26 +230,29 @@ if __name__ == '__main__':
                         misc.append(circle["comments"])
                     if "links" in circle and circle["links"]:
                         misc.extend(circle["links"])
-                    event_index.append(ParticipatingCircle(
-                        names=names,
-                        event_name=event["aliases"][0],
-                        misc=misc
-                    ).get_json())
-                if db_name in this_circle_index:
-                    this_circle_index[db_name] += event_index
-                else:
-                    this_circle_index[db_name] = event_index
+                    pc = ParticipatingCircle(names=names,misc=misc)
+                    event_circle_index.append(pc.get_json())
+                    event_circle_compact_index.append(pc.get_compact_json()) # just a list of names
+
+                    this_circle_index[db_name][ event['aliases'][0] ] = event_circle_index
+                    this_circle_compact_index[db_name][ event['aliases'][0] ] = event_circle_compact_index
 
         for subfolder_name in index:
             if subfolder_name not in ["@databases", "@count"]:
-                this_circle_index[subfolder_name] = recursive_circle_index(index[subfolder_name], root_path_list + [subfolder_name])
-        return this_circle_index
+                this_circle_index[subfolder_name], this_circle_compact_index[subfolder_name] = recursive_circle_index(index[subfolder_name], root_path_list + [subfolder_name])
+        return this_circle_index, this_circle_compact_index
 
-    circle_index = recursive_circle_index(database_index)
+    circle_index, circle_compact_index = recursive_circle_index(database_index)
     circle_index_file_path = PATH_static_databases / "circle_participation_index.json"
+    circle_compact_index_file_path = PATH_static_databases / "circle_participation_compact_index.json"
     
     circle_index_file_path.parent.mkdir(parents=True, exist_ok=True)
     print(f"Saving circle database file at {circle_index_file_path}...")
     with circle_index_file_path.open("w+", encoding="utf-8") as f:
         json.dump(circle_index, f, ensure_ascii=False, indent=STATIC_JSON_INDENT)
+    
+    circle_compact_index_file_path.parent.mkdir(parents=True, exist_ok=True)
+    print(f"Saving compact circle database file at {circle_compact_index_file_path}...")
+    with circle_compact_index_file_path.open("w+", encoding="utf-8") as f:
+        json.dump(circle_compact_index, f, ensure_ascii=False, indent=STATIC_JSON_INDENT)
 

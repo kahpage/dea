@@ -11,19 +11,19 @@ const keywords = ref("");
 function recursive_fill_circle_index(current_raw_index, ar_path) {
   let current_circle_list = [];
 
-  for (const db_name in current_raw_index) {
-    if (Array.isArray(current_raw_index[db_name])) {
-      // Not a subfolder, but a db
-      let raw = current_raw_index[db_name];
-      for (const key in raw) {
-        raw[key]["event_ar_path"] = ar_path.concat(db_name); // add ar_path
+  for (const key in current_raw_index) {
+    if (Array.isArray(current_raw_index[key])) { /* Content is array: key is an event name */
+      let raw = current_raw_index[key];
+      for (const circle_index in raw) {
+        raw[circle_index]["event_ar_path"] = ar_path.concat(key); // add ar_path
+        raw[circle_index]["event_name"] = key; // add event name
       }
+
       current_circle_list = [].concat(current_circle_list, raw);
-    } else {
-      // A subfolder
+    } else { /* Content is object: folder, key is the folder name */
       let raw = recursive_fill_circle_index(
-        current_raw_index[db_name],
-        ar_path.concat(db_name)
+        current_raw_index[key],
+        ar_path.concat(key)
       );
       current_circle_list = [].concat(current_circle_list, raw);
     }
@@ -82,7 +82,7 @@ const filtered_circles = computed(() => {
 const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
   filtered_circles,
   {
-    itemHeight: 22,
+    itemHeight: 10,
     // overscan: 10,
   }
 );
@@ -95,7 +95,7 @@ function searchUpdate(event) {
 /* PopUpManager */
 const popUpManager = useTemplateRef('popUpManager');
 function popupCircleDetails(circle_partial_db) {
-  console.log("circle_partial_db :", circle_partial_db);
+  // console.log("circle_partial_db :", circle_partial_db);
   popUpManager.value.addPopup(
     markRaw(PopUpCirclePartialdetails),
     {circle_db: circle_partial_db, db_path: circle_partial_db.event_ar_path}
@@ -163,7 +163,6 @@ function popupCircleDetails(circle_partial_db) {
                         :href="
                           ['/dea/event_detail/#']
                             .concat(circle.data.event_ar_path)
-                            .concat(circle.data.event_name)
                             .join('/')
                         "
                       >

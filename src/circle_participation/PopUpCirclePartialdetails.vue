@@ -23,9 +23,11 @@
       <div class="cd-misc" v-if="circle_db.hasOwnProperty('misc') && circle_db.misc.length > 0">
         <span class="info-name">Misc:</span>
         <ul class="cd-ul-descriptions">
-          <li v-for="(misc, i) in circle_db.misc" :key="i">
-            <span v-html="makeLinksClickable(misc)"></span>
-          </li>
+          <span v-for="(misc_elem, i) in circle_db.misc" :key="i">
+            <li v-for="(line, j) in misc_elem.split('\n')" :key="j">
+              <span v-html="makeLinksClickable(line)"></span>
+            </li>
+          </span>
         </ul>
       </div>
       
