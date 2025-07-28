@@ -243,12 +243,12 @@ if __name__ == '__main__':
         return this_circle_index, this_circle_compact_index
 
     circle_index, circle_compact_index = recursive_circle_index(database_index)
-    circle_index_file_path = PATH_static_databases / "circle_participation_index.json"
-    circle_compact_index_file_path = PATH_static_databases / "circle_participation_compact_index.json"
+    circle_extensive_index_file_path = PATH_public_databases / "circle_participation_extensive_index.json" # in public/databases/
+    circle_compact_index_file_path = PATH_static_databases / "circle_participation_compact_index.json"     # in assets/static_databases/
     
-    circle_index_file_path.parent.mkdir(parents=True, exist_ok=True)
-    print(f"Saving circle database file at {circle_index_file_path}...")
-    with circle_index_file_path.open("w+", encoding="utf-8") as f:
+    circle_extensive_index_file_path.parent.mkdir(parents=True, exist_ok=True)
+    print(f"Saving circle database file at {circle_extensive_index_file_path}...")
+    with circle_extensive_index_file_path.open("w+", encoding="utf-8") as f:
         json.dump(circle_index, f, ensure_ascii=False, indent=STATIC_JSON_INDENT)
     
     circle_compact_index_file_path.parent.mkdir(parents=True, exist_ok=True)
