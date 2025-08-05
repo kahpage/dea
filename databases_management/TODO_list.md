@@ -4,6 +4,9 @@ Just a bunch of random, not ordered notes and links to process at a later point.
 
 ## Notes
 ### Planned
+- Note: circle.ms goes back to C83 (https://webcatalog-archives.circle.ms/)
+- To request https://nyaa.si/?f=0&c=0_0&q=%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88+%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0 & https://sukebei.nyaa.si/?f=0&c=0_0&q=%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88+%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0
+- https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%EF%BC%A4%EF%BC%B6%EF%BC%A4%EF%BC%8D%EF%BC%B2%EF%BC%AF%EF%BC%AD%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0&crid=3GX6IL8N9287E&sprefix=%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88dvd+rom%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%2Caps%2C792&ref=nb_sb_noss shows other catalogue CD
 - https://www.fromjapan.co.jp/japan/fr/item/search/%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88+%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0/Al_11_Yh_RaRmMr_N_N_0A00ja000_N/ shows that catalogue CD up to C83 at least
 - https://www.comiket.co.jp/cd-rom/QandA.html (changelog of C57 catalog CD perhaps)
 - エアコミケ (https://web.archive.org/web/20231209043210/https://www.comiket.co.jp/)

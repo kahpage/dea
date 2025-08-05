@@ -12,12 +12,13 @@ from dataclasses import dataclass, field
 
 PATH_CURRENT_DIR = Path(__file__).parent
 PATH_ROOT = PATH_CURRENT_DIR.parent
-PATH_databases_to_export = PATH_CURRENT_DIR / "databases_to_export" # databases_to_export/ folder
-PATH_public_databases = PATH_ROOT / "src" / "public" / "databases" # public/databases/ folder
-PATH_static_databases = PATH_ROOT / "src" / "assets" / "static_databases" # assets/databases/ folder (directly imported database files)
+PATH_databases_to_export = PATH_CURRENT_DIR / "databases_to_export"       # databases_to_export/ folder                                 -> Input
+PATH_served_databases = PATH_CURRENT_DIR / "databases_served"             # databases_served/ folder (served / public databases)        -> Served uncompessed files (media, ...)
+PATH_public_databases = PATH_ROOT / "src" / "public" / "databases"        # public/databases/ folder (compressed databases)             -> Served compressed (included in deploy) files (json databases, ...)
+PATH_static_databases = PATH_ROOT / "src" / "assets" / "static_databases" # assets/databases/ folder (directly imported database files)  -> Imported json files (indexes, ...)
 DB_FILE_ENCODING = "utf-8"
 
-STATIC_JSON_INDENT = None # None to remove indent, int otherwise (e.g. 4)
+STATIC_JSON_INDENT: int | None = None # None to remove indent, int otherwise (e.g. 4)
 
 def is_database_folder(folder_path: Path) -> bool:
     """Returns whether path is (valid) database folder: contains a .json file with same name as parent.
@@ -52,6 +53,7 @@ def clean_database_to_event_group(content: dict[str, Any]) -> dict[str, Any]:
 if __name__ == '__main__':
     print("======= EXPORTING DATABASES... =======")
     print(f"{PATH_databases_to_export=}")
+    print(f"{PATH_served_databases=}")
     print(f"{PATH_public_databases=}")
     print(f"{PATH_static_databases=}")
 
@@ -59,36 +61,29 @@ if __name__ == '__main__':
     #  Cleaning old exports 
     # ============================================================
     if not PATH_databases_to_export.is_dir():
-        print("WARNING: Invalid paths. Please create an empty public/databases/ folder if it is missing.")
+        print("WARNING: Invalid paths. Please create an empty databases_served/ folder if it is missing.")
         print("Aborted !")
         exit()
 
-    exists_pub_db, exists_sta_db = PATH_public_databases.is_dir(), PATH_static_databases.is_dir()
-    if exists_pub_db and exists_sta_db:
-        print("====== Clearing public/databases/ and assets/static_databases/ ... ======")
-        ans = input(f"The content of the following folder will be deteleted:\n{PATH_public_databases}\n{PATH_static_databases}\nEnter YES to confirm:\n")
+    exists_folders: list[Path] = []
+    if PATH_static_databases.is_dir():
+        exists_folders.append(PATH_static_databases)
+    if PATH_served_databases.is_dir():
+        exists_folders.append(PATH_served_databases)
+    if PATH_public_databases.is_dir():
+        exists_folders.append(PATH_public_databases)
+    if exists_folders:
+        print(f"====== Clearing old {', '.join(f.stem for f in exists_folders)} folder{'s' if len(exists_folders)>2 else ''}... ======")
+        ans = input(f"The content of the following folders will be deleted:\n{'\n'.join(str(folder) for folder in exists_folders)}\nEnter YES to confirm:\n")
         if ans != "YES":
             print("Aborted !")
             exit()
-        shutil.rmtree(PATH_public_databases)
-        shutil.rmtree(PATH_static_databases)
-    elif exists_pub_db: # Only public
-        print("====== Clearing public/databases/ ... ======")
-        ans = input(f"The content of the following folder will be deteleted. Enter YES to confirm:\n{PATH_public_databases}\n")
-        if ans != "YES":
-            print("Aborted !")
-            exit()
-        shutil.rmtree(PATH_public_databases)
-    elif exists_sta_db: # Only static
-        print("====== Clearing assets/static_databases/ ... ======")
-        ans = input(f"The content of the following folder will be deteleted. Enter YES to confirm:\n{PATH_static_databases}\n")
-        if ans != "YES":
-            print("Aborted !")
-            exit()
-        shutil.rmtree(PATH_static_databases)
+        for folder in exists_folders:
+            shutil.rmtree(folder)
 
-    PATH_public_databases.mkdir()
-    PATH_static_databases.mkdir() 
+    PATH_served_databases.mkdir(parents=True, exist_ok=True)
+    PATH_static_databases.mkdir(parents=True, exist_ok=True) 
+    PATH_public_databases.mkdir(parents=True, exist_ok=True)
 
 
     # ============================================================
@@ -128,14 +123,14 @@ if __name__ == '__main__':
         return index_this_folder, eg_db_this_folder
 
     def recursive_copy_from_database_index(index: dict[str, Any], root_path_list: list[str] = []) -> None:
-        """Copies the databases to public/databases/ while preserving the folder structure, using the database index"""
+        """Copies the databases to databases_served/ and public/databases/ while preserving the folder structure, using the database index"""
         for db_name in index.get("@databases", []):
             # For databases of current folder
             db_folder_path = PATH_databases_to_export / "/".join(root_path_list) / db_name
             db_file_path = db_folder_path / f"{db_name}.json"
             new_db_file_path = PATH_public_databases  / "/".join(root_path_list) / db_name / f"{db_name}.json" # new path
             
-            print(f"mkdir {new_db_file_path.parent} ...")
+            print(f"mkdir {new_db_file_path.parent} for json database ...")
             new_db_file_path.parent.mkdir(parents=True, exist_ok=True)
 
             with db_file_path.open("r+", encoding="utf-8") as f:
@@ -143,11 +138,13 @@ if __name__ == '__main__':
             with new_db_file_path.open("w+", encoding="utf-8") as f:
                 json.dump(old_content, f, ensure_ascii=False, indent=STATIC_JSON_INDENT) # remove indent
 
+            new_media_path = PATH_served_databases / "/".join(root_path_list) / db_name / "media" # new media path
+            print(f"mkdir {new_media_path} ...")
+            new_media_path.mkdir(parents=True, exist_ok=True)
             old_media_folder_path = db_folder_path / "media"
             if old_media_folder_path.exists() and old_media_folder_path.is_dir():
-                new_media_folder_path = new_db_file_path.parent / "media"
-                print(f"Running shutil.copytree({old_media_folder_path}, {new_media_folder_path})...")
-                shutil.copytree(old_media_folder_path, new_media_folder_path, dirs_exist_ok=True)
+                print(f"Running shutil.copytree({old_media_folder_path}, {new_media_path})...")
+                shutil.copytree(old_media_folder_path, new_media_path, dirs_exist_ok=True)
         
         for subfolder_name in index:
             if subfolder_name not in ["@databases", "@count"]:
@@ -156,7 +153,7 @@ if __name__ == '__main__':
     print("====== Finding all databases in databases_to_export ... ======")    
     database_index, event_list_index = recursive_database_indexing(PATH_databases_to_export)
 
-    print("====== Copying found databases to public/databases/ ... ======")
+    print("====== Copying found databases to databases_served/ ... ======")
     recursive_copy_from_database_index(database_index)
     
     index_file_path = PATH_static_databases / "database_file_index.json"
@@ -243,7 +240,7 @@ if __name__ == '__main__':
         return this_circle_index, this_circle_compact_index
 
     circle_index, circle_compact_index = recursive_circle_index(database_index)
-    circle_extensive_index_file_path = PATH_public_databases / "circle_participation_extensive_index.json" # in public/databases/
+    circle_extensive_index_file_path = PATH_public_databases / "circle_participation_extensive_index.json" # in databases_served/
     circle_compact_index_file_path = PATH_static_databases / "circle_participation_compact_index.json"     # in assets/static_databases/
     
     circle_extensive_index_file_path.parent.mkdir(parents=True, exist_ok=True)
