@@ -1,0 +1,134 @@
+{
+    "aliases": [
+        "C88",
+        "コミックマーケット88",
+        "Comiket 88",
+        "Comic Market 88"
+    ],
+    "dates": "2015.08.14 - 2015.08.16",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250115023056/https://www.comiket.co.jp/info-a/C88/C88distributions.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "88_CWC_C88.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20150807051111/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "88_CWC_C88L.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20150807051111/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "88_C88CtlgSasshi.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115023056/https://www.comiket.co.jp/info-a/C88/C88distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：新谷かおる（サークル：八十八夜）"
+        },
+        {
+            "path": "88_C88KamibukuroL.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115023056/https://www.comiket.co.jp/info-a/C88/C88distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：マツオヒロミ（サークル：六花弁三片紅）"
+        },
+        {
+            "path": "88_C88KamibukuroS.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115023056/https://www.comiket.co.jp/info-a/C88/C88distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：鉄板！（サークル：ギラギライズ）"
+        },
+        {
+            "path": "88_C88KigyoPamphlet.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115023056/https://www.comiket.co.jp/info-a/C88/C88distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "おかだアンミツ（サークル：フェザー・クラウン）"
+        },
+        {
+            "path": "88_C88CtlgRom.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115023056/https://www.comiket.co.jp/info-a/C88/C88distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：新谷かおる（サークル：八十八夜）"
+        },
+        {
+            "path": "88_C88Moushikomisho.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114195114/https://www.comiket.co.jp/info-a/C87/C87distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表示イラスト：茶森（サークル：tyamorix）"
+        },
+        {
+            "path": "https://web.archive.org/web/20160307171317/http://www.comiket.co.jp/info-a/C88/C88CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20160307171317/http://www.comiket.co.jp/info-a/C88/C88CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

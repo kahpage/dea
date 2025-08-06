@@ -1,0 +1,392 @@
+{
+    "aliases": [
+        "MUSIC COMMUNICATION 7",
+        "M-COMI7",
+        "Mコミ7"
+    ],
+    "dates": "2013.03.24",
+    "circles": [
+        {
+            "aliases": [
+                "あにおん"
+            ],
+            "pen_names": [
+                "葛野大路右京"
+            ],
+            "position": "SP数1 Track 29",
+            "links": [
+                "http://あにおん.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "いるかふぇいん"
+            ],
+            "pen_names": [
+                "とこしえいるか"
+            ],
+            "position": "SP数1 Track 25"
+        },
+        {
+            "aliases": [
+                "E*Project"
+            ],
+            "pen_names": [
+                "汐瀬悠里"
+            ],
+            "position": "SP数1 Track 34",
+            "links": [
+                "http://epro.ehoh.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "Eryps"
+            ],
+            "pen_names": [
+                "Spyre"
+            ],
+            "position": "SP数1 Track 11",
+            "links": [
+                "http://www.eryps.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "L＆Eクリエイターズ"
+            ],
+            "pen_names": [
+                "柚小"
+            ],
+            "position": "SP数1 Track 1",
+            "links": [
+                "http://lecre.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "LC：AZE/hospital=Grade"
+            ],
+            "pen_names": [
+                "タナカミツヒロ"
+            ],
+            "position": "SP数1 Track 7",
+            "links": [
+                "http://www.lcaze.com"
+            ]
+        },
+        {
+            "aliases": [
+                "おたクインテット"
+            ],
+            "pen_names": [
+                "rienzi"
+            ],
+            "position": "SP数1 Track 23",
+            "links": [
+                "http://otaquintet.inw.bz"
+            ]
+        },
+        {
+            "aliases": [
+                "お月さま交響曲"
+            ],
+            "pen_names": [
+                "大宮 水那瀬"
+            ],
+            "position": "SP数1 Track 31",
+            "links": [
+                "http://moonsymphony.web.fc2.com/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "Audrey Record"
+            ],
+            "pen_names": [
+                "東風ありき"
+            ],
+            "position": "SP数2 Track 15/16",
+            "links": [
+                "http://www.adypro.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "コミコミ開催委員会"
+            ],
+            "pen_names": [
+                "コミコミ開催委員会"
+            ],
+            "position": "SP数1 Track 8",
+            "links": [
+                "http://www.e-comicomi.com"
+            ]
+        },
+        {
+            "aliases": [
+                "Sound -R-"
+            ],
+            "pen_names": [
+                "UTA"
+            ],
+            "position": "SP数1 Track 14",
+            "links": [
+                "http://soundr.web.fc2.com/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "桜ノ咲音響産業"
+            ],
+            "pen_names": [
+                "桜ノ咲みえ"
+            ],
+            "position": "SP数1 Track 10",
+            "links": [
+                "http://sakion.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "SUNRISE FACTORY"
+            ],
+            "pen_names": [
+                "Ｓｉｄｄ"
+            ],
+            "position": "SP数1 Track 6",
+            "links": [
+                "http://sunrisefactory.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "趣味工房にんじんわいん"
+            ],
+            "pen_names": [
+                "ARA"
+            ],
+            "position": "SP数1 Track 18",
+            "links": [
+                "http://carrotwine.muse.bindsite.jp/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "酔鍵堂"
+            ],
+            "pen_names": [
+                "すいけん583"
+            ],
+            "position": "SP数1 Track 27",
+            "links": [
+                "http://suikendo.web.fc2.com"
+            ]
+        },
+        {
+            "aliases": [
+                "SKY OVER"
+            ],
+            "pen_names": [
+                "月代ユキ"
+            ],
+            "position": "SP数1 Track 35",
+            "links": [
+                "http://skyover.yu-yake.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Sprite Wing"
+            ],
+            "pen_names": [
+                "MAYA"
+            ],
+            "position": "SP数1 Track 30",
+            "links": [
+                "http://spritewing.com"
+            ]
+        },
+        {
+            "aliases": [
+                "声王伝説"
+            ],
+            "pen_names": [
+                "のび男"
+            ],
+            "position": "SP数1 Track 32",
+            "links": [
+                "http://hiaudio.ame-zaiku.com/vkc/"
+            ]
+        },
+        {
+            "aliases": [
+                "DESTINO"
+            ],
+            "pen_names": [
+                "藤沢美夜"
+            ],
+            "position": "SP数1 Track 13",
+            "links": [
+                "http://www.destino-records.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "電子音響音楽応用解析研究所"
+            ],
+            "pen_names": [
+                "niu"
+            ],
+            "position": "SP数1 Track 5",
+            "links": [
+                "http://www.niusounds.com"
+            ]
+        },
+        {
+            "aliases": [
+                "天竺レーベル"
+            ],
+            "pen_names": [
+                "Degaussr"
+            ],
+            "position": "SP数1 Track 26",
+            "links": [
+                "http://tenjiku.sakura.ne.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "TO-MAX"
+            ],
+            "pen_names": [
+                "DAN"
+            ],
+            "position": "SP数1 Track 4",
+            "links": [
+                "http://www.k2.dion.ne.jp/~to-max"
+            ]
+        },
+        {
+            "aliases": [
+                "Nine Connect"
+            ],
+            "pen_names": [
+                "eastroro"
+            ],
+            "position": "SP数2 Track 21/22",
+            "links": [
+                "http://nine-connect.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "飛練音響工業"
+            ],
+            "pen_names": [
+                "響太"
+            ],
+            "position": "SP数1 Track 3",
+            "links": [
+                "http://hiaudio.ame-zaiku.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Floating Cloud"
+            ],
+            "pen_names": [
+                "Yu-ki"
+            ],
+            "position": "SP数1 Track 19",
+            "links": [
+                "http://floatingcloud.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "Melodic Taste"
+            ],
+            "pen_names": [
+                "taste"
+            ],
+            "position": "SP数1 Track 17",
+            "links": [
+                "http://taste-f.sakura.ne.jp/Melodic/"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆずぽんれぎおん"
+            ],
+            "pen_names": [
+                "白夜輝星"
+            ],
+            "position": "SP数1 Track 28",
+            "links": [
+                "http://yuzuponlegion.sitemix.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "吉原楽団"
+            ],
+            "pen_names": [
+                "PAGECO"
+            ],
+            "position": "SP数1 Track 2"
+        },
+        {
+            "aliases": [
+                "裸王Project"
+            ],
+            "pen_names": [
+                "裸王"
+            ],
+            "position": "SP数1 Track 9"
+        },
+        {
+            "aliases": [
+                "我侭☆王子"
+            ],
+            "pen_names": [
+                "風香"
+            ],
+            "position": "SP数1 Track 33",
+            "links": [
+                "http://www.geocities.co.jp/AnimeComic-Ink/2214/"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20130323043740/http://m-comi.birdzberth.com/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20151025182852/http://m-comi.birdzberth.com/96_circlelist/circlelist_mcomi07.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "7_20130323043740_banner_1_1.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130323043740/http://m-comi.birdzberth.com/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "description": "Simultanous with VOCALOID PARADISE 関西 2."
+}

@@ -1,0 +1,42 @@
+{
+    "aliases": [
+        "THE VOC@LOiD 超 M@STER 34",
+        "THE VOC@LOiD M@STER 34",
+        "ボーマス34",
+        "VOM@S34"
+    ],
+    "dates": "2016.04.29",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm34ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm34",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "34_tvm34hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm34ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm34ippan.htm"
+    ]
+}

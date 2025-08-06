@@ -1,0 +1,44 @@
+{
+    "aliases": [
+        "VOCALOID PARADISE 番外編",
+        "ボーパラ番外編",
+        "VOCALOID PARADISE ExtraEdition"
+    ],
+    "links": [
+        "http://ttc.ninja-web.net/vo-para/index.html"
+    ],
+    "events": {
+        "VOCALOID PARADISE 番外編 1": {
+            "index": 0,
+            "dates": "2012.06.24"
+        },
+        "VOCALOID PARADISE 番外編 2": {
+            "index": 1,
+            "dates": "2013.06.23"
+        },
+        "VOCALOID PARADISE 番外編 3": {
+            "index": 2,
+            "dates": "2014.06.29"
+        },
+        "VOCALOID PARADISE 番外編 4": {
+            "index": 3,
+            "dates": "2015.06.14"
+        },
+        "VOCALOID PARADISE 番外編 5": {
+            "index": 4,
+            "dates": "2016.06.12"
+        },
+        "VOCALOID PARADISE 番外編 6": {
+            "index": 5,
+            "dates": "2017.06.18"
+        },
+        "VOCALOID PARADISE 番外編 7": {
+            "index": 6,
+            "dates": "2018.07.01"
+        },
+        "VOCALOID PARADISE 番外編 8": {
+            "index": 7,
+            "dates": "2019.05.19"
+        }
+    }
+}

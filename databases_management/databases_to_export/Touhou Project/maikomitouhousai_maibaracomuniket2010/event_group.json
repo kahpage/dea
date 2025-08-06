@@ -1,0 +1,19 @@
+{
+    "aliases": [
+        "まいばらこみゅにけっと2010 & まいこみ東方祭"
+    ],
+    "links": [
+        "http://web.archive.org/web/20100526004401/http://u-go.to/mcc/"
+    ],
+    "description": "Two events held at the same time.",
+    "events": {
+        "まいこみ東方祭": {
+            "index": 0,
+            "dates": "2010.09.19"
+        },
+        "まいばらこみゅにけっと2010": {
+            "index": 1,
+            "dates": "2010.09.19"
+        }
+    }
+}

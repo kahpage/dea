@@ -1,0 +1,417 @@
+{
+    "aliases": [
+        "幺樂団カァニバル！12"
+    ],
+    "dates": "2023.07.09",
+    "circles": [
+        {
+            "aliases": [
+                "シャレコーベ草原"
+            ],
+            "pen_names": [
+                "donjuan"
+            ],
+            "position": "幺0102",
+            "links": [
+                "https://www.donjuantriumph.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ロウズ自虐"
+            ],
+            "pen_names": [
+                "デンバット酒井風"
+            ],
+            "position": "幺03"
+        },
+        {
+            "aliases": [
+                "外柿山"
+            ],
+            "pen_names": [
+                "権太夫"
+            ],
+            "position": "幺04",
+            "links": [
+                "http://togakisan.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "カタコトリ"
+            ],
+            "pen_names": [
+                "夜覩カタリ"
+            ],
+            "position": "幺05",
+            "links": [
+                "https://twitter.com/suwa_moriya"
+            ]
+        },
+        {
+            "aliases": [
+                "Cynthia"
+            ],
+            "pen_names": [
+                "桜木李杏"
+            ],
+            "position": "幺06",
+            "links": [
+                "http://cynthia.cc/"
+            ]
+        },
+        {
+            "aliases": [
+                "蜂合わせ"
+            ],
+            "pen_names": [
+                "満希ナオ"
+            ],
+            "position": "幺07",
+            "links": [
+                "http://hatiawase.blog15.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆめうるえ"
+            ],
+            "pen_names": [
+                "そらのゆめこ"
+            ],
+            "position": "幺08",
+            "links": [
+                "https://twitter.com/soranoyumeko"
+            ]
+        },
+        {
+            "aliases": [
+                "幻想大膳寮"
+            ],
+            "pen_names": [
+                "七曜主醤"
+            ],
+            "position": "幺0910"
+        },
+        {
+            "aliases": [
+                "どくいちごがぁでん"
+            ],
+            "pen_names": [
+                "ドクロちゃん"
+            ],
+            "position": "幺11"
+        },
+        {
+            "aliases": [
+                "コーギーと共に"
+            ],
+            "pen_names": [
+                "ＣＶ"
+            ],
+            "position": "幺12",
+            "links": [
+                "https://twitter.com/CV0912"
+            ]
+        },
+        {
+            "aliases": [
+                "型K式"
+            ],
+            "pen_names": [
+                "カタケイ"
+            ],
+            "position": "幺1314",
+            "links": [
+                "https://twitter.com/wagocolo"
+            ]
+        },
+        {
+            "aliases": [
+                "れいんぼうてぃー"
+            ],
+            "pen_names": [
+                "ちびねこ"
+            ],
+            "position": "幺15"
+        },
+        {
+            "aliases": [
+                "星空らぼらとりー"
+            ],
+            "pen_names": [
+                "Duskia"
+            ],
+            "position": "幺16",
+            "links": [
+                "https://twitter.com/MagusofTwilight"
+            ]
+        },
+        {
+            "aliases": [
+                "思いついたままnote"
+            ],
+            "pen_names": [
+                "土生タケヒロ"
+            ],
+            "position": "幺17",
+            "links": [
+                "http://s30rou.s21.xrea.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "つきみ野黄昏プラザ"
+            ],
+            "pen_names": [
+                "ゆずピィ"
+            ],
+            "position": "幺18"
+        },
+        {
+            "aliases": [
+                "四葉挿話"
+            ],
+            "pen_names": [
+                "かむいこたん"
+            ],
+            "position": "幺19",
+            "links": [
+                "https://twitter.com/kamu_kotan"
+            ]
+        },
+        {
+            "aliases": [
+                "はじけ組っ！"
+            ],
+            "pen_names": [
+                "はじけ☆あきら"
+            ],
+            "position": "幺20"
+        },
+        {
+            "aliases": [
+                "常葉日和"
+            ],
+            "pen_names": [
+                "赤川羽蘭"
+            ],
+            "position": "幺21"
+        },
+        {
+            "aliases": [
+                "子羊の眠り歌"
+            ],
+            "pen_names": [
+                "にゃいぐる"
+            ],
+            "position": "幺22"
+        },
+        {
+            "aliases": [
+                "山桜ビール工房"
+            ],
+            "pen_names": [
+                "山桜ぱぱ"
+            ],
+            "position": "幺23",
+            "links": [
+                "https://twitter.com/sakura_beers"
+            ]
+        },
+        {
+            "aliases": [
+                "鎖付鉄球工房"
+            ],
+            "pen_names": [
+                "スペキュラム合金"
+            ],
+            "position": "幺24"
+        },
+        {
+            "aliases": [
+                "燕煙夢暖簾"
+            ],
+            "pen_names": [
+                "夢魂"
+            ],
+            "position": "樂01"
+        },
+        {
+            "aliases": [
+                "春空夢見月"
+            ],
+            "pen_names": [
+                "みつき"
+            ],
+            "position": "樂02"
+        },
+        {
+            "aliases": [
+                "常行丼"
+            ],
+            "pen_names": [
+                "ネモ"
+            ],
+            "position": "樂03"
+        },
+        {
+            "aliases": [
+                "メアリアンブルー"
+            ],
+            "pen_names": [
+                "五百野イオ"
+            ],
+            "position": "樂04"
+        },
+        {
+            "aliases": [
+                "夢峰地帯研究所"
+            ],
+            "pen_names": [
+                "るーくす"
+            ],
+            "position": "樂05"
+        },
+        {
+            "aliases": [
+                "ヤタノケモノ"
+            ],
+            "pen_names": [
+                "ヤタノケ"
+            ],
+            "position": "樂06",
+            "links": [
+                "https://twitter.com/yata_zetta"
+            ]
+        },
+        {
+            "aliases": [
+                "ぼうしやヘンリィ"
+            ],
+            "pen_names": [
+                "Jekyll"
+            ],
+            "position": "樂07"
+        },
+        {
+            "aliases": [
+                "波赤斗"
+            ],
+            "pen_names": [
+                "takaiman"
+            ],
+            "position": "樂08"
+        },
+        {
+            "aliases": [
+                "胡玉書厨"
+            ],
+            "pen_names": [
+                "胡玉"
+            ],
+            "position": "樂09",
+            "links": [
+                "https://www.pixiv.net/users/12842117"
+            ]
+        },
+        {
+            "aliases": [
+                "七色快男児"
+            ],
+            "pen_names": [
+                "仁科将人"
+            ],
+            "position": "樂10"
+        },
+        {
+            "aliases": [
+                "一匹鶏のアトリエ"
+            ],
+            "pen_names": [
+                "鶏のまさ"
+            ],
+            "position": "樂11",
+            "links": [
+                "https://twitter.com/ippikiniwatori"
+            ]
+        },
+        {
+            "aliases": [
+                "月桃プラネタリウム"
+            ],
+            "pen_names": [
+                "宵やま"
+            ],
+            "position": "団01"
+        },
+        {
+            "aliases": [
+                "Miraflores"
+            ],
+            "pen_names": [
+                "Nadine"
+            ],
+            "position": "団02",
+            "links": [
+                "https://twitter.com/nemonadi"
+            ]
+        },
+        {
+            "aliases": [
+                "Convallo-stick"
+            ],
+            "pen_names": [
+                "halogen"
+            ],
+            "position": "団03",
+            "links": [
+                "http://convallostick.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "みるく茶話会"
+            ],
+            "pen_names": [
+                "ちなみの"
+            ],
+            "position": "団04",
+            "links": [
+                "https://twitter.com/et_chinamino"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://x.com/yougakudan_info/status/1677296406711910400",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20240126080406/https://yougakudann.dojin.com/splist.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "12_1677296406711910400_F0bvkc4aQAIa_Sd.jpg",
+            "sources": [
+                {
+                    "source": "https://x.com/yougakudan_info/status/1677296406711910400",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "description": "Simultaneous to 幻想人形祭6 (10th edition)."
+}

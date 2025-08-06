@@ -1,0 +1,117 @@
+{
+    "aliases": [
+        "雛見沢村民集会6",
+        "Hinamizawa Village Assembly 6"
+    ],
+    "dates": "2021.06.20",
+    "circles": [
+        {
+            "aliases": [
+                "さくたろレコード"
+            ],
+            "pen_names": [
+                "motton"
+            ],
+            "position": "郷-1"
+        },
+        {
+            "aliases": [
+                "ＳＴＲＩＫＥ　ＨＯＬＥ"
+            ],
+            "pen_names": [
+                "花羅"
+            ],
+            "position": "郷-2",
+            "links": [
+                "http://blog.livedoor.jp/analstrike/"
+            ]
+        },
+        {
+            "aliases": [
+                "ようぐ層"
+            ],
+            "pen_names": [
+                "めんそれむ"
+            ],
+            "position": "郷-3",
+            "links": [
+                "https://www.pixiv.net/users/17459350/illustrations"
+            ]
+        },
+        {
+            "aliases": [
+                "RED RIBBON REVENGER"
+            ],
+            "pen_names": [
+                "魔公子"
+            ],
+            "position": "郷-4",
+            "links": [
+                "https://portal.circle.ms/Circle/Index/10001812"
+            ]
+        },
+        {
+            "aliases": [
+                "wkwk工房"
+            ],
+            "pen_names": [
+                "wk"
+            ],
+            "position": "郷-5"
+        },
+        {
+            "aliases": [
+                "ドングリ工房"
+            ],
+            "pen_names": [
+                "リス子ちゃん"
+            ],
+            "position": "郷-6",
+            "links": [
+                "https://twitter.com/risuko_craft"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20210102134216/https://mattari-an.net/shu-kai/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20210707224026/https://mattari-an.net/shu-kai/list.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "6_20210102134216_paper.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20210102134216/https://mattari-an.net/shu-kai/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "6_20210102134216_titlelogo.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20210102134216/https://mattari-an.net/shu-kai/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

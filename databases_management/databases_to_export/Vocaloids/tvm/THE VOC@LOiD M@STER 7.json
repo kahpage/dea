@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER 7",
+        "ボーマス7",
+        "VOM@S7"
+    ],
+    "dates": "2009.02.22",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm7ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm7",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "7_tvm7hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm7ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm7ippan.htm"
+    ]
+}

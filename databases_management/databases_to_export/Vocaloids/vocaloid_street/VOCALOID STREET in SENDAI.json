@@ -1,0 +1,526 @@
+{
+    "aliases": [
+        "VOCALOID STREET in SENDAI",
+        "ボーカロイドストリート in SENDAI",
+        "ボカスト in SENDAI"
+    ],
+    "dates": "2025.06.22",
+    "circles": [
+        {
+            "aliases": [
+                "青太の201号室"
+            ],
+            "pen_names": [
+                "青太"
+            ],
+            "links": [
+                "https://aota-hachi8.booth.pm/",
+                "https://twitter.com/aota_hachi"
+            ]
+        },
+        {
+            "aliases": [
+                "Asteroid Triggers"
+            ],
+            "pen_names": [
+                "あすらて"
+            ],
+            "links": [
+                "https://lit.link/asulatte",
+                "https://twitter.com/asteroid_stella"
+            ]
+        },
+        {
+            "aliases": [
+                "Aspire"
+            ],
+            "pen_names": [
+                "Aspire"
+            ],
+            "links": [
+                "https://lit.link/aaaspire",
+                "https://twitter.com/Aspire_Aspr"
+            ]
+        },
+        {
+            "aliases": [
+                "鯵の踵"
+            ],
+            "pen_names": [
+                "あぢさゐ、オヨイダキビス"
+            ],
+            "links": [
+                "https://x.com/swamheel9003",
+                "https://twitter.com/swamheel9003"
+            ]
+        },
+        {
+            "aliases": [
+                "岩手県DTMの会"
+            ],
+            "pen_names": [
+                "りば"
+            ],
+            "links": [
+                "https://soundworksmiyamoribito.jimdofree.com/",
+                "https://twitter.com/SW_Miyamoribito"
+            ]
+        },
+        {
+            "aliases": [
+                "EO(エオ)"
+            ],
+            "pen_names": [
+                "EO(エオ)"
+            ],
+            "links": [
+                "https://eoaui7740.wixsite.com/official",
+                "https://twitter.com/eo_aui7740"
+            ]
+        },
+        {
+            "aliases": [
+                "eCHOmulti"
+            ],
+            "pen_names": [
+                "DONERU"
+            ],
+            "links": [
+                "https://potofu.me/echomulti",
+                "https://twitter.com/echomulti"
+            ]
+        },
+        {
+            "aliases": [
+                "音味処 筑紫屋"
+            ],
+            "pen_names": [
+                "筑紫 椿"
+            ],
+            "links": [
+                "https://lit.link/hibikurorekishi",
+                "https://twitter.com/hibikurorekishi"
+            ]
+        },
+        {
+            "aliases": [
+                "ガーナイ選手権"
+            ],
+            "pen_names": [
+                "garnai"
+            ],
+            "links": [
+                "https://t.co/5ZCUjCYjGB",
+                "https://twitter.com/garnai_snskn"
+            ]
+        },
+        {
+            "aliases": [
+                "かがみら準備会"
+            ],
+            "pen_names": [
+                "かがみら準備会"
+            ],
+            "links": [
+                "https://kagamirage.com/",
+                "https://twitter.com/kagamine_mirage"
+            ]
+        },
+        {
+            "aliases": [
+                "烏ノ戯レ"
+            ],
+            "pen_names": [
+                "冬雅伎乃"
+            ],
+            "links": [
+                "https://twitter.com/tawamure_karasu"
+            ]
+        },
+        {
+            "aliases": [
+                "感情ファクトリー"
+            ],
+            "pen_names": [
+                "たのし見"
+            ],
+            "links": [
+                "https://linktr.ee/tanoshimi2000s",
+                "https://twitter.com/tanoshimi2000s"
+            ]
+        },
+        {
+            "aliases": [
+                "GOOD GRIEF RECORDS"
+            ],
+            "pen_names": [
+                "きゅおんママ"
+            ],
+            "links": [
+                "https://www.youtube.com/channel/UCYNydPVhIGApnNp0upHbGRw",
+                "https://twitter.com/sound9th"
+            ]
+        },
+        {
+            "aliases": [
+                "さざなみ旅行社"
+            ],
+            "pen_names": [
+                "ひごくま"
+            ],
+            "links": [
+                "https://hgkm2317.booth.pm/",
+                "https://twitter.com/hgkm2317"
+            ]
+        },
+        {
+            "aliases": [
+                "しゃばだば堂"
+            ],
+            "pen_names": [
+                "そんたっく"
+            ],
+            "links": [
+                "https://twitter.com/kurokoEX"
+            ]
+        },
+        {
+            "aliases": [
+                "趣味工房にんじんわいん"
+            ],
+            "pen_names": [
+                "荒芳樹"
+            ],
+            "links": [
+                "https://hacarrotwine.wixsite.com/carrotwine",
+                "https://twitter.com/carrotwine_"
+            ]
+        },
+        {
+            "aliases": [
+                "ScRaM!"
+            ],
+            "pen_names": [
+                "二一歩"
+            ],
+            "links": [
+                "https://x.com/21ho_illust?t=dMLqo1cT2czf3ghR4vnLhw&s=09",
+                "https://twitter.com/21ho_illust"
+            ]
+        },
+        {
+            "aliases": [
+                "Studio Ark Attack"
+            ],
+            "pen_names": [
+                "ぼーかりおどP(noa)"
+            ],
+            "links": [
+                "https://twitter.com/vocaliod_P"
+            ]
+        },
+        {
+            "aliases": [
+                "たそがれとメイド服"
+            ],
+            "pen_names": [
+                "時報のねゆ"
+            ],
+            "links": [
+                "https://lit.link/Tneyuna",
+                "https://twitter.com/t_neyuna"
+            ]
+        },
+        {
+            "aliases": [
+                "だるまや"
+            ],
+            "pen_names": [
+                "だるま"
+            ],
+            "links": [
+                "https://twitter.com/kurzweilmaster"
+            ]
+        },
+        {
+            "aliases": [
+                "東京MARCOPOLO"
+            ],
+            "pen_names": [
+                "ハジメ優"
+            ],
+            "links": [
+                "https://lit.link/tokyomarcopolo",
+                "https://twitter.com/marcopolo_tokyo"
+            ]
+        },
+        {
+            "aliases": [
+                "ドブネズミク"
+            ],
+            "pen_names": [
+                "なぬりそ"
+            ],
+            "links": [
+                "https://potofu.me/nanurisooo",
+                "https://twitter.com/Nanurisososo_so"
+            ]
+        },
+        {
+            "aliases": [
+                "TreatHunters"
+            ],
+            "pen_names": [
+                "野中ハロウィン"
+            ],
+            "links": [
+                "https://www.nicovideo.jp/user/57684453",
+                "https://twitter.com/jirai_bugtsune"
+            ]
+        },
+        {
+            "aliases": [
+                "Drawing Kanon"
+            ],
+            "pen_names": [
+                "奏音"
+            ],
+            "links": [
+                "https://lit.link/kanon242",
+                "https://twitter.com/kanon_mikukanon"
+            ]
+        },
+        {
+            "aliases": [
+                "猫田紺商店"
+            ],
+            "pen_names": [
+                "猫田紺"
+            ],
+            "links": [
+                "https://profu.link/u/nekotakon",
+                "https://twitter.com/nekota_kon"
+            ]
+        },
+        {
+            "aliases": [
+                "ねじ式"
+            ],
+            "pen_names": [
+                "ねじ式"
+            ],
+            "links": [
+                "https://www.nejishiki.com/",
+                "https://twitter.com/nejishiki0221"
+            ]
+        },
+        {
+            "aliases": [
+                "ねりねり"
+            ],
+            "pen_names": [
+                "ねりねり"
+            ],
+            "links": [
+                "https://www.youtube.com/@neri3neri3",
+                "https://twitter.com/neri3neri3"
+            ]
+        },
+        {
+            "aliases": [
+                "はつおんびぃと"
+            ],
+            "pen_names": [
+                "はつおんびん"
+            ],
+            "links": [
+                "https://xfolio.jp/portfolio/HATSUonBEANS",
+                "https://twitter.com/HATSUonBEANS"
+            ]
+        },
+        {
+            "aliases": [
+                "ぷさい"
+            ],
+            "pen_names": [
+                "ふにゃこ、sci3e"
+            ],
+            "links": [
+                "https://x.com/sci3e?t=L8noCD5PcFUP5hd-xPq9bA&s=09",
+                "https://twitter.com/funya_funya0116"
+            ]
+        },
+        {
+            "aliases": [
+                "FROG FOOT"
+            ],
+            "pen_names": [
+                "かんぢぅ"
+            ],
+            "links": [
+                "https://twitter.com/kandyu_kilis"
+            ]
+        },
+        {
+            "aliases": [
+                "ヘッドフォンガール"
+            ],
+            "pen_names": [
+                "カナタジュン"
+            ],
+            "links": [
+                "https://www.nicovideo.jp/user/2485021/video",
+                "https://twitter.com/junkanata"
+            ]
+        },
+        {
+            "aliases": [
+                "マサキりたんPショップ"
+            ],
+            "pen_names": [
+                "マサキりたんP"
+            ],
+            "links": [
+                "https://twitter.com/masaki_toruru"
+            ]
+        },
+        {
+            "aliases": [
+                "マトンP"
+            ],
+            "pen_names": [
+                "マトンP"
+            ],
+            "links": [
+                "www.youtube.com/@マトンP",
+                "https://twitter.com/PrecureBass"
+            ]
+        },
+        {
+            "aliases": [
+                "Miotec"
+            ],
+            "pen_names": [
+                "東雲　龍之介"
+            ],
+            "links": [
+                "https://twitter.com/RS_Shinonome"
+            ]
+        },
+        {
+            "aliases": [
+                "ミュージックショップ　センダイ"
+            ],
+            "pen_names": [
+                "ききない＆ぱあぷる"
+            ],
+            "links": [
+                "https://linktr.ee/kikinai",
+                "https://twitter.com/geibabaa"
+            ]
+        },
+        {
+            "aliases": [
+                "モナルダの木"
+            ],
+            "pen_names": [
+                "ベルガモット"
+            ],
+            "links": [
+                "https://belgamot.fanbox.cc/",
+                "https://twitter.com/belgamot_007"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆかり園"
+            ],
+            "pen_names": [
+                "ヲタ乙"
+            ],
+            "links": [
+                "https://www.nicovideo.jp/my/mylist/70876514",
+                "https://twitter.com/wotaotsu99"
+            ]
+        },
+        {
+            "aliases": [
+                "りゅーのすけのおみせ ボカスト仙台店"
+            ],
+            "pen_names": [
+                "りゅーのすけ"
+            ],
+            "links": [
+                "https://lit.link/ryunosukenouta",
+                "https://twitter.com/ryu_nosukenouta"
+            ]
+        },
+        {
+            "aliases": [
+                "わくわく仲良しクラブ"
+            ],
+            "pen_names": [
+                "ゆきち"
+            ],
+            "links": [
+                "https://youtube.com/channel/UC3yEB4lwkgEN551lbiYK8sA?si=O8N1bfQAC7W2F_RM",
+                "https://twitter.com/kimasirawa"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250314072356/https://voca-st.com/events/sendai/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20250518182009/https://voca-st.com/events/sendai/circleList",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "sendai_20250314073352_logo_640x224_sendai.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250314073352/https://voca-st.com/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "sendai_20250314072356_top_sendai.png",
+            "sources": [
+                {
+                    "source": "http://web.archive.org/web/20250314072356/https://voca-st.com/events/sendai/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "sendai_Gt4QohkXYAAhi5-.jpg",
+            "sources": [
+                {
+                    "source": "https://x.com/voca_st/status/1936003520584728979",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "comments": "Probably VOCALOID STREET 11 moved. See VOCALOID STREET 11 page for more details."
+}

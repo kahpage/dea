@@ -1,0 +1,1549 @@
+{
+    "aliases": [
+        "VOCALOID PARADISE 10",
+        "ボーパラ10"
+    ],
+    "dates": "2015.10.11",
+    "circles": [
+        {
+            "aliases": [
+                "青時計屋"
+            ],
+            "pen_names": [
+                "アオトケイ"
+            ],
+            "position": "初音ミク,あ,D-05, D-05",
+            "links": [
+                "http://www.nicovideo.jp/mylist/31283124"
+            ]
+        },
+        {
+            "aliases": [
+                "アケミクさんとゆうみ"
+            ],
+            "pen_names": [
+                "ゆうみ"
+            ],
+            "position": "オールキャラ,あ,B-21,22, B-21,22",
+            "links": [
+                "http://ake39.com"
+            ]
+        },
+        {
+            "aliases": [
+                "あじわいまめ"
+            ],
+            "pen_names": [
+                "憂ちふゆ、蓮、雨谷うり"
+            ],
+            "position": "鏡音リン、GUMI,あ,B-23,24, B-23,24",
+            "links": [
+                "http://untillost.web.fc2.com/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "aymnworks"
+            ],
+            "pen_names": [
+                "あゆみん"
+            ],
+            "position": "鏡音レン×Lily,あ,E-09, E-09",
+            "links": [
+                "http://aymn10.jugem.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "ArcoIris \n\tSoundProject"
+            ],
+            "pen_names": [
+                "鷹騨ホムラ"
+            ],
+            "position": "緋惺(UTAU)、IA、結月ゆかり,あ,B-38, B-38",
+            "links": [
+                "https://twitter.com/Arco_Iris_SP"
+            ]
+        },
+        {
+            "aliases": [
+                "Alstroemeria"
+            ],
+            "pen_names": [
+                "春野ほたる"
+            ],
+            "position": "初音ミク,あ,B-12, B-12",
+            "links": [
+                "http://haru.itigo.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "ARPK（アルパカ）"
+            ],
+            "pen_names": [
+                "希沙良"
+            ],
+            "position": "結月ゆかり,あ,B-34, B-34",
+            "links": [
+                "http://ameblo.jp/xxyuyakixx/"
+            ]
+        },
+        {
+            "aliases": [
+                "alfalfa"
+            ],
+            "pen_names": [
+                "ヒナギ"
+            ],
+            "position": "鏡音レン×初音ミク,あ,A-23,24, A-23,24",
+            "links": [
+                "http://www.pixiv.net/member.php?id=606903"
+            ]
+        },
+        {
+            "aliases": [
+                "Arpeggio"
+            ],
+            "pen_names": [
+                "SESHIKA"
+            ],
+            "position": "鏡音レン,あ,B-27, B-27",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1039081"
+            ]
+        },
+        {
+            "aliases": [
+                "いたちのたまり場"
+            ],
+            "pen_names": [
+                "ウォルター"
+            ],
+            "position": "鏡音リン・レン,あ,A-27, A-27"
+        },
+        {
+            "aliases": [
+                "いちふり！"
+            ],
+            "pen_names": [
+                "きむた、佳奈"
+            ],
+            "position": "GUMI,あ,F-14, F-14",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1612489"
+            ]
+        },
+        {
+            "aliases": [
+                "うしぴよ牧場"
+            ],
+            "pen_names": [
+                "hiromi、コスモスP"
+            ],
+            "position": "巡音ルカ、Lily、鏡音リン・レン,あ,E-14, E-14",
+            "links": [
+                "http://www.nicovideo.jp/mylist/20730443"
+            ]
+        },
+        {
+            "aliases": [
+                "ULOG'Be"
+            ],
+            "pen_names": [
+                "NEGI"
+            ],
+            "position": "鏡音リン,あ,F-11,12, F-11,12",
+            "links": [
+                "http://ulogbe.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "shsk"
+            ],
+            "pen_names": [
+                "すけP"
+            ],
+            "position": "初音ミク、KAITO多め,あ,E-07, E-07",
+            "links": [
+                "http://www.nicovideo.jp/mylist/3050230"
+            ]
+        },
+        {
+            "aliases": [
+                "S-STYLE"
+            ],
+            "pen_names": [
+                "せっつぁん"
+            ],
+            "position": "結月ゆかり、蒼姫ラピス、巡音ルカ,あ,B-36, B-36",
+            "links": [
+                "http://homepage2.nifty.com/s_style/top2.htm"
+            ]
+        },
+        {
+            "aliases": [
+                "n/s"
+            ],
+            "pen_names": [
+                "るひの"
+            ],
+            "position": "マスター♀×巡音ルカ,あ,E-11, E-11",
+            "links": [
+                "http://xnsx.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "エレキ堂"
+            ],
+            "pen_names": [
+                "たるとP"
+            ],
+            "position": "GUMI,あ,F-19, F-19",
+            "links": [
+                "http://elekido.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Empty+"
+            ],
+            "pen_names": [
+                "うれえる"
+            ],
+            "position": "KAITO,あ,B-15, B-15"
+        },
+        {
+            "aliases": [
+                "大江戸宅急便"
+            ],
+            "pen_names": [
+                "島村秀行/鼻炎P"
+            ],
+            "position": "初音ミク、鏡音リン・レン,あ,A-28, A-28",
+            "links": [
+                "http://www.ooedo.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "乙女チックルーム"
+            ],
+            "pen_names": [
+                "van=jin(遅刻オトメンP)"
+            ],
+            "position": "結月ゆかり、IA,あ,B-39, B-39",
+            "links": [
+                "http://www.nicovideo.jp/mylist/19001249"
+            ]
+        },
+        {
+            "aliases": [
+                "オフトーンダイバー"
+            ],
+            "pen_names": [
+                "戦車P"
+            ],
+            "position": "初音ミク、GUMI,あ,D-19, D-19",
+            "links": [
+                "http://www.nicovideo.jp/my/mylist/34450112"
+            ]
+        },
+        {
+            "aliases": [
+                "おまわりさん、こっちです！"
+            ],
+            "pen_names": [
+                "そーだーすい、こむぎ粉"
+            ],
+            "position": "初音ミク,あ,C-13,14, C-13,14",
+            "links": [
+                "http://www.nicovideo.jp/mylist/23814866"
+            ]
+        },
+        {
+            "aliases": [
+                "おれんじじゃむ"
+            ],
+            "pen_names": [
+                "まじてろ"
+            ],
+            "position": "UTAU,あ,A-37, A-37",
+            "links": [
+                "http://orangejam.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "火神堂"
+            ],
+            "pen_names": [
+                "火神レオ"
+            ],
+            "position": "雪ミク,か,A-17, A-17"
+        },
+        {
+            "aliases": [
+                "かがみね茶"
+            ],
+            "pen_names": [
+                "半月、yoku"
+            ],
+            "position": "鏡音リン,か,A-29,30, A-29,30",
+            "links": [
+                "http://kagamine-cha.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "傘ネコ団"
+            ],
+            "pen_names": [
+                "傘音"
+            ],
+            "position": "初音ミク、GUMI、Rana、ギャラ子、CUL、ZOLA PROJECT、鏡音リン,か,D-08, D-08",
+            "links": [
+                "http://www.nicovideo.jp/mylist/30039626"
+            ]
+        },
+        {
+            "aliases": [
+                "かざみどり"
+            ],
+            "pen_names": [
+                "sera"
+            ],
+            "position": "巡音ルカ,か,B-01, B-01",
+            "links": [
+                "https://twitter.com/Seramicc"
+            ]
+        },
+        {
+            "aliases": [
+                "株武会社ワイ・エヌ・エンタープライゼズ"
+            ],
+            "pen_names": [
+                "ワイ・エヌ（代表取諦役）"
+            ],
+            "position": "KAITO、神威がくぽ、鏡音レンなど,か,F-04, F-04",
+            "links": [
+                "https://twitter.com/waienu_2014"
+            ]
+        },
+        {
+            "aliases": [
+                "がるなん.com"
+            ],
+            "pen_names": [
+                "ガルナ(オワタP)"
+            ],
+            "position": "弱音ハク、亞北ネル,か,F-15, F-15",
+            "links": [
+                "http://garunan.com"
+            ]
+        },
+        {
+            "aliases": [
+                "きゃらぶれ"
+            ],
+            "pen_names": [
+                "ゆきの、しま"
+            ],
+            "position": "オールキャラ,か,B-19, B-19"
+        },
+        {
+            "aliases": [
+                "ギリギリあうと"
+            ],
+            "pen_names": [
+                "ギリギリあうと"
+            ],
+            "position": "初音ミク,か,D-07, D-07",
+            "links": [
+                "https://www.youtube.com/channel/UCx-0RC0BjnAGDLGAHadQTwg"
+            ]
+        },
+        {
+            "aliases": [
+                "ギンユーシジン"
+            ],
+            "pen_names": [
+                "冴戒椎也"
+            ],
+            "position": "鏡音リン・レン、もじゅみね,か,E-20, E-20",
+            "links": [
+                "http://ameblo.jp/shiiyasakai/"
+            ]
+        },
+        {
+            "aliases": [
+                "グラスプロッツ"
+            ],
+            "pen_names": [
+                "潮見ひろ（ピカP）"
+            ],
+            "position": "結月ゆかり,か,B-35, B-35",
+            "links": [
+                "http://glassplots.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "Crusade"
+            ],
+            "pen_names": [
+                "cross、HakuA、千太郎"
+            ],
+            "position": "初音ミク、巡音ルカ,か,E-10, E-10",
+            "links": [
+                "http://www.nicovideo.jp/mylist/23596038"
+            ]
+        },
+        {
+            "aliases": [
+                "Croquette \n\tBlue"
+            ],
+            "pen_names": [
+                "ブルー"
+            ],
+            "position": "初音ミク,か,C-11, C-11",
+            "links": [
+                "http://www.croquetteblue.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "黒田亜津"
+            ],
+            "pen_names": [
+                "黒田亜津"
+            ],
+            "position": "初音ミク,か,D-02, D-02",
+            "links": [
+                "http://www.nicovideo.jp/my/mylist/24101502"
+            ]
+        },
+        {
+            "aliases": [
+                "KY \n\tfrom whim_sound"
+            ],
+            "pen_names": [
+                "whim_sound"
+            ],
+            "position": "初音ミク,か,C-20, C-20",
+            "links": [
+                "https://twitter.com/whimsound39"
+            ]
+        },
+        {
+            "aliases": [
+                "氷ノ月"
+            ],
+            "pen_names": [
+                "はるか"
+            ],
+            "position": "鏡音リン・レン中心オールキャラ,か,A-26, A-26",
+            "links": [
+                "http://blog.livedoor.jp/kori_no_tsuki/"
+            ]
+        },
+        {
+            "aliases": [
+                "こなもの屋"
+            ],
+            "pen_names": [
+                "ミックスモダン"
+            ],
+            "position": "初音ミク,か,C-15, C-15",
+            "links": [
+                "http://mix-modern.jimdo.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "埼色BRIDGE"
+            ],
+            "pen_names": [
+                "ゆきえす"
+            ],
+            "position": "鏡音リン・レン中心オールキャラ,さ,A-25, A-25"
+        },
+        {
+            "aliases": [
+                "Silent-Jadeite・Crown"
+            ],
+            "pen_names": [
+                "音無乖、水無月燐"
+            ],
+            "position": "GUMI、結月ゆかり、鏡音リン・レン中心オールキャラ,さ,Ａ-03,04, Ａ-03,04",
+            "links": [
+                "http://ameblo.jp/euphorsthia/"
+            ]
+        },
+        {
+            "aliases": [
+                "Sound \n\t-R-"
+            ],
+            "pen_names": [
+                "UTA"
+            ],
+            "position": "IA,さ,C-02, C-02",
+            "links": [
+                "http://soundr.web.fc2.com/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "サウンドサークル　雨宿り"
+            ],
+            "pen_names": [
+                "水人"
+            ],
+            "position": "IA,さ,C-03, C-03",
+            "links": [
+                "http://kmpg0317.wix.com/amayadori"
+            ]
+        },
+        {
+            "aliases": [
+                "桜色ぱすてる"
+            ],
+            "pen_names": [
+                "相原なつき"
+            ],
+            "position": "初音ミク、鏡音リン,さ,B-05, B-05"
+        },
+        {
+            "aliases": [
+                "さちこんぴ"
+            ],
+            "pen_names": [
+                "挫折P、ぼーかりおどP、ヘリP、やみくろ、imosuke"
+            ],
+            "position": "Sachiko,さ,F-17,18, F-17,18",
+            "links": [
+                "http://dekadai.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "３レン腐"
+            ],
+            "pen_names": [
+                "クリスタルP、れれれP、キッド"
+            ],
+            "position": "鏡音レン,さ,F-01,02, F-01,02",
+            "links": [
+                "http://yaplog.jp/lelele-p/"
+            ]
+        },
+        {
+            "aliases": [
+                "situation \n\treport"
+            ],
+            "pen_names": [
+                "mokemoke"
+            ],
+            "position": "初音ミク、IA、鏡音リン,さ,C-05, C-05",
+            "links": [
+                "http://situationreport.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "#include"
+            ],
+            "pen_names": [
+                "るいす、玖月ニナ"
+            ],
+            "position": "IA/IA ROCKS,さ,C-01, C-01",
+            "links": [
+                "http://okmusic.jp/#!/user/16103"
+            ]
+        },
+        {
+            "aliases": [
+                "Sweet \n\tShrimp Works"
+            ],
+            "pen_names": [
+                "あまえび"
+            ],
+            "position": "初音ミク,さ,B-10, B-10",
+            "links": [
+                "http://sxsxa.blog103.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "stardust"
+            ],
+            "pen_names": [
+                "田村ヒロ"
+            ],
+            "position": "鏡音リン,さ,F-13, F-13",
+            "links": [
+                "http://star198.gozaru.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "studio \n\tmashroom"
+            ],
+            "pen_names": [
+                "mash01（おっホイP）"
+            ],
+            "position": "初音ミク、巡音ルカ、MEIKO,さ,D-09, D-09",
+            "links": [
+                "http://www.nicovideo.jp/mylist/8771118"
+            ]
+        },
+        {
+            "aliases": [
+                "STUDIO \n\tMALOCA"
+            ],
+            "pen_names": [
+                "loca"
+            ],
+            "position": "初音ミク、GUMI,さ,D-18, D-18",
+            "links": [
+                "http://www.nicovideo.jp/mylist/45254307"
+            ]
+        },
+        {
+            "aliases": [
+                "spring \n\tgreen"
+            ],
+            "pen_names": [
+                "坂口貴行"
+            ],
+            "position": "結月ゆかり,仮受付,B-33, B-33",
+            "links": [
+                "http://tkykt.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "XM -Xenon Maiden-"
+            ],
+            "pen_names": [
+                "キセノンP"
+            ],
+            "position": "初音ミクを中心に色々つまみ食いしながら,仮受付,D-01, D-01",
+            "links": [
+                "https://twitter.com/XenonP_XM"
+            ]
+        },
+        {
+            "aliases": [
+                "ソライロポスト"
+            ],
+            "pen_names": [
+                "ノーブル、皮ちゃん"
+            ],
+            "position": "GUMI、初音ミク,仮受付,E-02, E-02",
+            "links": [
+                "https://twitter.com/noble3243"
+            ]
+        },
+        {
+            "aliases": [
+                "たまごめも"
+            ],
+            "pen_names": [
+                "こうじゅ"
+            ],
+            "position": "KAITO,た,A-34, A-34",
+            "links": [
+                "http://eggmemo.ni-3.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "他力本願"
+            ],
+            "pen_names": [
+                "さなか"
+            ],
+            "position": "鏡音レン×初音ミク,た,B-29, B-29",
+            "links": [
+                "http://sanaka-o.tumblr.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "TeamHiyayakko"
+            ],
+            "pen_names": [
+                "チームひややっこ"
+            ],
+            "position": "GUMI、初音ミク、IA,た,E-03, E-03",
+            "links": [
+                "http://teamhiyayakko.tumblr.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "childeyes"
+            ],
+            "pen_names": [
+                "境ヶ原まるこ"
+            ],
+            "position": "初音ミク,た,B-11, B-11",
+            "links": [
+                "http://piapro.jp/childeyes"
+            ]
+        },
+        {
+            "aliases": [
+                "ちゅろす!!"
+            ],
+            "pen_names": [
+                "千"
+            ],
+            "position": "巡音ルカ、初音ミク、ネギトロ,た,B-13, B-13",
+            "links": [
+                "http://www.geocities.jp/harusaki_sen/"
+            ]
+        },
+        {
+            "aliases": [
+                "蝶々結び"
+            ],
+            "pen_names": [
+                "ナナミＰ"
+            ],
+            "position": "鏡音リン・レン、巡音ルカ,た,E-15,16, E-15,16",
+            "links": [
+                "http://sound.jp/nanase615/x/"
+            ]
+        },
+        {
+            "aliases": [
+                "月見野番士"
+            ],
+            "pen_names": [
+                "椎奈そあら"
+            ],
+            "position": "AHS社ボーカロイド、結月ゆかり,た,B-32, B-32"
+        },
+        {
+            "aliases": [
+                "D.Y."
+            ],
+            "pen_names": [
+                "ドッシー、Y2"
+            ],
+            "position": "初音ミク,た,C-16, C-16",
+            "links": [
+                "http://dossi.jp/D.Y./"
+            ]
+        },
+        {
+            "aliases": [
+                "Tales \n\tof Vocaloid"
+            ],
+            "pen_names": [
+                "はてぃ〜"
+            ],
+            "position": "IA、結月ゆかり、初音ミク 他,た,B-40, B-40"
+        },
+        {
+            "aliases": [
+                "でんぽるず"
+            ],
+            "pen_names": [
+                "koyori、harry"
+            ],
+            "position": "初音ミク,た,F-20, F-20"
+        },
+        {
+            "aliases": [
+                "天窓"
+            ],
+            "pen_names": [
+                "空見Ｐ"
+            ],
+            "position": "よろず,た,F-09, F-09",
+            "links": [
+                "https://twitter.com/590_skygazer"
+            ]
+        },
+        {
+            "aliases": [
+                "当店では取り扱っておりません。"
+            ],
+            "pen_names": [
+                "ゆら"
+            ],
+            "position": "初音ミク,た,C-19, C-19",
+            "links": [
+                "http://yurariyureru.tumblr.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "DREAM HANPEN"
+            ],
+            "pen_names": [
+                "じろう"
+            ],
+            "position": "初音ミク,た,C-17, C-17"
+        },
+        {
+            "aliases": [
+                "とりからの巣"
+            ],
+            "pen_names": [
+                "とりから"
+            ],
+            "position": "初音ミク,た,B-07, B-07",
+            "links": [
+                "http://www.pixiv.net/member.php?id=15887"
+            ]
+        },
+        {
+            "aliases": [
+                "NAI_IAN"
+            ],
+            "pen_names": [
+                "Nai"
+            ],
+            "position": "Oliver,な,A-36, A-36",
+            "links": [
+                "http://nai6767594.wix.com/lapin#!home/mainPage"
+            ]
+        },
+        {
+            "aliases": [
+                "9bit \n\tLog!Q+"
+            ],
+            "pen_names": [
+                "StackStorm、EMO、NellyMono、他"
+            ],
+            "position": "初音ミク,な,C-08, C-08",
+            "links": [
+                "http://9bitlogiq.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "なごみ系"
+            ],
+            "pen_names": [
+                "ウインディー"
+            ],
+            "position": "鏡音リン,な,E-17, E-17",
+            "links": [
+                "http://www.nicovideo.jp/my/mylist/#/8673189"
+            ]
+        },
+        {
+            "aliases": [
+                "名古屋妄想科学研究所"
+            ],
+            "pen_names": [
+                "えぐちよしお"
+            ],
+            "position": "弱音ハク,な,B-17, B-17",
+            "links": [
+                "http://www.remus.dti.ne.jp/‾yemito/"
+            ]
+        },
+        {
+            "aliases": [
+                "ナツノホシ"
+            ],
+            "pen_names": [
+                "菜川"
+            ],
+            "position": "ZOLA PROJECT、Merli,な,B-16, B-16"
+        },
+        {
+            "aliases": [
+                "七色庭園"
+            ],
+            "pen_names": [
+                "春日菖蒲、奏ススム"
+            ],
+            "position": "IA多めオールキャラ,な,Ａ-05,06, Ａ-05,06",
+            "links": [
+                "http://ayameiro.pya.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "生ぐーみん。"
+            ],
+            "pen_names": [
+                "四重婚Ｐ、メグカップＰ"
+            ],
+            "position": "GUMI,な,D-13,14, D-13,14",
+            "links": [
+                "http://www.shin-asakawa.jp/vocaloid/nama_gumin/"
+            ]
+        },
+        {
+            "aliases": [
+                "にんかん丼"
+            ],
+            "pen_names": [
+                "えしぇみる、まいむぎ"
+            ],
+            "position": "GUMI、鏡音リン,な,A-11,12, A-11,12"
+        },
+        {
+            "aliases": [
+                "Nameless \n\tBlack Cat"
+            ],
+            "pen_names": [
+                "ゆぅねこ"
+            ],
+            "position": "オールキャラ,な,Ａ-01, Ａ-01",
+            "links": [
+                "http://namelessblackcat0711.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ねじ式"
+            ],
+            "pen_names": [
+                "ねじ式"
+            ],
+            "position": "IA,な,F-16, F-16",
+            "links": [
+                "http://nejishiki.com"
+            ]
+        },
+        {
+            "aliases": [
+                "NoName?"
+            ],
+            "pen_names": [
+                "もしゃいのＰＰ"
+            ],
+            "position": "ＡＬＬキャラクターグッズ中心,な,A-19,20, A-19,20"
+        },
+        {
+            "aliases": [
+                "Noir \n\tRapine"
+            ],
+            "pen_names": [
+                "猫村マシロ"
+            ],
+            "position": "兎眠りおん,な,F-08, F-08",
+            "links": [
+                "https://twitter.com/magatasiki47"
+            ]
+        },
+        {
+            "aliases": [
+                "BiRD(s)の青空教室"
+            ],
+            "pen_names": [
+                "BiRD(s)"
+            ],
+            "position": "kokone、GUMI、Lily、CUL,は,D-16, D-16",
+            "links": [
+                "http://ch.nicovideo.jp/birds"
+            ]
+        },
+        {
+            "aliases": [
+                "highway"
+            ],
+            "pen_names": [
+                "イリ"
+            ],
+            "position": "鏡音レン×鏡音リン,は,B-26, B-26",
+            "links": [
+                "http://pixiv.me/ariema"
+            ]
+        },
+        {
+            "aliases": [
+                "HI-TECH CARROT"
+            ],
+            "pen_names": [
+                "佳由樹"
+            ],
+            "position": "初音ミク,は,B-06, B-06",
+            "links": [
+                "http://h-tc.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "HIDE and LEAK"
+            ],
+            "pen_names": [
+                "王子なゆた、深久"
+            ],
+            "position": "鏡音レン,は,A-22, A-22",
+            "links": [
+                "http://ameblo.jp/nayu-prince86/"
+            ]
+        },
+        {
+            "aliases": [
+                "ハイドランジア"
+            ],
+            "pen_names": [
+                "小紫花"
+            ],
+            "position": "kokone,は,D-17, D-17",
+            "links": [
+                "http://www.nicovideo.jp/mylist/45620252"
+            ]
+        },
+        {
+            "aliases": [
+                "はいぱぁ〜てんしょん"
+            ],
+            "pen_names": [
+                "ILU"
+            ],
+            "position": "鏡音レン,は,F-03, F-03"
+        },
+        {
+            "aliases": [
+                "Baguettes Ensemble"
+            ],
+            "pen_names": [
+                "ichi"
+            ],
+            "position": "ボカロ・東方・艦これ、ジャズの生演奏アレンジCD,は,F-10, F-10",
+            "links": [
+                "http://ameblo.jp/ichi-session/"
+            ]
+        },
+        {
+            "aliases": [
+                "ぱちぱちきゃんでぃ"
+            ],
+            "pen_names": [
+                "あめ姫、88"
+            ],
+            "position": "初音ミク、鏡音レン、その他,は,A-16, A-16",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1330249"
+            ]
+        },
+        {
+            "aliases": [
+                "ハノウラスタヂヲ"
+            ],
+            "pen_names": [
+                "せかいせいふくP"
+            ],
+            "position": "開発コードmiki（、亞北ネル、鏡音リン・レン）,は,F-07, F-07",
+            "links": [
+                "http://www.nicovideo.jp/mylist/8802906"
+            ]
+        },
+        {
+            "aliases": [
+                "薔薇少女楼閣"
+            ],
+            "pen_names": [
+                "みそくれよ"
+            ],
+            "position": "巡音ルカ,は,B-14, B-14",
+            "links": [
+                "http://belabel.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "びびびびーむ葱抜きで"
+            ],
+            "pen_names": [
+                "びび、ねぎぬき"
+            ],
+            "position": "Lily、猫村いろは、結月ゆかり、v \n\tflower、その他,は,F-05, F-05",
+            "links": [
+                "http://www.nicovideo.jp/mylist/38610717"
+            ]
+        },
+        {
+            "aliases": [
+                "秘密基地屋"
+            ],
+            "pen_names": [
+                "宇宙宇宙宇宙宇宙"
+            ],
+            "position": "初音ミク,は,C-18, C-18",
+            "links": [
+                "https://twitter.com/utyuu4_official"
+            ]
+        },
+        {
+            "aliases": [
+                "秘密組織PG団"
+            ],
+            "pen_names": [
+                "小宮ちゃんP、鴫野エイカー"
+            ],
+            "position": "IA、結月ゆかり、初音ミク、鏡音リン・レン、GUMI,は,A-13,14, A-13,14",
+            "links": [
+                "http://www.nicovideo.jp/mylist/31155470"
+            ]
+        },
+        {
+            "aliases": [
+                "#ぷ"
+            ],
+            "pen_names": [
+                "ぷれと"
+            ],
+            "position": "鏡音リン,は,B-25, B-25",
+            "links": [
+                "http://www.pixiv.net/member.php?id=417696"
+            ]
+        },
+        {
+            "aliases": [
+                "Fanantenana"
+            ],
+            "pen_names": [
+                "尋希、晞崎"
+            ],
+            "position": "MEIKO、巡音ルカ,は,A-39, A-39"
+        },
+        {
+            "aliases": [
+                "puppen"
+            ],
+            "pen_names": [
+                "福辺"
+            ],
+            "position": "鏡音レン×初音ミク（モジュール）,は,B-28, B-28",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2992908"
+            ]
+        },
+        {
+            "aliases": [
+                "フリックワークス"
+            ],
+            "pen_names": [
+                "tera、ON、てぃみー"
+            ],
+            "position": "初音ミク、結月ゆかり,は,E-05, E-05",
+            "links": [
+                "http://www.flickworks.net"
+            ]
+        },
+        {
+            "aliases": [
+                "ぺこぽこ"
+            ],
+            "pen_names": [
+                "成瀬みち"
+            ],
+            "position": "初音ミク,は,Ａ-07,08, Ａ-07,08"
+        },
+        {
+            "aliases": [
+                "ぺこぽこ2"
+            ],
+            "pen_names": [
+                "なるみ"
+            ],
+            "position": "初音ミク,は,Ａ-09,10, Ａ-09,10"
+        },
+        {
+            "aliases": [
+                "へち＊まころん"
+            ],
+            "pen_names": [
+                "へち"
+            ],
+            "position": "巡音ルカ,は,A-38, A-38",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2675855"
+            ]
+        },
+        {
+            "aliases": [
+                "Babystar's \n\tMiku Photostudio"
+            ],
+            "pen_names": [
+                "べびーすたー"
+            ],
+            "position": "初音ミク,は,B-03, B-03",
+            "links": [
+                "https://twitter.com/babystar_new"
+            ]
+        },
+        {
+            "aliases": [
+                "Heaven's \n\tmushroom"
+            ],
+            "pen_names": [
+                "2串だんご、Ｈ。"
+            ],
+            "position": "鏡音レン×初音ミク中心オールキャラ,は,B-30, B-30",
+            "links": [
+                "http://hello-project.sakura.ne.jp/heavenkinoko-gate.html"
+            ]
+        },
+        {
+            "aliases": [
+                "Port Argyros"
+            ],
+            "pen_names": [
+                "yuduki、ポエム、てつ、他"
+            ],
+            "position": "オールキャラクター,は,B-20, B-20"
+        },
+        {
+            "aliases": [
+                "ボカロカセット計画"
+            ],
+            "pen_names": [
+                "Karaoto"
+            ],
+            "position": "VY1V3,は,F-06, F-06",
+            "links": [
+                "http://www.vcalocassette.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "Holic3"
+            ],
+            "pen_names": [
+                "Holic"
+            ],
+            "position": "蒼姫ラピス,は,B-37, B-37",
+            "links": [
+                "http://www.nicovideo.jp/mylist/39869844"
+            ]
+        },
+        {
+            "aliases": [
+                "マイクロム"
+            ],
+            "pen_names": [
+                "なの"
+            ],
+            "position": "初音ミク,ま,A-15, A-15",
+            "links": [
+                "http://pixiv.me/sironeko1992"
+            ]
+        },
+        {
+            "aliases": [
+                "Marche"
+            ],
+            "pen_names": [
+                "Torero"
+            ],
+            "position": "初音ミク、鏡音リン・レン、巡音ルカ、Gumi,ま,E-06, E-06",
+            "links": [
+                "http://www.nicovideo.jp/mylist/26417427"
+            ]
+        },
+        {
+            "aliases": [
+                "三重大DTMサークルJack"
+            ],
+            "pen_names": [
+                "Jack"
+            ],
+            "position": "GUMI,ま,D-15, D-15",
+            "links": [
+                "http://studiojack.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Miotec \n\t2nd TEAM"
+            ],
+            "pen_names": [
+                "目から鱗"
+            ],
+            "position": "初音ミク、結月ゆかり,ま,A-31,32, A-31,32"
+        },
+        {
+            "aliases": [
+                "MicchiMusicStudio"
+            ],
+            "pen_names": [
+                "みっち（かいわれP）"
+            ],
+            "position": "鏡音リン・レン,ま,E-18, E-18",
+            "links": [
+                "http://habcy.bitter.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "Mini Skirt \n\tProject"
+            ],
+            "pen_names": [
+                "明日華"
+            ],
+            "position": "初音ミク、巡音ルカ、GUMI,ま,E-04, E-04",
+            "links": [
+                "http://www.nicovideo.jp/mylist/50134815"
+            ]
+        },
+        {
+            "aliases": [
+                "むぅちゃん工房"
+            ],
+            "pen_names": [
+                "綾。"
+            ],
+            "position": "KAITO,ま,A-35, A-35",
+            "links": [
+                "http://www.pixiv.net/member.php?id=5408624"
+            ]
+        },
+        {
+            "aliases": [
+                "MEIKO \n\tCompilation Project"
+            ],
+            "pen_names": [
+                "佐倉井朔夜"
+            ],
+            "position": "MEIKO,ま,D-10, D-10",
+            "links": [
+                "http://vocalo1.com/meiko_compilation2/"
+            ]
+        },
+        {
+            "aliases": [
+                "Merle"
+            ],
+            "pen_names": [
+                "音華めり"
+            ],
+            "position": "初音ミク、KAITO,ま,A-40, A-40",
+            "links": [
+                "http://merlottoybox.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Mellow*Gold"
+            ],
+            "pen_names": [
+                "ミカミ"
+            ],
+            "position": "KAITO(レクイエム×ジェネラル),ま,A-33, A-33"
+        },
+        {
+            "aliases": [
+                "MELODYHOUSE"
+            ],
+            "pen_names": [
+                "Root1.4"
+            ],
+            "position": "オールキャラ,ま,Ａ-02, Ａ-02",
+            "links": [
+                "http://mehouse.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "桃紅葉"
+            ],
+            "pen_names": [
+                "ぐらしゃ、ケロ"
+            ],
+            "position": "初音ミク、GUMI　他,ま,E-01, E-01",
+            "links": [
+                "http://www.momomomiji.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ヤング企画"
+            ],
+            "pen_names": [
+                "山羊五条、ひかげAK　他"
+            ],
+            "position": "初音ミク,や,B-09, B-09",
+            "links": [
+                "http://pixiv.me/yagigojyo"
+            ]
+        },
+        {
+            "aliases": [
+                "Uniqker"
+            ],
+            "pen_names": [
+                "雄之助"
+            ],
+            "position": "初音ミク,や,D-03,04, D-03,04",
+            "links": [
+                "http://www.nicovideo.jp/mylist/38919429"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆま屋"
+            ],
+            "pen_names": [
+                "藤田ゆうま♪"
+            ],
+            "position": "鏡音リン・レン,や,E-19, E-19",
+            "links": [
+                "http://www.nicovideo.jp/my/mylist/36839504"
+            ]
+        },
+        {
+            "aliases": [
+                "ラミツオップ"
+            ],
+            "pen_names": [
+                "lightspop × 0o0［MITSUO］"
+            ],
+            "position": "初音ミク,ら,C-09,10, C-09,10",
+            "links": [
+                "http://ameblo.jp/lamitsuop/"
+            ]
+        },
+        {
+            "aliases": [
+                "リトル本舗"
+            ],
+            "pen_names": [
+                "守木涼（ぴか☆ぴか★）"
+            ],
+            "position": "オールキャラ（亞北ネル、ぽけ〜っとしたミクさん、マイクラしてるゆかりさん）,ら,B-18, B-18",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1936040"
+            ]
+        },
+        {
+            "aliases": [
+                "Root \n\tStudio"
+            ],
+            "pen_names": [
+                "tonica"
+            ],
+            "position": "IA、GUMI,ら,C-04, C-04",
+            "links": [
+                "http://rootstudio.jimdo.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Lunatic \n\tMeister"
+            ],
+            "pen_names": [
+                "どらいぶ"
+            ],
+            "position": "初音ミク,ら,B-08, B-08",
+            "links": [
+                "http://lunaticmeister.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "rain \n\tsyrup"
+            ],
+            "pen_names": [
+                "峰（mine）"
+            ],
+            "position": "初音ミク、猫村いろは、IA、巡音ルカ,ら,C-06, C-06",
+            "links": [
+                "http://www.nicovideo.jp/mylist/22676887"
+            ]
+        },
+        {
+            "aliases": [
+                "reonov lab."
+            ],
+            "pen_names": [
+                "レオーノフ"
+            ],
+            "position": "ねんどろいど　初音ミク,ら,B-04, B-04",
+            "links": [
+                "http://www.gfoc.gr.jp/‾reonov/"
+            ]
+        },
+        {
+            "aliases": [
+                "lol project"
+            ],
+            "pen_names": [
+                "yue、裕"
+            ],
+            "position": "初音ミク,仮受付,C-12, C-12",
+            "links": [
+                "http://lollol.client.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "WILD \n\tCOLOR RECORDS"
+            ],
+            "pen_names": [
+                "ヘルＰ"
+            ],
+            "position": "GUMI、鏡音リン、MEIKO,わ,D-11,12, D-11,12"
+        },
+        {
+            "aliases": [
+                "Wildraft"
+            ],
+            "pen_names": [
+                "balan"
+            ],
+            "position": "巡音ルカ,わ,E-12, E-12",
+            "links": [
+                "https://myspace.com/fieldbook"
+            ]
+        },
+        {
+            "aliases": [
+                "One \n\tof the Stars"
+            ],
+            "pen_names": [
+                "水原渉"
+            ],
+            "position": "初音ミク,わ,B-02, B-02",
+            "links": [
+                "http://fermat.sakura.ne.jp/oots/"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://vocadb.net/E/1172/vocaloid-paradise-10",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        },
+        {
+            "source": "Participating circles: https://ttc.ninja-web.net/vo-para/vo-para10_list.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "10_20150918005308_vo-para10.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20150918005308/http://ttc.ninja-web.net/vo-para/index.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "comments": "手続完了とは、「オンライン申込または申込書（郵送・直接受付）」「サークルカット」「サークル参加費」の３点を済ませた状態です。\n仮受付とは、上記のいずれかが済んでいない状態です。\n全ての手続が完了して7日経っても\n【仮受付】\nとなっている場合は、ボーパラ準備会までご連絡下さい。\nこの受付リストは、\n【仮受付】\nが外れることで、サークル参加手続完了のお知らせに代えさせていただきます。\n【仮受付】\n表示のサークルは手続完了となっていません。\n未完了の手続（サークルカット・サークル参加費のいずれか　または両方）を済ませるようにお願いします。\n申込後のスペース数変更（例：１スペース→２スペース）、サークルカットの差し替え、ペンネーム・P名・メインキャラ・URLの変更・追加は、最終締切までなら対応可能です。\nそれ以降では対応できない場合があります。\n変更申請等は\nこちら\nのメールフォームをご利用下さい。\n【同時開催】\nカゲロウパラダイス　サークル参加リスト\n【8/9記載】\nこの度は、ボーパラ10にサークル参加申込ありがとうございました。\n7/27の最終締切以降、サークル参加受付延長を行っていましたが、8/9　21:00に終了しました。\nボーパラ10＆カゲパラで合計約230スペースの申込を受け付けました。仮受付含めて全当選となります。\n【pixiv】\nボーパラ10　イベントトピック\n【9/6　16:00更新】\n・出展企業追加しました。\n・サークル名を五十音順に並べかえました。\n・配置番号を追加しました。\n・\n館内図（PDF形式）\nA〜F：VOCALOID PARADISE \n\t10　G〜J：カゲロウパラダイス\nボーパラ10予備スペース…A-21・B-31・C-07・D-06・E-13"
+}

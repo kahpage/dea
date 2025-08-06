@@ -1,0 +1,380 @@
+{
+    "aliases": [
+        "MUSIC COMMUNICATION 12",
+        "M-COMI12",
+        "Mコミ12"
+    ],
+    "dates": "2015.10.12",
+    "circles": [
+        {
+            "aliases": [
+                "Mini Skirt Project"
+            ],
+            "pen_names": [
+                "明日華"
+            ],
+            "position": "Track1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/50134815"
+            ]
+        },
+        {
+            "aliases": [
+                "StudioMordenLemon"
+            ],
+            "pen_names": [
+                "sunr"
+            ],
+            "position": "Track2",
+            "links": [
+                "https://soundcloud.com/woopheadclrms",
+                "http://sunr666.wix.com/woopheadland"
+            ]
+        },
+        {
+            "aliases": [
+                "Croquette Blue"
+            ],
+            "pen_names": [
+                "ぶる一"
+            ],
+            "position": "Track4",
+            "links": [
+                "http://www.croquetteblue.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Terraforming"
+            ],
+            "pen_names": [
+                "アツムテラフォーミング"
+            ],
+            "position": "Track5",
+            "links": [
+                "http://terraforming-japan.net"
+            ]
+        },
+        {
+            "aliases": [
+                "飛練音響工業"
+            ],
+            "pen_names": [
+                "響太"
+            ],
+            "position": "Track6,7",
+            "links": [
+                "http://hiaudio.ame-zaiku.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "音響演出にものすごくこだわったドラマCD"
+            ],
+            "pen_names": [
+                "響太"
+            ],
+            "position": "Track8"
+        },
+        {
+            "aliases": [
+                "とろいめらい"
+            ],
+            "pen_names": [
+                "藤崎竜太"
+            ],
+            "position": "Track9",
+            "links": [
+                "http://toromeranet.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "酔鍵堂+Audrey Record"
+            ],
+            "pen_names": [
+                "すいけん583·東風ありき"
+            ],
+            "position": "Track11,12",
+            "links": [
+                "http://www.adypro.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "桜ノ咲音響産業"
+            ],
+            "pen_names": [
+                "桜ノ咲みえ"
+            ],
+            "position": "Track13",
+            "links": [
+                "http://sakion.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "にしん屋(仮)"
+            ],
+            "pen_names": [
+                "にしだゆうすけ"
+            ],
+            "position": "Track14",
+            "links": [
+                "https://twitter.com/yusukenishida"
+            ]
+        },
+        {
+            "aliases": [
+                "SUNRISE FACTORY"
+            ],
+            "pen_names": [
+                "Sidd"
+            ],
+            "position": "Track16",
+            "links": [
+                "http://sunrisefactory.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "カレー☆らぼらとり"
+            ],
+            "pen_names": [
+                "あき"
+            ],
+            "position": "Track17",
+            "links": [
+                "http://currylaboratory.web.fc2.com"
+            ]
+        },
+        {
+            "aliases": [
+                "TO-MAX"
+            ],
+            "pen_names": [
+                "DAN"
+            ],
+            "position": "Track18",
+            "links": [
+                "http://www.k2.dion.ne.jp/~to-max"
+            ]
+        },
+        {
+            "aliases": [
+                "風ノ音堂"
+            ],
+            "pen_names": [
+                "テラカズ"
+            ],
+            "position": "Track19",
+            "links": [
+                "http://www.kazenonedou.com"
+            ]
+        },
+        {
+            "aliases": [
+                "SBFR"
+            ],
+            "pen_names": [
+                "AOiRO_Manbow"
+            ],
+            "position": "Track20",
+            "links": [
+                "http://sbfr.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "すたちお 我-GaLuE-流"
+            ],
+            "pen_names": [
+                "さんまる/DJ_30"
+            ],
+            "position": "Track21",
+            "links": [
+                "https://twitter.com/dr30_skyline"
+            ]
+        },
+        {
+            "aliases": [
+                "kojack"
+            ],
+            "pen_names": [
+                "kojack"
+            ],
+            "position": "Track22",
+            "links": [
+                "http://kojack.web.fc2.com/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "寝た起きた"
+            ],
+            "pen_names": [
+                "オキタヒカリ"
+            ],
+            "position": "Track24"
+        },
+        {
+            "aliases": [
+                "SpriteWing"
+            ],
+            "pen_names": [
+                "MAYA"
+            ],
+            "position": "Track25",
+            "links": [
+                "http://spritewing.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Shibayan Records"
+            ],
+            "pen_names": [
+                "Shibayan"
+            ],
+            "position": "Track26",
+            "links": [
+                "http://homepage3.nifty.com/shibayan/"
+            ]
+        },
+        {
+            "aliases": [
+                "Melodic Taste"
+            ],
+            "pen_names": [
+                "taste"
+            ],
+            "position": "Track27,28",
+            "links": [
+                "http://taste-f.sakura.ne.jp/Melodic/"
+            ]
+        },
+        {
+            "aliases": [
+                "宅庵"
+            ],
+            "pen_names": [
+                "マフルチェ"
+            ],
+            "position": "Track29",
+            "links": [
+                "http://takuan-web.jimdo.com"
+            ]
+        },
+        {
+            "aliases": [
+                "おたクインテット"
+            ],
+            "pen_names": [
+                "rienzi"
+            ],
+            "position": "Track30",
+            "links": [
+                "http://otaquintet.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "Creative Sound Lab."
+            ],
+            "pen_names": [
+                "歩く"
+            ],
+            "position": "Track31",
+            "links": [
+                "http://oitcslab.web.fc2.com"
+            ]
+        },
+        {
+            "aliases": [
+                "waterfall"
+            ],
+            "pen_names": [
+                "ken"
+            ],
+            "position": "Track32",
+            "links": [
+                "https://twitter.com/ken_1279"
+            ]
+        },
+        {
+            "aliases": [
+                "直カフェ"
+            ],
+            "pen_names": [
+                "yoshimura nao"
+            ],
+            "position": "Track33,34",
+            "links": [
+                "http://frekul.com/artists/profile/nao"
+            ]
+        },
+        {
+            "aliases": [
+                "LC : AZE"
+            ],
+            "position": "Track35,36",
+            "links": [
+                "http://www.lcaze.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Sound -R-"
+            ],
+            "pen_names": [
+                "UTA"
+            ],
+            "position": "Track39",
+            "links": [
+                "http://soundr.web.fc2.com/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "株武会社ワイ·エヌ·エンタープライゼズ"
+            ],
+            "pen_names": [
+                "ワイ·エヌ(代表取諦役)"
+            ],
+            "position": "Track40",
+            "links": [
+                "https://twitter.com/waienu_2014"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20150810124055/http://m-comi.birdzberth.com/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20160327151342/http://m-comi.birdzberth.com/data/mc12/mc12_circlelist.pdf & https://web.archive.org/web/20151025182852/http://m-comi.birdzberth.com/circle.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "12_20150810124055_next_event.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20150810124055/http://m-comi.birdzberth.com/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

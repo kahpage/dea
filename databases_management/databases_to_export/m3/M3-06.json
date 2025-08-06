@@ -1,0 +1,1120 @@
+{
+    "aliases": [
+        "M3-06",
+        "M3-2000秋"
+    ],
+    "dates": "2000.11.05",
+    "circles": [
+        {
+            "aliases": [
+                "RBC"
+            ],
+            "position": "01a",
+            "links": [
+                "http://www.t3.rim.or.jp/~j-kobari/rbc/"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\n創作音響劇(オリジナルオーディオドラマ)製造販売"
+        },
+        {
+            "aliases": [
+                "ユグドラシル"
+            ],
+            "position": "01b",
+            "links": [
+                "http://www4.tkcity.net/~yggdrasil/index.html"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\n今の所、FFメインの放送劇やってます。FF8新作でました"
+        },
+        {
+            "aliases": [
+                "ちるちるみちる"
+            ],
+            "position": "02a",
+            "links": [
+                "http://twinlovely.com"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nコスプレイヤー「みちる」の、オリジナルの歌とドラマCDです"
+        },
+        {
+            "aliases": [
+                "milktub"
+            ],
+            "position": "02b",
+            "links": [
+                "http://www.milktub.com"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nPCゲームのオープニングテーマとイカレテクノの詰まったトレカ付きCDの販売"
+        },
+        {
+            "aliases": [
+                "Studio CLAN"
+            ],
+            "position": "03a",
+            "links": [
+                "http://clan.pobox.ne.jp"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\n創作ラジオドラマをCD-Rにて販売"
+        },
+        {
+            "aliases": [
+                "音響劇団フォース"
+            ],
+            "position": "03b",
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\n完全オリジナルの音響ドラマ"
+        },
+        {
+            "aliases": [
+                "締切地獄友の会"
+            ],
+            "position": "04a",
+            "links": [
+                "http://i.am/ayami/"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\n巫女ものラジオドラマをCDで"
+        },
+        {
+            "aliases": [
+                "Fairwings"
+            ],
+            "position": "04b",
+            "links": [
+                "http://www.imasy.or.jp/~ferdia/fairwings/"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\n打ち込みで女性ボーカルなオリジナルのポップスをCD-Rで頒布します"
+        },
+        {
+            "aliases": [
+                "ARC FOX"
+            ],
+            "position": "05a",
+            "links": [
+                "http://www4.plala.or.jp/arcfox"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nオリジナル作品等をCD・カセットで販売します"
+        },
+        {
+            "aliases": [
+                "スコーピオン"
+            ],
+            "position": "05b",
+            "links": [
+                "http://member.nifty.ne.jp/EINS/index.HTM"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nオリジナルドラマCD制作"
+        },
+        {
+            "aliases": [
+                "ATM"
+            ],
+            "position": "06a",
+            "links": [
+                "http://www.geocities.co.jp/AnimeComic-Cell/5345/"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\n「オカケンが行く!」(完全オリジナル)「ケロロ軍曹」etcの音響ドラマをCD・MD・テープで販売"
+        },
+        {
+            "aliases": [
+                "V-PLOT"
+            ],
+            "position": "06b",
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nオリジナル、フルーツバスケット等のドラマCD(MDも有)を出します"
+        },
+        {
+            "aliases": [
+                "がちゃがちゃ企画"
+            ],
+            "position": "07a",
+            "links": [
+                "http://www2.to/gacha"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nオリジナルドラマのCD-Rを販売します"
+        },
+        {
+            "aliases": [
+                "(K)NONAKA"
+            ],
+            "position": "07b",
+            "links": [
+                "http://www1.webnik.ne.jp/~k-nonaka/"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nオリジナルドラマCD「AROMA」(CD-R)"
+        },
+        {
+            "aliases": [
+                "TEPS"
+            ],
+            "position": "08a",
+            "links": [
+                "http://www.ax.sakura.ne.jp/~teps/"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nオリジナルのドラマをCDにて発行"
+        },
+        {
+            "aliases": [
+                "子猫ちゃんのいる店"
+            ],
+            "position": "08b",
+            "links": [
+                "http://www16.freeweb.ne.jp/play/konekono"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nオリジナル他、MDとテープで製作"
+        },
+        {
+            "aliases": [
+                "下目黒映像研究会"
+            ],
+            "position": "09a",
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\n今回はMIDIでDMX512を動かせるかに挑戦。楽しいムービングライトの世界を紹介"
+        },
+        {
+            "aliases": [
+                "MONOPOLE"
+            ],
+            "position": "09b",
+            "links": [
+                "http://yishibashi.hoops.ne.jp/"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nCGアニメ、ビデオクリップ、ネタなどをコンピレーションでCD-RとVHSに収録"
+        },
+        {
+            "aliases": [
+                "ぽりごん堂"
+            ],
+            "position": "10a",
+            "links": [
+                "http://www.ops.dti.ne.jp/~somnium"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nデジタルフィギュアデータ集の販売"
+        },
+        {
+            "aliases": [
+                "CG-Hobby"
+            ],
+            "position": "10b",
+            "links": [
+                "http://www.3d-j.com"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nデジタルフィギュアおよび3DCGアニメーション作品の販売"
+        },
+        {
+            "aliases": [
+                "仏陀電影"
+            ],
+            "position": "11a",
+            "links": [
+                "http://www5a.biglobe.ne.jp/~buddha/"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\nオリジナル実写特撮制作団体"
+        },
+        {
+            "aliases": [
+                "えすぷろだくしょん"
+            ],
+            "position": "11b",
+            "links": [
+                "http://www2.to/S-pro"
+            ],
+            "comments": "Genre: 音響 - ドラマ その他 / 映像\n自主制作のSF・ヒーロー・ヒロイン映画をビデオで販売"
+        },
+        {
+            "aliases": [
+                "AudioMountain"
+            ],
+            "position": "12ab",
+            "links": [
+                "http://www2.128.ne.jp/~umeo/"
+            ],
+            "comments": "Genre: 音響 - カバー\nオールドゲームのアレンジ、コピーをCD-Rにて頒布。CD消磁機のデモンストレーション"
+        },
+        {
+            "aliases": [
+                "悪食倶楽部"
+            ],
+            "position": "13a",
+            "comments": "Genre: 音響 - カバー\nアニソン・ゲームミュージック等のサウンドコラージュ"
+        },
+        {
+            "aliases": [
+                "Provision Records"
+            ],
+            "position": "13b",
+            "links": [
+                "http://www1.odn.ne.jp/~aak13370"
+            ],
+            "comments": "Genre: 音響 - カバー\nLeaf・Key等のアレンジCD"
+        },
+        {
+            "aliases": [
+                "なるしの本舗"
+            ],
+            "position": "14a",
+            "comments": "Genre: 音響 - カバー\nラブひなネタとかアニメねた色々やります。ガバとか2 STEPとかで"
+        },
+        {
+            "aliases": [
+                "八卦商会"
+            ],
+            "position": "14b",
+            "links": [
+                "http://www.geocities.co.jp/Broadway-Guitar/9995/"
+            ],
+            "comments": "Genre: 音響 - カバー\n恒例のアニメネタものガバです"
+        },
+        {
+            "aliases": [
+                "Whoopee!records"
+            ],
+            "position": "15a",
+            "links": [
+                "http://www2.big.or.jp/~whoopee/"
+            ],
+            "comments": "Genre: 音響 - カバー\nアニソンのカバーをガクランで演奏"
+        },
+        {
+            "aliases": [
+                "PULSENOTES"
+            ],
+            "position": "15b",
+            "links": [
+                "http://www7.big.or.jp/~at-mat/pulsenotes/"
+            ],
+            "comments": "Genre: 音響 - カバー\nYET11が、X1turboZのFM音源で作成した二次創作物、オリジナル曲を収録"
+        },
+        {
+            "aliases": [
+                "Studio Earth Voice"
+            ],
+            "position": "16a",
+            "links": [
+                "http://member.nifty.ne.jp/~SEV/"
+            ],
+            "comments": "Genre: 音響 - カバー\nアニメ・ゲーム音楽のアレンジとオリジナル"
+        },
+        {
+            "aliases": [
+                "Pocket System Network"
+            ],
+            "position": "16b",
+            "links": [
+                "http://www9.freeweb.ne.jp/play/psn/"
+            ],
+            "comments": "Genre: 音響 - カバー\nゲーム音楽(Key、Leaf系)アレンジ中心+オリジナル曲もあり"
+        },
+        {
+            "aliases": [
+                "萬屋音楽堂"
+            ],
+            "position": "17a",
+            "links": [
+                "http://www.music.ne.jp/~yorozuya/"
+            ],
+            "comments": "Genre: 音響 - カバー\nゲームミュージックのアレンジCD中心"
+        },
+        {
+            "aliases": [
+                "GAME MUSIC MANIA"
+            ],
+            "position": "17b",
+            "links": [
+                "http://www2.aaz.mtci.ne.jp/~masatosi/"
+            ],
+            "comments": "Genre: 音響 - カバー\nゲームミュージックとテクノのRemix! CD-Rで発行"
+        },
+        {
+            "aliases": [
+                "Tailless Music"
+            ],
+            "position": "18a",
+            "links": [
+                "http://homepage1.nifty.com/uzura/"
+            ],
+            "comments": "Genre: 音響 - カバー\nF&Cゲーム音楽アレンジCD"
+        },
+        {
+            "aliases": [
+                "こえの図書館"
+            ],
+            "position": "18b",
+            "comments": "Genre: 音響 - カバー\nゲーム「ギルティギア」のオリジナルドラマ"
+        },
+        {
+            "aliases": [
+                "MMF"
+            ],
+            "position": "19a",
+            "links": [
+                "http://www.yypage.com/~mmf/"
+            ],
+            "comments": "Genre: 音響 - カバー\n創作ラジオをCD-Rやカセットテープにて発行します"
+        },
+        {
+            "aliases": [
+                "水間企画"
+            ],
+            "position": "19b",
+            "comments": "Genre: 音響 - カバー\n放送劇をCD-RとMDで発行"
+        },
+        {
+            "aliases": [
+                "クロス・オーバー"
+            ],
+            "position": "20a",
+            "links": [
+                "http://www.tyo01.freecom.ne.jp/~studio/"
+            ],
+            "comments": "Genre: 音響 - カバー\nアフレコサークル(CD作品)"
+        },
+        {
+            "aliases": [
+                "Cyber Illusion Network"
+            ],
+            "position": "20b",
+            "comments": "Genre: 音響 - カバー\nオリジナルのCDドラマを発行"
+        },
+        {
+            "aliases": [
+                "ハイパーリッチ"
+            ],
+            "position": "21a",
+            "links": [
+                "http://www.hyperrich.com"
+            ],
+            "comments": "Genre: 音響 - カバー\nハードコア&ガバで世界で奮闘のハイパーリッチ、ベルリン秘蔵映像出るか!?"
+        },
+        {
+            "aliases": [
+                "高速音楽隊シャープネル"
+            ],
+            "position": "21b",
+            "links": [
+                "http://www.sharpnel.com/"
+            ],
+            "comments": "Genre: 音響 - カバー\nアニメやゲーム音楽の高速テクノカバー"
+        },
+        {
+            "aliases": [
+                "大和広幸とその一味"
+            ],
+            "position": "22a",
+            "links": [
+                "http://www.interq.or.jp/mercury/yamato/"
+            ],
+            "comments": "Genre: 音響 - カバー\nテクノトラック・サウンドコラージュその他を無差別にテープとCD-Rに収録。なぜかMSXがテーマ"
+        },
+        {
+            "aliases": [
+                "EDIA LABEL"
+            ],
+            "position": "22b",
+            "links": [
+                "http://www.geocities.co.jp/MusicStar/1845/index.html"
+            ],
+            "comments": "Genre: 音響 - カバー\nYMOのパロディーアルバムをCD-Rで出す予定です"
+        },
+        {
+            "aliases": [
+                "VISIONNERZ"
+            ],
+            "position": "23a",
+            "links": [
+                "http://www.hello.co.jp/~visionnerz/"
+            ],
+            "comments": "Genre: 音響 - カバー\nパカパカパッションのリミックス中心。オリジナルもあります"
+        },
+        {
+            "aliases": [
+                "aerophonon"
+            ],
+            "position": "23b",
+            "links": [
+                "http://w3.to/aerophonon"
+            ],
+            "comments": "Genre: 音響 - カバー\necco the dolphin arrangement (4 track予定)"
+        },
+        {
+            "aliases": [
+                "Sound Impulse"
+            ],
+            "position": "24a",
+            "links": [
+                "http://www.yomogi.sakura.ne.jp/~si/"
+            ],
+            "comments": "Genre: 音響 - カバー\nライブ企画はダメでした…無念。でも、諦めてません。ところで、音将軍vol.4?"
+        },
+        {
+            "aliases": [
+                "S.D.K.Special"
+            ],
+            "position": "24b",
+            "links": [
+                "http://www.pluto.dti.ne.jp/~raindrop/doujin/index.html"
+            ],
+            "comments": "Genre: 音響 - カバー\nゲームミュージックのアレンジをCD-Rで発行"
+        },
+        {
+            "aliases": [
+                "Kyu!内庁色部職楽部"
+            ],
+            "position": "25a",
+            "links": [
+                "http://www.wavestation.net/~kyunaicyou/"
+            ],
+            "comments": "Genre: 音響 - カバー\nKanonのBGMを雅楽にてアレンジ、CD-Rにて発行"
+        },
+        {
+            "aliases": [
+                "BLACKHEART's 2ndmetalworks Shop 出張所"
+            ],
+            "position": "25b",
+            "links": [
+                "http://www3.cds.ne.jp/~ykz909/"
+            ],
+            "comments": "Genre: 音響 - カバー\nKANONメインのアレンジCD(CD-Rで制作) ビートマニアアレンジCDもアリ?"
+        },
+        {
+            "aliases": [
+                "Sonic Revolution"
+            ],
+            "position": "26a",
+            "links": [
+                "http://www.sylphic.com/"
+            ],
+            "comments": "Genre: 音響 - カバー\nオリジナル、Kanonのダンスアレンジなどを出します。Euro、Techno中心"
+        },
+        {
+            "aliases": [
+                "PopKorn"
+            ],
+            "position": "26b",
+            "links": [
+                "http://www.aya.or.jp/~sinon/popkorn/"
+            ],
+            "comments": "Genre: 音響 - カバー\nKanon中心のアレンジアルバム(CD-R)。「冬の花火」のEuro風アレンジ他"
+        },
+        {
+            "aliases": [
+                "しまやか。"
+            ],
+            "position": "27ab",
+            "links": [
+                "http://www.i-ooedo.com/"
+            ],
+            "comments": "Genre: 音響 - カバー\nえるふ系アレンジ・リーフ系アレンジ(まじかる☆アンティーク・こみっくパーティ)"
+        },
+        {
+            "aliases": [
+                "音撃創神"
+            ],
+            "position": "28ab",
+            "links": [
+                "http://www16.freeweb.ne.jp/art/yamo1/"
+            ],
+            "comments": "Genre: 音響 - カバー\nデ・ジ・キャラットが騒ぐ! リミックスアルバム「でじこミックス」"
+        },
+        {
+            "aliases": [
+                "mushi.net"
+            ],
+            "position": "29a",
+            "links": [
+                "http://mushi.net/"
+            ],
+            "comments": "Genre: 音響 - カバー\nアレンジ、オリジナルゲーム音楽やイース、ツインビーの仮想続編サントラなどをCD-Rにて販売"
+        },
+        {
+            "aliases": [
+                "RIVER END"
+            ],
+            "position": "29b",
+            "links": [
+                "http://www.cypress.ne.jp/yama-b/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルのヘヴィメタル、ハードロックをCD-Rにて頒布いたします"
+        },
+        {
+            "aliases": [
+                "Pfalz"
+            ],
+            "position": "30a",
+            "comments": "Genre: 音響 - オリジナル\n2人ユニット形式でオリジナルのエレクトロポップな楽曲を制作。バックボーンはTK.DA系"
+        },
+        {
+            "aliases": [
+                "μD"
+            ],
+            "position": "30b",
+            "links": [
+                "http://www.doss.cha.to/sea/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nアンビエントとダンス･ビートをミックスしたオリジナル・シンセ・ミュージックです"
+        },
+        {
+            "aliases": [
+                "音響基礎研究所"
+            ],
+            "position": "31a",
+            "links": [
+                "http://www.bukimi.com/sfl/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナル作品のオーケストラライブ・DTM演奏によるヴィデオ・CDほか"
+        },
+        {
+            "aliases": [
+                "不気味社"
+            ],
+            "position": "31b",
+            "links": [
+                "http://www.bukimi.com"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nアニメソングを男声合唱でカバー"
+        },
+        {
+            "aliases": [
+                "コダケ録音"
+            ],
+            "position": "32a",
+            "comments": "Genre: 音響 - オリジナル\n創作管弦楽曲をシンセサイザーにて演奏"
+        },
+        {
+            "aliases": [
+                "MIDI KIDS"
+            ],
+            "position": "32b",
+            "comments": "Genre: 音響 - オリジナル\n日本古代史・中世史をテーマにしたニューエイジミュージック"
+        },
+        {
+            "aliases": [
+                "Illusion Wind"
+            ],
+            "position": "33a",
+            "links": [
+                "http://woodruff.press.ne.jp/illusion/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n中世ヨーロッパで詠われた曲やオリジナルイメージをアレンジしてご紹介"
+        },
+        {
+            "aliases": [
+                "@MIDIの人々"
+            ],
+            "position": "33b",
+            "links": [
+                "http://www.tri-ace.co.jp/atmidi/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nあらゆるジャンルにオリジナルCDでチャレンジします"
+        },
+        {
+            "aliases": [
+                "Mille Face"
+            ],
+            "position": "34a",
+            "links": [
+                "http://www.annie.ne.jp/~kumamoto/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n女性ボーカルのオリジナル。プレスCD、CD-R等"
+        },
+        {
+            "aliases": [
+                "L'Projecton"
+            ],
+            "position": "34b",
+            "comments": "Genre: 音響 - オリジナル\nショートストーリー+音楽とか雰囲気の出るような感じの曲を主に作っています"
+        },
+        {
+            "aliases": [
+                "趣味工房にんじんわいん"
+            ],
+            "position": "35a",
+            "links": [
+                "http://www2u.biglobe.ne.jp/~anpanman/index.html"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナル小説などを題材にしたフルMIDIサウンドトラック集です"
+        },
+        {
+            "aliases": [
+                "高天原応用通信研究所"
+            ],
+            "position": "35b",
+            "links": [
+                "http://pony.tail.net/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nDTMベースのコンテンポラリPOP いよいよボーカルものに挑戦か"
+        },
+        {
+            "aliases": [
+                "曙町内会"
+            ],
+            "position": "36a",
+            "links": [
+                "http://www.interq.or.jp/piano/tenmon/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n第12回DoGaグランプリ受賞したムービー&BGMのエンハンスドCD-Rを予定"
+        },
+        {
+            "aliases": [
+                "ちっちゃなぶーけ"
+            ],
+            "position": "36b",
+            "links": [
+                "http://www.geocities.co.jp/HeartLand-Sakura/1131"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルのCCさくらイメージソングをカセットテープにて配布"
+        },
+        {
+            "aliases": [
+                "たかつきCOMPANY"
+            ],
+            "position": "37a",
+            "links": [
+                "http://www.campus.ne.jp/~ishigami/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n同人ゲーム等に使用できるオリジナルBGM集(CD-R)を出します"
+        },
+        {
+            "aliases": [
+                "Currach Records"
+            ],
+            "position": "37b",
+            "links": [
+                "http://www.netlaputa.ne.jp/~currach/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n女性ボーカルアーティストやテクノなどが集まったインディーズレーベル"
+        },
+        {
+            "aliases": [
+                "L.S.D.RECORDS"
+            ],
+            "position": "38a",
+            "links": [
+                "http://homepage2.nifty.com/juno-909/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n打ち込み系の音楽をCD-Rで販売。テクノ主体です"
+        },
+        {
+            "aliases": [
+                "Zi-phonium"
+            ],
+            "position": "38b",
+            "links": [
+                "http://www.cypress.ne.jp/hasp/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルテクノポップをCD-EXTRAで発行"
+        },
+        {
+            "aliases": [
+                "M.O.O.N"
+            ],
+            "position": "39a",
+            "links": [
+                "http://ajisai.sakura.ne.jp/~tj/moon/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nmidi、rebirthによるオリジナルテクノをカセットテープで発行"
+        },
+        {
+            "aliases": [
+                "バードマン"
+            ],
+            "position": "39b",
+            "links": [
+                "http://hello.to/birdman/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n素晴らしいテクノCDとビデオ! 以上!"
+        },
+        {
+            "aliases": [
+                "PECH RECORDINGS"
+            ],
+            "position": "40a",
+            "links": [
+                "http://w3.to/pech/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nTECHNO系の曲を、CD-Rで販売"
+        },
+        {
+            "aliases": [
+                "GFK Records"
+            ],
+            "position": "40b",
+            "links": [
+                "http://members.tripod.com/~gfk_rec"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nカッコよいテクノ! 以上!"
+        },
+        {
+            "aliases": [
+                "Groundzero Organization"
+            ],
+            "position": "41a",
+            "links": [
+                "http://resource.at/groundzero"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n反・商業主義 多数(強者)対一人(弱者)復讐 ラーメン店めぐり インタビュー等"
+        },
+        {
+            "aliases": [
+                "えびす食堂"
+            ],
+            "position": "41b",
+            "links": [
+                "http://member.nifty.ne.jp/avs/avs.html"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n反・商業主義、多数(強者)対一人(弱者)、復習、ラーメン店探訪(ハードコアの一種)"
+        },
+        {
+            "aliases": [
+                "トルバドールレコード"
+            ],
+            "position": "42a",
+            "links": [
+                "http://troubador.panic.or.jp"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nらじまに5号の可能性大かっ"
+        },
+        {
+            "aliases": [
+                "トルバ堂"
+            ],
+            "position": "42b",
+            "links": [
+                "http://troubador.panic.or.jp"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nトルバドールレコードバックナンバー取り扱い"
+        },
+        {
+            "aliases": [
+                "まいまいる～む"
+            ],
+            "position": "43a",
+            "links": [
+                "http://maimai.panic.or.jp"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nえばたいくこのオリジナル楽曲中心"
+        },
+        {
+            "aliases": [
+                "LOTS."
+            ],
+            "position": "43b",
+            "links": [
+                "http://www.lilt.net/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n夏コミ新作テクノポップ他、オリジナル音楽です。エスノとかテクノとか"
+        },
+        {
+            "aliases": [
+                "CLAVECIN RECORDS"
+            ],
+            "position": "44a",
+            "links": [
+                "http://www.ne.jp/asahi/a-remix/home/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nファンタジーポップユニットclavecin第2弾アルバムcollage完成! その他新作あり"
+        },
+        {
+            "aliases": [
+                "mplayers"
+            ],
+            "position": "44b",
+            "links": [
+                "http://www.ask.ne.jp/~mplayers/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n夏コミで発表したオムニバスCD「junk.test 質」を販売"
+        },
+        {
+            "aliases": [
+                "Saparak"
+            ],
+            "position": "45a",
+            "links": [
+                "http://www.yo.rim.or.jp/~sapara/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nアコースティックな女性Vo.POPS"
+        },
+        {
+            "aliases": [
+                "Q&Aレコード"
+            ],
+            "position": "45b",
+            "links": [
+                "http://www.qanda-records.com/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nテクノと歌謡曲の融合「四畳半テクノ」のオリジナルCD発売"
+        },
+        {
+            "aliases": [
+                "歌楽特奏隊"
+            ],
+            "position": "46a",
+            "links": [
+                "http://www.din.or.jp/~katoku/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n様々なジャンルのオリジナルミュージックをCD・MD・テープで発行"
+        },
+        {
+            "aliases": [
+                "FARETHROW"
+            ],
+            "position": "46b",
+            "comments": "Genre: 音響 - オリジナル\nオリジナルをCD-Rで発行"
+        },
+        {
+            "aliases": [
+                "Project OMEGA"
+            ],
+            "position": "47ab",
+            "links": [
+                "http://www.free-ave.com/omega/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n仮想上の壮大なRPGへのオリジナルサウンドトラック「OMEGA Vol.1」(CD-R)"
+        },
+        {
+            "aliases": [
+                "サインウェイブ"
+            ],
+            "position": "48ab",
+            "links": [
+                "http://www.sinewave-japan.com/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n架空ゲームサントラ、オリジナル曲コンピなど出します"
+        },
+        {
+            "aliases": [
+                "ミュウジカルハラスメント"
+            ],
+            "position": "49a",
+            "links": [
+                "http://pops.midi.co.jp/~o2/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nネタモノメインのバカテクノです"
+        },
+        {
+            "aliases": [
+                "ナードコアーズ"
+            ],
+            "position": "49a",
+            "comments": "Genre: 音響 - オリジナル\n話題のナードコアです"
+        },
+        {
+            "aliases": [
+                "砂城攻防"
+            ],
+            "position": "50a",
+            "links": [
+                "http://www.page.sannet.ne.jp/lei-lei/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nゲームミュージックをイメージした、創作音楽集をCD-RとMDで発行します"
+        },
+        {
+            "aliases": [
+                "lied"
+            ],
+            "position": "50b",
+            "links": [
+                "http://www6.airnet.ne.jp/karasuso/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルの電子音楽をCD-Rで配布"
+        },
+        {
+            "aliases": [
+                "noki-ろっく"
+            ],
+            "position": "51ab",
+            "links": [
+                "http://www19.big.or.jp/~noki/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルソング+オリジナル音響劇のプレスCD"
+        },
+        {
+            "aliases": [
+                "GX SYSTEM"
+            ],
+            "position": "52a",
+            "links": [
+                "http://www.gene.ne.jp/~gxsystem/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルの仮想ゲームミュージック「V-series」を、細々と配布をしています"
+        },
+        {
+            "aliases": [
+                "ACTIVE GAMERS"
+            ],
+            "position": "52b",
+            "links": [
+                "http://member.nifty.ne.jp/nt3/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n往年のFM音源、復活!"
+        },
+        {
+            "aliases": [
+                "青空音楽工房"
+            ],
+            "position": "53a",
+            "links": [
+                "http://www.gaea.ais.ne.jp/~music/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n今年と、来年に出すオリジナルのゲームの先行サントラの販売です"
+        },
+        {
+            "aliases": [
+                "Big South Valley Music"
+            ],
+            "position": "53b",
+            "links": [
+                "http://bsvmusic.pos.to/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nニューエイジ/ヒーリング系ピアノソロや演劇、ゲームのオリジナルサウンドトラック他をCD-Rでリリース"
+        },
+        {
+            "aliases": [
+                "aim"
+            ],
+            "position": "54a",
+            "links": [
+                "http://home3.highway.ne.jp/fuga/aim/index.html"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n女性ヴォーカルポップス、インスト中心。CD-RおよびMDにて発行"
+        },
+        {
+            "aliases": [
+                "SYNC THINK TANK"
+            ],
+            "position": "54b",
+            "links": [
+                "http://www3.alpha-net.ne.jp/users/aissia/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nビヨビヨ系アナログ高速テクノ@平均BPM145くらい多分… 今回も新譜あります!"
+        },
+        {
+            "aliases": [
+                "HN"
+            ],
+            "position": "55a",
+            "links": [
+                "http://www2.gol.com/users/ballet"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n創作House, technoをCD-Rで販売"
+        },
+        {
+            "aliases": [
+                "Frieve"
+            ],
+            "position": "55b",
+            "links": [
+                "http://www.yk.rim.or.jp/~frieve-a/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルCD(ボーカルもの)と、音楽製作ソフトMusic Studio Standard"
+        },
+        {
+            "aliases": [
+                "MYU-RECORDINGS"
+            ],
+            "position": "56ab",
+            "links": [
+                "http://www.myu-recordings.com/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nコンピューターミュージック系オリジナルCD"
+        },
+        {
+            "aliases": [
+                "MOTLEY"
+            ],
+            "position": "57a",
+            "links": [
+                "http://www.motley.ne.nu/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nREIKA(vo)、KLACH(key)、与猶啓至(key/prog)による音楽ユニット。CD、ライブビデオ等をリリース"
+        },
+        {
+            "aliases": [
+                "LUCENTWAVES"
+            ],
+            "position": "57b",
+            "links": [
+                "http://www.myu-recordings.com/lucent/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nインディーテクノレーベル"
+        },
+        {
+            "aliases": [
+                "PING-Music Label"
+            ],
+            "position": "58a",
+            "links": [
+                "http://hey.to/pingml/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nテクノ(フロア系も聴く系も両方)系のコンピレーション。プレスCDおよびCD-R"
+        },
+        {
+            "aliases": [
+                "Label・I.O.S."
+            ],
+            "position": "58b",
+            "links": [
+                "http://member.nifty.ne.jp/IOS/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nリスニング系テクノをCD-Rで販売"
+        },
+        {
+            "aliases": [
+                "developers-music label"
+            ],
+            "position": "59a",
+            "links": [
+                "http://www11.freeweb.ne.jp/art/ms-19/developers-ML.htm"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n創作TECHNOをCD-Rで発行"
+        },
+        {
+            "aliases": [
+                "ポリバケツ"
+            ],
+            "position": "59b",
+            "links": [
+                "http://poribaketsu.trancetechno.com/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nテクノ系オリジナル"
+        },
+        {
+            "aliases": [
+                "AP Sounds"
+            ],
+            "position": "60a",
+            "links": [
+                "http://www1.freeweb.ne.jp/~aps/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルのCDを販売します。ユーロビート、ダンス系、Vo入り多数有り"
+        },
+        {
+            "aliases": [
+                "GABA AGONIST"
+            ],
+            "position": "60b",
+            "links": [
+                "http://www.age.ne.jp/x/rage/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルがメインですが、アニメ・ゲームネタものもあります(音響)"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date, Participating circles: https://www.m3net.jp/event/2000f.php",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "06_cut_na.jpg",
+            "sources": [
+                {
+                    "source": "https://www.m3net.jp/event/2000f.php",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

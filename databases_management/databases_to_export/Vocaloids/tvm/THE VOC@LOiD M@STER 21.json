@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER 21",
+        "ボーマス21",
+        "VOM@S21"
+    ],
+    "dates": "2012.07.08",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm21ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm21",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "21_tvm21hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm21ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm21ippan.htm"
+    ]
+}

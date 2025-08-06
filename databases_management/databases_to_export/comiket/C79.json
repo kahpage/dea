@@ -1,0 +1,58 @@
+{
+    "aliases": [
+        "C79",
+        "コミックマーケット79",
+        "Comiket 79",
+        "Comic Market 79"
+    ],
+    "dates": "2010.12.29 - 2010.12.31",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250710153917/https://www.comiket.co.jp/archives/Chronology.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "79_C79CtlgWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250710153917/https://www.comiket.co.jp/archives/Chronology.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：的井けるな（サークル：素敵！無敵!!ムッキムキ）"
+        },
+        {
+            "path": "79_C79CtlgRomWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250710153917/https://www.comiket.co.jp/archives/Chronology.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：的井けるな（サークル：素敵！無敵!!ムッキムキ）"
+        },
+        {
+            "path": "https://web.archive.org/web/20110810042254/http://www.comiket.co.jp/info-a/C79/C79CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20110810042254/http://www.comiket.co.jp/info-a/C79/C79CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

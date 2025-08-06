@@ -1,0 +1,43 @@
+{
+    "aliases": [
+        "Keyパーティー2",
+        "keyparty2"
+    ],
+    "dates": "2011.09.11",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20110721214853/http://mattari-an.net/keyparty/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "2_20110721214853_titlelogo.gif",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20110721214853/http://mattari-an.net/keyparty/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "2_20110721214853_paper.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20110721214853/http://mattari-an.net/keyparty/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "comments": "Participating circles page existed but was not saved."
+}

@@ -1,0 +1,65 @@
+{
+    "aliases": [
+        "VOCALOID STREET",
+        "ボーカロイドストリート",
+        "ボカスト"
+    ],
+    "links": [
+        "http://voca-st.com/",
+        "https://x.com/voca_st"
+    ],
+    "events": {
+        "VOCALOID STREET": {
+            "index": 0,
+            "dates": "2019.03.10"
+        },
+        "VOCALOID STREET in 多治見": {
+            "index": 1,
+            "dates": "2019.10.20"
+        },
+        "VOCALOID STREET 02": {
+            "index": 2,
+            "dates": "2020.04.05"
+        },
+        "VOCALOID STREET 03": {
+            "index": 3,
+            "dates": "2021.03.27"
+        },
+        "VOCALOID STREET 04": {
+            "index": 4,
+            "dates": "2022.01.10"
+        },
+        "VOCALOID STREET 05": {
+            "index": 5,
+            "dates": "2022.09.11"
+        },
+        "VOCALOID STREET 06": {
+            "index": 6,
+            "dates": "2023.03.12"
+        },
+        "VOCALOID STREET 07": {
+            "index": 7,
+            "dates": "2023.09.03"
+        },
+        "VOCALOID STREET 08": {
+            "index": 8,
+            "dates": "2024.03.03"
+        },
+        "VOCALOID STREET 09": {
+            "index": 9,
+            "dates": "2024.09.23"
+        },
+        "VOCALOID STREET 10": {
+            "index": 10,
+            "dates": "2025.01.12"
+        },
+        "VOCALOID STREET 11": {
+            "index": 11,
+            "dates": "2025.01.12 → CANCELLED/MOVED?"
+        },
+        "VOCALOID STREET in SENDAI": {
+            "index": 12,
+            "dates": "2025.06.22"
+        }
+    }
+}

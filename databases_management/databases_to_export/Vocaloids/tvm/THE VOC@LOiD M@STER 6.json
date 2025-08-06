@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER 6",
+        "ボーマス6",
+        "VOM@S6"
+    ],
+    "dates": "2008.11.30",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm6ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm6",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "6_tvm6hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm6ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm6ippan.htm"
+    ]
+}

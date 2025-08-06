@@ -1,0 +1,257 @@
+{
+    "aliases": [
+        "MUSIC COMMUNICATION 9",
+        "M-COMI9",
+        "Mコミ9"
+    ],
+    "dates": "2014.03.02",
+    "circles": [
+        {
+            "aliases": [
+                "compass"
+            ],
+            "pen_names": [
+                "riku"
+            ],
+            "position": "SP数1 Track 1",
+            "links": [
+                "http://circle-potion.x0.com/compass.html"
+            ]
+        },
+        {
+            "aliases": [
+                "おたクインテット"
+            ],
+            "pen_names": [
+                "rienzi"
+            ],
+            "position": "SP数1 Track 2",
+            "links": [
+                "http://otaquintet.inw.bz/"
+            ]
+        },
+        {
+            "aliases": [
+                "酔鍵堂"
+            ],
+            "pen_names": [
+                "すいけん583"
+            ],
+            "position": "SP数1 Track 3",
+            "links": [
+                "http://suikendo.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "大福サウンドラボ"
+            ],
+            "pen_names": [
+                "Daisuke Ohnuma（大福P）"
+            ],
+            "position": "SP数1 Track 4",
+            "links": [
+                "http://www.nicovideo.jp/mylist/18158629"
+            ]
+        },
+        {
+            "aliases": [
+                "Kan詰め"
+            ],
+            "pen_names": [
+                "Kan"
+            ],
+            "position": "SP数1 Track 5",
+            "links": [
+                "http://kandume.sakura.ne.jp/menu.html"
+            ]
+        },
+        {
+            "aliases": [
+                "L&Eクリエイターズ"
+            ],
+            "pen_names": [
+                "柚小"
+            ],
+            "position": "SP数1 Track 7",
+            "links": [
+                "http://d.hatena.ne.jp/lecreator/"
+            ]
+        },
+        {
+            "aliases": [
+                "飛練音響工業"
+            ],
+            "pen_names": [
+                "響太"
+            ],
+            "position": "SP数1 Track 8",
+            "links": [
+                "http://hiaudio.ame-zaiku.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "あにおん"
+            ],
+            "pen_names": [
+                "葛野大路右京"
+            ],
+            "position": "SP数1 Track 9",
+            "links": [
+                "http://あにおん.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "Sound-R-"
+            ],
+            "pen_names": [
+                "UTA"
+            ],
+            "position": "SP数1 Track 10",
+            "links": [
+                "http://soundr.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "PON!"
+            ],
+            "pen_names": [
+                "牧野辰也"
+            ],
+            "position": "SP数2 Track 11/12",
+            "links": [
+                "http://"
+            ]
+        },
+        {
+            "aliases": [
+                "勿忘草色"
+            ],
+            "pen_names": [
+                "繭沙"
+            ],
+            "position": "SP数1 Track 13",
+            "links": [
+                "http://www.geocities.jp/mayusa_f/"
+            ]
+        },
+        {
+            "aliases": [
+                "B.Y.Stream Sounds"
+            ],
+            "pen_names": [
+                "Ron"
+            ],
+            "position": "SP数1 Track 14",
+            "links": [
+                "http://byss.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "桜ノ咲音響産業"
+            ],
+            "pen_names": [
+                "桜ノ咲みえ"
+            ],
+            "position": "SP数1 Track 15",
+            "links": [
+                "http://sakion.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "Music Taste"
+            ],
+            "pen_names": [
+                "taste"
+            ],
+            "position": "SP数1 Track 16",
+            "links": [
+                "http://taste-f.sakura.ne.jp/Melodic/"
+            ]
+        },
+        {
+            "aliases": [
+                "salvation by faith records"
+            ],
+            "pen_names": [
+                "AOiRO_Manbow"
+            ],
+            "position": "SP数1 Track 18",
+            "links": [
+                "http://sbfr.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "Sprite Wing"
+            ],
+            "pen_names": [
+                "MAYA"
+            ],
+            "position": "SP数1 Track 19",
+            "links": [
+                "http://spritewing.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "LC:AZE/hospital=Grade"
+            ],
+            "pen_names": [
+                "タナカミツヒロ"
+            ],
+            "position": "SP数1 Track 20",
+            "links": [
+                "http://www.lcaze.com/"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20140815011627/http://m-comi.birdzberth.com/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20160816051537/http://m-comi.birdzberth.com/96_circlelist/circlelist_mcomi09.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "9_20140815011627_banner_1_1.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20140815011627/http://m-comi.birdzberth.com/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "9_1429.png",
+            "sources": [
+                {
+                    "source": "https://vocadb.net/E/1429/m-comi-9",
+                    "type": [
+                        "Likely",
+                        "External"
+                    ]
+                }
+            ]
+        }
+    ],
+    "description": "Simultanous with VOCALOID PARADISE 関西 3."
+}

@@ -1,0 +1,891 @@
+{
+    "aliases": [
+        "VOCALOID PARADISE",
+        "VOCALOID PARADISE 1",
+        "ボーパラ",
+        "ボーパラ1"
+    ],
+    "dates": "2008.06.22",
+    "circles": [
+        {
+            "aliases": [
+                "Arty \n    Collection"
+            ],
+            "pen_names": [
+                "A-C"
+            ],
+            "position": "あ,鏡音-05",
+            "links": [
+                "http://live-y.com/realnop/index.php"
+            ]
+        },
+        {
+            "aliases": [
+                "空き家02"
+            ],
+            "pen_names": [
+                "鈴木シヅカ"
+            ],
+            "position": "あ,初音-10",
+            "links": [
+                "http://akiya02.hp.infoseek.co.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "あくせねっと"
+            ],
+            "pen_names": [
+                "axe"
+            ],
+            "position": "あ,初音-09",
+            "links": [
+                "http://axenet.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "いちごアンテナ"
+            ],
+            "pen_names": [
+                "瑞原すばる"
+            ],
+            "position": "あ,レン-11",
+            "links": [
+                "http://ichigo.at-ninja.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "S-STYLE"
+            ],
+            "pen_names": [
+                "せっつぁん"
+            ],
+            "position": "あ,ミク-07",
+            "links": [
+                "http://homepage2.nifty.com/s_style/top2.htm"
+            ]
+        },
+        {
+            "aliases": [
+                "Ｈ＆Ｔ倶楽部"
+            ],
+            "pen_names": [
+                "氷茶ゆ〜ず"
+            ],
+            "position": "あ,メイコ-07",
+            "links": [
+                "http://www014.upp.so-net.ne.jp/citrontea_c/"
+            ]
+        },
+        {
+            "aliases": [
+                "NECO湘南"
+            ],
+            "pen_names": [
+                "osakazu"
+            ],
+            "position": "あ,ミク-11,12",
+            "links": [
+                "http://project-k.osakazu.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "炎龍本舗"
+            ],
+            "pen_names": [
+                "UNI"
+            ],
+            "position": "あ,レン-01",
+            "links": [
+                "http://enryu.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "おそらのうさぎ"
+            ],
+            "pen_names": [
+                "るいぶ らん"
+            ],
+            "position": "あ,カイト-06",
+            "links": [
+                "http://blogs.yahoo.co.jp/ruiburun"
+            ]
+        },
+        {
+            "aliases": [
+                "chaos project"
+            ],
+            "pen_names": [
+                "EL"
+            ],
+            "position": "か,カイト-08"
+        },
+        {
+            "aliases": [
+                "Ca23so（かにみそ）"
+            ],
+            "pen_names": [
+                "風見やすら"
+            ],
+            "position": "か,レン-09"
+        },
+        {
+            "aliases": [
+                "ガラクタ道具箱"
+            ],
+            "pen_names": [
+                "チヒロ"
+            ],
+            "position": "か,リン-08"
+        },
+        {
+            "aliases": [
+                "硝子人形"
+            ],
+            "pen_names": [
+                "フレイ・ショウ"
+            ],
+            "position": "か,ミク-06",
+            "links": [
+                "http://veruta.maxs.jp/garasu/"
+            ]
+        },
+        {
+            "aliases": [
+                "がんバレル"
+            ],
+            "pen_names": [
+                "伊倉ナギサ"
+            ],
+            "position": "か,鏡音-04",
+            "links": [
+                "http://www.geocities.jp/nagisa_ikura/"
+            ]
+        },
+        {
+            "aliases": [
+                "キミの声。"
+            ],
+            "pen_names": [
+                "夕薙真流"
+            ],
+            "position": "か,カイト-03",
+            "links": [
+                "http://nagokaze.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "ぎやまん亭"
+            ],
+            "pen_names": [
+                "砂掛ばあやん"
+            ],
+            "position": "か,メイコ-11,12",
+            "links": [
+                "http://giyaman-t.com"
+            ]
+        },
+        {
+            "aliases": [
+                "草枕"
+            ],
+            "pen_names": [
+                "天瀬香"
+            ],
+            "position": "か,リン-09",
+            "links": [
+                "http://nplusb.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "KUPPY"
+            ],
+            "pen_names": [
+                "フジカミ ライラク"
+            ],
+            "position": "か,メイコ-03",
+            "links": [
+                "http://fuzikami.fc2web.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "胡桃色の空"
+            ],
+            "pen_names": [
+                "来栖くるみ"
+            ],
+            "position": "か,リン-05",
+            "links": [
+                "http://kurumiironosora.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "×４（クロスフォー）"
+            ],
+            "pen_names": [
+                "マヨかふぇ"
+            ],
+            "position": "か,初音-04",
+            "links": [
+                "http://ameblo.jp/mayocafe7/"
+            ]
+        },
+        {
+            "aliases": [
+                "ケットコム"
+            ],
+            "pen_names": [
+                "すみひい"
+            ],
+            "position": "か,鏡音-07",
+            "links": [
+                "http://ketto.com/tvm/"
+            ]
+        },
+        {
+            "aliases": [
+                "虎出院（コデイン）"
+            ],
+            "pen_names": [
+                "倖野御矢"
+            ],
+            "position": "か,メイコ-08"
+        },
+        {
+            "aliases": [
+                "コロぴよ"
+            ],
+            "pen_names": [
+                "碧空七虹"
+            ],
+            "position": "か,カイト-02"
+        },
+        {
+            "aliases": [
+                "sound・if"
+            ],
+            "pen_names": [
+                "御崎"
+            ],
+            "position": "さ,ミク-08",
+            "links": [
+                "http://soundif.client.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "地獄に住ム天使達"
+            ],
+            "pen_names": [
+                "鉦田かむい"
+            ],
+            "position": "さ,レン-06",
+            "links": [
+                "http://jigoten.web.fc2.com/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "白玉亭"
+            ],
+            "pen_names": [
+                "あずきあずみ"
+            ],
+            "position": "さ,レン-12"
+        },
+        {
+            "aliases": [
+                "Sing, R. \n    Sing"
+            ],
+            "pen_names": [
+                "ポール"
+            ],
+            "position": "さ,ミク-04",
+            "links": [
+                "http://www.singrsing.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "じんじゃあ"
+            ],
+            "pen_names": [
+                "睦月さお"
+            ],
+            "position": "さ,ミク-03",
+            "links": [
+                "http://mutsuki30.com"
+            ]
+        },
+        {
+            "aliases": [
+                "新大阪Factory"
+            ],
+            "pen_names": [
+                "KURONEKO"
+            ],
+            "position": "さ,メイコ-02",
+            "links": [
+                "http://www1.linkclub.or.jp/‾kuroneko/sof/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "STAFF \n    ROOM"
+            ],
+            "pen_names": [
+                "摩砂きゅ〜"
+            ],
+            "position": "さ,初音-03",
+            "links": [
+                "http://staffroom.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Strawberry \n    House"
+            ],
+            "pen_names": [
+                "有須川いちご"
+            ],
+            "position": "さ,初音-05",
+            "links": [
+                "http://ariichi.michikusa.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "Snow Dreams"
+            ],
+            "pen_names": [
+                "ＫＯ☆ＹＵＫＩ"
+            ],
+            "position": "さ,初音-02",
+            "links": [
+                "http://www7a.biglobe.ne.jp/‾ko-yuki/index.htm"
+            ]
+        },
+        {
+            "aliases": [
+                "すもも"
+            ],
+            "pen_names": [
+                "うひょ"
+            ],
+            "position": "さ,鏡音-06"
+        },
+        {
+            "aliases": [
+                "WS"
+            ],
+            "pen_names": [
+                "白苺"
+            ],
+            "position": "た,初音-01",
+            "links": [
+                "http://wwss.ame-zaiku.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "MM（ダブルエム）"
+            ],
+            "pen_names": [
+                "ふっくん"
+            ],
+            "position": "た,初音-07"
+        },
+        {
+            "aliases": [
+                "ちっこいうさぎ"
+            ],
+            "pen_names": [
+                "鏑木ニカ　卯崎ひとみ"
+            ],
+            "position": "た,カイト-04",
+            "links": [
+                "http://love.riric.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "千歳烏山第２出張所"
+            ],
+            "pen_names": [
+                "真未たつや"
+            ],
+            "position": "た,ミク-01",
+            "links": [
+                "http://www.titokara.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "茶葉"
+            ],
+            "pen_names": [
+                "あちゃ"
+            ],
+            "position": "た,メイコ-05"
+        },
+        {
+            "aliases": [
+                "ZWEI"
+            ],
+            "pen_names": [
+                "ke-ke"
+            ],
+            "position": "た,カイト-12",
+            "links": [
+                "http://www.geocities.jp/tweisite/"
+            ]
+        },
+        {
+            "aliases": [
+                "てくの☆ぼっくす"
+            ],
+            "pen_names": [
+                "いろはち"
+            ],
+            "position": "た,カイト-07"
+        },
+        {
+            "aliases": [
+                "でらしょぼ会"
+            ],
+            "pen_names": [
+                "さくらいっぽ"
+            ],
+            "position": "た,リン-11",
+            "links": [
+                "http://www11.ocn.ne.jp/‾dera/"
+            ]
+        },
+        {
+            "aliases": [
+                "Dual \n    Moon"
+            ],
+            "pen_names": [
+                "那琉 と きよ"
+            ],
+            "position": "た,ミク-09",
+            "links": [
+                "http://dualmoon.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "DREAM \n    HANPEN"
+            ],
+            "pen_names": [
+                "寿司18号"
+            ],
+            "position": "た,ミク-10",
+            "links": [
+                "http://www.geocities.jp/dreamhanpen/"
+            ]
+        },
+        {
+            "aliases": [
+                "ないんちぇ倶楽部"
+            ],
+            "pen_names": [
+                "佐倉うさこ"
+            ],
+            "position": "な,メイコ-09"
+        },
+        {
+            "aliases": [
+                "なお＠リン・レンは俺の姉弟"
+            ],
+            "pen_names": [
+                "なお"
+            ],
+            "position": "な,リン-03",
+            "links": [
+                "http://mixi.jp/show_profile.pl?id=2244061"
+            ]
+        },
+        {
+            "aliases": [
+                "ナノハチ"
+            ],
+            "pen_names": [
+                "たこみや"
+            ],
+            "position": "な,鏡音-08",
+            "links": [
+                "http://www3.to/circle78/"
+            ]
+        },
+        {
+            "aliases": [
+                "ナントカナル"
+            ],
+            "pen_names": [
+                "まもる"
+            ],
+            "position": "な,リン-04",
+            "links": [
+                "http://drawlife.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "2MR"
+            ],
+            "pen_names": [
+                "軍曹"
+            ],
+            "position": "な,リン-07"
+        },
+        {
+            "aliases": [
+                "202個目の♪"
+            ],
+            "pen_names": [
+                "山中ユン"
+            ],
+            "position": "な,レン-10",
+            "links": [
+                "http://sos202zoz.soudesune.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "28nCo（ニャンコ）"
+            ],
+            "pen_names": [
+                "めし"
+            ],
+            "position": "な,カイト-11",
+            "links": [
+                "http://28nco.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "ねぎ☆だく"
+            ],
+            "pen_names": [
+                "sara"
+            ],
+            "position": "な,リン-01,02",
+            "links": [
+                "http://fullmiku.web.fc2.com/miku.html"
+            ]
+        },
+        {
+            "aliases": [
+                "熱帯タウリン1000mg"
+            ],
+            "pen_names": [
+                "葛城ゆづ"
+            ],
+            "position": "な,カイト-01",
+            "links": [
+                "http://zenryokutokuha.at.webry.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "HI-TECH CARROT"
+            ],
+            "pen_names": [
+                "佳由樹"
+            ],
+            "position": "は,レン-02",
+            "links": [
+                "http://h-tc.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "HONEY MAPLE"
+            ],
+            "pen_names": [
+                "まめ太"
+            ],
+            "position": "は,メイコ-04",
+            "links": [
+                "http://yaplog.jp/rinlen/"
+            ]
+        },
+        {
+            "aliases": [
+                "Vanilla \n    Blue"
+            ],
+            "pen_names": [
+                "早蕨ヒソカ"
+            ],
+            "position": "は,カイト-05",
+            "links": [
+                "http://cloudy.hacca.jp/blue/"
+            ]
+        },
+        {
+            "aliases": [
+                "ぱるふぇ＋PLAYGIRL"
+            ],
+            "pen_names": [
+                "早矢志さくら＋亜結まゆ"
+            ],
+            "position": "は,鏡音-02",
+            "links": [
+                "http://ssmind.fc2web.com/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "び汁"
+            ],
+            "pen_names": [
+                "し丼"
+            ],
+            "position": "は,ミク-02",
+            "links": [
+                "http://bijyuu.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ひめ拳"
+            ],
+            "pen_names": [
+                "風紙乃"
+            ],
+            "position": "は,初音-08",
+            "links": [
+                "http://himekobushi.tuzikaze.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Fact or Fiction"
+            ],
+            "pen_names": [
+                "新理月緒"
+            ],
+            "position": "は,ミク-05",
+            "links": [
+                "http://geocities.yahoo.co.jp/gl/fact_or_fiction00"
+            ]
+        },
+        {
+            "aliases": [
+                "FavoriteS"
+            ],
+            "pen_names": [
+                "よらりぃ☆"
+            ],
+            "position": "は,カイト-09",
+            "links": [
+                "http://yorarry.com"
+            ]
+        },
+        {
+            "aliases": [
+                "Prophet-N"
+            ],
+            "pen_names": [
+                "紘瀬悠志"
+            ],
+            "position": "は,リン-10",
+            "links": [
+                "http://www3.ocn.ne.jp/‾nagisa-r/"
+            ]
+        },
+        {
+            "aliases": [
+                "ぽて都"
+            ],
+            "pen_names": [
+                "小景いのり"
+            ],
+            "position": "は,リン-12",
+            "links": [
+                "http://www.geocities.jp/pikohan55/"
+            ]
+        },
+        {
+            "aliases": [
+                "MURDER工房"
+            ],
+            "pen_names": [
+                "江神号"
+            ],
+            "position": "ま,カイト-10",
+            "links": [
+                "http://members3.jcom.home.ne.jp/3448142801/"
+            ]
+        },
+        {
+            "aliases": [
+                "マリオット"
+            ],
+            "pen_names": [
+                "キミコ"
+            ],
+            "position": "ま,レン-03",
+            "links": [
+                "http://ip.tosp.co.jp/i.asp?i=820sui"
+            ]
+        },
+        {
+            "aliases": [
+                "Miotec 2nd \n    TEAM"
+            ],
+            "pen_names": [
+                "目から鱗"
+            ],
+            "position": "ま,鏡音-09,10",
+            "links": [
+                "http://www.maid-speed.com"
+            ]
+        },
+        {
+            "aliases": [
+                "ミクYラヴ同盟＆ヤング企画"
+            ],
+            "pen_names": [
+                "シュガー"
+            ],
+            "position": "ま,鏡音-03"
+        },
+        {
+            "aliases": [
+                "ミニレッキス"
+            ],
+            "pen_names": [
+                "芝"
+            ],
+            "position": "ま,レン-04"
+        },
+        {
+            "aliases": [
+                "みるくくらうん。"
+            ],
+            "pen_names": [
+                "神谷 壱"
+            ],
+            "position": "ま,レン-07",
+            "links": [
+                "http://milkcrown0529.blog121.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "mocomoca"
+            ],
+            "pen_names": [
+                "nosuke"
+            ],
+            "position": "ま,メイコ-10",
+            "links": [
+                "http://sugar.lolipop.jp/moca/"
+            ]
+        },
+        {
+            "aliases": [
+                "ラブandピース"
+            ],
+            "pen_names": [
+                "はるひゃん"
+            ],
+            "position": "ら,レン-08",
+            "links": [
+                "http://kobutyaya.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "りとる \n    な"
+            ],
+            "pen_names": [
+                "夏月"
+            ],
+            "position": "ら,リン-06",
+            "links": [
+                "http://cornpota.blog82.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "流派未格闘"
+            ],
+            "pen_names": [
+                "結城 御影"
+            ],
+            "position": "ら,レン-05",
+            "links": [
+                "http://nanocrasher.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "リリカルマジカル"
+            ],
+            "pen_names": [
+                "河南あすか"
+            ],
+            "position": "ら,メイコ-01",
+            "links": [
+                "http://blog.lyricalmagical.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "林檎の欠片"
+            ],
+            "pen_names": [
+                "山羊めぇ"
+            ],
+            "position": "ら,メイコ-06",
+            "links": [
+                "http://nagoya.cool.ne.jp/popscase/main.html"
+            ]
+        },
+        {
+            "aliases": [
+                "REI's ROOM"
+            ],
+            "pen_names": [
+                "REI"
+            ],
+            "position": "ら,鏡音-01",
+            "links": [
+                "http://reisama.com"
+            ]
+        },
+        {
+            "aliases": [
+                "ワラカン"
+            ],
+            "pen_names": [
+                "ワラ"
+            ],
+            "position": "わ,初音-06",
+            "links": [
+                "http://web-box.jp/wara/"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date, Participating circles: https://ttc.ninja-web.net/vo-para/vo-para_list.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "comments": "募集数の70スペースを少し上回りましたが、配置上の問題がないため、全サークル全スペース当選とさせていただきます。\n下記サークルリストのリンクミス・サークル名／ペンネームの誤字脱字などがございましたら、ご連絡願います。\n館内配置図（PDFファイル）"
+}

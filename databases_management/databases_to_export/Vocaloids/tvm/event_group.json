@@ -1,0 +1,278 @@
+{
+    "aliases": [
+        "THE VOC＠LOiD M＠STER",
+        "ボーマス",
+        "VOM@S"
+    ],
+    "media": [
+        {
+            "path": "bomasbnr_476_140.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20120325184001/http://ketto.com/tvm/bomasbnr_476_140.jpg",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "1_20071020193402_tvm_bana.gif",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20071020193402/http://ketto.com/tvm/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/"
+    ],
+    "events": {
+        "THE VOC@LOiD M@STER": {
+            "index": 0,
+            "dates": "2007.11.03"
+        },
+        "THE VOC@LOiD M@STER 2": {
+            "index": 1,
+            "dates": "2008.01.13"
+        },
+        "THE VOC@LOiD M@STER 3": {
+            "index": 2,
+            "dates": "2008.03.23"
+        },
+        "THE VOC@LOiD M@STER 4": {
+            "index": 3,
+            "dates": "2008.06.29"
+        },
+        "THE VOC@LOiD M@STER 5": {
+            "index": 4,
+            "dates": "2008.09.23"
+        },
+        "THE VOC@LOiD M@STER 6": {
+            "index": 5,
+            "dates": "2008.11.30"
+        },
+        "THE VOC@LOiD M@STER 7": {
+            "index": 6,
+            "dates": "2009.02.22"
+        },
+        "THE VOC@LOiD M@STER 8": {
+            "index": 7,
+            "dates": "2009.05.17"
+        },
+        "THE VOC@LOiD M@STER 9": {
+            "index": 8,
+            "dates": "2009.09.06"
+        },
+        "THE VOC@LOiD M@STER 10": {
+            "index": 9,
+            "dates": "2009.11.15"
+        },
+        "THE VOC@LOiD M@STER 11": {
+            "index": 10,
+            "dates": "2010.02.07"
+        },
+        "THE VOC@LOiD M@STER 12": {
+            "index": 11,
+            "dates": "2010.05.09"
+        },
+        "THE VOC@LOiD M@STER 13": {
+            "index": 12,
+            "dates": "2010.07.19"
+        },
+        "THE VOC@LOiD M@STER 14": {
+            "index": 13,
+            "dates": "2010.11.14"
+        },
+        "THE VOC@LOiD M@STER 15": {
+            "index": 14,
+            "dates": "2011.01.16"
+        },
+        "THE VOC@LOiD M@STER 16": {
+            "index": 15,
+            "dates": "2011.06.12"
+        },
+        "THE VOC@LOiD M@STER 17": {
+            "index": 16,
+            "dates": "2011.09.04"
+        },
+        "THE VOC@LOiD M@STER 18": {
+            "index": 17,
+            "dates": "2011.11.19"
+        },
+        "THE VOC@LOiD M@STER 19": {
+            "index": 18,
+            "dates": "2012.02.05"
+        },
+        "THE VOC@LOiD 超 M@STER 20": {
+            "index": 19,
+            "dates": "2012.04.28"
+        },
+        "THE VOC@LOiD M@STER 21": {
+            "index": 20,
+            "dates": "2012.07.08"
+        },
+        "THE VOC@LOiD M＠STER 22 Night Special": {
+            "index": 21,
+            "dates": "2012.08.31"
+        },
+        "THE VOC@LOiD M@STER 23": {
+            "index": 22,
+            "dates": "2012.12.15"
+        },
+        "THE VOC@LOiD 超 M@STER 24": {
+            "index": 23,
+            "dates": "2013.04.27"
+        },
+        "THE VOC@LOiD M@STER 25": {
+            "index": 24,
+            "dates": "2013.07.07"
+        },
+        "THE VOC@LOiD M@STER 26 Night Special": {
+            "index": 25,
+            "dates": "2013.08.30"
+        },
+        "THE VOC@LOiD M@STER 27": {
+            "index": 26,
+            "dates": "2013.11.27"
+        },
+        "THE VOC@LOiD 超 M@STER 28": {
+            "index": 27,
+            "dates": "2014.04.26"
+        },
+        "THE VOC@LOiD M@STER 29": {
+            "index": 28,
+            "dates": "2014.07.13"
+        },
+        "THE VOC@LOiD M@STER 30": {
+            "index": 29,
+            "dates": "2014.11.15"
+        },
+        "THE VOC@LOiD 超 M@STER 31": {
+            "index": 30,
+            "dates": "2015.04.25"
+        },
+        "THE VOC@LOiD M@STER 32": {
+            "index": 31,
+            "dates": "2015.07.12"
+        },
+        "THE VOC@LOiD M@STER 33": {
+            "index": 32,
+            "dates": "2015.11.14"
+        },
+        "THE VOC@LOiD 超 M@STER 34": {
+            "index": 33,
+            "dates": "2016.04.29"
+        },
+        "THE VOC@LOiD M@STER 35": {
+            "index": 34,
+            "dates": "2016.07.10"
+        },
+        "THE VOC@LOiD M@STER 36": {
+            "index": 35,
+            "dates": "2016.11.05"
+        },
+        "THE VOC@LOiD 超 M@STER 37": {
+            "index": 36,
+            "dates": "2017.04.29"
+        },
+        "THE VOC＠LOiD M＠STER 38": {
+            "index": 37,
+            "dates": "2017.11.12"
+        },
+        "THE VOC@LOiD 超 M@STER 39": {
+            "index": 38,
+            "dates": "2018.04.28"
+        },
+        "THE VOC＠LOiD M＠STER 40": {
+            "index": 39,
+            "dates": "2018.07.16"
+        },
+        "THE VOC＠LOiD M＠STER 41": {
+            "index": 40,
+            "dates": "2018.11.18"
+        },
+        "THE VOC@LOiD 超 M@STER 42": {
+            "index": 41,
+            "dates": "2019.04.27"
+        },
+        "THE VOC＠LOiD M＠STER 43": {
+            "index": 42,
+            "dates": "2019.11.17"
+        },
+        "THE VOC@LOiD 超 M@STER 44": {
+            "index": 43,
+            "dates": "2020.04.18"
+        },
+        "THE VOC＠LOiD M＠STER 45": {
+            "index": 44,
+            "dates": "2020.11.15"
+        },
+        "THE VOC＠LOiD M＠STER 46": {
+            "index": 45,
+            "dates": "2021.05.23 → 2021.11.20"
+        },
+        "THE VOC＠LOiD M＠STER 47": {
+            "index": 46,
+            "dates": "2022.02.12 → 2022.07.03"
+        },
+        "THE VOC@LOiD 超 M@STER 48": {
+            "index": 47,
+            "dates": "2022.04.29"
+        },
+        "THE VOC＠LOiD M＠STER 49": {
+            "index": 48,
+            "dates": "2022.11.12"
+        },
+        "THE VOC＠LOiD M＠STER 50": {
+            "index": 49,
+            "dates": "2023.02.19"
+        },
+        "THE VOC@LOiD 超 M@STER 51": {
+            "index": 50,
+            "dates": "2023.04.29"
+        },
+        "THE VOC＠LOiD M＠STER 52": {
+            "index": 51,
+            "dates": "2023.07.23"
+        },
+        "THE VOC＠LOiD M＠STER 53": {
+            "index": 52,
+            "dates": "2023.11.17"
+        },
+        "THE VOC@LOiD M@STER 54.S": {
+            "index": 53,
+            "dates": "2024.01.21"
+        },
+        "THE VOC@LOiD 超 M@STER 55": {
+            "index": 54,
+            "dates": "2024.04.27-2024.04.28"
+        },
+        "THE VOC＠LOiD M＠STER 56": {
+            "index": 55,
+            "dates": "2024.07.21"
+        },
+        "THE VOC＠LOiD M＠STER 57": {
+            "index": 56,
+            "dates": "2024.11.23"
+        },
+        "THE VOC＠LOiD M＠STER 58": {
+            "index": 57,
+            "dates": "2025.01.26"
+        },
+        "THE VOC@LOiD 超 M@STER 59": {
+            "index": 58,
+            "dates": "2025.04.26"
+        },
+        "THE VOC＠LOiD M＠STER 60": {
+            "index": 59,
+            "dates": "2025.07.19"
+        }
+    }
+}

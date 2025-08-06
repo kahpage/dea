@@ -1,0 +1,134 @@
+{
+    "aliases": [
+        "C93",
+        "コミックマーケット93",
+        "Comiket 93",
+        "Comic Market 93"
+    ],
+    "dates": "2017.12.29 - 2017.12.31",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250114175314/https://www.comiket.co.jp/info-a/C93/C93distributions.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "93_CWC_C93.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20171228130502/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "93_CWC_C93L.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20171228130502/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "93_C93CtlgWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114175314/https://www.comiket.co.jp/info-a/C93/C93distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：Mika Pikazo（サークル：MikaPikaZo）"
+        },
+        {
+            "path": "93_C93KamibukuroL.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114175314/https://www.comiket.co.jp/info-a/C93/C93distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：加藤アカツキ(サークル：残像アパートメント)"
+        },
+        {
+            "path": "93_C93KamibukuroS.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114175314/https://www.comiket.co.jp/info-a/C93/C93distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：空乃金魚（サークル：☆ぱぐＰａｌｅｔｔｅ☆）"
+        },
+        {
+            "path": "93_C93kigyouPamf.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114175314/https://www.comiket.co.jp/info-a/C93/C93distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：早川あかり（サークル：MUSES　GARDEN)"
+        },
+        {
+            "path": "93_C93CtlgRomWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114175314/https://www.comiket.co.jp/info-a/C93/C93distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：Mika Pikazo（サークル：MikaPikaZo）"
+        },
+        {
+            "path": "93_C93Moushikomisho.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114195114/https://www.comiket.co.jp/info-a/C92/C92distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：蜜野はち（サークル：posy）"
+        },
+        {
+            "path": "https://web.archive.org/web/20171223135916/http://www2.comiket.co.jp/info-a/C93/C93CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20171223135916/http://www2.comiket.co.jp/info-a/C93/C93CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "aliases": [
+        "かがみねのお茶会",
+        "KagaOcha",
+        "かがみね茶道部",
+        "Kagamine no ocha kai"
+    ],
+    "sources": [
+        {
+            "source": "Nickname 'かがみね茶道部': from copyright on the main website.",
+            "type": [
+                "Likely",
+                "Official"
+            ]
+        }
+    ],
+    "links": [
+        "https://web.archive.org/web/20160223054351/http://kagamine-no-ochakai.jp/index.html",
+        "https://x.com/KagaOcha",
+        "http://com.nicovideo.jp/community/co2987729"
+    ],
+    "events": {
+        "かがみねのお茶会": {
+            "index": 0,
+            "dates": "2016.03.06"
+        },
+        "かがみねのお茶会　二席目": {
+            "index": 1,
+            "dates": "2017.03.05"
+        },
+        "かがみねのお茶会　三席目": {
+            "index": 2,
+            "dates": "2018.03.25"
+        },
+        "かがみねのお茶会　四席目": {
+            "index": 3,
+            "dates": "2019.01.27"
+        }
+    }
+}

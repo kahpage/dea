@@ -1,0 +1,90 @@
+{
+    "aliases": [
+        "THE VOC@LOiD 超 M@STER 20",
+        "THE VOC@LOiD M@STER 20",
+        "ボーマス20",
+        "VOM@S20"
+    ],
+    "dates": "2012.04.28",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm20ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm20",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "20_tvm20hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm20ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "20_20130429203301_deh.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130429203301/http://ketto.com/tvm/tvm20con/deh.jpg",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "20_20130429214856_yun.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130429214856/http://ketto.com/tvm/tvm20con/yun.jpg",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "20_20130429201351_title.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130429201351/http://ketto.com/tvm/tvm20con/title.jpg",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "20_20120325184131_ane.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20120325184131/http://ketto.com/tvm/tvm20con/ane.jpg",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm20ippan.htm"
+    ]
+}

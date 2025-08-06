@@ -1,0 +1,313 @@
+{
+    "aliases": [
+        "M3",
+        "エムスリー",
+        "Music Media-Mix Market"
+    ],
+    "sources": [
+        {
+            "source": "Alias 'Music Media-Mix Market': https://web.archive.org/web/19990428190424/http://mmm.panic.or.jp/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "19981201072645_title.gif",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/19981201072645/http://mmm.panic.or.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "19981201072645_mmm.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/19981201072645/http://mmm.panic.or.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "19990421002548_illust1.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/19990421002548/http://mmm.panic.or.jp:80/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "20060701055448_m3banner.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web//http://www.m3net.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "20131211170122_favicon.ico",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20131211170122/http://www.m3net.jp/favicon.ico",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://www.m3net.jp/",
+        "http://mmm.panic.or.jp/",
+        "https://x.com/m3doujin"
+    ],
+    "events": {
+        "M3-01": {
+            "index": 0,
+            "dates": "1998.03.21"
+        },
+        "M3-02": {
+            "index": 1,
+            "dates": "1998.09.20"
+        },
+        "M3-03": {
+            "index": 2,
+            "dates": "1999.04.18"
+        },
+        "M3-04": {
+            "index": 3,
+            "dates": "1999.10.03"
+        },
+        "M3-05": {
+            "index": 4,
+            "dates": "2000.04.23"
+        },
+        "M3-06": {
+            "index": 5,
+            "dates": "2000.11.05"
+        },
+        "M3-07": {
+            "index": 6,
+            "dates": "2001.04.30"
+        },
+        "M3-08": {
+            "index": 7,
+            "dates": "2001.10.21"
+        },
+        "M3-09": {
+            "index": 8,
+            "dates": "2002.04.28"
+        },
+        "M3-10": {
+            "index": 9,
+            "dates": "2002.10.27"
+        },
+        "M3-11": {
+            "index": 10,
+            "dates": "2003.05.04"
+        },
+        "M3-12": {
+            "index": 11,
+            "dates": "2003.10.11"
+        },
+        "M3-13": {
+            "index": 12,
+            "dates": "2004.05.02"
+        },
+        "M3-14": {
+            "index": 13,
+            "dates": "2004.10.09"
+        },
+        "M3-15": {
+            "index": 14,
+            "dates": "2005.05.01"
+        },
+        "M3-16": {
+            "index": 15,
+            "dates": "2005.11.13"
+        },
+        "M3-17": {
+            "index": 16,
+            "dates": "2006.04.29"
+        },
+        "M3-18": {
+            "index": 17,
+            "dates": "2006.10.09"
+        },
+        "M3-19": {
+            "index": 18,
+            "dates": "2007.04.29"
+        },
+        "M3-20": {
+            "index": 19,
+            "dates": "2007.10.08"
+        },
+        "M3-大阪": {
+            "index": 20,
+            "dates": "2008.03.09"
+        },
+        "M3-21": {
+            "index": 21,
+            "dates": "2008.05.11"
+        },
+        "M3-22": {
+            "index": 22,
+            "dates": "2008.10.13"
+        },
+        "M3-Festa": {
+            "index": 23,
+            "dates": "2008.11.24"
+        },
+        "M3-23": {
+            "index": 24,
+            "dates": "2009.05.05"
+        },
+        "M3-24": {
+            "index": 25,
+            "dates": "2009.10.11"
+        },
+        "M3-25": {
+            "index": 26,
+            "dates": "2010.05.05"
+        },
+        "M3-26": {
+            "index": 27,
+            "dates": "2010.10.31"
+        },
+        "M3-27": {
+            "index": 28,
+            "dates": "2011.05.01"
+        },
+        "M3-28": {
+            "index": 29,
+            "dates": "2011.10.30"
+        },
+        "M3-29": {
+            "index": 30,
+            "dates": "2012.04.30"
+        },
+        "M3-30": {
+            "index": 31,
+            "dates": "2012.10.28"
+        },
+        "M3-31": {
+            "index": 32,
+            "dates": "2013.04.29"
+        },
+        "M3-32": {
+            "index": 33,
+            "dates": "2013.10.27"
+        },
+        "M3-33": {
+            "index": 34,
+            "dates": "2014.04.27"
+        },
+        "M3-34": {
+            "index": 35,
+            "dates": "2014.10.26"
+        },
+        "M3-35": {
+            "index": 36,
+            "dates": "2015.04.26"
+        },
+        "M3-36": {
+            "index": 37,
+            "dates": "2015.10.25"
+        },
+        "M3-37": {
+            "index": 38,
+            "dates": "2016.04.24"
+        },
+        "M3-38": {
+            "index": 39,
+            "dates": "2016.10.30"
+        },
+        "M3-39": {
+            "index": 40,
+            "dates": "2017.04.30"
+        },
+        "M3-40": {
+            "index": 41,
+            "dates": "2017.10.29"
+        },
+        "M3-41": {
+            "index": 42,
+            "dates": "2018.04.29"
+        },
+        "M3-42": {
+            "index": 43,
+            "dates": "2018.10.28"
+        },
+        "M3-43": {
+            "index": 44,
+            "dates": "2019.04.28"
+        },
+        "M3-44": {
+            "index": 45,
+            "dates": "2019.10.27"
+        },
+        "M3-45": {
+            "index": 46,
+            "dates": "2020.03.01"
+        },
+        "M3-46": {
+            "index": 47,
+            "dates": "2020.10.25"
+        },
+        "M3-47": {
+            "index": 48,
+            "dates": "2021.04.25"
+        },
+        "M3-48": {
+            "index": 49,
+            "dates": "2021.10.31"
+        },
+        "M3-49": {
+            "index": 50,
+            "dates": "2022.04.24"
+        },
+        "M3-50": {
+            "index": 51,
+            "dates": "2022.10.30"
+        },
+        "M3-51": {
+            "index": 52,
+            "dates": "2023.04.30"
+        },
+        "M3-52": {
+            "index": 53,
+            "dates": "2023.10.29"
+        },
+        "M3-53": {
+            "index": 54,
+            "dates": "2024.04.28"
+        },
+        "M3-54": {
+            "index": 55,
+            "dates": "2024.10.27"
+        },
+        "M3-55": {
+            "index": 56,
+            "dates": "2025.04.27"
+        }
+    }
+}

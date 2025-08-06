@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER 12",
+        "ボーマス12",
+        "VOM@S12"
+    ],
+    "dates": "2010.05.09",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm12ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm12",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "12_tvm12hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm12ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm12ippan.htm"
+    ]
+}

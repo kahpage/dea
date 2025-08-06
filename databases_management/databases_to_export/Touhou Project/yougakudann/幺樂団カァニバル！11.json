@@ -1,0 +1,420 @@
+{
+    "aliases": [
+        "幺樂団カァニバル！11"
+    ],
+    "dates": "2022.03.27",
+    "circles": [
+        {
+            "aliases": [
+                "ALQUERMES"
+            ],
+            "pen_names": [
+                "みーか"
+            ],
+            "position": "人01"
+        },
+        {
+            "aliases": [
+                "B・G・Rock"
+            ],
+            "pen_names": [
+                "ペリジー"
+            ],
+            "position": "人02",
+            "links": [
+                "https://twitter.com/BGROCK_ZEROS"
+            ]
+        },
+        {
+            "aliases": [
+                "PIANISSIMO"
+            ],
+            "pen_names": [
+                "ルーシア"
+            ],
+            "position": "人03"
+        },
+        {
+            "aliases": [
+                "シャレコーベ草原"
+            ],
+            "pen_names": [
+                "donjuan"
+            ],
+            "position": "幺01",
+            "links": [
+                "https://www.donjuantriumph.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "夢幻18景"
+            ],
+            "pen_names": [
+                "ゼーゲン"
+            ],
+            "position": "幺02",
+            "links": [
+                "https://www.pixiv.net/users/12113266"
+            ]
+        },
+        {
+            "aliases": [
+                "屑鉄おきば。"
+            ],
+            "pen_names": [
+                "黝無ニッケル"
+            ],
+            "position": "幺03"
+        },
+        {
+            "aliases": [
+                "テレピン1000ml"
+            ],
+            "pen_names": [
+                "蒲谷カバヂ"
+            ],
+            "position": "幺04",
+            "links": [
+                "http://turpentine517.blog71.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Cynthia"
+            ],
+            "pen_names": [
+                "桜木李杏"
+            ],
+            "position": "幺05",
+            "links": [
+                "http://cynthia.cc/"
+            ]
+        },
+        {
+            "aliases": [
+                "鎖付鉄球工房"
+            ],
+            "pen_names": [
+                "スペキュラム合金"
+            ],
+            "position": "幺06"
+        },
+        {
+            "aliases": [
+                "Narcissus"
+            ],
+            "pen_names": [
+                "片岡昴"
+            ],
+            "position": "幺07"
+        },
+        {
+            "aliases": [
+                "七輪大社"
+            ],
+            "pen_names": [
+                "Y2"
+            ],
+            "position": "幺08",
+            "links": [
+                "http://sichirin.blog45.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "四葉挿話"
+            ],
+            "pen_names": [
+                "かむいこたん"
+            ],
+            "position": "幺09"
+        },
+        {
+            "aliases": [
+                "土曜日の眠り姫"
+            ],
+            "pen_names": [
+                "神依巫女"
+            ],
+            "position": "幺10",
+            "links": [
+                "https://kamuimiko.wixsite.com/sleepingprincesssat"
+            ]
+        },
+        {
+            "aliases": [
+                "常葉日和"
+            ],
+            "pen_names": [
+                "赤川羽蘭"
+            ],
+            "position": "幺11"
+        },
+        {
+            "aliases": [
+                "月桃プラネタリウム"
+            ],
+            "pen_names": [
+                "宵やま"
+            ],
+            "position": "幺12"
+        },
+        {
+            "aliases": [
+                "七色快男児"
+            ],
+            "pen_names": [
+                "仁科将人"
+            ],
+            "position": "幺13"
+        },
+        {
+            "aliases": [
+                "胡玉書厨"
+            ],
+            "pen_names": [
+                "胡玉"
+            ],
+            "position": "幺14",
+            "links": [
+                "http://kodamagohan.g2.xrea.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "はじけ組っ！"
+            ],
+            "pen_names": [
+                "はじけ☆あきら"
+            ],
+            "position": "幺15",
+            "links": [
+                "https://twitter.com/a_hazike"
+            ]
+        },
+        {
+            "aliases": [
+                "コルモランド"
+            ],
+            "pen_names": [
+                "コルモラン"
+            ],
+            "position": "幺16",
+            "links": [
+                "https://twitter.com/KormoranX"
+            ]
+        },
+        {
+            "aliases": [
+                "思いついたままnote"
+            ],
+            "pen_names": [
+                "土生タケヒロ"
+            ],
+            "position": "樂01",
+            "links": [
+                "http://s30rou.s21.xrea.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆめうるえ"
+            ],
+            "pen_names": [
+                "そらのゆめこ"
+            ],
+            "position": "樂02"
+        },
+        {
+            "aliases": [
+                "星空らぼらとりー"
+            ],
+            "pen_names": [
+                "Duskia"
+            ],
+            "position": "樂03"
+        },
+        {
+            "aliases": [
+                "夢峰地帯研究室"
+            ],
+            "pen_names": [
+                "るーくす"
+            ],
+            "position": "樂04",
+            "links": [
+                "http://muhouchitai.moo.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "春空天文部"
+            ],
+            "pen_names": [
+                "みつき"
+            ],
+            "position": "樂05"
+        },
+        {
+            "aliases": [
+                "24G"
+            ],
+            "pen_names": [
+                "おそがみなぎさ"
+            ],
+            "position": "樂06"
+        },
+        {
+            "aliases": [
+                "メアリアンブルー"
+            ],
+            "pen_names": [
+                "五百野イオ"
+            ],
+            "position": "樂07"
+        },
+        {
+            "aliases": [
+                "しゃーぷにくびーふ"
+            ],
+            "pen_names": [
+                "そらいろ"
+            ],
+            "position": "樂08",
+            "links": [
+                "https://shiosyakeyakini.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "外柿山"
+            ],
+            "pen_names": [
+                "権太夫"
+            ],
+            "position": "樂09",
+            "links": [
+                "http://togakisan.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "as Qool as Qucumber"
+            ],
+            "pen_names": [
+                "瑞々"
+            ],
+            "position": "樂10",
+            "links": [
+                "http://acacmizu.blog130.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ろりすこんぷれっくす"
+            ],
+            "pen_names": [
+                "ささるの"
+            ],
+            "position": "樂11"
+        },
+        {
+            "aliases": [
+                "insky."
+            ],
+            "pen_names": [
+                "R-ika"
+            ],
+            "position": "団01",
+            "links": [
+                "https://www.pixiv.net/users/10842"
+            ]
+        },
+        {
+            "aliases": [
+                "ほうとうネットワーク"
+            ],
+            "pen_names": [
+                "諸星一"
+            ],
+            "position": "団02",
+            "links": [
+                "http://blog.livedoor.jp/houtou_network/"
+            ]
+        },
+        {
+            "aliases": [
+                "Convallo-stick"
+            ],
+            "pen_names": [
+                "halogen"
+            ],
+            "position": "団03",
+            "links": [
+                "http://convallostick.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "大盛二丁"
+            ],
+            "pen_names": [
+                "木ノ下さく夜"
+            ],
+            "position": "団04"
+        },
+        {
+            "aliases": [
+                "幻想大膳寮/ユメミナティ"
+            ],
+            "pen_names": [
+                "七曜主醤"
+            ],
+            "position": "団05"
+        },
+        {
+            "aliases": [
+                "みちく茶話会"
+            ],
+            "pen_names": [
+                "茶野みの"
+            ],
+            "position": "団06",
+            "links": [
+                "https://michikusawakai.info/"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20220307155313/http://yougakudann.dojin.com/splist.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20220307155313/http://yougakudann.dojin.com/splist.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "11_20220307155313_yougaku9hp.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20220307155313/http://yougakudann.dojin.com/splist.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "description": "Simultaneous to 幻想人形祭5 (9th edition)."
+}

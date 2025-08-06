@@ -1,0 +1,518 @@
+{
+    "aliases": [
+        "かがみねのお茶会　四席目",
+        "かがみねのお茶会4",
+        "かがみね茶道部4",
+        "Kagamine no ocha kai 4"
+    ],
+    "dates": "2019.01.27",
+    "circles": [
+        {
+            "aliases": [
+                "theうさぎや"
+            ],
+            "pen_names": [
+                "yoku",
+                "天宮瑞貴",
+                "ラーク"
+            ],
+            "position": "鏡 -  1,  2",
+            "links": [
+                "https://twitter.com/y_kgmncha"
+            ],
+            "comments": "Note: "
+        },
+        {
+            "aliases": [
+                "かがみね茶"
+            ],
+            "pen_names": [
+                "半月",
+                "yoku"
+            ],
+            "position": "鏡 -  3",
+            "links": [
+                "http://kagamine-cha.jp/",
+                "https://twitter.com/kgmncha"
+            ],
+            "comments": "Note: "
+        },
+        {
+            "aliases": [
+                "Yellow Dreamer"
+            ],
+            "pen_names": [
+                "たみゅー,工藤ぽんず"
+            ],
+            "position": "鏡 -  4",
+            "links": [
+                "https://twitter.com/tamyu__Oekk"
+            ],
+            "comments": "Note: 可愛い鏡音グッズを用意してお待ちしております！«٩(*´ ꒳ `*)۶»両者初参加の為至らぬところもあるかと思いますがよろしくお願いします！"
+        },
+        {
+            "aliases": [
+                "草蛇姫"
+            ],
+            "pen_names": [
+                "花闇秋奈"
+            ],
+            "position": "鏡 -  5",
+            "links": [
+                "https://twitter.com/HANAYAMILEN23",
+                "https://www.pixiv.net/member.php?id=1371292"
+            ],
+            "comments": "Note: 鏡音モジュールを中心としたグッズ、色紙等を出します。間に合えば、魔法少年マインくん登場モジュール本（コピー本）出すかも"
+        },
+        {
+            "aliases": [
+                "準備会スペース"
+            ],
+            "position": "鏡 -  6",
+            "comments": "Note: "
+        },
+        {
+            "aliases": [
+                "SEVENTHSTAR"
+            ],
+            "pen_names": [
+                "59"
+            ],
+            "position": "鏡 -  7",
+            "links": [
+                "https://twitter.com/gocue_59",
+                "https://www.pixiv.net/member.php?id=1689485",
+                "https://www.nicovideo.jp/user/13411137"
+            ],
+            "comments": "Note: レンリン漫画（シリアス・ほのぼの）やカイレン漫画（学ラン★パーカー×生徒会執行部BL）など頒布します。"
+        },
+        {
+            "aliases": [
+                "ドクダミ"
+            ],
+            "pen_names": [
+                "ぺぺん"
+            ],
+            "position": "鏡 -  8",
+            "links": [
+                "https://twitter.com/pepen_twin",
+                "https://www.pixiv.net/member.php?id=2401396"
+            ],
+            "comments": "Note: レンリン小説サークルです。既刊の成人向けアンソロジーの頒布も予定しています。"
+        },
+        {
+            "aliases": [
+                "刺しゅうグッズ工房"
+            ],
+            "pen_names": [
+                "しゃかんきょりたもつ"
+            ],
+            "position": "鏡 -  9, 10",
+            "links": [
+                "https://x68xvi.booth.pm/"
+            ],
+            "comments": "Note: "
+        },
+        {
+            "aliases": [
+                "梅初月"
+            ],
+            "pen_names": [
+                "海桜",
+                "ぷろめ",
+                "えみりん"
+            ],
+            "position": "鏡 - 11",
+            "links": [
+                "http://umehatuzuki.x.fc2.com/",
+                "https://twitter.com/kaiou0218",
+                "https://www.pixiv.net/member.php?id=6558607"
+            ],
+            "comments": "Note: 海桜・ぷろめ・えみりんによる合同サークルです。鏡音中心で同人誌やグッズ配布予定です。デフォルト、モジュール色々あります。よろしければお立ち寄りください！"
+        },
+        {
+            "aliases": [
+                "ささめごと"
+            ],
+            "pen_names": [
+                "ささめ"
+            ],
+            "position": "鏡 - 12",
+            "links": [
+                "http://dolcecantando.web.fc2.com/",
+                "https://twitter.com/snow_330",
+                "https://www.pixiv.net/member.php?id=2047663"
+            ],
+            "comments": "Note: 姉弟だったり幼馴染だったり。色々な設定の鏡音な二人の小説をおいています。"
+        },
+        {
+            "aliases": [
+                "tunobeya."
+            ],
+            "pen_names": [
+                "つつの"
+            ],
+            "position": "鏡 - 13",
+            "links": [
+                "https://twitter.com/tsutsuno",
+                "https://www.pixiv.net/member.php?id=1841071"
+            ],
+            "comments": "Note: つつの個人サークル。レンリン小説メインに色々書いています。"
+        },
+        {
+            "aliases": [
+                "Wonderland"
+            ],
+            "pen_names": [
+                "涼"
+            ],
+            "position": "鏡 - 14",
+            "links": [
+                "https://twitter.com/suzumi503",
+                "https://www.pixiv.net/member.php?id=247657"
+            ],
+            "comments": "Note: 鏡音のシリアス漫画・思春期漫画、その他諸々"
+        },
+        {
+            "aliases": [
+                "準備会スペース"
+            ],
+            "position": "鏡 - 15",
+            "comments": "Note: "
+        },
+        {
+            "aliases": [
+                "イエロープラネット"
+            ],
+            "pen_names": [
+                "八雲ひかり"
+            ],
+            "position": "鏡 - 16",
+            "links": [
+                "https://twitter.com/YakumoHikari"
+            ],
+            "comments": "Note: 陽炎×ストレンジダークを推していきたいサークルです！新作グッズも陽闇予定。よろしくお願いします！"
+        },
+        {
+            "aliases": [
+                "AkiRa☆"
+            ],
+            "pen_names": [
+                "Sa"
+            ],
+            "position": "鏡 - 17",
+            "links": [
+                "https://www.pixiv.net/member.php?id=18834202"
+            ],
+            "comments": "Note: かがみねのお茶会初参加です！レンリン全年齢向け漫画描いてます。新刊はバレンタイン本です◎よろしくお願いします。"
+        },
+        {
+            "aliases": [
+                "Markgraf"
+            ],
+            "pen_names": [
+                "髑髏中佐"
+            ],
+            "position": "鏡 - 18",
+            "links": [
+                "http://s-markgraf.net/",
+                "https://twitter.com/dokuro.markgraf"
+            ],
+            "comments": "Note: 冬コミ新刊の鏡音合同イラスト本を頒布予定。その他グッズも少しあります。"
+        },
+        {
+            "aliases": [
+                "NISAVANO"
+            ],
+            "pen_names": [
+                "みそ"
+            ],
+            "position": "鏡 - 19",
+            "links": [
+                "https://twitter.com/miso23so",
+                "https://www.pixiv.net/member.php?id=18559703"
+            ],
+            "comments": "Note: クリプトンズのオールキャラ・オールCPで自由に活動している箱推しサークルです。今回はリン＋レン中心オールキャラで参加してます。お時間ありましたら遊びに来てくださると嬉しいです～ よろしくお願いします！"
+        },
+        {
+            "aliases": [
+                "準備会スペース"
+            ],
+            "position": "鏡 - 20",
+            "comments": "Note: "
+        },
+        {
+            "aliases": [
+                "夜泣き恋慕"
+            ],
+            "pen_names": [
+                "夜さん"
+            ],
+            "position": "鏡 - 21",
+            "links": [
+                "https://twitter.com/ameperohati",
+                "https://www.pixiv.net/member.php?id=2666674",
+                "https://www.nicovideo.jp/user/20881952"
+            ],
+            "comments": "Note: 鏡音リンと傷をテーマにしたちょっと仄暗いイラスト集か短編集的な同人誌を出します。"
+        },
+        {
+            "aliases": [
+                "Ribbon9"
+            ],
+            "pen_names": [
+                "帽子屋"
+            ],
+            "position": "鏡 - 22",
+            "links": [
+                "http://ribbed9.tumblr.com/",
+                "https://twitter.com/denkyu_getemono"
+            ],
+            "comments": "Note: "
+        },
+        {
+            "aliases": [
+                "絶版少年"
+            ],
+            "pen_names": [
+                "ゼッパン"
+            ],
+            "position": "鏡 - 23",
+            "links": [
+                "http://zeppann.sakura.ne.jp/"
+            ],
+            "comments": "Note: さむいさむい、あったかがみねでさむさをふきとばそう！"
+        },
+        {
+            "aliases": [
+                "ボーパラ準備会"
+            ],
+            "pen_names": [
+                "ボーパラ準備会",
+                "なかじ～"
+            ],
+            "position": "鏡 - 24",
+            "links": [
+                "http://ttc.ninja-web.net/vp-ex/",
+                "https://twitter.com/vo_para"
+            ],
+            "comments": "Note: 鏡音PARADISE８（かがパラ８）、５月１９日に名古屋国際会議場イベントホールで開催！！ボーパラ番外編８（かがパラ８・カイパラ７・メイパラ６・カイメイパラ・GUMIパラ２）および併催イベントのサークル参加直接受付を行います。直接受付に限り、サークル参加費の現金支払可＆サークルカット後日送信可。鏡音サークルおよび鏡音クラスタの皆様、名古屋でお待ちしております。"
+        },
+        {
+            "aliases": [
+                "準備会スペース"
+            ],
+            "position": "鏡 - 25",
+            "comments": "Note: "
+        },
+        {
+            "aliases": [
+                "さくらみんと"
+            ],
+            "pen_names": [
+                "山桜屋"
+            ],
+            "position": "鏡 - 26",
+            "links": [
+                "https://twitter.com/yazaya_LR"
+            ],
+            "comments": "Note: 二度目の参加です！いろんな衣装を着た鏡音が大好きです。よろしくお願いします！"
+        },
+        {
+            "aliases": [
+                "彩月華"
+            ],
+            "pen_names": [
+                "翅彩平"
+            ],
+            "position": "鏡 - 27",
+            "links": [
+                "https://twitter.com/webAlicce"
+            ],
+            "comments": "Note: "
+        },
+        {
+            "aliases": [
+                "kirakiと"
+            ],
+            "pen_names": [
+                "あむろずきん"
+            ],
+            "position": "鏡 - 28",
+            "links": [
+                "https://twitter.com/amuro1111",
+                "https://www.pixiv.net/member.php?id=10525"
+            ],
+            "comments": "Note: かがみねのお茶会初参加ですりーんちゃーん！"
+        },
+        {
+            "aliases": [
+                "G.C.M Records"
+            ],
+            "pen_names": [
+                "アンメルツP"
+            ],
+            "position": "音 -  1",
+            "links": [
+                "https://www.gcmstyle.com/",
+                "https://twitter.com/gcmstyle",
+                "https://www.nicovideo.jp/user/3172678"
+            ],
+            "comments": "Note: アンメルツPの個人サークルです。鏡音リン・レンが歌うオリジナル曲のCDや、鏡音コンピレーションCDなどを頒布します。"
+        },
+        {
+            "aliases": [
+                "音巧堂"
+            ],
+            "pen_names": [
+                "クロロン"
+            ],
+            "position": "音 -  2",
+            "links": [
+                "https://twitter.com/_Chloron",
+                "https://www.nicovideo.jp/user/22300697"
+            ],
+            "comments": "Note: ボーカロイド民族調中心オリジナルゲームサントラをメイン配布。作編曲はボカロアカペラアレンジャーのクロロンことヴィオレントP。アートワークは「街角のトルバドゥール」「Dear RiL」デザイン担当の茶色工房。の千。"
+        },
+        {
+            "aliases": [
+                "ギンユーシジン"
+            ],
+            "pen_names": [
+                "冴戒椎也"
+            ],
+            "position": "音 -  3",
+            "links": [
+                "https://ameblo.jp/shiiyasakai/",
+                "https://twitter.com/sakaishiiya",
+                "https://www.nicovideo.jp/user/2878420"
+            ],
+            "comments": "Note: もじゅみねイメージソングコンピ、ボーカロイド×刀剣男士イメージソングコンピ、鏡音リン・レン10周年記念コンピといったコンピCDの他、個人CDも色々持って行きます！（グッズ類もあるかも）"
+        },
+        {
+            "aliases": [
+                "はいぱぁ～てんしょん"
+            ],
+            "pen_names": [
+                "ILU"
+            ],
+            "position": "音 -  4",
+            "links": [
+                "http://59ilu.blog.fc2.com/",
+                "https://twitter.com/59ILU",
+                "https://www.nicovideo.jp/user/10415344"
+            ],
+            "comments": "Note: 鏡音レンで曲を作っています。鏡音のお茶会第三席から参加しています。10月と11月に新譜を出しています。どうぞよろしくお願いいたします。"
+        },
+        {
+            "aliases": [
+                "きいろ屋"
+            ],
+            "pen_names": [
+                "じゃんぼ@家族愛P"
+            ],
+            "position": "音 -  5",
+            "links": [
+                "http://kazokuai-p.ldblog.jp/",
+                "https://twitter.com/jumbo256",
+                "https://www.nicovideo.jp/user/9786769"
+            ],
+            "comments": "Note: かがみねで爽やかで少し古臭いROCK&POPSやってます！新譜作れるかな･･･とてもヤバいな･･･"
+        },
+        {
+            "aliases": [
+                "レンカフェ"
+            ],
+            "pen_names": [
+                "Ｄリナーガ（主腐Ｐ）"
+            ],
+            "position": "音 -  6",
+            "links": [
+                "https://twitter.com/Drinaaga",
+                "https://www.nicovideo.jp/user/13887503"
+            ],
+            "comments": "Note: 鏡音レンのオリジナル曲やカバー曲のＣＤを置いています。ドールのレン君のグッズも予定しています。当日はドールのレン君が看板娘をしていますので遊びに来てくださいね！"
+        },
+        {
+            "aliases": [
+                "準備会スペース"
+            ],
+            "position": "音 -  7",
+            "comments": "Note: "
+        },
+        {
+            "aliases": [
+                "いーえっくすおあ"
+            ],
+            "pen_names": [
+                "ぴょろP"
+            ],
+            "position": "音 -  8",
+            "links": [
+                "http://exor.iza-yoi.net/",
+                "https://twitter.com/pyorop",
+                "https://www.nicovideo.jp/user/352671"
+            ],
+            "comments": "Note: 鏡音レンを中心にCD、グッズを頒布いたします。関西では初頒布となる鏡音スティックアクリルキーホールダーもございます。よろしくお願いします。"
+        },
+        {
+            "aliases": [
+                "鏡音さん家。"
+            ],
+            "pen_names": [
+                "おおなめくじ"
+            ],
+            "position": "音 -  9",
+            "links": [
+                "https://twitter.com/tatsuosan_vv",
+                "https://www.nicovideo.jp/user/7003480"
+            ],
+            "comments": "Note: また今年もお世話になります。鏡音10周年CDやアルバム各種、グッズも少し頒布いたします。素敵な鏡音をお手に取っていただけると嬉しいです。"
+        },
+        {
+            "aliases": [
+                "ねじ式"
+            ],
+            "pen_names": [
+                "ねじ式"
+            ],
+            "position": "音 - 10",
+            "links": [
+                "https://www.nejishiki.com/",
+                "https://twitter.com/nejishiki0221",
+                "https://www.nicovideo.jp/user/35275687"
+            ],
+            "comments": "Note: かがみねのお茶会、初参加させていただきます！今回はリンレンを使った2曲入りのCDを無料配布しようと思っています。1月に発売したベストアルバムも持っていきますのでどうぞよろしくお願いします！"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://x.com/KagaOcha/status/1018031533624516608",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20210514174139/http://kagamine-no-ochakai.jp/circlelist.php",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "4_20181201061034_top.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20181201061034/http://kagamine-no-ochakai.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

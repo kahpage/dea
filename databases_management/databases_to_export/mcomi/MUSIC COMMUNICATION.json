@@ -1,0 +1,476 @@
+{
+    "aliases": [
+        "MUSIC COMMUNICATION",
+        "M-COMI",
+        "Mコミ",
+        "MUSIC COMMUNICATION 1",
+        "M-COMI1",
+        "Mコミ1"
+    ],
+    "dates": "2009.03.09",
+    "circles": [
+        {
+            "aliases": [
+                "ペンギンレコード"
+            ],
+            "position": "A01"
+        },
+        {
+            "aliases": [
+                "いちごミント"
+            ],
+            "position": "A02"
+        },
+        {
+            "aliases": [
+                "DeZI:R"
+            ],
+            "position": "A03"
+        },
+        {
+            "aliases": [
+                "Lunatico"
+            ],
+            "position": "A04"
+        },
+        {
+            "aliases": [
+                "Souwer cherry"
+            ],
+            "position": "A05"
+        },
+        {
+            "aliases": [
+                "wH"
+            ],
+            "position": "A06"
+        },
+        {
+            "aliases": [
+                "Sentire"
+            ],
+            "position": "A08"
+        },
+        {
+            "aliases": [
+                "LC:AZE"
+            ],
+            "position": "A09"
+        },
+        {
+            "aliases": [
+                "桜ノ咲音響産業"
+            ],
+            "position": "A10"
+        },
+        {
+            "aliases": [
+                "L*aura"
+            ],
+            "position": "A11"
+        },
+        {
+            "aliases": [
+                "Encis"
+            ],
+            "position": "A12"
+        },
+        {
+            "aliases": [
+                "音塚"
+            ],
+            "position": "A13"
+        },
+        {
+            "aliases": [
+                "HUMMING LIFE"
+            ],
+            "position": "A15"
+        },
+        {
+            "aliases": [
+                "Label・I..O.S."
+            ],
+            "position": "A16"
+        },
+        {
+            "aliases": [
+                "Tomokoのおうち"
+            ],
+            "position": "A17"
+        },
+        {
+            "aliases": [
+                "gen-era-tor.com"
+            ],
+            "position": "A18"
+        },
+        {
+            "aliases": [
+                "curled-coil"
+            ],
+            "position": "A19"
+        },
+        {
+            "aliases": [
+                "らずべりー"
+            ],
+            "position": "A20"
+        },
+        {
+            "aliases": [
+                "Floating Cloud"
+            ],
+            "position": "A21"
+        },
+        {
+            "aliases": [
+                "FRil*"
+            ],
+            "position": "A22"
+        },
+        {
+            "aliases": [
+                "鈴葉屋"
+            ],
+            "position": "A23"
+        },
+        {
+            "aliases": [
+                "Bellmonte"
+            ],
+            "position": "A24"
+        },
+        {
+            "aliases": [
+                "DESTINO"
+            ],
+            "position": "A26"
+        },
+        {
+            "aliases": [
+                "Psychedelic Lodge"
+            ],
+            "position": "A27"
+        },
+        {
+            "aliases": [
+                "imagewave"
+            ],
+            "position": "A28"
+        },
+        {
+            "aliases": [
+                "KIZAN'S"
+            ],
+            "position": "A29"
+        },
+        {
+            "aliases": [
+                "DANDYPROJECT"
+            ],
+            "position": "A30"
+        },
+        {
+            "aliases": [
+                "音声劇団Dream★Phase"
+            ],
+            "position": "A31"
+        },
+        {
+            "aliases": [
+                "SoundTeam,LORB"
+            ],
+            "position": "A33"
+        },
+        {
+            "aliases": [
+                "ほりっくさーびす"
+            ],
+            "position": "A34"
+        },
+        {
+            "aliases": [
+                "cy:cle"
+            ],
+            "position": "A35"
+        },
+        {
+            "aliases": [
+                "salvation by faith records"
+            ],
+            "position": "A36"
+        },
+        {
+            "aliases": [
+                "JAKRAT"
+            ],
+            "position": "A37"
+        },
+        {
+            "aliases": [
+                "着〆口屋『Ｊ』"
+            ],
+            "position": "A38"
+        },
+        {
+            "aliases": [
+                "Kuu∮Kai"
+            ],
+            "position": "A39"
+        },
+        {
+            "aliases": [
+                "Ｍ３準備会"
+            ],
+            "position": "A40"
+        },
+        {
+            "aliases": [
+                "Sprite Wing"
+            ],
+            "position": "B01"
+        },
+        {
+            "aliases": [
+                "HDD"
+            ],
+            "position": "B02"
+        },
+        {
+            "aliases": [
+                "尾長東テクノ"
+            ],
+            "position": "B03"
+        },
+        {
+            "aliases": [
+                "muon"
+            ],
+            "position": "B05"
+        },
+        {
+            "aliases": [
+                "FIRECRACKER"
+            ],
+            "position": "B06"
+        },
+        {
+            "aliases": [
+                "T-PLAN"
+            ],
+            "position": "B07"
+        },
+        {
+            "aliases": [
+                "べろシティ"
+            ],
+            "position": "B08"
+        },
+        {
+            "aliases": [
+                "Draneth"
+            ],
+            "position": "B10"
+        },
+        {
+            "aliases": [
+                "iberis"
+            ],
+            "position": "B11"
+        },
+        {
+            "aliases": [
+                "肋骨拳"
+            ],
+            "position": "B12"
+        },
+        {
+            "aliases": [
+                "我侭☆王子"
+            ],
+            "position": "B13"
+        },
+        {
+            "aliases": [
+                "L&Eクリエイターズ"
+            ],
+            "position": "B14"
+        },
+        {
+            "aliases": [
+                "M.D.O."
+            ],
+            "position": "B15"
+        },
+        {
+            "aliases": [
+                "KINOKHRONIKA RECORD"
+            ],
+            "position": "B16"
+        },
+        {
+            "aliases": [
+                "nekomimi style"
+            ],
+            "position": "B17"
+        },
+        {
+            "aliases": [
+                "Re:SPEC"
+            ],
+            "position": "B18"
+        },
+        {
+            "aliases": [
+                "PsychologicC.B."
+            ],
+            "position": "B20"
+        },
+        {
+            "aliases": [
+                "Notte"
+            ],
+            "position": "B21"
+        },
+        {
+            "aliases": [
+                "ウチナキレコード"
+            ],
+            "position": "B22"
+        },
+        {
+            "aliases": [
+                "Sound of Ciel"
+            ],
+            "position": "B23"
+        },
+        {
+            "aliases": [
+                "ばーどちゅーん"
+            ],
+            "position": "B24"
+        },
+        {
+            "aliases": [
+                "DTXFile.nmk"
+            ],
+            "position": "B25"
+        },
+        {
+            "aliases": [
+                "なんかどう"
+            ],
+            "position": "B26"
+        },
+        {
+            "aliases": [
+                "fluorite"
+            ],
+            "position": "B28"
+        },
+        {
+            "aliases": [
+                "Spherage"
+            ],
+            "position": "B29"
+        },
+        {
+            "aliases": [
+                "Studio21-NET"
+            ],
+            "position": "B30"
+        },
+        {
+            "aliases": [
+                "はちみつれもん"
+            ],
+            "position": "B31"
+        },
+        {
+            "aliases": [
+                "WOODSOFT"
+            ],
+            "position": "B32"
+        },
+        {
+            "aliases": [
+                "萌えさいと。＆Presence∝fTVA"
+            ],
+            "position": "B34"
+        },
+        {
+            "aliases": [
+                "e.SE ReCORDs"
+            ],
+            "position": "B35"
+        },
+        {
+            "aliases": [
+                "ベックマンの廃屋"
+            ],
+            "position": "B36"
+        },
+        {
+            "aliases": [
+                "Kan詰め"
+            ],
+            "position": "B37"
+        },
+        {
+            "aliases": [
+                "ANBULPLEET"
+            ],
+            "position": "B38"
+        },
+        {
+            "aliases": [
+                "Magical Trick Society"
+            ],
+            "position": "B40"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20080827212908/http://m-comi.birdzberth.com/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: http://m-comi.birdzberth.com/96_circlelist/circlelist_mcomi01.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "1_20081006234339_gaiyo_tirashi.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20081006234339/http://m-comi.birdzberth.com:80/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "1_20081006234339_m-comi_tirashi.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20081006234339/http://m-comi.birdzberth.com:80/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "comments": "Dead (original) circle list https://aonegi.net/mc01/user.cgi?mode=list (referenced here https://web.archive.org/web/20110816001210/http://m-comi.birdzberth.com/)"
+}

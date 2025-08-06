@@ -1,0 +1,92 @@
+{
+    "aliases": [
+        "雛見沢村民集会7",
+        "Hinamizawa Village Assembly 7",
+        "雛見沢村民集会7..",
+        "Hinamizawa Village Assembly 7.."
+    ],
+    "dates": "2022.06.05",
+    "circles": [
+        {
+            "aliases": [
+                "RED RIBBON REVENGER"
+            ],
+            "pen_names": [
+                "魔公子"
+            ],
+            "position": "祭-1"
+        },
+        {
+            "aliases": [
+                "シャンデリア百合心中被害者の会"
+            ],
+            "pen_names": [
+                "ユリグルイ"
+            ],
+            "position": "祭-2"
+        },
+        {
+            "aliases": [
+                "さくたろレコード\t"
+            ],
+            "pen_names": [
+                "motton"
+            ],
+            "position": "祭-3"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://mattari-an.net/shu-kai/7th/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://mattari-an.net/shu-kai/7th/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "7_20220315133237_paper.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20220315133237/https://mattari-an.net/shu-kai/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "7_20220315133237_titlelogo.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20220315133237/https://mattari-an.net/shu-kai/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "7_20220906024521_titlelogo.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20220906024521/https://mattari-an.net/shu-kai/list.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

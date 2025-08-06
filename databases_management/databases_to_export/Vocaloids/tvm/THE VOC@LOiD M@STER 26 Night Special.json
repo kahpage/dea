@@ -1,0 +1,42 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER 26 Night Special",
+        "THE VOC@LOiD M@STER 26",
+        "ボーマス26",
+        "VOM@S26"
+    ],
+    "dates": "2013.08.30",
+    "sources": [
+        {
+            "source": "Date: https://ketto.com/tvm/tvm26ippan.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm26",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "26_tvm26hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.com/tvm/tvm26ippan.htm",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.com/tvm/tvm26ippan.htm"
+    ]
+}

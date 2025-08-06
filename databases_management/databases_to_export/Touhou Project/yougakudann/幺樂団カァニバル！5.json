@@ -1,0 +1,465 @@
+{
+    "aliases": [
+        "幺樂団カァニバル！5"
+    ],
+    "dates": "2014.09.14",
+    "circles": [
+        {
+            "aliases": [
+                "久幸繙文＆幻想ノ郷茶話会"
+            ],
+            "pen_names": [
+                "久樹 輝幸"
+            ],
+            "position": "幺1",
+            "links": [
+                "http://www.akyu.info/sawakai/link"
+            ]
+        },
+        {
+            "aliases": [
+                "わぁるうぃんど"
+            ],
+            "pen_names": [
+                "それ"
+            ],
+            "position": "幺2"
+        },
+        {
+            "aliases": [
+                "袋の鼠"
+            ],
+            "pen_names": [
+                "鼠"
+            ],
+            "position": "幺3"
+        },
+        {
+            "aliases": [
+                "五花八門"
+            ],
+            "pen_names": [
+                "上條　紗智"
+            ],
+            "position": "幺4",
+            "links": [
+                "http://blogs.yahoo.co.jp/circle_goka"
+            ]
+        },
+        {
+            "aliases": [
+                "死体安置所"
+            ],
+            "pen_names": [
+                "礫死体"
+            ],
+            "position": "幺5",
+            "links": [
+                "http://v54h5gh4m.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "空色ねぎ"
+            ],
+            "pen_names": [
+                "タカシバ"
+            ],
+            "position": "幺6",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2568481"
+            ]
+        },
+        {
+            "aliases": [
+                "むせんぶ"
+            ],
+            "pen_names": [
+                "Dill"
+            ],
+            "position": "幺7"
+        },
+        {
+            "aliases": [
+                "島根農機"
+            ],
+            "pen_names": [
+                "ともぞ～"
+            ],
+            "position": "幺8",
+            "links": [
+                "http://www.pixiv.net/member.php?id=213027"
+            ]
+        },
+        {
+            "aliases": [
+                "シャレコーベ草原"
+            ],
+            "pen_names": [
+                "donjuan"
+            ],
+            "position": "幺9",
+            "links": [
+                "http://blogs.yahoo.co.jp/bassclarinet12"
+            ]
+        },
+        {
+            "aliases": [
+                "ロウズ自虐"
+            ],
+            "pen_names": [
+                "酒井 風"
+            ],
+            "position": "幺10",
+            "links": [
+                "http://www.pixiv.net/member.php?id=801346"
+            ]
+        },
+        {
+            "aliases": [
+                "帰ってきた豆腐大明神２０１４&星芋剣士"
+            ],
+            "pen_names": [
+                "TragosiTouf"
+            ],
+            "position": "幺11.12"
+        },
+        {
+            "aliases": [
+                "笑花奇観"
+            ],
+            "pen_names": [
+                "風守 夏璃"
+            ],
+            "position": "幺13"
+        },
+        {
+            "aliases": [
+                "外柿山"
+            ],
+            "pen_names": [
+                "権太夫"
+            ],
+            "position": "幺14",
+            "links": [
+                "http://togakisan.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "H2O"
+            ],
+            "pen_names": [
+                "みず"
+            ],
+            "position": "幺15",
+            "links": [
+                "http://pcr.iinaa.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "壱萬通"
+            ],
+            "pen_names": [
+                "takaiman"
+            ],
+            "position": "幺16",
+            "links": [
+                "http://www.pixiv.net/member.php?id=416532"
+            ]
+        },
+        {
+            "aliases": [
+                "ここから先、34小節目。"
+            ],
+            "pen_names": [
+                "あぶらあげ"
+            ],
+            "position": "幺17",
+            "links": [
+                "http://www.geocities.jp/average_34measure/"
+            ]
+        },
+        {
+            "aliases": [
+                "涼夏亭"
+            ],
+            "pen_names": [
+                "片瀬　かの"
+            ],
+            "position": "幺18",
+            "links": [
+                "http://ryo-ka.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "キミロリ"
+            ],
+            "pen_names": [
+                "遅上 なぎさ"
+            ],
+            "position": "幺19",
+            "links": [
+                "http://honobonokeikaku.cocolog-nifty.com/kimirori/"
+            ]
+        },
+        {
+            "aliases": [
+                "Cynthia"
+            ],
+            "pen_names": [
+                "桜木李杏"
+            ],
+            "position": "幺20",
+            "links": [
+                "http://cynthia.cc/"
+            ]
+        },
+        {
+            "aliases": [
+                "Narcissus"
+            ],
+            "pen_names": [
+                "片岡　昴"
+            ],
+            "position": "樂1"
+        },
+        {
+            "aliases": [
+                "夢幻回顧"
+            ],
+            "pen_names": [
+                "哀愁鴉天狗"
+            ],
+            "position": "樂2",
+            "links": [
+                "http://www.pixiv.net/member.php?id=997598"
+            ]
+        },
+        {
+            "aliases": [
+                "七輪大社"
+            ],
+            "pen_names": [
+                "Y2"
+            ],
+            "position": "樂3",
+            "links": [
+                "http://sichirin.blog45.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "型K式"
+            ],
+            "pen_names": [
+                "カタケイ"
+            ],
+            "position": "樂4",
+            "links": [
+                "http://pixiv.me/wagocolo"
+            ]
+        },
+        {
+            "aliases": [
+                "えるれ～しょん"
+            ],
+            "pen_names": [
+                "骨尺"
+            ],
+            "position": "樂5"
+        },
+        {
+            "aliases": [
+                "胡玉書厨"
+            ],
+            "pen_names": [
+                "胡玉"
+            ],
+            "position": "樂6",
+            "links": [
+                "http://www.geocities.co.jp/Bookend-Kenji/8181/"
+            ]
+        },
+        {
+            "aliases": [
+                "むらさきラーメン"
+            ],
+            "pen_names": [
+                "むらさき"
+            ],
+            "position": "樂7",
+            "links": [
+                "http://www.pixiv.net/member.php?id=251079"
+            ]
+        },
+        {
+            "aliases": [
+                "日々徒然。"
+            ],
+            "pen_names": [
+                "古翠"
+            ],
+            "position": "樂8",
+            "links": [
+                "http://hbtd16.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "黒命館"
+            ],
+            "pen_names": [
+                "葵　大樹"
+            ],
+            "position": "樂9"
+        },
+        {
+            "aliases": [
+                "チートイ12000"
+            ],
+            "pen_names": [
+                "refle"
+            ],
+            "position": "樂10"
+        },
+        {
+            "aliases": [
+                "命の限り好き勝手。"
+            ],
+            "pen_names": [
+                "鈴宮　真琴"
+            ],
+            "position": "樂11",
+            "links": [
+                "http://ameblo.jp/leavatein/"
+            ]
+        },
+        {
+            "aliases": [
+                "大盛二丁"
+            ],
+            "pen_names": [
+                "木ノ下さく夜"
+            ],
+            "position": "樂12"
+        },
+        {
+            "aliases": [
+                "Convallo-stick"
+            ],
+            "pen_names": [
+                "halogen"
+            ],
+            "position": "樂13",
+            "links": [
+                "http://convallostick.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "あるとれっつぇる"
+            ],
+            "pen_names": [
+                "さざしな　はる"
+            ],
+            "position": "樂14"
+        },
+        {
+            "aliases": [
+                "柳瀬川"
+            ],
+            "pen_names": [
+                "ミルキャラ"
+            ],
+            "position": "樂15",
+            "links": [
+                "http://yanagisegawa.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "02小隊"
+            ],
+            "pen_names": [
+                "WAT"
+            ],
+            "position": "樂16"
+        },
+        {
+            "aliases": [
+                "葛成"
+            ],
+            "pen_names": [
+                "kuzuaki"
+            ],
+            "position": "樂17"
+        },
+        {
+            "aliases": [
+                "幸福島"
+            ],
+            "pen_names": [
+                "伊豆 ジャルゴン"
+            ],
+            "position": "樂18"
+        },
+        {
+            "aliases": [
+                "全日本MBO推奨委員会"
+            ],
+            "pen_names": [
+                "お気楽ゾンビ"
+            ],
+            "position": "樂19",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1068183"
+            ]
+        },
+        {
+            "aliases": [
+                "かうじょん"
+            ],
+            "pen_names": [
+                "ぇぃたいさ"
+            ],
+            "position": "樂20",
+            "links": [
+                "http://rakugakisuruei.blog98.fc2.com/"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://shiosyakeyakini.info/touhouEvent/pb_event.php?id=51",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        },
+        {
+            "source": "Participating circles: http://web.archive.org/web/20160129115656/http://yougakudan.blogspot.jp/2013/03/blog-post_26.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "5_20140508160625_チラシ_2.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20140508160625/http://yougakudann.onlyevent.info/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "description": "Simultaneous to 幻想人形祭・長."
+}

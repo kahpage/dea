@@ -1,0 +1,42 @@
+{
+    "aliases": [
+        "幺樂団カァニバル！4"
+    ],
+    "dates": "2013.04.21",
+    "sources": [
+        {
+            "source": "Date: https://shiosyakeyakini.info/touhouEvent/pb_event.php?id=51",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "4_20130102064718_合同ちらし2.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130102064718/http://yougakudann.onlyevent.info/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "4_20130218061201_yougaku4.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130218061201/http://2.bp.blogspot.com/-QpU83U-ecoc/UMROK39X0xI/AAAAAAAAAJc/ksL4bHg3zP4/s1600/yougaku4.jpg",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "description": "Simultaneous to 幻想人形祭・卯."
+}

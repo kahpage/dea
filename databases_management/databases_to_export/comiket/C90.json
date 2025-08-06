@@ -1,0 +1,134 @@
+{
+    "aliases": [
+        "C90",
+        "コミックマーケット90",
+        "Comiket 90",
+        "Comic Market 90"
+    ],
+    "dates": "2016.08.12 - 2016.08.14",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250114103757/https://www.comiket.co.jp/info-a/C90/C90distributions.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "90_CWC_C90.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20160809172540/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "90_CWC_C90L.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20160809172540/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "90_C90Ctlg.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114103757/https://www.comiket.co.jp/info-a/C90/C90distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：蔦(サークル：泥沼分室)／表紙デザイン：鯖(サークル：LHA-2）"
+        },
+        {
+            "path": "90_C90amibukuroL.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114103757/https://www.comiket.co.jp/info-a/C90/C90distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：ヤマモトナオキ（サークル：ヤマモトナオキ）"
+        },
+        {
+            "path": "90_C90KamibukuroS.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114103757/https://www.comiket.co.jp/info-a/C90/C90distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：うゆ（サークル：cartoon-tv）"
+        },
+        {
+            "path": "90_C90KigyoPamphlet.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114103757/https://www.comiket.co.jp/info-a/C90/C90distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：コダマ（コダマンダラ）／表紙デザイン：柊椋（I.S.W）"
+        },
+        {
+            "path": "90_C90CtlgRom.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114103757/https://www.comiket.co.jp/info-a/C90/C90distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：蔦(サークル：泥沼分室)／表紙デザイン：鯖(サークル：LHA-2）"
+        },
+        {
+            "path": "90_C90Moushikomisho.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114180440/https://www.comiket.co.jp/info-a/C89/C89distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表示イラスト：飯尾（サークル：柴漬け）"
+        },
+        {
+            "path": "https://web.archive.org/web/20170706163059/http://www.comiket.co.jp/info-a/C90/C90CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20170706163059/http://www.comiket.co.jp/info-a/C90/C90CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

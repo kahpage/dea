@@ -1,0 +1,3394 @@
+{
+    "aliases": [
+        "VOCALOID PARADISE 5",
+        "ボーパラ5"
+    ],
+    "dates": "2011.03.27",
+    "circles": [
+        {
+            "aliases": [
+                "相崎電子"
+            ],
+            "pen_names": [
+                "ワールドワイドP"
+            ],
+            "position": "あ,イ-25",
+            "links": [
+                "http://electromance.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "アイズ"
+            ],
+            "pen_names": [
+                "彩野　ヨイタ"
+            ],
+            "position": "あ,エ-61",
+            "links": [
+                "http://dokkiri.oiran.org/1index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "Ein"
+            ],
+            "pen_names": [
+                "ryou"
+            ],
+            "position": "あ,カ-23",
+            "links": [
+                "http://www.jupiter.sannet.ne.jp/visualshoxx/"
+            ]
+        },
+        {
+            "aliases": [
+                "青屑星"
+            ],
+            "pen_names": [
+                "れつな"
+            ],
+            "position": "あ,オ-15",
+            "links": [
+                "http://aokuzuhoshi.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "赤古屋"
+            ],
+            "pen_names": [
+                "B.B"
+            ],
+            "position": "あ,オ-31",
+            "links": [
+                "http://blog.livedoor.jp/yukibb3/"
+            ]
+        },
+        {
+            "aliases": [
+                "あさひな"
+            ],
+            "pen_names": [
+                "あさぎ＋日向"
+            ],
+            "position": "あ,エ-08",
+            "links": [
+                "http://hplys.web.fc2.com/asahina.html"
+            ]
+        },
+        {
+            "aliases": [
+                "ASARELAH"
+            ],
+            "pen_names": [
+                "maruya91"
+            ],
+            "position": "あ,エ-52",
+            "links": [
+                "http://asarelah.blog86.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "azur absolu （アジュール \n    アプソリュ）"
+            ],
+            "pen_names": [
+                "銀狐"
+            ],
+            "position": "あ,エ-67"
+        },
+        {
+            "aliases": [
+                "Azure（アズール）"
+            ],
+            "pen_names": [
+                "あざみ黒猫"
+            ],
+            "position": "あ,エ-27",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1643328"
+            ]
+        },
+        {
+            "aliases": [
+                "アスパラ"
+            ],
+            "pen_names": [
+                "もち"
+            ],
+            "position": "あ,エ-19",
+            "links": [
+                "http://asupara.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "あとりえ 我-GaLuE-流"
+            ],
+            "pen_names": [
+                "さんまる"
+            ],
+            "position": "あ,オ-48",
+            "links": [
+                "http://profile.ameba.jp/skyline-dr30"
+            ]
+        },
+        {
+            "aliases": [
+                "Atelier KOH"
+            ],
+            "pen_names": [
+                "KOH"
+            ],
+            "position": "あ,ウ-31",
+            "links": [
+                "http://atelierkoh.blog121.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "焙りサーモンペロペロし隊"
+            ],
+            "pen_names": [
+                "ゆちゃP、buzzG、otetsu"
+            ],
+            "position": "あ,イ-17,18",
+            "links": [
+                "http://hellosound.main.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "あまねぎ"
+            ],
+            "pen_names": [
+                "セリ"
+            ],
+            "position": "あ,オ-21,22",
+            "links": [
+                "http://yosugaya.fem.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "アメそら"
+            ],
+            "pen_names": [
+                "いちこ"
+            ],
+            "position": "あ,エ-25",
+            "links": [
+                "http://icico.moo.jp/ame/"
+            ]
+        },
+        {
+            "aliases": [
+                "アリンコ"
+            ],
+            "pen_names": [
+                "linco"
+            ],
+            "position": "あ,エ-37",
+            "links": [
+                "http://linco.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "Arc en Ciel"
+            ],
+            "pen_names": [
+                "朝倉汐"
+            ],
+            "position": "あ,オ-47",
+            "links": [
+                "http://m-sp.biz/‾m/arcenciel/"
+            ]
+        },
+        {
+            "aliases": [
+                "UNDER CONSTRUCTION"
+            ],
+            "pen_names": [
+                "knck"
+            ],
+            "position": "あ,ウ-23",
+            "links": [
+                "http://knck.dtiblog.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "いーえっくすおあ"
+            ],
+            "pen_names": [
+                "ぴょろP"
+            ],
+            "position": "あ,イ-14",
+            "links": [
+                "http://exor.iza-yoi.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "家の裏で恥Pが死んでえへへぷろじぇ（ry"
+            ],
+            "pen_names": [
+                "恥P （家の裏でマンボウが死んでるP） \n    （えへへP）"
+            ],
+            "position": "あ,ア-34",
+            "links": [
+                "http://www.nicovideo.jp/mylist/7009829"
+            ]
+        },
+        {
+            "aliases": [
+                "Yellow tea pot"
+            ],
+            "pen_names": [
+                "のちょ＋マカ"
+            ],
+            "position": "あ,ウ-48",
+            "links": [
+                "http://iroiroarimasu.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "いちごアンテナ"
+            ],
+            "pen_names": [
+                "瑞原すばる"
+            ],
+            "position": "あ,ウ-03",
+            "links": [
+                "http://ichigo.at-ninja.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "Innovate Sounds"
+            ],
+            "pen_names": [
+                "ke-sanβ"
+            ],
+            "position": "あ,カ-61",
+            "links": [
+                "http://www.innovate-sounds.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "イレギュラーズ15"
+            ],
+            "pen_names": [
+                "ミックスモダン"
+            ],
+            "position": "あ,ア-29",
+            "links": [
+                "http://irregulars15.ari-jigoku.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "いろは"
+            ],
+            "pen_names": [
+                "織生あや"
+            ],
+            "position": "あ,ア-02",
+            "links": [
+                "http://oryu.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "INTI"
+            ],
+            "pen_names": [
+                "ゆづき"
+            ],
+            "position": "あ,エ-04",
+            "links": [
+                "http://inti.namaste.jp/huayruro/"
+            ]
+        },
+        {
+            "aliases": [
+                "WaterSupply"
+            ],
+            "pen_names": [
+                "スミムイ"
+            ],
+            "position": "あ,ウ-27",
+            "links": [
+                "http://suityuponp.blog41.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "うさかっぷ"
+            ],
+            "pen_names": [
+                "うさくまみにょ"
+            ],
+            "position": "あ,ア-23",
+            "links": [
+                "http://ukw.sakura.ne.jp/u_cup/"
+            ]
+        },
+        {
+            "aliases": [
+                "うさぎのカンタータ"
+            ],
+            "pen_names": [
+                "柳奈、うずまきP"
+            ],
+            "position": "あ,エ-68",
+            "links": [
+                "http://14.pro.tok2.com/‾sax-pops/"
+            ]
+        },
+        {
+            "aliases": [
+                "うずまき試験管"
+            ],
+            "pen_names": [
+                "汐見しじみ"
+            ],
+            "position": "あ,エ-26",
+            "links": [
+                "http://shizimi.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "うなむ堂"
+            ],
+            "pen_names": [
+                "吉良みきお"
+            ],
+            "position": "あ,オ-30"
+        },
+        {
+            "aliases": [
+                "梅の家"
+            ],
+            "pen_names": [
+                "うめにいち＆うめこんぶ"
+            ],
+            "position": "あ,エ-12",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1023003"
+            ]
+        },
+        {
+            "aliases": [
+                "うらうら日記"
+            ],
+            "pen_names": [
+                "うらいまつ"
+            ],
+            "position": "あ,オ-04",
+            "links": [
+                "http://asa.beso.jp/tensa/"
+            ]
+        },
+        {
+            "aliases": [
+                "ULOG'Be"
+            ],
+            "pen_names": [
+                "NEGI"
+            ],
+            "position": "あ,ウ-52",
+            "links": [
+                "http://ulogbe.blog75.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "airaria"
+            ],
+            "pen_names": [
+                "kior"
+            ],
+            "position": "あ,カ-52",
+            "links": [
+                "http://airaria.petit.cc/"
+            ]
+        },
+        {
+            "aliases": [
+                "H&F企画"
+            ],
+            "pen_names": [
+                "つじ"
+            ],
+            "position": "あ,イ-06",
+            "links": [
+                "http://hxf.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "H&T倶楽部"
+            ],
+            "pen_names": [
+                "氷茶ゆ〜ず"
+            ],
+            "position": "あ,オ-58",
+            "links": [
+                "http://www014.upp.so-net.ne.jp/citrontea_c/"
+            ]
+        },
+        {
+            "aliases": [
+                "HMヴァーシズ6.9"
+            ],
+            "pen_names": [
+                "ももぱん　飯時"
+            ],
+            "position": "あ,ウ-41",
+            "links": [
+                "http://hmverses69.xii.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "S*S"
+            ],
+            "pen_names": [
+                "紗月"
+            ],
+            "position": "あ,オ-65"
+        },
+        {
+            "aliases": [
+                "SMS"
+            ],
+            "pen_names": [
+                "かるぴす"
+            ],
+            "position": "あ,オ-28"
+        },
+        {
+            "aliases": [
+                "SK"
+            ],
+            "pen_names": [
+                "みなせ"
+            ],
+            "position": "あ,オ-41",
+            "links": [
+                "http://378sk.rik.fool.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "S-STYLE"
+            ],
+            "pen_names": [
+                "せっつぁん"
+            ],
+            "position": "あ,イ-20",
+            "links": [
+                "http://homepage2.nifty.com/s_style/top2.htm/"
+            ]
+        },
+        {
+            "aliases": [
+                "エスニカル・パレード"
+            ],
+            "pen_names": [
+                "マイヤー"
+            ],
+            "position": "あ,エ-60",
+            "links": [
+                "http://homepage2.nifty.com/ethnical-parade/"
+            ]
+        },
+        {
+            "aliases": [
+                "枝豆をおひとつどうぞ（EOD）"
+            ],
+            "pen_names": [
+                "まめ"
+            ],
+            "position": "あ,エ-39",
+            "links": [
+                "http://dingdong.boy.jp/dingdingdong/"
+            ]
+        },
+        {
+            "aliases": [
+                "NG"
+            ],
+            "pen_names": [
+                "せっきー"
+            ],
+            "position": "あ,エ-53",
+            "links": [
+                "http://piapro.jp/gambler_gin"
+            ]
+        },
+        {
+            "aliases": [
+                "ehamiku"
+            ],
+            "pen_names": [
+                "ehamick"
+            ],
+            "position": "あ,ア-24",
+            "links": [
+                "http://ehamick.in"
+            ]
+        },
+        {
+            "aliases": [
+                "MKP48"
+            ],
+            "pen_names": [
+                "実谷なな　KinoP　PELIE"
+            ],
+            "position": "あ,ア-04",
+            "links": [
+                "http://www.nicovideo.jp/mylist/21852969"
+            ]
+        },
+        {
+            "aliases": [
+                "MCF"
+            ],
+            "pen_names": [
+                "サツキボタン"
+            ],
+            "position": "あ,オ-07",
+            "links": [
+                "http://www.pixiv.net/member.php?id=318428"
+            ]
+        },
+        {
+            "aliases": [
+                "ＭｘＢ"
+            ],
+            "pen_names": [
+                "NekoA＆小鳥遊ぅゅ"
+            ],
+            "position": "あ,オ-55",
+            "links": [
+                "http://kuma3milk.blog83.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "emonloid"
+            ],
+            "pen_names": [
+                "emon"
+            ],
+            "position": "あ,ア-15",
+            "links": [
+                "http://emonloid.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ELECTROCUTICA"
+            ],
+            "pen_names": [
+                "Treow（逆衝動P）"
+            ],
+            "position": "あ,カ-55",
+            "links": [
+                "http://twitter.com/ELECTROCUTICA"
+            ]
+        },
+        {
+            "aliases": [
+                "OiOi"
+            ],
+            "pen_names": [
+                "突破"
+            ],
+            "position": "あ,エ-14"
+        },
+        {
+            "aliases": [
+                "おかしずきのようせい"
+            ],
+            "pen_names": [
+                "ゆうくんラングレー"
+            ],
+            "position": "あ,ア-25",
+            "links": [
+                "http://plaza.rakuten.co.jp/yuukunls/"
+            ]
+        },
+        {
+            "aliases": [
+                "緒久屋"
+            ],
+            "pen_names": [
+                "緒方久乃"
+            ],
+            "position": "あ,エ-05",
+            "links": [
+                "http://okyuya.xxxxxxxx.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "小倉味噌マーガリン"
+            ],
+            "pen_names": [
+                "XXP"
+            ],
+            "position": "あ,イ-23"
+        },
+        {
+            "aliases": [
+                "音小屋"
+            ],
+            "pen_names": [
+                "774P"
+            ],
+            "position": "あ,ア-27",
+            "links": [
+                "http://oto774.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "音屋商会"
+            ],
+            "pen_names": [
+                "挫折P"
+            ],
+            "position": "あ,カ-57",
+            "links": [
+                "http://dekadai.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "office muhmue"
+            ],
+            "pen_names": [
+                "muhmue"
+            ],
+            "position": "あ,イ-09",
+            "links": [
+                "http://www.geocities.jp/officemuhmue/"
+            ]
+        },
+        {
+            "aliases": [
+                "おんりぃめもり〜"
+            ],
+            "pen_names": [
+                "シン・ショコラ"
+            ],
+            "position": "あ,ウ-10",
+            "links": [
+                "http://onmemo.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                ""
+            ],
+            "position": "あ,"
+        },
+        {
+            "aliases": [
+                "KAITO民族調コンピレーションアルバム「AO」"
+            ],
+            "pen_names": [
+                "うむ"
+            ],
+            "position": "か,ア-18",
+            "links": [
+                "http://lilium.web6.jp/k_compilation/"
+            ]
+        },
+        {
+            "aliases": [
+                "かぜのねレコード"
+            ],
+            "pen_names": [
+                "風筒P"
+            ],
+            "position": "か,ア-26",
+            "links": [
+                "http://kazenonerecord.blog136.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "かりパンQg"
+            ],
+            "pen_names": [
+                "KulfiQ　（仮）P　とれパン　36g"
+            ],
+            "position": "か,ア-07,08",
+            "links": [
+                "http://d.n01.boy.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "贋作Chronicle"
+            ],
+            "pen_names": [
+                "はやて"
+            ],
+            "position": "か,エ-45"
+        },
+        {
+            "aliases": [
+                "きがぬけない"
+            ],
+            "pen_names": [
+                "ぺちぺち"
+            ],
+            "position": "か,エ-59"
+        },
+        {
+            "aliases": [
+                "KinoP"
+            ],
+            "pen_names": [
+                "KinoP"
+            ],
+            "position": "か,ア-06",
+            "links": [
+                "http://www.nicovideo.jp/mylist/20601282"
+            ]
+        },
+        {
+            "aliases": [
+                "決まりませんでした。"
+            ],
+            "pen_names": [
+                "ちっちな"
+            ],
+            "position": "か,オ-10",
+            "links": [
+                "http://ketubatu55.ame-zaiku.com/motimoti/"
+            ]
+        },
+        {
+            "aliases": [
+                "Cat Castle"
+            ],
+            "pen_names": [
+                "みけ"
+            ],
+            "position": "か,ウ-38"
+        },
+        {
+            "aliases": [
+                "CandyHouse"
+            ],
+            "pen_names": [
+                "HAZUKI、雫"
+            ],
+            "position": "か,オ-33",
+            "links": [
+                "http://yaplog.jp/kaitovvv/"
+            ]
+        },
+        {
+            "aliases": [
+                "牛乳共生派"
+            ],
+            "pen_names": [
+                "桐島ドナ"
+            ],
+            "position": "か,オ-27",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1940056"
+            ]
+        },
+        {
+            "aliases": [
+                "巨大獣"
+            ],
+            "pen_names": [
+                "千草"
+            ],
+            "position": "か,エ-55",
+            "links": [
+                "http://monica.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "girasole rabbit"
+            ],
+            "pen_names": [
+                "由宇　ゆうみ"
+            ],
+            "position": "か,エ-03",
+            "links": [
+                "http://75.xmbs.jp/yellowrabbit/"
+            ]
+        },
+        {
+            "aliases": [
+                "９０。（クオマル）"
+            ],
+            "pen_names": [
+                "くお。"
+            ],
+            "position": "か,オ-43",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1082638"
+            ]
+        },
+        {
+            "aliases": [
+                "Cookie"
+            ],
+            "pen_names": [
+                "BIRUGE"
+            ],
+            "position": "か,イ-02",
+            "links": [
+                "http://cookie.cosa-cosa.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "くっくらむー"
+            ],
+            "pen_names": [
+                "花菜kan-na"
+            ],
+            "position": "か,オ-19",
+            "links": [
+                "http://www.pixiv.net/member.php?id=327444"
+            ]
+        },
+        {
+            "aliases": [
+                "くらうど。"
+            ],
+            "pen_names": [
+                "一吾"
+            ],
+            "position": "か,エ-46"
+        },
+        {
+            "aliases": [
+                "海月茜コース"
+            ],
+            "pen_names": [
+                "kous / acane / くらげP / \n    らさ（お手伝い）"
+            ],
+            "position": "か,ア-11,12"
+        },
+        {
+            "aliases": [
+                "クリキッド"
+            ],
+            "pen_names": [
+                "クリスタルP＆キッドP"
+            ],
+            "position": "か,イ-21",
+            "links": [
+                "http://k-kei.versus.jp/zeghed/"
+            ]
+        },
+        {
+            "aliases": [
+                "くるくる堂"
+            ],
+            "pen_names": [
+                "konkon"
+            ],
+            "position": "か,オ-52",
+            "links": [
+                "http://qruqru.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "creazuma"
+            ],
+            "pen_names": [
+                "azuma"
+            ],
+            "position": "か,ア-13",
+            "links": [
+                "http://www.creazuma.com/otonanotsugou/"
+            ]
+        },
+        {
+            "aliases": [
+                "clever shade"
+            ],
+            "pen_names": [
+                "木陰たくみ"
+            ],
+            "position": "か,エ-34",
+            "links": [
+                "http://kokagefox.blog35.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "くろとら"
+            ],
+            "pen_names": [
+                "くろ"
+            ],
+            "position": "か,オ-11",
+            "links": [
+                "http://aris77.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "くろねこのかんづめ。"
+            ],
+            "pen_names": [
+                "くぅ、ヒラコ"
+            ],
+            "position": "か,ウ-01",
+            "links": [
+                "http://kandsume.blog130.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "K's FACTORY"
+            ],
+            "pen_names": [
+                "はぁもP"
+            ],
+            "position": "か,ウ-47",
+            "links": [
+                "http://members3.jcom.home.ne.jp/harmonizer/"
+            ]
+        },
+        {
+            "aliases": [
+                "K-MIX"
+            ],
+            "pen_names": [
+                "梓唏梨凰　壱號　Tocchi"
+            ],
+            "position": "か,エ-31,32"
+        },
+        {
+            "aliases": [
+                "月煌少年 VAP分室"
+            ],
+            "pen_names": [
+                "奈雄葵"
+            ],
+            "position": "か,オ-05",
+            "links": [
+                "http://projectvocaroid.blog105.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "CHEMICAL \n    SYSTEM LE"
+            ],
+            "pen_names": [
+                "cosMo＠暴走P"
+            ],
+            "position": "か,カ-35",
+            "links": [
+                "http://chemsys.cc"
+            ]
+        },
+        {
+            "aliases": [
+                "健康診断"
+            ],
+            "pen_names": [
+                "さとい"
+            ],
+            "position": "か,カ-32",
+            "links": [
+                "http://twitter.com/satoism"
+            ]
+        },
+        {
+            "aliases": [
+                "恋竹林"
+            ],
+            "pen_names": [
+                "マサコイ　ジーコバ　おたけ　e-megu"
+            ],
+            "position": "か,ア-05",
+            "links": [
+                "http://koichikurinofficial.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "殊式（ことしき）会社ゴッチング・オン"
+            ],
+            "pen_names": [
+                "5103"
+            ],
+            "position": "か,ウ-33",
+            "links": [
+                "http://vocaon.blog77.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "粉でもおいしい"
+            ],
+            "pen_names": [
+                "ミロ"
+            ],
+            "position": "か,ウ-32",
+            "links": [
+                "http://nicomilo.blog75.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "コモドリビトム"
+            ],
+            "pen_names": [
+                "さくら（えにくすP）"
+            ],
+            "position": "か,カ-42",
+            "links": [
+                "http://cherry-blossom.blush.jp/vl/"
+            ]
+        },
+        {
+            "aliases": [
+                "コラボCD(・ω・｀)かもしれない。"
+            ],
+            "pen_names": [
+                "縹渺　co 少々P　ひらの"
+            ],
+            "position": "か,カ-40",
+            "links": [
+                "http://jjjs.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "こらぼや"
+            ],
+            "pen_names": [
+                "ToDoP"
+            ],
+            "position": "か,カ-41",
+            "links": [
+                "http://collaboya.blog9.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "コロコロみかん日和"
+            ],
+            "pen_names": [
+                "星科、しんや"
+            ],
+            "position": "か,エ-28",
+            "links": [
+                "http://www.pixiv.net/member.php?id=130425"
+            ]
+        },
+        {
+            "aliases": [
+                ""
+            ],
+            "position": "か,"
+        },
+        {
+            "aliases": [
+                "ササクレイション"
+            ],
+            "pen_names": [
+                "sasakure.UK"
+            ],
+            "position": "さ,カ-53,54",
+            "links": [
+                "http://sasakuration.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "sunny spot"
+            ],
+            "pen_names": [
+                "水那月詩音"
+            ],
+            "position": "さ,カ-47",
+            "links": [
+                "http://piapro.jp/alicewitch"
+            ]
+        },
+        {
+            "aliases": [
+                "サムデイ・サムライ"
+            ],
+            "pen_names": [
+                "小麦 米"
+            ],
+            "position": "さ,オ-39,40",
+            "links": [
+                "http://piapro.jp/komugimai"
+            ]
+        },
+        {
+            "aliases": [
+                "さんまるよん"
+            ],
+            "pen_names": [
+                "かるび、いずみ"
+            ],
+            "position": "さ,ウ-20"
+        },
+        {
+            "aliases": [
+                "シーマンの海。"
+            ],
+            "pen_names": [
+                "さてはてな"
+            ],
+            "position": "さ,ウ-02",
+            "links": [
+                "http://yaplog.jp/shi-umi/"
+            ]
+        },
+        {
+            "aliases": [
+                "ciel*fleur"
+            ],
+            "pen_names": [
+                "宵月秦・さくらみち・睡蓮・ユーフォン"
+            ],
+            "position": "さ,エ-01,02",
+            "links": [
+                "http://soukatyou.web.fc2.com/cielfleur/ciel_fleur_top.html"
+            ]
+        },
+        {
+            "aliases": [
+                "色紙屋火神堂"
+            ],
+            "pen_names": [
+                "火神レオ"
+            ],
+            "position": "さ,カ-33",
+            "links": [
+                "http://kagami8686.blog113.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "次期生徒会準備室"
+            ],
+            "pen_names": [
+                "okowa, ミウラコリキ"
+            ],
+            "position": "さ,ウ-19",
+            "links": [
+                "http://okowa.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "DIGITALIS（ジギタリス）"
+            ],
+            "pen_names": [
+                "ミズキ"
+            ],
+            "position": "さ,エ-54",
+            "links": [
+                "http://digitalis.kill.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "Six Strings"
+            ],
+            "pen_names": [
+                "鎖月　奏"
+            ],
+            "position": "さ,オ-25",
+            "links": [
+                "http://6strings.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Citrus Records"
+            ],
+            "pen_names": [
+                "カトリンコ"
+            ],
+            "position": "さ,カ-13,14"
+        },
+        {
+            "aliases": [
+                "シフトライトアリスメティック"
+            ],
+            "pen_names": [
+                "Nacht"
+            ],
+            "position": "さ,オ-12",
+            "links": [
+                "http://srarithmetic.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "シメサバツイスターズ"
+            ],
+            "pen_names": [
+                "しめさば"
+            ],
+            "position": "さ,カ-10",
+            "links": [
+                "http://simesabat.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "Sugar \n    Brave"
+            ],
+            "pen_names": [
+                "ジギル（井の頭P）、アリエP"
+            ],
+            "position": "さ,ウ-18",
+            "links": [
+                "http://sugarbrave.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "ShrineLot"
+            ],
+            "pen_names": [
+                "くっじー"
+            ],
+            "position": "さ,ア-20"
+        },
+        {
+            "aliases": [
+                "Joker's7"
+            ],
+            "pen_names": [
+                "和田ケニチ"
+            ],
+            "position": "さ,ウ-11",
+            "links": [
+                "http://wadan.sakura.ne.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "しろくろ。"
+            ],
+            "pen_names": [
+                "七葵・ねこしえーたー・果無・高P"
+            ],
+            "position": "さ,カ-25",
+            "links": [
+                "http://shirokuro.xii.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "白ひげ"
+            ],
+            "pen_names": [
+                "白ひげP　M.A.T."
+            ],
+            "position": "さ,カ-12",
+            "links": [
+                "http://shirohigemusic.blog103.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "sweet shrimp works"
+            ],
+            "pen_names": [
+                "あまえび"
+            ],
+            "position": "さ,ウ-13",
+            "links": [
+                "http://www.pixiv.net/member.php?id=486540"
+            ]
+        },
+        {
+            "aliases": [
+                "すけ’s サウンドパフェ厨房"
+            ],
+            "pen_names": [
+                "すけP"
+            ],
+            "position": "さ,カ-43",
+            "links": [
+                "http://a22dhu20dhu10.blog9.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "stardust"
+            ],
+            "pen_names": [
+                "田村ヒロ"
+            ],
+            "position": "さ,ウ-51",
+            "links": [
+                "http://star198.gozaru.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "Studio Ark Attack"
+            ],
+            "pen_names": [
+                "ぼーかりおどP(noa)"
+            ],
+            "position": "さ,カ-58",
+            "links": [
+                "http://kinari.hacca.jp/contents/vo_mas.html"
+            ]
+        },
+        {
+            "aliases": [
+                "Studio@BroP"
+            ],
+            "pen_names": [
+                "ブラザー"
+            ],
+            "position": "さ,カ-62"
+        },
+        {
+            "aliases": [
+                "スタジオらるご"
+            ],
+            "pen_names": [
+                "ぐうぐう（安眠P）"
+            ],
+            "position": "さ,イ-11"
+        },
+        {
+            "aliases": [
+                "St@nd easy!"
+            ],
+            "pen_names": [
+                "ハナイチ"
+            ],
+            "position": "さ,エ-63",
+            "links": [
+                "http://honeyhoney.boy.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "s10rw（ストロウ）"
+            ],
+            "pen_names": [
+                "そらいろくらぶ、10日P、ryuryu、whoo"
+            ],
+            "position": "さ,カ-67,68",
+            "links": [
+                "http://s10rw.is-mine.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "strawberryjam"
+            ],
+            "pen_names": [
+                "小桃もか"
+            ],
+            "position": "さ,エ-20",
+            "links": [
+                "http://comomo-moka.cocolog-nifty.com/blog/"
+            ]
+        },
+        {
+            "aliases": [
+                "Strawberry House"
+            ],
+            "pen_names": [
+                "有須川いちご"
+            ],
+            "position": "さ,ウ-16",
+            "links": [
+                "http://ariichi.michikusa.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "砂とか青い野山"
+            ],
+            "pen_names": [
+                "ヨネダ"
+            ],
+            "position": "さ,エ-42",
+            "links": [
+                "http://sunatoka.blog133.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Snow Dreams"
+            ],
+            "pen_names": [
+                "KO☆YUKI"
+            ],
+            "position": "さ,エ-06",
+            "links": [
+                "http://www7a.biglobe.ne.jp/‾ko-yuki/index.htm"
+            ]
+        },
+        {
+            "aliases": [
+                "絶版少年"
+            ],
+            "pen_names": [
+                "絶版少年"
+            ],
+            "position": "さ,エ-13",
+            "links": [
+                "http://zeppann.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "Sevencolors"
+            ],
+            "pen_names": [
+                "nana、有坂あこ、鹿乃"
+            ],
+            "position": "さ,カ-60",
+            "links": [
+                "http://seven-colors.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "XM（ゼム）"
+            ],
+            "pen_names": [
+                "SHO（キセノンP）　Use+keY（乙女P）"
+            ],
+            "position": "さ,ア-33",
+            "links": [
+                "http://xenon-maiden.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Celo Project"
+            ],
+            "pen_names": [
+                "せろ"
+            ],
+            "position": "さ,オ-01,02",
+            "links": [
+                "http://www.die8.name/celo-project/"
+            ]
+        },
+        {
+            "aliases": [
+                "zerone"
+            ],
+            "pen_names": [
+                "アユム"
+            ],
+            "position": "さ,オ-09",
+            "links": [
+                "http://yaplog.jp/awawa-29/"
+            ]
+        },
+        {
+            "aliases": [
+                "so.lalala"
+            ],
+            "pen_names": [
+                "soraco"
+            ],
+            "position": "さ,エ-65",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1986699"
+            ]
+        },
+        {
+            "aliases": [
+                "空色ランプ＋一時停止"
+            ],
+            "pen_names": [
+                "燈崎ミツ"
+            ],
+            "position": "さ,エ-57,58",
+            "links": [
+                "http://houka5.com/lamp/"
+            ]
+        },
+        {
+            "aliases": [
+                "空時計"
+            ],
+            "pen_names": [
+                "あおいろ"
+            ],
+            "position": "さ,ウ-26",
+            "links": [
+                "http://www.pixiv.net/member.php?id=744742"
+            ]
+        },
+        {
+            "aliases": [
+                "そんな事よりお好み焼き食おうぜ！"
+            ],
+            "pen_names": [
+                "あちゃ（どあらＰ）、縣"
+            ],
+            "position": "さ,カ-17,18",
+            "links": [
+                "http://psy.x0.to/SOK/"
+            ]
+        },
+        {
+            "aliases": [
+                ""
+            ],
+            "position": "さ,"
+        },
+        {
+            "aliases": [
+                "第４軌道"
+            ],
+            "pen_names": [
+                "憂月初"
+            ],
+            "position": "た,オ-57",
+            "links": [
+                "http://forthorbit.blog96.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "だくはん"
+            ],
+            "pen_names": [
+                "のののの"
+            ],
+            "position": "た,エ-48",
+            "links": [
+                "http://loose.in/dakuhan/"
+            ]
+        },
+        {
+            "aliases": [
+                "たこやき工房"
+            ],
+            "pen_names": [
+                "山蝉黒炭"
+            ],
+            "position": "た,ウ-40"
+        },
+        {
+            "aliases": [
+                "棚中製作所"
+            ],
+            "pen_names": [
+                "t7km"
+            ],
+            "position": "た,カ-20",
+            "links": [
+                "http://www.geocities.jp/ebimu99/"
+            ]
+        },
+        {
+            "aliases": [
+                "DAM Loud College"
+            ],
+            "pen_names": [
+                "どん　無力P"
+            ],
+            "position": "た,イ-29,30"
+        },
+        {
+            "aliases": [
+                "チームゼロワン"
+            ],
+            "pen_names": [
+                "くれない"
+            ],
+            "position": "た,ア-19",
+            "links": [
+                "http://team-zeroone.sblo.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "筑前煮315円"
+            ],
+            "pen_names": [
+                "P-chick"
+            ],
+            "position": "た,ア-28",
+            "links": [
+                "http://piapro.jp/owata_765p"
+            ]
+        },
+        {
+            "aliases": [
+                "ちょむ工房"
+            ],
+            "pen_names": [
+                "TakeponG（ちょむP）"
+            ],
+            "position": "た,イ-26",
+            "links": [
+                "http://www.chomkoubou.com"
+            ]
+        },
+        {
+            "aliases": [
+                "TWINS TRAVEL"
+            ],
+            "pen_names": [
+                "szaki"
+            ],
+            "position": "た,エ-22",
+            "links": [
+                "http://twinstravel.szaki.org/"
+            ]
+        },
+        {
+            "aliases": [
+                "つきねこ製作所(Γ・ω・)Γ"
+            ],
+            "pen_names": [
+                "つきのP"
+            ],
+            "position": "た,イ-12",
+            "links": [
+                "http://tsukinowa.syakuhati.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "月見野番士"
+            ],
+            "pen_names": [
+                "椎奈そあら"
+            ],
+            "position": "た,ウ-44"
+        },
+        {
+            "aliases": [
+                "九十九％岩石"
+            ],
+            "pen_names": [
+                "ハミングＰ"
+            ],
+            "position": "た,オ-32",
+            "links": [
+                "http://www.pixiv.net/member.php?id=541458"
+            ]
+        },
+        {
+            "aliases": [
+                "つめ替えタイプ"
+            ],
+            "pen_names": [
+                "うめ吉"
+            ],
+            "position": "た,オ-03",
+            "links": [
+                "http://penga.blog11.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ds_8"
+            ],
+            "pen_names": [
+                "ds_8"
+            ],
+            "position": "た,イ-32",
+            "links": [
+                "http://ds8ds8.blog93.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "TWS"
+            ],
+            "pen_names": [
+                "たわし"
+            ],
+            "position": "た,エ-40",
+            "links": [
+                "http://tawashi.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "T_FORCE"
+            ],
+            "pen_names": [
+                "T_Masamune"
+            ],
+            "position": "た,イ-19",
+            "links": [
+                "http://tforce.xxxxxxxx.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "\"D\"project〜関西討ち入り編〜"
+            ],
+            "pen_names": [
+                "ドPと16人の愉快な破壊主義者たち"
+            ],
+            "position": "た,イ-04",
+            "links": [
+                "http://dproject.iza-yoi.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "帝都A"
+            ],
+            "pen_names": [
+                "きら太"
+            ],
+            "position": "た,エ-41",
+            "links": [
+                "http://chro.krt.zatunen.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "DeZI:R"
+            ],
+            "pen_names": [
+                "神楽"
+            ],
+            "position": "た,ア-32",
+            "links": [
+                "http://www.dezi-r.net"
+            ]
+        },
+        {
+            "aliases": [
+                "天庭"
+            ],
+            "pen_names": [
+                "十五文字"
+            ],
+            "position": "た,イ-07",
+            "links": [
+                "http://tentei1515.seesaa.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "Dendron"
+            ],
+            "pen_names": [
+                "たくみん"
+            ],
+            "position": "た,オ-54",
+            "links": [
+                "http://dendron89.blog109.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Door＠ふぁんきいＰ"
+            ],
+            "pen_names": [
+                "ふぁんきいＰ"
+            ],
+            "position": "た,カ-07,08",
+            "links": [
+                "http://www.c-door.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "twinkledisc"
+            ],
+            "pen_names": [
+                "Dios/シグナルP"
+            ],
+            "position": "た,ア-16",
+            "links": [
+                "http://twinkledisc.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "桃幻郷"
+            ],
+            "pen_names": [
+                "梅雨ぜんせん"
+            ],
+            "position": "た,エ-18"
+        },
+        {
+            "aliases": [
+                "遠い海鳴りの音"
+            ],
+            "pen_names": [
+                "水野佑太"
+            ],
+            "position": "た,イ-16",
+            "links": [
+                "http://uminari-note.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "どグリット"
+            ],
+            "pen_names": [
+                "十夢臣"
+            ],
+            "position": "た,エ-62",
+            "links": [
+                "http://dogrit.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "どどめ色！"
+            ],
+            "pen_names": [
+                "天乃贈"
+            ],
+            "position": "た,エ-47",
+            "links": [
+                "http://rusevatosi.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Trick&Treat"
+            ],
+            "pen_names": [
+                "Toma+o、mihuni、KYK"
+            ],
+            "position": "た,イ-05",
+            "links": [
+                "http://www.tritre.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "TRIPLE-A & Bit-z"
+            ],
+            "pen_names": [
+                "イママP ＆ ta_ka ＆ ありえへんでP"
+            ],
+            "position": "た,エ-35,36",
+            "links": [
+                "http://ami-net.jugem.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "DONJIRI"
+            ],
+            "pen_names": [
+                "ジリミ"
+            ],
+            "position": "た,エ-33",
+            "links": [
+                "http://donjiri.3rin.net/"
+            ]
+        },
+        {
+            "aliases": [
+                ""
+            ],
+            "position": "た,"
+        },
+        {
+            "aliases": [
+                "NERVE（ナーヴ）"
+            ],
+            "pen_names": [
+                "東條紗生、みぎわ蓮"
+            ],
+            "position": "な,エ-51",
+            "links": [
+                "http://nerve.holy.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "泣き虫ライカ。"
+            ],
+            "pen_names": [
+                "野宮小鳩"
+            ],
+            "position": "な,エ-64",
+            "links": [
+                "http://nanos.jp/notexxx/"
+            ]
+        },
+        {
+            "aliases": [
+                "七海鼎談（なつみていだん）"
+            ],
+            "pen_names": [
+                "こると"
+            ],
+            "position": "な,カ-45",
+            "links": [
+                "http://natumiteidan.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "七色庭園"
+            ],
+            "pen_names": [
+                "春日菖蒲"
+            ],
+            "position": "な,オ-64",
+            "links": [
+                "http://ayameiro.pya.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "ナナイロパレット"
+            ],
+            "pen_names": [
+                "MazoP"
+            ],
+            "position": "な,ア-31",
+            "links": [
+                "http://7-palette.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "ななほしProject"
+            ],
+            "pen_names": [
+                "ななほし"
+            ],
+            "position": "な,イ-13",
+            "links": [
+                "http://blog.livedoor.jp/multipath/"
+            ]
+        },
+        {
+            "aliases": [
+                "浪花の般若"
+            ],
+            "pen_names": [
+                "かず犬"
+            ],
+            "position": "な,ウ-05",
+            "links": [
+                "http://www2.hp-ez.com/hp/kazukenn/"
+            ]
+        },
+        {
+            "aliases": [
+                "生ぐーみん。"
+            ],
+            "pen_names": [
+                "四重婚P"
+            ],
+            "position": "な,カ-28",
+            "links": [
+                "http://www.shin-asakawa.jp/vocaloid/nama_gumin/"
+            ]
+        },
+        {
+            "aliases": [
+                "なんとかかんとか"
+            ],
+            "pen_names": [
+                "kiichi"
+            ],
+            "position": "な,イ-03",
+            "links": [
+                "http://kiiichi.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "nia"
+            ],
+            "pen_names": [
+                "マツコ"
+            ],
+            "position": "な,オ-16",
+            "links": [
+                "http://nia.xii.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "葱箱"
+            ],
+            "pen_names": [
+                "ぎっちょんの人"
+            ],
+            "position": "な,イ-15",
+            "links": [
+                "http://www.negivox.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "Neko Can"
+            ],
+            "pen_names": [
+                "satton, geppei-taro"
+            ],
+            "position": "な,イ-31",
+            "links": [
+                "http://www.nekocan.180r.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ねこのおへや"
+            ],
+            "pen_names": [
+                "ねこぴょん"
+            ],
+            "position": "な,オ-50",
+            "links": [
+                "http://nekopyon32.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "NEKOMANMA"
+            ],
+            "pen_names": [
+                "桐野言霊"
+            ],
+            "position": "な,オ-37,38",
+            "links": [
+                "http://nekomanma.ongaeshi.biz/"
+            ]
+        },
+        {
+            "aliases": [
+                "ねりひばり＆EtwaS"
+            ],
+            "pen_names": [
+                "うすちー。"
+            ],
+            "position": "な,エ-09,10"
+        },
+        {
+            "aliases": [
+                "noa+夜叉"
+            ],
+            "pen_names": [
+                "noa+、夜鳴夜叉"
+            ],
+            "position": "な,ア-21,22",
+            "links": [
+                "http://www.nicovideo.jp/mylist/15349836"
+            ]
+        },
+        {
+            "aliases": [
+                "No one hears"
+            ],
+            "pen_names": [
+                "すこっぷ、まつとり"
+            ],
+            "position": "な,ア-14",
+            "links": [
+                "http://noonehears.main.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "のんしゃらん房"
+            ],
+            "pen_names": [
+                "海遊"
+            ],
+            "position": "な,オ-17",
+            "links": [
+                "http://tumugitouka.dou-jin.com/"
+            ]
+        },
+        {
+            "aliases": [
+                ""
+            ],
+            "position": "な,"
+        },
+        {
+            "aliases": [
+                "ばーどちゅーん"
+            ],
+            "pen_names": [
+                "KuKuDoDo"
+            ],
+            "position": "は,カ-03,04",
+            "links": [
+                "http://birdtune.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "灰色館"
+            ],
+            "pen_names": [
+                "灰音ミコト"
+            ],
+            "position": "は,エ-23,24"
+        },
+        {
+            "aliases": [
+                "HI-TECH \n    CARROT"
+            ],
+            "pen_names": [
+                "佳由樹"
+            ],
+            "position": "は,ウ-25",
+            "links": [
+                "http://h-tc.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "バイバイレコード"
+            ],
+            "pen_names": [
+                "キャプテンミライ"
+            ],
+            "position": "は,イ-33",
+            "links": [
+                "http://www.byebyerecord.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ぱくぱく"
+            ],
+            "pen_names": [
+                "希谷一光"
+            ],
+            "position": "は,ウ-43",
+            "links": [
+                "http://ikaring77.blog93.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "はちみつみっつ"
+            ],
+            "pen_names": [
+                "実つぶ"
+            ],
+            "position": "は,ウ-39",
+            "links": [
+                "http://06.mbsp.jp/reopepepe/"
+            ]
+        },
+        {
+            "aliases": [
+                "hatsuko.com"
+            ],
+            "pen_names": [
+                "ハツ子"
+            ],
+            "position": "は,カ-59",
+            "links": [
+                "http://hatsuko.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ハツネギ村"
+            ],
+            "pen_names": [
+                "しゃちほこP"
+            ],
+            "position": "は,カ-27",
+            "links": [
+                "http://shachihoko.at.webry.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "花菱実験室"
+            ],
+            "pen_names": [
+                "6410"
+            ],
+            "position": "は,カ-09",
+            "links": [
+                "http://utau6410.blog6.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "BanalFash"
+            ],
+            "pen_names": [
+                "BOKU"
+            ],
+            "position": "は,ウ-15",
+            "links": [
+                "http://banalfash.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "ぱにー"
+            ],
+            "pen_names": [
+                "矛盾、vient"
+            ],
+            "position": "は,カ-11",
+            "links": [
+                "http://panee.chottu.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "HONEY MAPLE"
+            ],
+            "pen_names": [
+                "まめ"
+            ],
+            "position": "は,オ-06",
+            "links": [
+                "http://yaplog.jp/rinlen/"
+            ]
+        },
+        {
+            "aliases": [
+                "Vanilla Blue"
+            ],
+            "pen_names": [
+                "早蕨ヒソカ"
+            ],
+            "position": "は,エ-56",
+            "links": [
+                "http://cloudy.hacca.jp/blue/"
+            ]
+        },
+        {
+            "aliases": [
+                "はむ☆すた"
+            ],
+            "pen_names": [
+                "はむ☆P"
+            ],
+            "position": "は,イ-22",
+            "links": [
+                "http://vocaloidhamp.blog28.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "パラフィン*"
+            ],
+            "pen_names": [
+                "武藤"
+            ],
+            "position": "は,オ-23",
+            "links": [
+                "http://www.pixiv.net/member.php?id=646823"
+            ]
+        },
+        {
+            "aliases": [
+                "反時計回り"
+            ],
+            "pen_names": [
+                "ドット絵三郎"
+            ],
+            "position": "は,オ-29",
+            "links": [
+                "http://dot.makibisi.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "hi☆"
+            ],
+            "pen_names": [
+                "雛姫"
+            ],
+            "position": "は,ウ-45",
+            "links": [
+                "http://hinaki.zouri.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "P.J.C.Pan"
+            ],
+            "pen_names": [
+                "武林 若奈"
+            ],
+            "position": "は,エ-16",
+            "links": [
+                "http://pjcp.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ひえピタ。"
+            ],
+            "pen_names": [
+                "みゆきしょうこ"
+            ],
+            "position": "は,オ-34",
+            "links": [
+                "http://www.pixiv.net/member.php?id=473660"
+            ]
+        },
+        {
+            "aliases": [
+                "PEONY MARK"
+            ],
+            "pen_names": [
+                "貌佳草"
+            ],
+            "position": "は,ウ-08",
+            "links": [
+                "http://peonymark.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "飛行船"
+            ],
+            "pen_names": [
+                "空乃 くじら"
+            ],
+            "position": "は,オ-62",
+            "links": [
+                "http://mixi.jp/show_profile.pl?id=5840631"
+            ]
+        },
+        {
+            "aliases": [
+                "Pigeonsbug"
+            ],
+            "pen_names": [
+                "さいどん"
+            ],
+            "position": "は,カ-39",
+            "links": [
+                "http://pigeonsbug.jugem.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "ひなたロジック"
+            ],
+            "pen_names": [
+                "Nuc-Z"
+            ],
+            "position": "は,カ-48"
+        },
+        {
+            "aliases": [
+                "ひよことみかん"
+            ],
+            "pen_names": [
+                "多ブレスＰ、にきＰ"
+            ],
+            "position": "は,オ-18"
+        },
+        {
+            "aliases": [
+                "ふぁいあー"
+            ],
+            "pen_names": [
+                "kumo"
+            ],
+            "position": "は,ウ-09",
+            "links": [
+                "http://fireball2010.web.fc2.com/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "FAKE"
+            ],
+            "pen_names": [
+                "桜井アキ"
+            ],
+            "position": "は,オ-13",
+            "links": [
+                "http://pain.readymade.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "FORESTY"
+            ],
+            "pen_names": [
+                "KeaP"
+            ],
+            "position": "は,イ-24",
+            "links": [
+                "http://keafore.blog119.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ふたば"
+            ],
+            "pen_names": [
+                "ユッキー、るー"
+            ],
+            "position": "は,エ-17",
+            "links": [
+                "http://yellowsuki.blog31.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Bright Note Factory"
+            ],
+            "pen_names": [
+                "イトカワＰ"
+            ],
+            "position": "は,カ-30",
+            "links": [
+                "http://bnfactory.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "FragileOnline"
+            ],
+            "pen_names": [
+                "YS"
+            ],
+            "position": "は,カ-51",
+            "links": [
+                "http://www.shinsekai.co.uk/"
+            ]
+        },
+        {
+            "aliases": [
+                "Planet"
+            ],
+            "pen_names": [
+                "24PN"
+            ],
+            "position": "は,ウ-34"
+        },
+        {
+            "aliases": [
+                "古川本舗京都営業所"
+            ],
+            "pen_names": [
+                "古川本舗"
+            ],
+            "position": "は,カ-36",
+            "links": [
+                "http://fullkawahonpo.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Project Nostalgia"
+            ],
+            "pen_names": [
+                "たかＰ"
+            ],
+            "position": "は,カ-16",
+            "links": [
+                "http://nostalgia.takap.tk/"
+            ]
+        },
+        {
+            "aliases": [
+                "hazymoooooon"
+            ],
+            "pen_names": [
+                "朧月"
+            ],
+            "position": "は,ウ-30",
+            "links": [
+                "http://www.pixiv.net/member.php?id=5913"
+            ]
+        },
+        {
+            "aliases": [
+                "hey \n    you!"
+            ],
+            "pen_names": [
+                "のん"
+            ],
+            "position": "は,エ-38",
+            "links": [
+                "http://yuuu.chu.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "ぺこぽこ"
+            ],
+            "pen_names": [
+                "成瀬みち"
+            ],
+            "position": "は,オ-51",
+            "links": [
+                "http://rinrin.saiin.net/‾pp/"
+            ]
+        },
+        {
+            "aliases": [
+                "へっどほんトーキョー"
+            ],
+            "pen_names": [
+                "とくP・MARiA"
+            ],
+            "position": "は,カ-19",
+            "links": [
+                "http://headphone-tokyo.com"
+            ]
+        },
+        {
+            "aliases": [
+                "Heaven's \n    mushroom"
+            ],
+            "pen_names": [
+                "雪森あさと"
+            ],
+            "position": "は,エ-44",
+            "links": [
+                "http://hello-project.sakura.ne.jp/heavenkinoko-gate.html"
+            ]
+        },
+        {
+            "aliases": [
+                "へもぐろ"
+            ],
+            "pen_names": [
+                "べじ"
+            ],
+            "position": "は,エ-49",
+            "links": [
+                "http://hemo.moe.in/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "Perico"
+            ],
+            "pen_names": [
+                "ぺり子"
+            ],
+            "position": "は,エ-29,30",
+            "links": [
+                "http://twinklesky.sakura.ne.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "HELLOTONEAR WORKS"
+            ],
+            "pen_names": [
+                "myco.　ナリナリナ"
+            ],
+            "position": "は,オ-53",
+            "links": [
+                "http://room105mycoco.blog46.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Velocity Drop"
+            ],
+            "pen_names": [
+                "SO*、ひな"
+            ],
+            "position": "は,エ-11",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2709453"
+            ]
+        },
+        {
+            "aliases": [
+                "PENGUINS PROJECT"
+            ],
+            "pen_names": [
+                "PENGUINS PROJECT"
+            ],
+            "position": "は,ア-09",
+            "links": [
+                "http://d.hatena.ne.jp/PENGUINS_PROJECT/"
+            ]
+        },
+        {
+            "aliases": [
+                "ボーナストラック"
+            ],
+            "pen_names": [
+                "八城和也"
+            ],
+            "position": "は,エ-15"
+        },
+        {
+            "aliases": [
+                "HOMING ECHO"
+            ],
+            "pen_names": [
+                "絵師じゃないKEI"
+            ],
+            "position": "は,ウ-17",
+            "links": [
+                "http://homingecho.blog84.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ボカファン準備会事務局"
+            ],
+            "pen_names": [
+                "fixy"
+            ],
+            "position": "は,カ-34",
+            "links": [
+                "http://vocaloid-fantasia.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ボカロ歌い手の集い"
+            ],
+            "pen_names": [
+                "はつだい"
+            ],
+            "position": "は,ア-10",
+            "links": [
+                "http://vuca.blog37.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ぽしぇっと。"
+            ],
+            "pen_names": [
+                "そらゆき"
+            ],
+            "position": "は,オ-56",
+            "links": [
+                "http://www.pixiv.net/member.php?id=522010"
+            ]
+        },
+        {
+            "aliases": [
+                "ぼた柚"
+            ],
+            "pen_names": [
+                "よつのは牡丹＆よつのは柚依"
+            ],
+            "position": "は,ウ-35"
+        },
+        {
+            "aliases": [
+                "北方帰宅部"
+            ],
+            "pen_names": [
+                "枝豆伍々壱"
+            ],
+            "position": "は,オ-24",
+            "links": [
+                "http://www.pixiv.net/member.php?id=241620"
+            ]
+        },
+        {
+            "aliases": [
+                "ポヤッチオ"
+            ],
+            "pen_names": [
+                "かたほとり"
+            ],
+            "position": "は,イ-27,28",
+            "links": [
+                "http://orc2000.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ほりっくさーびす"
+            ],
+            "pen_names": [
+                "KuKuDoDo feat. Gumi"
+            ],
+            "position": "は,カ-05,06",
+            "links": [
+                "http://holicservice.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "boroneri"
+            ],
+            "pen_names": [
+                "きざきりょこ"
+            ],
+            "position": "は,エ-50"
+        },
+        {
+            "aliases": [
+                "ほわほわなおうち"
+            ],
+            "pen_names": [
+                "ココ。"
+            ],
+            "position": "は,ウ-42",
+            "links": [
+                "http://cocoooco.blog103.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                ""
+            ],
+            "position": "は,"
+        },
+        {
+            "aliases": [
+                "MY SONG IS SHIT"
+            ],
+            "pen_names": [
+                "鬱P"
+            ],
+            "position": "ま,ア-17",
+            "links": [
+                "http://nine.nicovideo.jp/mylist/6385075"
+            ]
+        },
+        {
+            "aliases": [
+                "mighty works"
+            ],
+            "pen_names": [
+                "U-ske"
+            ],
+            "position": "ま,カ-65,66",
+            "links": [
+                "http://mighty-works.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "mathruねっと"
+            ],
+            "pen_names": [
+                "mathru（かにみそP)"
+            ],
+            "position": "ま,カ-22",
+            "links": [
+                "http://mathru.net"
+            ]
+        },
+        {
+            "aliases": [
+                "マッチ箱レーベル"
+            ],
+            "pen_names": [
+                "tokek"
+            ],
+            "position": "ま,カ-49",
+            "links": [
+                "http://moonlighttokek.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "真夏の夜明け"
+            ],
+            "pen_names": [
+                "りつき"
+            ],
+            "position": "ま,ウ-49"
+        },
+        {
+            "aliases": [
+                "豆男爵"
+            ],
+            "pen_names": [
+                "豆男爵"
+            ],
+            "position": "ま,カ-50"
+        },
+        {
+            "aliases": [
+                "豆２"
+            ],
+            "pen_names": [
+                "RiE"
+            ],
+            "position": "ま,カ-31",
+            "links": [
+                "http://riemame.chu.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "Markgraf（マルクグラーフ）"
+            ],
+            "pen_names": [
+                "髑髏中佐"
+            ],
+            "position": "ま,ウ-07",
+            "links": [
+                "http://www.s-markgraf.net"
+            ]
+        },
+        {
+            "aliases": [
+                "三重谷 Visual Workｓ"
+            ],
+            "pen_names": [
+                "三重の人　cort"
+            ],
+            "position": "ま,カ-01,02",
+            "links": [
+                "http://ameblo.jp/cort-blog/"
+            ]
+        },
+        {
+            "aliases": [
+                "Miotec 2nd TEAM"
+            ],
+            "pen_names": [
+                "目から鱗"
+            ],
+            "position": "ま,オ-67,68",
+            "links": [
+                "http://www.maid-speed.com"
+            ]
+        },
+        {
+            "aliases": [
+                "深影屋"
+            ],
+            "pen_names": [
+                "マリアP"
+            ],
+            "position": "ま,カ-37",
+            "links": [
+                "http://www.mikageya.org"
+            ]
+        },
+        {
+            "aliases": [
+                "蜜柑派最後の砦"
+            ],
+            "pen_names": [
+                "ぶりる"
+            ],
+            "position": "ま,カ-38",
+            "links": [
+                "http://artical-riddim.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "みくろ菌。"
+            ],
+            "pen_names": [
+                "mikuron　ichi菌"
+            ],
+            "position": "ま,オ-49",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1368075"
+            ]
+        },
+        {
+            "aliases": [
+                "MicchiMusicStudio"
+            ],
+            "pen_names": [
+                "みっち（かいわれＰ）"
+            ],
+            "position": "ま,イ-10",
+            "links": [
+                "http://habcy.bitter.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "南方研究所"
+            ],
+            "pen_names": [
+                "タスク、うつした、チョボ六、ハチ"
+            ],
+            "position": "ま,オ-35,36",
+            "links": [
+                "http://minaken.net"
+            ]
+        },
+        {
+            "aliases": [
+                "南乃ツキ"
+            ],
+            "pen_names": [
+                "那月ゆう"
+            ],
+            "position": "ま,ウ-14",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1164835"
+            ]
+        },
+        {
+            "aliases": [
+                "みもとん"
+            ],
+            "pen_names": [
+                "みもとん"
+            ],
+            "position": "ま,エ-43",
+            "links": [
+                "http://mimoton.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "明星教会-SLC-"
+            ],
+            "pen_names": [
+                "ゆきな＝89"
+            ],
+            "position": "ま,ウ-36"
+        },
+        {
+            "aliases": [
+                "無音書房"
+            ],
+            "pen_names": [
+                "無音"
+            ],
+            "position": "ま,オ-26",
+            "links": [
+                "http://obr.zouri.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "無心天使"
+            ],
+            "pen_names": [
+                "ろれる"
+            ],
+            "position": "ま,ウ-28",
+            "links": [
+                "http://www.mushin-tenshi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "迷夢館"
+            ],
+            "pen_names": [
+                "めいむ"
+            ],
+            "position": "ま,ウ-21"
+        },
+        {
+            "aliases": [
+                "Methuselah"
+            ],
+            "pen_names": [
+                "涼風涼雨"
+            ],
+            "position": "ま,カ-21",
+            "links": [
+                "http://methuselah.websozai.jp/s/"
+            ]
+        },
+        {
+            "aliases": [
+                "merimero"
+            ],
+            "pen_names": [
+                "eb　糸乃子"
+            ],
+            "position": "ま,オ-63"
+        },
+        {
+            "aliases": [
+                "めろでぃらいん"
+            ],
+            "pen_names": [
+                "えろあきＰ"
+            ],
+            "position": "ま,ア-03",
+            "links": [
+                "http://ameblo.jp/melodyline53/"
+            ]
+        },
+        {
+            "aliases": [
+                "妄想狂少年"
+            ],
+            "pen_names": [
+                "神田"
+            ],
+            "position": "ま,オ-20",
+            "links": [
+                "http://lyze.jp/kandac/"
+            ]
+        },
+        {
+            "aliases": [
+                "もちっとあいす"
+            ],
+            "pen_names": [
+                "小摘貶寝"
+            ],
+            "position": "ま,ア-30",
+            "links": [
+                "http://www.mochitto-ice.com"
+            ]
+        },
+        {
+            "aliases": [
+                "目下模索中"
+            ],
+            "pen_names": [
+                "四弐号機"
+            ],
+            "position": "ま,ウ-06",
+            "links": [
+                "http://yonnjuuni.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                ""
+            ],
+            "position": "ま,"
+        },
+        {
+            "aliases": [
+                "ヤング企画"
+            ],
+            "pen_names": [
+                "山羊五条"
+            ],
+            "position": "や,ウ-29",
+            "links": [
+                "http://www4.atword.jp/theyoung/"
+            ]
+        },
+        {
+            "aliases": [
+                "夕空製作所"
+            ],
+            "pen_names": [
+                "静野"
+            ],
+            "position": "や,カ-24",
+            "links": [
+                "http://yuzora.kakurezato.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆずティー"
+            ],
+            "pen_names": [
+                "央、午後野ちゃこ"
+            ],
+            "position": "や,ウ-50"
+        },
+        {
+            "aliases": [
+                "5/4TAKEPOD"
+            ],
+            "pen_names": [
+                "デッドボールＰ"
+            ],
+            "position": "や,イ-01",
+            "links": [
+                "http://takepod.accela.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                ""
+            ],
+            "position": "や,"
+        },
+        {
+            "aliases": [
+                "Lachenalia"
+            ],
+            "pen_names": [
+                "プリンプリン"
+            ],
+            "position": "ら,ア-01",
+            "links": [
+                "http://lachenalia.xxxxxxxx.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "ラバーメント"
+            ],
+            "pen_names": [
+                "ナゴム"
+            ],
+            "position": "ら,オ-08",
+            "links": [
+                "http://rubberment.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "laLamisolfa"
+            ],
+            "pen_names": [
+                "お兄P"
+            ],
+            "position": "ら,カ-46",
+            "links": [
+                "http://www.orcaland.gr.jp/‾shogun/"
+            ]
+        },
+        {
+            "aliases": [
+                "Re:cord G"
+            ],
+            "pen_names": [
+                "Garuku"
+            ],
+            "position": "ら,オ-66",
+            "links": [
+                "http://garuku.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Refrain"
+            ],
+            "pen_names": [
+                "yoki"
+            ],
+            "position": "ら,オ-42"
+        },
+        {
+            "aliases": [
+                "緑化倶楽部"
+            ],
+            "pen_names": [
+                "いくそつー"
+            ],
+            "position": "ら,ウ-04",
+            "links": [
+                "http://ikusotsu.blog11.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "臨時営業"
+            ],
+            "pen_names": [
+                "kote"
+            ],
+            "position": "ら,オ-61",
+            "links": [
+                "http://www.ac.auone-net.jp/‾askdna/"
+            ]
+        },
+        {
+            "aliases": [
+                "Rainbow Pudding"
+            ],
+            "pen_names": [
+                "虹階、唯人"
+            ],
+            "position": "ら,ウ-22",
+            "links": [
+                "http://kujounegi.blog24.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "reonov lab"
+            ],
+            "pen_names": [
+                "プチ"
+            ],
+            "position": "ら,ウ-12",
+            "links": [
+                "http://www.gfoc.gr.jp/‾reonov/"
+            ]
+        },
+        {
+            "aliases": [
+                "ResonanceEgg"
+            ],
+            "pen_names": [
+                "芳瀬うた"
+            ],
+            "position": "ら,カ-26",
+            "links": [
+                "http://utatane.kokage.cc"
+            ]
+        },
+        {
+            "aliases": [
+                "RED SIGN"
+            ],
+            "pen_names": [
+                "赤祺"
+            ],
+            "position": "ら,オ-45,46",
+            "links": [
+                "http://akayagi.kachoufuugetu.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "local color"
+            ],
+            "pen_names": [
+                "志保"
+            ],
+            "position": "ら,オ-44",
+            "links": [
+                "http://hitsu.rejec.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "Romantister records"
+            ],
+            "pen_names": [
+                "hr"
+            ],
+            "position": "ら,カ-29",
+            "links": [
+                "http://d.hatena.ne.jp/hr24/"
+            ]
+        },
+        {
+            "aliases": [
+                ""
+            ],
+            "position": "ら,"
+        },
+        {
+            "aliases": [
+                "(YMY)"
+            ],
+            "pen_names": [
+                "ゆみごん・かづきん"
+            ],
+            "position": "わ,オ-59,60"
+        },
+        {
+            "aliases": [
+                "Y-KR"
+            ],
+            "pen_names": [
+                "ユキル"
+            ],
+            "position": "わ,エ-07",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1683942"
+            ]
+        },
+        {
+            "aliases": [
+                "わがまま"
+            ],
+            "pen_names": [
+                "ヨモギ"
+            ],
+            "position": "わ,エ-21"
+        },
+        {
+            "aliases": [
+                "Wonderland"
+            ],
+            "pen_names": [
+                "涼"
+            ],
+            "position": "わ,ウ-46",
+            "links": [
+                "http://ecila.blog.shinobi.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "ワンダフル☆オポチュニティ！"
+            ],
+            "pen_names": [
+                "マイナスＰ、じーざすＰ"
+            ],
+            "position": "わ,イ-34",
+            "links": [
+                "http://www.wan-opo.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "woguske"
+            ],
+            "pen_names": [
+                "wogura＆U-ske"
+            ],
+            "position": "わ,カ-63,64",
+            "links": [
+                "http://wogura.com"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date, Participating circles: https://ttc.ninja-web.net/vo-para/vo-para05_list.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "5_20120918044130_vo-para05.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20120918044130/http://ttc.ninja-web.net/vo-para/vo-para05.jpg",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "comments": "この度は、ボーパラ５に多くの申込ありがとうございました。\n募集数を大幅に上回る\n285サークル316スペース\nもの申込がありましたが、３階Ａ面→３階全面へ拡大を行ったため、申込されたサークル様は全て当選となりました。\nまた、今回はボーパラでは初めての企業出展２社を受け入れました。\nボーパラ５＋同時開催イベントで実施した東日本大震災の義捐金払込報告は\nこちら\n。\n開催日： 2011年3月27日（日）\n開催場所：\n京都市勧業館（みやこめっせ）\n３階\n第３展示場A面\n→\n第３展示場全面\n同時開催：\n・\nリトバスパーティー４\n（リトルバスターズ！）\n・\nAB即売会戦線２\n（Angel \n    Beats!）\n・\nKeyパーティー\n（Key作品総合）\n・\nMUSIC COMMUNICATION 3\n（音系）\n・\n乙HiME☆復活祭 9\n（舞-HiME/舞-乙HiME）",
+    "description": "Simultanous with MUSIC COMMUNICATION 3."
+}
