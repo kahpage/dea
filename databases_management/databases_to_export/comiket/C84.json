@@ -1,0 +1,82 @@
+{
+    "aliases": [
+        "C84",
+        "コミックマーケット84",
+        "Comiket 84",
+        "Comic Market 84"
+    ],
+    "dates": "2013.08.10 - 2013.08.12",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250710153917/https://www.comiket.co.jp/archives/Chronology.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "84_CWC_C84.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130807234600/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "84_CWC_C84L.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130807234600/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "84_C84CtlgWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250710153917/https://www.comiket.co.jp/archives/Chronology.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "カントク（サークル：5年目の放課後）"
+        },
+        {
+            "path": "84_C84CtlgRomWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250710153917/https://www.comiket.co.jp/archives/Chronology.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "カントク（サークル：5年目の放課後）"
+        },
+        {
+            "path": "https://web.archive.org/web/20140508104230/http://www.comiket.co.jp/info-a/C84/C84CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20140508104230/http://www.comiket.co.jp/info-a/C84/C84CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

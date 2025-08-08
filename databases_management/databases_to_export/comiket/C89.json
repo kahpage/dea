@@ -1,0 +1,134 @@
+{
+    "aliases": [
+        "C89",
+        "コミックマーケット89",
+        "Comiket 89",
+        "Comic Market 89"
+    ],
+    "dates": "2015.12.29 - 2015.12.31",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250114180440/https://www.comiket.co.jp/info-a/C89/C89distributions.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "89_CWC_C89.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20160105141546/http://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "89_CWC_C89L.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20160105141546/http://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "89_C89CtlgSasshi.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114180440/https://www.comiket.co.jp/info-a/C89/C89distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：スー（サークル：vgmt）"
+        },
+        {
+            "path": "89_C89KamibukuroL.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114180440/https://www.comiket.co.jp/info-a/C89/C89distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：かわく（サークル：カワクウズウズ）"
+        },
+        {
+            "path": "89_C89KamibukuroS.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114180440/https://www.comiket.co.jp/info-a/C89/C89distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：せんむ（サークル：GRAPHIC!!）"
+        },
+        {
+            "path": "89_C89KigyoPamphlet.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114180440/https://www.comiket.co.jp/info-a/C89/C89distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "ファルまろ（サークル：よっこらペンシル）"
+        },
+        {
+            "path": "89_C89CtlgRom.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114180440/https://www.comiket.co.jp/info-a/C89/C89distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "スー（サークル：vgmt）"
+        },
+        {
+            "path": "89_C89Moushikomisho.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115023056/https://www.comiket.co.jp/info-a/C88/C88distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙イラスト：シキブ（サークル：OPERA）"
+        },
+        {
+            "path": "https://web.archive.org/web/20160307171702/http://www.comiket.co.jp/info-a/C89/C89CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20160307171702/http://www.comiket.co.jp/info-a/C89/C89CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

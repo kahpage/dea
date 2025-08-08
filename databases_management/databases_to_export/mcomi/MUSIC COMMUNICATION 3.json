@@ -1,0 +1,459 @@
+{
+    "aliases": [
+        "MUSIC COMMUNICATION 3",
+        "M-COMI3",
+        "Mコミ3"
+    ],
+    "dates": "2011.03.27",
+    "circles": [
+        {
+            "aliases": [
+                "Audrey Record"
+            ],
+            "pen_names": [
+                "堀口直樹"
+            ],
+            "position": "Track.19,20",
+            "links": [
+                "http://www.adypro.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "DESTINO"
+            ],
+            "pen_names": [
+                "藤沢美夜"
+            ],
+            "position": "Track.31",
+            "links": [
+                "http://www.destino-records.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Dragon Spiral Music"
+            ],
+            "pen_names": [
+                "はっちゃん"
+            ],
+            "position": "Track.30",
+            "links": [
+                "http://www1.odn.ne.jp/~cbj91770/dragonspi.htm"
+            ]
+        },
+        {
+            "aliases": [
+                "Floating Cloud"
+            ],
+            "pen_names": [
+                "Yu-ki"
+            ],
+            "position": "Track.02",
+            "links": [
+                "http://www.floatingcloud.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "GRAZE SHOP"
+            ],
+            "pen_names": [
+                "ささきとど助"
+            ],
+            "position": "Track.27",
+            "links": [
+                "http://www.geocities.jp/sasakitodosuke/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "L&Eクリエイターズ"
+            ],
+            "pen_names": [
+                "柚小"
+            ],
+            "position": "Track.24",
+            "links": [
+                "http://d.hatena.ne.jp/lecreator/"
+            ]
+        },
+        {
+            "aliases": [
+                "LC:AZE"
+            ],
+            "pen_names": [
+                "琉姫アルナ"
+            ],
+            "position": "Track.36",
+            "links": [
+                "http://www.lcaze.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Lunatico"
+            ],
+            "pen_names": [
+                "ヤヤネヒロ"
+            ],
+            "position": "Track.32",
+            "links": [
+                "http://yaya.fool.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "Melodic Taste"
+            ],
+            "pen_names": [
+                "taste"
+            ],
+            "position": "Track.33",
+            "links": [
+                "http://taste-f.sakura.ne.jp/Melodic/"
+            ]
+        },
+        {
+            "aliases": [
+                "Redstar Radio Station"
+            ],
+            "pen_names": [
+                "南方省吾"
+            ],
+            "position": "Track.09",
+            "links": [
+                "http://www.redstar-radio.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "salvation by faith records"
+            ],
+            "pen_names": [
+                "AOiRO_Manbow"
+            ],
+            "position": "Track.26",
+            "links": [
+                "http://sbfr.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "Sound -R-"
+            ],
+            "pen_names": [
+                "UTA"
+            ],
+            "position": "Track.29",
+            "links": [
+                "http://soundr.web.fc2.com/index.html"
+            ]
+        },
+        {
+            "aliases": [
+                "Sprite Wing"
+            ],
+            "pen_names": [
+                "MAYA"
+            ],
+            "position": "Track.08",
+            "links": [
+                "http://spritewing.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "TAMUSIC"
+            ],
+            "pen_names": [
+                "TAM"
+            ],
+            "position": "Track.35",
+            "links": [
+                "http://tamusic.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "THURA*POP"
+            ],
+            "pen_names": [
+                "いずみ　あや"
+            ],
+            "position": "Track.05",
+            "links": [
+                "http://thurapop.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "TO-MAX"
+            ],
+            "pen_names": [
+                "DAN"
+            ],
+            "position": "Track.28",
+            "links": [
+                "http://www.k2.dion.ne.jp/~to-max"
+            ]
+        },
+        {
+            "aliases": [
+                "UI-70"
+            ],
+            "pen_names": [
+                "如日"
+            ],
+            "position": "Track.01",
+            "links": [
+                "http://ui-70.sakura.ne.jp/ui-70/"
+            ]
+        },
+        {
+            "aliases": [
+                "あにおん"
+            ],
+            "pen_names": [
+                "葛野大路右京"
+            ],
+            "position": "Track.25",
+            "links": [
+                "http://あにおん.jp"
+            ]
+        },
+        {
+            "aliases": [
+                "あるみかんのうえにあるみかん。"
+            ],
+            "pen_names": [
+                "ひらの　みふみ"
+            ],
+            "position": "Track.34",
+            "links": [
+                "http://hirano323.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "サンドラニックプロジェクト"
+            ],
+            "pen_names": [
+                "ミッチー･サンドラ"
+            ],
+            "position": "Track.07",
+            "links": [
+                "http://sandranic.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "とろいめらい"
+            ],
+            "pen_names": [
+                "高橋　あきお"
+            ],
+            "position": "Track.21",
+            "links": [
+                "http://toromeranet.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ペンギンレコード"
+            ],
+            "pen_names": [
+                "やましたとも"
+            ],
+            "position": "Track.04",
+            "links": [
+                "登録なし"
+            ]
+        },
+        {
+            "aliases": [
+                "めぇこといくの"
+            ],
+            "pen_names": [
+                "栗沢いくの"
+            ],
+            "position": "Track.17",
+            "links": [
+                "登録なし"
+            ]
+        },
+        {
+            "aliases": [
+                "ももみかん"
+            ],
+            "pen_names": [
+                "霜夜 ルリ"
+            ],
+            "position": "Track.11",
+            "links": [
+                "http://momomikan.com"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆずぽんれぎおん"
+            ],
+            "pen_names": [
+                "白夜輝星"
+            ],
+            "position": "Track.15",
+            "links": [
+                "http://yuzuponlegion.sitemix.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "安楽駅屋"
+            ],
+            "pen_names": [
+                "安楽こしき"
+            ],
+            "position": "Track.36（委託）",
+            "links": [
+                "登録なし"
+            ]
+        },
+        {
+            "aliases": [
+                "乙女ろーどサウンドぷろじぇくと"
+            ],
+            "pen_names": [
+                "T@CK''n"
+            ],
+            "position": "Track.16",
+            "links": [
+                "http://www.geocities.jp/otome_road_project/"
+            ]
+        },
+        {
+            "aliases": [
+                "我侭☆王子"
+            ],
+            "pen_names": [
+                "風香"
+            ],
+            "position": "Track.23",
+            "links": [
+                "http://www.geocities.co.jp/AnimeComic-Ink/2214/"
+            ]
+        },
+        {
+            "aliases": [
+                "高天原応用通信研究所"
+            ],
+            "pen_names": [
+                "螢屋"
+            ],
+            "position": "Track.18",
+            "links": [
+                "http://pony.tail.net/song/"
+            ]
+        },
+        {
+            "aliases": [
+                "桜ノ咲音響産業"
+            ],
+            "pen_names": [
+                "桜ノ咲みえ"
+            ],
+            "position": "Track.14",
+            "links": [
+                "http://sakion.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "少女邂逅症候群"
+            ],
+            "pen_names": [
+                "澪音"
+            ],
+            "position": "Track.10",
+            "links": [
+                "http://piapro.jp/rein_composer"
+            ]
+        },
+        {
+            "aliases": [
+                "神風小町"
+            ],
+            "pen_names": [
+                "柿人"
+            ],
+            "position": "Track.13",
+            "links": [
+                "http://www.kamikazekomachi.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "数珠世界"
+            ],
+            "pen_names": [
+                "時津守　七"
+            ],
+            "position": "Track.06",
+            "links": [
+                "http://toki7.sakura.ne.jp/bw/"
+            ]
+        },
+        {
+            "aliases": [
+                "声王伝説"
+            ],
+            "pen_names": [
+                "魔天使"
+            ],
+            "position": "Track.22",
+            "links": [
+                "http://hiaudio.ame-zaiku.com/vkc"
+            ]
+        },
+        {
+            "aliases": [
+                "電子音響音楽応用解析研究所"
+            ],
+            "pen_names": [
+                "にュウ"
+            ],
+            "position": "Track.03",
+            "links": [
+                "http://www.niusounds.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "飛練音響工業"
+            ],
+            "pen_names": [
+                "響太"
+            ],
+            "position": "Track.12",
+            "links": [
+                "http://hiaudio.ame-zaiku.com/"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://puellabyte.github.io/events",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        },
+        {
+            "source": "Participating circles: web.archive.org/web/20151025182852/http://m-comi.birdzberth.com/96_circlelist/circlelist_mcomi03.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "description": "Simultanous with VOCALOID PARADISE 5."
+}

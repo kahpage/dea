@@ -1,0 +1,94 @@
+{
+    "aliases": [
+        "MUSIC COMMUNICATION",
+        "M-COMI",
+        "Mコミ"
+    ],
+    "links": [
+        "https://web.archive.org/web/20080827212908/http://m-comi.birdzberth.com/",
+        "https://x.com/m_comi"
+    ],
+    "description": "Co-events with VOCALOID PARADISE 関西.",
+    "events": {
+        "MUSIC COMMUNICATION": {
+            "index": 0,
+            "dates": "2009.03.09",
+            "circle_count": 70
+        },
+        "MUSIC COMMUNICATION 2": {
+            "index": 1,
+            "dates": "2010.09.19",
+            "circle_count": 43
+        },
+        "MUSIC COMMUNICATION 3": {
+            "index": 2,
+            "dates": "2011.03.27",
+            "circle_count": 36
+        },
+        "MUSIC COMMUNICATION 4": {
+            "index": 3,
+            "dates": "2011.09.30",
+            "circle_count": 30
+        },
+        "MUSIC COMMUNICATION 5": {
+            "index": 4,
+            "dates": "2012.02.10",
+            "circle_count": 31
+        },
+        "MUSIC COMMUNICATION 6": {
+            "index": 5,
+            "dates": "2012.09.23",
+            "circle_count": 30
+        },
+        "MUSIC COMMUNICATION 7": {
+            "index": 6,
+            "dates": "2013.03.24",
+            "circle_count": 30
+        },
+        "MUSIC COMMUNICATION 8": {
+            "index": 7,
+            "dates": "2013.11.03",
+            "circle_count": 21
+        },
+        "MUSIC COMMUNICATION 9": {
+            "index": 8,
+            "dates": "2014.03.02",
+            "circle_count": 17
+        },
+        "MUSIC COMMUNICATION 10": {
+            "index": 9,
+            "dates": "2014.11.02",
+            "circle_count": 30
+        },
+        "MUSIC COMMUNICATION 11": {
+            "index": 10,
+            "dates": "2015.03.08",
+            "circle_count": 22
+        },
+        "MUSIC COMMUNICATION 12": {
+            "index": 11,
+            "dates": "2015.10.12",
+            "circle_count": 29
+        },
+        "MUSIC COMMUNICATION 13": {
+            "index": 12,
+            "dates": "2016.04.03",
+            "circle_count": null
+        },
+        "MUSIC COMMUNICATION 14": {
+            "index": 13,
+            "dates": "2017.03.05",
+            "circle_count": null
+        },
+        "MUSIC COMMUNICATION 15": {
+            "index": 14,
+            "dates": "2017.09.18",
+            "circle_count": 11
+        },
+        "MUSIC COMMUNICATION 16": {
+            "index": 15,
+            "dates": "2018.02.25",
+            "circle_count": 11
+        }
+    }
+}

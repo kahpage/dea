@@ -1,0 +1,67 @@
+{
+    "aliases": [
+        "幻想人形祭2",
+        "Gensou Ningyou Sai 2"
+    ],
+    "dates": "2018.09.22",
+    "circles": [
+        {
+            "aliases": [
+                "BACK foot"
+            ],
+            "position": "人01"
+        },
+        {
+            "aliases": [
+                "スイミンヨクゾウシンザイ"
+            ],
+            "position": "人02"
+        },
+        {
+            "aliases": [
+                "作者の戯事"
+            ],
+            "position": "人03"
+        },
+        {
+            "aliases": [
+                "手掴み友の会"
+            ],
+            "position": "人04"
+        },
+        {
+            "aliases": [
+                "PIANISSIMO"
+            ],
+            "position": "人05"
+        },
+        {
+            "aliases": [
+                "七色快男児"
+            ],
+            "position": "人06"
+        },
+        {
+            "aliases": [
+                "利別ノ禊"
+            ],
+            "position": "人07"
+        },
+        {
+            "aliases": [
+                "B・G・Rock"
+            ],
+            "position": "人09.10"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://shiosyakeyakini.info/touhouEvent/pb_event.php?id=52",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        }
+    ],
+    "description": "Simultaneous to 幺樂団カァニバル！8."
+}

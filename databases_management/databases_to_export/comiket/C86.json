@@ -1,0 +1,134 @@
+{
+    "aliases": [
+        "C86",
+        "コミックマーケット86",
+        "Comiket 86",
+        "Comic Market 86"
+    ],
+    "dates": "2014.08.15 - 2014.08.17",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250115004137/https://www.comiket.co.jp/info-a/C86/C86distributions.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "86_CWC_C86.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20140813005350/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "86_CWC_C86L.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20140813005350/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "86_C86CtlgSasshi.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115004137/https://www.comiket.co.jp/info-a/C86/C86distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：ゆーげん（サークル：キャッスルトン）"
+        },
+        {
+            "path": "86_C86KamibukuroL.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115004137/https://www.comiket.co.jp/info-a/C86/C86distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：吾可子（サークル：徒野）"
+        },
+        {
+            "path": "86_C86KamibukuroS.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115004137/https://www.comiket.co.jp/info-a/C86/C86distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：えすとえむ（サークル：VOSTOK）"
+        },
+        {
+            "path": "86_C86KigyoPamphlet.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115004137/https://www.comiket.co.jp/info-a/C86/C86distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：水あさと（サークル：オレンジミル）"
+        },
+        {
+            "path": "86_C86CtlgRom.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250115004137/https://www.comiket.co.jp/info-a/C86/C86distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：ゆーげん（サークル：キャッスルトン）"
+        },
+        {
+            "path": "86_C85Moushikomisho.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250114181842/https://www.comiket.co.jp/info-a/C85/C85distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：みわべさくら（サークル：Pion）\nNote: This is indeed the filename."
+        },
+        {
+            "path": "http://web.archive.org/web/20140813052412/http://www.comiket.co.jp/info-a/C86/C86CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "http://web.archive.org/web/20140813052412/http://www.comiket.co.jp/info-a/C86/C86CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

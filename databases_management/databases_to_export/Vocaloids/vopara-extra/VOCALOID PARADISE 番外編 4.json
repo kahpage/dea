@@ -1,0 +1,2692 @@
+{
+    "aliases": [
+        "VOCALOID PARADISE 番外編 4",
+        "ボーパラ番外編4",
+        "VOCALOID PARADISE ExtraEdition 4"
+    ],
+    "dates": "2015.06.14",
+    "circles": [
+        {
+            "aliases": [
+                "縫いぬい丸"
+            ],
+            "pen_names": [
+                "miyukienu"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://nugou-nuimaru.ocnk.net/"
+            ],
+            "comments": "メインキャラ: KAITO、MEIKO"
+        },
+        {
+            "aliases": [
+                "こっち来いや！"
+            ],
+            "pen_names": [
+                "kukuri"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2828530"
+            ],
+            "comments": "メインキャラ: KAITO（KAITO×マスター（男）、KAITO×KAITO）"
+        },
+        {
+            "aliases": [
+                "7 \n\tCOLORS BLUE"
+            ],
+            "pen_names": [
+                "ドルフィン"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/Dolphin7Blue"
+            ],
+            "comments": "メインキャラ: UTAU（瑞歌ミズキ、辛子音アキト、月代はくぽ、雲之ツキ）、鏡音レン"
+        },
+        {
+            "aliases": [
+                "ツキイチ"
+            ],
+            "pen_names": [
+                "基一＆真杉"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://ark.cside.com/tsuki1"
+            ],
+            "comments": "メインキャラ: KAITO(ジェネラル×学ラン★パーカー)"
+        },
+        {
+            "aliases": [
+                "081∞"
+            ],
+            "pen_names": [
+                "シイカライ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://081.opal.ne.jp/"
+            ],
+            "comments": "メインキャラ: 巡音ルカ×MEIKO"
+        },
+        {
+            "aliases": [
+                "化け南瓜"
+            ],
+            "pen_names": [
+                "いりなみーあ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=849385"
+            ],
+            "comments": "メインキャラ: 鏡音レン×KAITO"
+        },
+        {
+            "aliases": [
+                "じゃんだらりん食堂"
+            ],
+            "pen_names": [
+                "Ａとよ。"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/formalin_chocol"
+            ],
+            "comments": "メインキャラ: 星見アズ、唱地ヨエ"
+        },
+        {
+            "aliases": [
+                "こけるい。"
+            ],
+            "pen_names": [
+                "さくらい"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1236695"
+            ],
+            "comments": "メインキャラ: KAITO×神威がくぽ"
+        },
+        {
+            "aliases": [
+                "Plica"
+            ],
+            "pen_names": [
+                "九式"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "あきよしき"
+            ],
+            "pen_names": [
+                "秋吉、由杞"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.usamimi.info/~yosiki59/akiyoshiki.html"
+            ],
+            "comments": "メインキャラ: KAITO、鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "ギンユーシジン"
+            ],
+            "pen_names": [
+                "冴戒椎也"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://ameblo.jp/shiiyasakai/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "サクラヴェール"
+            ],
+            "pen_names": [
+                "あきは"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=438474"
+            ],
+            "comments": "メインキャラ: 神威がくぽ"
+        },
+        {
+            "aliases": [
+                "43125"
+            ],
+            "pen_names": [
+                "滅天使"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/29776951"
+            ],
+            "comments": "メインキャラ: 天宮光"
+        },
+        {
+            "aliases": [
+                "Jack.Inthe.Box"
+            ],
+            "pen_names": [
+                "大崎巧実（ソフトクリームＰ）"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=800883"
+            ],
+            "comments": "メインキャラ: 重音テッド×KAITO、重音テッド×IA"
+        },
+        {
+            "aliases": [
+                "大江戸宅急便"
+            ],
+            "pen_names": [
+                "島村秀行/鼻炎P"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.ooedo.jp/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン（リン50%　レン50%）"
+        },
+        {
+            "aliases": [
+                "Jack's CAFE"
+            ],
+            "pen_names": [
+                "佐之烏丸"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://nanos.jp/hetaneko/"
+            ],
+            "comments": "メインキャラ: 歌珞マル、唱地ヨエ、星見アズ、豆田いふく、雪歌ユフ"
+        },
+        {
+            "aliases": [
+                "ばなな稲荷"
+            ],
+            "pen_names": [
+                "れーな"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音レン(パンキッシュ×アシンメトリーL)"
+        },
+        {
+            "aliases": [
+                "あかり氏６月号"
+            ],
+            "pen_names": [
+                "６月蠅、彩園紅梨"
+            ],
+            "position": "SP数2",
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "ＤｅｅＰ"
+            ],
+            "pen_names": [
+                "空野くじら"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://teitodeep.at.webry.info/"
+            ],
+            "comments": "メインキャラ: 神威がくぽ（マスター×神威がくぽ、神威がくぽ×マスター）"
+        },
+        {
+            "aliases": [
+                "solidbeats"
+            ],
+            "pen_names": [
+                "Re:nG"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://reng.jp/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "完全１度。"
+            ],
+            "pen_names": [
+                "ただすけ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://uniloid.blog4.fc2.com/"
+            ],
+            "comments": "メインキャラ: 神威がくぽ×巡音ルカ"
+        },
+        {
+            "aliases": [
+                "ND×男声系UTAU式"
+            ],
+            "pen_names": [
+                "キリカ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://nebbia-nd.vivian.jp/ruko_rook/index.html"
+            ],
+            "comments": "メインキャラ: 欲音ルコ、ルーク"
+        },
+        {
+            "aliases": [
+                "Corneille Renard"
+            ],
+            "pen_names": [
+                "狸狐、烏丸"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2737491"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "めもちにく"
+            ],
+            "pen_names": [
+                "メイも"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITOモジュール(ギルティ×ジーニアス、ジーニアス×ギルティ)"
+        },
+        {
+            "aliases": [
+                "ぽちちっぽいど"
+            ],
+            "pen_names": [
+                "マル"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=406490"
+            ],
+            "comments": "メインキャラ: 神威がくぽ"
+        },
+        {
+            "aliases": [
+                "ねこだま屋"
+            ],
+            "pen_names": [
+                "Buchiko"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://kagaminekodama.blog.fc2.com/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "やみなべ専門店"
+            ],
+            "pen_names": [
+                "詩那珂/支葵セナ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/27215330"
+            ],
+            "comments": "メインキャラ: 詩歌（UTAU）"
+        },
+        {
+            "aliases": [
+                "緋音色"
+            ],
+            "pen_names": [
+                "皐月うさぎ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/satuki_usagi"
+            ],
+            "comments": "メインキャラ: KAITO亜種とかAKAITOとか"
+        },
+        {
+            "aliases": [
+                "箱庭詭道"
+            ],
+            "pen_names": [
+                "nwnw"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://nwnw.soragoto.net/"
+            ],
+            "comments": "メインキャラ: UTAU獣人、UTAU三人娘、VIPPALOID"
+        },
+        {
+            "aliases": [
+                "むぅちゃん工房"
+            ],
+            "pen_names": [
+                "綾。"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=5408624"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "DIGITALIS（ジギタリス）"
+            ],
+            "pen_names": [
+                "ミズキ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=584957"
+            ],
+            "comments": "メインキャラ: マスター(男)×KAITO"
+        },
+        {
+            "aliases": [
+                "おいしいおすし"
+            ],
+            "pen_names": [
+                "よいち＆Run"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=810400"
+            ],
+            "comments": "メインキャラ: 滲音かこい、竜音闇"
+        },
+        {
+            "aliases": [
+                "たまごめも"
+            ],
+            "pen_names": [
+                "こうじゅ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://eggmemo.ni-3.net/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "Kuu"
+            ],
+            "pen_names": [
+                "旭明日香、猫叉、エム"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://7plt.rusk.to/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "One \n\tof the Stars"
+            ],
+            "pen_names": [
+                "水原渉"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://fermat.sakura.ne.jp/oots/"
+            ],
+            "comments": "メインキャラ: 鏡音リン"
+        },
+        {
+            "aliases": [
+                "imis!n"
+            ],
+            "pen_names": [
+                "roni, nog, 西久志"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://imisin.net/"
+            ],
+            "comments": "メインキャラ: 波音リツ"
+        },
+        {
+            "aliases": [
+                "あじわいまめ"
+            ],
+            "pen_names": [
+                "憂ちふゆ(まめよもぎ)"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=3672755"
+            ],
+            "comments": "メインキャラ: GUMIYA、GUMI（ミヤグミ）"
+        },
+        {
+            "aliases": [
+                "モノクロ！"
+            ],
+            "pen_names": [
+                "るい"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=10645965"
+            ],
+            "comments": "メインキャラ: 鏡音レン×KAITO"
+        },
+        {
+            "aliases": [
+                "エスニカル・パレード"
+            ],
+            "pen_names": [
+                "マイヤー"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://yunaki.txt-nifty.com/zakki/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "３レン腐"
+            ],
+            "pen_names": [
+                "クリスタルP、れれれP、キッド"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://yaplog.jp/lelele-p/"
+            ],
+            "comments": "メインキャラ: KAITO、鏡音レン"
+        },
+        {
+            "aliases": [
+                "Wiscul \n\tHomes"
+            ],
+            "pen_names": [
+                "藤宮、サブカルHamaちゃん"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/hujimiya_wi"
+            ],
+            "comments": "メインキャラ: GUMI"
+        },
+        {
+            "aliases": [
+                "Not lone"
+            ],
+            "pen_names": [
+                "捺乃薊"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 神威がくぽ"
+        },
+        {
+            "aliases": [
+                "樂隊*晶華"
+            ],
+            "pen_names": [
+                "♪いずみ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1460271"
+            ],
+            "comments": "メインキャラ: 千本桜将校役KAITO"
+        },
+        {
+            "aliases": [
+                "休日限定ましまろ丼"
+            ],
+            "pen_names": [
+                "いなも、とろ、兎丸いずむ、Msuke"
+            ],
+            "position": "SP数2",
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "さよならニコラウス"
+            ],
+            "pen_names": [
+                "(ω･ﾐэ )Э　（アザラシ）"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/17931792"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "RML!（リンチャンマジラブ！）"
+            ],
+            "pen_names": [
+                "原"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2166924"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン、初音ミク×鏡音リン"
+        },
+        {
+            "aliases": [
+                "犬が空からおちてきた。"
+            ],
+            "pen_names": [
+                "犬気明"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=232555"
+            ],
+            "comments": "メインキャラ: 重音テト"
+        },
+        {
+            "aliases": [
+                "天窓"
+            ],
+            "pen_names": [
+                "空見Ｐ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/590_skygazer"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "いたちあそび"
+            ],
+            "pen_names": [
+                "しろいたち"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/si_itachi"
+            ],
+            "comments": "メインキャラ: 鏡音レン×KAITO"
+        },
+        {
+            "aliases": [
+                "〔◎〕日和（カメラびより）"
+            ],
+            "pen_names": [
+                "白宮"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://pixiv.me/satoukako"
+            ],
+            "comments": "メインキャラ: 鏡音レン×鏡音リン"
+        },
+        {
+            "aliases": [
+                "ばっとひまわり"
+            ],
+            "pen_names": [
+                "さてはてな"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://yaplog.jp/lalauta/"
+            ],
+            "comments": "メインキャラ: さてまろ"
+        },
+        {
+            "aliases": [
+                "のべるてぃべあー"
+            ],
+            "pen_names": [
+                "秋吉悠"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=you69kazxxx"
+            ],
+            "comments": "メインキャラ: KAITO、MEIKO"
+        },
+        {
+            "aliases": [
+                "ほしゆるあか"
+            ],
+            "pen_names": [
+                "Hoite/寿愁/柚菜"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://kasou2vip.chottu.net/"
+            ],
+            "comments": "メインキャラ: 重音テト"
+        },
+        {
+            "aliases": [
+                "くろとら"
+            ],
+            "pen_names": [
+                "山田くろ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://yamadakuro.tumblr.com/"
+            ],
+            "comments": "メインキャラ: MEIKO×巡音ルカ"
+        },
+        {
+            "aliases": [
+                "Atelier \n\tOxalis"
+            ],
+            "pen_names": [
+                "sanada"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://atelier7382.web.fc2.com/"
+            ],
+            "comments": "メインキャラ: 雪歌ユフ、波音リツ"
+        },
+        {
+            "aliases": [
+                "S・K・A"
+            ],
+            "pen_names": [
+                "ささきりほ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://riho.cside.com/ska/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "＋猫"
+            ],
+            "pen_names": [
+                "key"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1087507"
+            ],
+            "comments": "メインキャラ: KAITO、年長組（亜種含む）"
+        },
+        {
+            "aliases": [
+                "猫小屋"
+            ],
+            "pen_names": [
+                "真斗、さややん"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "会津屋"
+            ],
+            "pen_names": [
+                "深山沙"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=3550350"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "Wheel of Fortune"
+            ],
+            "pen_names": [
+                "朱雀氷雨"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/SuzakuHisame"
+            ],
+            "comments": "メインキャラ: KAITO×KAITO"
+        },
+        {
+            "aliases": [
+                "UG-Members"
+            ],
+            "pen_names": [
+                "渡橋ないあ、瀬乃"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "海炉"
+            ],
+            "pen_names": [
+                "影やな"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "歌に翼"
+            ],
+            "pen_names": [
+                "はまち"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://utanitsubasa.blog130.fc2.com/"
+            ],
+            "comments": "メインキャラ: ユニット「コトリ」（楓歌コト、翔歌トリ）"
+        },
+        {
+            "aliases": [
+                "悠久の旅"
+            ],
+            "pen_names": [
+                "ユウェル"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "Silent-Jadeite"
+            ],
+            "pen_names": [
+                "音無乖"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://ameblo.jp/euphorsthia/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン、GUMI中心オールキャラ"
+        },
+        {
+            "aliases": [
+                "ちゅうかなかぺたん！"
+            ],
+            "pen_names": [
+                "cappetan"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "桃野屋"
+            ],
+            "pen_names": [
+                "桃野しるこ、紫ノ月"
+            ],
+            "position": "SP数2",
+            "comments": "メインキャラ: 神威がくぽ(KAITO×がくぽ)、KAITO"
+        },
+        {
+            "aliases": [
+                "深川飯"
+            ],
+            "pen_names": [
+                "みけこ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2726678"
+            ],
+            "comments": "メインキャラ: KAITO×MEIKO"
+        },
+        {
+            "aliases": [
+                "13th \n\tcolor"
+            ],
+            "pen_names": [
+                "ユウラ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2794056"
+            ],
+            "comments": "メインキャラ: KAITO×神威がくぽ"
+        },
+        {
+            "aliases": [
+                "BookOutfit"
+            ],
+            "pen_names": [
+                "二季草"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/2wisteria1"
+            ],
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "ユメヤ"
+            ],
+            "pen_names": [
+                "壱村"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://pixiv.me/kaza-toto"
+            ],
+            "comments": "メインキャラ: KAITO、鏡音レン"
+        },
+        {
+            "aliases": [
+                "硝子桜"
+            ],
+            "pen_names": [
+                "流"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO×神威がくぽ"
+        },
+        {
+            "aliases": [
+                "カエラズノ森 & a \n\tcapriccio"
+            ],
+            "pen_names": [
+                "きとらこん、水樹れん"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.tcn.zaq.ne.jp/sitimi/vo.html"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "鈍行ギャロップ"
+            ],
+            "pen_names": [
+                "しの"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://pixiv.me/shino-s"
+            ],
+            "comments": "メインキャラ: KAITO＋マスター"
+        },
+        {
+            "aliases": [
+                "iinoka?"
+            ],
+            "pen_names": [
+                "柳川縁治"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1280174"
+            ],
+            "comments": "メインキャラ: KAITO(ホワイトブレザー×クラシック）"
+        },
+        {
+            "aliases": [
+                "絶版少年"
+            ],
+            "pen_names": [
+                "ゼッパン"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://zeppann.sakura.ne.jp/"
+            ],
+            "comments": "メインキャラ: 鏡音レン"
+        },
+        {
+            "aliases": [
+                "じゅえる☆ぼっくす"
+            ],
+            "pen_names": [
+                "お茶漬Ｐ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/sm13144322/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "イトトンボ出張所"
+            ],
+            "pen_names": [
+                "虫子"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2009461"
+            ],
+            "comments": "メインキャラ: KAITOモジュール"
+        },
+        {
+            "aliases": [
+                "窓際ワークス"
+            ],
+            "pen_names": [
+                "のくはし、浅"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1688377"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "双月亭"
+            ],
+            "pen_names": [
+                "月白よつば"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=980205"
+            ],
+            "comments": "メインキャラ: 鏡音レン×鏡音レン（ブルームーン×藍鉄）"
+        },
+        {
+            "aliases": [
+                "MANTIFONICA"
+            ],
+            "pen_names": [
+                "ちゃぷP"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://mantifonica.blog.fc2.com/"
+            ],
+            "comments": "メインキャラ: 神威がくぽ"
+        },
+        {
+            "aliases": [
+                "楽園軌道"
+            ],
+            "pen_names": [
+                "或瀬沙和"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1619608"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "Scarlet \n\t& Jucis"
+            ],
+            "pen_names": [
+                "紅あやめ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://jucis.com/"
+            ],
+            "comments": "メインキャラ: MEIKO、KAITO"
+        },
+        {
+            "aliases": [
+                "雨と歩くも。"
+            ],
+            "pen_names": [
+                "雨歩 蓮介"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2996017"
+            ],
+            "comments": "メインキャラ: 重音テト、デフォ子"
+        },
+        {
+            "aliases": [
+                "KITCProject"
+            ],
+            "pen_names": [
+                "KITCProject"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://k-compilation4.tumblr.com/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "SURPRISE PARTY"
+            ],
+            "pen_names": [
+                "斜め上P、daigoman"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nanameue.com/"
+            ],
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "相模ノ原"
+            ],
+            "pen_names": [
+                "プレパラP"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://pureparat.blog.fc2.com/"
+            ],
+            "comments": "メインキャラ: KAITO+KAITO亜種"
+        },
+        {
+            "aliases": [
+                "ちんちくりん。"
+            ],
+            "pen_names": [
+                "すおうゆうり"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音リン"
+        },
+        {
+            "aliases": [
+                "赤眼鏡"
+            ],
+            "pen_names": [
+                "本城　光"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=4529663"
+            ],
+            "comments": "メインキャラ: KAITO（ローザ・ブルー）、ローザ受け"
+        },
+        {
+            "aliases": [
+                "安楽浄土"
+            ],
+            "pen_names": [
+                "里見心"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.chrysoprase.net/anraku/"
+            ],
+            "comments": "メインキャラ: 男マスター×KAITO"
+        },
+        {
+            "aliases": [
+                "あおいの低温貯蔵倉庫"
+            ],
+            "pen_names": [
+                "はにわ(かくして画面に現れたるP)、来飛"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/Ao_Tei"
+            ],
+            "comments": "メインキャラ: KAITO(MEIKO、他キャラ、モジュールもあり)"
+        },
+        {
+            "aliases": [
+                "スルメ同好会"
+            ],
+            "pen_names": [
+                "Fate/姉御P × an"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://unclock.web.fc2.com/"
+            ],
+            "comments": "メインキャラ: GUMIYA、GUMI"
+        },
+        {
+            "aliases": [
+                "蝶々結び"
+            ],
+            "pen_names": [
+                "ナナミP"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://sound.jp/nanase615/x/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "名古屋妄想科学研究所"
+            ],
+            "pen_names": [
+                "えぐちよしお"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.remus.dti.ne.jp/~yemito/"
+            ],
+            "comments": "メインキャラ: 鏡音リン"
+        },
+        {
+            "aliases": [
+                "鏡音天文台"
+            ],
+            "pen_names": [
+                "すいそ、もりを"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "微炭酸レモン"
+            ],
+            "pen_names": [
+                "斉田"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=5346712"
+            ],
+            "comments": "メインキャラ: KAITO×KAITO（ホワイトブレザー×クラシック）"
+        },
+        {
+            "aliases": [
+                "ななくろ"
+            ],
+            "pen_names": [
+                "黒にゃんこ"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音レン×鏡音リン"
+        },
+        {
+            "aliases": [
+                "埼色BRIDGE"
+            ],
+            "pen_names": [
+                "ゆきえす"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://yukiesu-bridge.blogspot.jp/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "薬用はみがき"
+            ],
+            "pen_names": [
+                "はなこ"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO×MEIKO"
+        },
+        {
+            "aliases": [
+                "生ぐーみん。"
+            ],
+            "pen_names": [
+                "四重婚Ｐ、メグカップＰ"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://www.shin-asakawa.jp/vocaloid/nama_gumin/"
+            ],
+            "comments": "メインキャラ: GUMI"
+        },
+        {
+            "aliases": [
+                "つめ替えタイプ出張所"
+            ],
+            "pen_names": [
+                "うめ吉"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=373702"
+            ],
+            "comments": "メインキャラ: MEIKO、KAITO"
+        },
+        {
+            "aliases": [
+                "華見之月"
+            ],
+            "pen_names": [
+                "華月真吾"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=44423"
+            ],
+            "comments": "メインキャラ: 重音テト"
+        },
+        {
+            "aliases": [
+                "移動書架"
+            ],
+            "pen_names": [
+                "犬蓼"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://lythrumanceps.blog.shinobi.jp/"
+            ],
+            "comments": "メインキャラ: KAITO×MEIKO"
+        },
+        {
+            "aliases": [
+                "HIDE and LEAK"
+            ],
+            "pen_names": [
+                "王子なゆた、深久"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://ameblo.jp/nayu-prince86/"
+            ],
+            "comments": "メインキャラ: 鏡音レン"
+        },
+        {
+            "aliases": [
+                "small \n\tpalace"
+            ],
+            "pen_names": [
+                "柳里"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://smallplace.blog83.fc2.com/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "クロウタドリと旅"
+            ],
+            "pen_names": [
+                "九"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://cue9cue9cue.singsong.jp/"
+            ],
+            "comments": "メインキャラ: tori（翔歌トリ）、玖歌バン、玖歌チョウ"
+        },
+        {
+            "aliases": [
+                "ファミなんとかマートUTAパラ支店"
+            ],
+            "pen_names": [
+                "Ruco、保健体育P、にょっすP"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://famixxmart.blog.fc2.com/"
+            ],
+            "comments": "メインキャラ: 月代はくぽ、花鳴屋こまち"
+        },
+        {
+            "aliases": [
+                "つきねこ製作所"
+            ],
+            "pen_names": [
+                "つきのP"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音レン"
+        },
+        {
+            "aliases": [
+                "いーえっくすおあ"
+            ],
+            "pen_names": [
+                "ぴょろP、そらうた"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://exor.iza-yoi.net/"
+            ],
+            "comments": "メインキャラ: 鏡音レン"
+        },
+        {
+            "aliases": [
+                "月見野番士"
+            ],
+            "pen_names": [
+                "椎奈そあら"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 重音テト、波音リツ（少しGUMI、神威がくぽ）"
+        },
+        {
+            "aliases": [
+                "Milky \n\tCrown"
+            ],
+            "pen_names": [
+                "澪咲透乃(みおざき)"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=196007"
+            ],
+            "comments": "メインキャラ: KAITO×MEIKO"
+        },
+        {
+            "aliases": [
+                "だらだらだら"
+            ],
+            "pen_names": [
+                "芋川"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/34451699"
+            ],
+            "comments": "メインキャラ: 唱地ヨエ、重音テト"
+        },
+        {
+            "aliases": [
+                "ウタカタ社中（ちんまり）"
+            ],
+            "pen_names": [
+                "Ebot、Unin、ぷち"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://utakatasyachu.blog.fc2.com/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "acryl \n\tlamp"
+            ],
+            "pen_names": [
+                "しゃこ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=3149412"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "飯香房"
+            ],
+            "pen_names": [
+                "日野飯香"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://iica.fiaxus.net/"
+            ],
+            "comments": "メインキャラ: 健音テイ"
+        },
+        {
+            "aliases": [
+                "デフォ・コンチェルト"
+            ],
+            "pen_names": [
+                "Toru"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://defokonpi.xxxxxxxx.jp/"
+            ],
+            "comments": "メインキャラ: デフォ子（唄音ウタ）"
+        },
+        {
+            "aliases": [
+                "Y.fan"
+            ],
+            "pen_names": [
+                "板橋 竜"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 雪歌ユフ"
+        },
+        {
+            "aliases": [
+                "Yellowland"
+            ],
+            "pen_names": [
+                "涼、のちょ"
+            ],
+            "position": "SP数2",
+            "comments": "メインキャラ: 鏡音リン・レン(モジュール)"
+        },
+        {
+            "aliases": [
+                "壷中之天"
+            ],
+            "pen_names": [
+                "わたた"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO×神威がくぽ"
+        },
+        {
+            "aliases": [
+                "ぼろねりかな"
+            ],
+            "pen_names": [
+                "貴咲りょこ、ゆずき"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://kgig.blue/"
+            ],
+            "comments": "メインキャラ: 鏡音レン×KAITO"
+        },
+        {
+            "aliases": [
+                "飛唱航路"
+            ],
+            "pen_names": [
+                "たまちーず"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=735654"
+            ],
+            "comments": "メインキャラ: 音飛女クユ"
+        },
+        {
+            "aliases": [
+                "fermata"
+            ],
+            "pen_names": [
+                "月海くるす"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://siro424.web.fc2.com/"
+            ],
+            "comments": "メインキャラ: KAITO中心"
+        },
+        {
+            "aliases": [
+                "いもかまきり"
+            ],
+            "pen_names": [
+                "冨朗、さくま"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: MEIKO中心　百合"
+        },
+        {
+            "aliases": [
+                "深海古書店"
+            ],
+            "pen_names": [
+                "瑞弥洸"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=3039045"
+            ],
+            "comments": "メインキャラ: 鏡音レン×KAITO"
+        },
+        {
+            "aliases": [
+                "puppen"
+            ],
+            "pen_names": [
+                "福辺"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2992908"
+            ],
+            "comments": "メインキャラ: 鏡音レン（モジュール）"
+        },
+        {
+            "aliases": [
+                "黒猫大和"
+            ],
+            "pen_names": [
+                "狩谷茜"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://is.fullblossom.net/"
+            ],
+            "comments": "メインキャラ: KAITO×MEIKO"
+        },
+        {
+            "aliases": [
+                "もち屋"
+            ],
+            "pen_names": [
+                "わらび餅"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://pixiv.me/warabi1208moti"
+            ],
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "氷ノ月"
+            ],
+            "pen_names": [
+                "はるか"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://blog.livedoor.jp/kori_no_tsuki/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "二藍"
+            ],
+            "pen_names": [
+                "律泉あすか"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1315952"
+            ],
+            "comments": "メインキャラ: KAITO×MEIKO"
+        },
+        {
+            "aliases": [
+                "ごみステ"
+            ],
+            "pen_names": [
+                "しなお"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1521295"
+            ],
+            "comments": "メインキャラ: KAITO中心"
+        },
+        {
+            "aliases": [
+                "苺田衣服"
+            ],
+            "pen_names": [
+                "タビジノ"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "principal"
+            ],
+            "pen_names": [
+                "かなみ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1147291"
+            ],
+            "comments": "メインキャラ: 鏡音レン×鏡音リン"
+        },
+        {
+            "aliases": [
+                "ドクダミ"
+            ],
+            "pen_names": [
+                "ぺぺん"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://nanos.jp/dokudami0423/"
+            ],
+            "comments": "メインキャラ: 鏡音レン×鏡音リン"
+        },
+        {
+            "aliases": [
+                "＞＜；（わかんないんです）"
+            ],
+            "pen_names": [
+                "yuukiss"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://www.nicovideo.jp/mylist/2532792"
+            ],
+            "comments": "メインキャラ: MEIKO、KAITO"
+        },
+        {
+            "aliases": [
+                "牛乳瓶入り珈琲"
+            ],
+            "pen_names": [
+                "黒河スオウ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=325641"
+            ],
+            "comments": "メインキャラ: KAITO×神威がくぽ"
+        },
+        {
+            "aliases": [
+                "Lump \n\tsugar"
+            ],
+            "pen_names": [
+                "響　凱@巨人族の末裔P"
+            ],
+            "position": "SP数2",
+            "links": [
+                "https://twitter.com/guyhibiki"
+            ],
+            "comments": "メインキャラ: 重音テト、欲音ルコ、唄音ウタ、桃音モモ"
+        },
+        {
+            "aliases": [
+                "あいは"
+            ],
+            "pen_names": [
+                "きくち"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=8471"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "刺しゅうグッズ工房"
+            ],
+            "pen_names": [
+                "しゃかんきょりたもつ"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://bocaroshop.cart.fc2.com/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "P.J.C.Pan"
+            ],
+            "pen_names": [
+                "たけち、わかな"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2041095"
+            ],
+            "comments": "メインキャラ: 鏡音レン×鏡音リン"
+        },
+        {
+            "aliases": [
+                "おれんじじゃむ"
+            ],
+            "pen_names": [
+                "まじてろ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://orangejam.info/"
+            ],
+            "comments": "メインキャラ: 緋八九テキ、鳴兎シロウ、厨二音源、他UTAUキャラ"
+        },
+        {
+            "aliases": [
+                "Rose \n\tMenuett"
+            ],
+            "pen_names": [
+                "桜井えさと"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://menuett.web.fc2.com/index.html"
+            ],
+            "comments": "メインキャラ: モジュKAITO受け、モジュルカ受け"
+        },
+        {
+            "aliases": [
+                "紅葉アイス物語"
+            ],
+            "pen_names": [
+                "hiruyami＠てんてーP、タミス"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/34995573"
+            ],
+            "comments": "メインキャラ: KAITO、KAITO×MEIKO"
+        },
+        {
+            "aliases": [
+                "ゆきのはら"
+            ],
+            "pen_names": [
+                "雪月"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/30123014"
+            ],
+            "comments": "メインキャラ: KAITO、MEIKO、ZOLA PROJECT"
+        },
+        {
+            "aliases": [
+                "Alman0id"
+            ],
+            "pen_names": [
+                "神野有哉"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=118031"
+            ],
+            "comments": "メインキャラ: 健音テイ"
+        },
+        {
+            "aliases": [
+                "CandyHouse*A"
+            ],
+            "pen_names": [
+                "雫"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://yaplog.jp/kaitovvv/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "CandyHouse*B"
+            ],
+            "pen_names": [
+                "葉月"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://yaplog.jp/kaitovvv/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "Qweets*"
+            ],
+            "pen_names": [
+                "きゅんこ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://ameblo.jp/qnk/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "AQA FROG"
+            ],
+            "pen_names": [
+                "駒田きちよし"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO（ローザ・ブルー×ジェネラル）"
+        },
+        {
+            "aliases": [
+                "瓶詰め紅茶*"
+            ],
+            "pen_names": [
+                "夏藤 柚樹"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音リン・レン（大人リンちゃん、藍鉄蘇芳）"
+        },
+        {
+            "aliases": [
+                "ソラキラ"
+            ],
+            "pen_names": [
+                "みなせ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://378sk.rik.fool.jp/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "Project \n\tTricolored"
+            ],
+            "pen_names": [
+                "ゆうしゃざこ"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://homepage3.nifty.com/st-zako/utau3G_tricolored/"
+            ],
+            "comments": "メインキャラ: UTAU三人娘（デフォ子・重音テト・桃音モモ）"
+        },
+        {
+            "aliases": [
+                "G.C.M Records"
+            ],
+            "pen_names": [
+                "アンメルツP"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.gcmstyle.com/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "shabongazer"
+            ],
+            "pen_names": [
+                "Nogirroute、mia子"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://shabongazer.com/"
+            ],
+            "comments": "メインキャラ: 名前のないこ"
+        },
+        {
+            "aliases": [
+                "Richika"
+            ],
+            "pen_names": [
+                "はきり"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://pixiv.me/h_rsc"
+            ],
+            "comments": "メインキャラ: KAITO、鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "Mellow*Gold"
+            ],
+            "pen_names": [
+                "ミカミ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/kawakamist"
+            ],
+            "comments": "メインキャラ: KAITO（レクイエム×ジェネラル）"
+        },
+        {
+            "aliases": [
+                "うさぎどるちぇ"
+            ],
+            "pen_names": [
+                "卯月宵、たるとちゃん"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音レン"
+        },
+        {
+            "aliases": [
+                "Miotec 2nd TEAM"
+            ],
+            "pen_names": [
+                "目から鱗"
+            ],
+            "position": "SP数2",
+            "comments": "メインキャラ: 重音テト"
+        },
+        {
+            "aliases": [
+                "MEIKO親衛隊湘南支部"
+            ],
+            "pen_names": [
+                "柿太郎"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "ぽんぽん動物園"
+            ],
+            "pen_names": [
+                "ぽんず"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/ponponponz85"
+            ],
+            "comments": "メインキャラ: 神威がくぽ、KAITO"
+        },
+        {
+            "aliases": [
+                "メゾンクマ"
+            ],
+            "pen_names": [
+                "あんこ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=249614"
+            ],
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "ICE \n\tBREAKER"
+            ],
+            "pen_names": [
+                "黒りん(黒田倫音)"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=150012"
+            ],
+            "comments": "メインキャラ: 鏡音レン×鏡音リン"
+        },
+        {
+            "aliases": [
+                "＠caracoro00"
+            ],
+            "pen_names": [
+                "カラコロ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://yaplog.jp/caracoro/"
+            ],
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "大和男子"
+            ],
+            "pen_names": [
+                "陽亮"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://ameblo.jp/infinity-dragon69/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "鏡音小説倶楽部"
+            ],
+            "pen_names": [
+                "つつの＆ささめ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://tsunobeya.web.fc2.com/i/index.html"
+            ],
+            "comments": "メインキャラ: 鏡音レン×鏡音リン"
+        },
+        {
+            "aliases": [
+                "twilight star"
+            ],
+            "pen_names": [
+                "ゆぅねこ、月夏"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "アクアリウムテラス"
+            ],
+            "pen_names": [
+                "蓮"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=3360141"
+            ],
+            "comments": "メインキャラ: 鏡音リン"
+        },
+        {
+            "aliases": [
+                "Arpeggio"
+            ],
+            "pen_names": [
+                "SESHIKA"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://seshika10.tumblr.com/"
+            ],
+            "comments": "メインキャラ: 鏡音レン"
+        },
+        {
+            "aliases": [
+                "Prince \n\tof Wales"
+            ],
+            "pen_names": [
+                "音遊人 -mu-jin-"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/22107387"
+            ],
+            "comments": "メインキャラ: GUMI、重音テト"
+        },
+        {
+            "aliases": [
+                "サツキ晴レ"
+            ],
+            "pen_names": [
+                "草月"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://kusaharara.blog.fc2.com/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "sky \n\tforest_"
+            ],
+            "pen_names": [
+                "すかっち"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://skyforest.blog.so-net.ne.jp/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "みちぴよ！"
+            ],
+            "pen_names": [
+                "道子、ぴよこ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=67767"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "おやすみ。"
+            ],
+            "pen_names": [
+                "なごや、りぃる"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=6473220"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "アルファドラコニス"
+            ],
+            "pen_names": [
+                "にゃけ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=631576"
+            ],
+            "comments": "メインキャラ: 鏡音レン×KAITO"
+        },
+        {
+            "aliases": [
+                "くろぐろ"
+            ],
+            "pen_names": [
+                "二渡＆べじ"
+            ],
+            "position": "SP数2",
+            "comments": "メインキャラ: KAITO受け"
+        },
+        {
+            "aliases": [
+                "嫁の名前を言ってみろ"
+            ],
+            "pen_names": [
+                "ぐうぐう、綾野、らぐえる、kuukan、柳里"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://meiko.0am.jp/"
+            ],
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "EVERGREEN"
+            ],
+            "pen_names": [
+                "あひる＠／弥環"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/30003800"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "だくはん"
+            ],
+            "pen_names": [
+                "のののの"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/nnnn419"
+            ],
+            "comments": "メインキャラ: 鏡音レン×KAITO"
+        },
+        {
+            "aliases": [
+                "まち処"
+            ],
+            "pen_names": [
+                "まち"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1790026"
+            ],
+            "comments": "メインキャラ: MEITO(MEIKOの性転換亜種）"
+        },
+        {
+            "aliases": [
+                "ULOG'Be"
+            ],
+            "pen_names": [
+                "NEGI"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://ulogbe.net/"
+            ],
+            "comments": "メインキャラ: 鏡音リン"
+        },
+        {
+            "aliases": [
+                "帝都A"
+            ],
+            "pen_names": [
+                "きら太"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=236682"
+            ],
+            "comments": "メインキャラ: バナナイス(神威がくぽ、鏡音レン、KAITO)"
+        },
+        {
+            "aliases": [
+                "あさかー"
+            ],
+            "pen_names": [
+                "塩ぱんつP"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 櫻歌ミコ"
+        },
+        {
+            "aliases": [
+                "ArcoIris \n\tSoundProject"
+            ],
+            "pen_names": [
+                "タカタホムラ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://arcoiris-sound.tumblr.com/"
+            ],
+            "comments": "メインキャラ: 緋惺（あけさと）"
+        },
+        {
+            "aliases": [
+                "3egg"
+            ],
+            "pen_names": [
+                "めりこ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2436585"
+            ],
+            "comments": "メインキャラ: 巡音ルカ×MEIKO"
+        },
+        {
+            "aliases": [
+                "MEIKO親衛隊川崎分隊"
+            ],
+            "pen_names": [
+                "Y-よしひろ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/11060971"
+            ],
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "Empty+"
+            ],
+            "pen_names": [
+                "うれえる"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://pixiv.me/1349c1ouo1y"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "世俗カンタータ"
+            ],
+            "pen_names": [
+                "柳奈"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=2352949"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "烏龍茶"
+            ],
+            "pen_names": [
+                "初、田村ヒロ、タンチョ"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://star198.gozaru.jp/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "光芒暫"
+            ],
+            "pen_names": [
+                "目眩"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://twitter.com/notice_ice"
+            ],
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "ふじぱん工場"
+            ],
+            "pen_names": [
+                "ふじちか"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "だぶりまくり"
+            ],
+            "pen_names": [
+                "千歌"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO×MEIKO"
+        },
+        {
+            "aliases": [
+                "パトリチェフ音楽工房＋てすがてら"
+            ],
+            "pen_names": [
+                "パトリチェフ、レキ"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "星雪組曲"
+            ],
+            "pen_names": [
+                "ゆゆ、よしとも。"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "鏡音まつり準備会"
+            ],
+            "pen_names": [
+                "fixy"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://all-kagamine.jp/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "Indigo \n\tStar"
+            ],
+            "pen_names": [
+                "ヒバ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://airhart.blog.fc2.com/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "空腹中枢"
+            ],
+            "pen_names": [
+                "shelly"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/mmrakkoara"
+            ],
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "うさぎ谷"
+            ],
+            "pen_names": [
+                "ひぐちゅう"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/highig07"
+            ],
+            "comments": "メインキャラ: 雛音サラ、緩音ヒグ"
+        },
+        {
+            "aliases": [
+                "いわしかぷせる"
+            ],
+            "pen_names": [
+                "政ヒロ、ICHI5U、Tocchi"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "蒼ノ宴"
+            ],
+            "pen_names": [
+                "黒咲アヤメ、葉"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://twitter.com/aonoutage"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "傘ネコ団"
+            ],
+            "pen_names": [
+                "傘音"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/30039626"
+            ],
+            "comments": "メインキャラ: GUMI、鏡音リン、Rana、ZOLA PROJECT、CUL、ギャラ子"
+        },
+        {
+            "aliases": [
+                "Laulaa"
+            ],
+            "pen_names": [
+                "小紅"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=697712"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "ケモフフフ"
+            ],
+            "pen_names": [
+                "リョク"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: MEIKO"
+        },
+        {
+            "aliases": [
+                "缶の中"
+            ],
+            "pen_names": [
+                "ベース缶"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.nicovideo.jp/mylist/10458685/"
+            ],
+            "comments": "メインキャラ: KAITO、鏡音リン"
+        },
+        {
+            "aliases": [
+                "しろのわーるど"
+            ],
+            "pen_names": [
+                "志水しろ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://yaplog.jp/3zushir0/"
+            ],
+            "comments": "メインキャラ: KAITO"
+        },
+        {
+            "aliases": [
+                "【仮受付】音速消費レッドブル"
+            ],
+            "pen_names": [
+                "花狐"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/hanakotan_tori"
+            ],
+            "comments": "メインキャラ: 電歌セン（電歌セン×薪宮風季）、薪宮風季、ちゃろえもん、ネウマフ"
+        },
+        {
+            "aliases": [
+                "【仮受付】はんまふらいふ〜穏健派といっしょ〜"
+            ],
+            "pen_names": [
+                "きづち、おふとんＰ、誰か僕に長いＰ名を下さいって言ったら本当に長いＰ名貰えたＰ"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://hammufflife.aikotoba.jp/"
+            ],
+            "comments": "メインキャラ: パラッポウ"
+        },
+        {
+            "aliases": [
+                "【仮受付】大福サウンドラボ"
+            ],
+            "pen_names": [
+                "大福P"
+            ],
+            "position": "SP数1",
+            "comments": "メインキャラ: KAITO、MEIKO"
+        },
+        {
+            "aliases": [
+                "【仮受付】Arcadia†Project"
+            ],
+            "pen_names": [
+                "だし巻きたまご（おだしＰ）"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http/www.nicovideo.jp/mylist/25616151"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "【仮受付】みっち＆融合の発表会"
+            ],
+            "pen_names": [
+                "みっち（かいわれP）、融合P"
+            ],
+            "position": "SP数2",
+            "links": [
+                "http://habcy.bitter.jp/"
+            ],
+            "comments": "メインキャラ: 鏡音リン・レン"
+        },
+        {
+            "aliases": [
+                "【仮受付】かがみね茶"
+            ],
+            "pen_names": [
+                "半月、yoku"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://kagamine-cha.jp/"
+            ],
+            "comments": "メインキャラ: 鏡音リン"
+        },
+        {
+            "aliases": [
+                "【仮受付】VOL-online"
+            ],
+            "pen_names": [
+                "so*"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://vog1.ifdef.jp/"
+            ],
+            "comments": "メインキャラ: KAITO×KAITO(ホワイトブレザー×クラシック）"
+        },
+        {
+            "aliases": [
+                "【仮受付】SEVENTHSTAR"
+            ],
+            "pen_names": [
+                "59"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://www.pixiv.net/member.php?id=1689485"
+            ],
+            "comments": "メインキャラ: KAITO×鏡音レン(学ラン★パーカー×生徒会執行部)"
+        },
+        {
+            "aliases": [
+                "【仮受付】aymnworks"
+            ],
+            "pen_names": [
+                "あゆみん"
+            ],
+            "position": "SP数1",
+            "links": [
+                "http://aymn10.jugem.jp/"
+            ],
+            "comments": "メインキャラ: 鏡音レン、Lily"
+        },
+        {
+            "aliases": [
+                "【仮受付】Cross*Days"
+            ],
+            "pen_names": [
+                "しまぱんだ"
+            ],
+            "position": "SP数1",
+            "links": [
+                "https://twitter.com/Opanchuuuuuu"
+            ],
+            "comments": "メインキャラ: 鏡音レン（スクールジャージ×生徒会執行部）"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://hatsunemiku1006.blog.fc2.com/blog-entry-984.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: http://ttc.ninja-web.net/vp-ex/vpex4-up2_list.htm",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "extra4_20150308104028967.jpg",
+            "sources": [
+                {
+                    "source": "https://hatsunemiku1006.blog.fc2.com/blog-entry-984.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "aliases": [
+        "VOCALOID STATION",
+        "OVERDRIVE!! SECOND",
+        "OVERDRIVE!! 2"
+    ],
+    "links": [
+        "https://web.archive.org/web/20130625090209/http://slash.sakuraweb.com/event/vo_sta/",
+        "https://x.com/slash_event"
+    ],
+    "events": {
+        "VOCALOID STATION": {
+            "index": 0,
+            "dates": "2011.10.02",
+            "circle_count": 25
+        }
+    }
+}

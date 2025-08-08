@@ -1,0 +1,31 @@
+{
+    "aliases": [
+        "幻想人形祭・卯",
+        "Gensou Ningyou Sai U"
+    ],
+    "dates": "2013.04.21",
+    "sources": [
+        {
+            "source": "Date: https://shiosyakeyakini.info/touhouEvent/pb_event.php?id=52",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "4_20130102064718_合同ちらし2.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130102064718/http://yougakudann.onlyevent.info/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "description": "Simultaneous to 幺樂団カァニバル！4."
+}

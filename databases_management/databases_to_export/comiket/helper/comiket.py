@@ -53,7 +53,7 @@ if __name__ == '__main__':
                    , comments="ラスト：ideolo（サークル：NEKO WORLDi) 　１日目西め60ab"),
             Medium("https://web.archive.org/web/20250409184101/https://www.comiket.co.jp/info-c/C106/C106Appset.pdf",
                    [Source("https://web.archive.org/web/20250716040318/https://comiket.co.jp/info-a/C106/C106distributions.html", (ReliabilityTypes.Reliable, OriginTypes.Official))]
-                   , comments="表紙イラスト：ぴこぴこぐらむ（サ・踉札�襦Д廛薀船覆④里魁�  ２日目東ア83ab"),
+                   , comments="表紙イラスト：ぴこぴこぐらむ（サークル：プラチナきのこ）  ２日目東ア83ab"),
             Medium("https://www.comiket.co.jp/info-a/C106/C106CtlgNotes.pdf",
                    [Source("https://www.comiket.co.jp/info-a/C106/C106CtlgNotes.pdf", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
             ]
@@ -3326,7 +3326,7 @@ if __name__ == '__main__':
         links = ["https://comiket.co.jp/", "__________________________________", "https://x.com/comiketofficial"]
 
         event_group = EventGroup(
-            aliases=["Comic Market""Comiket", "コミックマーケット", "コミケ", "C"],
+            aliases=["Comic Market", "Comiket", "コミックマーケット", "コミケ", "C"],
             events=[],
             media=media,
             links=links

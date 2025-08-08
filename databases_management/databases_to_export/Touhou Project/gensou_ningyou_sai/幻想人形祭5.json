@@ -1,0 +1,49 @@
+{
+    "aliases": [
+        "幻想人形祭5",
+        "Gensou Ningyou Sai 5"
+    ],
+    "dates": "2022.03.27",
+    "circles": [
+        {
+            "aliases": [
+                "ALQUERMES"
+            ],
+            "pen_names": [
+                "みーか"
+            ],
+            "position": "人01"
+        },
+        {
+            "aliases": [
+                "B・G・Rock"
+            ],
+            "pen_names": [
+                "ペリジー"
+            ],
+            "position": "人02",
+            "links": [
+                "https://twitter.com/BGROCK_ZEROS"
+            ]
+        },
+        {
+            "aliases": [
+                "PIANISSIMO"
+            ],
+            "pen_names": [
+                "ルーシア"
+            ],
+            "position": "人03"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date & Event name: https://web.archive.org/web/20220307155313/http://yougakudann.dojin.com/splist.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "description": "Simultaneous to 幺樂団カァニバル！11."
+}

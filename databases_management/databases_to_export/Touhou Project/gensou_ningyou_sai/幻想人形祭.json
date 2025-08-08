@@ -1,0 +1,81 @@
+{
+    "aliases": [
+        "幻想人形祭",
+        "Gensou Ningyou Sai"
+    ],
+    "dates": "2017.11.11",
+    "circles": [
+        {
+            "aliases": [
+                "アリスの上海人形堂"
+            ],
+            "position": "人形1"
+        },
+        {
+            "aliases": [
+                "24ミリ"
+            ],
+            "position": "人形2"
+        },
+        {
+            "aliases": [
+                "BACK foot"
+            ],
+            "position": "人形4"
+        },
+        {
+            "aliases": [
+                "手掴み友の会"
+            ],
+            "position": "人形5"
+        },
+        {
+            "aliases": [
+                "鈴月庵"
+            ],
+            "position": "人形6"
+        },
+        {
+            "aliases": [
+                "利別ノ禊"
+            ],
+            "position": "人形7"
+        },
+        {
+            "aliases": [
+                "電波カオス"
+            ],
+            "position": "人形910"
+        },
+        {
+            "aliases": [
+                "うさぎ薬局"
+            ],
+            "position": "人形1112"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://shiosyakeyakini.info/touhouEvent/pb_event.php?id=52",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "7_20171021125833_hp20171111.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20171021125833/http://yougakudann.onlyevent.info/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "description": "Simultaneous to 幺樂団カァニバル！7."
+}

@@ -1,0 +1,393 @@
+{
+    "aliases": [
+        "幺樂団カァニバル！8"
+    ],
+    "dates": "2018.09.22",
+    "circles": [
+        {
+            "aliases": [
+                "UnLimited Questions+STARWALKER STUDIO"
+            ],
+            "position": "よ01"
+        },
+        {
+            "aliases": [
+                "綿春巻"
+            ],
+            "position": "よ02"
+        },
+        {
+            "aliases": [
+                "騒霊部員"
+            ],
+            "position": "よ03"
+        },
+        {
+            "aliases": [
+                "みまらじ！"
+            ],
+            "position": "よ04"
+        },
+        {
+            "aliases": [
+                "insky."
+            ],
+            "position": "よ05"
+        },
+        {
+            "aliases": [
+                "ビリッケツトレイン"
+            ],
+            "position": "よ06"
+        },
+        {
+            "aliases": [
+                "月桃プラネタリウム"
+            ],
+            "position": "よ07"
+        },
+        {
+            "aliases": [
+                "幻想アカデミア"
+            ],
+            "position": "よ08"
+        },
+        {
+            "aliases": [
+                "武神中間体"
+            ],
+            "position": "う01"
+        },
+        {
+            "aliases": [
+                "八寺発電所"
+            ],
+            "position": "う02"
+        },
+        {
+            "aliases": [
+                "61073"
+            ],
+            "position": "う03"
+        },
+        {
+            "aliases": [
+                "黒命館"
+            ],
+            "position": "う04"
+        },
+        {
+            "aliases": [
+                "Cynthia"
+            ],
+            "position": "う05"
+        },
+        {
+            "aliases": [
+                "しのぎ倶楽部ver.0"
+            ],
+            "position": "う06"
+        },
+        {
+            "aliases": [
+                "イシュノクサ植物園"
+            ],
+            "position": "う07"
+        },
+        {
+            "aliases": [
+                "伊予弁普及之会"
+            ],
+            "position": "う08"
+        },
+        {
+            "aliases": [
+                "幻想列車"
+            ],
+            "position": "う09"
+        },
+        {
+            "aliases": [
+                "沈んだ船"
+            ],
+            "position": "う10"
+        },
+        {
+            "aliases": [
+                "ミルキー夢幻"
+            ],
+            "position": "う11"
+        },
+        {
+            "aliases": [
+                "とりくる屋"
+            ],
+            "position": "う12"
+        },
+        {
+            "aliases": [
+                "ゴリラの茶畑"
+            ],
+            "position": "う13"
+        },
+        {
+            "aliases": [
+                "七輪大社"
+            ],
+            "position": "う14"
+        },
+        {
+            "aliases": [
+                "杏パン箱"
+            ],
+            "position": "う15"
+        },
+        {
+            "aliases": [
+                "れいんぼうてぃー"
+            ],
+            "position": "う16"
+        },
+        {
+            "aliases": [
+                "抹茶雲越パフェ"
+            ],
+            "position": "う17"
+        },
+        {
+            "aliases": [
+                "偕楽店BURST"
+            ],
+            "position": "う18"
+        },
+        {
+            "aliases": [
+                "胡玉書厨"
+            ],
+            "position": "う19"
+        },
+        {
+            "aliases": [
+                "屑鉄おきば。"
+            ],
+            "position": "う20"
+        },
+        {
+            "aliases": [
+                "ロウズ自虐"
+            ],
+            "position": "う21"
+        },
+        {
+            "aliases": [
+                "たろいも屋さん"
+            ],
+            "position": "う22"
+        },
+        {
+            "aliases": [
+                "満月つきみ野"
+            ],
+            "position": "う23,24"
+        },
+        {
+            "aliases": [
+                "彩矢バーニング・アイズ"
+            ],
+            "position": "う25"
+        },
+        {
+            "aliases": [
+                "星芋剣士"
+            ],
+            "position": "う26"
+        },
+        {
+            "aliases": [
+                "型K式"
+            ],
+            "position": "が01,02"
+        },
+        {
+            "aliases": [
+                "冥途ノ夢"
+            ],
+            "position": "が03"
+        },
+        {
+            "aliases": [
+                "鎖付鉄球工房"
+            ],
+            "position": "が04"
+        },
+        {
+            "aliases": [
+                "本を描いてる屋さん"
+            ],
+            "position": "が05,06"
+        },
+        {
+            "aliases": [
+                "Narcissus"
+            ],
+            "position": "が07"
+        },
+        {
+            "aliases": [
+                "波赤斗"
+            ],
+            "position": "が08"
+        },
+        {
+            "aliases": [
+                "五花八門"
+            ],
+            "position": "が09"
+        },
+        {
+            "aliases": [
+                "灯籠通り一丁目"
+            ],
+            "position": "が10"
+        },
+        {
+            "aliases": [
+                "じゅうきゃく店"
+            ],
+            "position": "が11"
+        },
+        {
+            "aliases": [
+                "かいこ計"
+            ],
+            "position": "が12"
+        },
+        {
+            "aliases": [
+                "ラパパメリカ"
+            ],
+            "position": "が13,14"
+        },
+        {
+            "aliases": [
+                "みちく茶話会"
+            ],
+            "position": "が15"
+        },
+        {
+            "aliases": [
+                "24G"
+            ],
+            "position": "が16"
+        },
+        {
+            "aliases": [
+                "Sound and Vision"
+            ],
+            "position": "が17"
+        },
+        {
+            "aliases": [
+                "外柿山"
+            ],
+            "position": "が18"
+        },
+        {
+            "aliases": [
+                "放課後日和"
+            ],
+            "position": "が19"
+        },
+        {
+            "aliases": [
+                "大盛二丁"
+            ],
+            "position": "が20"
+        },
+        {
+            "aliases": [
+                "日和見日和"
+            ],
+            "position": "が21"
+        },
+        {
+            "aliases": [
+                "夢幻倉庫"
+            ],
+            "position": "が22"
+        },
+        {
+            "aliases": [
+                "Convallo-stick"
+            ],
+            "position": "が23"
+        },
+        {
+            "aliases": [
+                "ペインフルフレーム"
+            ],
+            "position": "が24"
+        },
+        {
+            "aliases": [
+                "てぽ丼3"
+            ],
+            "position": "が25,26"
+        },
+        {
+            "aliases": [
+                "下り安全側線"
+            ],
+            "position": "く01,02"
+        },
+        {
+            "aliases": [
+                "カタコトリ"
+            ],
+            "position": "く03"
+        },
+        {
+            "aliases": [
+                "as Qool as Qucumber"
+            ],
+            "position": "く04"
+        },
+        {
+            "aliases": [
+                "シスリラ"
+            ],
+            "position": "く05"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://shiosyakeyakini.info/touhouEvent/pb_event.php?id=51",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20181124073957/http://yougakudan.blogspot.com/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "8_20180909025756_告知イラスト(日程).jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20171021125833/http://yougakudann.onlyevent.info/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "description": "Simultaneous to 幻想人形祭2 (5th edition)."
+}

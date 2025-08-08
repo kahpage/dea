@@ -61,14 +61,13 @@ const descriptionEvents = computed(() => {
       
       let events = props.event_group_db["events"];
       let descs = []; // Description, of format { dates: "", name: "" };
-
-      events.forEach(event => {
+      
+      // events is an object with event aliases as keys
+      Object.keys(events).forEach(eventAlias => {
         let event_desc = { dates: "", name: "" };
-        if ("dates" in event) {
-          event_desc.dates = event.dates;
-        }
-        if ("aliases" in event && event["aliases"].length > 0) {
-          event_desc.name = event["aliases"][0];
+        event_desc.name = eventAlias; // The key is the event alias/name
+        if ("dates" in events[eventAlias]) {
+          event_desc.dates = events[eventAlias].dates;
         }
         descs.push(event_desc);
       });

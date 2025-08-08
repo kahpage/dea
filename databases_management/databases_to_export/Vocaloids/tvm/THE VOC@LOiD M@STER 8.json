@@ -1,0 +1,41 @@
+{
+    "aliases": [
+        "THE VOC@LOiD M@STER 8",
+        "ボーマス8",
+        "VOM@S8"
+    ],
+    "dates": "2009.05.17",
+    "sources": [
+        {
+            "source": "Date: https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm8",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating Circles (DEAD): https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm8",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "8_tvm8hyousi.jpg",
+            "sources": [
+                {
+                    "source": "https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm8",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://ketto.xsrv.jp/html/mimiken/clist.cgi?tvm8"
+    ]
+}

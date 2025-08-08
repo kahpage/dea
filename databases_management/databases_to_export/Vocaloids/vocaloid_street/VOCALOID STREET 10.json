@@ -1,0 +1,1162 @@
+{
+    "aliases": [
+        "VOCALOID STREET 10",
+        "ボーカロイドストリート10",
+        "ボカスト10"
+    ],
+    "dates": "2025.01.12",
+    "circles": [
+        {
+            "aliases": [
+                "縞城のおしろ"
+            ],
+            "pen_names": [
+                "縞城依月"
+            ],
+            "position": "ボ-01,02",
+            "links": [
+                "https://www.pixiv.net/users/8543545",
+                "https://twitter.com/p_2k"
+            ]
+        },
+        {
+            "aliases": [
+                "縞城の城下町"
+            ],
+            "pen_names": [
+                "kaiza"
+            ],
+            "position": "ボ-03,04"
+        },
+        {
+            "aliases": [
+                "ド田舎にサメがいる確率"
+            ],
+            "pen_names": [
+                "ざうらく　浜野ゆい　٪ちおり٪　せんりと晴也"
+            ],
+            "position": "ボ-05,06",
+            "links": [
+                "https://twitter.com/yuiyui_kontoho"
+            ]
+        },
+        {
+            "aliases": [
+                "どんぐりからの招待状"
+            ],
+            "pen_names": [
+                "恋文　きのみはどんぐり"
+            ],
+            "position": "ボ-07,08",
+            "links": [
+                "https://twitter.com/z20230216"
+            ]
+        },
+        {
+            "aliases": [
+                "泡沫便り"
+            ],
+            "pen_names": [
+                "泡沫たんぽぽ"
+            ],
+            "position": "ボ-09",
+            "links": [
+                "https://utakatadayori.booth.pm/",
+                "https://twitter.com/akanesuzuka39"
+            ]
+        },
+        {
+            "aliases": [
+                "夕日工房"
+            ],
+            "pen_names": [
+                "戸津れんず"
+            ],
+            "position": "ボ-10",
+            "links": [
+                "https://www.pixiv.net/users/10008420",
+                "https://twitter.com/E_MA_3"
+            ]
+        },
+        {
+            "aliases": [
+                "原子番号39"
+            ],
+            "pen_names": [
+                "イットリウム"
+            ],
+            "position": "ボ-11",
+            "links": [
+                "https://piapro.jp/ittoriumu",
+                "https://twitter.com/oekakiittori"
+            ]
+        },
+        {
+            "aliases": [
+                "渦箱"
+            ],
+            "pen_names": [
+                "anmo"
+            ],
+            "position": "ボ-12",
+            "links": [
+                "https://potofu.me/anmo",
+                "https://twitter.com/n_anmo"
+            ]
+        },
+        {
+            "aliases": [
+                "せびろーん航空"
+            ],
+            "pen_names": [
+                "新田せびろ"
+            ],
+            "position": "ボ-13",
+            "links": [
+                "https://twitter.com/arataseviro"
+            ]
+        },
+        {
+            "aliases": [
+                "四葉想庫"
+            ],
+            "pen_names": [
+                "時我"
+            ],
+            "position": "ボ-14",
+            "links": [
+                "https://timethfl.com/",
+                "https://twitter.com/time_imlv"
+            ]
+        },
+        {
+            "aliases": [
+                "NISAVANO"
+            ],
+            "pen_names": [
+                "みそ"
+            ],
+            "position": "ボ-15,16",
+            "links": [
+                "https://www.pixiv.net/users/18559703",
+                "https://twitter.com/miso23so"
+            ]
+        },
+        {
+            "aliases": [
+                "YELLOW JELLY"
+            ],
+            "pen_names": [
+                "まにゃ"
+            ],
+            "position": "ボ-17",
+            "links": [
+                "https://www.pixiv.net/users/2697496",
+                "https://twitter.com/manya_sora"
+            ]
+        },
+        {
+            "aliases": [
+                "はとぽっぽ"
+            ],
+            "pen_names": [
+                "はとぅー。"
+            ],
+            "position": "ボ-18"
+        },
+        {
+            "aliases": [
+                "現在猫不足。"
+            ],
+            "pen_names": [
+                "彩"
+            ],
+            "position": "ボ-19",
+            "links": [
+                "https://linktr.ee/hourai_24",
+                "https://twitter.com/hourai_24"
+            ]
+        },
+        {
+            "aliases": [
+                "にんかん丼"
+            ],
+            "pen_names": [
+                "まいむぎ・えしぇみる"
+            ],
+            "position": "ボ-20",
+            "links": [
+                "https://www.pixiv.net/users/7665656",
+                "https://twitter.com/eshe_mr"
+            ]
+        },
+        {
+            "aliases": [
+                "ゼツボウ運輸"
+            ],
+            "pen_names": [
+                "にづ"
+            ],
+            "position": "ボ-21",
+            "links": [
+                "https://www.pixiv.net/users/87682188",
+                "https://twitter.com/2du_du"
+            ]
+        },
+        {
+            "aliases": [
+                "ドスどす。"
+            ],
+            "pen_names": [
+                "入間木奇子"
+            ],
+            "position": "ボ-22",
+            "links": [
+                "https://twitter.com/ill_maki"
+            ]
+        },
+        {
+            "aliases": [
+                "たかみ屋。"
+            ],
+            "pen_names": [
+                "高宮憂"
+            ],
+            "position": "ボ-23",
+            "links": [
+                "https://www.instagram.com/__tkmyy/profilecard/?igsh=amtscnZ1bTI1OWtm",
+                "https://twitter.com/＿＿tkmyy"
+            ]
+        },
+        {
+            "aliases": [
+                "おこさまランチたべたい"
+            ],
+            "pen_names": [
+                "もかっぷ"
+            ],
+            "position": "ボ-24",
+            "links": [
+                "https://twitter.com/0kitmak8"
+            ]
+        },
+        {
+            "aliases": [
+                "Trick&Treat!"
+            ],
+            "pen_names": [
+                "りおん・れおん"
+            ],
+            "position": "ボ-25,26",
+            "links": [
+                "https://willothewisp1031.booth.pm/",
+                "https://twitter.com/TrickTreatRL"
+            ]
+        },
+        {
+            "aliases": [
+                "yura:yura松の葉"
+            ],
+            "pen_names": [
+                "まつざけ"
+            ],
+            "position": "ボ-27",
+            "links": [
+                "https://x.com/matsu_zake",
+                "https://twitter.com/matsu_zake"
+            ]
+        },
+        {
+            "aliases": [
+                "KAON"
+            ],
+            "pen_names": [
+                "風猫"
+            ],
+            "position": "ボ-28",
+            "links": [
+                "https://leatherkaon.booth.pm/",
+                "https://twitter.com/nekoyukarin"
+            ]
+        },
+        {
+            "aliases": [
+                "青花栽培農園"
+            ],
+            "pen_names": [
+                "月草"
+            ],
+            "position": "ボ-29",
+            "links": [
+                "https://tukinozassou.booth.pm/",
+                "https://twitter.com/tukinozassou"
+            ]
+        },
+        {
+            "aliases": [
+                "Asteroid Triggers"
+            ],
+            "pen_names": [
+                "あすらて"
+            ],
+            "position": "ボ-30",
+            "links": [
+                "https://lit.link/asulatte",
+                "https://twitter.com/asteroid_stella"
+            ]
+        },
+        {
+            "aliases": [
+                "かがみら準備会"
+            ],
+            "pen_names": [
+                "かがみら準備会"
+            ],
+            "position": "ボ-31,32",
+            "links": [
+                "https://kagamirage.com/03/",
+                "https://twitter.com/kagamine_miragae"
+            ]
+        },
+        {
+            "aliases": [
+                "Advanced Music products"
+            ],
+            "pen_names": [
+                "AM-p【あむ】"
+            ],
+            "position": "ボ-33",
+            "links": [
+                "https://amp4561701.wixsite.com/am-p",
+                "https://twitter.com/Ap36288136"
+            ]
+        },
+        {
+            "aliases": [
+                "沫雪つむり計画"
+            ],
+            "pen_names": [
+                "ニシつむり　沫雪うみ"
+            ],
+            "position": "ボ-34",
+            "links": [
+                "https://hanakikakushop.booth.pm/",
+                "https://twitter.com/hanahappi_0626"
+            ]
+        },
+        {
+            "aliases": [
+                "完全１度。"
+            ],
+            "pen_names": [
+                "ただすけ"
+            ],
+            "position": "ボ-35",
+            "links": [
+                "https://www.pixiv.net/users/2647169",
+                "https://twitter.com/tada_sk"
+            ]
+        },
+        {
+            "aliases": [
+                "CAFFEINISM"
+            ],
+            "pen_names": [
+                "CAFFEIN"
+            ],
+            "position": "ボ-36",
+            "links": [
+                "https://twitter.com/caffein89"
+            ]
+        },
+        {
+            "aliases": [
+                "AlbinoCrow"
+            ],
+            "pen_names": [
+                "WiilL@HeX"
+            ],
+            "position": "カ-01,02",
+            "links": [
+                "https://kisourakuraku.booth.pm/",
+                "https://twitter.com/WillHex"
+            ]
+        },
+        {
+            "aliases": [
+                "あかり学工作室"
+            ],
+            "pen_names": [
+                "ストーンヘン爺"
+            ],
+            "position": "カ-03",
+            "links": [
+                "https://twitter.com/OpticallyWorks"
+            ]
+        },
+        {
+            "aliases": [
+                "はかめ"
+            ],
+            "pen_names": [
+                "はかめ"
+            ],
+            "position": "カ-04",
+            "links": [
+                "https://twitter.com/ktnazm0702"
+            ]
+        },
+        {
+            "aliases": [
+                "Miotec 2nd TEAM"
+            ],
+            "pen_names": [
+                "目から鱗"
+            ],
+            "position": "カ-05,06"
+        },
+        {
+            "aliases": [
+                "刺しゅうグッズ工房"
+            ],
+            "pen_names": [
+                "しゃかんきょりたもつ"
+            ],
+            "position": "カ-07,08",
+            "links": [
+                "https://x68xvi.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "childeyes"
+            ],
+            "pen_names": [
+                "境ヶ原まるこ"
+            ],
+            "position": "カ-09",
+            "links": [
+                "https://twitter.com/propellerwalker"
+            ]
+        },
+        {
+            "aliases": [
+                "アリクイ水産"
+            ],
+            "pen_names": [
+                "鮭倉"
+            ],
+            "position": "カ-10",
+            "links": [
+                "https://twitter.com/sakekura__"
+            ]
+        },
+        {
+            "aliases": [
+                "CC-MARU RECORDS"
+            ],
+            "pen_names": [
+                "杉山U1"
+            ],
+            "position": "カ-11",
+            "links": [
+                "https://cc-marurecords.booth.pm/",
+                "https://twitter.com/theS_O_L"
+            ]
+        },
+        {
+            "aliases": [
+                "茶々尾ひろ"
+            ],
+            "pen_names": [
+                "茶々尾ひろ"
+            ],
+            "position": "カ-12",
+            "links": [
+                "https://chachao-official.studio.site/",
+                "https://twitter.com/0319HIROp"
+            ]
+        },
+        {
+            "aliases": [
+                "溝端れこーず。"
+            ],
+            "pen_names": [
+                "みーぞ"
+            ],
+            "position": "カ-13",
+            "links": [
+                "https://www.nicovideo.jp/user/7993905",
+                "https://twitter.com/miizo_001"
+            ]
+        },
+        {
+            "aliases": [
+                "TreatHunters"
+            ],
+            "pen_names": [
+                "野中ハロウィン"
+            ],
+            "position": "カ-14",
+            "links": [
+                "https://www.nicovideo.jp/user/57684453",
+                "https://twitter.com/jirai_bugtsune"
+            ]
+        },
+        {
+            "aliases": [
+                "くちぶえらぼ"
+            ],
+            "pen_names": [
+                "あぢさゐ"
+            ],
+            "position": "カ-15",
+            "links": [
+                "https://lit.link/kuchibuelabo",
+                "https://twitter.com/kuchibuelabo"
+            ]
+        },
+        {
+            "aliases": [
+                "Popism"
+            ],
+            "pen_names": [
+                "Capchii"
+            ],
+            "position": "カ-16",
+            "links": [
+                "https://popism.info/",
+                "https://twitter.com/popism_info"
+            ]
+        },
+        {
+            "aliases": [
+                "Wakuwaku Miwaku"
+            ],
+            "pen_names": [
+                "Mwk"
+            ],
+            "position": "カ-17",
+            "links": [
+                "https://wkwkmwk.com/",
+                "https://twitter.com/Mwk_094"
+            ]
+        },
+        {
+            "aliases": [
+                "さたぱんP"
+            ],
+            "pen_names": [
+                "さたぱんP"
+            ],
+            "position": "カ-18",
+            "links": [
+                "https://satapanpi.wixsite.com/satapanpi",
+                "https://twitter.com/satapanpi"
+            ]
+        },
+        {
+            "aliases": [
+                "GYARISUTA!"
+            ],
+            "pen_names": [
+                "GYARI"
+            ],
+            "position": "カ-19,20",
+            "links": [
+                "https://gyari.com/",
+                "https://twitter.com/GYARI_"
+            ]
+        },
+        {
+            "aliases": [
+                "南ノ店(ボカスト支店)"
+            ],
+            "pen_names": [
+                "南ノ南"
+            ],
+            "position": "カ-21,22",
+            "links": [
+                "http://potofu.me/mnmno373",
+                "https://twitter.com/mnmno373"
+            ]
+        },
+        {
+            "aliases": [
+                "L3Project"
+            ],
+            "pen_names": [
+                "れれれP"
+            ],
+            "position": "カ-24",
+            "links": [
+                "https://l3project.com/",
+                "https://twitter.com/lelelep"
+            ]
+        },
+        {
+            "aliases": [
+                "G.C.M Records"
+            ],
+            "pen_names": [
+                "アンメルツP"
+            ],
+            "position": "カ-25,26",
+            "links": [
+                "https://www.gcmstyle.com/",
+                "https://twitter.com/gcmstyle"
+            ]
+        },
+        {
+            "aliases": [
+                "きいろ屋"
+            ],
+            "pen_names": [
+                "じゃんぼ@家族愛P"
+            ],
+            "position": "カ-27",
+            "links": [
+                "http://kazokuai-p.ldblog.jp/",
+                "https://twitter.com/jumbo256"
+            ]
+        },
+        {
+            "aliases": [
+                "くくく計画"
+            ],
+            "pen_names": [
+                "えいち"
+            ],
+            "position": "カ-28",
+            "links": [
+                "https://www.youtube.com/channel/UCO_Sn-K11I1TO0Tuo9Re72w",
+                "https://twitter.com/donkakusense"
+            ]
+        },
+        {
+            "aliases": [
+                "ムラタシユウ"
+            ],
+            "pen_names": [
+                "ムラタシユウ"
+            ],
+            "position": "カ-29",
+            "links": [
+                "https://muratashiyuu.studio.site/",
+                "https://twitter.com/muratashiyuu"
+            ]
+        },
+        {
+            "aliases": [
+                "LLSY music"
+            ],
+            "pen_names": [
+                "レーシー"
+            ],
+            "position": "カ-30",
+            "links": [
+                "https://lit.link/llsymusic",
+                "https://twitter.com/LLeshy555"
+            ]
+        },
+        {
+            "aliases": [
+                "____natural"
+            ],
+            "pen_names": [
+                "____natural"
+            ],
+            "position": "カ-31",
+            "links": [
+                "https://www.youtube.com/playlist?list=PLSL2PnvmzsUMwh9yXvjOXJYiPp6b9CPqH",
+                "https://twitter.com/____natural"
+            ]
+        },
+        {
+            "aliases": [
+                "だるまや"
+            ],
+            "pen_names": [
+                "だるま"
+            ],
+            "position": "カ-32",
+            "links": [
+                "https://twitter.com/kurzweilmaster"
+            ]
+        },
+        {
+            "aliases": [
+                "eCHOmulti"
+            ],
+            "pen_names": [
+                "DONERU"
+            ],
+            "position": "カ-33",
+            "links": [
+                "https://potofu.me/echomulti",
+                "https://twitter.com/echomulti"
+            ]
+        },
+        {
+            "aliases": [
+                "らすたみ堂"
+            ],
+            "pen_names": [
+                "MidLuster"
+            ],
+            "position": "カ-34",
+            "links": [
+                "https://www.youtube.com/@MidLuster",
+                "https://twitter.com/midluster"
+            ]
+        },
+        {
+            "aliases": [
+                "ささらすぴん"
+            ],
+            "pen_names": [
+                "小金井ささら"
+            ],
+            "position": "カ-35",
+            "links": [
+                "https://kgneissr.booth.pm/",
+                "https://twitter.com/kgneissr"
+            ]
+        },
+        {
+            "aliases": [
+                "ひよわレコーズ"
+            ],
+            "pen_names": [
+                "京橋 ひよわ"
+            ],
+            "position": "カ-36",
+            "links": [
+                "https://graffiti.hiyowa.com/",
+                "https://twitter.com/KHiyowa"
+            ]
+        },
+        {
+            "aliases": [
+                "大阪電気通信大学ボカロ部"
+            ],
+            "pen_names": [
+                "霜月"
+            ],
+            "position": "ス-01,02",
+            "links": [
+                "https://twitter.com/OECU_VOCALOID"
+            ]
+        },
+        {
+            "aliases": [
+                "Rlc Store 「COMET」"
+            ],
+            "pen_names": [
+                "RoleCracker"
+            ],
+            "position": "ス-03,04",
+            "links": [
+                "https://www.rolecracker.com/",
+                "https://twitter.com/RoleCracker_FM"
+            ]
+        },
+        {
+            "aliases": [
+                "3106ЯecordS ＋animalS"
+            ],
+            "pen_names": [
+                "3106。＆かめ＆しゃけ"
+            ],
+            "position": "ス-05,06",
+            "links": [
+                "https://www.nicovideo.jp/user/15354970/mylist/17093845",
+                "https://twitter.com/3106_com"
+            ]
+        },
+        {
+            "aliases": [
+                "KA_compilation"
+            ],
+            "pen_names": [
+                "ひさよし"
+            ],
+            "position": "ス-07",
+            "links": [
+                "https://www.ne.jp/asahi/tatuya/home/KAcompilation/index.html",
+                "https://twitter.com/KA_compilation"
+            ]
+        },
+        {
+            "aliases": [
+                "無邪気の箱庭"
+            ],
+            "pen_names": [
+                "ムジャオ"
+            ],
+            "position": "ス-08",
+            "links": [
+                "https://mujamiku.fanbox.cc/",
+                "https://twitter.com/mujamiku"
+            ]
+        },
+        {
+            "aliases": [
+                "AMAREIS"
+            ],
+            "pen_names": [
+                "Sceno Ichiro"
+            ],
+            "position": "ス-09",
+            "links": [
+                "https://lit.link/scenoichiro",
+                "https://twitter.com/sceno_ichiro"
+            ]
+        },
+        {
+            "aliases": [
+                "あずき物語"
+            ],
+            "pen_names": [
+                "あずき"
+            ],
+            "position": "ス-10",
+            "links": [
+                "https://twitter.com/azuki7_music"
+            ]
+        },
+        {
+            "aliases": [
+                "NIGOICHI"
+            ],
+            "pen_names": [
+                "しんじP"
+            ],
+            "position": "ス-11",
+            "links": [
+                "https://twitter.com/NIGOICHI2023"
+            ]
+        },
+        {
+            "aliases": [
+                "HEPDM STUDIO"
+            ],
+            "pen_names": [
+                "Arran"
+            ],
+            "position": "ス-12",
+            "links": [
+                "https://bento.me/arran",
+                "https://twitter.com/Arran_VOCALOEDM"
+            ]
+        },
+        {
+            "aliases": [
+                "星界とコフィ"
+            ],
+            "pen_names": [
+                "織井辺コフィ"
+            ],
+            "position": "ス-13",
+            "links": [
+                "https://twitter.com/oribekofi"
+            ]
+        },
+        {
+            "aliases": [
+                "東京MARCOPOLO"
+            ],
+            "pen_names": [
+                "ハジメ優"
+            ],
+            "position": "ス-14",
+            "links": [
+                "https://www.youtube.com/@marcopolo_tokyo",
+                "https://twitter.com/marcopolo_tokyo"
+            ]
+        },
+        {
+            "aliases": [
+                "錦vsあ子"
+            ],
+            "pen_names": [
+                "錦，あ子"
+            ],
+            "position": "ス-15,16",
+            "links": [
+                "https://twitter.com/nishikikn",
+                "https://twitter.com/ako_okko"
+            ]
+        },
+        {
+            "aliases": [
+                "薄塩指数"
+            ],
+            "pen_names": [
+                "薄塩指数"
+            ],
+            "position": "ス-17",
+            "links": [
+                "https://linktr.ee/usushioshisuu",
+                "https://twitter.com/usushioshisuu"
+            ]
+        },
+        {
+            "aliases": [
+                "Studio Ark Attack"
+            ],
+            "pen_names": [
+                "ぼーかりおどP(noa)"
+            ],
+            "position": "ス-18",
+            "links": [
+                "https://linktr.ee/vocaliod_P",
+                "https://twitter.com/vocaliod_P"
+            ]
+        },
+        {
+            "aliases": [
+                "On Prism Records"
+            ],
+            "pen_names": [
+                "いるかアイス、市瀬るぽ"
+            ],
+            "position": "ス-19,20",
+            "links": [
+                "https://onprism-rec.com/",
+                "https://twitter.com/OnPrismRecords"
+            ]
+        },
+        {
+            "aliases": [
+                "子牛"
+            ],
+            "pen_names": [
+                "子牛"
+            ],
+            "position": "ス-21",
+            "links": [
+                "https://www.nicovideo.jp/watch/sm40700016",
+                "https://twitter.com/COWshi504"
+            ]
+        },
+        {
+            "aliases": [
+                "がるなん.com"
+            ],
+            "pen_names": [
+                "ガルナ(オワタP)"
+            ],
+            "position": "ス-22",
+            "links": [
+                "https://garunan.com/",
+                "https://twitter.com/tomatowt"
+            ]
+        },
+        {
+            "aliases": [
+                "ITSUKA RECORDS A"
+            ],
+            "pen_names": [
+                "ねじ式、ARiN"
+            ],
+            "position": "ス-23,24",
+            "links": [
+                "https://twitter.com/ITSUKA_RECORDS"
+            ]
+        },
+        {
+            "aliases": [
+                "ITSUKA RECORDS B"
+            ],
+            "pen_names": [
+                "ノイ、柏木カレキ、ナサガシ"
+            ],
+            "position": "ス-25,26",
+            "links": [
+                "https://twitter.com/ITSUKA_RECORDS"
+            ]
+        },
+        {
+            "aliases": [
+                "ITSUKA RECORDS C"
+            ],
+            "pen_names": [
+                "EO、hito"
+            ],
+            "position": "ス-27,28",
+            "links": [
+                "https://twitter.com/ITSUKA_RECORDS"
+            ]
+        },
+        {
+            "aliases": [
+                "EACH COLOR"
+            ],
+            "pen_names": [
+                "RAMS"
+            ],
+            "position": "ス-29",
+            "links": [
+                "https://ramslabo.wixsite.com/home",
+                "https://twitter.com/RAMSLABO"
+            ]
+        },
+        {
+            "aliases": [
+                "一年中夏休み"
+            ],
+            "pen_names": [
+                "ナナツナツ"
+            ],
+            "position": "ス-30",
+            "links": [
+                "https://www.nicovideo.jp/user/34843985",
+                "https://twitter.com/72tyt"
+            ]
+        },
+        {
+            "aliases": [
+                "lol project"
+            ],
+            "pen_names": [
+                "Utena"
+            ],
+            "position": "ス-31",
+            "links": [
+                "https://lolproject.client.jp/",
+                "https://twitter.com/lolproject000"
+            ]
+        },
+        {
+            "aliases": [
+                "lain is not Rain"
+            ],
+            "pen_names": [
+                "lain"
+            ],
+            "position": "ス-32",
+            "links": [
+                "https://lit.link/lainsinotrain",
+                "https://twitter.com/lainisnotrain"
+            ]
+        },
+        {
+            "aliases": [
+                "カニカマクラブ"
+            ],
+            "pen_names": [
+                "らげBOY"
+            ],
+            "position": "ス-33",
+            "links": [
+                "https://t.co/GOL5byJGHd",
+                "https://twitter.com/meteo_r_age43"
+            ]
+        },
+        {
+            "aliases": [
+                "ねりねり"
+            ],
+            "pen_names": [
+                "ねりねり"
+            ],
+            "position": "ス-34",
+            "links": [
+                "https://www.youtube.com/@neri3neri3",
+                "https://twitter.com/neri3neri3"
+            ]
+        },
+        {
+            "aliases": [
+                "Aliey:S Official Store"
+            ],
+            "pen_names": [
+                "Aliey:S"
+            ],
+            "position": "ス-35",
+            "links": [
+                "https://twitter.com/s_Aliey"
+            ]
+        },
+        {
+            "aliases": [
+                "未景音楽会"
+            ],
+            "pen_names": [
+                "ミケイ"
+            ],
+            "position": "ス-36",
+            "links": [
+                "https://www.youtube.com/channel/UCcsDozqLEIPbEcUm07TDisA",
+                "https://twitter.com/Mi_Ke36"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250304100157/https://voca-st.com/events/10/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20250215223553/https://voca-st.com/events/10/circleList",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "10_20241007083034_logo_10.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20241007083034/https://voca-st.com/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "10_20241007080027_top_10-1.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20241007080027/https://voca-st.com/events/10/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "10_Gfz2qvlbcAAp0yL.jpg",
+            "sources": [
+                {
+                    "source": "https://x.com/voca_st/status/1872642778012041671",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "10_Gg7ZythaEAAFF5z.jpg",
+            "sources": [
+                {
+                    "source": "https://x.com/voca_st/status/1877678004165542064",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

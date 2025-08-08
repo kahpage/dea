@@ -1,0 +1,860 @@
+{
+    "aliases": [
+        "VOCALOID STREET 05",
+        "ボーカロイドストリート5",
+        "ボカスト5"
+    ],
+    "dates": "2022.09.11",
+    "circles": [
+        {
+            "aliases": [
+                "R."
+            ],
+            "pen_names": [
+                "とと"
+            ],
+            "links": [
+                "https://www.pixiv.net/users/1065612",
+                "https://twitter.com/nagarere"
+            ]
+        },
+        {
+            "aliases": [
+                "Advanced Music products"
+            ],
+            "pen_names": [
+                "AM-ｐ"
+            ],
+            "links": [
+                "https://amp4561701.wixsite.com/am-p",
+                "https://twitter.com/Ap36288136"
+            ]
+        },
+        {
+            "aliases": [
+                "家の裏でマンボウが死んでるP"
+            ],
+            "pen_names": [
+                "家の裏でマンボウが死んでるP"
+            ],
+            "links": [
+                "https://manbo-p.com/",
+                "https://twitter.com/takahashi_manbo"
+            ]
+        },
+        {
+            "aliases": [
+                "一年中夏休み"
+            ],
+            "pen_names": [
+                "ナナツナツ"
+            ],
+            "links": [
+                "https://www.nicovideo.jp/user/34843985",
+                "https://twitter.com/72tyt"
+            ]
+        },
+        {
+            "aliases": [
+                "うさぎこたつ"
+            ],
+            "pen_names": [
+                "瑞貴うと　yoku"
+            ]
+        },
+        {
+            "aliases": [
+                "兎水月"
+            ],
+            "pen_names": [
+                "天宮瑞貴"
+            ],
+            "links": [
+                "https://twitter.com/alicemizuki"
+            ]
+        },
+        {
+            "aliases": [
+                "Eureka Works"
+            ],
+            "pen_names": [
+                "ぶるげ"
+            ],
+            "links": [
+                "https://eurekaworks.jp/",
+                "https://twitter.com/Eureka_Works"
+            ]
+        },
+        {
+            "aliases": [
+                "沿岸都市"
+            ],
+            "pen_names": [
+                "shiranami, ukiyojingu"
+            ],
+            "links": [
+                "https://www.ukiyojingu.com/",
+                "https://twitter.com/ukiyojingu"
+            ]
+        },
+        {
+            "aliases": [
+                "大江戸宅急便"
+            ],
+            "pen_names": [
+                "島村秀行(~~v/鼻炎P"
+            ],
+            "links": [
+                "www.ooedo.jp",
+                "https://twitter.com/shimamurasan"
+            ]
+        },
+        {
+            "aliases": [
+                "大阪電気通信大学ボカロ部"
+            ],
+            "pen_names": [
+                "ボカロ部"
+            ],
+            "links": [
+                "http://oecuvocaloid.wixsite.com/mysite",
+                "https://twitter.com/OECU_VOCALOID"
+            ]
+        },
+        {
+            "aliases": [
+                "おつよんズ"
+            ],
+            "pen_names": [
+                "乙れん"
+            ],
+            "links": [
+                "https://otsuyonzu.booth.pm/",
+                "https://twitter.com/otsurenn"
+            ]
+        },
+        {
+            "aliases": [
+                "楓遥登"
+            ],
+            "pen_names": [
+                "楓遥登"
+            ],
+            "links": [
+                "https://www.thr-musicoffice.com/",
+                "https://twitter.com/kaedeharuto123"
+            ]
+        },
+        {
+            "aliases": [
+                "kagamination制作チーム"
+            ],
+            "pen_names": [
+                "ぺぺん"
+            ],
+            "links": [
+                "https://kagamination.net/",
+                "https://twitter.com/kagamination"
+            ]
+        },
+        {
+            "aliases": [
+                "鍵ノ鳥とボカロたち＆Primula"
+            ],
+            "pen_names": [
+                "鍵ノ鳥"
+            ],
+            "links": [
+                "https://www.nicovideo.jp/mylist/60084358",
+                "https://twitter.com/kaginotori0621"
+            ]
+        },
+        {
+            "aliases": [
+                "神様うさぎ"
+            ],
+            "pen_names": [
+                "神様うさぎ"
+            ],
+            "links": [
+                "https://linktr.ee/kamisamausagi",
+                "https://twitter.com/osumanteikoku"
+            ]
+        },
+        {
+            "aliases": [
+                "かもしれない運転"
+            ],
+            "pen_names": [
+                "lilija"
+            ],
+            "links": [
+                "https://www.pixiv.net/users/4944581",
+                "https://twitter.com/hnnntm_"
+            ]
+        },
+        {
+            "aliases": [
+                "完全１度。"
+            ],
+            "pen_names": [
+                "ただすけ"
+            ],
+            "links": [
+                "https://uniloid.blog.fc2.com/",
+                "https://twitter.com/tada_sk"
+            ]
+        },
+        {
+            "aliases": [
+                "甘味処うめちゃ"
+            ],
+            "pen_names": [
+                "ぷらなす"
+            ]
+        },
+        {
+            "aliases": [
+                "きいろいとまとや"
+            ],
+            "pen_names": [
+                "きいとま"
+            ],
+            "links": [
+                "https://www.pixiv.net/users/14326405",
+                "https://twitter.com/KiitomaShinon"
+            ]
+        },
+        {
+            "aliases": [
+                "北涼書店"
+            ],
+            "pen_names": [
+                "空見さな"
+            ]
+        },
+        {
+            "aliases": [
+                "キマシタワーProduction"
+            ],
+            "pen_names": [
+                "キマシタワーP"
+            ],
+            "links": [
+                "https://kimashitower.com/",
+                "https://twitter.com/KimashiTowerP"
+            ]
+        },
+        {
+            "aliases": [
+                "楠落葉"
+            ],
+            "pen_names": [
+                "楠　春"
+            ],
+            "links": [
+                "https://twitter.com/___fomar"
+            ]
+        },
+        {
+            "aliases": [
+                "黒猫大和"
+            ],
+            "pen_names": [
+                "狩谷茜"
+            ],
+            "links": [
+                "https://twitter.com/fullblossom"
+            ]
+        },
+        {
+            "aliases": [
+                "くろりん"
+            ],
+            "pen_names": [
+                "なおりん"
+            ],
+            "links": [
+                "https://twitter.com/NRJS0617"
+            ]
+        },
+        {
+            "aliases": [
+                "Silent - Jadeite * Crown"
+            ],
+            "pen_names": [
+                "水無月燐 音無乖"
+            ],
+            "links": [
+                "https://ameblo.jp/euphorsthia/",
+                "https://twitter.com/@noripy_genei"
+            ]
+        },
+        {
+            "aliases": [
+                "縞城のおしろ"
+            ],
+            "pen_names": [
+                "縞城依月"
+            ],
+            "links": [
+                "https://www.pixiv.net/users/8543545",
+                "https://twitter.com/p_2k"
+            ]
+        },
+        {
+            "aliases": [
+                "じゃん"
+            ],
+            "pen_names": [
+                "じゃん"
+            ],
+            "links": [
+                "https://www.youtube.com/channel/UChXBPXy2Xt4cPdvfcSfgqQg?view_as=subscriber",
+                "https://twitter.com/jan_shota"
+            ]
+        },
+        {
+            "aliases": [
+                "白神さん家"
+            ],
+            "pen_names": [
+                "白神大輝"
+            ],
+            "links": [
+                "https://www.shiragasanchi.com/",
+                "https://twitter.com/shiraga97"
+            ]
+        },
+        {
+            "aliases": [
+                "私立ボカロP学園初等部"
+            ],
+            "pen_names": [
+                "Shu"
+            ],
+            "links": [
+                "https://vocagaku.jimdofree.com/",
+                "https://twitter.com/vocalo_gakuen_"
+            ]
+        },
+        {
+            "aliases": [
+                "シロクマ探検隊"
+            ],
+            "pen_names": [
+                "しろくま。"
+            ],
+            "links": [
+                "https://www.youtube.com/channel/UCTi30BHxUNTpR3VYmCbwxug",
+                "https://twitter.com/kazuna_w_bear"
+            ]
+        },
+        {
+            "aliases": [
+                "ずびずだー☆かるてっと"
+            ],
+            "pen_names": [
+                "小夏ひめ"
+            ],
+            "links": [
+                "https://twitter.com/milkyteatime"
+            ]
+        },
+        {
+            "aliases": [
+                "studioMURASAKI"
+            ],
+            "pen_names": [
+                "MURASAKI"
+            ],
+            "links": [
+                "https://yukarixmurasaki.wixsite.com/studiomurasaki/release",
+                "https://twitter.com/yukarinmurasaki"
+            ]
+        },
+        {
+            "aliases": [
+                "childeyes"
+            ],
+            "pen_names": [
+                "境ヶ原まるこ"
+            ],
+            "links": [
+                "https://twitter.com/propellerwalker"
+            ]
+        },
+        {
+            "aliases": [
+                "ついるんて"
+            ],
+            "pen_names": [
+                "ツインテールぬぅ"
+            ],
+            "links": [
+                "https://twitter.com/Twin_Nu"
+            ]
+        },
+        {
+            "aliases": [
+                "月のしるし"
+            ],
+            "pen_names": [
+                "るなまーく"
+            ],
+            "links": [
+                "https://lunamark-archives.tumblr.com/",
+                "https://twitter.com/lunamark00"
+            ]
+        },
+        {
+            "aliases": [
+                "テクテク旅団"
+            ],
+            "pen_names": [
+                "たくしP、はかめ、星海、Catwall"
+            ],
+            "links": [
+                "https://youtube.com/channel/UCJPhFdpnYFXTGBS_yauOz7Q",
+                "https://twitter.com/Techtechjourney"
+            ]
+        },
+        {
+            "aliases": [
+                "Desk Top Mikan"
+            ],
+            "pen_names": [
+                "Torque、HotαRu"
+            ],
+            "links": [
+                "https://twitter.com/torque96k"
+            ]
+        },
+        {
+            "aliases": [
+                "同志社大学VOCALOID研究会Arpeggio"
+            ],
+            "pen_names": [
+                "リコペン"
+            ],
+            "links": [
+                "http://arpeggiod.web.fc2.com/",
+                "https://twitter.com/arpeggio_kouhou"
+            ]
+        },
+        {
+            "aliases": [
+                "東京MARCOPOLO"
+            ],
+            "pen_names": [
+                "ハジメ優"
+            ],
+            "links": [
+                "https://www.youtube.com/c/tokyo-mp",
+                "https://twitter.com/marcopolo_tokyo"
+            ]
+        },
+        {
+            "aliases": [
+                "常夏きめらぶーす。"
+            ],
+            "pen_names": [
+                "浪路&氷狩"
+            ],
+            "links": [
+                "https://kasaneke.wixsite.com/tokonatsuchimera",
+                "https://twitter.com/chimerabooth"
+            ]
+        },
+        {
+            "aliases": [
+                "ドブネズミク"
+            ],
+            "pen_names": [
+                "なぬりそ"
+            ],
+            "links": [
+                "https://twitter.com/Nanurisososo_so"
+            ]
+        },
+        {
+            "aliases": [
+                "TreatHunters × ろますと部"
+            ],
+            "pen_names": [
+                "野中ハロウィン"
+            ],
+            "links": [
+                "https://twitter.com/jirai_bugtsune"
+            ]
+        },
+        {
+            "aliases": [
+                "中野ゆの"
+            ],
+            "pen_names": [
+                "中野ゆの"
+            ],
+            "links": [
+                "https://twitter.com/Yunoatto"
+            ]
+        },
+        {
+            "aliases": [
+                "ねじ式とEO"
+            ],
+            "pen_names": [
+                "ねじ式　EO"
+            ],
+            "links": [
+                "https://www.nejishiki.com/",
+                "https://twitter.com/nejishiki0221"
+            ]
+        },
+        {
+            "aliases": [
+                "ハガネノウサギゴヤ"
+            ],
+            "pen_names": [
+                "赤兎かい"
+            ],
+            "links": [
+                "http://ironrabbit.jpn.org/",
+                "https://twitter.com/heatmetalx"
+            ]
+        },
+        {
+            "aliases": [
+                "橋本ひろみ"
+            ],
+            "pen_names": [
+                "橋本ひろみ"
+            ],
+            "links": [
+                "https://hiromihashimoto.studio.site/",
+                "https://twitter.com/hiromi_hashimo"
+            ]
+        },
+        {
+            "aliases": [
+                "hito"
+            ],
+            "pen_names": [
+                "hito"
+            ],
+            "links": [
+                "https://twitter.com/rio_oir0"
+            ]
+        },
+        {
+            "aliases": [
+                "雛菊書房"
+            ],
+            "pen_names": [
+                "小鳥遊　昴"
+            ],
+            "links": [
+                "https://www.hinagiku-books.jp/",
+                "https://twitter.com/HinagikuBooks"
+            ]
+        },
+        {
+            "aliases": [
+                "浮幽会"
+            ],
+            "pen_names": [
+                "由末イリ"
+            ],
+            "links": [
+                "https://www.youtube.com/c/iriyule",
+                "https://twitter.com/iri_qitune"
+            ]
+        },
+        {
+            "aliases": [
+                "ふりるれたす。"
+            ],
+            "pen_names": [
+                "Reta"
+            ],
+            "links": [
+                "youtube.com/c/fr_unit",
+                "https://twitter.com/Reta__nico"
+            ]
+        },
+        {
+            "aliases": [
+                "ＦＲＯＧ　ＦＯＯＴ"
+            ],
+            "pen_names": [
+                "かんぢぅ"
+            ],
+            "links": [
+                "https://twitter.com/kandyu_kilis"
+            ]
+        },
+        {
+            "aliases": [
+                "星屑屋"
+            ],
+            "pen_names": [
+                "UKYOU　wiLu"
+            ],
+            "links": [
+                "https://www.youtube.com/channel/UCBgUeDHFlXHiVprYAwaLdYw",
+                "https://twitter.com/UKYOUKYOUKYOU"
+            ]
+        },
+        {
+            "aliases": [
+                "MY SHIP"
+            ],
+            "pen_names": [
+                "BCNO"
+            ],
+            "links": [
+                "https://linktr.ee/BCNO",
+                "https://twitter.com/bcno01"
+            ]
+        },
+        {
+            "aliases": [
+                "街角ノスタルジア"
+            ],
+            "pen_names": [
+                "璃麻乃"
+            ],
+            "links": [
+                "https://twitter.com/hashimariono"
+            ]
+        },
+        {
+            "aliases": [
+                "まにまに物販"
+            ],
+            "pen_names": [
+                "manika"
+            ],
+            "links": [
+                "https://manikamail0924.wixsite.com/music",
+                "https://twitter.com/ma_ni_ka_"
+            ]
+        },
+        {
+            "aliases": [
+                "Miotec 2nd TEAM"
+            ],
+            "pen_names": [
+                "目から鱗"
+            ]
+        },
+        {
+            "aliases": [
+                "Mireillemist"
+            ],
+            "pen_names": [
+                "らみえるみすと"
+            ],
+            "links": [
+                "https://www.pixiv.net/users/418415",
+                "https://twitter.com/ramielmist"
+            ]
+        },
+        {
+            "aliases": [
+                "無邪気の箱庭"
+            ],
+            "pen_names": [
+                "ムジャオ"
+            ],
+            "links": [
+                "https://mujamiku.fanbox.cc/",
+                "https://twitter.com/mujamiku"
+            ]
+        },
+        {
+            "aliases": [
+                "元・市大ボカロ部"
+            ],
+            "pen_names": [
+                "はとぅー。"
+            ],
+            "links": [
+                "https://twitter.com/vocaloid_hatuu"
+            ]
+        },
+        {
+            "aliases": [
+                "夕日工房"
+            ],
+            "pen_names": [
+                "戸津れんず"
+            ],
+            "links": [
+                "https://pixiv.me/totu_renzu",
+                "https://twitter.com/E_MA_3"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆかり園"
+            ],
+            "pen_names": [
+                "ヲタ乙"
+            ],
+            "links": [
+                "https://www.nicovideo.jp/my/mylist/70876514",
+                "https://twitter.com/wotaotsu99"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆるふわサドヤショップ"
+            ],
+            "pen_names": [
+                "サドヤ"
+            ],
+            "links": [
+                "https://sadoyaa.wixsite.com/nasukai",
+                "https://twitter.com/sado_ya"
+            ]
+        },
+        {
+            "aliases": [
+                "リト"
+            ],
+            "pen_names": [
+                "リト"
+            ],
+            "links": [
+                "https://www.youtube.com/channel/UC2gbTfPMZcBiTcOXMYeFzXw/about",
+                "https://twitter.com/RiTo_8639"
+            ]
+        },
+        {
+            "aliases": [
+                "龍谷大学ボカロ同好会「おしゃかぽん」"
+            ],
+            "pen_names": [
+                "なまけもののけ"
+            ],
+            "links": [
+                "https://sp.nicovideo.jp/user/98542250",
+                "https://twitter.com/RyukokuVOCALOID"
+            ]
+        },
+        {
+            "aliases": [
+                "LiLRAIN"
+            ],
+            "pen_names": [
+                "美津紀"
+            ],
+            "links": [
+                "https://www.youtube.com/channel/UCcWIZok7n6NIEmrraOmMwWQ/videos",
+                "https://twitter.com/LiLRAIN81"
+            ]
+        },
+        {
+            "aliases": [
+                "Lupinus Fiore + Farthest"
+            ],
+            "pen_names": [
+                "みこにゅ＋イケモト"
+            ],
+            "links": [
+                "https://farthestofficial.tumblr.com/",
+                "https://twitter.com/mikommmiko"
+            ]
+        },
+        {
+            "aliases": [
+                "Lazy*crazy"
+            ],
+            "pen_names": [
+                "かわもと"
+            ],
+            "links": [
+                "https://www.pixiv.net/users/1190039",
+                "https://twitter.com/orderfall"
+            ]
+        },
+        {
+            "aliases": [
+                "lain is not Rain"
+            ],
+            "pen_names": [
+                "lain"
+            ],
+            "links": [
+                "https://www.nicovideo.jp/series/185325",
+                "https://twitter.com/lainisnotrain"
+            ]
+        },
+        {
+            "aliases": [
+                "ワイエヌエンタテインメンツ"
+            ],
+            "pen_names": [
+                "ワイエヌ"
+            ],
+            "links": [
+                "https://twitter.com/ynet_ynet_ynet"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://x.com/voca_st/status/1562042560930992129",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20220814181011/http://voca-st.com/circlelist",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "5_FX6r9HmagAAxbOE.jpg",
+            "sources": [
+                {
+                    "source": "https://x.com/voca_st/status/1548864562744930310",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "5_Fa19BGfVQAA7w-A.jpg",
+            "sources": [
+                {
+                    "source": "https://x.com/voca_st/status/1562042560930992129",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "5_4268.png",
+            "sources": [
+                {
+                    "source": "https://static.vocadb.net/img/releaseevent/mainOrig/4268.jpg?v=4",
+                    "type": [
+                        "Likely",
+                        "External"
+                    ]
+                }
+            ]
+        }
+    ]
+}

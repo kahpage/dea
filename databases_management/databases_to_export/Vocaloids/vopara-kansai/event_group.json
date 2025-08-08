@@ -1,0 +1,64 @@
+{
+    "aliases": [
+        "VOCALOID PARADISE 関西",
+        "ボーパラ関西",
+        "VOCALOID PARADISE Kansai",
+        "vo-para Kansai"
+    ],
+    "media": [
+        {
+            "path": "kansai_20130119113708_vpk_mainimg.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130119113708/http://vo-para.birdzberth.com/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://web.archive.org/web/20110721205632/http://vo-para.birdzberth.com/",
+        "https://x.com/m_comi"
+    ],
+    "description": "Simultanous with MUSIC COMMUNICATION 16.",
+    "events": {
+        "VOCALOID PARADISE 関西 1": {
+            "index": 0,
+            "dates": "2012.03.25",
+            "circle_count": null
+        },
+        "VOCALOID PARADISE 関西 2": {
+            "index": 1,
+            "dates": "2013.03.24",
+            "circle_count": 288
+        },
+        "VOCALOID PARADISE 関西 3": {
+            "index": 2,
+            "dates": "2014.03.02",
+            "circle_count": null
+        },
+        "VOCALOID PARADISE 関西 4": {
+            "index": 3,
+            "dates": "2015.03.08",
+            "circle_count": 295
+        },
+        "VOCALOID PARADISE 関西 5": {
+            "index": 4,
+            "dates": "2016.03.06",
+            "circle_count": 120
+        },
+        "VOCALOID PARADISE 関西 6": {
+            "index": 5,
+            "dates": "2017.03.05",
+            "circle_count": null
+        },
+        "VOCALOID PARADISE 関西 7": {
+            "index": 6,
+            "dates": "2018.02.25",
+            "circle_count": 81
+        }
+    }
+}

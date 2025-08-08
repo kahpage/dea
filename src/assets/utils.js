@@ -15,6 +15,11 @@ function makeLinksClickable(text) {
   });
 }
 
-const public_path = import.meta.env.MODE == "production" ? `/dea/` : `/dea/`; // Path of public/ folder
+const _env_mode = import.meta.env.MODE;
+const _is_prod = _env_mode == "production" // true if build, false if dev 
 
-export {makeLinksClickable, public_path};
+const PATH_PUBLIC = _is_prod ? `/dea` : `/dea`; // Path of public/ folder
+const PATH_DB_PUBLIC = `${PATH_PUBLIC}/databases`; // Path of public/databases/ folder
+const PATH_DB_SERVED = _is_prod ? `https://raw.githubusercontent.com/kahpage/dea/refs/heads/master/databases_management/databases_served` : `/dea/served`; // Path of served databases
+
+export {makeLinksClickable, PATH_PUBLIC, PATH_DB_PUBLIC, PATH_DB_SERVED};

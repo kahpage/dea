@@ -1,0 +1,511 @@
+{
+    "aliases": [
+        "幺樂団カァニバル！13"
+    ],
+    "dates": "2024.07.15",
+    "circles": [
+        {
+            "aliases": [
+                "ALQUERMES"
+            ],
+            "pen_names": [
+                "みーか"
+            ]
+        },
+        {
+            "aliases": [
+                "Convallo-stick"
+            ],
+            "pen_names": [
+                "halogen"
+            ]
+        },
+        {
+            "aliases": [
+                "Cynthia"
+            ],
+            "pen_names": [
+                "桜木李杏"
+            ]
+        },
+        {
+            "aliases": [
+                "DUO/Waltz"
+            ],
+            "pen_names": [
+                "SAIFISU"
+            ]
+        },
+        {
+            "aliases": [
+                "End of My Lilith"
+            ],
+            "pen_names": [
+                "れう すずらぎ"
+            ]
+        },
+        {
+            "aliases": [
+                "FINE MOTION"
+            ],
+            "pen_names": [
+                "ファインモーション"
+            ]
+        },
+        {
+            "aliases": [
+                "Miraflores"
+            ],
+            "pen_names": [
+                "Nadine"
+            ]
+        },
+        {
+            "aliases": [
+                "Narcissus"
+            ],
+            "pen_names": [
+                "片岡昴"
+            ]
+        },
+        {
+            "aliases": [
+                "TC-401"
+            ],
+            "pen_names": [
+                "快速いわき行き"
+            ]
+        },
+        {
+            "aliases": [
+                "Team*ぱわー"
+            ],
+            "pen_names": [
+                "ヨシ力"
+            ]
+        },
+        {
+            "aliases": [
+                "アオイロリボン"
+            ],
+            "pen_names": [
+                "うさろりぃ"
+            ]
+        },
+        {
+            "aliases": [
+                "アルベダリン"
+            ],
+            "pen_names": [
+                "みかんポン"
+            ]
+        },
+        {
+            "aliases": [
+                "えなじ～ぽていと"
+            ],
+            "pen_names": [
+                "芋丼"
+            ]
+        },
+        {
+            "aliases": [
+                "おきし団"
+            ],
+            "pen_names": [
+                "おきし"
+            ]
+        },
+        {
+            "aliases": [
+                "お華見会場"
+            ],
+            "pen_names": [
+                "阿亀華"
+            ]
+        },
+        {
+            "aliases": [
+                "カタコトリ"
+            ],
+            "pen_names": [
+                "夜覩カタリ"
+            ]
+        },
+        {
+            "aliases": [
+                "カタルシス少年戯樂団"
+            ],
+            "pen_names": [
+                "音屋のばけばけ"
+            ]
+        },
+        {
+            "aliases": [
+                "グリュンハール"
+            ],
+            "pen_names": [
+                "アイディス"
+            ]
+        },
+        {
+            "aliases": [
+                "コーギーと共に"
+            ],
+            "pen_names": [
+                "ＣＶ"
+            ]
+        },
+        {
+            "aliases": [
+                "コルモランド"
+            ],
+            "pen_names": [
+                "コルモラン"
+            ]
+        },
+        {
+            "aliases": [
+                "さんよんさん"
+            ],
+            "pen_names": [
+                "サンクス"
+            ]
+        },
+        {
+            "aliases": [
+                "シャレコーベ草原"
+            ],
+            "pen_names": [
+                "donjuan"
+            ]
+        },
+        {
+            "aliases": [
+                "チートイ12000"
+            ],
+            "pen_names": [
+                "りふれ"
+            ]
+        },
+        {
+            "aliases": [
+                "つきみ野黄昏プラザ"
+            ],
+            "pen_names": [
+                "ゆずピィ"
+            ]
+        },
+        {
+            "aliases": [
+                "どくいちごがぁでん"
+            ],
+            "pen_names": [
+                "ドクロちゃん"
+            ]
+        },
+        {
+            "aliases": [
+                "とろもち炉"
+            ],
+            "pen_names": [
+                "千里めると"
+            ]
+        },
+        {
+            "aliases": [
+                "はじけ組っ！"
+            ],
+            "pen_names": [
+                "はじけ☆あきら"
+            ]
+        },
+        {
+            "aliases": [
+                "ぴょこっとついんて！"
+            ],
+            "pen_names": [
+                "ぴょこっとついんて！"
+            ]
+        },
+        {
+            "aliases": [
+                "フォレノワール"
+            ],
+            "pen_names": [
+                "はーちゃん"
+            ]
+        },
+        {
+            "aliases": [
+                "ぼうしやヘンリィ"
+            ],
+            "pen_names": [
+                "Jekyll"
+            ]
+        },
+        {
+            "aliases": [
+                "みちく茶話会"
+            ],
+            "pen_names": [
+                "茶野みの"
+            ]
+        },
+        {
+            "aliases": [
+                "もちもちGarage"
+            ],
+            "pen_names": [
+                "もちお"
+            ]
+        },
+        {
+            "aliases": [
+                "ロウズ自虐"
+            ],
+            "pen_names": [
+                "デンバット酒井風"
+            ]
+        },
+        {
+            "aliases": [
+                "ろりすこんぷれっくす"
+            ],
+            "pen_names": [
+                "ささるの"
+            ]
+        },
+        {
+            "aliases": [
+                "わぁるうぃんど"
+            ],
+            "pen_names": [
+                "それ"
+            ]
+        },
+        {
+            "aliases": [
+                "隠匿菜園"
+            ],
+            "pen_names": [
+                "せろり"
+            ]
+        },
+        {
+            "aliases": [
+                "燕煙夢暖簾"
+            ],
+            "pen_names": [
+                "夢魂"
+            ]
+        },
+        {
+            "aliases": [
+                "外柿山"
+            ],
+            "pen_names": [
+                "権太夫"
+            ]
+        },
+        {
+            "aliases": [
+                "企画院総裁官房"
+            ],
+            "pen_names": [
+                "コッシー"
+            ]
+        },
+        {
+            "aliases": [
+                "屑鉄おきば。"
+            ],
+            "pen_names": [
+                "黝無ニッケル"
+            ]
+        },
+        {
+            "aliases": [
+                "型K式"
+            ],
+            "pen_names": [
+                "カタケイ"
+            ]
+        },
+        {
+            "aliases": [
+                "胡玉書厨"
+            ],
+            "pen_names": [
+                "胡玉"
+            ]
+        },
+        {
+            "aliases": [
+                "五花八門"
+            ],
+            "pen_names": [
+                "上條紗智"
+            ]
+        },
+        {
+            "aliases": [
+                "鎖付鉄球工房"
+            ],
+            "pen_names": [
+                "スペキュラム合金"
+            ]
+        },
+        {
+            "aliases": [
+                "子羊の眠り歌"
+            ],
+            "pen_names": [
+                "にゃいぐる"
+            ]
+        },
+        {
+            "aliases": [
+                "思いついたままnote"
+            ],
+            "pen_names": [
+                "土生タケヒロ"
+            ]
+        },
+        {
+            "aliases": [
+                "七色快男児"
+            ],
+            "pen_names": [
+                "仁科将人"
+            ]
+        },
+        {
+            "aliases": [
+                "春空夢見月"
+            ],
+            "pen_names": [
+                "みつき"
+            ]
+        },
+        {
+            "aliases": [
+                "少女Revolver"
+            ],
+            "pen_names": [
+                "つるぎん"
+            ]
+        },
+        {
+            "aliases": [
+                "常行丼×深想芯理"
+            ],
+            "pen_names": [
+                "ネモ"
+            ]
+        },
+        {
+            "aliases": [
+                "常葉日和×れいんぼうてぃー"
+            ],
+            "pen_names": [
+                "赤川羽蘭"
+            ]
+        },
+        {
+            "aliases": [
+                "人生三日坊主"
+            ],
+            "pen_names": [
+                "まんぷくちゃん"
+            ]
+        },
+        {
+            "aliases": [
+                "星空らぼらとりー"
+            ],
+            "pen_names": [
+                "Duskia"
+            ]
+        },
+        {
+            "aliases": [
+                "星神様の神徳"
+            ],
+            "pen_names": [
+                "めりめり"
+            ]
+        },
+        {
+            "aliases": [
+                "大吉座"
+            ],
+            "pen_names": [
+                "T.D"
+            ]
+        },
+        {
+            "aliases": [
+                "地球侵略"
+            ],
+            "pen_names": [
+                "博士"
+            ]
+        },
+        {
+            "aliases": [
+                "放課後日和"
+            ],
+            "pen_names": [
+                "ちるろり"
+            ]
+        },
+        {
+            "aliases": [
+                "本を描いてる屋さん"
+            ],
+            "pen_names": [
+                "星ノ雫"
+            ]
+        },
+        {
+            "aliases": [
+                "魔法猫みぃぃ手描きイラスト倶楽部"
+            ],
+            "pen_names": [
+                "魔法猫みぃぃ"
+            ]
+        },
+        {
+            "aliases": [
+                "夢峰地帯研究所"
+            ],
+            "pen_names": [
+                "るーくす"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date, Participating circles: https://web.archive.org/web/20240617123132/https://yougakudann.dojin.com/splist.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "13_20240713045959_yougaku9hp.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20240713045959/http://yougakudann.dojin.com/index.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

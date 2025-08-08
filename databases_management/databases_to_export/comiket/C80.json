@@ -1,0 +1,58 @@
+{
+    "aliases": [
+        "C80",
+        "コミックマーケット80",
+        "Comiket 80",
+        "Comic Market 80"
+    ],
+    "dates": "2011.08.12 - 2011.08.14",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250710153917/https://www.comiket.co.jp/archives/Chronology.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "80_C80CtlgWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250710153917/https://www.comiket.co.jp/archives/Chronology.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "猿屋ハチ(サークル：ハチ丸)"
+        },
+        {
+            "path": "80_C80CtlgRomWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250710153917/https://www.comiket.co.jp/archives/Chronology.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "猿屋ハチ(サークル：ハチ丸)"
+        },
+        {
+            "path": "https://web.archive.org/web/0/https://www.comiket.co.jp/info-a/C80/C80CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/0/https://www.comiket.co.jp/info-a/C80/C80CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

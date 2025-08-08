@@ -1,0 +1,183 @@
+{
+    "aliases": [
+        "C98",
+        "コミックマーケット98",
+        "Comiket 98",
+        "Comic Market 98"
+    ],
+    "dates": "2020.05.02 - 2020.05.05 (CANCELLED)",
+    "sources": [
+        {
+            "source": "Date, Cancellation: https://www.comiket.co.jp/info-a/C98/C98Covid19Notice2.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "98_CWC_C98.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20210804112536/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "98_CWC_C98L.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20210804112536/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "98_98CtlgWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/0/https://web.archive.org/web/20200428115034/https://www.comiket.co.jp/info-a/C98/AirComiket98.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙 イラスト：くるみつ（サークル：POPLOOP）／デザイン：レク 注意漫画：あづみ一樹（サークルComeThrough）"
+        },
+        {
+            "path": "98_98CtlgRomWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/0/https://web.archive.org/web/20200428115034/https://www.comiket.co.jp/info-a/C98/AirComiket98.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：いとうのいぢ（サークル：富士壺機械）"
+        },
+        {
+            "path": "98_kenketsu-logo_c098.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/2/https://www.comiket.co.jp/info-a/C98/C98Covid19Notice5.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "98_40th_CHRONICLE_Hyoshi.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/2/https://www.comiket.co.jp/info-a/C98/C98Covid19Notice5.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "https://web.archive.org/web/20240614144426/https://www.comiket.co.jp/info-a/C98/C98CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20240614144426/https://www.comiket.co.jp/info-a/C98/C98CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "98_C98Moushikomisho.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250307200729/https://www.comiket.co.jp/info-a/C97/C97distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：MATSUDA98（サークル：MATSUDASTYLE）"
+        },
+        {
+            "path": "98_C98KamibukuroL.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/0/https://web.archive.org/web/20200428115034/https://www.comiket.co.jp/info-a/C98/AirComiket98.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "Perhaps rather エアコミケ 1 #TODO"
+        },
+        {
+            "path": "98_C98KamibukuroS.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/0/https://web.archive.org/web/20200428115034/https://www.comiket.co.jp/info-a/C98/AirComiket98.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "Perhaps rather エアコミケ 1 #TODO"
+        },
+        {
+            "path": "98_AirComiketniconico.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/0/https://web.archive.org/web/20200428115034/https://www.comiket.co.jp/info-a/C98/AirComiket98.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "Perhaps rather エアコミケ 1 #TODO"
+        },
+        {
+            "path": "98_C98Wristband.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/0/https://web.archive.org/web/20200428115034/https://www.comiket.co.jp/info-a/C98/AirComiket98.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "Perhaps rather エアコミケ 1 #TODO"
+        },
+        {
+            "path": "https://web.archive.org/web/20210117023521/https://www.comiket.co.jp/info-a/C98/C98CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20210117023521/https://www.comiket.co.jp/info-a/C98/C98CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

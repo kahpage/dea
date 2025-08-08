@@ -1,0 +1,166 @@
+{
+    "aliases": [
+        "MUSIC COMMUNICATION 15",
+        "M-COMI15",
+        "Mコミ15"
+    ],
+    "dates": "2017.09.18",
+    "circles": [
+        {
+            "aliases": [
+                "帝国音楽堂"
+            ],
+            "pen_names": [
+                "バーバラ・アスカ"
+            ],
+            "position": "SP数2 Track 1,2",
+            "links": [
+                "http://twitter.com/royal_music_ass"
+            ]
+        },
+        {
+            "aliases": [
+                "▲s"
+            ],
+            "pen_names": [
+                "▲s"
+            ],
+            "position": "SP数2 Track 3",
+            "links": [
+                "http://pyramidos.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "David records"
+            ],
+            "pen_names": [
+                "kazu"
+            ],
+            "position": "SP数1 Track 4",
+            "links": [
+                "http://david-records.com"
+            ]
+        },
+        {
+            "aliases": [
+                "C@SHOP"
+            ],
+            "pen_names": [
+                "ねこや"
+            ],
+            "position": "SP数1 Track 5"
+        },
+        {
+            "aliases": [
+                "MIA Studio"
+            ],
+            "pen_names": [
+                "Azuline"
+            ],
+            "position": "SP数1 Track 6",
+            "links": [
+                "http://miastudio.jimdo.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "SBFR"
+            ],
+            "pen_names": [
+                "AOiRO_Manbow"
+            ],
+            "position": "SP数1 Track 7",
+            "links": [
+                "http://sbfr.info/"
+            ]
+        },
+        {
+            "aliases": [
+                "ぽすといっと"
+            ],
+            "pen_names": [
+                "Ebrof.H"
+            ],
+            "position": "SP数1 Track 8",
+            "links": [
+                "http://circlepostit.web.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "創作庵MASAYA"
+            ],
+            "pen_names": [
+                "rienzi"
+            ],
+            "position": "SP数1 Track 9"
+        },
+        {
+            "aliases": [
+                "LC:AZE"
+            ],
+            "pen_names": [
+                "タナカミツヒロ"
+            ],
+            "position": "SP数1 Track 10",
+            "links": [
+                "http://www.lcaze.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "ShibayanRecords"
+            ],
+            "pen_names": [
+                "Shibayan"
+            ],
+            "position": "SP数1 Track 11",
+            "links": [
+                "http://homepage3.nifty.com/shibayan/"
+            ]
+        },
+        {
+            "aliases": [
+                "Sprite Wing"
+            ],
+            "pen_names": [
+                "MAYA"
+            ],
+            "position": "SP数1 Track 12",
+            "links": [
+                "http://spritewing.com/"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20170813061325/http://m-comi.birdzberth.com/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20180330132244/http://m-comi.birdzberth.com/circlelist_mcomi15.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "1516_20170813061325_mcomi15.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20170813061325/http://m-comi.birdzberth.com/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

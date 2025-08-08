@@ -1,0 +1,636 @@
+{
+    "aliases": [
+        "VOCALOID STREET 03",
+        "ボーカロイドストリート3",
+        "ボカスト3"
+    ],
+    "dates": "2021.03.27",
+    "circles": [
+        {
+            "aliases": [
+                "CAFFEINISM"
+            ],
+            "pen_names": [
+                "CAFFEIN"
+            ],
+            "position": "C - 01",
+            "links": [
+                "http://caffein89.blogspot.jp/",
+                "https://twitter.com/caffein89"
+            ]
+        },
+        {
+            "aliases": [
+                "Lazy*crazy"
+            ],
+            "pen_names": [
+                "かわもと"
+            ],
+            "position": "C - 03",
+            "links": [
+                "https://www.pixiv.net/users/1190039",
+                "https://twitter.com/orderfall"
+            ]
+        },
+        {
+            "aliases": [
+                "かなりあ荘文芸部"
+            ],
+            "pen_names": [
+                "ayumin    すぅ　Tea Cat   陽葵ちず　ゆるりー"
+            ],
+            "position": "C - 05",
+            "links": [
+                "https://piapro.jp/collabo/?id=15840",
+                "https://twitter.com/a_m_kn_dblue  (代表者）"
+            ]
+        },
+        {
+            "aliases": [
+                "ヤング企画"
+            ],
+            "pen_names": [
+                "山羊五条　他"
+            ],
+            "position": "C - 07",
+            "links": [
+                "http://youngkikaku.hatenablog.com/",
+                "https://twitter.com/yagigojyo"
+            ]
+        },
+        {
+            "aliases": [
+                "ＦＲＯＧ　ＦＯＯＴ"
+            ],
+            "pen_names": [
+                "かんぢぅ"
+            ],
+            "position": "C - 09",
+            "links": [
+                "https://twitter.com/kandyu_kilis"
+            ]
+        },
+        {
+            "aliases": [
+                "絶版少年"
+            ],
+            "pen_names": [
+                "ゼッパン"
+            ],
+            "position": "C - 11",
+            "links": [
+                "http://zeppann.sakura.ne.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "ハイドランジア"
+            ],
+            "pen_names": [
+                "小紫花"
+            ],
+            "position": "C - 15",
+            "links": [
+                "https://www.nicovideo.jp/user/13733329/mylist/37296589",
+                "https://twitter.com/oshi_87"
+            ]
+        },
+        {
+            "aliases": [
+                "MIG"
+            ],
+            "pen_names": [
+                "MIG"
+            ],
+            "position": "C - 17",
+            "links": [
+                "https://twitter.com/MoyashiGroove"
+            ]
+        },
+        {
+            "aliases": [
+                "タカオカミズキ"
+            ],
+            "pen_names": [
+                "タカオカミズキ"
+            ],
+            "position": "C - 19",
+            "links": [
+                "https://takaokamizuki.tumblr.com/",
+                "https://twitter.com/takaokamizuki"
+            ]
+        },
+        {
+            "aliases": [
+                "とっとっとー"
+            ],
+            "pen_names": [
+                "とーい、ねこみん"
+            ],
+            "position": "C - 23、24",
+            "links": [
+                "https://twitter.com/tako_toi"
+            ]
+        },
+        {
+            "aliases": [
+                "神戸顧問会"
+            ],
+            "pen_names": [
+                "顧問P"
+            ],
+            "position": "C - 25、26",
+            "links": [
+                "https://vassago2129.wixsite.com/website",
+                "https://twitter.com/YASUHIROFUJI"
+            ]
+        },
+        {
+            "aliases": [
+                "魔法堂☆羽つき"
+            ],
+            "pen_names": [
+                "叢月ミミノ"
+            ],
+            "position": "C - 29",
+            "links": [
+                "http://mahoudouhanetuki.web.fc2.com/",
+                "https://twitter.com/muratukimimino"
+            ]
+        },
+        {
+            "aliases": [
+                "うしろつみ"
+            ],
+            "pen_names": [
+                "ふつき"
+            ],
+            "position": "C - 31",
+            "links": [
+                "https://twitter.com/sap_futuki",
+                "https://twitter.com/sap_futuki"
+            ]
+        },
+        {
+            "aliases": [
+                "GOOD GRIEF RECORDS"
+            ],
+            "pen_names": [
+                "きゅおんママ"
+            ],
+            "position": "C - 33",
+            "links": [
+                "https://twitter.com/sound9th"
+            ]
+        },
+        {
+            "aliases": [
+                "childeyes + (有)岡林観光 広報部"
+            ],
+            "pen_names": [
+                "境ヶ原まるこ 岡林 w/o B.S.K."
+            ],
+            "position": "C - 35、36",
+            "links": [
+                "https://twitter.com/uuiu_onedifg"
+            ]
+        },
+        {
+            "aliases": [
+                "京のくりや"
+            ],
+            "pen_names": [
+                "kyomarron_li(京まろん)"
+            ],
+            "position": "C - 39、40",
+            "links": [
+                "https://sites.google.com/view/kyomarron-kyo-no-kuliya/home?read_current=1",
+                "https://twitter.com/kyomarron_li "
+            ]
+        },
+        {
+            "aliases": [
+                "優しい水槽"
+            ],
+            "pen_names": [
+                "鯰畝"
+            ],
+            "position": "D - 01",
+            "links": [
+                "https://twitter.com/namazuune"
+            ]
+        },
+        {
+            "aliases": [
+                "L3project"
+            ],
+            "pen_names": [
+                "れれれP"
+            ],
+            "position": "D - 03",
+            "links": [
+                "https://l3project.com/",
+                "https://twitter.com/lelelep"
+            ]
+        },
+        {
+            "aliases": [
+                "G.C.M Records"
+            ],
+            "pen_names": [
+                "アンメルツP"
+            ],
+            "position": "D - 05",
+            "links": [
+                "https://www.gcmstyle.com/",
+                "https://twitter.com/gcmstyle"
+            ]
+        },
+        {
+            "aliases": [
+                "ギンユーシジン"
+            ],
+            "pen_names": [
+                "冴戒椎也"
+            ],
+            "position": "D - 07",
+            "links": [
+                "https://ameblo.jp/shiiyasakai/",
+                "https://twitter.com/sakaishiiya"
+            ]
+        },
+        {
+            "aliases": [
+                "きいろ屋"
+            ],
+            "pen_names": [
+                "じゃんぼ@家族愛P"
+            ],
+            "position": "D - 09",
+            "links": [
+                "http://kazokuai-p.ldblog.jp/",
+                "https://twitter.com/jumbo256"
+            ]
+        },
+        {
+            "aliases": [
+                "礼拝堂医療歯科"
+            ],
+            "pen_names": [
+                "えのやま、灰田"
+            ],
+            "position": "D - 11",
+            "links": [
+                "https://slib.net/a/23484/",
+                "https://twitter.com/_chapel07"
+            ]
+        },
+        {
+            "aliases": [
+                "年長組コンピ製作委員会"
+            ],
+            "pen_names": [
+                "佐倉井朔夜"
+            ],
+            "position": "D - 13",
+            "links": [
+                "https://korundum-mkc.tumblr.com/",
+                "https://twitter.com/mk_compi"
+            ]
+        },
+        {
+            "aliases": [
+                "いるじゃん"
+            ],
+            "pen_names": [
+                "じゃん"
+            ],
+            "position": "D - 17",
+            "links": [
+                "https://www.youtube.com/channel/UChXBPXy2Xt4cPdvfcSfgqQg?view_as=subscriber",
+                "https://twitter.com/jan_shota"
+            ]
+        },
+        {
+            "aliases": [
+                "TreatHunters"
+            ],
+            "pen_names": [
+                "野中ハロウィン"
+            ],
+            "position": "D - 19",
+            "links": [
+                "https://twitter.com/jirai_bugtsune"
+            ]
+        },
+        {
+            "aliases": [
+                "そよかぜの倉庫"
+            ],
+            "pen_names": [
+                "そよかぜ(IrisP)"
+            ],
+            "position": "D - 20",
+            "links": [
+                "https://twitter.com/soyokaze_sktmb"
+            ]
+        },
+        {
+            "aliases": [
+                "夕日工房"
+            ],
+            "pen_names": [
+                "戸津れんず"
+            ],
+            "position": "D - 21",
+            "links": [
+                "https://www.nicovideo.jp/my/mylist/45859808?ref=pc_mypage_mylist",
+                "https://twitter.com/E_MA_3"
+            ]
+        },
+        {
+            "aliases": [
+                "WILD COLOR RECORDS"
+            ],
+            "pen_names": [
+                "ヘルＰ"
+            ],
+            "position": "D - 23、24",
+            "links": [
+                "https://www.nicovideo.jp/mylist/22039871",
+                "https://twitter.com/sukenoji1"
+            ]
+        },
+        {
+            "aliases": [
+                "うしお屋"
+            ],
+            "pen_names": [
+                "うしお"
+            ],
+            "position": "D - 25、26",
+            "links": [
+                "https://www.nicovideo.jp/user/39805725",
+                "https://twitter.com/szkioisu"
+            ]
+        },
+        {
+            "aliases": [
+                "みるくかふぇ"
+            ],
+            "pen_names": [
+                "みるくかふぇ"
+            ],
+            "position": "D - 27",
+            "links": [
+                "https://milkcafe.website/",
+                "https://twitter.com/hiroys_milkcafe"
+            ]
+        },
+        {
+            "aliases": [
+                "コウ × ノイ"
+            ],
+            "pen_names": [
+                "ノイ、コウ"
+            ],
+            "position": "D - 29、30",
+            "links": [
+                "https://www.youtube.com/channel/UC3GzkuHZNanJZQZml4Wte5A",
+                "https://twitter.com/n0yn0yn0y"
+            ]
+        },
+        {
+            "aliases": [
+                "お花屋さん"
+            ],
+            "pen_names": [
+                "カンパニュラ"
+            ],
+            "position": "E - 01"
+        },
+        {
+            "aliases": [
+                "一年中夏休み"
+            ],
+            "pen_names": [
+                "ナナツナツ"
+            ],
+            "position": "E - 03",
+            "links": [
+                "https://www.nicovideo.jp/user/34843985",
+                "https://twitter.com/72tyt"
+            ]
+        },
+        {
+            "aliases": [
+                "Studio Ark Attack"
+            ],
+            "pen_names": [
+                "ぼーかりおどP(noa)"
+            ],
+            "position": "E - 05",
+            "links": [
+                "https://twitter.com/vocaliod_p"
+            ]
+        },
+        {
+            "aliases": [
+                "神様うさぎ"
+            ],
+            "pen_names": [
+                "神様うさぎ"
+            ],
+            "position": "E - 07",
+            "links": [
+                "https://kamisamausagi.com/",
+                "https://twitter.com/osumanteikoku"
+            ]
+        },
+        {
+            "aliases": [
+                "ほうとうレコーズ（きしめん）"
+            ],
+            "pen_names": [
+                "Peg"
+            ],
+            "position": "E - 09",
+            "links": [
+                "https://twitter.com/peeeeg_444"
+            ]
+        },
+        {
+            "aliases": [
+                "東京MARCOPOLO〈トーキョー・マルコポロ〉"
+            ],
+            "pen_names": [
+                "ハジメ優"
+            ],
+            "position": "E - 11",
+            "links": [
+                "https://marcopolo-blog.com/",
+                "https://twitter.com/marcopolo_tokyo"
+            ]
+        },
+        {
+            "aliases": [
+                "Advanced Music products"
+            ],
+            "pen_names": [
+                "AM-p"
+            ],
+            "position": "E - 13",
+            "links": [
+                "https://amp4561701.wixsite.com/am-p",
+                "https://twitter.com/Ap36288136"
+            ]
+        },
+        {
+            "aliases": [
+                "alt.pop"
+            ],
+            "pen_names": [
+                "沢田凛"
+            ],
+            "position": "E - 15、16",
+            "links": [
+                "https://www.nicovideo.jp/user/1563595?ref=pc_mypage_top",
+                "https://twitter.com/sawadarling"
+            ]
+        },
+        {
+            "aliases": [
+                "lol project"
+            ],
+            "pen_names": [
+                "Transient Energy"
+            ],
+            "position": "E - 17",
+            "links": [
+                "http://lolproject.client.jp/",
+                "https://twitter.com/lolproject000"
+            ]
+        },
+        {
+            "aliases": [
+                "SCRUM"
+            ],
+            "pen_names": [
+                "BCNO"
+            ],
+            "position": "E - 19",
+            "links": [
+                "https://youtube.com/playlist?list=PL8O-SJ_gM65Kofg7c9aS_M8CKOo9bHmy-",
+                "https://twitter.com/scrum_20"
+            ]
+        },
+        {
+            "aliases": [
+                "Standing Chairs"
+            ],
+            "pen_names": [
+                "立椅子かんな"
+            ],
+            "position": "E - 20",
+            "links": [
+                "https://www.youtube.com/channel/UCffKiGkqNxZnsqdDmG7s8Hg",
+                "https://twitter.com/_qwer_tyu_"
+            ]
+        },
+        {
+            "aliases": [
+                "「溝端れこーず。」"
+            ],
+            "pen_names": [
+                "みーぞ"
+            ],
+            "position": "E - 31",
+            "links": [
+                "https://www.nicovideo.jp/mylist/25361574",
+                "https://twitter.com/miizo_001"
+            ]
+        },
+        {
+            "aliases": [
+                "タカダシ"
+            ],
+            "pen_names": [
+                "タカダシ"
+            ],
+            "position": "E - 33",
+            "links": [
+                "https://www.nicovideo.jp/series/173005",
+                "https://twitter.com/TKD_shi"
+            ]
+        },
+        {
+            "aliases": [
+                "Each Color"
+            ],
+            "pen_names": [
+                "kogane"
+            ],
+            "position": "E - 35、36",
+            "links": [
+                "https://kogane1068.wixsite.com/official",
+                "https://twitter.com/kogane_jackson"
+            ]
+        },
+        {
+            "aliases": [
+                "京大ボカロコンピ"
+            ],
+            "pen_names": [
+                "やや"
+            ],
+            "position": "E - 37",
+            "links": [
+                "https://c2bpro.wixsite.com/kuvcms",
+                "https://twitter.com/_yaya_st"
+            ]
+        },
+        {
+            "aliases": [
+                "同志社大学VOCALOID研究会Arpeggio"
+            ],
+            "pen_names": [
+                "宣教師"
+            ],
+            "position": "E - 39",
+            "links": [
+                "http://arpeggiod.web.fc2.com/",
+                "https://twitter.com/arpeggio_kouhou"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://x.com/voca_st/status/1348495452472135680",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20210624083117/http://voca-st.com/circlelist",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "3_20210204092210_top.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20210204092210/http://voca-st.com/index",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

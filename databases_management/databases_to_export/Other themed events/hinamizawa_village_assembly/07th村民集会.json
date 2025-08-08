@@ -1,0 +1,1632 @@
+{
+    "aliases": [
+        "07th村民集会",
+        "07th Sonmin Shuukai",
+        "07th Village Assembly"
+    ],
+    "dates": "2022.10.15",
+    "circles": [
+        {
+            "aliases": [
+                "07th Expansion × れもたろ"
+            ],
+            "position": "07th-01.02"
+        },
+        {
+            "aliases": [
+                "M.Graveyard ＆ Pomexgranate."
+            ],
+            "pen_names": [
+                "dai,xaki,本木咲黒"
+            ],
+            "position": "07th-03.04",
+            "links": [
+                "https://sound.jp/pomexgranate/mxgranate/"
+            ]
+        },
+        {
+            "aliases": [
+                "ジョルディーノ"
+            ],
+            "pen_names": [
+                "ジョル"
+            ],
+            "position": "07th-05",
+            "links": [
+                "https://joldeeno.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "23番市同胞互助組合"
+            ],
+            "pen_names": [
+                "こｔ"
+            ],
+            "position": "07th-06",
+            "links": [
+                "http://pastaparty.starfree.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "クリエイティブＡＨＣ"
+            ],
+            "pen_names": [
+                "あまおち総統"
+            ],
+            "position": "07th-07.08",
+            "links": [
+                "https://ahcahc.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "07thフラグメントワールド+cadenza:+空々組"
+            ],
+            "pen_names": [
+                "yuuhi.K/蒼葉叶音"
+            ],
+            "position": "07th-09.10",
+            "links": [
+                "https://twitter.com/07th_fragment_w"
+            ]
+        },
+        {
+            "aliases": [
+                "あんぷら屋"
+            ],
+            "pen_names": [
+                "葉住音矢"
+            ],
+            "position": "村-01",
+            "links": [
+                "https://anpuraya.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "RED RIBBON REVENGER"
+            ],
+            "pen_names": [
+                "魔公子"
+            ],
+            "position": "村-02",
+            "links": [
+                "https://portal.circle.ms/Circle/Index/10001812"
+            ]
+        },
+        {
+            "aliases": [
+                "迷宮シャッター"
+            ],
+            "pen_names": [
+                "春姉"
+            ],
+            "position": "村-03"
+        },
+        {
+            "aliases": [
+                "薄暮亭。"
+            ],
+            "pen_names": [
+                "壱音"
+            ],
+            "position": "村-04"
+        },
+        {
+            "aliases": [
+                "えいりあんず"
+            ],
+            "pen_names": [
+                "ましまろ"
+            ],
+            "position": "村-05",
+            "links": [
+                "https://mobile.twitter.com/msmrdaaaaa"
+            ]
+        },
+        {
+            "aliases": [
+                "べりべりおにぎり"
+            ],
+            "pen_names": [
+                "田中奏多"
+            ],
+            "position": "村-06",
+            "links": [
+                "https://twitter.com/tanakani39"
+            ]
+        },
+        {
+            "aliases": [
+                "ぽや部屋"
+            ],
+            "pen_names": [
+                "ぽやでびる"
+            ],
+            "position": "村-07"
+        },
+        {
+            "aliases": [
+                "たべっこどうぶつえん"
+            ],
+            "pen_names": [
+                "すずきとよたか"
+            ],
+            "position": "村-08"
+        },
+        {
+            "aliases": [
+                "merveilleux"
+            ],
+            "pen_names": [
+                "ミウ"
+            ],
+            "position": "村-09",
+            "links": [
+                "https://twitter.com/miurena07"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆきまる水産＆星屑Etranze"
+            ],
+            "pen_names": [
+                "ゆきまる＆あおたん"
+            ],
+            "position": "村-10"
+        },
+        {
+            "aliases": [
+                "はりぼう組"
+            ],
+            "pen_names": [
+                "はりぼうくる味"
+            ],
+            "position": "村-11",
+            "links": [
+                "https://twitter.com/kurumi_HRB93"
+            ]
+        },
+        {
+            "aliases": [
+                "ちぴちぴ菌"
+            ],
+            "pen_names": [
+                "ぴちんきー"
+            ],
+            "position": "村-12",
+            "links": [
+                "https://twitter.com/pichinki_"
+            ]
+        },
+        {
+            "aliases": [
+                "テテテッてる"
+            ],
+            "pen_names": [
+                "ぬあんちょ"
+            ],
+            "position": "村-13",
+            "links": [
+                "https://twitter.com/nuatyo"
+            ]
+        },
+        {
+            "aliases": [
+                "SUPER STAR"
+            ],
+            "pen_names": [
+                "あや"
+            ],
+            "position": "村-14",
+            "links": [
+                "https://www.pixiv.net/users/7380595/illustrations"
+            ]
+        },
+        {
+            "aliases": [
+                "いぐあなカレー。"
+            ],
+            "pen_names": [
+                "以下略"
+            ],
+            "position": "村-15"
+        },
+        {
+            "aliases": [
+                "溜池"
+            ],
+            "pen_names": [
+                "淳"
+            ],
+            "position": "村-16",
+            "links": [
+                "https://www.pixiv.net/users/9738068"
+            ]
+        },
+        {
+            "aliases": [
+                "Yuzu Kitty"
+            ],
+            "pen_names": [
+                "柚香&K・T"
+            ],
+            "position": "民-01"
+        },
+        {
+            "aliases": [
+                "白黒茶会"
+            ],
+            "pen_names": [
+                "柊りん"
+            ],
+            "position": "民-02",
+            "links": [
+                "https://twitter.com/RinLaurant"
+            ]
+        },
+        {
+            "aliases": [
+                "BlueKirk"
+            ],
+            "pen_names": [
+                "カーク"
+            ],
+            "position": "民-03",
+            "links": [
+                "https://bluekirk2021.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "ネギ日和"
+            ],
+            "pen_names": [
+                "ヤンス"
+            ],
+            "position": "民-04"
+        },
+        {
+            "aliases": [
+                "アステロイドブリッジ"
+            ],
+            "pen_names": [
+                "アーノ"
+            ],
+            "position": "民-05",
+            "links": [
+                "https://www.pixiv.net/users/4585593"
+            ]
+        },
+        {
+            "aliases": [
+                "あかいつき倉庫"
+            ],
+            "pen_names": [
+                "逢坂太郎"
+            ],
+            "position": "民-06",
+            "links": [
+                "https://1129ftms.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "森の館"
+            ],
+            "pen_names": [
+                "川沼K"
+            ],
+            "position": "民-07",
+            "links": [
+                "https://twitter.com/ONUMA_KUMA"
+            ]
+        },
+        {
+            "aliases": [
+                "サンベアー"
+            ],
+            "pen_names": [
+                "ひぐま"
+            ],
+            "position": "民-08"
+        },
+        {
+            "aliases": [
+                "Na+"
+            ],
+            "pen_names": [
+                "無酉　羽乃子"
+            ],
+            "position": "民-09",
+            "links": [
+                "https://lit.link/hanorium"
+            ]
+        },
+        {
+            "aliases": [
+                "たくあん屋"
+            ],
+            "pen_names": [
+                "よよかわろろろ"
+            ],
+            "position": "民-10",
+            "links": [
+                "https://twitter.com/yoyokawa_rororo"
+            ]
+        },
+        {
+            "aliases": [
+                "salty"
+            ],
+            "pen_names": [
+                "塩舌"
+            ],
+            "position": "民-11"
+        },
+        {
+            "aliases": [
+                "Alhena*"
+            ],
+            "pen_names": [
+                "アオノレナ"
+            ],
+            "position": "民-12"
+        },
+        {
+            "aliases": [
+                "常磐薫風"
+            ],
+            "pen_names": [
+                "かまめし"
+            ],
+            "position": "民-13",
+            "links": [
+                "https://www.pixiv.net/users/1406289"
+            ]
+        },
+        {
+            "aliases": [
+                "ましゅまろ本舗"
+            ],
+            "pen_names": [
+                "甘莉　ゆん"
+            ],
+            "position": "民-14"
+        },
+        {
+            "aliases": [
+                "縞猫"
+            ],
+            "pen_names": [
+                "ペロ"
+            ],
+            "position": "民-15"
+        },
+        {
+            "aliases": [
+                "売れて！黒梨花物販コーナー"
+            ],
+            "pen_names": [
+                "GAOU"
+            ],
+            "position": "民-16",
+            "links": [
+                "https://twitter.com/gaoubabel"
+            ]
+        },
+        {
+            "aliases": [
+                "思春棄"
+            ],
+            "pen_names": [
+                "すがる春"
+            ],
+            "position": "民-17",
+            "links": [
+                "https://twitter.com/kkzto_yun"
+            ]
+        },
+        {
+            "aliases": [
+                "ドMと塩対応"
+            ],
+            "pen_names": [
+                "銀の鶴　ひびき澪"
+            ],
+            "position": "民-18"
+        },
+        {
+            "aliases": [
+                "一品食堂"
+            ],
+            "pen_names": [
+                "ぎれん（47番目）"
+            ],
+            "position": "民-19",
+            "links": [
+                "https://takamr.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "自家製黒こげクロワッサン"
+            ],
+            "pen_names": [
+                "a-m"
+            ],
+            "position": "民-20"
+        },
+        {
+            "aliases": [
+                "惰ラリ性活あんど狛猫"
+            ],
+            "pen_names": [
+                "惰性ちゃん"
+            ],
+            "position": "集-01"
+        },
+        {
+            "aliases": [
+                "ミコナス・ガール♂"
+            ],
+            "pen_names": [
+                "みこ酢"
+            ],
+            "position": "集-02",
+            "links": [
+                "https://twitter.com/miconasu"
+            ]
+        },
+        {
+            "aliases": [
+                "ねこまんま亭"
+            ],
+            "pen_names": [
+                "猫山"
+            ],
+            "position": "集-03"
+        },
+        {
+            "aliases": [
+                "甘辛ビター"
+            ],
+            "pen_names": [
+                "瑠璃"
+            ],
+            "position": "集-04"
+        },
+        {
+            "aliases": [
+                "藤咲家"
+            ],
+            "pen_names": [
+                "えびはら睦稀"
+            ],
+            "position": "集-05",
+            "links": [
+                "https://mobile.twitter.com/p5vr_c_m"
+            ]
+        },
+        {
+            "aliases": [
+                "からあげうどん"
+            ],
+            "pen_names": [
+                "serico."
+            ],
+            "position": "集-06",
+            "links": [
+                "https://twitter.com/serico_"
+            ]
+        },
+        {
+            "aliases": [
+                "蕗のしたで眠る"
+            ],
+            "pen_names": [
+                "おやすみ水母"
+            ],
+            "position": "集-07"
+        },
+        {
+            "aliases": [
+                "もちむぎ屋"
+            ],
+            "pen_names": [
+                "とき"
+            ],
+            "position": "集-08"
+        },
+        {
+            "aliases": [
+                "GOL"
+            ],
+            "pen_names": [
+                "森野"
+            ],
+            "position": "集-09",
+            "links": [
+                "https://www.pixiv.net/users/323889"
+            ]
+        },
+        {
+            "aliases": [
+                "感謝兎"
+            ],
+            "pen_names": [
+                "宮田伊織"
+            ],
+            "position": "集-10"
+        },
+        {
+            "aliases": [
+                "レトロ‐懐古街‐"
+            ],
+            "pen_names": [
+                "ことん＆のぞむ"
+            ],
+            "position": "集-11",
+            "links": [
+                "https://retro-nzmctn.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "LIBERTAS"
+            ],
+            "pen_names": [
+                "夏目Anne"
+            ],
+            "position": "集-12"
+        },
+        {
+            "aliases": [
+                "Tea City"
+            ],
+            "pen_names": [
+                "SHIN"
+            ],
+            "position": "集-13"
+        },
+        {
+            "aliases": [
+                "信頼の置けない料理店"
+            ],
+            "pen_names": [
+                "トラスト"
+            ],
+            "position": "集-14"
+        },
+        {
+            "aliases": [
+                "もつにこみ"
+            ],
+            "pen_names": [
+                "もつなべ"
+            ],
+            "position": "集-15",
+            "links": [
+                "https://www.pixiv.net/users/14893400"
+            ]
+        },
+        {
+            "aliases": [
+                "さくたろレコード"
+            ],
+            "pen_names": [
+                "motton"
+            ],
+            "position": "集-16",
+            "links": [
+                "https://motton106.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "黒々"
+            ],
+            "pen_names": [
+                "荒木晃"
+            ],
+            "position": "集-17",
+            "links": [
+                "https://kuroguro9696.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "HYPER OYASHIRO Records"
+            ],
+            "pen_names": [
+                "djﾊﾆｭｯ❗️"
+            ],
+            "position": "集-18",
+            "links": [
+                "https://soundcloud.com/djhanyui"
+            ]
+        },
+        {
+            "aliases": [
+                "雛見沢ドール部"
+            ],
+            "pen_names": [
+                "かるで"
+            ],
+            "position": "集-19.20"
+        },
+        {
+            "aliases": [
+                "n3"
+            ],
+            "pen_names": [
+                "キリコ"
+            ],
+            "position": "会-02",
+            "links": [
+                "https://twitter.com/anguilla3"
+            ]
+        },
+        {
+            "aliases": [
+                "TinyArchange"
+            ],
+            "pen_names": [
+                "城雅"
+            ],
+            "position": "会-03.04"
+        },
+        {
+            "aliases": [
+                "六月灯"
+            ],
+            "pen_names": [
+                "六月"
+            ],
+            "position": "会-05"
+        },
+        {
+            "aliases": [
+                "Rosetta"
+            ],
+            "pen_names": [
+                "Luca"
+            ],
+            "position": "会-06",
+            "links": [
+                "https://lucarosetta.blog.fc2.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "Unicorn"
+            ],
+            "pen_names": [
+                "ゆにこ"
+            ],
+            "position": "会-07",
+            "links": [
+                "https://twitter.com/07yunikoday"
+            ]
+        },
+        {
+            "aliases": [
+                "Arcturus"
+            ],
+            "pen_names": [
+                "マグ山"
+            ],
+            "position": "会-08",
+            "links": [
+                "https://www.pixiv.net/users/1660177"
+            ]
+        },
+        {
+            "aliases": [
+                "にゃまろん"
+            ],
+            "pen_names": [
+                "はくあ"
+            ],
+            "position": "会-09"
+        },
+        {
+            "aliases": [
+                "あるふへいむでぃあ"
+            ],
+            "pen_names": [
+                "鹿"
+            ],
+            "position": "会-10",
+            "links": [
+                "https://www.pixiv.net/users/12705103"
+            ]
+        },
+        {
+            "aliases": [
+                "バケモノたちが嘯く頃に〜非公式アンソロジー企画〜"
+            ],
+            "pen_names": [
+                "すずふゆ"
+            ],
+            "position": "会-11",
+            "links": [
+                "https://twitter.com/monsters_cry_"
+            ]
+        },
+        {
+            "aliases": [
+                "黄金郷ペロクンカ騎士団"
+            ],
+            "pen_names": [
+                "なごみ＆なるぼし"
+            ],
+            "position": "会-12"
+        },
+        {
+            "aliases": [
+                "ネガパラスライム"
+            ],
+            "pen_names": [
+                "栗柚くりゅー/たんか"
+            ],
+            "position": "会-13.14",
+            "links": [
+                "https://slpro.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "Arcturus"
+            ],
+            "pen_names": [
+                "マグ山"
+            ],
+            "position": "会-08",
+            "links": [
+                "https://www.pixiv.net/users/1660177"
+            ]
+        },
+        {
+            "aliases": [
+                "あかいつき倉庫"
+            ],
+            "pen_names": [
+                "逢坂太郎"
+            ],
+            "position": "民-06",
+            "links": [
+                "https://1129ftms.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "アステロイドブリッジ"
+            ],
+            "pen_names": [
+                "アーノ"
+            ],
+            "position": "民-05",
+            "links": [
+                "https://www.pixiv.net/users/4585593"
+            ]
+        },
+        {
+            "aliases": [
+                "甘辛ビター"
+            ],
+            "pen_names": [
+                "瑠璃"
+            ],
+            "position": "集-04"
+        },
+        {
+            "aliases": [
+                "あるふへいむでぃあ"
+            ],
+            "pen_names": [
+                "鹿"
+            ],
+            "position": "会-10",
+            "links": [
+                "https://www.pixiv.net/users/12705103"
+            ]
+        },
+        {
+            "aliases": [
+                "Alhena*"
+            ],
+            "pen_names": [
+                "アオノレナ"
+            ],
+            "position": "民-12"
+        },
+        {
+            "aliases": [
+                "あんぷら屋"
+            ],
+            "pen_names": [
+                "葉住音矢"
+            ],
+            "position": "村-01",
+            "links": [
+                "https://anpuraya.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "いぐあなカレー。"
+            ],
+            "pen_names": [
+                "以下略"
+            ],
+            "position": "村-15"
+        },
+        {
+            "aliases": [
+                "一品食堂"
+            ],
+            "pen_names": [
+                "ぎれん（47番目）"
+            ],
+            "position": "民-19",
+            "links": [
+                "https://takamr.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "売れて！黒梨花物販コーナー"
+            ],
+            "pen_names": [
+                "GAOU"
+            ],
+            "position": "民-16",
+            "links": [
+                "https://twitter.com/gaoubabel"
+            ]
+        },
+        {
+            "aliases": [
+                "えいりあんず"
+            ],
+            "pen_names": [
+                "ましまろ"
+            ],
+            "position": "村-05",
+            "links": [
+                "https://mobile.twitter.com/msmrdaaaaa"
+            ]
+        },
+        {
+            "aliases": [
+                "n3"
+            ],
+            "pen_names": [
+                "キリコ"
+            ],
+            "position": "会-02",
+            "links": [
+                "https://twitter.com/anguilla3"
+            ]
+        },
+        {
+            "aliases": [
+                "M.Graveyard ＆ Pomexgranate."
+            ],
+            "pen_names": [
+                "dai,xaki,本木咲黒"
+            ],
+            "position": "07th-03.04",
+            "links": [
+                "https://sound.jp/pomexgranate/mxgranate/"
+            ]
+        },
+        {
+            "aliases": [
+                "黄金郷ペロクンカ騎士団"
+            ],
+            "pen_names": [
+                "なごみ＆なるぼし"
+            ],
+            "position": "会-12"
+        },
+        {
+            "aliases": [
+                "からあげうどん"
+            ],
+            "pen_names": [
+                "serico."
+            ],
+            "position": "集-06",
+            "links": [
+                "https://twitter.com/serico_"
+            ]
+        },
+        {
+            "aliases": [
+                "感謝兎"
+            ],
+            "pen_names": [
+                "宮田伊織"
+            ],
+            "position": "集-10"
+        },
+        {
+            "aliases": [
+                "クリエイティブＡＨＣ"
+            ],
+            "pen_names": [
+                "あまおち総統"
+            ],
+            "position": "07th-7.8",
+            "links": [
+                "https://ahcahc.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "黒々"
+            ],
+            "pen_names": [
+                "荒木晃"
+            ],
+            "position": "集-17",
+            "links": [
+                "https://kuroguro9696.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "さくたろレコード"
+            ],
+            "pen_names": [
+                "motton"
+            ],
+            "position": "集-16",
+            "links": [
+                "https://motton106.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "サンベアー"
+            ],
+            "pen_names": [
+                "ひぐま"
+            ],
+            "position": "民-08"
+        },
+        {
+            "aliases": [
+                "GOL"
+            ],
+            "pen_names": [
+                "森野"
+            ],
+            "position": "集-09",
+            "links": [
+                "https://www.pixiv.net/users/323889"
+            ]
+        },
+        {
+            "aliases": [
+                "自家製黒こげクロワッサン"
+            ],
+            "pen_names": [
+                "a-m"
+            ],
+            "position": "民-20"
+        },
+        {
+            "aliases": [
+                "思春棄"
+            ],
+            "pen_names": [
+                "すがる春"
+            ],
+            "position": "民-17",
+            "links": [
+                "https://twitter.com/kkzto_yun"
+            ]
+        },
+        {
+            "aliases": [
+                "縞猫"
+            ],
+            "pen_names": [
+                "ペロ"
+            ],
+            "position": "民-15"
+        },
+        {
+            "aliases": [
+                "ジョルディーノ"
+            ],
+            "pen_names": [
+                "ジョル"
+            ],
+            "position": "07th-05",
+            "links": [
+                "https://joldeeno.com/"
+            ]
+        },
+        {
+            "aliases": [
+                "信頼の置けない料理店"
+            ],
+            "pen_names": [
+                "トラスト"
+            ],
+            "position": "集-14"
+        },
+        {
+            "aliases": [
+                "SUPER STAR"
+            ],
+            "pen_names": [
+                "あや"
+            ],
+            "position": "村-14",
+            "links": [
+                "https://www.pixiv.net/users/7380595/illustrations"
+            ]
+        },
+        {
+            "aliases": [
+                "07th Expansion × れもたろ"
+            ],
+            "position": "07th-01.02"
+        },
+        {
+            "aliases": [
+                "07thフラグメントワールド+cadenza:+空々組"
+            ],
+            "pen_names": [
+                "yuuhi.K/蒼葉叶音"
+            ],
+            "position": "07th-09.10",
+            "links": [
+                "https://twitter.com/07th_fragment_w"
+            ]
+        },
+        {
+            "aliases": [
+                "salty"
+            ],
+            "pen_names": [
+                "塩舌"
+            ],
+            "position": "民-11"
+        },
+        {
+            "aliases": [
+                "TinyArchange"
+            ],
+            "pen_names": [
+                "城雅"
+            ],
+            "position": "会-03.04"
+        },
+        {
+            "aliases": [
+                "たくあん屋"
+            ],
+            "pen_names": [
+                "よよかわろろろ"
+            ],
+            "position": "民-10",
+            "links": [
+                "https://twitter.com/yoyokawa_rororo"
+            ]
+        },
+        {
+            "aliases": [
+                "たべっこどうぶつえん"
+            ],
+            "pen_names": [
+                "すずきとよたか"
+            ],
+            "position": "村-08"
+        },
+        {
+            "aliases": [
+                "溜池"
+            ],
+            "pen_names": [
+                "淳"
+            ],
+            "position": "村-16",
+            "links": [
+                "https://www.pixiv.net/users/9738068"
+            ]
+        },
+        {
+            "aliases": [
+                "惰ラリ性活あんど狛猫"
+            ],
+            "pen_names": [
+                "惰性ちゃん"
+            ],
+            "position": "集-01"
+        },
+        {
+            "aliases": [
+                "ちぴちぴ菌"
+            ],
+            "pen_names": [
+                "ぴちんきー"
+            ],
+            "position": "村-12",
+            "links": [
+                "https://twitter.com/pichinki_"
+            ]
+        },
+        {
+            "aliases": [
+                "Tea City"
+            ],
+            "pen_names": [
+                "SHIN"
+            ],
+            "position": "集-13"
+        },
+        {
+            "aliases": [
+                "テテテッてる"
+            ],
+            "pen_names": [
+                "ぬあんちょ"
+            ],
+            "position": "村-13",
+            "links": [
+                "https://twitter.com/nuatyo"
+            ]
+        },
+        {
+            "aliases": [
+                "ドMと塩対応"
+            ],
+            "pen_names": [
+                "銀の鶴　ひびき澪"
+            ],
+            "position": "民-18"
+        },
+        {
+            "aliases": [
+                "常磐薫風"
+            ],
+            "pen_names": [
+                "かまめし"
+            ],
+            "position": "民-13",
+            "links": [
+                "https://www.pixiv.net/users/1406289"
+            ]
+        },
+        {
+            "aliases": [
+                "Na+"
+            ],
+            "pen_names": [
+                "無酉　羽乃子"
+            ],
+            "position": "民-09",
+            "links": [
+                "https://lit.link/hanorium"
+            ]
+        },
+        {
+            "aliases": [
+                "23番市同胞互助組合"
+            ],
+            "pen_names": [
+                "こｔ"
+            ],
+            "position": "07th-06",
+            "links": [
+                "http://pastaparty.starfree.jp/"
+            ]
+        },
+        {
+            "aliases": [
+                "にゃまろん"
+            ],
+            "pen_names": [
+                "はくあ"
+            ],
+            "position": "会-09"
+        },
+        {
+            "aliases": [
+                "ネガパラスライム"
+            ],
+            "pen_names": [
+                "栗柚くりゅー/たんか"
+            ],
+            "position": "会-13.14",
+            "links": [
+                "https://slpro.net/"
+            ]
+        },
+        {
+            "aliases": [
+                "ネギ日和"
+            ],
+            "pen_names": [
+                "ヤンス"
+            ],
+            "position": "民-04"
+        },
+        {
+            "aliases": [
+                "ねこまんま亭"
+            ],
+            "pen_names": [
+                "猫山"
+            ],
+            "position": "集-03"
+        },
+        {
+            "aliases": [
+                "HYPER OYASHIRO Records"
+            ],
+            "pen_names": [
+                "djﾊﾆｭｯ❗️"
+            ],
+            "position": "集-18",
+            "links": [
+                "https://soundcloud.com/djhanyui"
+            ]
+        },
+        {
+            "aliases": [
+                "薄暮亭。"
+            ],
+            "pen_names": [
+                "壱音"
+            ],
+            "position": "村-04"
+        },
+        {
+            "aliases": [
+                "バケモノたちが嘯く頃に〜非公式アンソロジー企画〜"
+            ],
+            "pen_names": [
+                "すずふゆ"
+            ],
+            "position": "会-11",
+            "links": [
+                "https://twitter.com/monsters_cry_"
+            ]
+        },
+        {
+            "aliases": [
+                "はりぼう組"
+            ],
+            "pen_names": [
+                "はりぼうくる味"
+            ],
+            "position": "村-11",
+            "links": [
+                "https://twitter.com/kurumi_HRB93"
+            ]
+        },
+        {
+            "aliases": [
+                "雛見沢ドール部"
+            ],
+            "pen_names": [
+                "かるで"
+            ],
+            "position": "集-19.20"
+        },
+        {
+            "aliases": [
+                "蕗のしたで眠る"
+            ],
+            "pen_names": [
+                "おやすみ水母"
+            ],
+            "position": "集-07"
+        },
+        {
+            "aliases": [
+                "藤咲家"
+            ],
+            "pen_names": [
+                "えびはら睦稀"
+            ],
+            "position": "集-05",
+            "links": [
+                "https://mobile.twitter.com/p5vr_c_m"
+            ]
+        },
+        {
+            "aliases": [
+                "BlueKirk"
+            ],
+            "pen_names": [
+                "カーク"
+            ],
+            "position": "民-03",
+            "links": [
+                "https://bluekirk2021.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "べりべりおにぎり"
+            ],
+            "pen_names": [
+                "田中奏多"
+            ],
+            "position": "村-06",
+            "links": [
+                "https://twitter.com/tanakani39"
+            ]
+        },
+        {
+            "aliases": [
+                "ぽや部屋"
+            ],
+            "pen_names": [
+                "ぽやでびる"
+            ],
+            "position": "村-07"
+        },
+        {
+            "aliases": [
+                "ましゅまろ本舗"
+            ],
+            "pen_names": [
+                "甘莉　ゆん"
+            ],
+            "position": "民-14"
+        },
+        {
+            "aliases": [
+                "ミコナス・ガール♂"
+            ],
+            "pen_names": [
+                "みこ酢"
+            ],
+            "position": "集-02",
+            "links": [
+                "https://twitter.com/miconasu"
+            ]
+        },
+        {
+            "aliases": [
+                "迷宮シャッター"
+            ],
+            "pen_names": [
+                "春姉"
+            ],
+            "position": "村-03"
+        },
+        {
+            "aliases": [
+                "merveilleux"
+            ],
+            "pen_names": [
+                "ミウ"
+            ],
+            "position": "村-09",
+            "links": [
+                "https://twitter.com/miurena07"
+            ]
+        },
+        {
+            "aliases": [
+                "もちむぎ屋"
+            ],
+            "pen_names": [
+                "とき"
+            ],
+            "position": "集-08"
+        },
+        {
+            "aliases": [
+                "もつにこみ"
+            ],
+            "pen_names": [
+                "もつなべ"
+            ],
+            "position": "集-15",
+            "links": [
+                "https://www.pixiv.net/users/14893400"
+            ]
+        },
+        {
+            "aliases": [
+                "白黒茶会"
+            ],
+            "pen_names": [
+                "柊りん"
+            ],
+            "position": "民-02",
+            "links": [
+                "https://twitter.com/RinLaurant"
+            ]
+        },
+        {
+            "aliases": [
+                "森の館"
+            ],
+            "pen_names": [
+                "川沼K"
+            ],
+            "position": "民-07",
+            "links": [
+                "https://twitter.com/ONUMA_KUMA"
+            ]
+        },
+        {
+            "aliases": [
+                "ゆきまる水産＆星屑Etranze"
+            ],
+            "pen_names": [
+                "ゆきまる＆あおたん"
+            ],
+            "position": "村-10"
+        },
+        {
+            "aliases": [
+                "Yuzu Kitty"
+            ],
+            "pen_names": [
+                "柚香&K・T"
+            ],
+            "position": "民-01"
+        },
+        {
+            "aliases": [
+                "Unicorn"
+            ],
+            "pen_names": [
+                "ゆにこ"
+            ],
+            "position": "会-07",
+            "links": [
+                "https://twitter.com/07yunikoday"
+            ]
+        },
+        {
+            "aliases": [
+                "LIBERTAS"
+            ],
+            "pen_names": [
+                "夏目Anne"
+            ],
+            "position": "集-12"
+        },
+        {
+            "aliases": [
+                "RED RIBBON REVENGER"
+            ],
+            "pen_names": [
+                "魔公子"
+            ],
+            "position": "村-02",
+            "links": [
+                "https://portal.circle.ms/Circle/Index/10001812"
+            ]
+        },
+        {
+            "aliases": [
+                "レトロ‐懐古街‐"
+            ],
+            "pen_names": [
+                "ことん＆のぞむ"
+            ],
+            "position": "集-11",
+            "links": [
+                "https://retro-nzmctn.booth.pm/"
+            ]
+        },
+        {
+            "aliases": [
+                "六月灯"
+            ],
+            "pen_names": [
+                "六月"
+            ],
+            "position": "会-05"
+        },
+        {
+            "aliases": [
+                "Rosetta"
+            ],
+            "pen_names": [
+                "Luca"
+            ],
+            "position": "会-06",
+            "links": [
+                "https://lucarosetta.blog.fc2.com/"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20221014131910/http://mattari-an.net/shu-kai/",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20220906024521/https://mattari-an.net/shu-kai/list.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "7th_20221014131910_paper.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20221014131910/http://mattari-an.net/shu-kai/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "7th_20220906024521_titlelogo.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20220315133237/https://mattari-an.net/shu-kai/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "7th_Gousotsu_another_end_cover.webp",
+            "sources": [
+                {
+                    "source": "https://07th-expansion.fandom.com/wiki/Hinamizawa_Village_Assembly",
+                    "type": [
+                        "Likely",
+                        "External"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "7th_Fe4eeiEUAAIi6qJ.jpg",
+            "sources": [
+                {
+                    "source": "https://x.com/Villagerrally/status/1580234369783824385",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "7_20221014131850_circleguid.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20221014131850/https://mattari-an.net/shu-kai/circleguid.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "comments": "20th anniversary of 7th Expansion, linked here: https://web.archive.org/web/20221008021911/https://07th-expansion.net/event/07thdaienkai/.\nMisc: https://07thpublicbath.web.fc2.com/\nMisc: https://07th-expansion.net/event/07thdaienkai/",
+    "description": "20th anniversary of 7th Expansion, see comments below."
+}

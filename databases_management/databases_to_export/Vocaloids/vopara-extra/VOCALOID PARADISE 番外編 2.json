@@ -1,0 +1,43 @@
+{
+    "aliases": [
+        "VOCALOID PARADISE 番外編 2",
+        "ボーパラ番外編2",
+        "VOCALOID PARADISE ExtraEdition 2"
+    ],
+    "dates": "2013.06.23",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20130220172703/http://ttc.ninja-web.net/vo-para/index.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "extra2_20130220172703_banner.gif",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130220172703/http://ttc.ninja-web.net/vo-para/index.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "extra2_20130220172703_vo-para_ex02.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20130220172703/http://ttc.ninja-web.net/vo-para/index.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

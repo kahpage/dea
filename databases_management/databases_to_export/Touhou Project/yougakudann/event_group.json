@@ -1,0 +1,124 @@
+{
+    "aliases": [
+        "幺樂団カァニバル！",
+        "yougakudann"
+    ],
+    "sources": [
+        {
+            "source": "alias \"yougakudann\", from url of official blog https://yougakudann.dojin.com/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "banner1_banneryuka.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20100805061627/http://yougakudann.onlyevent.info/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "banner2_bannershin.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20100805061627/http://yougakudann.onlyevent.info/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        "https://yougakudann.dojin.com/",
+        "https://yougakudan.blogspot.com",
+        "https://x.com/yougakudan_info"
+    ],
+    "comments": "TODO: * Find original '1_609.jpg' (from touhoudb.com)\n- Try 'http://web.archive.org/web/20160129115656/http://yougakudan.blogspot.jp/2013/03/blog-post_26.html' with 26 variying, to find list of participant for 4th\n- Verify if 10th was cancelled (reason why 10R)\n- Find participating circles for 1st, 4th, 6th and 10R\n- Find possible alternative covers like 1st and 2nd (by browsing all archived for the site)\n- Complete 6th, perhaps start with [that](https://touhou.arrangement-chronicle.com/event/series/%E5%B9%BA%E6%A8%82%E5%9B%A3%E3%82%AB%E3%82%A1%E3%83%8B%E3%83%90%E3%83%AB%EF%BC%81/%E5%B9%BA%E6%A8%82%E5%9B%A3%E3%82%AB%E3%82%A1%E3%83%8B%E3%83%90%E3%83%AB%EF%BC%816/arrange_songs)",
+    "events": {
+        "幺樂団カァニバル！1": {
+            "index": 0,
+            "dates": "2010.09.05",
+            "circle_count": 81
+        },
+        "幺樂団カァニバル！2": {
+            "index": 1,
+            "dates": "2011.05.22",
+            "circle_count": 72
+        },
+        "幺樂団カァニバル！3": {
+            "index": 2,
+            "dates": "2012.05.06",
+            "circle_count": 80
+        },
+        "幺樂団カァニバル！4": {
+            "index": 3,
+            "dates": "2013.04.21",
+            "circle_count": null
+        },
+        "幺樂団カァニバル！5": {
+            "index": 4,
+            "dates": "2014.09.14",
+            "circle_count": 39
+        },
+        "幺樂団カァニバル！6": {
+            "index": 5,
+            "dates": "2016.11.12",
+            "circle_count": null
+        },
+        "幺樂団カァニバル！7": {
+            "index": 6,
+            "dates": "2017.11.11",
+            "circle_count": 54
+        },
+        "幺樂団カァニバル！8": {
+            "index": 7,
+            "dates": "2018.09.22",
+            "circle_count": 59
+        },
+        "幺樂団カァニバル！9": {
+            "index": 8,
+            "dates": "2019.09.22",
+            "circle_count": 96
+        },
+        "幺樂団カァニバル！10": {
+            "index": 9,
+            "dates": "2020.09.26",
+            "circle_count": 29
+        },
+        "幺樂団カァニバル！10R": {
+            "index": 10,
+            "dates": "2021.02.27 CANCELLED",
+            "circle_count": null
+        },
+        "幺樂団カァニバル！11": {
+            "index": 11,
+            "dates": "2022.03.27",
+            "circle_count": 36
+        },
+        "幺樂団カァニバル！12": {
+            "index": 12,
+            "dates": "2023.07.09",
+            "circle_count": 36
+        },
+        "幺樂団カァニバル！13": {
+            "index": 13,
+            "dates": "2024.07.15",
+            "circle_count": 60
+        },
+        "幺樂団カァニバル！14": {
+            "index": 14,
+            "dates": "2025.06.29",
+            "circle_count": 54
+        }
+    }
+}

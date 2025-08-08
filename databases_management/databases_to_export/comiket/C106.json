@@ -1,0 +1,95 @@
+{
+    "aliases": [
+        "C106",
+        "コミックマーケット106",
+        "Comiket 106",
+        "Comic Market 106"
+    ],
+    "dates": "2025.08.16 - 2025.08-17",
+    "sources": [
+        {
+            "source": "Date: https://www.comiket.co.jp/info-a/CatalogShop.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "106_CWC_C106L.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250726082151/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "106_CWC_C106.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250726082151/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "106_C106CtlgWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250716040318/https://comiket.co.jp/info-a/C106/C106distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：Anmi（サークル：メガネ女子） ２日目南ａ43ab"
+        },
+        {
+            "path": "106_C106Kamibukuro.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250716040318/https://comiket.co.jp/info-a/C106/C106distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "ラスト：ideolo（サークル：NEKO WORLDi) 　１日目西め60ab"
+        },
+        {
+            "path": "https://web.archive.org/web/20250409184101/https://www.comiket.co.jp/info-c/C106/C106Appset.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250716040318/https://comiket.co.jp/info-a/C106/C106distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙イラスト：ぴこぴこぐらむ（サ・踉札�襦Д廛薀船覆④里魁�  ２日目東ア83ab"
+        },
+        {
+            "path": "https://www.comiket.co.jp/info-a/C106/C106CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://www.comiket.co.jp/info-a/C106/C106CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

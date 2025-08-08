@@ -1,0 +1,478 @@
+{
+    "aliases": [
+        "雛見沢村民集会in白川郷",
+        "Hinamizawa Village Assembly in Shirakawa-gou"
+    ],
+    "dates": "2025.06.22",
+    "circles": [
+        {
+            "aliases": [
+                "07th Expansion"
+            ],
+            "position": "騎士",
+            "links": [
+                "HP: https://07th-expansion.net",
+                "X: https://x.com/07th_official"
+            ]
+        },
+        {
+            "aliases": [
+                "REMOLABO"
+            ],
+            "position": "騎士",
+            "links": [
+                "HP: https://remotaro8.wixsite.com/remotaro",
+                "X: https://x.com/remotaro"
+            ]
+        },
+        {
+            "aliases": [
+                "Pomexgranate. & M.Graveyard"
+            ],
+            "position": "騎士",
+            "links": [
+                "HP: https://xakiksakita.wixsite.com/mxgranate"
+            ]
+        },
+        {
+            "aliases": [
+                "STRIKE HOLE"
+            ],
+            "pen_names": [
+                "花羅"
+            ],
+            "position": "風01",
+            "links": [
+                "HP: https://strikehole.blog.jp/",
+                "X: https://x.com/hanara_striker"
+            ]
+        },
+        {
+            "aliases": [
+                "07th MASQUERADE運営委員会"
+            ],
+            "pen_names": [
+                "宮田伊織"
+            ],
+            "position": "風02",
+            "links": [
+                "X: https://x.com/07thonly"
+            ]
+        },
+        {
+            "aliases": [
+                "さくたろレコード"
+            ],
+            "pen_names": [
+                "motton"
+            ],
+            "position": "風03",
+            "links": [
+                "X: https://x.com/motton106"
+            ]
+        },
+        {
+            "aliases": [
+                "三度の飯よりレナが好き"
+            ],
+            "pen_names": [
+                "レ鉈リアン"
+            ],
+            "position": "風04",
+            "links": [
+                "X: https://x.com/Lenatalion2"
+            ]
+        },
+        {
+            "aliases": [
+                "古手大神宮"
+            ],
+            "pen_names": [
+                "高橋御山人"
+            ],
+            "position": "風05",
+            "links": [
+                "HP: http://www.jyashin.net/",
+                "X: https://x.com/gosanjin_euau "
+            ]
+        },
+        {
+            "aliases": [
+                "塩味印"
+            ],
+            "pen_names": [
+                "塩味"
+            ],
+            "position": "風06",
+            "links": [
+                "X: https://x.com/Shiomi00"
+            ]
+        },
+        {
+            "aliases": [
+                "ぴぐの森"
+            ],
+            "pen_names": [
+                "森田ぴぐ"
+            ],
+            "position": "風07",
+            "links": [
+                "HP: https://mrpg.booth.pm/",
+                "X: https://x.com/mrpg_0824"
+            ]
+        },
+        {
+            "aliases": [
+                "青春18金魚"
+            ],
+            "pen_names": [
+                "クラ"
+            ],
+            "position": "風08",
+            "links": [
+                "HP: http://www.18kingyo.com/",
+                "X: https://x.com/kura_kingyo"
+            ]
+        },
+        {
+            "aliases": [
+                "白黒茶会"
+            ],
+            "pen_names": [
+                "柊りん"
+            ],
+            "position": "林01",
+            "links": [
+                "HP: https://rinlaurant.booth.pm/",
+                "Pixiv: https://www.pixiv.net/users/1291505",
+                "X: https://x.com/RinLaurant"
+            ]
+        },
+        {
+            "aliases": [
+                "からあげうどん"
+            ],
+            "pen_names": [
+                "serico."
+            ],
+            "position": "林02",
+            "links": [
+                "Pixiv: https://www.pixiv.net/users/201895",
+                "X: https://x.com/serico_"
+            ]
+        },
+        {
+            "aliases": [
+                "情熱38度5分"
+            ],
+            "pen_names": [
+                "しのみえ ずも"
+            ],
+            "position": "林03",
+            "links": [
+                "X: https://x.com/shinomie_zumo"
+            ]
+        },
+        {
+            "aliases": [
+                "狼森のソラ"
+            ],
+            "pen_names": [
+                "狼森"
+            ],
+            "position": "林04",
+            "links": [
+                "Pixiv: https://www.pixiv.net/users/9529117",
+                "X: https://x.com/oinomori_sora"
+            ]
+        },
+        {
+            "aliases": [
+                "信頼の置けない料理店"
+            ],
+            "pen_names": [
+                "トラスト"
+            ],
+            "position": "林05",
+            "links": [
+                "X: https://x.com/trst0031"
+            ]
+        },
+        {
+            "aliases": [
+                "マンモス校購買部"
+            ],
+            "pen_names": [
+                "脱兎"
+            ],
+            "position": "林06",
+            "links": [
+                "HP: https://poipiku.com/4440308/",
+                "X: https://x.com/skif_dat"
+            ]
+        },
+        {
+            "aliases": [
+                "いんぐりもんぐり科"
+            ],
+            "pen_names": [
+                "感染者もどき"
+            ],
+            "position": "林07"
+        },
+        {
+            "aliases": [
+                "サンベアー"
+            ],
+            "pen_names": [
+                "ひぐま"
+            ],
+            "position": "火01",
+            "links": [
+                "X: https://x.com/higu_ma3105"
+            ]
+        },
+        {
+            "aliases": [
+                "にやね屋"
+            ],
+            "pen_names": [
+                "にゃね"
+            ],
+            "position": "火02",
+            "links": [
+                "X: https://x.com/niyane"
+            ]
+        },
+        {
+            "aliases": [
+                "きれいなおはぎ組"
+            ],
+            "pen_names": [
+                "L3"
+            ],
+            "position": "火03",
+            "links": [
+                "X: https://x.com/L3_LEVEL3"
+            ]
+        },
+        {
+            "aliases": [
+                "いぐあなカレー。"
+            ],
+            "pen_names": [
+                "以下略"
+            ],
+            "position": "火04",
+            "links": [
+                "X: https://x.com/maika_82"
+            ]
+        },
+        {
+            "aliases": [
+                "BlueKirk"
+            ],
+            "pen_names": [
+                "カーク"
+            ],
+            "position": "火05",
+            "links": [
+                "Pixiv: https://www.pixiv.net/users/532505",
+                "X: https://x.com/kakutaro09"
+            ]
+        },
+        {
+            "aliases": [
+                "脳汁デブリ"
+            ],
+            "pen_names": [
+                "愚者愚者"
+            ],
+            "position": "火06",
+            "links": [
+                "Pixiv: https://www.pixiv.net/users/44317357",
+                "X: https://x.com/gushagusha5"
+            ]
+        },
+        {
+            "aliases": [
+                "そけっと＆白瀬宗也"
+            ],
+            "pen_names": [
+                "白瀬宗也"
+            ],
+            "position": "火07",
+            "links": [
+                "X: https://x.com/sirase_souya"
+            ]
+        },
+        {
+            "aliases": [
+                "RED RIBBON REVENGER"
+            ],
+            "pen_names": [
+                "魔公子"
+            ],
+            "position": "山01",
+            "links": [
+                "HP: https://portal.circle.ms/Circle/Index/10001812",
+                "Pixiv: https://www.pixiv.net/users/284757",
+                "X: https://x.com/makoushi"
+            ]
+        },
+        {
+            "aliases": [
+                "あきすぺーす@荻町下ゴソ店"
+            ],
+            "pen_names": [
+                "安芸しょうや"
+            ],
+            "position": "山02",
+            "links": [
+                "Pixiv: https://www.pixiv.net/users/3765551",
+                "X: https://x.com/pb19AJBKqFVHzrK"
+            ]
+        },
+        {
+            "aliases": [
+                "★☆雲雀☆★"
+            ],
+            "pen_names": [
+                "裕貴美"
+            ],
+            "position": "山03",
+            "links": [
+                "Pixiv: https://www.pixiv.net/users/567985",
+                "X: https://x.com/yukimi1019"
+            ]
+        },
+        {
+            "aliases": [
+                "コロコロ転がる"
+            ],
+            "pen_names": [
+                "海内圭"
+            ],
+            "position": "山04",
+            "links": [
+                "HP: https://lit.link/umiuchihouse",
+                "Pixiv: https://www.pixiv.net/users/57107515",
+                "X: https://x.com/u_umiuchi"
+            ]
+        },
+        {
+            "aliases": [
+                "salty"
+            ],
+            "pen_names": [
+                "塩舌"
+            ],
+            "position": "山05",
+            "links": [
+                "X: https://x.com/shiotan0917"
+            ]
+        },
+        {
+            "aliases": [
+                "金米糖工房"
+            ],
+            "pen_names": [
+                "麻璃音"
+            ],
+            "position": "山06",
+            "links": [
+                "X: https://x.com/confeitokobo"
+            ]
+        },
+        {
+            "aliases": [
+                "さとうのまえ"
+            ],
+            "pen_names": [
+                "翠月みりん"
+            ],
+            "position": "山07",
+            "links": [
+                "X: https://x.com/@mrk_8080"
+            ]
+        },
+        {
+            "aliases": [
+                "無限大"
+            ],
+            "pen_names": [
+                "りさ∞"
+            ],
+            "position": "山08",
+            "links": [
+                "X: https://x.com/uw8takkun0621"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20250521174133/https://mattari-an.net/shu-kai/",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/2/https://mattari-an.net/shu-kai/list.html",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "gou_20250521174133_paper.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250521174133/https://mattari-an.net/shu-kai/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "gou_20250521174133_titlelogo.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250521174133/https://mattari-an.net/shu-kai/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "gou_Hinamizawa_Doujinshi_Convention_cover.webp",
+            "sources": [
+                {
+                    "source": "https://07th-expansion.fandom.com/wiki/Hinamizawa_Village_Assembly",
+                    "type": [
+                        "Likely",
+                        "External"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "gou_1500x500.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250628093254/https://pbs.twimg.com/profile_banners/1337735537046646787/1750460093/1500x500",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

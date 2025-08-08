@@ -1,0 +1,2749 @@
+{
+    "aliases": [
+        "M3-18",
+        "M3-2006秋"
+    ],
+    "dates": "2006.10.09",
+    "circles": [
+        {
+            "aliases": [
+                "大江戸宅急便"
+            ],
+            "position": "A01",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.ooedo.jp/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\n皆様のおかげをもちまして、何とか頑張って生きています"
+        },
+        {
+            "aliases": [
+                "大江戸宅急便"
+            ],
+            "position": "A02",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.ooedo.jp/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\n皆様のおかげをもちまして、何とか頑張って生きています"
+        },
+        {
+            "aliases": [
+                "MintJam"
+            ],
+            "position": "A03",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.mintjam.net/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\n既存のオリジナル曲の、アコースティックアレンジを中心としたＣＤを発表。"
+        },
+        {
+            "aliases": [
+                "ちょむ工房"
+            ],
+            "position": "A04",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.chomkoubou.com/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\nレトロゲーム、アーケードゲームのアレンジＣＤの頒布。今年はタイトー（ZUNTATA）とアイマス！"
+        },
+        {
+            "aliases": [
+                "クランベリースタジオ"
+            ],
+            "position": "A05",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.nemyu.com/voice/fm-plus/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\nアニメ「蜜×蜜ドロップス」主題歌やゲームの主題歌などで活躍中の女性ボーカルユニット「藤みさき＋」のCD中心です。"
+        },
+        {
+            "aliases": [
+                "クランベリースタジオ"
+            ],
+            "position": "A06",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.nemyu.com/voice/fm-plus/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\nアニメ「蜜×蜜ドロップス」主題歌やゲームの主題歌などで活躍中の女性ボーカルユニット「藤みさき＋」のCD中心です。"
+        },
+        {
+            "aliases": [
+                "フィーレ"
+            ],
+            "position": "A07",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://shule-aroon.sakura.ne.jp/filie/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\n中恵光城とあたいわだれかの二人ユニットで、民族系や癒し系や中華テイストなどのファンタジー音楽を創っています。"
+        },
+        {
+            "aliases": [
+                "Gungnir over rev"
+            ],
+            "position": "A08",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.gungni.com/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\nみんなでわいわい、アットホームでお笑い、愉快な仲間たちの集う海賊船。そして、”歌・詞・音楽”を”歌い・紡ぎ・奏で”形にするサークル。web上でラジオ、ドラマも配信中！"
+        },
+        {
+            "aliases": [
+                "とるば堂＆スィープレコード"
+            ],
+            "position": "A09",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://troubador.panic.or.jp/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\n萌えテクノポップとか、ゲーム系とか色々予定あり！"
+        },
+        {
+            "aliases": [
+                "とるば堂＆スィープレコード"
+            ],
+            "position": "A10",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://troubador.panic.or.jp/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\n萌えテクノポップとか、ゲーム系とか色々予定あり！"
+        },
+        {
+            "aliases": [
+                "Musicworkstation"
+            ],
+            "position": "A11",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.musicworkstation.jp/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\nオリジナルSmoothJAZZ/Fusion　トラックメイカー兼saxプレイヤー。"
+        },
+        {
+            "aliases": [
+                "mimei"
+            ],
+            "position": "A12",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://hzwaltz.com/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\n透明感のある幻想的でノスタルジックな女性ヴォーカル曲。"
+        },
+        {
+            "aliases": [
+                "Maple Leaf"
+            ],
+            "position": "A13",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://shimotsukin.com/"
+            ],
+            "comments": "Block: A - 音響 : オリジナル・カバー\nオリジナルファンタジーな世界観を基盤にしたボーカルCDなどを制作しています。"
+        },
+        {
+            "aliases": [
+                "コダケ録音"
+            ],
+            "position": "B01",
+            "comments": "Block: B - 音響 : オリジナル\n男声、フルオーケストラ、シンセサイザーを駆使した楽曲の数々"
+        },
+        {
+            "aliases": [
+                "不気味社音響基礎研究所"
+            ],
+            "position": "B02",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.bukimi.com/sfl/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nオーケストラ作品創作やってます"
+        },
+        {
+            "aliases": [
+                "Middle island"
+            ],
+            "position": "B03",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://members.jcom.home.ne.jp/crescent-noise/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n哀愁的でドラマティックかつメロディアスな曲を、ピアノ中心に様々なアレンジをしてサウンド制作してます。"
+        },
+        {
+            "aliases": [
+                "Lungwort Music"
+            ],
+            "position": "B04",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://woodruff.press.ne.jp/lungwort"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nふんわりベースのファンタジー曲メインですが、切ない（ような）古代遺跡をイメージした新作をだすかも？です。"
+        },
+        {
+            "aliases": [
+                "桜blossom"
+            ],
+            "position": "B05",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sound.jp/sakura-blossom/x/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n重厚壮大なファンタジークワイアと超高音ボーカルのファンタジー音楽製作ユニットです。"
+        },
+        {
+            "aliases": [
+                "k-waves LAB"
+            ],
+            "position": "B06",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://kou-ogata.net/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nアイリッシュ楽器の生演奏をふんだんに取り入れた音楽を作っています。"
+        },
+        {
+            "aliases": [
+                "DANDE LION"
+            ],
+            "position": "B07",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://kusanagi.nobody.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n物語やその世界を想像できる。そんな音楽を目指してます！"
+        },
+        {
+            "aliases": [
+                "office ACER"
+            ],
+            "position": "B08",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://office-acer.net/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nクラシックのオリジナル曲を制作しています。頒布作品は打ち込みですが、原則実演を前提に作曲しています。また、一部作品に着いては楽譜も用意しております。"
+        },
+        {
+            "aliases": [
+                "とおくできこえる　デンシオン"
+            ],
+            "position": "B09",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://matsule.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n電子音によるイージーリスニングなど"
+        },
+        {
+            "aliases": [
+                "Unit GrowSphere"
+            ],
+            "position": "B10",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www5.airnet.ne.jp/~krerik/ugs/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n今度はちょっとひとつの空想世界の表現ができたらいいな、とか。……多分。"
+        },
+        {
+            "aliases": [
+                "Big South Valley Music"
+            ],
+            "position": "B11",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.bsvmusic.com/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nプラネタリウム番組のサウンドトラック、ソロピアノ、ソロギターCD"
+        },
+        {
+            "aliases": [
+                "Big South Valley Music"
+            ],
+            "position": "B12",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.bsvmusic.com/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nプラネタリウム番組のサウンドトラック、ソロピアノ、ソロギターCD"
+        },
+        {
+            "aliases": [
+                "きときとブラザー２！"
+            ],
+            "position": "B13",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.kito2.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nシャーリーのリスペクトCDを出します！時代はメイドさん！（ぇ"
+        },
+        {
+            "aliases": [
+                "Dolphin Time"
+            ],
+            "position": "B14",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://rikkun.c-lover.info/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n今回のテーマは真剣に遊ぶ！葉山りくとjiromaruが皆様に歌をお届けします！"
+        },
+        {
+            "aliases": [
+                "SheepSlowlySleep"
+            ],
+            "position": "B15",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.sheepslowlysleep.com/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n葉鍵系オーケストラアレンジ、歌ものオリジナル、サウンドトラックを中心に聞いた人が楽しめるような楽曲づくりを目指して活動中です！"
+        },
+        {
+            "aliases": [
+                "FROSTFOREST"
+            ],
+            "position": "B16",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://platz.jp/~hfujii/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nドラマＣＤ向けに作成したBGM集、オーケストラ主体。ＦＭ音源もあり"
+        },
+        {
+            "aliases": [
+                "Kuu�適ai"
+            ],
+            "position": "B17",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www3.to/kuukai"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n加藤志穂とくにいの女性2人ユニット。オリジナル曲メイン。お笑いからファンタジーまで、なんでもアリの基本方針。ヤマトと新居昭乃さんコピーも予定。"
+        },
+        {
+            "aliases": [
+                "BAST"
+            ],
+            "position": "B18",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://bast.milkcafe.to/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nオリジナル音楽制作のCD-Rを発行しています。インストルメンタルや女性ヴォーカル曲があります。"
+        },
+        {
+            "aliases": [
+                "SUNRISE FACTORY"
+            ],
+            "position": "B19",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sunrisefactory.sakura.ne.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nバンド出身のアーティスト達による、オリジナルのインスト曲を制作しています。"
+        },
+        {
+            "aliases": [
+                "PIZZICATO STRINGS"
+            ],
+            "position": "B20",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www11.ocn.ne.jp/~masayann/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n『独特な世界観をあなたへ・・』ボーカル曲を含むオリジナルCDをお届けします♪"
+        },
+        {
+            "aliases": [
+                "BRAINBOX"
+            ],
+            "position": "B21",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www16.big.or.jp/~f-psyche/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nポップに切な系＆電波までをシュガーボイスで歌う、オリジナルの女性ヴォーカル・ユニット『Petit-Pit』の曲集を制作しています。"
+        },
+        {
+            "aliases": [
+                "闇；灯（やみあがり）"
+            ],
+            "position": "B22",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://yamiagari.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nポップス系ノンジャンルボーカリスト・遊女と、散文系作詞家・一石楠耳の作成するオリジナルソングスをどうぞ。"
+        },
+        {
+            "aliases": [
+                "SYNC THINK TANK"
+            ],
+            "position": "B23",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.s-t-t.com/wwl/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nWEB WAVE LIB製・生々しい効果音がたっぷりあります。多分、お役に立ちます。"
+        },
+        {
+            "aliases": [
+                "Funczion SOUNDS"
+            ],
+            "position": "B24",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://funczion.com/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nMarica他女性ボーカルの歌ものCD/今回もNewアルバムを持って参ります!!(豪語)"
+        },
+        {
+            "aliases": [
+                "est"
+            ],
+            "position": "B25",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://homepage1.nifty.com/est/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n如月いあり/如月のりあの高校生姉妹ユニット（設定）のオリジナルポップス。元気でやさしい歌声のハーモニーをお届けします。新作あり"
+        },
+        {
+            "aliases": [
+                "ピクセルビー"
+            ],
+            "position": "B26",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.pixelbee.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n今回ピクセルビー初のオリジナルアルバムを出します。monetの歌う、素直で爽やかな音世界をお楽しみください。"
+        },
+        {
+            "aliases": [
+                "福"
+            ],
+            "position": "B27",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://fukuchan.s41.xrea.com/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n社会人になっても、まるっと、ごりっと活動中。"
+        },
+        {
+            "aliases": [
+                "ペンギンレコード"
+            ],
+            "position": "B28",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://pg-r.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n声優やましたとものオリジナルポップス中心。ゲーム曲・フォークソングのカバー、ドラマＣＤもあります。"
+        },
+        {
+            "aliases": [
+                "arcの部屋"
+            ],
+            "position": "B29",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://arclly.hp.infoseek.co.jp/arc/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n3度目です。オリジナル+ゲームアレンジCDを出しますー"
+        },
+        {
+            "aliases": [
+                "猫の手"
+            ],
+            "position": "B30",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/shin6272003/index.html"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n私たちはオリジナルの曲にこだわっています。様々な曲調を女性ヴォーカルで歌います。"
+        },
+        {
+            "aliases": [
+                "Lumy's & Tynk"
+            ],
+            "position": "B31",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://homepage1.nifty.com/Lumys/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n打ち込み系女声ポップスバンド「Ｌｕｍｙ’ｓ」とオリジナルゲームサークル「Ｔｙｎｋ」。今回こそは、ゲームも何か有る…といいなぁ。密かにアニソンアレンヂなんかもあり。"
+        },
+        {
+            "aliases": [
+                "marble sky records"
+            ],
+            "position": "B32",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://iyunanet.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nいやし。やすらぎ。ここちよさ。キレイなメロディーで音を奏でています。"
+        },
+        {
+            "aliases": [
+                "matiere"
+            ],
+            "position": "B33",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://matiere.main.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n新譜はオリジナルボーカルミニアルバム（エレクトロポップ）とmixiから生まれたオムニバスアルバム「miximim」の予定です。"
+        },
+        {
+            "aliases": [
+                "Search☆Mind"
+            ],
+            "position": "B34",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/search_mind_music/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n幻想的な曲を置いています!!"
+        },
+        {
+            "aliases": [
+                "PROMENADE"
+            ],
+            "position": "B35",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://park17.wakwak.com/~one/promenade/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nNEWアルバム「CASCADE」販売します。ファンタジーの世界をテーマにしています。イラスト：岩崎美奈子、作曲・編曲：井上俊彦（kirche）、大川圭一朗、霜月はるか、天門、柳英一郎、ロドリゲスのぶ"
+        },
+        {
+            "aliases": [
+                "Brown Sugar"
+            ],
+            "position": "B36",
+            "comments": "Block: B - 音響 : オリジナル\nただいまメンバーを募集しています。"
+        },
+        {
+            "aliases": [
+                "GABA's Advent"
+            ],
+            "position": "B37",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://gaba.ifdef.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nアマチュア声優KILAの歌うオリジナルＣＤ、頒布します。（女性ボーカルです）"
+        },
+        {
+            "aliases": [
+                "ミュゼット物語"
+            ],
+            "position": "B38",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/musette_stories/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n世界は音導力を失った…。伝説の４譜にまつわる物語。歌と語りとアコーディオン。"
+        },
+        {
+            "aliases": [
+                "TWELL"
+            ],
+            "position": "B39",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://homepage3.nifty.com/twell/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nオリジナル幻想曲（女性ヴォーカル）をCDーRで販売します。"
+        },
+        {
+            "aliases": [
+                "Lifeuille"
+            ],
+            "position": "B40",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://lifeuille.com/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n初参加です。(^^) オリジナルBGM(秋っぽい感じを予定)と美少女ゲーム音楽のアレンジなどを予定してます。 詳しい事は開催日が近くなったらサイトの方をどぞー。"
+        },
+        {
+            "aliases": [
+                "Singer Song Writers"
+            ],
+            "position": "B41",
+            "comments": "Block: B - 音響 : オリジナル\n完全オリジナルが売りです。いつも名古屋弁を抑えるのに必死です。"
+        },
+        {
+            "aliases": [
+                "CHOCOA Project"
+            ],
+            "position": "B42",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://ayase.parfe.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nオリジナル曲2曲しゅうろくのシングルを発表予定・・・できるのか！？ぴぼぱぼふごぴｇば"
+        },
+        {
+            "aliases": [
+                "兎印"
+            ],
+            "position": "B43",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://u2dh.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\nM3初参加です。「この荒れ果てた荒野に癒しを！」をモットーに活動してます。"
+        },
+        {
+            "aliases": [
+                "飛練音響工業"
+            ],
+            "position": "B44",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://hi-audio.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: B - 音響 : オリジナル\n様々なテーマのコンセプトアルバムを制作しています。マニア受け度120％!!"
+        },
+        {
+            "aliases": [
+                "Ether"
+            ],
+            "position": "C01",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.ether-music.com/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n女性ボーカルによる独特な世界観を持ったポップス。"
+        },
+        {
+            "aliases": [
+                "おとぼけキャラット"
+            ],
+            "position": "C02",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.otoboke-charat.com/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n約1年ぶりの新作は、オリジナルミニアルバムを予定！！"
+        },
+        {
+            "aliases": [
+                "signal+noise"
+            ],
+            "position": "C03",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://signalnoise.jp/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n日々迷走。"
+        },
+        {
+            "aliases": [
+                "kurumiruku"
+            ],
+            "position": "C04",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.muzie.co.jp/cgi-bin/artist.cgi?id=a043440"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n2006年初夏に結成したユニットです。なつかしくて新鮮で、詩的な世界観を目指しております。今後とも宜しくお願い致します。"
+        },
+        {
+            "aliases": [
+                "Mille Face"
+            ],
+            "position": "C05",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.milleface.com/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n女性ボーカルユニット。ポップ、民族、テクノ、ロック、アンビエントの融合"
+        },
+        {
+            "aliases": [
+                "Mille Face"
+            ],
+            "position": "C06",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.milleface.com/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n女性ボーカルユニット。ポップ、民族、テクノ、ロック、アンビエントの融合"
+        },
+        {
+            "aliases": [
+                "MILlaichiSEASONS"
+            ],
+            "position": "C07",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sikikoubou.sakura.ne.jp/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nMILberryとLa・I・chI　projectと四季工房の３サークル合体です☆新作歌ＣＤ&ドラマＣＤあります（*^_^*）"
+        },
+        {
+            "aliases": [
+                "青猫屋"
+            ],
+            "position": "C08",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://aoneko.jp/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n今回もオリジナルでガッツリ遊びます。"
+        },
+        {
+            "aliases": [
+                "ST-POP"
+            ],
+            "position": "C09",
+            "comments": "Block: C - 音響 : オリジナル\n一度聴いただけで口ずさめる、印象的でポップなメロディ作りがモットーです。"
+        },
+        {
+            "aliases": [
+                "Dear,friends"
+            ],
+            "position": "C10",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://dearfriends.sakura.ne.jp/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nサークル「Dear,friends」のnozomuと朧月玄雅です。音楽を始めて１年目の素人音楽野郎共ですが、皆さんの心に留まるような音楽を追求していきます！"
+        },
+        {
+            "aliases": [
+                "Wisteria"
+            ],
+            "position": "C11",
+            "comments": "Block: C - 音響 : オリジナル\n安らぎを中心とし、幅広い楽曲製作を目標に結成された新ユニット！"
+        },
+        {
+            "aliases": [
+                "Sing, R. Sing!"
+            ],
+            "position": "C12",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.singrsing.com/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n鍵盤ハーモニカを主体としたオリジナル楽曲をCDにて発行"
+        },
+        {
+            "aliases": [
+                "Twin☆Rabbits"
+            ],
+            "position": "C13",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://whiterabbit.bent.jp/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n初合同サークルです。それにともない初ヴォーカルアルバムです。初だらけです。"
+        },
+        {
+            "aliases": [
+                "Rio Dame Daro"
+            ],
+            "position": "C14",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://happytown.orahoo.com/rdd-amigos/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n打ち込み"
+        },
+        {
+            "aliases": [
+                "one*only"
+            ],
+            "position": "C15",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://o-o.my-sv.net/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nMikko*個人サークル。『１つの』音が、声が、それに見合う『１つだけの』音楽を目指し様々なジャンルを渡り歩きます。基本はゲーム音楽系かも？"
+        },
+        {
+            "aliases": [
+                "AimAnt"
+            ],
+            "position": "C16",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www4.pf-x.net/~souziki/aimant/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nオリジナル曲を中心とした女性ボーカルユニットです！萌えからバラードまでなんでもありますｖ"
+        },
+        {
+            "aliases": [
+                "Re:harmonize"
+            ],
+            "position": "C17",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://reharmonize.net/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n5枚目は「旅」をテーマとしたインスト+ボーカルアルバムになります。"
+        },
+        {
+            "aliases": [
+                "Altanaphixx"
+            ],
+            "position": "C18",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://b-complex.outphase.com/altanaphixx/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n初参加な３人がミニアルバムで創作楽曲やらアレンジやらＣＧでワッショイ（する予定。"
+        },
+        {
+            "aliases": [
+                "Meridian Rogue"
+            ],
+            "position": "C19",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://meridianrogue.com/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n優しさと激しさを持ち合わせた物語型ポップロックバンド。完成度の高い楽曲を提供します！新作販売予定！"
+        },
+        {
+            "aliases": [
+                "Meridian Rogue"
+            ],
+            "position": "C20",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://meridianrogue.com/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n優しさと激しさを持ち合わせた物語型ポップロックバンド。完成度の高い楽曲を提供します！新作販売予定！"
+        },
+        {
+            "aliases": [
+                "みずたまり"
+            ],
+            "position": "C21",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://mizutamari.real-sound.net/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nバラード、ポップス、テクノなど、色んな珠梨の形を音で聴いて下さい。初めての歌アルバムです！"
+        },
+        {
+            "aliases": [
+                "compllege"
+            ],
+            "position": "C22",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.compllege.com/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n短編小説と音楽の融合。新しいスタイル、それが\"Tie-Zufall-\""
+        },
+        {
+            "aliases": [
+                "ALLEGORY　WORKS"
+            ],
+            "position": "C23",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www17t.sakura.ne.jp/%7Emiyako/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nアニソンカバーアルバムを頒布予定です！"
+        },
+        {
+            "aliases": [
+                "Fusion Music Works"
+            ],
+            "position": "C24",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://fmw.sub.jp/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nポクポンプロジェクトアルバムがとうとう発売される！？"
+        },
+        {
+            "aliases": [
+                "SJV-SC"
+            ],
+            "position": "C25",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.beta.or.jp/~odiakes/sjv/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nインストもの中心のオリジナルCDに加え、ゲームのアレンジなども作っています。"
+        },
+        {
+            "aliases": [
+                "encounter+"
+            ],
+            "position": "C26",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://iztk.boo.jp/ep/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nストーリー性が強い楽曲と歌で、独特な世界観を描く音楽ユニットです。民族系から疾走感あるポップスまで、無国籍な音楽をお届けいたします。"
+        },
+        {
+            "aliases": [
+                "Asterisk@"
+            ],
+            "position": "C27",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://komiyamao.net/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n小宮真央個人オリジナルボーカルアルバムＣＤを豪華ゲストを迎えて作成しています！ジャンルは雑食です。"
+        },
+        {
+            "aliases": [
+                "cy:cle"
+            ],
+            "position": "C28",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://page.freett.com/cycle__cycle/cy.htm"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n(*´ω｀)＜ToyMusicalオリジナルサウンドトラック出しますかー。"
+        },
+        {
+            "aliases": [
+                "Phonoscape Factory"
+            ],
+            "position": "C29",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://homepage1.nifty.com/Exass/Phonoscape/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nイメージ音楽を主体にいろんな曲を作ってます。最近はエンジニア寄りかも"
+        },
+        {
+            "aliases": [
+                "*CN2&TEAR*"
+            ],
+            "position": "C30",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://homepage2.nifty.com/cn2/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n女性ボーカルでシングルCDを出します。"
+        },
+        {
+            "aliases": [
+                "little white snow"
+            ],
+            "position": "C31",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://snow-illusion.com/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nポップスシンガーの「遊女」・クラシック唱法の「天戸屋 成」異なる二人の新感覚ユニット[ ゆなり ]"
+        },
+        {
+            "aliases": [
+                "かるしゅ〜みゅ"
+            ],
+            "position": "C32",
+            "comments": "Block: C - 音響 : オリジナル\n東海大学コンピュータアート研究会の中で活動している、DTM班のチームです。今回初参加となりますが、オリジナル創作系等を中心にCD-Rで販売します。"
+        },
+        {
+            "aliases": [
+                "Crystal Sphere"
+            ],
+            "position": "C33",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.crystal-sphere.net/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n心に残る旋律、お届けします。"
+        },
+        {
+            "aliases": [
+                "Studio Earth Voice"
+            ],
+            "position": "C34",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.music.ne.jp/~sev/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nタダキクダケ、ソシテ Relax"
+        },
+        {
+            "aliases": [
+                "Ｐ．Ｇ．Ｆａｃｔｏｒｙ"
+            ],
+            "position": "C35",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://plagarec.sakura.ne.jp/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n妄想のままにソフトシンセのみでオリジナル曲を作っております。"
+        },
+        {
+            "aliases": [
+                "Heal Abenue"
+            ],
+            "position": "C36",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://healabenue.jp/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nメンバー個々が奏でるそれぞれの癒しを色んな形で提供しております。"
+        },
+        {
+            "aliases": [
+                "GROOVE-MONSTER.COM"
+            ],
+            "position": "C37",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.groove-monster.com/smile-box/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nsmile box ポップで元気な女性VOユニット。初参加です！"
+        },
+        {
+            "aliases": [
+                "Senses Circuit"
+            ],
+            "position": "C38",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.senses-circuit.com/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n自サイトで多ジャンルなBGM素材サイトを運営中。当日は発売済みCDの他、新作CDを持参予定です。間に合えば全曲Vo入り楽曲を収録予定。もちろん今まで通り素材利用可。全てのCDは購入後にユーザー登録をすると、ゲームやFLASH、映画など様々な媒体のBGMとして利用可能です。"
+        },
+        {
+            "aliases": [
+                "ぽらぽら。"
+            ],
+            "position": "C39",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://porapora.net/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n『ふわふわ＋ピコピコ』なサウンドに透明ボイスをプラスしたポップス！ピコピコ安全県とのユニット「ピンクペガサス」の活動中です！"
+        },
+        {
+            "aliases": [
+                "ピコピコ安全県"
+            ],
+            "position": "C40",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://pikoan.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n中華亜細亜風王道インストテクノポップ。ピコピコ、ボコーダ、メロディアス！ぽらぽら。とのユニット「ピンクペガサス」の曲も発売！"
+        },
+        {
+            "aliases": [
+                "LOTS."
+            ],
+            "position": "C41",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.lilt.net/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n齋藤博人中心の楽園系オリジナル音楽。"
+        },
+        {
+            "aliases": [
+                "白樺亭"
+            ],
+            "position": "C42",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sirakabatei.o-oku.jp/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\nオリジナルボイスドラマCD制作中心、版権物ボイスドラマCDも制作しております。"
+        },
+        {
+            "aliases": [
+                "MANOＭＵＳＩＣＡ"
+            ],
+            "position": "C43",
+            "comments": "Block: C - 音響 : オリジナル\nまだ発足したてのひよっこ集団ですので暖かいめでごらんください。"
+        },
+        {
+            "aliases": [
+                "モノクロカタログ"
+            ],
+            "position": "C44",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://xxmaiden.sakura.ne.jp/celestial_chronicle/"
+            ],
+            "comments": "Block: C - 音響 : オリジナル\n創作ファンタジー小説＋ボイスドラマと、楽曲CDを扱っております。"
+        },
+        {
+            "aliases": [
+                "TATAMI Stugiwo"
+            ],
+            "position": "D01",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.tatami-st.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nタタミスタヂヲです。今回もオリジナル楽曲をだします。"
+        },
+        {
+            "aliases": [
+                "natural Neet"
+            ],
+            "position": "D02",
+            "comments": "Block: D - 音響 : オリジナル\nこの世からいなくなりたい。"
+        },
+        {
+            "aliases": [
+                "OTONOZAISU"
+            ],
+            "position": "D03",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://oz.m78.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n座って聞く音楽。"
+        },
+        {
+            "aliases": [
+                "BPM:Maximum Recordings"
+            ],
+            "position": "D04",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://bmr.80code.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nテクノのようでテクノじゃない。ポップのようでポップじゃない。それは何かとたずねたら‥‥。"
+        },
+        {
+            "aliases": [
+                "Murmur8000"
+            ],
+            "position": "D05",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/murmur8000/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n新作のテーマは「Feel」　過去に出た様々なCDとは違う、本当の癒しを……"
+        },
+        {
+            "aliases": [
+                "RIGHT STUFF"
+            ],
+            "position": "D06",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://rightstuff.web5.jp/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n個人ＣＤプロジェクト発進！新作予定はMAYAの個人アルバム！！"
+        },
+        {
+            "aliases": [
+                "GABA AGONIST"
+            ],
+            "position": "D07",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.age.ne.jp/x/rage/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nハードなマシーンミュージックはお任せ。怒涛の洪水ビートが迫る！"
+        },
+        {
+            "aliases": [
+                "SunnyVale"
+            ],
+            "position": "D08",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.sunnyvale-online.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nダンス・テクノ系中心女性ボーカルユニット。FFなどのリミックスやアレンジなども制作しています。"
+        },
+        {
+            "aliases": [
+                "butagami records"
+            ],
+            "position": "D09",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://butagami.net/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n新作は男ボーカルモノを多く収録してるはずです(汗)旧作も頒布しますのでよろしくおねがいします！"
+        },
+        {
+            "aliases": [
+                "Zeph Label"
+            ],
+            "position": "D10",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://zephlabel.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n映像を喚起するコンセプトに基づいたコンピレーション作品、レーベル所属アーティストによるソロ作品の2本柱でバラエティ豊かなリリースを行っています。"
+        },
+        {
+            "aliases": [
+                "GNS Record"
+            ],
+            "position": "D11",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://rainy-circle.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n幅広いジャンルを扱うレーベル。ポップロックからおもしろスモウテクノまで！"
+        },
+        {
+            "aliases": [
+                "trivario-rafaga"
+            ],
+            "position": "D12",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://nika.sakura.ne.jp/rafaga/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n「自然」をコンセプトとしてオリジナル曲を作っています。サイトで試聴できます。"
+        },
+        {
+            "aliases": [
+                "KAISERZXNONXZ"
+            ],
+            "position": "D13",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://kikumano.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nどこまでも。おんがく　これからも。おんがく　いつまでも。おんがく"
+        },
+        {
+            "aliases": [
+                "MuToPiA LABEL"
+            ],
+            "position": "D14",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.mutopia-label.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nテクノ・ダンス・ポップスなオリジナルCD＆ゲームアレンジCDを制作しています。"
+        },
+        {
+            "aliases": [
+                "Muse Lab"
+            ],
+            "position": "D15",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www3.to/muselab/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nお陰様で活動５周年を迎えましたが、活動のスタンスは全く変わりません。"
+        },
+        {
+            "aliases": [
+                "極幻武創"
+            ],
+            "position": "D16",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.kgbs.jp/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nメンバーそれぞれが個性を主張しながら、調和ある一つの作品を生み出すコンセプトを軸に活動する音楽サークルです。"
+        },
+        {
+            "aliases": [
+                "Logical Protection Forces"
+            ],
+            "position": "D17",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://logicalprotectionforces.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n宇宙の電波をピポっと受信！エレクトロでスペーシーなサークルです。ソリッドなテクノ、ピコピコなテクノポップ、幻想的な歌モノ、スタトレパロソング、あり。今回は映像にも初挑戦。無料音源配布予定。ぜひお立ち寄りください！"
+        },
+        {
+            "aliases": [
+                "white noise"
+            ],
+            "position": "D18",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://wnsounds.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nどんな音楽が好きな人でも、必ず一曲はいける！というのがコンセプトです。"
+        },
+        {
+            "aliases": [
+                "TO-MAX"
+            ],
+            "position": "D19",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.k2.dion.ne.jp/~to-max"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nテクノ、ドラムンベースなどのコンピレーションアルバムを製作しています。"
+        },
+        {
+            "aliases": [
+                "ネコミミ魔法帝国"
+            ],
+            "position": "D20",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://d-3110.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nオリジナルのダンスミュージックをメインに活動しています。ぜひわが帝国の音楽を聴いてみてください。"
+        },
+        {
+            "aliases": [
+                "RICORA Music Team"
+            ],
+            "position": "D21",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.ed.noda.tus.ac.jp/~ricora/MusicTeam/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\ncoolな音楽、美しい音楽、楽しい音楽、個性豊かな楽曲をお送りします！"
+        },
+        {
+            "aliases": [
+                "Transience"
+            ],
+            "position": "D22",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www003.upp.so-net.ne.jp/dcom/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nTech & Prog House"
+        },
+        {
+            "aliases": [
+                "Exhausted Record"
+            ],
+            "position": "D23",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://tranced.hmc6.net/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n( ゜∀゜)<イヤッホ−ウ"
+        },
+        {
+            "aliases": [
+                "luvtrax"
+            ],
+            "position": "D24",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://luvtrax.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nUK HARDHOUSE新譜アリマス。"
+        },
+        {
+            "aliases": [
+                "Sound Iemitsu."
+            ],
+            "position": "D25",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://nekomimi.ws/~iemitsu/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n祝！Iemitsu.活動１周年記念!!でもやることはいつもどおりにSI-STYLE/03を配布予定！"
+        },
+        {
+            "aliases": [
+                "Catacomb entrance"
+            ],
+            "position": "D26",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.b1f.jpn.org/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n前回新作が間に合いませんでしたが、その分完成度を高めて今度こそ形にしたいと思います。"
+        },
+        {
+            "aliases": [
+                "未来研究会"
+            ],
+            "position": "D27",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://miraikenkyukai.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nオリジナルのアンビエント、テクノ、エレクトロニカなどを主に打ち込みで制作しています。京都からスピリチュアルな音楽をお届けします。"
+        },
+        {
+            "aliases": [
+                "Pilgrim"
+            ],
+            "position": "D28",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.voiceblog.jp/pilgrim/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nブレイクビーツを軸に、硬派なループミュージックやってます。D'n'BやHip Hopをはじめ、GrimeやDubstep等、最先端のリズムも！"
+        },
+        {
+            "aliases": [
+                "Psychedelic Lodge"
+            ],
+            "position": "D29",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.plodge.org/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nオリジナルCD及びCD-R（プログレッシブエレクトロ、テクノ等）"
+        },
+        {
+            "aliases": [
+                "FLOATING SYNC"
+            ],
+            "position": "D30",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.fsx.or.tv/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nオリジナルCD-R（テクノ、エレクトロ、インダストリアル、インテリジェント…）"
+        },
+        {
+            "aliases": [
+                "spin_deco"
+            ],
+            "position": "D31",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://alternative-dragoon.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nトランスコンピレーションsmokin' fish03の発売予定"
+        },
+        {
+            "aliases": [
+                "E.V."
+            ],
+            "position": "D32",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://qan.sakura.ne.jp/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nTrance・Technoメインのオリジナル音楽CDと、智代アフターアレンジCDを出します。"
+        },
+        {
+            "aliases": [
+                "吉田音楽製作所"
+            ],
+            "position": "D33",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://kitchon.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n京都で創設１６年、試行錯誤の作曲家集団云々。"
+        },
+        {
+            "aliases": [
+                "打首獄門同好会"
+            ],
+            "position": "D34",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.uchikubi.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n怒濤の重低音爆撃に込める脱毛の悩み・朝飯の重要性・生活苦・JR南武線。聞けばわかるさ、多分。"
+        },
+        {
+            "aliases": [
+                "電樂レコード"
+            ],
+            "position": "D35",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.dengaku.net/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nファミコン音源・FM音源・PCM音源によるシューティングゲームの仮想サントラを予定しています"
+        },
+        {
+            "aliases": [
+                "Rising Sun Nova"
+            ],
+            "position": "D36",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://park6.wakwak.com/~tbr/rsn/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n新しい音を常に開拓しています。宜しくお願いします。"
+        },
+        {
+            "aliases": [
+                "ORIGO-RECORD"
+            ],
+            "position": "D37",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://origo-record.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nEmuソロが出る！　Drum'n bass とかテクノとか好きな方にはお勧めです。"
+        },
+        {
+            "aliases": [
+                "ORIGO-RECORD"
+            ],
+            "position": "D38",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://origo-record.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nEmuソロが出る！　Drum'n bass とかテクノとか好きな方にはお勧めです。"
+        },
+        {
+            "aliases": [
+                "cliche"
+            ],
+            "position": "D39",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://clichexxx.fc2web.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n音楽性にさらに広がりと深みを探究しながら頑張っていきたいと思います。"
+        },
+        {
+            "aliases": [
+                "soreG.O."
+            ],
+            "position": "D40",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sorego.blog68.fc2.com/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nテク無し金無しコネも無し。少数派になることが大好きなくせにスタンダードなオプションをとったりするマイペースで阿呆な音楽同人サークルです。曲は基本はオリジナルですがTYPE-MOON作品からインスパイアされた曲やアレンジ曲をやることもあるそうです。"
+        },
+        {
+            "aliases": [
+                "GUNBRIDGE"
+            ],
+            "position": "D41",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.cypress.ne.jp/yama-b/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nGalneryus等で活躍するYAMA-Bのソロプロジェクト。鋼鉄の洗礼を貴方に！！"
+        },
+        {
+            "aliases": [
+                "a little magic"
+            ],
+            "position": "D42",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www1.c3-net.ne.jp/alittle/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\nオリジナルのヘヴィメタル。メロパワ。女性ヴォーカル。"
+        },
+        {
+            "aliases": [
+                "APAZOME"
+            ],
+            "position": "D43",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.jacla.org/~tommy/"
+            ],
+            "comments": "Block: D - 音響 : オリジナル\n新参者ですが、よろしくお願いいたします。"
+        },
+        {
+            "aliases": [
+                "BANSHEE"
+            ],
+            "position": "D44",
+            "comments": "Block: D - 音響 : オリジナル\nちょっとアニソンっぽいけどちゃんとしたヘヴィメタルやっています"
+        },
+        {
+            "aliases": [
+                "Ｍ＆Ｋカンパニー"
+            ],
+            "position": "E01",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sound.jp/mkcompany/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n悪魔城ドラキュラシリーズのハードロックアレンジCDを販売しています。"
+        },
+        {
+            "aliases": [
+                "月読レコード"
+            ],
+            "position": "E02",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.tsukuyomi-rec.net/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n透き通るような響きから暗黒の世界まで、プログレッシブなオリジナル作品をリリースしています。"
+        },
+        {
+            "aliases": [
+                "ははは"
+            ],
+            "position": "E03",
+            "links": [
+                "なし"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nドゥームメタル、ストーナーロック等のオリジナル楽曲創作"
+        },
+        {
+            "aliases": [
+                "DANDYPROJECT"
+            ],
+            "position": "E04",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.eonet.ne.jp/~gaka-terrorstyle/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n初めまして。我流ハードコアテクノやってます。音圧悪辣、フロム関西、ナード&ノイズなガバとかそんなんです。"
+        },
+        {
+            "aliases": [
+                "えびす食堂"
+            ],
+            "position": "E05",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www2s.biglobe.ne.jp/~TK-2/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nやぁ、デラックスファイターだ。というわけで　デラックスボンバーッ！"
+        },
+        {
+            "aliases": [
+                "S.C.R."
+            ],
+            "position": "E06",
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n1991〜1996年の格ゲー全盛期のCAPCOMとNEOGEOのGameMusicを原曲重視のライトアレンジCDにします"
+        },
+        {
+            "aliases": [
+                "LOD"
+            ],
+            "position": "E07",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://lod.ysnet.org/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nはんだやレイヴ"
+        },
+        {
+            "aliases": [
+                "hikikomori3"
+            ],
+            "position": "E08",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://hikikomori3.web.fc2.com/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n人生の落伍者がやることにどれだけの価値があるか実験します"
+        },
+        {
+            "aliases": [
+                "next-style"
+            ],
+            "position": "E09",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.next-style.com/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nファミコンアレンジCD第二弾を頒布します。"
+        },
+        {
+            "aliases": [
+                "EDIA LABEL"
+            ],
+            "position": "E10",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://d.hatena.ne.jp/moetsukiro/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nゲームミュージックをスカビートにアレンジしたCD「教えてMr.Ska／SKA-G」を頒布予定。"
+        },
+        {
+            "aliases": [
+                "Magical Trick Society"
+            ],
+            "position": "E11",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.magicaltrick.com/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nレアなタイトルを数多く排出するMTS。今回はついにあの「FFXII」にチャレンジ！"
+        },
+        {
+            "aliases": [
+                "Magical Trick Society"
+            ],
+            "position": "E12",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.magicaltrick.com/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nレアなタイトルを数多く排出するMTS。今回はついにあの「FFXII」にチャレンジ！"
+        },
+        {
+            "aliases": [
+                "GEMIX"
+            ],
+            "position": "E13",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www2.gemix.coco.jp/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nレトロなゲームを色々アレンジ。"
+        },
+        {
+            "aliases": [
+                "れとろまにあっくす"
+            ],
+            "position": "E14",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://retromaniacs.wpj3.com/index.html"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nメジャーなものから超マイナーまで、様々なレトロゲーム音楽を様々なジャンルでアレンジしてます。隠れた名曲も数知れず、あなたの思い出のあの曲も？お手ごろ価格で自信を持ってお届けします。"
+        },
+        {
+            "aliases": [
+                "Reiche"
+            ],
+            "position": "E15",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://reiche.seesaa.net/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nリコーダーやトランペット、鍵盤ハーモニカ使った多重録音CDを作っています。"
+        },
+        {
+            "aliases": [
+                "若鶏ウィング1kg"
+            ],
+            "position": "E16",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/cpu_bon"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n主にゲームのBGM等のヴォーカルアレンジで活動しています。"
+        },
+        {
+            "aliases": [
+                "萌えさいと。"
+            ],
+            "position": "E17",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.amanogawa.to/moe/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n「二次元演奏会」関連品在庫と、楽譜集出るかな……新作も予定。"
+        },
+        {
+            "aliases": [
+                "StudioA'"
+            ],
+            "position": "E18",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.a-dash.net/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nピアノやギターを使ったゲームミュージックのアレンジをしています。"
+        },
+        {
+            "aliases": [
+                "Ｒ∀∧∃Ｎ"
+            ],
+            "position": "E19",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://ravenmusic.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nデジタル・ノンジャンル作曲ユニット。"
+        },
+        {
+            "aliases": [
+                "Searching For a Beat!"
+            ],
+            "position": "E20",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://s-f-b.jp/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n2chDTM板発、音ゲーアレンジサークルが今回もやってきたヾ(゜∀゜)ノ"
+        },
+        {
+            "aliases": [
+                "Ｊ-ＳＱＵＡＲＥ"
+            ],
+            "position": "E21",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/jsquare_hp/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nゲーム音楽のバンドアレンジ　ちょっぴり技巧系？　打ち込み使用率０％!!"
+        },
+        {
+            "aliases": [
+                "Ｊ.Ｍ.'s Home"
+            ],
+            "position": "E22",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.jm-home.net/jmmidi/cd/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n全曲集シリーズ第2弾の「FINAL FANTASY IV All Sounds Collection」を頒布します！"
+        },
+        {
+            "aliases": [
+                "Golden City Factory"
+            ],
+            "position": "E23",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.gcfactory.sakura.ne.jp/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n新作はX68000オンリーアレンジアルバムの予定です。"
+        },
+        {
+            "aliases": [
+                "WOODSOFT with Rolando."
+            ],
+            "position": "E24",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www2.odn.ne.jp/puchi/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n市販ゲーム(主にレトロゲー)のアレンジ作品作ってます。今回も超レゲーか？"
+        },
+        {
+            "aliases": [
+                "Whoopee!records"
+            ],
+            "position": "E25",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.whoopeerec.com/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nアニソンやゲームミュージックのアレンジ"
+        },
+        {
+            "aliases": [
+                "Whoopee!records"
+            ],
+            "position": "E26",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.whoopeerec.com/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nアニソンやゲームミュージックのアレンジ"
+        },
+        {
+            "aliases": [
+                "RAINBAND COMPANY"
+            ],
+            "position": "E27",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://park6.wakwak.com/~doppelganger/rainbandcompany/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n普通のテクノ：変なテクノ＝およそ７：３、でやってます。"
+        },
+        {
+            "aliases": [
+                "Clock Music"
+            ],
+            "position": "E28",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.k4.dion.ne.jp/~pe-jun/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nアニメ「ハチクロ」のイメージフルボーカルアルバム。弦楽器は全て生演奏！"
+        },
+        {
+            "aliases": [
+                "バウハウス"
+            ],
+            "position": "E29",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://bau-hauss.com/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nオルタナ系の音楽をまったりとやっています。"
+        },
+        {
+            "aliases": [
+                "B.G.M."
+            ],
+            "position": "E30",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.punk-arrange.net/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n生ギター・ベース、パンクやHR/HM系をメインとした聴いていて楽しくなれるような曲を作ってます。"
+        },
+        {
+            "aliases": [
+                "mushi.net"
+            ],
+            "position": "E31",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://mushi.net/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n80〜90年代スタイルのゲームミュージックが好きです。"
+        },
+        {
+            "aliases": [
+                "Tester studio"
+            ],
+            "position": "E32",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://homepage2.nifty.com/takehiro5566/index.htm"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nいまや懐かしいゲームとして知られるライブ・ア・ライブの音楽を多種多様にアレンジ！"
+        },
+        {
+            "aliases": [
+                "そんなバカな!?"
+            ],
+            "position": "E33",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.alles.or.jp/~yy752333/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nサークル名通りにやりたい放題。スクエニアレンジCD(8曲程度)予定してます。"
+        },
+        {
+            "aliases": [
+                "師弟出馬唱片公司"
+            ],
+            "position": "E34",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://f47.aaa.livedoor.jp/~jackie/music.htm"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nスクエニの音楽アレンジCD出します。あと、オリジナル音源も出せれば持って行きます。"
+        },
+        {
+            "aliases": [
+                "Sonic Hispeed Omega"
+            ],
+            "position": "E35",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sound.jp/s-h-omega/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n速くて格好良くて綺麗なアレンジ音楽やってます。"
+        },
+        {
+            "aliases": [
+                "Zephyr Cradle"
+            ],
+            "position": "E36",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.zephyr-cradle.info/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n「時の移ろい」をテーマにしたゲームアレンジとオリジナルを収めた「CHRONOS」を置いています。少し民族風な感じです。"
+        },
+        {
+            "aliases": [
+                "ぶらは堂本舗"
+            ],
+            "position": "E37",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.ykz909.net/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nバトルガレッガのCDをセル生産で制作"
+        },
+        {
+            "aliases": [
+                "安心な僕ら"
+            ],
+            "position": "E38",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://yokare.sakura.ne.jp/ansin_bokura/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nコツコツとピアノ楽譜を製作しています。「Fate/hollow ataraxia」の楽譜集を頒布する予定です。"
+        },
+        {
+            "aliases": [
+                "ヤヅチ工房"
+            ],
+            "position": "E39",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/yazuchi_sueta/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n「カバー」ではなく「アレンジ」です。サントラアレンジの新境地！かも??"
+        },
+        {
+            "aliases": [
+                "音紅裏"
+            ],
+            "position": "E40",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://homepage2.nifty.com/take_de_x/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nrize(リゼ)という女の子のオリジナルストーリーを歌と写真集で表現します。音はテクノポップ！"
+        },
+        {
+            "aliases": [
+                "しゃんぱ〜にゅ☆"
+            ],
+            "position": "E41",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.h5.dion.ne.jp/~shanpa/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nゲーム製作と音楽製作を行っているサークルです。"
+        },
+        {
+            "aliases": [
+                "Lost Garden"
+            ],
+            "position": "E42",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://garden.secret.jp/lostgarden/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n秋のM3ではCLANNADアレンジCD『Nostalgia -Luv Clann-』を予定しています。前作『Daylight』も持って行きます。"
+        },
+        {
+            "aliases": [
+                "Shadow Children"
+            ],
+            "position": "E43",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://cloudair.web.infoseek.co.jp/shadow/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\nPCゲーム(Key作品メイン)のアレンジCDを頒布。また、バンブラの楽譜データも配布いたします。"
+        },
+        {
+            "aliases": [
+                "HAPPY MUSIC"
+            ],
+            "position": "E44",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://flandre.secret.jp/"
+            ],
+            "comments": "Block: E - 音響 : オリジナル/カバー/その他\n新旧ゲームアレンジ、とネタやります。"
+        },
+        {
+            "aliases": [
+                "斬"
+            ],
+            "position": "F01",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.zerverius.com/zann/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n新作出せるかなぁ....."
+        },
+        {
+            "aliases": [
+                "FUTON"
+            ],
+            "position": "F02",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://iris.homeunix.net/firewitch"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nLittlewitch, Leaf等の楽曲をTrad/ClubJazz、MPB/Lounge/Bossa、AOR/JazzFunk等オトナ路線でアレンジ。オリジナルも"
+        },
+        {
+            "aliases": [
+                "zwolf"
+            ],
+            "position": "F03",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://zwolf.no-ip.org/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nいよいよ3作目の新譜！「水月アレンジ」です。"
+        },
+        {
+            "aliases": [
+                "ファーストサウンズ準備会"
+            ],
+            "position": "F04",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://firstsounds.net/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nLeaf,Key音楽の生演奏イベント「FirstSounds」を主催しております。イベントで演奏された音源を収録したＣＤを頒布致します。"
+        },
+        {
+            "aliases": [
+                "ポチとてぬぐひ"
+            ],
+            "position": "F05",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://members.ld.infoseek.co.jp/ma_kun1201/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n今回はLeafか東方のアレンジを予定しています"
+        },
+        {
+            "aliases": [
+                "規格外企画"
+            ],
+            "position": "F06",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.yuriyuri.org/dojin/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nToHeart2のアレンジサントラを出します"
+        },
+        {
+            "aliases": [
+                "Sound CYCLONE"
+            ],
+            "position": "F07",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://cyclone.main.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nラグナロクオンラインのBGMアレンジをやります！"
+        },
+        {
+            "aliases": [
+                "Light ? Staff"
+            ],
+            "position": "F08",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://light-staff.web.infoseek.co.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nオリジナルの『東方』シリーズを知らなくても楽しめるJ-POP調のヴォーカルアレンジを行っています。"
+        },
+        {
+            "aliases": [
+                "Lunatic Gate"
+            ],
+            "position": "F09",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.lunatic-gate.net/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n好きな曲を好き勝手にアレンジしています。"
+        },
+        {
+            "aliases": [
+                "文鳥Online。"
+            ],
+            "position": "F10",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.h4.dion.ne.jp/~yumeutsu/bunchotop.htm"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n東方ボーカルアレンジあります。"
+        },
+        {
+            "aliases": [
+                "C-CLAYS"
+            ],
+            "position": "F11",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.c-clays.com/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n東方アレンジを中心に活動しています。ピアノとギターが奏でるロック＆ポップス・アレンジをぜひ聴いてください。"
+        },
+        {
+            "aliases": [
+                "ばんだいく"
+            ],
+            "position": "F12",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.h6.dion.ne.jp/~mks7/mp_mk.htm"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n主にクラブミュージックなどのアレンジ主体で活動中。"
+        },
+        {
+            "aliases": [
+                "砂塵音樂室"
+            ],
+            "position": "F13",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://hoecat.web.infoseek.co.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n東方アレンジをもってきます"
+        },
+        {
+            "aliases": [
+                "光収容の倉庫"
+            ],
+            "position": "F14",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://hikarisy.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n光収容の倉庫の記念すべき初イベントです。来て下さった方には何かあるかも"
+        },
+        {
+            "aliases": [
+                "Angelic Quasar"
+            ],
+            "position": "F15",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://youzyo.net/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n和洋折衷の音、エスニックコアをご賞味あれ！"
+        },
+        {
+            "aliases": [
+                "Cherry Sound"
+            ],
+            "position": "F16",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sound.jp/cherrysound/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n二人組による音楽サークルで今回が初参加になります。ゲームミュージックのアレンジとオリジナルを織り交ぜたCDアルバムを出します。"
+        },
+        {
+            "aliases": [
+                "efs"
+            ],
+            "position": "F17",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://page.freett.com/efs/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nボーカルあり、アレンジありのアレンジを中心に、「聴きやすさ、爽快さ」を目標に活動中っ！"
+        },
+        {
+            "aliases": [
+                "SOUND HOLIC"
+            ],
+            "position": "F18",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.sound-holic.com/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nTRANCE、JAZZ、オーケストラ等、様々なジャンルの東方アレンジ。ハイクォリティ・高音質がモットーです！"
+        },
+        {
+            "aliases": [
+                "Re:SPEC"
+            ],
+            "position": "F19",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.pleades.com/~oto/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nかげろー先生を寄ってたかって弄るCD作ります。旧作の東方CDも持ってきます。"
+        },
+        {
+            "aliases": [
+                "salvation by faith records"
+            ],
+            "position": "F20",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sbfr.nothing.sh/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n夏コミに出展したシューティングアレンジCDとクロノアファンディスク２、そして好評でも無かった即席円盤の第二弾を出します"
+        },
+        {
+            "aliases": [
+                "エイプリーズのＫＡ×４Ｃａｆｅ"
+            ],
+            "position": "F21",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://cafesigatu.sakura.ne.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nエイプリーズ（日本一薫ときくちかける）がお送りするするファンタジードラマの新作！『銀の翼が示す道』第２章発売！"
+        },
+        {
+            "aliases": [
+                "D'z PARADISE"
+            ],
+            "position": "F22",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.dzpara.com/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nお気軽に聞ける音声コントやラジオ番組CDはいかがですか？"
+        },
+        {
+            "aliases": [
+                "ATM"
+            ],
+            "position": "F23",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www3.to/atm-hp"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n新作は初時代劇「ボンクラ同心〜心得の章〜」今宵の鬼斬りは良く鳴くねぇ。アダルトな人情話に、ばっさり切られてみやせんか？"
+        },
+        {
+            "aliases": [
+                "RBC"
+            ],
+            "position": "F24",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.rbcnet.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n相変わらず活動は牛歩のごとし"
+        },
+        {
+            "aliases": [
+                "TEPS"
+            ],
+            "position": "F25",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://tepsnet.com/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nオリジナルのドラマCD及びネットラジオを公開しています。"
+        },
+        {
+            "aliases": [
+                "アクア☆プロジェクト"
+            ],
+            "position": "F26",
+            "comments": "Block: F - 音響 : カバー・ドラマ\nかわさきＦＭで放送したラジオドラマと新作を用意してお待ちしています。"
+        },
+        {
+            "aliases": [
+                "アフレコｃｌｕｂおむすび外伝"
+            ],
+            "position": "F27",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://babu.jp/~omusubi/kororin-index.html"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n女性のみで活動。オリジナル、版権もののボイスドラマCD-Rを製作しています。"
+        },
+        {
+            "aliases": [
+                "BACK GATE WOLF"
+            ],
+            "position": "F28",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://backgatewolf.net/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nオリジナルボイスドラマ作品を制作・頒布しております"
+        },
+        {
+            "aliases": [
+                "ＨＥＡＶＥＮＬＹ　ＢＬＵＥ"
+            ],
+            "position": "F29",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://heavenlyblue.versus.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n様々なクリエイター・アーティストとのコラボレーションで贈る連続音響ドラマ、短編ドラマ、ラジオなど、声マニアをくすぐる珠玉の作品をWebフリー公開。"
+        },
+        {
+            "aliases": [
+                "クリエイティブ工房『飛鳥』"
+            ],
+            "position": "F30",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.studioasuka.com/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nクリエイティブ工房『飛鳥』オリジナルドラマCD第三弾”人形姫”、新作発売です!!!ドラマCDの自主制作を活動の主体とするクリエーター集団です☆ストーリー原作・脚本・演出・BGM・イラストレーター・声優・音響。。。総てが『その道のプロを目指す卵たち』で構成されている集団です。ファンタジー大好きな方、ドラマCDに興味がある方や、どんな事やってるの？どういう物？って方も、お気軽にブースまで遊びに来てみて下さ〜い♪"
+        },
+        {
+            "aliases": [
+                "わかめっ娘"
+            ],
+            "position": "F31",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://suikahime.com/wakamekko/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nわかめを愛する二人娘のオリジナル創作ユニット「わかめっ娘」です。ちっちゃな海の天使たちがわかめで織り成す、新感覚！？海洋ファンタジーボイスドラマ【シアワセ貯金箱】シリーズの、新作を初売りします！今回配布する【Vol.1】には、「ハロウィーン」と「雪」をテーマにした二つのストーリーが収録されています。波間にゆらめくわかめに乗せて、バケツいっぱいのシアワセを、あなたに・・・！"
+        },
+        {
+            "aliases": [
+                "NOMARK"
+            ],
+            "position": "F32",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://nomark.skr.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nボイスドラマ制作サークルです。和風妖怪ファンタジーや、おとぎ話をモチーフにしたファンタジーが好きな方はお立ち寄りください！"
+        },
+        {
+            "aliases": [
+                "RMR"
+            ],
+            "position": "F33",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www1.ttcn.ne.jp/~rmr/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n脚本、劇伴、主題歌、キャラ、メカ等全てオリジナルの音響劇！"
+        },
+        {
+            "aliases": [
+                "大根畑"
+            ],
+            "position": "F34",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://daikonmsize.sakura.ne.jp/daikonbatake/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nボイスドラマCD「王子旋律」とキャラソンCD「Kizuna Vocal Song Collection」を発行予定です。当日、本人はいません；"
+        },
+        {
+            "aliases": [
+                "激団PEACE"
+            ],
+            "position": "F35",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://gpeace.hp.infoseek.co.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nオリジナルオーディオドラマを中心に活動しています"
+        },
+        {
+            "aliases": [
+                "RiA学園"
+            ],
+            "position": "F36",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://ria.lovepop.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n有馬美咲・奥山歩・小林和実・藤井深雪・木口友の女性声優＆ヴォーカルによるどたばた学園風ユニット。初ドラマ＆ヴォーカルCD出します。"
+        },
+        {
+            "aliases": [
+                "ARCFOX"
+            ],
+            "position": "F37",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://woodruff.pupui.jp/fox/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n影のように活躍中の半ば老舗のサークルです。未挑戦ジャンルを出品予定"
+        },
+        {
+            "aliases": [
+                "組体操"
+            ],
+            "position": "F38",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www5f.biglobe.ne.jp/~mayotai/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nコントも音楽も全てオリジナルです。是非一度聴いてみてください。"
+        },
+        {
+            "aliases": [
+                "颱風壱家"
+            ],
+            "position": "F39",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www3.to/papara/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\n颱風壱家はおかわり自由！"
+        },
+        {
+            "aliases": [
+                "アフレコ倶楽部コスモ"
+            ],
+            "position": "F40",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://freett.com/ar_cosmo/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nオリジナルを中心に、ボイスドラマを製作しています。新作ありますよー！サイトも見に来てくださいね♪"
+        },
+        {
+            "aliases": [
+                "*アイヌ娘販売本店*"
+            ],
+            "position": "F41",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://usaginoafuro.ojaru.jp/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nオリジナルドラマCDやボーカルCDを中心として製作・販売をしていま"
+        },
+        {
+            "aliases": [
+                "team 0+0"
+            ],
+            "position": "F42",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://smile.poosan.net/dream_box/"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nオリジナルのモノを制作しています。今回はドラマCD第二弾の新作発売です。"
+        },
+        {
+            "aliases": [
+                "Cyber Illusion Network"
+            ],
+            "position": "F43",
+            "comments": "Block: F - 音響 : カバー・ドラマ\n私たちは電脳・未来・幻想をコンセプトにオリジナル・ドラマを制作しています。よろしければ、耳をかたむけてみてください。聞こえるよ、未来が。"
+        },
+        {
+            "aliases": [
+                "ネギトロカンパニー"
+            ],
+            "position": "F44",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/negitoro_soft/index.html"
+            ],
+            "comments": "Block: F - 音響 : カバー・ドラマ\nオリジナルドラマを５．１ｃｈサラウンドで制作しています。"
+        },
+        {
+            "aliases": [
+                "Label・I.O.S."
+            ],
+            "position": "G01",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://labelios.fc2web.com/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n理数系テクノ作家CAOL ILA、すべて生楽器によるジャズの服部暁典のＣＤを販売"
+        },
+        {
+            "aliases": [
+                "千葉工業大学 Softmedia Club DTM Team"
+            ],
+            "position": "G02",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://softmedia.sakura.ne.jp/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n大学サークルとしてオリジナル楽曲のCDを販売します。"
+        },
+        {
+            "aliases": [
+                "I.L.C -Image Leaf Craft-"
+            ],
+            "position": "G03",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://image.main.jp/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nI.L.Cの核となるボーカルアルバムの2作目を発表。"
+        },
+        {
+            "aliases": [
+                "aoko:mode"
+            ],
+            "position": "G04",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://http//www.aokomode.sakura.ne.jp/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n３年ぶりのearthly_tuneの新譜発表に、様様なアーティストの楽曲が楽しめる、コラボレーションアルバムを頒布。"
+        },
+        {
+            "aliases": [
+                "Asriel"
+            ],
+            "position": "G05",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.asriel.jp/m/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n女性Voによる独特の楽曲を創作。世界観を大事に、幅広いジャンルにて活動しています。"
+        },
+        {
+            "aliases": [
+                "吉田御殿"
+            ],
+            "position": "G06",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://members.aol.com/jirohendrix/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nＰＣ用ゲームミュージックを主に制作している吉田仁郎のサークルです。"
+        },
+        {
+            "aliases": [
+                "金柑電商（Ｂ’ｓＣｈａｍｂｅｒの販売部門）"
+            ],
+            "position": "G07",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.muzie.co.jp/cgi-bin/artist.cgi?id=a033797"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nヲレたちは本当の秋葉原をここに持って来るぞ。アキバじゃなくてな。"
+        },
+        {
+            "aliases": [
+                "金柑電商（Ｂ’ｓＣｈａｍｂｅｒの販売部門）"
+            ],
+            "position": "G08",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.muzie.co.jp/cgi-bin/artist.cgi?id=a033797"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nヲレたちは本当の秋葉原をここに持って来るぞ。アキバじゃなくてな。"
+        },
+        {
+            "aliases": [
+                "CRAFTWORX"
+            ],
+            "position": "G09",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.craftworx.jp/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nオリジナルノベルGateOdysseyの7曲入りボーカルイメージCDアルバムを頒布します。MintJam、ピクセルビー、Asrielなどなど豪華参加陣による、完全オリジナル全7曲。"
+        },
+        {
+            "aliases": [
+                "sound blue"
+            ],
+            "position": "G10",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sound.bne.jp/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n癒しの青をモチーフにした曲作りを行っております。"
+        },
+        {
+            "aliases": [
+                "Senzoku Media Content Creation"
+            ],
+            "position": "G11",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.senzoku-mcc.net/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nポップス、ゲーム音楽、プログレなど様々なジャンルのオリジナル楽曲を集めたコンピレーション・アルバムを制作しています。参加アーティストは全員現役の音大生です。"
+        },
+        {
+            "aliases": [
+                "MEGAふぇっぷす"
+            ],
+            "position": "G12",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sgd.sakura.ne.jp/mf/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nピアノ癒し系アルバムとか？春Ｍ３で出せなかったチップチューンアルバムも持参します。"
+        },
+        {
+            "aliases": [
+                "Materia-Rhythm"
+            ],
+            "position": "G13",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.h4.dion.ne.jp/~materia/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n1984年結成のアンビエント・ユニットです。60分１曲のCD-R作品の発表を予定しています。"
+        },
+        {
+            "aliases": [
+                "lgc design"
+            ],
+            "position": "G14",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/lgc_d/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nエレクトロニカ、アンビエント、ダブ系のトラック制作、グラフィックデザイン、ＶＪ等の活動を行っています。ライブ、イベント、Web等で作品を発表しています。"
+        },
+        {
+            "aliases": [
+                "SOU1WORKS"
+            ],
+            "position": "G15",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://s1224.com/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n電子の某 〜complete work of SOU1 since 1999-2006〜"
+        },
+        {
+            "aliases": [
+                "SOU1WORKS"
+            ],
+            "position": "G16",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://s1224.com/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nエスプガルーダ・電子の海から3年……SOU1のセカンドアルバム、ついに発表。「禁断の時代へようこそ」"
+        },
+        {
+            "aliases": [
+                "葛音/Sound Creeper"
+            ],
+            "position": "G17",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://members3.jcom.home.ne.jp/kuzune/index.htm"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nロック系のギターインストやります。ふつつかものですがよろしくお願いします。"
+        },
+        {
+            "aliases": [
+                "高天原応用通信研究所"
+            ],
+            "position": "G18",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://pony.tail.net/song/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nKORG Electribeでその場mixをやります。間に合えばボーカルものも。"
+        },
+        {
+            "aliases": [
+                "なんかどう"
+            ],
+            "position": "G19",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.nankado.jp/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n音響・アンビエント・ダブをベースにしたテクノポップ「みたいなもの」を作ってます"
+        },
+        {
+            "aliases": [
+                "Second trap"
+            ],
+            "position": "G20",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://4.huu.cc/~secondtrap/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nメインはトランス・ハウス。今回から映像作品にも挑戦！きっとあります。あなたの”音”が！"
+        },
+        {
+            "aliases": [
+                "COCOON"
+            ],
+            "position": "G21",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.cocoonspace.com/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n和・未来・陰と陽をコンセプトに演出した空間（音楽）をお届けする、歌モノPOPSデス。新作アリ〼！！！"
+        },
+        {
+            "aliases": [
+                "COCOON"
+            ],
+            "position": "G22",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.cocoonspace.com/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n和・未来・陰と陽をコンセプトに演出した空間（音楽）をお届けする、歌モノPOPSデス。新作アリ〼！！！"
+        },
+        {
+            "aliases": [
+                "空"
+            ],
+            "position": "G23",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://kikuweb.ciao.jp/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n今回もお世話になります。３度目の参加になります。今回は、初挑戦の「True Silver」さんとの合同企画も考えています。よろしくお願いいたします。"
+        },
+        {
+            "aliases": [
+                "True Silver"
+            ],
+            "position": "G24",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://truesilver.lomo.jp/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n今回もお邪魔します。五度目ましてのTrue Silverです！今回こそは新作持って行けると思いますのでぜひぜひお立ち寄りくださいませ！「空」さんとの合同企画もきっとある！ハズ。"
+        },
+        {
+            "aliases": [
+                "earth Japan SOFT"
+            ],
+            "position": "G25",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://earthj.net/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nゲームアレンジを中心にボーカル物、オリジナルと色々やってます。"
+        },
+        {
+            "aliases": [
+                "[kapparecords]"
+            ],
+            "position": "G26",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www5f.biglobe.ne.jp/~kapparecords/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n名曲を様式美ハードロックアレンジしてます。１曲１曲に手抜きなし！"
+        },
+        {
+            "aliases": [
+                "めみゅっと　〜type8〜"
+            ],
+            "position": "G27",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www1.odn.ne.jp/~cah79070/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n遊びをコンセプトとしたボイスドラマ企画。誰でも参加ＯＫ！無料配信中"
+        },
+        {
+            "aliases": [
+                "Feel'd"
+            ],
+            "position": "G28",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.at-smiley.com/~feeld/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nこんなことやってます（http://www.at-smiley.com/~feeld/feeld_CM.wma）"
+        },
+        {
+            "aliases": [
+                "Cakes and Ale"
+            ],
+            "position": "G29",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www1.seaple.ne.jp/CakesAndAle/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nカプコンのゲームアレンジとオリジナル作品出します。初参加です！"
+        },
+        {
+            "aliases": [
+                "NEST OF GEESE"
+            ],
+            "position": "G30",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.f-kid.com/nog/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nサイバー・エレクトリックをテーマに、オリジナル楽曲を作成しています。"
+        },
+        {
+            "aliases": [
+                "こなぐすり"
+            ],
+            "position": "G31",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/conagusuri/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n仲良くケンカする打ち込み4人組！　テクノ・ハウス系中心にいろんなジャンルやってます！　女性ボーカル曲もあり。"
+        },
+        {
+            "aliases": [
+                "rabel μD"
+            ],
+            "position": "G32",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://se-side.cha.to/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nリズムとメロディーの強いアンビエントサウンドを作るサークル。"
+        },
+        {
+            "aliases": [
+                "ドＣＲＯＷＳ"
+            ],
+            "position": "G33",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.docrows.sakura.ne.jp/hpcrow/top.htm"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n今まで聴いたことのない、ちょっと不思議でちょっと激しく美しい音をどうぞ！"
+        },
+        {
+            "aliases": [
+                "LORB"
+            ],
+            "position": "G34",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://sound.jp/ms-404/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nジョイメカファイトのアレンジCDを頒布します。オリジナルトランスCDも頒布予定しています"
+        },
+        {
+            "aliases": [
+                "Pulse Therapy"
+            ],
+            "position": "G35",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://y7.net/atg"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nGAMEMUSICを様々なジャンルでRemix!!"
+        },
+        {
+            "aliases": [
+                "FMPSG"
+            ],
+            "position": "G36",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://taka-p.homeip.net/fmpsg/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nFM音源・PSG音源等の１チップ音源にこだわって製作したカヴァー及びオリジナル作品集を発行。　新作＋メンバーソロ作品を発表予定！"
+        },
+        {
+            "aliases": [
+                "鋼鉄大番長'S SEVENS LIGHTING"
+            ],
+            "position": "G37",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.geocities.jp/metalrider777/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nあのPCゲームの名曲が時空を超えてメタルに！"
+        },
+        {
+            "aliases": [
+                "ザラスドットコム"
+            ],
+            "position": "G38",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.zarasu.com/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nオリジナル長編アニメーション・ザラス「霊珠」第１話・第２話DVD、３話予告編を頒布します。"
+        },
+        {
+            "aliases": [
+                "Silly Walker"
+            ],
+            "position": "G39",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.sillywalker.info/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nバカ映像か何かがあると思います。"
+        },
+        {
+            "aliases": [
+                "KKITT"
+            ],
+            "position": "G40",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://kkitt.go.to/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\nキーワードは、ニュース、トリビア、テッカマン。"
+        },
+        {
+            "aliases": [
+                "悪食倶楽部＆アルカディアプロジェクト"
+            ],
+            "position": "G41",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.dengeki.jp/~akujiki/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n地元が生んだヒーロー、ジュワーマン、待望の第二弾ＤＶＤが完成！"
+        },
+        {
+            "aliases": [
+                "悪食倶楽部＆アルカディアプロジェクト"
+            ],
+            "position": "G42",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://www.dengeki.jp/~akujiki/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n地元が生んだヒーロー、ジュワーマン、待望の第二弾ＤＶＤが完成！"
+        },
+        {
+            "aliases": [
+                "EIGI"
+            ],
+            "position": "G43",
+            "links": [
+                "https://web.archive.org/web/20061212003359/http://eigi.solar.or.jp/"
+            ],
+            "comments": "Block: G - 音響 : オリジナル/カバー/ドラマ/その他G - 映像　:　ア ニ メ　/　実　写　/　そ の 他\n同人コント映像作品をDVDビデオで発表しています。アニメ・ゲームに夢中になる人をコント化し、映像演出でおもしろおかしく表現します。"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://www.m3net.jp/event/2006f.php",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20061212003359/http://www.m3net.jp/m3_18/circle.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ]
+}

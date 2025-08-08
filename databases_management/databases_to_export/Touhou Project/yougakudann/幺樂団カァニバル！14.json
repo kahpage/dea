@@ -1,0 +1,517 @@
+{
+    "aliases": [
+        "幺樂団カァニバル！14"
+    ],
+    "dates": "2025.06.29",
+    "circles": [
+        {
+            "aliases": [
+                "外柿山"
+            ],
+            "pen_names": [
+                "権太夫"
+            ],
+            "position": "よ01"
+        },
+        {
+            "aliases": [
+                "ここから先、34小節目。"
+            ],
+            "pen_names": [
+                "あぶらあげ"
+            ],
+            "position": "よ02"
+        },
+        {
+            "aliases": [
+                "FINE MOTION"
+            ],
+            "pen_names": [
+                "neko neko knife"
+            ],
+            "position": "よ03"
+        },
+        {
+            "aliases": [
+                "K2E†Cradle"
+            ],
+            "pen_names": [
+                "MIKOTO"
+            ],
+            "position": "よ04"
+        },
+        {
+            "aliases": [
+                "提燈屋"
+            ],
+            "pen_names": [
+                "る〜へい"
+            ],
+            "position": "よ05"
+        },
+        {
+            "aliases": [
+                "櫓INDUSTRY"
+            ],
+            "pen_names": [
+                "cübe"
+            ],
+            "position": "よ06"
+        },
+        {
+            "aliases": [
+                "Crystallize"
+            ],
+            "pen_names": [
+                "ちょこれーしょん"
+            ],
+            "position": "よ0708"
+        },
+        {
+            "aliases": [
+                "カタルシス少年戯樂団"
+            ],
+            "pen_names": [
+                "音屋のばけばけ"
+            ],
+            "position": "よ0910"
+        },
+        {
+            "aliases": [
+                "ぴょこっとついんて！"
+            ],
+            "pen_names": [
+                "ぴょこっとついんて"
+            ],
+            "position": "う0102"
+        },
+        {
+            "aliases": [
+                "星屑喫茶時間"
+            ],
+            "pen_names": [
+                "白風真白"
+            ],
+            "position": "う03"
+        },
+        {
+            "aliases": [
+                "どくいちごがぁでん"
+            ],
+            "pen_names": [
+                "ドクロちゃん"
+            ],
+            "position": "う04"
+        },
+        {
+            "aliases": [
+                "隠匿菜園"
+            ],
+            "pen_names": [
+                "せろり"
+            ],
+            "position": "う05"
+        },
+        {
+            "aliases": [
+                "春空夢見月"
+            ],
+            "pen_names": [
+                "みつき"
+            ],
+            "position": "う06"
+        },
+        {
+            "aliases": [
+                "アオイロリボン"
+            ],
+            "pen_names": [
+                "うさろりぃ"
+            ],
+            "position": "う07"
+        },
+        {
+            "aliases": [
+                "スタヂオほむら"
+            ],
+            "pen_names": [
+                "うずみび"
+            ],
+            "position": "う08"
+        },
+        {
+            "aliases": [
+                "ALQUERMES"
+            ],
+            "pen_names": [
+                "みーか"
+            ],
+            "position": "う0910"
+        },
+        {
+            "aliases": [
+                "24G"
+            ],
+            "pen_names": [
+                "桂木うくう"
+            ],
+            "position": "う11"
+        },
+        {
+            "aliases": [
+                "星空らぼらとりー"
+            ],
+            "pen_names": [
+                "Duskia"
+            ],
+            "position": "う12"
+        },
+        {
+            "aliases": [
+                "蓄光性梅ソーダ"
+            ],
+            "pen_names": [
+                "莱人"
+            ],
+            "position": "う13"
+        },
+        {
+            "aliases": [
+                "常行丼"
+            ],
+            "pen_names": [
+                "ネモ"
+            ],
+            "position": "う14"
+        },
+        {
+            "aliases": [
+                "五花八門"
+            ],
+            "pen_names": [
+                "上條紗智"
+            ],
+            "position": "う15"
+        },
+        {
+            "aliases": [
+                "林檎雨"
+            ],
+            "pen_names": [
+                "真澄"
+            ],
+            "position": "う16"
+        },
+        {
+            "aliases": [
+                "常葉日和＆LOW＋"
+            ],
+            "pen_names": [
+                "赤川羽蘭"
+            ],
+            "position": "が0102"
+        },
+        {
+            "aliases": [
+                "はじけ組っ！"
+            ],
+            "pen_names": [
+                "はじけ☆あきら"
+            ],
+            "position": "が03"
+        },
+        {
+            "aliases": [
+                "フォレノワール"
+            ],
+            "pen_names": [
+                "はーちゃん"
+            ],
+            "position": "が04"
+        },
+        {
+            "aliases": [
+                "グリュンハール"
+            ],
+            "pen_names": [
+                "アイディス"
+            ],
+            "position": "が05"
+        },
+        {
+            "aliases": [
+                "PIANISSIMO"
+            ],
+            "pen_names": [
+                "ルーシア"
+            ],
+            "position": "が06"
+        },
+        {
+            "aliases": [
+                "本を描いてる屋さん"
+            ],
+            "pen_names": [
+                "星丿雫"
+            ],
+            "position": "が0708"
+        },
+        {
+            "aliases": [
+                "Cynthia"
+            ],
+            "pen_names": [
+                "桜木李杏"
+            ],
+            "position": "が09"
+        },
+        {
+            "aliases": [
+                "つきみ野黄昏プラザ"
+            ],
+            "pen_names": [
+                "ゆずピィ"
+            ],
+            "position": "が10"
+        },
+        {
+            "aliases": [
+                "Emerald May"
+            ],
+            "pen_names": [
+                "いおり"
+            ],
+            "position": "が11"
+        },
+        {
+            "aliases": [
+                "お華見会場"
+            ],
+            "pen_names": [
+                "阿亀華"
+            ],
+            "position": "が12"
+        },
+        {
+            "aliases": [
+                "ナトリニウム"
+            ],
+            "pen_names": [
+                "リニール"
+            ],
+            "position": "が13"
+        },
+        {
+            "aliases": [
+                "とろもち炉"
+            ],
+            "pen_names": [
+                "千里めると"
+            ],
+            "position": "が14"
+        },
+        {
+            "aliases": [
+                "幻想大膳寮"
+            ],
+            "pen_names": [
+                "土師大膳七曜"
+            ],
+            "position": "が15"
+        },
+        {
+            "aliases": [
+                "たかはま"
+            ],
+            "pen_names": [
+                "みかん飴"
+            ],
+            "position": "が16"
+        },
+        {
+            "aliases": [
+                "心病神社"
+            ],
+            "pen_names": [
+                "魅々熊"
+            ],
+            "position": "く0102"
+        },
+        {
+            "aliases": [
+                "地球侵略"
+            ],
+            "pen_names": [
+                "博士"
+            ],
+            "position": "く03"
+        },
+        {
+            "aliases": [
+                "空想デリバリー"
+            ],
+            "pen_names": [
+                "水沢メルカ"
+            ],
+            "position": "く04"
+        },
+        {
+            "aliases": [
+                "もちもちGarage"
+            ],
+            "pen_names": [
+                "もちお"
+            ],
+            "position": "く05"
+        },
+        {
+            "aliases": [
+                "お家で待っててね"
+            ],
+            "pen_names": [
+                "るすばん"
+            ],
+            "position": "く06"
+        },
+        {
+            "aliases": [
+                "七色快男児"
+            ],
+            "pen_names": [
+                "仁科将人"
+            ],
+            "position": "く07"
+        },
+        {
+            "aliases": [
+                "胡玉書厨"
+            ],
+            "pen_names": [
+                "胡玉"
+            ],
+            "position": "く08"
+        },
+        {
+            "aliases": [
+                "MSD-Works"
+            ],
+            "pen_names": [
+                "めしだ"
+            ],
+            "position": "く09"
+        },
+        {
+            "aliases": [
+                "七輪大社"
+            ],
+            "pen_names": [
+                "Y2"
+            ],
+            "position": "く10"
+        },
+        {
+            "aliases": [
+                "アルベダリン"
+            ],
+            "pen_names": [
+                "みかんポン"
+            ],
+            "position": "く11"
+        },
+        {
+            "aliases": [
+                "屑鉄おきば。"
+            ],
+            "pen_names": [
+                "黝無ニッケル"
+            ],
+            "position": "く12"
+        },
+        {
+            "aliases": [
+                "ロウズ自虐"
+            ],
+            "pen_names": [
+                "デンバット酒井風"
+            ],
+            "position": "く13"
+        },
+        {
+            "aliases": [
+                "型K式"
+            ],
+            "pen_names": [
+                "カタケイ"
+            ],
+            "position": "く1516"
+        },
+        {
+            "aliases": [
+                "みちく茶話会"
+            ],
+            "pen_names": [
+                "茶野みの"
+            ],
+            "position": "だ01"
+        },
+        {
+            "aliases": [
+                "Tc-401"
+            ],
+            "pen_names": [
+                "快速いわき行き"
+            ],
+            "position": "だ02"
+        },
+        {
+            "aliases": [
+                "おきし団"
+            ],
+            "pen_names": [
+                "おきし"
+            ],
+            "position": "だ03"
+        },
+        {
+            "aliases": [
+                "綺羅星の館"
+            ],
+            "pen_names": [
+                "諸星一"
+            ],
+            "position": "だ04"
+        },
+        {
+            "aliases": [
+                "えなじ～ぽていと"
+            ],
+            "pen_names": [
+                "芋丼"
+            ],
+            "position": "だ0506"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date, Participating circles: https://web.archive.org/web/20250613160029/https://yougakudann.dojin.com/splist.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "14_20250613020651_yougaku9hp.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250613020651/https://yougakudann.dojin.com/index.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

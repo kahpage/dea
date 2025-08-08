@@ -1,0 +1,95 @@
+{
+    "aliases": [
+        "C101",
+        "コミックマーケット101",
+        "Comiket 101",
+        "Comic Market 101"
+    ],
+    "dates": "2012.12.30 - 2012.12.31",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20230125004924/https://www2.comiket.co.jp/info-a/C101/C101distributions.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "101_CWC_C101.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20221229101630/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "101_CWC_C101L.png",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20221229101630/https://www.comiket.co.jp/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "101_C101CtlgWeb.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20230125004924/https://www2.comiket.co.jp/info-a/C101/C101distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "表紙：LAM／デザイン：カトウ　（サークル：雷雷公社）"
+        },
+        {
+            "path": "101_C101KamibukuroL.jpeg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20230125004924/https://www2.comiket.co.jp/info-a/C101/C101distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：蒼喬（サークル：理蒼郷）"
+        },
+        {
+            "path": "https://web.archive.org/web/20231127050807/https://www2.comiket.co.jp/info-c/C101/C101Appset.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20250405040850/https://www.comiket.co.jp/info-a/C100/C100distributions.html",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ],
+            "comments": "イラスト：桜ひより（サークル：ひよこサブレ）"
+        },
+        {
+            "path": "https://web.archive.org/web/20230720080945/https://www2.comiket.co.jp/info-a/C101/C101CtlgNotes.pdf",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20230720080945/https://www2.comiket.co.jp/info-a/C101/C101CtlgNotes.pdf",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

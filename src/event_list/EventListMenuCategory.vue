@@ -36,7 +36,6 @@ const props = defineProps({
 
 const eventGroups = computed(() => {
   if (!props.event_list_index.hasOwnProperty("@databases") || !props.event_list_index["@databases"]) {return [];}
-  console.log(props.event_list_index)
   
   return props.event_list_index["@databases"];
 });

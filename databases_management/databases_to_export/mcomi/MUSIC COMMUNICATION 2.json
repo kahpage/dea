@@ -1,0 +1,284 @@
+{
+    "aliases": [
+        "MUSIC COMMUNICATION 2",
+        "M-COMI2",
+        "Mコミ2"
+    ],
+    "dates": "2010.09.19",
+    "circles": [
+        {
+            "aliases": [
+                "ほりっくさーびす"
+            ],
+            "position": "Track.01,02"
+        },
+        {
+            "aliases": [
+                "Floating Cloud"
+            ],
+            "position": "Track.03"
+        },
+        {
+            "aliases": [
+                "ゆずぽんれぎおん"
+            ],
+            "position": "Track.04"
+        },
+        {
+            "aliases": [
+                "不知夜月～Izayoi Moon～"
+            ],
+            "position": "Track.05"
+        },
+        {
+            "aliases": [
+                "ペンギンレコード"
+            ],
+            "position": "Track.06"
+        },
+        {
+            "aliases": [
+                "幼女マエストロ"
+            ],
+            "position": "Track.07"
+        },
+        {
+            "aliases": [
+                "なつぼし制作委員会"
+            ],
+            "position": "Track.08"
+        },
+        {
+            "aliases": [
+                "ハーモスフィア"
+            ],
+            "position": "Track.09"
+        },
+        {
+            "aliases": [
+                "我侭☆王子"
+            ],
+            "position": "Track.10"
+        },
+        {
+            "aliases": [
+                "celestaria*"
+            ],
+            "position": "Track.11"
+        },
+        {
+            "aliases": [
+                "Lastart"
+            ],
+            "position": "Track.12"
+        },
+        {
+            "aliases": [
+                "Naturanotes"
+            ],
+            "position": "Track.13"
+        },
+        {
+            "aliases": [
+                "天心和風乙女団"
+            ],
+            "position": "Track.14"
+        },
+        {
+            "aliases": [
+                "L&E クリエイターズ"
+            ],
+            "position": "Track.15"
+        },
+        {
+            "aliases": [
+                "あにおん"
+            ],
+            "position": "Track.16"
+        },
+        {
+            "aliases": [
+                "桜ノ咲音響産業"
+            ],
+            "position": "Track.17"
+        },
+        {
+            "aliases": [
+                "ももみかん"
+            ],
+            "position": "Track.18"
+        },
+        {
+            "aliases": [
+                "ちょこれーとびーんず"
+            ],
+            "position": "Track.19"
+        },
+        {
+            "aliases": [
+                "flow:lie''s(旧fluorite)"
+            ],
+            "position": "Track.20"
+        },
+        {
+            "aliases": [
+                "神風小町"
+            ],
+            "position": "Track.21"
+        },
+        {
+            "aliases": [
+                "LC:AZE"
+            ],
+            "position": "Track.22,23"
+        },
+        {
+            "aliases": [
+                "HUMMING LIFE"
+            ],
+            "position": "Track.24"
+        },
+        {
+            "aliases": [
+                "Cerisier"
+            ],
+            "position": "Track.25"
+        },
+        {
+            "aliases": [
+                "Sprite Wing"
+            ],
+            "position": "Track.26"
+        },
+        {
+            "aliases": [
+                "Lunatico"
+            ],
+            "position": "Track.27"
+        },
+        {
+            "aliases": [
+                "Sound Barrage"
+            ],
+            "position": "Track.28"
+        },
+        {
+            "aliases": [
+                "霞屋本舗"
+            ],
+            "position": "Track.29"
+        },
+        {
+            "aliases": [
+                "東方紅楼夢実行委員会"
+            ],
+            "position": "Track.30"
+        },
+        {
+            "aliases": [
+                "AVSS"
+            ],
+            "position": "Track.31,32"
+        },
+        {
+            "aliases": [
+                "DESTINO"
+            ],
+            "position": "Track.33"
+        },
+        {
+            "aliases": [
+                "imagewave"
+            ],
+            "position": "Track.34"
+        },
+        {
+            "aliases": [
+                "Psychedelic Lodge"
+            ],
+            "position": "Track.35,36"
+        },
+        {
+            "aliases": [
+                "TO-MAX"
+            ],
+            "position": "Track.37"
+        },
+        {
+            "aliases": [
+                "Sound -R-"
+            ],
+            "position": "Track.38"
+        },
+        {
+            "aliases": [
+                "WAS Records"
+            ],
+            "position": "Track.39"
+        },
+        {
+            "aliases": [
+                "えびす食堂"
+            ],
+            "position": "Track.40"
+        },
+        {
+            "aliases": [
+                "ShokunHellharmonic Orchestra"
+            ],
+            "position": "委託"
+        },
+        {
+            "aliases": [
+                "TAMUSIC"
+            ],
+            "position": "委託"
+        },
+        {
+            "aliases": [
+                "Misty"
+            ],
+            "position": "委託"
+        },
+        {
+            "aliases": [
+                "Middle Islands"
+            ],
+            "position": "委託"
+        },
+        {
+            "aliases": [
+                "AYUTRICA"
+            ],
+            "position": "委託"
+        },
+        {
+            "aliases": [
+                "CHIBICCO　FOLK"
+            ],
+            "position": "委託"
+        },
+        {
+            "aliases": [
+                "音劇歌譚博覧会"
+            ],
+            "position": "委託"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://puellabyte.github.io/events",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        },
+        {
+            "source": "Participating circles: https://web.archive.org/web/20110901040543/http://m-comi.birdzberth.com/circle_list.html",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ]
+}

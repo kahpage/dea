@@ -12,8 +12,7 @@
           class="cd-event-link"
           :href="
             ['/dea/event_detail/#']
-              .concat(circle_db.event_ar_path)
-              .concat(circle_db.event_name)
+              .concat(circle_db.ar_path)
               .join('/')
           "
         >

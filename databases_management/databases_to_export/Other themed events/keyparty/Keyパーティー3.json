@@ -1,0 +1,56 @@
+{
+    "aliases": [
+        "Keyパーティー3",
+        "keyparty3"
+    ],
+    "dates": "2012.09.16",
+    "sources": [
+        {
+            "source": "Date: https://web.archive.org/web/20120120221722/http://mattari-an.net/keyparty/",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "3_20120120221722_titlelogo.gif",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20120120221722/http://mattari-an.net/keyparty/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "3_20120120221722_paper.jpg",
+            "sources": [
+                {
+                    "source": "https://web.archive.org/web/20120120221722/http://mattari-an.net/keyparty/",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "3_29939431_p0_master1200.jpg",
+            "sources": [
+                {
+                    "source": "https://www.pixiv.net/en/artworks/29939431",
+                    "type": [
+                        "Likely",
+                        "External"
+                    ]
+                }
+            ],
+            "comments": "Official (raw) catalog artwork for the event, as stated in the pixiv page description."
+        }
+    ],
+    "comments": "Participating circles page existed but was not saved."
+}

@@ -1,0 +1,109 @@
+{
+    "aliases": [
+        "幻想人形祭3",
+        "Gensou Ningyou Sai 3"
+    ],
+    "dates": "2019.09.22",
+    "circles": [
+        {
+            "aliases": [
+                "あぴゅあっ"
+            ],
+            "pen_names": [
+                "ぽんちゃん"
+            ],
+            "position": "人0102"
+        },
+        {
+            "aliases": [
+                "弓弦羽Konzert"
+            ],
+            "pen_names": [
+                "宿雪"
+            ],
+            "position": "人03"
+        },
+        {
+            "aliases": [
+                "利別ノ禊"
+            ],
+            "pen_names": [
+                "ナマ足"
+            ],
+            "position": "人04"
+        },
+        {
+            "aliases": [
+                "PIANISSIMO"
+            ],
+            "pen_names": [
+                "ルーシア"
+            ],
+            "position": "人05"
+        },
+        {
+            "aliases": [
+                "夕空18番街"
+            ],
+            "pen_names": [
+                "桐葉柚乃"
+            ],
+            "position": "人06"
+        },
+        {
+            "aliases": [
+                "作者の戯事"
+            ],
+            "pen_names": [
+                "作者"
+            ],
+            "position": "人07"
+        },
+        {
+            "aliases": [
+                "Atelier.800"
+            ],
+            "pen_names": [
+                "蟹沢ゆうき"
+            ],
+            "position": "人08"
+        },
+        {
+            "aliases": [
+                "鈴楽庵"
+            ],
+            "pen_names": [
+                "お鈴"
+            ],
+            "position": "人09"
+        },
+        {
+            "aliases": [
+                "スイミンヨクゾウシンザイ"
+            ],
+            "pen_names": [
+                "aaaaam0"
+            ],
+            "position": "人10"
+        },
+        {
+            "aliases": [
+                "rabbit3"
+            ],
+            "pen_names": [
+                "みと椿"
+            ],
+            "position": "人11"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date: https://shiosyakeyakini.info/touhouEvent/pb_event.php?id=52",
+            "type": [
+                "Likely",
+                "External"
+            ]
+        }
+    ],
+    "description": "Simultaneous to 幺樂団カァニバル！9."
+}

@@ -1,0 +1,1759 @@
+{
+    "aliases": [
+        "M3-04",
+        "M3-1999秋",
+        "M3-99秋"
+    ],
+    "dates": "1999.10.03",
+    "circles": [
+        {
+            "aliases": [
+                "海賊プロジェクト"
+            ],
+            "position": "A01",
+            "links": [
+                "http://www.platz.or.jp/~kaizoku/"
+            ],
+            "comments": "Genre: 音響 - ドラマ\nオリジナルCDドラマ多数とそのサウンドトラック"
+        },
+        {
+            "aliases": [
+                "RBC"
+            ],
+            "position": "A02",
+            "media": [
+                {
+                    "path": "04_cut_a02.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.t3.rim.or.jp/~j-kobari/rbc/"
+            ],
+            "comments": "Genre: 音響 - ドラマ\n創作音響劇(オリジナルドラマカセット・ドラマCD)製作販売"
+        },
+        {
+            "aliases": [
+                "ARC FOX"
+            ],
+            "position": "A03",
+            "media": [
+                {
+                    "path": "04_cut_a03.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.cam.hi-ho.ne.jp/~shuhohka"
+            ],
+            "comments": "Genre: 音響 - ドラマ\nオリジナル作品をCD・カセットで販売します"
+        },
+        {
+            "aliases": [
+                "ATM"
+            ],
+            "position": "A04",
+            "media": [
+                {
+                    "path": "04_cut_a04.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - ドラマ\nゲキガンガー3(後編)・紅茶王子&エヴァパロ2・オーフェン…のドラマをテープとMDで"
+        },
+        {
+            "aliases": [
+                "ユグドラシル"
+            ],
+            "position": "A05",
+            "media": [
+                {
+                    "path": "04_cut_a05.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - ドラマ\nFFチョコボのオリジナル放送劇をCDで販売"
+        },
+        {
+            "aliases": [
+                "D'z PARADISE"
+            ],
+            "position": "A06",
+            "media": [
+                {
+                    "path": "04_cut_a06.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - ドラマ\nゲーム/アニメなどのパロディドラマを中心としています"
+        },
+        {
+            "aliases": [
+                "スコーピオン"
+            ],
+            "position": "A07",
+            "links": [
+                "http://member.nifty.ne.jp/EINS/index.HTM"
+            ],
+            "comments": "Genre: 音響 - ドラマ\nTVアニメ、ラジオ等で活動する声優も所属している「声の表現者集団」です"
+        },
+        {
+            "aliases": [
+                "Colors of Wind"
+            ],
+            "position": "A08",
+            "media": [
+                {
+                    "path": "04_cut_a08.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - ドラマ\nよろずの作品を原作を基にしてラジオドラマをつくる"
+        },
+        {
+            "aliases": [
+                "LEGEND-TEN"
+            ],
+            "position": "A09",
+            "media": [
+                {
+                    "path": "04_cut_a09.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - ドラマ\nドラマテープ・CD販売。オリジナルからマンガまでやってます"
+        },
+        {
+            "aliases": [
+                "(K)NONAKA"
+            ],
+            "position": "A10",
+            "media": [
+                {
+                    "path": "04_cut_a10.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - ドラマ\nオリジナルドラマ&歌のCD(CD-R)"
+        },
+        {
+            "aliases": [
+                "わいわい・かんぱに～"
+            ],
+            "position": "A11",
+            "media": [
+                {
+                    "path": "04_cut_a11.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - ドラマ\nオリジナルドラマ"
+        },
+        {
+            "aliases": [
+                "SayYouClub"
+            ],
+            "position": "A12",
+            "comments": "Genre: 音響 - ドラマ\nPC98用ゲーム「ラブエスカレーター」のドラマ"
+        },
+        {
+            "aliases": [
+                "スタジオ☆ルート"
+            ],
+            "position": "A13",
+            "media": [
+                {
+                    "path": "04_cut_a13.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - ドラマ\n不詳"
+        },
+        {
+            "aliases": [
+                "悪食倶楽部"
+            ],
+            "position": "B01",
+            "media": [
+                {
+                    "path": "04_cut_b01.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - その他 / 映像\nアニメ、特撮、ゲーム、その他のコラージュをカセットテープで発行"
+        },
+        {
+            "aliases": [
+                "O.M.E."
+            ],
+            "position": "B02",
+            "media": [
+                {
+                    "path": "04_cut_b02.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.JLKhp.koto.tokyo.jp/~OME"
+            ],
+            "comments": "Genre: 音響 - その他 / 映像\nおバカの先駆けバカCD(唄、ドラマ等)、コスプレ写真も100枚以上収録"
+        },
+        {
+            "aliases": [
+                "えすぷろだくしょん"
+            ],
+            "position": "B03",
+            "media": [
+                {
+                    "path": "04_cut_b03.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - その他 / 映像\n自主制作の特撮・ドラマ作品をビデオで販売"
+        },
+        {
+            "aliases": [
+                "ぽりごん堂"
+            ],
+            "position": "B04",
+            "media": [
+                {
+                    "path": "04_cut_b04.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.ops.dti.ne.jp/~somnium"
+            ],
+            "comments": "Genre: 音響 - その他 / 映像\nデジタルフィギュア(3DCGによる模型データ)の販売"
+        },
+        {
+            "aliases": [
+                "下目黒映像研究会"
+            ],
+            "position": "B05",
+            "media": [
+                {
+                    "path": "04_cut_b05.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - その他 / 映像\n未定(スタッフの募集を考えています)"
+        },
+        {
+            "aliases": [
+                "3rd party"
+            ],
+            "position": "B06",
+            "media": [
+                {
+                    "path": "04_cut_b06.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.geocities.co.jp/SiliconValley/7129/"
+            ],
+            "comments": "Genre: 音響 - その他 / 映像\nテクノ的映像・音楽"
+        },
+        {
+            "aliases": [
+                "シャープネル"
+            ],
+            "position": "C01",
+            "media": [
+                {
+                    "path": "04_cut_c01.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.sharpnel.com/"
+            ],
+            "comments": "Genre: 音響 - カバー\nアニメ・エロゲ・プロレスなどの高速テクノCDを発行"
+        },
+        {
+            "aliases": [
+                "ハイパーリッチ"
+            ],
+            "position": "C02",
+            "media": [
+                {
+                    "path": "04_cut_c02.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.hyperrich.com"
+            ],
+            "comments": "Genre: 音響 - カバー\n海外リリースも果たしたあのハイパーリッチ暴電軍団がM3見参!!"
+        },
+        {
+            "aliases": [
+                "mushi.net"
+            ],
+            "position": "C03",
+            "media": [
+                {
+                    "path": "04_cut_c03.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://mushi.net/"
+            ],
+            "comments": "Genre: 音響 - カバー\nイースを中心としたゲーム音楽系オリジナル、アレンジ、パロディー等の音楽CD"
+        },
+        {
+            "aliases": [
+                "「う」",
+                "Whoopee!records"
+            ],
+            "position": "C04",
+            "media": [
+                {
+                    "path": "04_cut_c04.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www2.big.or.jp/~whoopee/"
+            ],
+            "comments": "Note: Manually added 'Whoopee!records' alias but the booth was labelled '「う」'\nGenre: 音響 - カバー\n夏コミでリリースしたテレビ神奈川モノを持って行きますよ"
+        },
+        {
+            "aliases": [
+                "「そ」",
+                "リンクスtrax"
+            ],
+            "position": "C05",
+            "media": [
+                {
+                    "path": "04_cut_c05.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.linkclub.or.jp/%7Enacky/ping/"
+            ],
+            "comments": "Note: Manually added 'リンクスtrax' alias but the booth was labelled '「そ」'\nGenre: 音響 - カバー\ntechno系"
+        },
+        {
+            "aliases": [
+                "SABUminal"
+            ],
+            "position": "C06",
+            "media": [
+                {
+                    "path": "04_cut_c06.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - カバー\nアニパロ・コスプレ・アニソンバンドのCDとライブビデオを発行"
+        },
+        {
+            "aliases": [
+                "VISIONNERZ"
+            ],
+            "position": "C07",
+            "media": [
+                {
+                    "path": "04_cut_c07.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - カバー\nSC-88Pro用のMIDIデータ&テープ販売、PMA-5製作の曲展示"
+        },
+        {
+            "aliases": [
+                "電遊音楽カンパニー"
+            ],
+            "position": "C08",
+            "media": [
+                {
+                    "path": "04_cut_c08.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - カバー\nレトロゲーム音楽アレンジをCD-Rで発行"
+        },
+        {
+            "aliases": [
+                "ハイパーべるーヴ"
+            ],
+            "position": "C09",
+            "media": [
+                {
+                    "path": "04_cut_c09.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.din.or.jp/~mirawi/"
+            ],
+            "comments": "Genre: 音響 - カバー\nONE&KanonアレンジをプレスCDで。女性ボーカルあり。ジャズ、クラブ、フュージョン系アレンジ"
+        },
+        {
+            "aliases": [
+                "Peppermint SOFT"
+            ],
+            "position": "C10",
+            "media": [
+                {
+                    "path": "04_cut_c10.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.interq.or.jp/www1/krh/psg/index.html"
+            ],
+            "comments": "Genre: 音響 - カバー\nFN音源による「痕」音楽集後編 PC-98用ディスク版とCD版、その他オリジナルCD"
+        },
+        {
+            "aliases": [
+                "Hypertuned"
+            ],
+            "position": "C11",
+            "media": [
+                {
+                    "path": "04_cut_c11.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.netlaputa.ne.jp/~h_tuned/"
+            ],
+            "comments": "Genre: 音響 - カバー\nゲームアレンジ、一部オリジナルミュージックをCD-Rで発行。新作あり"
+        },
+        {
+            "aliases": [
+                "M3準備会スペース"
+            ],
+            "position": "C12",
+            "comments": "Genre: 音響 - カバー\nM3準備会からのお知らせ他ペーパーを配布予定です"
+        },
+        {
+            "aliases": [
+                "不気味社"
+            ],
+            "position": "C13",
+            "media": [
+                {
+                    "path": "04_cut_c13.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.bukimi.com"
+            ],
+            "comments": "Genre: 音響 - カバー\nアニソン等を男声合唱でカバー"
+        },
+        {
+            "aliases": [
+                "不気味社音響基礎研究所"
+            ],
+            "position": "C14",
+            "media": [
+                {
+                    "path": "04_cut_c14.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.bukimi.com/sfl/"
+            ],
+            "comments": "Genre: 音響 - カバー\nオーケストラのためのオリジナル作品ライブCD・ヴィデオ、スコアなど販売"
+        },
+        {
+            "aliases": [
+                "矩形派・工場医院会"
+            ],
+            "position": "C15",
+            "media": [
+                {
+                    "path": "04_cut_c15.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www1.cds.ne.jp/~jitome/kukeiha/"
+            ],
+            "comments": "Genre: 音響 - カバー\nゲームミュージックアレンジとオリジナルをCD-Rで"
+        },
+        {
+            "aliases": [
+                "determinable"
+            ],
+            "position": "D01",
+            "media": [
+                {
+                    "path": "04_cut_d01.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://home9.highway.ne.jp/deter/deter.htm"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n創作テクノ&ポップスをCD-Rで販売予定"
+        },
+        {
+            "aliases": [
+                "I.O.S."
+            ],
+            "position": "D02",
+            "media": [
+                {
+                    "path": "04_cut_d02.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://member.nifty.ne.jp/IOS/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nテクノを中心とした創作インスト。打ち込み+生楽器。演劇音楽も展開"
+        },
+        {
+            "aliases": [
+                "創作集団クエルフ"
+            ],
+            "position": "D03",
+            "media": [
+                {
+                    "path": "04_cut_d03.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://i.am/quelf/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nボーカル入りオリジナル曲集及びゲームアレンジCDの販売"
+        },
+        {
+            "aliases": [
+                "One Breath"
+            ],
+            "position": "D04",
+            "media": [
+                {
+                    "path": "04_cut_d04.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.asahi-net.or.jp/~db6t-kso/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nジャンルはPOPS。オリジナル曲をCD、CD-Rにて販売"
+        },
+        {
+            "aliases": [
+                "マリオ音楽グループ 岡崎支部"
+            ],
+            "position": "D05",
+            "media": [
+                {
+                    "path": "04_cut_d05.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - オリジナル\n草笛 - 草笛太郎 エコロジー"
+        },
+        {
+            "aliases": [
+                "歌楽特奏隊"
+            ],
+            "position": "D06",
+            "media": [
+                {
+                    "path": "04_cut_d06.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.din.or.jp/~katoku/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n様々なジャンルのオリジナルミュージックを、CD・MD・テープなどで発行"
+        },
+        {
+            "aliases": [
+                "Fahrenheit"
+            ],
+            "position": "D07",
+            "media": [
+                {
+                    "path": "04_cut_d07.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.asahi-net.or.jp/~bz8m-kwmt"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n歌ものメインのスピードポップバンド。メロディアスなオリジナルCD"
+        },
+        {
+            "aliases": [
+                "Sync Think Tank"
+            ],
+            "position": "D08",
+            "media": [
+                {
+                    "path": "04_cut_d08.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.alpha-net.ne.jp/users/aissia/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nビヨビヨ系高速テクノ@平均BPM145くらいかな…"
+        },
+        {
+            "aliases": [
+                "バードマン"
+            ],
+            "position": "D09",
+            "media": [
+                {
+                    "path": "04_cut_d09.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.geocities.co.jp/Playtown-Dice/1307/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nドリーミィなファミテクノCD-Rとビデオを販売します"
+        },
+        {
+            "aliases": [
+                "Sagittarian"
+            ],
+            "position": "D10",
+            "media": [
+                {
+                    "path": "04_cut_d10.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.asahi-net.or.jp/~bq4m-hrt/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nゲームミュージックっぽいオリジナルをCD-Rで発行"
+        },
+        {
+            "aliases": [
+                "Big South Valley Music"
+            ],
+            "position": "D11",
+            "media": [
+                {
+                    "path": "04_cut_d11.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://bsvmusic.pos.to/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nニューエイジ/ヒーリング系ピアノソロや演劇、ゲームのオリジナルサウンドトラック他をCD-Rで"
+        },
+        {
+            "aliases": [
+                "ACTIVE GAMERS"
+            ],
+            "position": "D12",
+            "media": [
+                {
+                    "path": "04_cut_d12.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://member.nifty.ne.jp/nt3/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nNT-3、OSATOHの共同制作CD第2弾、出るか?!"
+        },
+        {
+            "aliases": [
+                "MIDI KIDS"
+            ],
+            "position": "D13",
+            "media": [
+                {
+                    "path": "04_cut_d13.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - オリジナル\n日本古代史をテーマにした、ニューエイジミュージックをCD-Rで"
+        },
+        {
+            "aliases": [
+                "Abyss"
+            ],
+            "position": "D14",
+            "media": [
+                {
+                    "path": "04_cut_d14.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.bekkoame.ne.jp/ha/ari/abyss"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nコスプレーヤー「あり」率いるバンド。2ndアルバム発売予定"
+        },
+        {
+            "aliases": [
+                "Q&Aレコード"
+            ],
+            "position": "D15",
+            "media": [
+                {
+                    "path": "04_cut_d15.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.cute.or.jp/QANDA/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nテクノとフォークを融合した四畳半テクノのオリジナルCD"
+        },
+        {
+            "aliases": [
+                "EST"
+            ],
+            "position": "D16",
+            "media": [
+                {
+                    "path": "04_cut_d16.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルのGirl's PopをCD-Rで発行"
+        },
+        {
+            "aliases": [
+                "締切地獄友の会"
+            ],
+            "position": "D17",
+            "media": [
+                {
+                    "path": "04_cut_d17.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.m98.ne.jp/~ayami/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nアイドルユニットの新CDをCD-Rで<"
+        },
+        {
+            "aliases": [
+                "カクウ"
+            ],
+            "position": "D18",
+            "media": [
+                {
+                    "path": "04_cut_d18.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://fweb.midi.co.jp/~kakuu/index.html"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n架空的浮遊性音楽。ライヴカセット・MD「方舟船上大宴会」を販売"
+        },
+        {
+            "aliases": [
+                "M&Ms"
+            ],
+            "position": "D19",
+            "media": [
+                {
+                    "path": "04_cut_d19.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.linkclub.or.jp/~m-tsuri/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nテクノ中心なCD-R出します"
+        },
+        {
+            "aliases": [
+                "コダケ録音"
+            ],
+            "position": "D20",
+            "media": [
+                {
+                    "path": "04_cut_d20.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルスコアによる管弦楽曲、歌曲その他をCDにて発行"
+        },
+        {
+            "aliases": [
+                "ARUMIS"
+            ],
+            "position": "D21",
+            "media": [
+                {
+                    "path": "04_cut_d21.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://members.xoom.com/yukine/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n全曲オリジナルの参加型オムニバスCD-Rおよび個人CD/CD-Rの販売"
+        },
+        {
+            "aliases": [
+                "RIVER END"
+            ],
+            "position": "D22",
+            "media": [
+                {
+                    "path": "04_cut_d22.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルのハードロック・ヘヴィメタルをCD-RとMDで頒布します"
+        },
+        {
+            "aliases": [
+                "@MIDI's people"
+            ],
+            "position": "D23",
+            "media": [
+                {
+                    "path": "04_cut_d23.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.tri-ace.co.jp/atmidi/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nあらゆるジャンルの曲をインストで手がけるグループです。お試しあれ"
+        },
+        {
+            "aliases": [
+                "ねるねるねるげ"
+            ],
+            "position": "D24",
+            "media": [
+                {
+                    "path": "04_cut_d24.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.neruge.xiaolin.to/~neruge/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nTo Heartや種村有菜作品のイメージソングをCDで配布"
+        },
+        {
+            "aliases": [
+                "MYU-RECORDINGS"
+            ],
+            "position": "D25-26",
+            "media": [
+                {
+                    "path": "04_cut_d25d26.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.myu-recordings.com/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nコンピューターミュージック系オリジナルCD"
+        },
+        {
+            "aliases": [
+                "WATER CLOCK"
+            ],
+            "position": "D27",
+            "media": [
+                {
+                    "path": "04_cut_d27.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.yoshihiro-kikawa.com/water/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nぽかぽかポップスを創っているKoyoとYoshihiroの2人組音楽ユニット"
+        },
+        {
+            "aliases": [
+                "GROUNDZERO"
+            ],
+            "position": "D28",
+            "media": [
+                {
+                    "path": "04_cut_d28.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.geocities.co.jp/Hollywood/4248/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nX68000で作成した高速ガバ・その他のCD"
+        },
+        {
+            "aliases": [
+                "GFK RECORDS"
+            ],
+            "position": "D29",
+            "media": [
+                {
+                    "path": "04_cut_d29.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://members.tripod.com/~gfk_rec"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nテクノのオリジナル曲をCD-Rで発行"
+        },
+        {
+            "aliases": [
+                "4U"
+            ],
+            "position": "D30",
+            "links": [
+                "http://www1.cds.ne.jp/~jitome/kukeiha/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n矩形派別名テクノ系ユニット4U、CDアリマス"
+        },
+        {
+            "aliases": [
+                "反響波動"
+            ],
+            "position": "D31",
+            "media": [
+                {
+                    "path": "04_cut_d31.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "comments": "Genre: 音響 - オリジナル\nテクノ・ノイズなどのトランス音楽をギターとシンセで演奏 CD-Rとカセットテープで発表"
+        },
+        {
+            "aliases": [
+                "翠伎廠"
+            ],
+            "position": "D34",
+            "media": [
+                {
+                    "path": "04_cut_d34.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www2.shiojiri.ne.jp/~suigishou/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルのデジロック、テクノ、アコースティック等をCD-Rにて"
+        },
+        {
+            "aliases": [
+                "北葛西スタヂヲ ～エコパンク50計画～"
+            ],
+            "position": "D32D33",
+            "media": [
+                {
+                    "path": "04_cut_d32d33.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.alpha-net.ne.jp/users2/hahaha/mokuji.html"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n日本竜太の新曲を発表。VJソフトの発表。イメージビデオの発表北葛西スタヂヲ制作のリアルヘッドマイクの発表"
+        },
+        {
+            "aliases": [
+                "野草の家"
+            ],
+            "position": "D37",
+            "media": [
+                {
+                    "path": "04_cut_d37.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://member.nifty.ne.jp/soju/tir_home.html"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n女性ヴォーカル、オリジナル。心にやさしい幻想的な歌です"
+        },
+        {
+            "aliases": [
+                "JIS企画"
+            ],
+            "position": "D38",
+            "media": [
+                {
+                    "path": "04_cut_d38.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://member.nifty.ne.jp/jaq/music/rune.html"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nシンフォ・ユニット「Rune」のCD販売"
+        },
+        {
+            "aliases": [
+                "PECH RECORDINGS"
+            ],
+            "position": "D39",
+            "media": [
+                {
+                    "path": "04_cut_d39.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.cnet-ta.ne.jp/t/techno/pech/index2.html"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nMODでTECHNOを作っているレーベルです"
+        },
+        {
+            "aliases": [
+                "Currach Records"
+            ],
+            "position": "D40",
+            "media": [
+                {
+                    "path": "04_cut_d40.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://members.aol.com/welcomjsc/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルCD発行"
+        },
+        {
+            "aliases": [
+                "AP Sounds"
+            ],
+            "position": "D41",
+            "media": [
+                {
+                    "path": "04_cut_d41.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www1.freeweb.ne.jp/~aps/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n所属アーティストNATUMIのオリジナルアルバムとRPGをテーマにしたイメージアルバムをCD-Rで発行"
+        },
+        {
+            "aliases": [
+                "noki-ろっく"
+            ],
+            "position": "D42",
+            "media": [
+                {
+                    "path": "04_cut_d42.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http:www2.nerv.co.jp/noki/index.html"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nオリジナルの女性ボーカル曲とドラマのプレスCDやCD-Rがメインのサークルです"
+        },
+        {
+            "aliases": [
+                "LOTS."
+            ],
+            "position": "D43",
+            "media": [
+                {
+                    "path": "04_cut_d43.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.lilt.net/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n99夏発表のオムニバスCD-R「BORBOLETA」他。おなじみの方もはじめての方も"
+        },
+        {
+            "aliases": [
+                "mplayers"
+            ],
+            "position": "D44",
+            "media": [
+                {
+                    "path": "04_cut_d44.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.ask.ne.jp/~mplayers/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nメンバーのオリジナルによるオムニバス CD(CD-R)を販売。最新作『junk.test 録』('99.8.13発売)ほか"
+        },
+        {
+            "aliases": [
+                "Saparak"
+            ],
+            "position": "D45",
+            "media": [
+                {
+                    "path": "04_cut_d45.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.yo.rim.or.jp/~sapara/"
+            ],
+            "comments": "Genre: 音響 - オリジナル\nアコースティック系女性Vocal POPS"
+        },
+        {
+            "aliases": [
+                "まいまいる～む"
+            ],
+            "position": "D46",
+            "media": [
+                {
+                    "path": "04_cut_d46.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://maimai.panic.or.jp"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n女性ボーカルものをCD、CD-Rで"
+        },
+        {
+            "aliases": [
+                "トルバドールレコード"
+            ],
+            "position": "D47-48",
+            "media": [
+                {
+                    "path": "04_cut_d47d48.jpg",
+                    "sources": [
+                        {
+                            "source": "https://www.m3net.jp/event/1999s.php",
+                            "type": [
+                                "Reliable",
+                                "Official"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://hot.netizen.or.jp/~trouba-r"
+            ],
+            "comments": "Genre: 音響 - オリジナル\n元宇宙ヤング小林氏のソロアルバムCDが出るか?も?ぞ?"
+        }
+    ],
+    "sources": [
+        {
+            "source": "Date, Participating circles: https://www.m3net.jp/event/1999f.php",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "04_m3_04.jpg",
+            "sources": [
+                {
+                    "source": "https://www.m3net.jp/event/1999f.php",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "04_cut_na.jpg",
+            "sources": [
+                {
+                    "source": "https://www.m3net.jp/event/1999f.php",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}

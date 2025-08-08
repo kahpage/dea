@@ -1,0 +1,38 @@
+{
+    "aliases": [
+        "VOCALOID STREET 11",
+        "ボーカロイドストリート11",
+        "ボカスト11"
+    ],
+    "dates": "2025.01.12 → CANCELLED/MOVED?",
+    "sources": [
+        {
+            "source": "Date: https://x.com/voca_st/status/1855500314629316867",
+            "type": [
+                "Reliable",
+                "Official"
+            ]
+        },
+        {
+            "source": "Cancelled, perhaps moved to Sendai and rescheduled (likely, see color theme): 1. the announement tweet was very early (https://x.com/voca_st/status/1855500314629316867), 2. never been referenced on website (https://web.archive.org/web/20250314073352/https://voca-st.com/)",
+            "type": [
+                "Doubtful",
+                "Official"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "path": "11_GcAPCuQakAA9x7n.png",
+            "sources": [
+                {
+                    "source": "https://x.com/voca_st/status/1855500314629316867",
+                    "type": [
+                        "Reliable",
+                        "Official"
+                    ]
+                }
+            ]
+        }
+    ]
+}
