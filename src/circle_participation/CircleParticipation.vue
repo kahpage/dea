@@ -1,7 +1,7 @@
 <script setup>
 import { useVirtualList } from "@vueuse/core";
 import { computed, useTemplateRef, markRaw } from "vue";
-import { PATH_DB_PUBLIC } from "@/assets/utils.js";
+import { asyncsleep, PATH_DB_PUBLIC } from "@/assets/utils.js";
 import { ref } from "vue";
 import circle_raw_compact_index from "@/assets/static_databases/circle_participation_compact_index.json"; // Static database import
 import PopUpManager from "../components/PopUpManager.vue";
@@ -153,7 +153,7 @@ function onSearchUpdate(event) {
 function activateExtensiveSearch() {
   if (search_state.value[0] !== "Disabled" && search_state.value[0] !== "Error") {
     console.warn(
-      "activateExtensiveSearch was called while Deep Search is already activated or loading."
+      "activateExtensiveSearch was called while Deep Search is already enabled or loading."
     );
     return; // Do not activate if already enabled or loading
   }
@@ -190,7 +190,7 @@ async function fetch_extensive_circle_index() {
   }
   search_state.value = ["Loading", "parsing"]; // Set the state to loading with the count of fetched parts
 
-  await new Promise((resolve) => setTimeout(resolve, 1000)); // wait 1 sec
+  await asyncsleep(1000); // wait 1 sec
   // Parse the concatenated JSON string
   try {
     circle_raw_extensive_index.value = JSON.parse(raw_json);
@@ -228,7 +228,7 @@ function popupCircleDetails(circle_partial_db) {
 
   <div class="ds-header">
     <div v-if="search_state[0] == 'Disabled'">
-      Circle extensive search is not activated. Searching circle names and event names only.  <br />
+      Circle extensive search is not enabled. Searching circle names and event names only.  <br />
       <button class="ds-button" @click="activateExtensiveSearch" title="Activating will download a rather large file.">
         Enable Circle Extensive Search
       </button>
@@ -249,7 +249,7 @@ function popupCircleDetails(circle_partial_db) {
         </span>
     </div>
     <div v-if="search_state[0] == 'Enabled'">
-      Circle Extensive Search is activated. Searching in more fields.
+      Circle Extensive Search is enabled. Now searching in more fields.
     </div>
   </div>
 
