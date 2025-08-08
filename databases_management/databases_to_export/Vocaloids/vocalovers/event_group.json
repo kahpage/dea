@@ -13,7 +13,8 @@
     "events": {
         "VOCALOID LOVERS": {
             "index": 0,
-            "dates": "2012.01.08"
+            "dates": "2012.01.08",
+            "circle_count": 2
         }
     }
 }

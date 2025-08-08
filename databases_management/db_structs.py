@@ -339,6 +339,7 @@ class EventGroup:
             events_compact[event.aliases[0]] = {
                 "index": i,  # Index in the list of events
                 "dates": event.dates,
+                "circle_count": len(event.circles) if event.circles else None,
             }
         eg_json["events"] = events_compact
             
@@ -363,10 +364,10 @@ class EventGroup:
         
         # load events too
         events: list[Event] = []
-        for alias0 in eg_raw.get("events", {}):
-            # index, dates = eg_raw["events"][alias0]["index"], eg_raw["events"][alias0]["dates"]
+        for event_alias0 in eg_raw.get("events", {}):
+            # index, dates = eg_raw["events"][event_alias0]["index"], eg_raw["events"][event_alias0]["dates"]
 
-            event_file_path = folder / f"{alias0}.json"
+            event_file_path = folder / f"{event_alias0}.json"
             with event_file_path.open("r", encoding="utf-8") as ef:
                 event_raw = json.load(ef)
             
@@ -378,7 +379,6 @@ class EventGroup:
                
         return EventGroup(
             aliases=eg_raw["aliases"],
-            # events=[Event.load_from_json(event) for event in eg_raw.get("events", [])],
             events=events if is_to_add(events) else [],
             sources=sources if is_to_add(sources) else None,
             media=media if is_to_add(media) else None,
@@ -393,3 +393,8 @@ if __name__ == '__main__':
 
     with (folder / "eg_test.json").open("w", encoding="utf-8") as f:
         json.dump(eg.get_json(), f, ensure_ascii=False, indent=4)
+
+
+    # TODO now: 
+    # - change export_databases
+    # - rq: EventDetail.vue's function get_event_db(response_data) is where the correct event db was searched for

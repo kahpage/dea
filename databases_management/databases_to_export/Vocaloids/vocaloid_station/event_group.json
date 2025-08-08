@@ -11,7 +11,8 @@
     "events": {
         "VOCALOID STATION": {
             "index": 0,
-            "dates": "2011.10.02"
+            "dates": "2011.10.02",
+            "circle_count": 25
         }
     }
 }

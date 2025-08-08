@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 from typing import Any
 from dataclasses import dataclass, field
+from db_structs import is_eg_db
 
 # =========== User variable definitions ===========
 
@@ -20,33 +21,21 @@ DB_FILE_ENCODING = "utf-8"
 
 STATIC_JSON_INDENT: int | None = None # None to remove indent, int otherwise (e.g. 4)
 
-def is_database_folder(folder_path: Path) -> bool:
-    """Returns whether path is (valid) database folder: contains a .json file with same name as parent.
-    Won't test if the json file has correct format."""
-    if not folder_path.exists() or not folder_path.is_dir():
-        return False
-    
-    folder_name = folder_path.name
-    db_file_path = folder_path / f"{folder_name}.json"
-    if not db_file_path.exists() or not db_file_path.is_file():
-        return False
-    
-    return True
-
 def clean_database_to_event_group(content: dict[str, Any]) -> dict[str, Any]:
     """Retrieve only content relevant to the event list."""
     out_dict: dict[str, Any] = {}
     out_dict["aliases"] = content["aliases"]
+    out_dict["events"] = content.get("events", [])
 
-    if "events" in content:
-        events_out: list[dict[str, Any]] = []
-        for i in range(len(content["events"])):
-            event_out = {}
-            event_out["aliases"] = content["events"][i]["aliases"]
-            if "dates" in content["events"][i]:
-                event_out["dates"] = content["events"][i]["dates"]
-            events_out.append(event_out)
-        out_dict["events"] = events_out
+    # if "events" in content:
+    #     events_out: list[dict[str, Any]] = []
+    #     for i in range(len(content["events"])):
+    #         event_out = {}
+    #         event_out["aliases"] = content["events"][i]["aliases"]
+    #         if "dates" in content["events"][i]:
+    #             event_out["dates"] = content["events"][i]["dates"]
+    #         events_out.append(event_out)
+    #     out_dict["events"] = events_out
     
     return out_dict
 
@@ -98,14 +87,13 @@ if __name__ == '__main__':
         eg_db_this_folder: dict[str, Any] = {"@databases": {}, "@count": 0}
         for dir in (dir for dir in folder.iterdir() if dir.is_dir()):
             folder_name = dir.name
-            if not is_database_folder(dir):
-                # Normal folder
+            if not is_eg_db(dir): # Normal folder
                 index_this_folder[folder_name], eg_db_this_folder[folder_name] = recursive_database_indexing(dir)
                 index_this_folder["@count"] += index_this_folder[folder_name]["@count"] # Increase count
                 eg_db_this_folder["@count"] += index_this_folder[folder_name]["@count"]
-            else:
-                # Database folder, try opening it
-                db_file_path = dir / f'{dir.name}.json'
+            else: # Database folder
+                # try opening eg
+                db_file_path = dir / 'event_group.json'
                 try:
                     with db_file_path.open("r", encoding="utf-8") as f:
                         content = json.load(f)
@@ -118,8 +106,8 @@ if __name__ == '__main__':
                     eg_db_this_folder["@databases"][dir.name] = clean_database_to_event_group(content)
                     eg_db_this_folder["@count"] += 1
                     print(f"db file found at {db_file_path}")
-                except Exception as e:
-                    print(f"WARNING: json file {db_file_path} 's format is invalid ! {e}")
+                except Exception as ex:
+                    print(f"WARNING: json file {db_file_path} 's format is invalid ! ({ex})")
         return index_this_folder, eg_db_this_folder
 
     def recursive_copy_from_database_index(index: dict[str, Any], root_path_list: list[str] = []) -> None:
@@ -127,16 +115,24 @@ if __name__ == '__main__':
         for db_name in index.get("@databases", []):
             # For databases of current folder
             db_folder_path = PATH_databases_to_export / "/".join(root_path_list) / db_name
-            db_file_path = db_folder_path / f"{db_name}.json"
-            new_db_file_path = PATH_public_databases  / "/".join(root_path_list) / db_name / f"{db_name}.json" # new path
+            db_file_path = db_folder_path / "event_group.json"
+            new_db_file_path = PATH_public_databases  / "/".join(root_path_list) / db_name / "event_group.json" # new path
             
             print(f"mkdir {new_db_file_path.parent} for json database ...")
             new_db_file_path.parent.mkdir(parents=True, exist_ok=True)
 
-            with db_file_path.open("r+", encoding="utf-8") as f:
+            # Open event_group.json
+            with db_file_path.open("r", encoding="utf-8") as f:
                 old_content = json.load(f)
+            # Export event_group.json
             with new_db_file_path.open("w+", encoding="utf-8") as f:
                 json.dump(old_content, f, ensure_ascii=False, indent=STATIC_JSON_INDENT) # remove indent
+            # Export the events too
+            for event_alias0 in old_content.get("events", {}):
+                with (db_folder_path / f"{event_alias0}.json").open("r", encoding="utf-8") as f:
+                    event_content = json.load(f)
+                with (new_db_file_path.parent / f"{event_alias0}.json").open("w+", encoding="utf-8") as f:
+                    json.dump(event_content, f, ensure_ascii=False, indent=STATIC_JSON_INDENT)
 
             new_media_path = PATH_served_databases / "/".join(root_path_list) / db_name / "media" # new media path
             print(f"mkdir {new_media_path} ...")
@@ -197,18 +193,21 @@ if __name__ == '__main__':
         for db_name in index.get("@databases", []): # db_name is the eg
             # For databases of current folder
             db_folder_path = PATH_databases_to_export / "/".join(root_path_list) / db_name
-            db_file_path = db_folder_path / f"{db_name}.json"
+            db_file_path = db_folder_path / "event_group.json"
 
             with db_file_path.open("r+", encoding="utf-8") as f:
-                event_content = json.load(f)
+                eg_content = json.load(f)
 
-            if "events" not in event_content or not event_content["events"]:
+            if "events" not in eg_content or not eg_content["events"]:
                 continue
             
             this_circle_index[db_name] = {} # if dict: event_group, if list: event and elems are circles
             this_circle_compact_index[db_name] = {}
 
-            for event in event_content["events"]:
+            for event_alias0 in eg_content["events"]:
+                with (db_folder_path / f"{event_alias0}.json").open("r+", encoding="utf-8") as ef:
+                    event = json.load(ef)
+
                 if "aliases" not in event or not event["aliases"]:
                     continue
                 if "circles" not in event or not event['circles']:
@@ -240,16 +239,26 @@ if __name__ == '__main__':
         return this_circle_index, this_circle_compact_index
 
     circle_index, circle_compact_index = recursive_circle_index(database_index)
-    circle_extensive_index_file_path = PATH_public_databases / "circle_participation_extensive_index.json" # in databases_served/
+
+    # === Extensive circle index ===
+    circle_extensive_index_folder = PATH_public_databases # in databases_served/
+    circle_extensive_index_folder.mkdir(parents=True, exist_ok=True)
+    print(f"Saving extensive circle database files in {circle_extensive_index_folder}...")
+    CHUNK_SIZE = 1_000_000  # 1 million characters per file
+    total_content = json.dumps(circle_index, ensure_ascii=False, indent=STATIC_JSON_INDENT)
+    chunk_count = len(total_content)//CHUNK_SIZE + 1
+    for i in range(0, chunk_count):
+        chunk_file_path = circle_extensive_index_folder / f"circle_participation_extensive_index.json_{i}"
+        chunk = total_content[i * CHUNK_SIZE: (i+1) * CHUNK_SIZE]
+        print(f"Writing chunk {i} of size {len(chunk)} characters to {chunk_file_path}...")
+        with chunk_file_path.open("w+", encoding="utf-8") as f:
+            f.write(chunk)
+                
+    # === Compact circle index ===
+    circle_compact_index["@extensive_chunk_count"] = chunk_count # add the chunk count to the compact index
     circle_compact_index_file_path = PATH_static_databases / "circle_participation_compact_index.json"     # in assets/static_databases/
-    
-    circle_extensive_index_file_path.parent.mkdir(parents=True, exist_ok=True)
-    print(f"Saving circle database file at {circle_extensive_index_file_path}...")
-    with circle_extensive_index_file_path.open("w+", encoding="utf-8") as f:
-        json.dump(circle_index, f, ensure_ascii=False, indent=STATIC_JSON_INDENT)
     
     circle_compact_index_file_path.parent.mkdir(parents=True, exist_ok=True)
     print(f"Saving compact circle database file at {circle_compact_index_file_path}...")
     with circle_compact_index_file_path.open("w+", encoding="utf-8") as f:
         json.dump(circle_compact_index, f, ensure_ascii=False, indent=STATIC_JSON_INDENT)
-

@@ -9,11 +9,13 @@
     "events": {
         "まいこみ東方祭": {
             "index": 0,
-            "dates": "2010.09.19"
+            "dates": "2010.09.19",
+            "circle_count": null
         },
         "まいばらこみゅにけっと2010": {
             "index": 1,
-            "dates": "2010.09.19"
+            "dates": "2010.09.19",
+            "circle_count": null
         }
     }
 }

@@ -3,18 +3,17 @@
 ... ============================================================ -->
 
 <script setup>
-import { ref } from "vue";
-import axiosInstance from "@/axios/axios_config.js";
 import EventCategory from "@/components/EventCategory.vue";
 import EventListMenuCategory from "./EventListMenuCategory.vue";
 import Navigation from "@/components/Navigation.vue"
 
 import event_list_index from "@/assets/static_databases/event_list_index.json"; // Static database import
 
-const baseUrl = import.meta.env.VITE_APP_BASE_URL;
 </script>
 
 <template>
+  <!-- event_list_index = {{ event_list_index }} -->
+
   <!-- Title -->
   <head>
     <title>dea | Event List</title>

@@ -47,63 +47,78 @@
     "events": {
         "幺樂団カァニバル！1": {
             "index": 0,
-            "dates": "2010.09.05"
+            "dates": "2010.09.05",
+            "circle_count": 81
         },
         "幺樂団カァニバル！2": {
             "index": 1,
-            "dates": "2011.05.22"
+            "dates": "2011.05.22",
+            "circle_count": 72
         },
         "幺樂団カァニバル！3": {
             "index": 2,
-            "dates": "2012.05.06"
+            "dates": "2012.05.06",
+            "circle_count": 80
         },
         "幺樂団カァニバル！4": {
             "index": 3,
-            "dates": "2013.04.21"
+            "dates": "2013.04.21",
+            "circle_count": null
         },
         "幺樂団カァニバル！5": {
             "index": 4,
-            "dates": "2014.09.14"
+            "dates": "2014.09.14",
+            "circle_count": 39
         },
         "幺樂団カァニバル！6": {
             "index": 5,
-            "dates": "2016.11.12"
+            "dates": "2016.11.12",
+            "circle_count": null
         },
         "幺樂団カァニバル！7": {
             "index": 6,
-            "dates": "2017.11.11"
+            "dates": "2017.11.11",
+            "circle_count": 54
         },
         "幺樂団カァニバル！8": {
             "index": 7,
-            "dates": "2018.09.22"
+            "dates": "2018.09.22",
+            "circle_count": 59
         },
         "幺樂団カァニバル！9": {
             "index": 8,
-            "dates": "2019.09.22"
+            "dates": "2019.09.22",
+            "circle_count": 96
         },
         "幺樂団カァニバル！10": {
             "index": 9,
-            "dates": "2020.09.26"
+            "dates": "2020.09.26",
+            "circle_count": 29
         },
         "幺樂団カァニバル！10R": {
             "index": 10,
-            "dates": "2021.02.27 CANCELLED"
+            "dates": "2021.02.27 CANCELLED",
+            "circle_count": null
         },
         "幺樂団カァニバル！11": {
             "index": 11,
-            "dates": "2022.03.27"
+            "dates": "2022.03.27",
+            "circle_count": 36
         },
         "幺樂団カァニバル！12": {
             "index": 12,
-            "dates": "2023.07.09"
+            "dates": "2023.07.09",
+            "circle_count": 36
         },
         "幺樂団カァニバル！13": {
             "index": 13,
-            "dates": "2024.07.15"
+            "dates": "2024.07.15",
+            "circle_count": 60
         },
         "幺樂団カァニバル！14": {
             "index": 14,
-            "dates": "2025.06.29"
+            "dates": "2025.06.29",
+            "circle_count": 54
         }
     }
 }

@@ -17,7 +17,7 @@
         <section :id="i"></section>
         <EventGroupTable :event_group_db="val" :eg_ar_path="ar_path.concat(i)" :event_index="i" />
       </div>
-
+      
       <!-- Sub categories -->
       <div v-for="(sub_categ_desc, i) in eventCategChildrenListIndexes" :key="i">
         <EventCategory

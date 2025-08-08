@@ -1,16 +1,18 @@
 <script setup>
 import { useVirtualList } from "@vueuse/core";
 import { computed, useTemplateRef, markRaw } from "vue";
-import { public_path } from "@/assets/utils.js";
+import { PATH_DB_PUBLIC } from "@/assets/utils.js";
 import { ref } from "vue";
 import circle_raw_compact_index from "@/assets/static_databases/circle_participation_compact_index.json"; // Static database import
 import PopUpManager from "../components/PopUpManager.vue";
 import PopUpCirclePartialdetails from "./PopUpCirclePartialdetails.vue";
 import axiosInstance from "@/axios/axios_config.js";
 
-const search_state = ref("Disabled"); // Disabled, Loading, Enabled, Error
+const search_state = ref(["Disabled"]); // ["Disabled"], ["Loading", (int) current fetch counter | "parsing"], ["Enabled"], ["Error"]
+
 const keywords = ref("");
 const circle_raw_extensive_index = ref({}); // Extensive index variant
+const extensive_index_count = circle_raw_compact_index.hasOwnProperty("@extensive_chunk_count") ? circle_raw_compact_index["@extensive_chunk_count"] : null;
 
 function recursive_fill_circle_extensive_index(current_raw_index, ar_path) {
   // Extensive index variant
@@ -21,7 +23,7 @@ function recursive_fill_circle_extensive_index(current_raw_index, ar_path) {
       /* Content is array: key is an event name */
       let raw = current_raw_index[key];
       for (const circle_i in raw) {
-        raw[circle_i]["event_ar_path"] = ar_path.concat(key); // add ar_path
+        raw[circle_i]["ar_path"] = ar_path.concat(key); // add ar_path
         raw[circle_i]["event_name"] = key; // add event name
       }
 
@@ -82,7 +84,7 @@ const circle_compact_index = computed(() => {
 });
 
 const circle_index = computed(() => {
-  if (search_state.value === "Enabled") {
+  if (search_state.value[0] === "Enabled") {
     // Extensive index
     return circle_extensive_index.value;
   } else {
@@ -149,36 +151,53 @@ function onSearchUpdate(event) {
 
 /* Deep Search Activation */
 function activateExtensiveSearch() {
-  if (search_state.value !== "Disabled" && search_state.value !== "Error") {
+  if (search_state.value[0] !== "Disabled" && search_state.value[0] !== "Error") {
     console.warn(
       "activateExtensiveSearch was called while Deep Search is already activated or loading."
     );
     return; // Do not activate if already enabled or loading
   }
 
-  search_state.value = "Loading";
-  fetch_circle_index();
+  search_state.value = ["Loading", 0];
+  fetch_extensive_circle_index();
 }
-
-async function fetch_circle_index() {
-  /* Fetch the (extensive) circle index */
+async function fetch_extensive_circle_index() {
   circle_raw_extensive_index.value = {}; // Reset the index
-
-  // Construct the URL
-  let index_url = [`${public_path}databases`]
+  // Construct the base URL
+  let base_url = [PATH_DB_PUBLIC]
     .concat(["circle_participation_extensive_index.json"])
     .join("/");
-  console.log(`Fetching ${index_url}...`); // Log the fetched data
 
+  let raw_json = ""
+  
+  // For i in 0 extensive_index_count, console log i
+  for (let i = 0; i < extensive_index_count; i++) {
+    let part_url = `${base_url}_${i}`
+    
+    try {
+      const response = await axiosInstance.get(part_url, {
+        responseType: 'text' // Get raw text instead of parsed JSON
+      });
+      search_state.value = ["Loading", i]; // Set the state to enabled after fetching
+
+      console.log(`NEW FETCHED: (${part_url})`, ); // Log the fetched data
+      raw_json = raw_json + response.data; // Append content
+    } catch (error) {
+      search_state.value = ["Error"]; // Set the state to error if fetching fails
+      console.error("Error fetching data:", error); // Log any errors that occur during the fetch
+    }
+  
+  }
+  search_state.value = ["Loading", "parsing"]; // Set the state to loading with the count of fetched parts
+
+  await new Promise((resolve) => setTimeout(resolve, 1000)); // wait 1 sec
+  // Parse the concatenated JSON string
   try {
-    const response = await axiosInstance.get(index_url);
-
-    console.log("NEW FETCHED: ", response); // Log the fetched data
-    circle_raw_extensive_index.value = response.data; // Set the fetched data to the index
-    search_state.value = "Enabled"; // Set the state to enabled after fetching
+    circle_raw_extensive_index.value = JSON.parse(raw_json);
+    search_state.value = ["Enabled"];
   } catch (error) {
-    search_state.value = "Error"; // Set the state to error if fetching fails
-    console.error("Error fetching data:", error); // Log any errors that occur during the fetch
+    search_state.value = ["Error"];
+    console.error("Error parsing concatenated JSON:", error);
   }
 }
 
@@ -188,7 +207,7 @@ function popupCircleDetails(circle_partial_db) {
   // console.log("circle_partial_db :", circle_partial_db);
   popUpManager.value.addPopup(markRaw(PopUpCirclePartialdetails), {
     circle_db: circle_partial_db,
-    db_path: circle_partial_db.event_ar_path,
+    db_path: circle_partial_db.ar_path,
   });
 }
 </script>
@@ -196,7 +215,7 @@ function popupCircleDetails(circle_partial_db) {
 <template>
   <!-- Title -->
   <head>
-    <title v-if="search_state == 'Enabled'">
+    <title v-if="search_state[0] == 'Enabled'">
       dea | Circle Participation (extensive search)
     </title>
     <title v-else>dea | Circle Participation</title>
@@ -208,23 +227,28 @@ function popupCircleDetails(circle_partial_db) {
   </div>
 
   <div class="ds-header">
-    <div v-if="search_state == 'Disabled'">
+    <div v-if="search_state[0] == 'Disabled'">
       Circle extensive search is not activated. Searching circle names and event names only.  <br />
       <button class="ds-button" @click="activateExtensiveSearch" title="Activating will download a rather large file.">
         Enable Circle Extensive Search
       </button>
     </div>
-    <div v-if="search_state == 'Error'">
+    <div v-if="search_state[0] == 'Error'">
       ERROR. Try again ?
       <button class="ds-button" @click="activateExtensiveSearch">
         Activate Circle Extensive Search
       </button>
     </div>
-    <div v-if="search_state == 'Loading'">
-      Circle Extensive Search is loading (downloading
-      <i>circle_participation_index.json</i>) ...
+    <div v-if="search_state[0] == 'Loading'">
+      Circle Extensive Search is loading (
+        <span v-if="search_state[1] == 'parsing'">
+          parsing extended circle index, might take a while ) ...
+        </span>
+        <span v-else>
+          downloading <i>circle_participation_index.json_{{ search_state[1] }} / {{ extensive_index_count }}</i> ) ...
+        </span>
     </div>
-    <div v-if="search_state == 'Enabled'">
+    <div v-if="search_state[0] == 'Enabled'">
       Circle Extensive Search is activated. Searching in more fields.
     </div>
   </div>
@@ -280,7 +304,7 @@ function popupCircleDetails(circle_partial_db) {
                         class="cp-event-link"
                         :href="
                           ['/dea/event_detail/#']
-                            .concat(circle.data.event_ar_path)
+                            .concat(circle.data.ar_path)
                             .join('/')
                         "
                       >

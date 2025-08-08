@@ -18,5 +18,6 @@
         This project aims to become a documented archive of doujin event content.<br> 
         The scope is currently mainly focused on doujin music-related events.
     </div>
+    
 </template>
 

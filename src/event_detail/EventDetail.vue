@@ -6,7 +6,7 @@
 import { ref, computed, watchEffect } from "vue";
 import { useRoute } from "vue-router";
 import axiosInstance from "@/axios/axios_config.js";
-import { makeLinksClickable, public_path } from "@/assets/utils.js";
+import { makeLinksClickable, PATH_DB_PUBLIC, PATH_DB_SERVED } from "@/assets/utils.js";
 import ToggleShow from "@/components/ToggleShow.vue";
 import { useTemplateRef, markRaw } from "vue";
 
@@ -25,62 +25,25 @@ const db_path_args = computed(() => {
   return props.db_path ? props.db_path.split("/").filter(Boolean) : [];
 });
 
-const db_path_description = computed(() => {
-  // file path description
-  return db_path_args.value.slice(0, -1);
-});
-
-const db_path_event_name = computed(() => {
-  // event entry inside the json
-  return db_path_args.value.length > 0
-    ? db_path_args.value[db_path_args.value.length - 1]
-    : null;
-});
-
 async function fetch_db() {
   // Construct the URL using the parameters
   event_data.value = {};
-  let db_name = db_path_description.value[db_path_description.value.length - 1];
-  let ar_path_more = [`${public_path}databases`]
-    .concat(db_path_description.value)
-    .concat([`${db_name}.json`]);
-  let db_url = ar_path_more.join("/"); // complete path
+  let db_url = [PATH_DB_PUBLIC].concat(db_path_args.value).join("/") + ".json";
   console.log(`Fetching ${db_url}...`); // Log the fetched data
 
   try {
     const response = await axiosInstance.get(db_url);
     if (!response.data.hasOwnProperty("aliases")) {
+      console.error("Invalid response.");
       return; // Check if the response is invalid
     }
 
     console.log("NEW FETCHED: ", response.data); // Log the fetched data
-    return get_event_db(response.data);
+    
+    event_data.value = response.data;
+
   } catch (error) {
     console.error("Error fetching data:", error); // Log any errors that occur during the fetch
-  }
-}
-
-function get_event_db(response_data) {
-  if (!response_data.hasOwnProperty("events")) {
-    return; // Check if the response is invalid
-  }
-  if (!Array.isArray(response_data["events"])) {
-    return; // Check if the response is invalid
-  }
-
-  for (const cur_event of response_data["events"]) {
-    if (
-      !cur_event.hasOwnProperty("aliases") ||
-      !Array.isArray(cur_event["aliases"])
-    ) {
-      continue; // Check if the response is invalid
-    }
-    if (!cur_event["aliases"].includes(db_path_event_name.value)) {
-      continue;
-    }
-
-    event_data.value = cur_event;
-    return;
   }
 }
 
@@ -89,23 +52,20 @@ const popUpManager = useTemplateRef("popUpManager");
 function popupCircleDetails(circle_db) {
   popUpManager.value.addPopup(markRaw(PopUpCircledetails), {
     circle_db: circle_db,
-    db_path: db_path_description.value,
+    db_path: db_path_args.value.slice(0, -1),
   });
 }
 
 // Watch for changes in db_path_description and db_path_event_name
 watchEffect(async () => {
-  if (db_path_description.value && db_path_event_name.value) {
+  if (db_path_args.value) {
     console.log("Url change detected, now fetching new event data...");
-    const data = await fetch_db(
-      db_path_description.value,
-      db_path_event_name.value
-    );
+    const data = await fetch_db();
   }
 });
 </script>
 
-<template>
+<template> 
   <!-- Title -->
   <head>
     <title v-if="event_data?.aliases">
@@ -260,8 +220,8 @@ watchEffect(async () => {
         <MediaGrid
           :media_list="event_data.media"
           :media_folder_path="
-            [`${public_path}databases`]
-              .concat(db_path_description)
+            [PATH_DB_SERVED]
+              .concat(db_path_args.slice(0, -1))
               .concat('media')
               .join('/')
           "
