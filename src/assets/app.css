@@ -1,0 +1,25 @@
+/* ============================================================ ..
+    Definitions related to the "app" wrapper (header etc)
+.. ============================================================ */
+
+/* App.vue related styling */
+@import "./common.css";
+
+:root {
+  --color-navigation-background: var(--greyish-dark) 
+}
+
+body {
+    background-color: var(--greyish-deep);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Default styling */
+#app {
+    color: var(--color-font-1);
+    margin: 0 auto;
+    /* padding: 2rem; */
+    font-weight: normal;
+}
