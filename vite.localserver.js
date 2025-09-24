@@ -11,12 +11,12 @@ export function createDatabasesServedServer(__dirname) {
     name: "serve-databases-served",
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
-        if (req.url && req.url.startsWith("/dea/served")) {
+        if (req.url && req.url.startsWith("/dea/dea_db")) {
           console.log(`Intercepted request: ${req.url}`);
           
           // Remove the /dea/served prefix
-          let requestPath = req.url.replace("/dea/served", "");
-          
+          let requestPath = req.url.replace("/dea/dea_db", "");
+
           // Remove query parameters if any
           const queryIndex = requestPath.indexOf('?');
           if (queryIndex !== -1) {
@@ -31,7 +31,7 @@ export function createDatabasesServedServer(__dirname) {
             requestPath = requestPath.startsWith('/') ? requestPath.slice(1) : requestPath;
           }
           
-          const filePath = requestPath ? resolve(__dirname, "databases_management", "databases_served", requestPath) : resolve(__dirname, "databases_management", "databases_served");
+          const filePath = requestPath ? resolve(__dirname, "..", "dea_db", requestPath) : resolve(__dirname, "databases_management", "databases_served");
           
           console.log(`Serving databases_served request: ${req.url} -> ${filePath}`);
           

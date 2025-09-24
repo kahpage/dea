@@ -6,7 +6,7 @@ const python_executable = 'python'; // Command to use python
 (async () => {
   try {
     console.log('Running export_databases.py...');
-    await execa('python', ['./databases_management/export_databases.py'], {
+    await execa('python', ['../dea_db/export_databases.py'], {
       env: {
         ...process.env,
         PYTHONUTF8: '1',
