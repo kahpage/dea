@@ -226,7 +226,6 @@ watchEffect(async () => {
     </ToggleShow>
 
     <!-- ===== MEDIA ===== -->
-
     <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_data">
       <MediaGrid
         :media_list="event_data.media"
