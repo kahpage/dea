@@ -11,10 +11,8 @@ import { onMounted, ref } from "vue";
 
 import { PATH_DB_EXPORTED } from "@/assets/utils.js";
 
-
-// import event_list_index from "@/assets/static_databases/event_list_index.json"; // Static database import
-let event_list_index = ref({});
-let event_list_index_state = ref('loading'); // 'loading', 'loaded', 'error'
+const event_list_index = ref({});
+const event_list_index_state = ref('loading'); // 'loading', 'loaded', 'error'
 
 async function fetch_event_list() {
   // Construct the URL
