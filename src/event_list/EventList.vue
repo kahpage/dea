@@ -9,34 +9,32 @@ import Navigation from "@/components/Navigation.vue"
 import axiosInstance from "@/axios/axios_config.js";
 import { onMounted, ref } from "vue";
 
-import { PATH_DB_EXPORTED } from "@/assets/utils.js";
+import { PATH_DB_EXPORTED, fetch_url } from "@/assets/utils.js";
 
 const event_list_index = ref({});
 const event_list_index_state = ref('loading'); // 'loading', 'loaded', 'error'
 
-async function fetch_event_list() {
-  // Construct the URL
-  event_list_index.value = {};
-  event_list_index_state.value = 'loading';
-  let db_url = [PATH_DB_EXPORTED].concat('event_list_index.json').join("/");
-  console.log(`Fetching ${db_url}...`); // Log the fetched data
-
-  try {
-    const response = await axiosInstance.get(db_url);
-    console.log("NEW FETCHED: ", response.data); // Log the fetched data
-    
-    event_list_index.value = response.data;
-    event_list_index_state.value = 'loaded';
-
-  } catch (error) {
-    event_list_index_state.value = 'error';
-    console.error("Error fetching data:", error); // Log any errors that occur during the fetch
-  }
+async function fetch_el_db() {
+  fetch_url({
+    url: [PATH_DB_EXPORTED].concat('event_list_index.json').join("/"),
+    axiosInstance: axiosInstance,
+    on_start: () => {
+      event_list_index.value = {};
+      event_list_index_state.value = "loading";
+    },
+    on_success: (fetched_data) => {
+      event_list_index.value = fetched_data;
+      event_list_index_state.value = "loaded";
+    },
+    on_error: (error) => {
+      event_list_index_state.value = "error";
+    },
+  });
 }
 
 /* Run fetch_event_list on component mount */
-onMounted(() => {
-  fetch_event_list();
+onMounted(async () => {
+  await fetch_el_db();
 });
 </script>
 
@@ -55,12 +53,12 @@ onMounted(() => {
       <div class="header-title">Event list</div>
       <div class="header">A list of various events in the database.</div>
       
-      <div class="el-message" v-if="event_list_index_state === 'loading'">
+      <div class="status-message" v-if="event_list_index_state === 'loading'">
         Fetching event list...
       </div>
-      <div class="el-message" v-else-if="event_list_index_state === 'error'">
+      <div class="status-message" v-else-if="event_list_index_state === 'error'">
         Failed to fetch event list.
-        <button class="el-button" @click="fetch_event_list" title="Retry fetching event list.">
+        <button class="retry-button" @click="fetch_event_list" title="Retry fetching event list.">
           Retry
         </button>
       </div>
@@ -123,7 +121,7 @@ a.el-menu-title {
   color: var(--purple-deep);
 }
 
-.el-button {
+.retry-button {
   background-color: var(--purple-deeper);
   color: var(--greyish-light);
   border: none;
@@ -134,7 +132,7 @@ a.el-menu-title {
   font-weight: 600;
 }
 
-.el-message {
+.status-message {
   padding: 0 1em;
   color: var(--purple-dark);
   font-size: medium;

@@ -1,15 +1,15 @@
 <script setup>
 import { useVirtualList } from "@vueuse/core";
 import { computed, useTemplateRef, markRaw } from "vue";
-import { asyncsleep, PATH_DB_PUBLIC } from "@/assets/utils.js";
+import { asyncsleep, PATH_DB_EXPORTED } from "@/assets/utils.js";
 import { ref } from "vue";
-import circle_raw_compact_index from "@/assets/static_databases/circle_participation_compact_index.json"; // Static database import
-import PopUpManager from "../components/PopUpManager.vue";
+// import circle_raw_compact_index from "@/assets/static_databases/circle_participation_compact_index.json"; // Static database import
+import PopUpManager from "@/components/PopUpManager.vue";
 import PopUpCirclePartialdetails from "./PopUpCirclePartialdetails.vue";
 import axiosInstance from "@/axios/axios_config.js";
 
 const search_state = ref(["Disabled"]); // ["Disabled"], ["Loading", (int) current fetch counter | "parsing"], ["Enabled"], ["Error"]
-
+let circle_raw_compact_index = {}; // Compact index variant
 const keywords = ref("");
 const circle_raw_extensive_index = ref({}); // Extensive index variant
 const extensive_index_count = circle_raw_compact_index.hasOwnProperty("@extensive_chunk_count") ? circle_raw_compact_index["@extensive_chunk_count"] : null;
@@ -164,7 +164,7 @@ function activateExtensiveSearch() {
 async function fetch_extensive_circle_index() {
   circle_raw_extensive_index.value = {}; // Reset the index
   // Construct the base URL
-  let base_url = [PATH_DB_PUBLIC]
+  let base_url = [PATH_DB_EXPORTED]
     .concat(["circle_participation_extensive_index.json"])
     .join("/");
 

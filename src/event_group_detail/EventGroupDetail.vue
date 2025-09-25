@@ -4,19 +4,18 @@
 
 <script setup>
 import { ref, computed, watchEffect } from "vue";
-import { useRoute } from "vue-router";
 import axiosInstance from "@/axios/axios_config.js";
 import {
   makeLinksClickable,
   PATH_DB_TO_EXPORT,
-  PATH_DB_EXPORTED
+  PATH_DB_EXPORTED,
+  fetch_url,
 } from "@/assets/utils.js";
 import EventGroupTable from "@/components/EventGroupTable.vue";
 import ToggleShow from "@/components/ToggleShow.vue";
 import BarChart from "@/components/BarChart.vue";
 import MediaGrid from "@/components/MediaGrid.vue";
 
-const route = useRoute();
 const props = defineProps({
   db_path: String,
 });
@@ -24,32 +23,28 @@ const props = defineProps({
 const event_group_data = ref(null);
 const event_group_data_state = ref("loading"); // 'loading', 'loaded', 'error'
 
-async function fetch_db() {
-  // Construct the URL using the parameters
-  event_group_data.value = {};
-  event_group_data_state.value = "loading";
-  let ar_path_more = [PATH_DB_EXPORTED]
-    .concat(db_path_args.value)
-    .concat([`event_group.json`]);
-  let db_url = ar_path_more.join("/"); // complete path
-  console.log(`Fetching ${db_url}...`); // Log the fetched data
-
-  try {
-    const response = await axiosInstance.get(db_url);
-    if (!response.data.hasOwnProperty("aliases")) {
-      throw new Error("Invalid data format: 'aliases' property missing");
-    }
-
-    console.log("NEW FETCHED: ", response.data); // Log the fetched data
-    if (!response.data.hasOwnProperty("aliases")) {
-      throw new Error("Invalid data format: 'aliases' property missing");
-    }
-    event_group_data.value = response.data;
-    event_group_data_state.value = "loaded";
-  } catch (error) {
-    event_group_data_state.value = "error";
-    console.error("Error fetching data:", error); // Log any errors that occur during the fetch
-  }
+async function fetch_eg_db() {
+  fetch_url({
+    url: [PATH_DB_EXPORTED]
+      .concat(db_path_args.value)
+      .concat([`event_group.json`])
+      .join("/"),
+    axiosInstance: axiosInstance,
+    on_start: () => {
+      event_group_data.value = {};
+      event_group_data_state.value = "loading";
+    },
+    on_success: (fetched_data) => {
+      if (!fetched_data.hasOwnProperty("aliases")) {
+        throw new Error("Invalid data format: 'aliases' property missing");
+      }
+      event_group_data.value = fetched_data;
+      event_group_data_state.value = "loaded";
+    },
+    on_error: (error) => {
+      event_group_data_state.value = "error";
+    },
+  });
 }
 
 const media_list = computed(() => {
@@ -70,7 +65,9 @@ const db_path_args = computed(() => {
 watchEffect(async () => {
   if (db_path_args.value) {
     console.log("Url change detected, now fetching new event data...");
-    const data = await fetch_db(db_path_args.value);
+    if (props.db_path) {
+      await fetch_eg_db();
+    }
   }
 });
 </script>
@@ -89,22 +86,14 @@ watchEffect(async () => {
     Invalid database to fetch: "{{ props.db_path }}"
   </div>
   <div v-else>
-    <div
-      class="eg-message"
-      v-if="
-        event_group_data_state == 'loading'
-      "
-    >
+    <div class="status-message" v-if="event_group_data_state == 'loading'">
       Loading database {{ props.db_path }}...
     </div>
-    <div
-      class="eg-message"
-      v-else-if="event_group_data_state == 'error'"
-    >
+    <div class="status-message" v-else-if="event_group_data_state == 'error'">
       Failed to fetch event group data.
       <button
-        class="eg-button"
-        @click="fetch_db"
+        class="retry-button"
+        @click="fetch_eg_db"
         title="Retry fetching event group data."
       >
         Retry
@@ -204,21 +193,4 @@ watchEffect(async () => {
 
 <style scoped>
 @import "@/assets/common.css";
-
-.eg-button {
-  background-color: var(--purple-deeper);
-  color: var(--greyish-light);
-  border: none;
-  padding: 0.5em 1em;
-  border-radius: 0.5em;
-  cursor: pointer;
-  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2);
-  font-weight: 600;
-}
-
-.eg-message {
-  padding: 0 1em;
-  color: var(--purple-dark);
-  font-size: medium;
-}
 </style>
