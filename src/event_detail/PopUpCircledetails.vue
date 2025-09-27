@@ -30,7 +30,7 @@
 
       <div v-if="circle_db.hasOwnProperty('media')">
         <span class="info-name">Media:</span>
-        <MediaGrid :media_list="circle_db.media" :media_folder_path="[PATH_DB_SERVED].concat(db_path).concat(['media']).join('/')"/>
+        <MediaGrid :media_list="circle_db.media" :media_folder_path="[PATH_DB_TO_EXPORT].concat(db_path).concat(['media']).join('/')"/>
       </div>
 
     </div>
@@ -39,8 +39,8 @@
 
 <script setup>
 import PopUpGeneric from '../components/PopUpGeneric.vue';
-import {makeLinksClickable, PATH_DB_SERVED} from "@/assets/utils.js";
 import MediaGrid from '../components/MediaGrid.vue';
+import {makeLinksClickable, PATH_DB_TO_EXPORT} from "@/assets/utils.js";
 
 const props = defineProps({
   circle_db: {

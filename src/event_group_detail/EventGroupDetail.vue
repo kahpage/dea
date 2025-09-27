@@ -4,21 +4,48 @@
 
 <script setup>
 import { ref, computed, watchEffect } from "vue";
-import { useRoute } from "vue-router";
 import axiosInstance from "@/axios/axios_config.js";
-import { makeLinksClickable, PATH_DB_PUBLIC } from "@/assets/utils.js";
+import {
+  makeLinksClickable,
+  PATH_DB_TO_EXPORT,
+  PATH_DB_EXPORTED,
+  fetch_url,
+} from "@/assets/utils.js";
 import EventGroupTable from "@/components/EventGroupTable.vue";
 import ToggleShow from "@/components/ToggleShow.vue";
-import BarChart from "../components/BarChart.vue";
-import MediaGrid from "../components/MediaGrid.vue";
-import { PATH_DB_SERVED } from "../assets/utils";
+import BarChart from "@/components/BarChart.vue";
+import MediaGrid from "@/components/MediaGrid.vue";
 
-const route = useRoute();
 const props = defineProps({
   db_path: String,
 });
 
 const event_group_data = ref(null);
+const event_group_data_state = ref("loading"); // 'loading', 'loaded', 'error'
+
+async function fetch_eg_db() {
+  fetch_url({
+    url: [PATH_DB_EXPORTED]
+      .concat(db_path_args.value)
+      .concat([`event_group.json`])
+      .join("/"),
+    axiosInstance: axiosInstance,
+    on_start: () => {
+      event_group_data.value = {};
+      event_group_data_state.value = "loading";
+    },
+    on_success: (fetched_data) => {
+      if (!fetched_data.hasOwnProperty("aliases")) {
+        throw new Error("Invalid data format: 'aliases' property missing");
+      }
+      event_group_data.value = fetched_data;
+      event_group_data_state.value = "loaded";
+    },
+    on_error: (error) => {
+      event_group_data_state.value = "error";
+    },
+  });
+}
 
 const media_list = computed(() => {
   if (
@@ -34,36 +61,13 @@ const db_path_args = computed(() => {
   return props.db_path ? props.db_path.split("/").filter(Boolean) : [];
 });
 
-async function fetch_db() {
-  // Construct the URL using the parameters
-  event_group_data.value = {};
-  let ar_path_more = [PATH_DB_PUBLIC]
-    .concat(db_path_args.value)
-    .concat([`event_group.json`]);
-  let db_url = ar_path_more.join("/"); // complete path
-  console.log(`Fetching ${db_url}...`); // Log the fetched data
-
-  try {
-    const response = await axiosInstance.get(db_url);
-    if (!response.data.hasOwnProperty("aliases")) {
-      return; // Check if the response is invalid
-    }
-
-    console.log("NEW FETCHED: ", response.data); // Log the fetched data
-    if (!response.data.hasOwnProperty("aliases")) {
-      return;
-    }
-    event_group_data.value = response.data;
-  } catch (error) {
-    console.error("Error fetching data:", error); // Log any errors that occur during the fetch
-  }
-}
-
 // Watch for changes in db_path_args and db_path_event_name
 watchEffect(async () => {
   if (db_path_args.value) {
     console.log("Url change detected, now fetching new event data...");
-    const data = await fetch_db(db_path_args.value);
+    if (props.db_path) {
+      await fetch_eg_db();
+    }
   }
 });
 </script>
@@ -82,10 +86,18 @@ watchEffect(async () => {
     Invalid database to fetch: "{{ props.db_path }}"
   </div>
   <div v-else>
-    <div
-      v-if="!event_group_data || !event_group_data.hasOwnProperty('aliases')"
-    >
+    <div class="status-message" v-if="event_group_data_state == 'loading'">
       Loading database {{ props.db_path }}...
+    </div>
+    <div class="status-message" v-else-if="event_group_data_state == 'error'">
+      Failed to fetch event group data.
+      <button
+        class="retry-button"
+        @click="fetch_eg_db"
+        title="Retry fetching event group data."
+      >
+        Retry
+      </button>
     </div>
     <div v-else>
       <!-- ===== EVENT GROUP DB FETCHED ===== -->
@@ -143,7 +155,7 @@ watchEffect(async () => {
         <MediaGrid
           :media_list="media_list"
           :media_folder_path="
-            [PATH_DB_SERVED].concat(db_path_args).concat(['media']).join('/')
+            [PATH_DB_TO_EXPORT].concat(db_path_args).concat(['media']).join('/')
           "
         />
       </ToggleShow>
@@ -168,7 +180,7 @@ watchEffect(async () => {
         <BarChart
           :data="
             Object.keys(event_group_data.events).map((e) => ({
-              value: event_group_data.events[e].circle_count, 
+              value: event_group_data.events[e].circle_count,
               name: e,
             }))
           "
