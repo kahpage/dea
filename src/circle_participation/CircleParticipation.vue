@@ -7,10 +7,11 @@ import { ref } from "vue";
 import PopUpManager from "@/components/PopUpManager.vue";
 import PopUpCirclePartialdetails from "./PopUpCirclePartialdetails.vue";
 import axiosInstance from "@/axios/axios_config.js";
+import ToggleSwitch from "@/components/ToggleSwitch.vue";
 
 const keywords = ref("");
 const metadata = ref({});
-const raw_jsons = ref({compact: [], extensive: []}); // Raw JSON parts
+const raw_jsons = ref({ compact: [], extensive: [] }); // Raw JSON parts
 const circle_raw_compact_index = ref({}); // Compact index variant
 const circle_raw_extensive_index = ref({}); // Extensive index variant
 const circle_compact_index = ref([]);
@@ -19,6 +20,8 @@ const index_state = ref(["Idle"]);
 // None (metadata only): ["Loading"], // ["Loading"], ["Loaded"], ["Error"]
 // compact: ["cLoading", (int) current fetch counter], ["cParsing"], ["cLoaded"], ["cError"]
 // extensive: ["eLoading", (int) current fetch counter'], ["eParsing"], ["eLoaded"], ["eError"]
+
+const use_regex = ref(true); // Whether to use regex search or not
 
 /* Fetch circle index metadata */
 async function fetch_metadata() {
@@ -152,6 +155,14 @@ function recursive_fill_circle_indexes(
   return current_circle_list;
 }
 
+const regex_expr = computed(() => {
+  try {
+    return new RegExp(keywords.value, "i"); // 'i' for case-insensitive
+  } catch (e) {
+    return null; // Invalid regex
+  }
+});
+
 const circle_index = computed(() => {
   if (
     index_state.value[0] === "cLoaded" &&
@@ -208,12 +219,28 @@ const filtered_circles = computed(() => {
   let query = keywords.value.trim().toLowerCase();
   return circle_index.value.filter((circle, index) => {
     let circle_lowered = circle_index_lowered.value[index];
-    let matchNames = circle_lowered.names.some((name) => name.includes(query)); // Check if any name in the circle's names array includes the search query
-    let matchEvent = circle_lowered.event_name.toLowerCase().includes(query); // Check for event match
-    let matchMisc =
-      circle_lowered.misc &&
-      circle_lowered.misc.some((misc) => misc.toLowerCase().includes(query));
-    return matchNames || matchEvent || matchMisc; // Return true if either matches
+
+    if (use_regex.value && query.length > 0) {
+      if (!regex_expr.value) {
+        // Invalid regex
+        return false;
+      }
+      return (
+        circle_lowered.names.some((name) => regex_expr.value.test(name)) || // Check if any name in the circle's names array matches the regex
+        regex_expr.value.test(circle_lowered.event_name) || // Check for event match
+        (circle_lowered.misc &&
+          circle_lowered.misc.some((misc) => regex_expr.value.test(misc)))
+      );
+    } else {
+      return (
+        circle_lowered.names.some((name) => name.includes(query)) || // Check if any name in the circle's names array includes the search query
+        circle_lowered.event_name.toLowerCase().includes(query) || // Check for event match
+        (circle_lowered.misc &&
+          circle_lowered.misc.some((misc) =>
+            misc.toLowerCase().includes(query)
+          ))
+      );
+    }
   });
 });
 
@@ -272,8 +299,7 @@ onMounted(async () => {
     Parsing Compact Circle Index...
   </div>
   <div v-if="index_state[0] == 'cLoaded'" class="status-message">
-    Successfully loaded Compact Circle Index. ({{ filtered_circles?.length }}
-    circles)
+    Successfully loaded Compact Circle Index.
   </div>
   <div v-if="index_state[0] == 'eLoading'" class="status-message">
     Loading Extensive Circle Index... Downloaded {{ index_state[1] }} /
@@ -283,10 +309,10 @@ onMounted(async () => {
     Parsing Extensive Circle Index...
   </div>
   <div v-if="index_state[0] == 'eLoaded'" class="status-message">
-    Successfully loaded Extensive Circle Index. ({{ filtered_circles?.length }}
-    circles)
-  </div>    
-  <div v-else-if="index_state[0].endsWith('Error')" class="status-message"> <!-- buttons -->
+    Successfully loaded Extensive Circle Index.
+  </div>
+  <div v-else-if="index_state[0].endsWith('Error')" class="status-message">
+    <!-- buttons -->
     Failed to fetch
     {{
       index_state[0] == "cError"
@@ -346,6 +372,12 @@ onMounted(async () => {
     :value="keywords"
     @input="onSearchUpdate"
     placeholder="Keywords"
+  />
+  <ToggleSwitch
+    v-model:toggle_value="use_regex"
+    :titleFunc="
+      (state) => (state ? 'regex search enabled' : 'regex search disabled')
+    "
   />
   ({{ filtered_circles?.length }} results)
 
@@ -454,7 +486,7 @@ onMounted(async () => {
 }
 
 .cp-vlist-item-even {
-  /* Even items use default background */
+  background-color: var(--grey-dark);
 }
 .cp-vlist-item-odd {
   background-color: var(--greyish-deep);
