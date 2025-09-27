@@ -39,7 +39,14 @@ async function asyncsleep(duration_ms) {
 /*
  * Fetch given URL, handle callbacks.
  */
-async function fetch_url({url, axiosInstance, on_start, on_success, on_error, verbose = true}) {
+async function fetch_url({
+  url,
+  axiosInstance,
+  on_start = () => {},
+  on_success = () => {},
+  on_error = () => {},
+  verbose = true,
+}) {
   if (verbose) console.log(`Fetching ${url}...`);
 
   try {

@@ -1,7 +1,7 @@
 <script setup>
 import { useVirtualList } from "@vueuse/core";
-import { computed, useTemplateRef, markRaw, onMounted  } from "vue";
-import { asyncsleep, PATH_DB_EXPORTED, fetch_url  } from "@/assets/utils.js";
+import { computed, useTemplateRef, markRaw, onMounted } from "vue";
+import { asyncsleep, PATH_DB_EXPORTED, fetch_url } from "@/assets/utils.js";
 import { ref } from "vue";
 // import circle_raw_compact_index from "@/assets/static_databases/circle_participation_compact_index.json"; // Static database import
 import PopUpManager from "@/components/PopUpManager.vue";
@@ -9,90 +9,135 @@ import PopUpCirclePartialdetails from "./PopUpCirclePartialdetails.vue";
 import axiosInstance from "@/axios/axios_config.js";
 
 const keywords = ref("");
-const circle_raw_extensive_index = ref({}); // Extensive index variant
+const metadata = ref({});
 const circle_raw_compact_index = ref({}); // Compact index variant
-const extensive_index_count = computed(() => {
-  return circle_raw_compact_index.value.hasOwnProperty("@extensive_chunk_count") ? circle_raw_compact_index.value["@extensive_chunk_count"] : null;
+const circle_raw_extensive_index = ref({}); // Extensive index variant
+const circle_compact_index = ref([]);
+const circle_extensive_index = ref([]);
+const index_state = ref(["Idle"]);
+// None (metadata only): ["Loading"], // ["Loading"], ["Loaded"], ["Error"]
+// compact: ["cLoading", (int) current fetch counter], ["cParsing"], ["cLoaded"], ["cError"]
+// extensive: ["eLoading", (int) current fetch counter'], ["eParsing"], ["eLoaded"], ["eError"]
 
-});
-const search_state = ref(["Disabled"]); // ["Disabled"], ["Loading", (int) current fetch counter | "parsing"], ["Enabled"], ["Error"]
-
-async function fetch_compact_circle_db() {
-  console.log("fetch_compact_circle_db: Starting fetch...");
+/* Fetch circle index metadata */
+async function fetch_metadata() {
   fetch_url({
-    url: [PATH_DB_EXPORTED]
-      .concat([`circle_participation_compact_index.json`])
-      .join("/"),
+    url: [PATH_DB_EXPORTED].concat([`circle_index_metadata.json`]).join("/"),
     axiosInstance: axiosInstance,
     on_start: () => {
-      console.log("fetch_compact_circle_db: on_start - clearing data");
-      circle_raw_compact_index.value = {};
-      search_state.value = ["Disabled"];
+      metadata.value = {};
+      index_state.value = ["Loading"];
     },
     on_success: (fetched_data) => {
-      console.log("fetch_compact_circle_db: on_success - received data:", Object.keys(fetched_data).length, "keys");
-      console.log("Setting circle_raw_compact_index.value to:", fetched_data);
-      circle_raw_compact_index.value = fetched_data;
-      search_state.value = ["Disabled"];
-      console.log("After assignment, circle_raw_compact_index.value:", circle_raw_compact_index.value);
+      metadata.value = fetched_data;
+      index_state.value = ["Loaded"];
     },
     on_error: (error) => {
-      console.log("fetch_compact_circle_db: on_error");
-      search_state.value = ["Error"];
+      index_state.value = ["Error"];
     },
   });
 }
 
-function recursive_fill_circle_extensive_index(current_raw_index, ar_path) {
-  // Extensive index variant
-  let current_circle_list = [];
+/* Fetch circle raw indexes */
+async function fetch_circle_raw_indexes(variant) {
+  /* Initialize */
+  let raw_jsons = []; // @TODO crop if too large + Start from start_index
+  let base_url = "";
+  let index_count = 0;
+  let raw_index_ptr = null;
+  let index_ptr = null;
+  if (variant == "compact") {
+    // For compact only
+    raw_index_ptr = circle_raw_compact_index;
+    index_ptr = circle_compact_index;
+    base_url = [PATH_DB_EXPORTED]
+      .concat(["circle_participation_compact_index.json_"])
+      .join("/");
+    index_count = metadata.value?.compact_index_chunk_count || 0;
+    index_state.value = ["cLoading", 0];
+  } else if (variant == "extensive") {
+    raw_index_ptr = circle_raw_extensive_index;
+    index_ptr = circle_extensive_index;
+    base_url = [PATH_DB_EXPORTED]
+      .concat(["circle_participation_extensive_index.json_"])
+      .join("/");
+    index_count = metadata.value?.extensive_index_chunk_count || 0;
+    index_state.value = ["eLoading", 0];
+  } else {
+    console.error("fetch_circle_raw_indexes: Unknown variant", variant);
+    return;
+  }
+  raw_index_ptr.value = {}; // Reset the index
 
-  for (const key in current_raw_index) {
-    if (Array.isArray(current_raw_index[key])) {
-      /* Content is array: key is an event name */
-      let raw = current_raw_index[key];
-      for (const circle_i in raw) {
-        raw[circle_i]["ar_path"] = ar_path.concat(key); // add ar_path
-        raw[circle_i]["event_name"] = key; // add event name
-      }
+  /* Fetch all parts */
+  for (let i = 0; i < index_count; i++) {
+    let part_url = `${base_url}${i}`;
 
-      current_circle_list = [].concat(current_circle_list, raw);
-    } else {
-      /* Content is object: folder, key is the folder name */
-      let raw = recursive_fill_circle_extensive_index(
-        current_raw_index[key],
-        ar_path.concat(key)
-      );
-      current_circle_list = [].concat(current_circle_list, raw);
+    try {
+      const response = await axiosInstance.get(part_url, {
+        responseType: "text", // Get raw text instead of parsed JSON
+      });
+      index_state.value[1] = i + 1; // Update the state
+
+      console.log(`NEW FETCHED: (${part_url})`); // Log the fetched data
+      raw_jsons.push(response.data); // Append content
+    } catch (error) {
+      index_state.value = ["Error"]; // Set the state to error if fetching fails
+      console.error("Error fetching data:", error); // Log any errors that occur during the fetch
     }
   }
 
-  return current_circle_list;
+  /* Parse the concatenated JSON string */
+  index_state.value = [variant == "compact" ? "cParsing" : "eParsing"];
+  await asyncsleep(1000); // wait a bit
+  try {
+    raw_index_ptr.value = JSON.parse(raw_jsons.join(""));
+  } catch (error) {
+    index_state.value = [variant == "compact" ? "cError" : "eError"];
+    console.error("Error parsing concatenated JSON:", error);
+  }
+
+  /* Fill circle index */
+  index_ptr.value = recursive_fill_circle_indexes(
+    raw_index_ptr.value,
+    [],
+    variant
+  );
+
+  index_state.value = [variant == "compact" ? "cLoaded" : "eLoaded"];
+
+  return;
 }
-function recursive_fill_compact_circle_index(
-  current_raw_compact_index,
-  ar_path
+
+function recursive_fill_circle_indexes(
+  raw_index,
+  ar_path = [],
+  variant = "compact"
 ) {
-  // Compact index variant
+  // variant: "compact" | "extensive"
   let current_circle_list = [];
 
-  for (const key in current_raw_compact_index) {
-    if (Array.isArray(current_raw_compact_index[key])) {
+  for (const key in raw_index) {
+    if (Array.isArray(raw_index[key])) {
       /* Content is array: key is an event name */
-      let raw = current_raw_compact_index[key];
-      for (const circle_i in raw) {
-        let circle = {
-          ar_path: ar_path.concat(key), // add ar_path
-          event_name: key, // add event name
-          names: raw[circle_i], // add names
-        };
-        current_circle_list.push(circle);
+      let event_circles = [];
+      for (const circle_i in raw_index[key]) {
+        // Add ar_path and event_name to each circle entry
+        let raw_circle = raw_index[key][circle_i];
+        let circle_to_add =
+          variant == "extensive" ? raw_circle : { names: raw_circle };
+        circle_to_add["ar_path"] = ar_path.concat(key); // add ar_path
+        circle_to_add["event_name"] = key; // add event name
+        event_circles.push(circle_to_add);
       }
+
+      current_circle_list = [].concat(current_circle_list, event_circles);
     } else {
       /* Content is object: folder, key is the folder name */
-      let raw = recursive_fill_compact_circle_index(
-        current_raw_compact_index[key],
-        ar_path.concat(key)
+      let raw = recursive_fill_circle_indexes(
+        raw_index[key],
+        ar_path.concat(key),
+        variant
       );
       current_circle_list = [].concat(current_circle_list, raw);
     }
@@ -100,30 +145,26 @@ function recursive_fill_compact_circle_index(
 
   return current_circle_list;
 }
-
-const circle_extensive_index = computed(() => {
-  if (!circle_raw_extensive_index.value || !Object.keys(circle_raw_extensive_index.value).length) {
-    return []; // Return empty array if no data is available
-  }
-  return recursive_fill_circle_extensive_index(circle_raw_extensive_index.value, []);
-});
-
-const circle_compact_index = computed(() => {
-  if (!circle_raw_compact_index.value) {
-    return [];
-  }
-  
-  const result = recursive_fill_compact_circle_index(circle_raw_compact_index.value, []);
-  return result;
-});
 
 const circle_index = computed(() => {
-  if (search_state.value[0] === "Enabled") {
+  if (
+    index_state.value[0] === "cLoaded" &&
+    circle_compact_index &&
+    circle_compact_index.value &&
+    Array.isArray(circle_compact_index.value)
+  ) {
+    // Compact index
+    return circle_compact_index.value;
+  } else if (
+    index_state.value[0] === "eLoaded" &&
+    circle_extensive_index &&
+    circle_extensive_index.value &&
+    Array.isArray(circle_extensive_index.value)
+  ) {
     // Extensive index
     return circle_extensive_index.value;
   } else {
-    // Compact index
-    return circle_compact_index.value;
+    return [];
   }
 });
 
@@ -183,58 +224,6 @@ function onSearchUpdate(event) {
   scrollTo(0);
 }
 
-/* Deep Search Activation */
-function activateExtensiveSearch() {
-  if (search_state.value[0] !== "Disabled" && search_state.value[0] !== "Error") {
-    console.warn(
-      "activateExtensiveSearch was called while Deep Search is already enabled or loading."
-    );
-    return; // Do not activate if already enabled or loading
-  }
-
-  search_state.value = ["Loading", 0];
-  fetch_extensive_circle_index();
-}
-async function fetch_extensive_circle_index() {
-  circle_raw_extensive_index.value = {}; // Reset the index
-  // Construct the base URL
-  let base_url = [PATH_DB_EXPORTED]
-    .concat(["circle_participation_extensive_index.json"])
-    .join("/");
-
-  let raw_json = ""
-  
-  // For i in 0 extensive_index_count, console log i
-  for (let i = 0; i < extensive_index_count; i++) {
-    let part_url = `${base_url}_${i}`
-    
-    try {
-      const response = await axiosInstance.get(part_url, {
-        responseType: 'text' // Get raw text instead of parsed JSON
-      });
-      search_state.value = ["Loading", i]; // Set the state to enabled after fetching
-
-      console.log(`NEW FETCHED: (${part_url})`, ); // Log the fetched data
-      raw_json = raw_json + response.data; // Append content
-    } catch (error) {
-      search_state.value = ["Error"]; // Set the state to error if fetching fails
-      console.error("Error fetching data:", error); // Log any errors that occur during the fetch
-    }
-  
-  }
-  search_state.value = ["Loading", "parsing"]; // Set the state to loading with the count of fetched parts
-
-  await asyncsleep(1000); // wait 1 sec
-  // Parse the concatenated JSON string
-  try {
-    circle_raw_extensive_index.value = JSON.parse(raw_json);
-    search_state.value = ["Enabled"];
-  } catch (error) {
-    search_state.value = ["Error"];
-    console.error("Error parsing concatenated JSON:", error);
-  }
-}
-
 /* PopUpManager */
 const popUpManager = useTemplateRef("popUpManager");
 function popupCircleDetails(circle_partial_db) {
@@ -244,51 +233,94 @@ function popupCircleDetails(circle_partial_db) {
     db_path: circle_partial_db.ar_path,
   });
 }
+
 /* Run fetch_compact_circle_db on component mount */
 onMounted(async () => {
-  await fetch_compact_circle_db();
+  await fetch_metadata();
 });
 </script>
 
 <template>
   <!-- Title -->
   <head>
-    <title v-if="search_state[0] == 'Enabled'">
+    <title v-if="index_state[0] == 'eEnabled'">
       dea | Circle Participation (extensive search)
     </title>
     <title v-else>dea | Circle Participation</title>
   </head>
 
   <div class="header-title">Circle Participation</div>
-  <div class="header">
-    List of participating circles in the database.
+  <div class="header">List of participating circles in the database.</div>
+
+  metadata = {{ metadata }} <br />
+  index_state = {{ index_state }}
+
+  <div v-if="index_state[0] == 'Loading'" class="status-message">
+    Loading circle index metadata...
+  </div>
+  <div v-else-if="index_state[0] == 'Error'" class="status-message">
+    Failed to fetch circle index metadata.
+    <button
+      class="retry-button"
+      @click="fetch_metadata"
+      title="Retry fetching circle index metadata."
+    >
+      Retry
+    </button>
+  </div>
+  <div v-else-if="index_state[0] == 'Loaded'" class="status-message">
+    Successfully loaded circle index metadata.
+  </div>
+  <div v-if="index_state[0] == 'cLoading'" class="status-message">
+    Loading Compact Circle Index... Downloaded {{ index_state[1] }} /
+    {{ metadata?.compact_index_chunk_count }}...
+  </div>
+  <div v-if="index_state[0] == 'cParsing'" class="status-message">
+    Parsing Compact Circle Index...
+  </div>
+  <div v-if="index_state[0] == 'cLoaded'" class="status-message">
+    Successfully loaded Compact Circle Index. ({{ filtered_circles?.length }}
+    circles)
+  </div>
+  <div v-if="index_state[0] == 'eLoading'" class="status-message">
+    Loading Extensive Circle Index... Downloaded {{ index_state[1] }} /
+    {{ metadata?.extensive_index_chunk_count }}...
+  </div>
+  <div v-if="index_state[0] == 'eParsing'" class="status-message">
+    Parsing Extensive Circle Index...
+  </div>
+  <div v-if="index_state[0] == 'eLoaded'" class="status-message">
+    Successfully loaded Extensive Circle Index. ({{ filtered_circles?.length }}
+    circles)
   </div>
 
-  <div class="ds-header">
-    <div v-if="search_state[0] == 'Disabled'">
-      Circle extensive search is not enabled. Searching circle names and event names only.  <br />
-      <button class="ds-button" @click="activateExtensiveSearch" title="Activating will download a rather large file.">
-        Enable Circle Extensive Search
-      </button>
-    </div>
-    <div v-if="search_state[0] == 'Error'">
-      ERROR. Try again ?
-      <button class="ds-button" @click="activateExtensiveSearch">
-        Activate Circle Extensive Search
-      </button>
-    </div>
-    <div v-if="search_state[0] == 'Loading'">
-      Circle Extensive Search is loading (
-        <span v-if="search_state[1] == 'parsing'">
-          parsing extended circle index, might take a while ) ...
-        </span>
-        <span v-else>
-          downloading <i>circle_participation_index.json_{{ search_state[1] }} / {{ extensive_index_count }}</i> ) ...
-        </span>
-    </div>
-    <div v-if="search_state[0] == 'Enabled'">
-      Circle Extensive Search is enabled. Now searching in more fields.
-    </div>
+  <!-- Load Buttons -->
+  <div v-if="index_state[0] == 'Loaded'" class="status-message">
+    <button
+      @click="fetch_circle_raw_indexes('compact')"
+      :title="`Load compact circle index (${
+        metadata?.compact_index_chunk_count ?? 0
+      } chunks, ${Math.ceil(
+        (metadata?.compact_total_size || 0) / 1048576
+      )} MB)`"
+    >
+      Compact circle index
+    </button>
+  </div>
+  <div
+    v-if="index_state[0] == 'Loaded' || index_state[0] == 'cLoaded'"
+    class="status-message"
+  >
+    <button
+      @click="fetch_circle_raw_indexes('extensive')"
+      :title="`Load extensive circle index (${
+        metadata?.extensive_index_chunk_count ?? 0
+      } chunks, ${Math.ceil(
+        (metadata?.extensive_total_size || 0) / 1048576
+      )} MB)`"
+    >
+      Extensive circle index
+    </button>
   </div>
 
   <input
@@ -323,7 +355,7 @@ onMounted(async () => {
                   : 'cp-vlist-item-odd'
               "
             >
-              <!-- {{ circle }} -->
+              <!== {{ circle }} ==>
               <table>
                 <tbody>
                   <tr>
