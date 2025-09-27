@@ -252,9 +252,6 @@ onMounted(async () => {
   <div class="header-title">Circle Participation</div>
   <div class="header">List of participating circles in the database.</div>
 
-  metadata = {{ metadata }} <br />
-  index_state = {{ index_state }}
-
   <div v-if="index_state[0] == 'Loading'" class="status-message">
     Loading circle index metadata...
   </div>
@@ -297,6 +294,7 @@ onMounted(async () => {
   <!-- Load Buttons -->
   <div v-if="index_state[0] == 'Loaded'" class="status-message">
     <button
+      class="retry-button"
       @click="fetch_circle_raw_indexes('compact')"
       :title="`Load compact circle index (${
         metadata?.compact_index_chunk_count ?? 0
@@ -312,6 +310,7 @@ onMounted(async () => {
     class="status-message"
   >
     <button
+      class="retry-button"
       @click="fetch_circle_raw_indexes('extensive')"
       :title="`Load extensive circle index (${
         metadata?.extensive_index_chunk_count ?? 0

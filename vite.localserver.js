@@ -14,7 +14,7 @@ export function createDatabasesServedServer(__dirname) {
         if (req.url && req.url.startsWith("/dea/dea_db")) {
           console.log(`Intercepted request: ${req.url}`);
           
-          // Remove the /dea/served prefix
+          // Remove the /dea/dea_db prefix
           let requestPath = req.url.replace("/dea/dea_db", "");
 
           // Remove query parameters if any
@@ -29,6 +29,12 @@ export function createDatabasesServedServer(__dirname) {
           } else {
             // Remove leading slash
             requestPath = requestPath.startsWith('/') ? requestPath.slice(1) : requestPath;
+            try { // Try decoding URL components
+              requestPath = requestPath.split('/').map(seg => decodeURIComponent(seg)).join('/');
+            } catch (e) {
+              // If decode fails (malformed percent-encoding), fall back to original requestPath
+              console.warn('Failed to decode request path, using raw path:', requestPath, e);
+            }
           }
           
           const filePath = requestPath ? resolve(__dirname, "..", "dea_db", requestPath) : resolve(__dirname, "databases_management", "databases_served");
@@ -80,7 +86,8 @@ export function createDatabasesServedServer(__dirname) {
                 // List directory contents
                 const files = readdirSync(filePath);
                 console.log(`Directory contains ${files.length} files: ${files.join(', ')}`);
-                const displayPath = req.url.replace("/dea/served", "") || "/";
+                // Build a displayPath relative to the served base (/dea/dea_db)
+                const displayPath = req.url.replace("/dea/dea_db", "") || "/";
                 const html = `
                   <html>
                     <head><title>Directory: ${displayPath}</title></head>
@@ -89,7 +96,8 @@ export function createDatabasesServedServer(__dirname) {
                       <ul>
                         ${displayPath !== "/" ? `<li><a href="../">../</a></li>` : ""}
                         ${files.map(file => {
-                          const href = `/dea/served${displayPath === "/" ? "" : displayPath}/${file}`;
+                          const href = `/dea/dea_db${displayPath === "/" ? "" : displayPath}/${encodeURIComponent(file)}`;
+                          // encodeURIComponent for the href so links contain safe URL-encoded names
                           return `<li><a href="${href}">${file}</a></li>`;
                         }).join('')}
                       </ul>
