@@ -10,6 +10,7 @@ import axiosInstance from "@/axios/axios_config.js";
 
 const keywords = ref("");
 const metadata = ref({});
+const raw_jsons = ref({compact: [], extensive: []}); // Raw JSON parts
 const circle_raw_compact_index = ref({}); // Compact index variant
 const circle_raw_extensive_index = ref({}); // Extensive index variant
 const circle_compact_index = ref([]);
@@ -41,7 +42,6 @@ async function fetch_metadata() {
 /* Fetch circle raw indexes */
 async function fetch_circle_raw_indexes(variant) {
   /* Initialize */
-  let raw_jsons = []; // @TODO crop if too large + Start from start_index
   let base_url = "";
   let index_count = 0;
   let raw_index_ptr = null;
@@ -70,7 +70,12 @@ async function fetch_circle_raw_indexes(variant) {
   raw_index_ptr.value = {}; // Reset the index
 
   /* Fetch all parts */
-  for (let i = 0; i < index_count; i++) {
+  if (raw_jsons.value[variant].length > 0) {
+    console.log(
+      `Retrying from ${raw_jsons.value[variant].length} / ${index_count} for ${variant} index.`
+    );
+  }
+  for (let i = raw_jsons.value[variant].length; i < index_count; i++) {
     let part_url = `${base_url}${i}`;
 
     try {
@@ -80,10 +85,11 @@ async function fetch_circle_raw_indexes(variant) {
       index_state.value[1] = i + 1; // Update the state
 
       console.log(`NEW FETCHED: (${part_url})`); // Log the fetched data
-      raw_jsons.push(response.data); // Append content
+      raw_jsons.value[variant].push(response.data); // Append content
     } catch (error) {
-      index_state.value = ["Error"]; // Set the state to error if fetching fails
+      index_state.value = [variant == "compact" ? "cError" : "eError"]; // Set the state to error if fetching fails
       console.error("Error fetching data:", error); // Log any errors that occur during the fetch
+      return;
     }
   }
 
@@ -91,7 +97,7 @@ async function fetch_circle_raw_indexes(variant) {
   index_state.value = [variant == "compact" ? "cParsing" : "eParsing"];
   await asyncsleep(1000); // wait a bit
   try {
-    raw_index_ptr.value = JSON.parse(raw_jsons.join(""));
+    raw_index_ptr.value = JSON.parse(raw_jsons.value[variant].join(""));
   } catch (error) {
     index_state.value = [variant == "compact" ? "cError" : "eError"];
     console.error("Error parsing concatenated JSON:", error);
@@ -255,16 +261,6 @@ onMounted(async () => {
   <div v-if="index_state[0] == 'Loading'" class="status-message">
     Loading circle index metadata...
   </div>
-  <div v-else-if="index_state[0] == 'Error'" class="status-message">
-    Failed to fetch circle index metadata.
-    <button
-      class="retry-button"
-      @click="fetch_metadata"
-      title="Retry fetching circle index metadata."
-    >
-      Retry
-    </button>
-  </div>
   <div v-else-if="index_state[0] == 'Loaded'" class="status-message">
     Successfully loaded circle index metadata.
   </div>
@@ -289,6 +285,29 @@ onMounted(async () => {
   <div v-if="index_state[0] == 'eLoaded'" class="status-message">
     Successfully loaded Extensive Circle Index. ({{ filtered_circles?.length }}
     circles)
+  </div>    
+  <div v-else-if="index_state[0].endsWith('Error')" class="status-message"> <!-- buttons -->
+    Failed to fetch
+    {{
+      index_state[0] == "cError"
+        ? "circle compact index"
+        : index_state[0] == "eError"
+        ? "circle extensive index"
+        : "circle index metadata"
+    }}.
+    <button
+      class="retry-button"
+      @click="
+        index_state[0] == 'Error'
+          ? fetch_metadata()
+          : index_state[0] == 'cError'
+          ? fetch_circle_raw_indexes('compact')
+          : fetch_circle_raw_indexes('extensive')
+      "
+      title="Retry fetching circle compact index."
+    >
+      Retry
+    </button>
   </div>
 
   <!-- Load Buttons -->
