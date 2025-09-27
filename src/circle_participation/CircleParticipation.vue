@@ -1,18 +1,47 @@
 <script setup>
 import { useVirtualList } from "@vueuse/core";
-import { computed, useTemplateRef, markRaw } from "vue";
-import { asyncsleep, PATH_DB_EXPORTED } from "@/assets/utils.js";
+import { computed, useTemplateRef, markRaw, onMounted  } from "vue";
+import { asyncsleep, PATH_DB_EXPORTED, fetch_url  } from "@/assets/utils.js";
 import { ref } from "vue";
 // import circle_raw_compact_index from "@/assets/static_databases/circle_participation_compact_index.json"; // Static database import
 import PopUpManager from "@/components/PopUpManager.vue";
 import PopUpCirclePartialdetails from "./PopUpCirclePartialdetails.vue";
 import axiosInstance from "@/axios/axios_config.js";
 
-const search_state = ref(["Disabled"]); // ["Disabled"], ["Loading", (int) current fetch counter | "parsing"], ["Enabled"], ["Error"]
-let circle_raw_compact_index = {}; // Compact index variant
 const keywords = ref("");
 const circle_raw_extensive_index = ref({}); // Extensive index variant
-const extensive_index_count = circle_raw_compact_index.hasOwnProperty("@extensive_chunk_count") ? circle_raw_compact_index["@extensive_chunk_count"] : null;
+const circle_raw_compact_index = ref({}); // Compact index variant
+const extensive_index_count = computed(() => {
+  return circle_raw_compact_index.value.hasOwnProperty("@extensive_chunk_count") ? circle_raw_compact_index.value["@extensive_chunk_count"] : null;
+
+});
+const search_state = ref(["Disabled"]); // ["Disabled"], ["Loading", (int) current fetch counter | "parsing"], ["Enabled"], ["Error"]
+
+async function fetch_compact_circle_db() {
+  console.log("fetch_compact_circle_db: Starting fetch...");
+  fetch_url({
+    url: [PATH_DB_EXPORTED]
+      .concat([`circle_participation_compact_index.json`])
+      .join("/"),
+    axiosInstance: axiosInstance,
+    on_start: () => {
+      console.log("fetch_compact_circle_db: on_start - clearing data");
+      circle_raw_compact_index.value = {};
+      search_state.value = ["Disabled"];
+    },
+    on_success: (fetched_data) => {
+      console.log("fetch_compact_circle_db: on_success - received data:", Object.keys(fetched_data).length, "keys");
+      console.log("Setting circle_raw_compact_index.value to:", fetched_data);
+      circle_raw_compact_index.value = fetched_data;
+      search_state.value = ["Disabled"];
+      console.log("After assignment, circle_raw_compact_index.value:", circle_raw_compact_index.value);
+    },
+    on_error: (error) => {
+      console.log("fetch_compact_circle_db: on_error");
+      search_state.value = ["Error"];
+    },
+  });
+}
 
 function recursive_fill_circle_extensive_index(current_raw_index, ar_path) {
   // Extensive index variant
@@ -80,7 +109,12 @@ const circle_extensive_index = computed(() => {
 });
 
 const circle_compact_index = computed(() => {
-  return recursive_fill_compact_circle_index(circle_raw_compact_index, []);
+  if (!circle_raw_compact_index.value) {
+    return [];
+  }
+  
+  const result = recursive_fill_compact_circle_index(circle_raw_compact_index.value, []);
+  return result;
 });
 
 const circle_index = computed(() => {
@@ -210,6 +244,10 @@ function popupCircleDetails(circle_partial_db) {
     db_path: circle_partial_db.ar_path,
   });
 }
+/* Run fetch_compact_circle_db on component mount */
+onMounted(async () => {
+  await fetch_compact_circle_db();
+});
 </script>
 
 <template>
@@ -366,6 +404,7 @@ function popupCircleDetails(circle_partial_db) {
 }
 
 .cp-vlist-item-even {
+  /* Even items use default background */
 }
 .cp-vlist-item-odd {
   background-color: var(--greyish-deep);
