@@ -21,7 +21,7 @@ const index_state = ref(["Idle"]);
 // compact: ["cLoading", (int) current fetch counter], ["cParsing"], ["cLoaded"], ["cError"]
 // extensive: ["eLoading", (int) current fetch counter'], ["eParsing"], ["eLoaded"], ["eError"]
 
-const use_regex = ref(true); // Whether to use regex search or not
+const use_regex = ref(false); // Whether to use regex search or not
 
 /* Fetch circle index metadata */
 async function fetch_metadata() {
@@ -257,6 +257,44 @@ function onSearchUpdate(event) {
   scrollTo(0);
 }
 
+// Export the currently filtered circles as a CSV file and trigger a download
+function dumpFilteredCircles() {
+  if (
+    !filtered_circles ||
+    !filtered_circles.value ||
+    filtered_circles.value.length === 0
+  )
+    return;
+  const rows = filtered_circles.value || [];
+
+  function esc(v) {
+    if (v === null || v === undefined) return "";
+    return `"${String(v).replace(/"/g, '""').replace(/\t/g, "\\t").replace(/\r?\n/g, "\\n")}"`;
+  }
+
+  const header = ["event_name", "names", "misc"];
+  const csvLines = [header.join("\t")];
+
+  for (const c of rows) {
+    const event_name = c.event_name ?? "";
+    const names = Array.isArray(c.names) ? c.names.join(" / ") : c.names ?? "";
+    const misc = Array.isArray(c.misc) ? c.misc.join(" / ") : c.misc ?? "";
+    csvLines.push([esc(event_name), esc(names), esc(misc)].join("\t"));
+  }
+
+  // Create file and trigger download
+  const csv = csvLines.join("\r\n");
+  const blob = new Blob(["\uFEFF", csv], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `circle_search_dump.csv`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
 /* PopUpManager */
 const popUpManager = useTemplateRef("popUpManager");
 function popupCircleDetails(circle_partial_db) {
@@ -380,6 +418,16 @@ onMounted(async () => {
     "
   />
   ({{ filtered_circles?.length }} results)
+
+  <!-- Align right -->
+  <button
+    class="ds-button"
+    @click="dumpFilteredCircles()"
+    title="Dump search results to csv."
+    style="float: right; margin-right: 1.5em"
+  >
+    Dump search results
+  </button>
 
   <div class="cp-div">
     <table class="cp-header-table">
