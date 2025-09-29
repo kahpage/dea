@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800"
+   height="566.66669"
+   viewBox="0 -7 48 34.000001"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="youtube.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.26205881"
+     inkscape:cx="314.81483"
+     inkscape:cy="518.96747"
+     inkscape:window-width="1440"
+     inkscape:window-height="838"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Color-" />
+  <title
+     id="title1">Youtube-color</title>
+  <desc
+     id="desc1">Created with Sketch.</desc>
+  <defs
+     id="defs1" />
+  <g
+     id="Icons"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="translate(0,-7)">
+    <g
+       id="Color-"
+       transform="translate(-200,-368)"
+       fill="#ce1312">
+      <circle
+         style="fill:#efefef;fill-opacity:1;stroke-width:0.130648;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.130648, 0.261296"
+         id="path2"
+         cx="224"
+         cy="385"
+         r="12" />
+      <path
+         d="m 219.044,391.26992 -0.002,-13.58218 12.969,6.8145 z m 28.476,-15.93576 c 0,0 -0.4695,-3.33096 -1.908,-4.79779 -1.8255,-1.92607 -3.8715,-1.93514 -4.809,-2.04692 C 234.086,368 224.0105,368 224.0105,368 h -0.021 c 0,0 -10.0755,0 -16.7925,0.48945 -0.939,0.11178 -2.9835,0.12085 -4.8105,2.04692 -1.4385,1.46683 -1.9065,4.79779 -1.9065,4.79779 0,0 -0.48,3.91256 -0.48,7.82361 v 3.66784 c 0,3.91256 0.48,7.82361 0.48,7.82361 0,0 0.468,3.33096 1.9065,4.7978 1.827,1.92606 4.2255,1.86564 5.2935,2.06655 C 211.52,401.88519 224,402 224,402 c 0,0 10.086,-0.0151 16.803,-0.50455 0.9375,-0.1133 2.9835,-0.12237 4.809,-2.04843 1.4385,-1.46684 1.908,-4.7978 1.908,-4.7978 0,0 0.48,-3.91105 0.48,-7.82361 v -3.66784 c 0,-3.91105 -0.48,-7.82361 -0.48,-7.82361 z"
+         id="Youtube" />
+    </g>
+  </g>
+</svg>
