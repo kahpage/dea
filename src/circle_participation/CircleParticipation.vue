@@ -3,7 +3,6 @@ import { useVirtualList } from "@vueuse/core";
 import { computed, useTemplateRef, markRaw, onMounted } from "vue";
 import { asyncsleep, PATH_DB_EXPORTED, fetch_url } from "@/assets/utils.js";
 import { ref } from "vue";
-// import circle_raw_compact_index from "@/assets/static_databases/circle_participation_compact_index.json"; // Static database import
 import PopUpManager from "@/components/PopUpManager.vue";
 import PopUpCirclePartialdetails from "./PopUpCirclePartialdetails.vue";
 import axiosInstance from "@/axios/axios_config.js";
@@ -11,15 +10,17 @@ import ToggleSwitch from "@/components/ToggleSwitch.vue";
 
 const keywords = ref("");
 const metadata = ref({});
-const raw_jsons = ref({ compact: [], extensive: [] }); // Raw JSON parts
-const circle_raw_compact_index = ref({}); // Compact index variant
-const circle_raw_extensive_index = ref({}); // Extensive index variant
+const circle_compact_index_parts = ref([]); // Fetched compact index parts
+const circle_extensive_index_parts = ref([]); // Fetched extensive index parts
+// const raw_jsons = ref({ compact: [], extensive: [] }); // Raw JSON parts
+// const circle_raw_compact_index = ref({}); // Compact index variant
+// const circle_raw_extensive_index = ref({}); // Extensive index variant
 const circle_compact_index = ref([]);
 const circle_extensive_index = ref([]);
 const index_state = ref(["Idle"]);
 // None (metadata only): ["Loading"], // ["Loading"], ["Loaded"], ["Error"]
-// compact: ["cLoading", (int) current fetch counter], ["cParsing"], ["cLoaded"], ["cError"]
-// extensive: ["eLoading", (int) current fetch counter'], ["eParsing"], ["eLoaded"], ["eError"]
+// compact: ["cLoading", (int) current fetch counter], ["cParsing", (int) current parse counter], ["cLoaded"], ["cError"]
+// extensive: ["eLoading", (int) current fetch counter'], ["eParsing", (int) current parse counter], ["eLoaded"], ["eError"]
 
 const use_regex = ref(false); // Whether to use regex search or not
 
@@ -47,22 +48,22 @@ async function fetch_circle_raw_indexes(variant) {
   /* Initialize */
   let base_url = "";
   let index_count = 0;
-  let raw_index_ptr = null;
+  let index_parts_ptr = null;
   let index_ptr = null;
   if (variant == "compact") {
     // For compact only
-    raw_index_ptr = circle_raw_compact_index;
+    index_parts_ptr = circle_compact_index_parts;
     index_ptr = circle_compact_index;
     base_url = [PATH_DB_EXPORTED]
-      .concat(["circle_participation_compact_index.json_"])
+      .concat(["circle_participation_compact_index"])
       .join("/");
     index_count = metadata.value?.compact_index_chunk_count || 0;
     index_state.value = ["cLoading", 0];
   } else if (variant == "extensive") {
-    raw_index_ptr = circle_raw_extensive_index;
+    index_parts_ptr = circle_extensive_index_parts;
     index_ptr = circle_extensive_index;
     base_url = [PATH_DB_EXPORTED]
-      .concat(["circle_participation_extensive_index.json_"])
+      .concat(["circle_participation_extensive_index"])
       .join("/");
     index_count = metadata.value?.extensive_index_chunk_count || 0;
     index_state.value = ["eLoading", 0];
@@ -70,25 +71,25 @@ async function fetch_circle_raw_indexes(variant) {
     console.error("fetch_circle_raw_indexes: Unknown variant", variant);
     return;
   }
-  raw_index_ptr.value = {}; // Reset the index
+  index_parts_ptr.value = []; // Reset parts
 
   /* Fetch all parts */
-  if (raw_jsons.value[variant].length > 0) {
+  if (index_parts_ptr.value.length > 0) {
     console.log(
-      `Retrying from ${raw_jsons.value[variant].length} / ${index_count} for ${variant} index.`
+      `Retrying from ${index_parts_ptr.value.length} / ${index_count} for ${variant} index.`
     );
   }
-  for (let i = raw_jsons.value[variant].length; i < index_count; i++) {
-    let part_url = `${base_url}${i}`;
+  for (let i = index_parts_ptr.value.length; i < index_count; i++) {
+    let part_url = `${base_url}_${i}.json`;
 
     try {
       const response = await axiosInstance.get(part_url, {
-        responseType: "text", // Get raw text instead of parsed JSON
+        responseType: "json", // Get raw text instead of parsed JSON
       });
       index_state.value[1] = i + 1; // Update the state
 
       console.log(`NEW FETCHED: (${part_url})`); // Log the fetched data
-      raw_jsons.value[variant].push(response.data); // Append content
+      index_parts_ptr.value.push(response.data); // Append content
     } catch (error) {
       index_state.value = [variant == "compact" ? "cError" : "eError"]; // Set the state to error if fetching fails
       console.error("Error fetching data:", error); // Log any errors that occur during the fetch
@@ -97,21 +98,19 @@ async function fetch_circle_raw_indexes(variant) {
   }
 
   /* Parse the concatenated JSON string */
-  index_state.value = [variant == "compact" ? "cParsing" : "eParsing"];
+  index_state.value = [variant == "compact" ? "cParsing" : "eParsing", 0];
   await asyncsleep(1000); // wait a bit
-  try {
-    raw_index_ptr.value = JSON.parse(raw_jsons.value[variant].join(""));
-  } catch (error) {
-    index_state.value = [variant == "compact" ? "cError" : "eError"];
-    console.error("Error parsing concatenated JSON:", error);
-  }
-
+  
   /* Fill circle index */
-  index_ptr.value = recursive_fill_circle_indexes(
-    raw_index_ptr.value,
-    [],
-    variant
-  );
+  index_ptr.value = [];
+  for (let i = 0; i < index_parts_ptr.value.length; i++) {
+    index_ptr.value = index_ptr.value.concat(recursive_fill_circle_indexes(
+      index_parts_ptr.value[i],
+      [],
+      variant
+    ));
+    index_state.value[1] = i + 1; // Update the state
+  }
 
   index_state.value = [variant == "compact" ? "cLoaded" : "eLoaded"];
 
@@ -334,7 +333,8 @@ onMounted(async () => {
     {{ metadata?.compact_index_chunk_count }}...
   </div>
   <div v-if="index_state[0] == 'cParsing'" class="status-message">
-    Parsing Compact Circle Index...
+    Parsing Compact Circle Index... Parsed {{ index_state[1] }} /
+    {{ metadata?.extensive_index_chunk_count }}...
   </div>
   <div v-if="index_state[0] == 'cLoaded'" class="status-message">
     Successfully loaded Compact Circle Index.
@@ -344,7 +344,8 @@ onMounted(async () => {
     {{ metadata?.extensive_index_chunk_count }}...
   </div>
   <div v-if="index_state[0] == 'eParsing'" class="status-message">
-    Parsing Extensive Circle Index...
+    Parsing Extensive Circle Index... Parsed {{ index_state[1] }} /
+    {{ metadata?.extensive_index_chunk_count }}...
   </div>
   <div v-if="index_state[0] == 'eLoaded'" class="status-message">
     Successfully loaded Extensive Circle Index.
