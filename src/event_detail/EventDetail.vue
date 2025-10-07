@@ -221,6 +221,24 @@ watchEffect(async () => {
         </p>
       </ToggleShow>
 
+      <!-- ===== Location ===== -->
+      <ToggleShow class="ts-sources" :button_text="'Location'" v-if="event_data?.locations">
+        <div v-for="(loc, i) in event_data.locations" :key="i">
+          <p v-if="loc?.description">{{ loc.description }}</p>
+          <iframe v-if="loc?.iframe_url" :src="loc.iframe_url" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p v-for="(source_, i) in loc.sources" :key="i">
+            <span v-if="source_.type"
+              >({{ source_.type[0] }}, {{ source_.type[1] }})
+            </span>
+            <span
+              v-if="source_?.source"
+              v-html="makeLinksClickable(source_.source)"
+            ></span>
+          </p>
+        </div>
+        <!-- <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe -->
+      </ToggleShow>
+
       <!-- ===== MEDIA ===== -->
       <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_data">
         <MediaGrid
