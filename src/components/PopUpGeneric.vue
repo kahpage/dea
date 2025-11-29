@@ -47,6 +47,10 @@ function closePopup() {
   border-radius: 0.5em;
   pointer-events: auto;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh; /* limit popup to 90% of viewport height */
+  max-width: 90vw; /* prevent overflow horizontally */
 }
 
 .popup-background {
@@ -60,8 +64,11 @@ function closePopup() {
 
 .popup-content {
   padding: 0.5em;
-  color:
-   var(--grey-light);
+  color: var(--grey-light);
+  /* Allow the content area to scroll when popup exceeds viewport height.
+     Use flex layout on the popup so header stays visible and content scrolls. */
+  overflow: auto;
+  flex: 1 1 auto;
 }
 
 .popup-header {

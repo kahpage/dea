@@ -64,13 +64,13 @@ const filtered_circles = computed(() => {
     return [];
   }
   // trim to treat whitespace-only as empty
-  const rawKw = (keywords.value || "").trim();
-  if (!rawKw) {
+  const keyword_raw = (keywords.value || "").trim();
+  if (!keyword_raw) {
     return event_data.value.circles;
   }
 
   // If regex mode is enabled, use regex matching (case-insensitive)
-  if (use_regex.value && rawKw.length > 0) {
+  if (use_regex.value && keyword_raw.length > 0) {
     if (!regex_expr.value) return [];
     const re = regex_expr.value;
     return event_data.value.circles.filter((circle) => {
@@ -93,19 +93,21 @@ const filtered_circles = computed(() => {
   }
 
   // Default substring matching (case-insensitive)
-  const kw = rawKw.toLowerCase();
+  const keyword = keyword_raw.toLowerCase();
   return event_data.value.circles.filter((circle) => {
     const anyIncludes = (arr) =>
       Array.isArray(arr) &&
-      arr.some((s) => typeof s === "string" && s.toLowerCase().includes(kw));
+      arr.some((s) => typeof s === "string" && s.toLowerCase().includes(keyword));
 
     if (anyIncludes(circle.aliases)) return true;
     if (anyIncludes(circle.pen_names)) return true;
+    if (circle.data?.comments?.toLowerCase().includes(keyword)) return true;
+
 
     if (
       circle.position !== undefined &&
       circle.position !== null &&
-      circle.position.toString().toLowerCase().includes(kw)
+      circle.position.toString().toLowerCase().includes(keyword)
     )
       return true;
 
