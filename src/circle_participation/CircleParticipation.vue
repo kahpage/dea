@@ -12,16 +12,9 @@ const keywords = ref("");
 const metadata = ref({});
 const circle_compact_index_parts = ref([]); // Fetched compact index parts
 const circle_extensive_index_parts = ref([]); // Fetched extensive index parts
-// const raw_jsons = ref({ compact: [], extensive: [] }); // Raw JSON parts
-// const circle_raw_compact_index = ref({}); // Compact index variant
-// const circle_raw_extensive_index = ref({}); // Extensive index variant
 const circle_compact_index = ref([]);
 const circle_extensive_index = ref([]);
 const index_state = ref(["Idle"]);
-// None (metadata only): ["Loading"], // ["Loading"], ["Loaded"], ["Error"]
-// compact: ["cLoading", (int) current fetch counter], ["cParsing", (int) current parse counter], ["cLoaded"], ["cError"]
-// extensive: ["eLoading", (int) current fetch counter'], ["eParsing", (int) current parse counter], ["eLoaded"], ["eError"]
-
 const use_regex = ref(false); // Whether to use regex search or not
 
 /* Fetch circle index metadata */
@@ -99,17 +92,16 @@ async function fetch_circle_raw_indexes(variant) {
 
   /* Parse the concatenated JSON string */
   index_state.value = [variant == "compact" ? "cParsing" : "eParsing", 0];
-  await asyncsleep(1000); // wait a bit
-  
+  await asyncsleep(10); // wait a bit
+
   /* Fill circle index */
   index_ptr.value = [];
   for (let i = 0; i < index_parts_ptr.value.length; i++) {
-    index_ptr.value = index_ptr.value.concat(recursive_fill_circle_indexes(
-      index_parts_ptr.value[i],
-      [],
-      variant
-    ));
+    index_ptr.value = index_ptr.value.concat(
+      recursive_fill_circle_indexes(index_parts_ptr.value[i], [], variant)
+    );
     index_state.value[1] = i + 1; // Update the state
+    // await asyncsleep(1); // wait a bit to allow UI updates
   }
 
   index_state.value = [variant == "compact" ? "cLoaded" : "eLoaded"];
@@ -246,7 +238,7 @@ const filtered_circles = computed(() => {
 const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
   filtered_circles,
   {
-    itemHeight: 10,
+    itemHeight: 22,
     // overscan: 10,
   }
 );
@@ -268,7 +260,10 @@ function dumpFilteredCircles() {
 
   function esc(v) {
     if (v === null || v === undefined) return "";
-    return `"${String(v).replace(/"/g, '""').replace(/\t/g, "\\t").replace(/\r?\n/g, "\\n")}"`;
+    return `"${String(v)
+      .replace(/"/g, '""')
+      .replace(/\t/g, "\\t")
+      .replace(/\r?\n/g, "\\n")}"`;
   }
 
   const header = ["event_name", "names", "misc"];
@@ -326,7 +321,7 @@ onMounted(async () => {
     Loading circle index metadata...
   </div>
   <div v-else-if="index_state[0] == 'Loaded'" class="status-message">
-    Successfully loaded circle index metadata.
+    Successfully loaded circle index metadata. One of the circle indexes can now be downloaded.
   </div>
   <div v-if="index_state[0] == 'cLoading'" class="status-message">
     Loading Compact Circle Index... Downloaded {{ index_state[1] }} /
@@ -334,7 +329,7 @@ onMounted(async () => {
   </div>
   <div v-if="index_state[0] == 'cParsing'" class="status-message">
     Parsing Compact Circle Index... Parsed {{ index_state[1] }} /
-    {{ metadata?.extensive_index_chunk_count }}...
+    {{ metadata?.compact_index_chunk_count }}...
   </div>
   <div v-if="index_state[0] == 'cLoaded'" class="status-message">
     Successfully loaded Compact Circle Index.
@@ -376,61 +371,68 @@ onMounted(async () => {
   </div>
 
   <!-- Load Buttons -->
-  <div v-if="index_state[0] == 'Loaded'" class="status-message">
-    <button
-      class="retry-button"
-      @click="fetch_circle_raw_indexes('compact')"
-      :title="`Load compact circle index (${
-        metadata?.compact_index_chunk_count ?? 0
-      } chunks, ${Math.ceil(
-        (metadata?.compact_total_size || 0) / 1048576
-      )} MB)`"
-    >
-      Compact circle index
-    </button>
-  </div>
-  <div
-    v-if="index_state[0] == 'Loaded' || index_state[0] == 'cLoaded'"
-    class="status-message"
-  >
-    <button
-      class="retry-button"
-      @click="fetch_circle_raw_indexes('extensive')"
-      :title="`Load extensive circle index (${
-        metadata?.extensive_index_chunk_count ?? 0
-      } chunks, ${Math.ceil(
-        (metadata?.extensive_total_size || 0) / 1048576
-      )} MB)`"
-    >
-      Extensive circle index
-    </button>
-  </div>
+  <div class="load-controls-row status-message">
+    <div class="load-controls-left">
+      <button
+        v-if="index_state[0] == 'Loaded'"
+        class="retry-button"
+        @click="fetch_circle_raw_indexes('compact')"
+        :title="`Load compact circle index (${
+          metadata?.compact_index_chunk_count ?? 0
+        } chunks, ${Math.ceil(
+          (metadata?.compact_total_size || 0) / 1048576
+        )} MB)`"
+      >
+        Compact circle index
+      </button>
 
-  <input
-    class="cp-input"
-    :value="keywords"
-    @input="onSearchUpdate"
-    placeholder="Keywords"
-  />
-  <ToggleSwitch
-    v-model:toggle_value="use_regex"
-    :titleFunc="
-      (state) => (state ? 'regex search enabled' : 'regex search disabled')
-    "
-  />
-  ({{ filtered_circles?.length }} results)
+      <button
+        v-if="index_state[0] == 'Loaded' || index_state[0] == 'cLoaded'"
+        class="retry-button"
+        @click="fetch_circle_raw_indexes('extensive')"
+        :title="`Load extensive circle index (${
+          metadata?.extensive_index_chunk_count ?? 0
+        } chunks, ${Math.ceil(
+          (metadata?.extensive_total_size || 0) / 1048576
+        )} MB)`"
+      >
+        Extensive circle index
+      </button>
+    </div>
 
-  <!-- Align right -->
-  <button
-    class="ds-button"
-    @click="dumpFilteredCircles()"
-    title="Dump search results to csv."
-    style="float: right; margin-right: 1.5em"
-  >
-    Dump search results
-  </button>
+    <div class="load-controls-right">
+      <button
+        class="ds-button"
+        @click="dumpFilteredCircles()"
+        title="Dump search results to csv."
+      >
+        Dump search results
+      </button>
+    </div>
+  </div>
 
   <div class="cp-div">
+    <div class="cp-search-row" style="margin-bottom: 0.5em">
+      <input
+        class="cp-input"
+        :value="keywords"
+        @input="onSearchUpdate"
+        placeholder="Keywords"
+      />
+
+      <div class="cp-input cp-regex-group">
+        <div class="cp-regex-label">Use Regex ?</div>
+        <ToggleSwitch
+          v-model:toggle_value="use_regex"
+          :titleFunc="
+            (state) =>
+              state ? 'regex search enabled' : 'regex search disabled'
+          "
+        />
+      </div>
+
+      <div class="cp-results">({{ filtered_circles?.length }} results)</div>
+    </div>
     <table class="cp-header-table">
       <thead>
         <tr>
@@ -445,44 +447,43 @@ onMounted(async () => {
 
     <div class="cp-vlist">
       <div v-bind="containerProps" class="cp-vlist-component">
-        <div v-bind="wrapperProps">
-          <div v-for="(circle, i) in list" :key="i" class="cp-vlist-item">
-            <div
-              :class="
-                circle.index % 2 === 0
-                  ? 'cp-vlist-item-even'
-                  : 'cp-vlist-item-odd'
-              "
-            >
-              <!== {{ circle }} ==>
-              <table>
-                <tbody>
-                  <tr>
-                    <th>
-                      <button
-                        class="cp-popup-button"
-                        @click="popupCircleDetails(circle.data)"
-                        title="Show circle (partial) details"
-                      >
-                        🡵
-                      </button>
-                      {{ circle.data.names.join(" / ") }}
-                    </th>
-                    <th>
-                      <a
-                        class="cp-event-link"
-                        :href="
-                          ['/dea/event_detail/#']
-                            .concat(circle.data.ar_path)
-                            .join('/')
-                        "
-                      >
-                        {{ circle.data.event_name }}
-                      </a>
-                    </th>
-                  </tr>
-                </tbody>
-              </table>
+        <div v-bind="wrapperProps" class="cp-vlist-wrapper">
+          <!-- The wrapper receives the total scroll height from `useVirtualList`.
+               Inside it we absolutely-position visible items using vitem.start
+               so the wrapper's height doesn't push the page scrollbar. -->
+          <div
+            v-for="vitem in list"
+            :key="vitem.index"
+            :class="[
+              'cp-vlist-item',
+              vitem.index % 2 === 0 ? 'cp-vlist-item-even' : 'cp-vlist-item-odd'
+            ]"
+            class="cp-row"
+            :style="{
+              transform: `translateY(${vitem.start}px)`,
+              height: '22px',
+              willChange: 'transform'
+            }"
+          >
+            <div class="cp-row-inner">
+              <div class="cp-row-col cp-row-col-names">
+                <button
+                  class="cp-popup-button"
+                  @click="popupCircleDetails(vitem.data)"
+                  title="Show circle (partial) details"
+                >
+                  🡵
+                </button>
+                {{ Array.isArray(vitem.data.names) ? vitem.data.names.join(' / ') : (vitem.data.names || '') }}
+              </div>
+              <div class="cp-row-col cp-row-col-event">
+                <a
+                  class="cp-event-link"
+                  :href="['/dea/event_detail/#'].concat(vitem.data.ar_path).join('/')"
+                >
+                  {{ vitem.data.event_name }}
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -526,12 +527,83 @@ onMounted(async () => {
   height: 30em;
 }
 
+/* The vlist container must be the scroll container. Ensure it scrolls
+   internally so the wrapper's large total height doesn't affect the
+   page scrollbar. */
+.cp-vlist-component {
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
 /* Color even cp-vlist-component based on index in vlist */
 .cp-vlist-item {
   height: 22px;
   padding: 0;
   background-color: var(--grey-dark);
   color: var(--grey-light);
+}
+
+.cp-vlist-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.cp-row {
+  box-sizing: border-box;
+}
+
+.cp-row-inner {
+  display: flex;
+  align-items: center;
+  height: 22px;
+}
+
+.cp-row-col {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 0.3em;
+  line-height: 22px;
+}
+
+.cp-row-col-names {
+  flex: 1 1 auto;
+  text-align: left;
+}
+
+.cp-row-col-event {
+  width: 20%;
+  text-align: right;
+}
+
+.cp-vlist-component table,
+.cp-body-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* Ensure the table rows and cells used by the virtual list are fixed-height
+   and truncate overflowing content so the DOM row height matches
+   useVirtualList's `itemHeight`. */
+.cp-body-table tbody tr.cp-vlist-item {
+  height: 22px !important;
+}
+
+.cp-body-table td,
+.cp-body-table th,
+.cp-vlist-item td,
+.cp-vlist-item th {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 0.3em;
+  line-height: 22px;
+  height: 22px;
 }
 
 .cp-vlist-item-even {
@@ -546,6 +618,64 @@ onMounted(async () => {
   margin-left: 1em;
 }
 
+input.cp-input {
+  background-color: var(--grey-vibrant);
+  /* color: var(--grey-light); */
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 0.4em 0.6em;
+  border-radius: 0.25em;
+}
+
+.cp-search-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.cp-search-row .cp-input {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.cp-regex-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  font-weight: 700;
+  margin-left: 0.25rem;
+}
+
+.cp-regex-label {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.cp-results {
+  margin-left: 0.25rem;
+  font-weight: 600;
+}
+
+.load-controls-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5em 1em;
+}
+
+.load-controls-left {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.load-controls-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 th:nth-child(2) {
   text-align: right;
   padding-right: 1em;
@@ -555,11 +685,9 @@ table {
   width: 100%;
 }
 
-tr {
-  padding: 0 0.3em;
-  color: var(--grey-light);
-  width: 100%;
-}
+/* Remove padding on table rows (use td/th padding instead) to avoid
+   creating extra gaps between rows. */
+
 
 a.cp-event-link {
   color: var(--scarlet-soft);
