@@ -9,6 +9,9 @@ import axiosInstance from "@/axios/axios_config.js";
 import ToggleSwitch from "@/components/ToggleSwitch.vue";
 
 const keywords = ref("");
+const query_input = ref(""); // immediate input shown to user (debounced into `keywords`)
+const debounce_ms = 180; // debounce delay for search
+let debounce_timer = null;
 const metadata = ref({});
 const circle_compact_index_parts = ref([]); // Fetched compact index parts
 const circle_extensive_index_parts = ref([]); // Fetched extensive index parts
@@ -104,6 +107,16 @@ async function fetch_circle_raw_indexes(variant) {
     // await asyncsleep(1); // wait a bit to allow UI updates
   }
 
+  // Build compact lowercased search index in parallel (saves ~50%+ memory
+  // compared to duplicating full objects). This is used for fast substring
+  // and regex searches without touching original objects.
+  try {
+    search_index.value = build_search_index_for(index_ptr.value);
+  } catch (e) {
+    console.error("Error building search index:", e);
+    search_index.value = [];
+  }
+
   index_state.value = [variant == "compact" ? "cLoaded" : "eLoaded"];
 
   return;
@@ -147,8 +160,12 @@ function recursive_fill_circle_indexes(
 }
 
 const regex_expr = computed(() => {
+  // Only build regex when regex mode is enabled and there is a pattern.
+  if (!use_regex.value) return null;
+  const k = keywords.value;
+  if (!k || k.length === 0) return null;
   try {
-    return new RegExp(keywords.value, "i"); // 'i' for case-insensitive
+    return new RegExp(k, "i"); // 'i' for case-insensitive
   } catch (e) {
     return null; // Invalid regex
   }
@@ -176,26 +193,25 @@ const circle_index = computed(() => {
   }
 });
 
-const circle_index_lowered = computed(() => {
-  if (
-    !circle_index ||
-    !circle_index.value ||
-    !Array.isArray(circle_index.value)
-  ) {
-    return [];
-  }
-  return circle_index.value.map((circle) => {
-    return {
-      ...circle,
-      names: circle.names.map((name) => name.trim().toLowerCase()), // Lowercase all names
-      misc:
-        circle.misc && Array.isArray(circle.misc)
-          ? circle.misc.map((name) => name.trim().toLowerCase())
-          : null, // Lowercase all misc
-      event_name: circle.event_name.trim().toLowerCase(), // Lowercase event name
-    };
+// Compact, lower-cased search strings (one per circle) to avoid duplicating
+// circle objects in memory. Each string contains event, names and misc
+// joined with tabs, trimmed and lowercased.
+const search_index = ref([]);
+
+function build_search_index_for(arr) {
+  if (!arr || !Array.isArray(arr)) return [];
+  return arr.map((circle) => {
+    const event = (circle.event_name || "").toString().trim();
+    const names = Array.isArray(circle.names)
+      ? circle.names.map((n) => n.toString().trim()).join(" / ")
+      : (circle.names || "").toString().trim();
+    const misc = Array.isArray(circle.misc)
+      ? circle.misc.map((m) => m.toString().trim()).join(" / ")
+      : (circle.misc || "").toString().trim();
+    // Join parts with a separator and lowercase once.
+    return [event, names, misc].filter(Boolean).join("\t").toLowerCase();
   });
-});
+}
 
 const filtered_circles = computed(() => {
   // According to keywords
@@ -206,32 +222,22 @@ const filtered_circles = computed(() => {
   ) {
     return [];
   }
+  const query = keywords.value.trim().toLowerCase();
 
-  let query = keywords.value.trim().toLowerCase();
+  // If empty query, return whole index (no filtering) — avoids scanning everything.
+  if (!query && !use_regex.value) return circle_index.value;
+
   return circle_index.value.filter((circle, index) => {
-    let circle_lowered = circle_index_lowered.value[index];
+    const searchText = (search_index.value[index] || "").toString();
 
-    if (use_regex.value && query.length > 0) {
-      if (!regex_expr.value) {
-        // Invalid regex
-        return false;
-      }
-      return (
-        circle_lowered.names.some((name) => regex_expr.value.test(name)) || // Check if any name in the circle's names array matches the regex
-        regex_expr.value.test(circle_lowered.event_name) || // Check for event match
-        (circle_lowered.misc &&
-          circle_lowered.misc.some((misc) => regex_expr.value.test(misc)))
-      );
-    } else {
-      return (
-        circle_lowered.names.some((name) => name.includes(query)) || // Check if any name in the circle's names array includes the search query
-        circle_lowered.event_name.toLowerCase().includes(query) || // Check for event match
-        (circle_lowered.misc &&
-          circle_lowered.misc.some((misc) =>
-            misc.toLowerCase().includes(query)
-          ))
-      );
+    if (use_regex.value) {
+      if (!query) return false; // no pattern provided
+      if (!regex_expr.value) return false; // invalid regex
+      return regex_expr.value.test(searchText);
     }
+
+    // Simple substring search on the compact lowercased string.
+    return searchText.includes(query);
   });
 });
 
@@ -244,8 +250,17 @@ const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
 );
 
 function onSearchUpdate(event) {
-  keywords.value = event.target.value;
-  scrollTo(0);
+  const v = event.target.value;
+  // update immediate input so the UI stays responsive
+  query_input.value = v;
+
+  // debounce actual search value to avoid running heavy filters on every keystroke
+  if (debounce_timer) clearTimeout(debounce_timer);
+  debounce_timer = setTimeout(() => {
+    keywords.value = v;
+    // reset virtual list scroll to top on new search
+    scrollTo(0);
+  }, debounce_ms);
 }
 
 // Export the currently filtered circles as a CSV file and trigger a download
@@ -416,7 +431,7 @@ onMounted(async () => {
     <div class="cp-search-row" style="margin-bottom: 0.5em">
       <input
         class="cp-input"
-        :value="keywords"
+        v-model="query_input"
         @input="onSearchUpdate"
         placeholder="Keywords"
       />
