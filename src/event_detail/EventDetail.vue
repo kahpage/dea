@@ -149,7 +149,7 @@ watchEffect(async () => {
   if (db_path_args.value) {
     console.log("Url change detected, now fetching new event data...");
     if (props.db_path) {
-      await fetch_ed_db(); 
+      await fetch_ed_db();
     }
   }
 });
@@ -229,28 +229,27 @@ watchEffect(async () => {
         v-if="event_data?.circles && Array.isArray(event_data.circles)"
         class="ed-div-table"
       >
-      
-      <div class="ed-search-row">
-        <input
-          class="ed-input"
-          :value="keywords"
-          @input="onSearchUpdate"
-          placeholder="Keywords"
-        />
-
-        <div class="ed-input ed-regex-group">
-          <div class="ed-regex-label">Use Regex ?</div>
-          <ToggleSwitch
-            v-model:toggle_value="use_regex"
-            :titleFunc="
-              (state) =>
-                state ? 'regex search enabled' : 'regex search disabled'
-            "
+        <div class="ed-search-row">
+          <input
+            class="ed-input"
+            :value="keywords"
+            @input="onSearchUpdate"
+            placeholder="Keywords"
           />
-        </div>
 
-        <div class="ed-results">({{ filtered_circles?.length }} results)</div>
-      </div>
+          <div class="ed-input ed-regex-group">
+            <div class="ed-regex-label">Use Regex ?</div>
+            <ToggleSwitch
+              v-model:toggle_value="use_regex"
+              :titleFunc="
+                (state) =>
+                  state ? 'regex search enabled' : 'regex search disabled'
+              "
+            />
+          </div>
+
+          <div class="ed-results">({{ filtered_circles?.length }} results)</div>
+        </div>
         <table class="ed-header-table">
           <thead>
             <tr>
@@ -285,10 +284,19 @@ watchEffect(async () => {
                       'ed-vlist-item',
                       vitem.index % 2 === 0
                         ? 'ed-vlist-item-even'
-                        : 'ed-vlist-item-odd'
+                        : 'ed-vlist-item-odd',
                     ]"
                   >
-                    <td :style="{ backgroundColor: vitem.index % 2 === 0 ? 'var(--grey-dark)' : 'var(--greyish-deep)', color: 'var(--grey-light)', textAlign: 'center' }">
+                    <td
+                      :style="{
+                        backgroundColor:
+                          vitem.index % 2 === 0
+                            ? 'var(--grey-dark)'
+                            : 'var(--greyish-deep)',
+                        color: 'var(--grey-light)',
+                        textAlign: 'center',
+                      }"
+                    >
                       <button
                         class="ed-popup-button"
                         @click="popupCircleDetails(vitem.data)"
@@ -297,17 +305,65 @@ watchEffect(async () => {
                         🡵
                       </button>
                     </td>
-                    <td :style="{ backgroundColor: vitem.index % 2 === 0 ? 'var(--grey-dark)' : 'var(--greyish-deep)', color: 'var(--grey-light)' }">
-                      {{ vitem.data.position ?? '' }}
+                    <td
+                      :style="{
+                        backgroundColor:
+                          vitem.index % 2 === 0
+                            ? 'var(--grey-dark)'
+                            : 'var(--greyish-deep)',
+                        color: 'var(--grey-light)',
+                      }"
+                    >
+                      {{ vitem.data.position ?? "" }}
                     </td>
-                    <td :style="{ backgroundColor: vitem.index % 2 === 0 ? 'var(--grey-dark)' : 'var(--greyish-deep)', color: 'var(--grey-light)' }">
-                      {{ (Array.isArray(vitem.data.aliases) ? vitem.data.aliases.join(' / ') : (vitem.data.aliases || '')) }}
+                    <td
+                      :style="{
+                        backgroundColor:
+                          vitem.index % 2 === 0
+                            ? 'var(--grey-dark)'
+                            : 'var(--greyish-deep)',
+                        color: 'var(--grey-light)',
+                      }"
+                    >
+                      {{
+                        Array.isArray(vitem.data.aliases)
+                          ? vitem.data.aliases.join(" / ")
+                          : vitem.data.aliases || ""
+                      }}
                     </td>
-                    <td :style="{ backgroundColor: vitem.index % 2 === 0 ? 'var(--grey-dark)' : 'var(--greyish-deep)', color: 'var(--grey-light)' }">
-                      {{ (Array.isArray(vitem.data.pen_names) ? vitem.data.pen_names.join(' / ') : (vitem.data.pen_names || '')) }}
+                    <td
+                      :style="{
+                        backgroundColor:
+                          vitem.index % 2 === 0
+                            ? 'var(--grey-dark)'
+                            : 'var(--greyish-deep)',
+                        color: 'var(--grey-light)',
+                      }"
+                    >
+                      {{
+                        Array.isArray(vitem.data.pen_names)
+                          ? vitem.data.pen_names.join(" / ")
+                          : vitem.data.pen_names || ""
+                      }}
                     </td>
-                    <td :style="{ backgroundColor: vitem.index % 2 === 0 ? 'var(--grey-dark)' : 'var(--greyish-deep)', color: 'var(--grey-light)' }">
-                      <span v-html="makeLinksClickable((Array.isArray(vitem.data.links) ? vitem.data.links.join(', ') : (vitem.data.links || '')))" />
+                    <td
+                      :style="{
+                        backgroundColor:
+                          vitem.index % 2 === 0
+                            ? 'var(--grey-dark)'
+                            : 'var(--greyish-deep)',
+                        color: 'var(--grey-light)',
+                      }"
+                    >
+                      <span
+                        v-html="
+                          makeLinksClickable(
+                            Array.isArray(vitem.data.links)
+                              ? vitem.data.links.join(', ')
+                              : vitem.data.links || ''
+                          )
+                        "
+                      />
                     </td>
                   </tr>
                 </tbody>
@@ -374,7 +430,6 @@ watchEffect(async () => {
           </p>
           <p v-if="loc?.comments">{{ loc.comments }}</p>
         </div>
-        <!-- <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe -->
       </ToggleShow>
 
       <!-- ===== MEDIA ===== -->
@@ -398,11 +453,10 @@ watchEffect(async () => {
 <style scoped>
 @import "@/assets/common.css";
 
+/* Container and header */
 .ed-div {
   margin: 1em;
-  /* padding: 1em; */
   border-radius: 5px;
-  /* background-color: var(--greyish-dark); */
 }
 
 .ed-header {
@@ -443,32 +497,32 @@ thead {
   text-align: left;
 }
 
+/* Unified table title styling (merged duplicates) */
 .ed-table-title {
   text-align: center !important;
-  font-size: x-large;
+  font-size: larger;
+  font-weight: 700;
   padding-bottom: 0.3em;
   background-color: var(--scarlet-dark);
   color: var(--grey-vibrant);
 }
 
-tbody tr:nth-child(odd) {
-  background-color: var(--grey-dark);
+p {
+  margin: 0;
 }
 
+/* Description / Sources */
 .ts-sources {
   margin-left: 1em;
   width: min-content;
 }
-
 .ts-description {
   margin-left: -0.5em;
   max-width: 95%;
 }
-
 .ts-description-div {
   width: 95%;
 }
-
 .ts-description-div p {
   word-wrap: break-word;
 }
@@ -478,19 +532,16 @@ tbody tr:nth-child(odd) {
   margin-top: 1em;
   margin-left: 1em;
 }
-
 .ed-search-row {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   flex-wrap: wrap;
 }
-
 .ed-search-row .ed-input {
   margin-top: 0;
   margin-left: 0;
 }
-
 .ed-regex-group {
   display: flex;
   flex-direction: column;
@@ -500,17 +551,16 @@ tbody tr:nth-child(odd) {
   font-weight: 700;
   margin-left: 0.25rem;
 }
-
 .ed-regex-label {
   font-size: 0.95rem;
   line-height: 1;
 }
-
 .ed-results {
   margin-left: 0.25rem;
   font-weight: 600;
 }
 
+/* Popup button (single definition) */
 .ed-popup-button {
   background: none;
   border: none;
@@ -518,16 +568,11 @@ tbody tr:nth-child(odd) {
   color: var(--orange-light);
   font-weight: 900;
 }
-
 .ed-popup-button:hover {
   color: var(--orange-vibrant);
 }
 
-p {
-  margin: 0;
-}
-
-/* Styles for the virtualized circle list (inspired by CircleParticipation.vue) */
+/* Styles for the virtualized circle list (merged .ed-vlist-component rules) */
 .ed-div-table {
   margin-top: 1em;
   background-color: var(--scarlet-dark);
@@ -542,8 +587,7 @@ p {
 
 input.ed-input {
   background-color: var(--grey-vibrant);
-  /* color: var(--grey-light); */
-  border: 1px solid rgba(0,0,0,0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0.4em 0.6em;
   border-radius: 0.25em;
 }
@@ -551,25 +595,13 @@ input.ed-input {
 .ed-header-table {
   width: 100%;
 }
-
-.ed-table-title {
-  font-size: larger;
-  text-align: center;
-  font-weight: 700;
-}
-
 .ed-vlist {
   margin: 0 0.25em;
 }
 
+/* The vlist container must be the scroll container. Keep a single definition. */
 .ed-vlist-component {
   height: 30em;
-}
-
-/* The vlist container must be the scroll container. Ensure it scrolls
-   internally so the wrapper's large total height doesn't affect the
-   page scrollbar. */
-.ed-vlist-component {
   overflow-y: auto;
   overflow-x: hidden;
   position: relative;
@@ -582,7 +614,6 @@ input.ed-input {
   background-color: var(--grey-dark);
   color: var(--grey-light);
 }
-
 .ed-vlist-wrapper {
   display: block;
   position: absolute;
@@ -590,21 +621,14 @@ input.ed-input {
   left: 0;
   width: 100%;
 }
-
-/* Keep ed virtual list rows fixed and prevent content from stretching them */
 .ed-vlist-component table {
   table-layout: fixed;
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/* Ensure the table rows and cells used by the virtual list are fixed-height
-   and truncate overflowing content so the DOM row height matches
-   useVirtualList's `itemHeight`. */
 .ed-body-table tbody tr.ed-vlist-item {
   height: 22px !important;
 }
-
 .ed-body-table tbody tr.ed-vlist-item td,
 .ed-body-table tbody tr.ed-vlist-item th,
 .ed-vlist-item td,
@@ -624,18 +648,6 @@ input.ed-input {
   background-color: var(--greyish-deep);
 }
 
-.ed-popup-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: var(--orange-light);
-  font-weight: 900;
-}
-
-.ed-popup-button:hover {
-  color: var(--orange-vibrant);
-}
-
 a.ed-event-link {
   color: var(--scarlet-soft);
 }
@@ -645,15 +657,13 @@ a.ed-event-link {
   table-layout: fixed;
   border-collapse: collapse;
 }
-
 .ed-body-table td {
   padding: 0 0.3em;
   color: var(--grey-light);
   vertical-align: middle;
 }
 
-/* Force ed-body-table row coloring to follow the virtual index classes
-   rather than DOM order (which changes with virtualization). */
+/* Force ed-body-table row coloring to follow the virtual index classes rather than DOM order (which changes with virtualization). */
 .ed-body-table tbody tr {
   background-color: var(--grey-dark) !important;
   color: var(--grey-light) !important;

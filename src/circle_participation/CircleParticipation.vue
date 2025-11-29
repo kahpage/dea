@@ -321,7 +321,8 @@ onMounted(async () => {
     Loading circle index metadata...
   </div>
   <div v-else-if="index_state[0] == 'Loaded'" class="status-message">
-    Successfully loaded circle index metadata. One of the circle indexes can now be downloaded.
+    Successfully loaded circle index metadata. One of the circle indexes can now
+    be downloaded.
   </div>
   <div v-if="index_state[0] == 'cLoading'" class="status-message">
     Loading Compact Circle Index... Downloaded {{ index_state[1] }} /
@@ -456,13 +457,15 @@ onMounted(async () => {
             :key="vitem.index"
             :class="[
               'cp-vlist-item',
-              vitem.index % 2 === 0 ? 'cp-vlist-item-even' : 'cp-vlist-item-odd'
+              vitem.index % 2 === 0
+                ? 'cp-vlist-item-even'
+                : 'cp-vlist-item-odd',
             ]"
             class="cp-row"
             :style="{
               transform: `translateY(${vitem.start}px)`,
               height: '22px',
-              willChange: 'transform'
+              willChange: 'transform',
             }"
           >
             <div class="cp-row-inner">
@@ -474,12 +477,18 @@ onMounted(async () => {
                 >
                   🡵
                 </button>
-                {{ Array.isArray(vitem.data.names) ? vitem.data.names.join(' / ') : (vitem.data.names || '') }}
+                {{
+                  Array.isArray(vitem.data.names)
+                    ? vitem.data.names.join(" / ")
+                    : vitem.data.names || ""
+                }}
               </div>
               <div class="cp-row-col cp-row-col-event">
                 <a
                   class="cp-event-link"
-                  :href="['/dea/event_detail/#'].concat(vitem.data.ar_path).join('/')"
+                  :href="
+                    ['/dea/event_detail/#'].concat(vitem.data.ar_path).join('/')
+                  "
                 >
                   {{ vitem.data.event_name }}
                 </a>
@@ -496,6 +505,7 @@ onMounted(async () => {
 <style scoped>
 @import "@/assets/common.css";
 
+/* Container and header */
 .cp-div {
   margin: 1em;
   background-color: var(--orange-dark);
@@ -511,7 +521,6 @@ onMounted(async () => {
 .cp-header-table {
   width: 100%;
 }
-
 .cp-table-title {
   font-size: larger;
   text-align: center;
@@ -520,31 +529,24 @@ onMounted(async () => {
 
 .cp-vlist {
   margin: 0 0.25em;
-  /* background-color: red; */
 }
 
+/* The vlist container must be the scroll container. Keep a single definition. */
 .cp-vlist-component {
   height: 30em;
-}
-
-/* The vlist container must be the scroll container. Ensure it scrolls
-   internally so the wrapper's large total height doesn't affect the
-   page scrollbar. */
-.cp-vlist-component {
   overflow-y: auto;
   overflow-x: hidden;
   position: relative;
   box-sizing: border-box;
 }
 
-/* Color even cp-vlist-component based on index in vlist */
+/* Color rows and keep fixed height to match useVirtualList itemHeight */
 .cp-vlist-item {
   height: 22px;
   padding: 0;
   background-color: var(--grey-dark);
   color: var(--grey-light);
 }
-
 .cp-vlist-wrapper {
   display: block;
   position: relative;
@@ -554,13 +556,11 @@ onMounted(async () => {
 .cp-row {
   box-sizing: border-box;
 }
-
 .cp-row-inner {
   display: flex;
   align-items: center;
   height: 22px;
 }
-
 .cp-row-col {
   overflow: hidden;
   white-space: nowrap;
@@ -568,17 +568,16 @@ onMounted(async () => {
   padding: 0 0.3em;
   line-height: 22px;
 }
-
 .cp-row-col-names {
   flex: 1 1 auto;
   text-align: left;
 }
-
 .cp-row-col-event {
   width: 20%;
   text-align: right;
 }
 
+/* Tables used by vlist */
 .cp-vlist-component table,
 .cp-body-table {
   table-layout: fixed;
@@ -586,14 +585,9 @@ onMounted(async () => {
   border-spacing: 0;
   width: 100%;
 }
-
-/* Ensure the table rows and cells used by the virtual list are fixed-height
-   and truncate overflowing content so the DOM row height matches
-   useVirtualList's `itemHeight`. */
 .cp-body-table tbody tr.cp-vlist-item {
   height: 22px !important;
 }
-
 .cp-body-table td,
 .cp-body-table th,
 .cp-vlist-item td,
@@ -605,7 +599,6 @@ onMounted(async () => {
   line-height: 22px;
   height: 22px;
 }
-
 .cp-vlist-item-even {
   background-color: var(--grey-dark);
 }
@@ -617,11 +610,9 @@ onMounted(async () => {
   margin-top: 1em;
   margin-left: 1em;
 }
-
 input.cp-input {
   background-color: var(--grey-vibrant);
-  /* color: var(--grey-light); */
-  border: 1px solid rgba(0,0,0,0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0.4em 0.6em;
   border-radius: 0.25em;
 }
@@ -632,12 +623,10 @@ input.cp-input {
   gap: 0.75rem;
   flex-wrap: wrap;
 }
-
 .cp-search-row .cp-input {
   margin-top: 0;
   margin-left: 0;
 }
-
 .cp-regex-group {
   display: flex;
   flex-direction: column;
@@ -647,12 +636,10 @@ input.cp-input {
   font-weight: 700;
   margin-left: 0.25rem;
 }
-
 .cp-regex-label {
   font-size: 0.95rem;
   line-height: 1;
 }
-
 .cp-results {
   margin-left: 0.25rem;
   font-weight: 600;
@@ -665,12 +652,10 @@ input.cp-input {
   gap: 1rem;
   margin: 0.5em 1em;
 }
-
 .load-controls-left {
   display: flex;
   gap: 0.5rem;
 }
-
 .load-controls-right {
   display: flex;
   justify-content: flex-end;
@@ -680,14 +665,9 @@ th:nth-child(2) {
   text-align: right;
   padding-right: 1em;
 }
-
 table {
   width: 100%;
 }
-
-/* Remove padding on table rows (use td/th padding instead) to avoid
-   creating extra gaps between rows. */
-
 
 a.cp-event-link {
   color: var(--scarlet-soft);
@@ -700,7 +680,6 @@ a.cp-event-link {
   color: var(--orange-light);
   font-weight: 900;
 }
-
 .cp-popup-button:hover {
   color: var(--orange-vibrant);
 }
