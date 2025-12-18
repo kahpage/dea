@@ -105,6 +105,7 @@ function recursive_flatten_event_groups(el_index, ar_path=[], hue_low=0, hue_hig
             }
             let event = {
                   name: event_name,
+                  raw_dates: event_data["dates"] || "",
                   date_start: date_start,
                   date_end: date_end,
                   was_held: was_held,

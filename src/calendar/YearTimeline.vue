@@ -15,15 +15,25 @@
       <div
         v-for="(event, index) in eventBars"
         :key="'event-' + index"
-        class="event-bar"
-        :style="event.style"
+        class="event-wrapper"
+        :style="event.wrapperStyle"
         @mouseenter="hoveredEventIndex = index"
         @mouseleave="hoveredEventIndex = null"
       >
+        <a :href="event.link" class="event-bar" :style="event.barStyle"></a>
         <div v-if="hoveredEventIndex === index" class="event-tooltip">
-          <div v-for="event in overlappingEvents" :key="event.name">
-            {{ event.name }}
-          </div>
+          <table>
+            <tbody>
+              <tr v-for="overlap in overlappingEvents" :key="overlap.name">
+                <td class="tooltip-date">{{ overlap.raw_dates }}</td>
+                <td>
+                  <a :href="overlap.link" class="tooltip-link">{{
+                    overlap.name
+                  }}</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -39,7 +49,7 @@ const props = defineProps({
     type: Number,
     default: new Date().getFullYear()
   },
-  events_of_the_year: Array, // List of events of the year {name: event_name,date_start: date_start,date_end: date_end,was_held: was_held,ar_path: event_group_ar_path,hue: hue_event_group}
+  events_of_the_year: Array, // List of events of the year {name: event_name,raw_dates: raw_dates,date_start: date_start,date_end: date_end,was_held: was_held,ar_path: event_group_ar_path,hue: hue_event_group}
 });
 
 const timelineContainer = ref(null);
@@ -73,17 +83,25 @@ const eventBars = computed(() => {
         ? "var(--event-active-saturation)"
         : "var(--event-inactive-saturation)";
       const backgroundColor = `hsl(${event.hue}, ${saturation}, var(--event-lightness))`;
+      const link =
+        event.ar_path && Array.isArray(event.ar_path)
+          ? "/dea/event_detail/#/" + event.ar_path.join("/") + "/" + event.name
+          : "#";
 
       return {
         name: event.name,
+        raw_dates: event.raw_dates,
+        link,
         startTime: startDate.getTime(),
         endTime: endDate.getTime(),
         startPct: startPos,
         widthPct: width,
-        style: {
+        wrapperStyle: {
           left: `${startPos}%`,
           width: `${width}%`,
           minWidth: "10px",
+        },
+        barStyle: {
           backgroundColor,
         },
       };
@@ -201,13 +219,20 @@ const monthSeparators = computed(() => {
   color: #666;
   white-space: nowrap;
 }
-.event-bar {
+.event-wrapper {
   position: absolute;
   top: 50%;
   height: 10px;
-  border-radius: 5px;
   transform: translateY(-50%);
-  z-index: 1; /* Ensure it's above the line but maybe below dots if desired, or above dots? */
+  z-index: 1;
+}
+
+.event-bar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .event-tooltip {
@@ -221,8 +246,44 @@ const monthSeparators = computed(() => {
   border-radius: 4px;
   font-size: 0.8em;
   white-space: nowrap;
-  pointer-events: none;
   z-index: 10;
   margin-bottom: 5px;
+  cursor: default;
+}
+
+.event-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}
+
+.event-tooltip table {
+  border-collapse: collapse;
+}
+
+.event-tooltip td {
+  padding: 2px 5px;
+  vertical-align: top;
+}
+
+.tooltip-date {
+  color: #ccc;
+  font-size: 0.9em;
+  white-space: nowrap;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.tooltip-link {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.tooltip-link:hover {
+  text-decoration: underline;
 }
 </style>
