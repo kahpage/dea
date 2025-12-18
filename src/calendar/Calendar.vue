@@ -116,20 +116,21 @@ function recursive_flatten_event_groups(el_index, ar_path=[], hue_low=0, hue_hig
             // Update oldest and newest years
             if (year_oldest.value === null || year < year_oldest.value) {year_oldest.value = year;}
             if (year_newest.value === null || year > year_newest.value) {year_newest.value = year;}
-        }
+          }
     }
 
     // == Sub categories ==
-    for (const year of Object.keys(flat_event_groups)) {
-        // Concatenate events from subcategories
-        for (const key of subcategs) {
-            const sub_flat = recursive_flatten_event_groups(
-                el_index[key], ar_path.concat([key]), hue_low_subcategs, hue_high
-            );
-            if (!sub_flat.hasOwnProperty(year)) {
+    for (const key of subcategs) {
+        const sub_flat = recursive_flatten_event_groups(
+            el_index[key], ar_path.concat([key]), hue_low_subcategs, hue_high
+        );
+        
+        // Merge sub_flat into flat_event_groups
+        for (const [year, events] of Object.entries(sub_flat)) {
+            if (!flat_event_groups.hasOwnProperty(year)) {
                 flat_event_groups[year] = [];
             }
-            flat_event_groups[year] = flat_event_groups[year].concat(sub_flat[year]);
+            flat_event_groups[year] = flat_event_groups[year].concat(events);
         }
     }
     return flat_event_groups;

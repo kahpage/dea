@@ -21,7 +21,12 @@
         @mouseleave="hoveredEventIndex = null"
       >
         <a :href="event.link" class="event-bar" :style="event.barStyle"></a>
-        <div v-if="hoveredEventIndex === index" class="event-tooltip">
+        <div
+          v-if="hoveredEventIndex === index"
+          class="event-tooltip"
+          ref="tooltipRef"
+          :style="tooltipStyle"
+        >
           <table>
             <tbody>
               <tr v-for="overlap in overlappingEvents" :key="overlap.name">
@@ -41,7 +46,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, nextTick, watch } from "vue";
 import { useElementBounding } from "@vueuse/core";
 
 const props = defineProps({
@@ -53,8 +58,47 @@ const props = defineProps({
 });
 
 const timelineContainer = ref(null);
+const tooltipRef = ref(null);
 const { width: containerWidth } = useElementBounding(timelineContainer);
 const hoveredEventIndex = ref(null);
+const tooltipStyle = ref({});
+
+watch(hoveredEventIndex, async (newIndex) => {
+  if (newIndex !== null) {
+    await nextTick();
+    const tooltipEl = Array.isArray(tooltipRef.value) ? tooltipRef.value[0] : tooltipRef.value;
+    
+    if (tooltipEl && timelineContainer.value) {
+      const tooltipRect = tooltipEl.getBoundingClientRect();
+      const containerRect = timelineContainer.value.getBoundingClientRect();
+      
+      let left = "50%";
+      let transform = "translateX(-50%)";
+
+      // Check left overflow
+      if (tooltipRect.left < containerRect.left) {
+        left = "0";
+        transform = "translateX(0)";
+      }
+      // Check right overflow
+      else if (tooltipRect.right > containerRect.right) {
+        left = "auto";
+        transform = "translateX(0)";
+        // We can't easily set right: 0 because it's positioned relative to the event wrapper
+        // Instead, we can calculate the offset needed
+        const overflow = tooltipRect.right - containerRect.right;
+        transform = `translateX(calc(-50% - ${overflow}px))`;
+      }
+
+      tooltipStyle.value = {
+        left,
+        transform
+      };
+    }
+  } else {
+    tooltipStyle.value = {};
+  }
+});
 
 const eventBars = computed(() => {
   if (!props.events_of_the_year) return [];
@@ -65,7 +109,6 @@ const eventBars = computed(() => {
   const yearDuration = endOfYear - startOfYear;
 
   return props.events_of_the_year
-    .filter(event => event) // Ensure event is not null/undefined
     .map((event) => {
       const [sy, sm, sd] = event.date_start;
       const [ey, em, ed] = event.date_end;
