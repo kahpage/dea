@@ -1,7 +1,7 @@
 <template>
   <div class="timeline-wrapper">
     <div class="year-label">{{ year }}</div>
-    <div class="timeline-container">
+    <div class="timeline-container" ref="timelineContainer">
       <div class="timeline-line"></div>
       <div
         v-for="(month, index) in monthSeparators"
@@ -17,13 +17,22 @@
         :key="'event-' + index"
         class="event-bar"
         :style="event.style"
-      ></div>
+        @mouseenter="hoveredEventIndex = index"
+        @mouseleave="hoveredEventIndex = null"
+      >
+        <div v-if="hoveredEventIndex === index" class="event-tooltip">
+          <div v-for="event in overlappingEvents" :key="event.name">
+            {{ event.name }}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { computed } from "vue";
+import { ref, computed } from "vue";
+import { useElementBounding } from "@vueuse/core";
 
 const props = defineProps({
   year: {
@@ -33,6 +42,10 @@ const props = defineProps({
   events_of_the_year: Array, // List of events of the year {name: event_name,date_start: date_start,date_end: date_end,was_held: was_held,ar_path: event_group_ar_path,hue: hue_event_group}
 });
 
+const timelineContainer = ref(null);
+const { width: containerWidth } = useElementBounding(timelineContainer);
+const hoveredEventIndex = ref(null);
+
 const eventBars = computed(() => {
   if (!props.events_of_the_year) return [];
 
@@ -41,25 +54,61 @@ const eventBars = computed(() => {
   const endOfYear = new Date(year + 1, 0, 1).getTime();
   const yearDuration = endOfYear - startOfYear;
 
-  return props.events_of_the_year.map((event) => {
-    const [sy, sm, sd] = event.date_start;
-    const [ey, em, ed] = event.date_end;
+  return props.events_of_the_year
+    .filter(event => event) // Ensure event is not null/undefined
+    .map((event) => {
+      const [sy, sm, sd] = event.date_start;
+      const [ey, em, ed] = event.date_end;
 
-    // Assuming 1-based months in input, converting to 0-based for Date
-    const startDate = new Date(sy, sm - 1, sd);
-    // Inclusive end date: set to the start of the next day
-    const endDate = new Date(ey, em - 1, ed + 1);
+      // Assuming 1-based months in input, converting to 0-based for Date
+      const startDate = new Date(sy, sm - 1, sd);
+      // Inclusive end date: set to the start of the next day
+      const endDate = new Date(ey, em - 1, ed + 1);
 
-    const startPos = ((startDate.getTime() - startOfYear) / yearDuration) * 100;
-    const endPos = ((endDate.getTime() - startOfYear) / yearDuration) * 100;
-    const width = endPos - startPos;
+      const startPos = ((startDate.getTime() - startOfYear) / yearDuration) * 100;
+      const endPos = ((endDate.getTime() - startOfYear) / yearDuration) * 100;
+      const width = endPos - startPos;
 
-    return {
-      style: {
-        left: `${startPos}%`,
-        width: `${width}%`,
-      },
-    };
+      const saturation = event.was_held
+        ? "var(--event-active-saturation)"
+        : "var(--event-inactive-saturation)";
+      const backgroundColor = `hsl(${event.hue}, ${saturation}, var(--event-lightness))`;
+
+      return {
+        name: event.name,
+        startTime: startDate.getTime(),
+        endTime: endDate.getTime(),
+        startPct: startPos,
+        widthPct: width,
+        style: {
+          left: `${startPos}%`,
+          width: `${width}%`,
+          minWidth: "10px",
+          backgroundColor,
+        },
+      };
+    });
+});
+
+const overlappingEvents = computed(() => {
+  if (hoveredEventIndex.value === null) return [];
+  const hovered = eventBars.value[hoveredEventIndex.value];
+  if (!hovered) return [];
+
+  const getRange = (event) => {
+    const leftPx = (event.startPct / 100) * containerWidth.value;
+    let widthPx = (event.widthPct / 100) * containerWidth.value;
+    if (widthPx < 10) widthPx = 10;
+    return { start: leftPx, end: leftPx + widthPx };
+  };
+
+  const hoveredRange = getRange(hovered);
+
+  return eventBars.value.filter((event) => {
+    const range = getRange(event);
+    return (
+      hoveredRange.start < range.end && hoveredRange.end > range.start
+    );
   });
 });
 
@@ -91,13 +140,11 @@ const monthSeparators = computed(() => {
 </script>
 
 <style scoped>
-:root {
+.timeline-wrapper {
   --event-lightness: 40%;
   --event-active-saturation: 70%;
   --event-inactive-saturation: 30%;
-}
 
-.timeline-wrapper {
   display: flex;
   align-items: center;
   width: 95%;
@@ -158,8 +205,24 @@ const monthSeparators = computed(() => {
   position: absolute;
   top: 50%;
   height: 10px;
-  background-color: rgba(100, 149, 237, 0.7); /* CornflowerBlue with opacity */
   border-radius: 5px;
   transform: translateY(-50%);
   z-index: 1; /* Ensure it's above the line but maybe below dots if desired, or above dots? */
-}</style>
+}
+
+.event-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 10;
+  margin-bottom: 5px;
+}
+</style>
