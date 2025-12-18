@@ -201,6 +201,8 @@ const monthSeparators = computed(() => {
 </script>
 
 <style scoped>
+@import "@/assets/common.css";
+
 .timeline-wrapper {
   --event-lightness: 40%;
   --event-active-saturation: 70%;
@@ -276,6 +278,8 @@ const monthSeparators = computed(() => {
   height: 100%;
   border-radius: 5px;
   cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 120ms ease-in-out;
 }
 
 .event-tooltip {
@@ -292,6 +296,10 @@ const monthSeparators = computed(() => {
   z-index: 10;
   margin-bottom: 5px;
   cursor: default;
+}
+
+.event-bar:hover {
+  opacity: 1;
 }
 
 .event-tooltip::after {

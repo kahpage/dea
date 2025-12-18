@@ -88,34 +88,67 @@ function recursive_flatten_event_groups(el_index, ar_path=[], hue_low=0, hue_hig
 
     // == Databases ==
     // Iterate over event groups with index
-    for (const[index, [event_group_name, event_group]] of Object.entries(event_groups).entries()) {
+    for (const[index, [event_group_key, event_group]] of Object.entries(event_groups).entries()) {
         let event_group_events = event_group?.events;
-        let event_group_ar_path = ar_path.concat([event_group_name]);
+        let event_group_ar_path = ar_path.concat([event_group_key]);
         let hue_event_group = hue_low + (hue_high_db - hue_low) * index / event_group_count;
-        
+        let event_group_name = event_group.aliases[0];
+
         // Iterate over events
         for (const [event_name, event_data] of Object.entries(event_group_events)) {
             let [date_start, date_end, was_held] = parse_event_dates(event_data);
             if (date_start === null || date_end === null) {
                 continue; // Skip events without valid dates
             }
-            let year = date_start[0];
-            if (!flat_event_groups.hasOwnProperty(year)) {
-                flat_event_groups[year] = [];
+            let year_start = date_start[0];
+            let year_end = date_end[0];
+            if (year_start > year_end) {
+                console.warn(`Event "${event_name}" has start year greater than end year: ${year_start} > ${year_end}. Skipping.`);
+                continue;
             }
-            let event = {
-                  name: event_name,
-                  raw_dates: event_data["dates"] || "",
-                  date_start: date_start,
-                  date_end: date_end,
-                  was_held: was_held,
-                  ar_path: event_group_ar_path,
-                  hue: hue_event_group
+
+            // Always create an entry for the start year
+            if (!flat_event_groups.hasOwnProperty(year_start)) {
+                flat_event_groups[year_start] = [];
+            }
+
+            // Handle events spanning multiple years
+            if (year_start !== year_end) {
+              for (let year = year_start; year <= year_end; year++) {
+                  if (!flat_event_groups.hasOwnProperty(year)) {
+                      flat_event_groups[year] = [];
+                  }
+                  let date_start_year = (year === year_start) ? date_start : [year, 1, 1];
+                  let date_end_year = (year === year_end) ? date_end : [year, 12, 31];
+                  let event = {
+                    name: event_name,
+                    raw_dates: event_data["dates"] || "",
+                    date_start: date_start_year,
+                    date_end: date_end_year,
+                    was_held: was_held,
+                    ar_path: event_group_ar_path,
+                    event_group_name: event_group_name,
+                    hue: hue_event_group
+                  }
+                  flat_event_groups[year].push(event);
               }
-            flat_event_groups[year].push(event);
+            } else { // Event within a single year
+              let event = {
+                    name: event_name,
+                    raw_dates: event_data["dates"] || "",
+                    date_start: date_start,
+                    date_end: date_end,
+                    was_held: was_held,
+                    ar_path: event_group_ar_path,
+                    event_group_name: event_group_name,
+                    hue: hue_event_group
+                }
+              flat_event_groups[year_start].push(event);
+            }
+
             // Update oldest and newest years
-            if (year_oldest.value === null || year < year_oldest.value) {year_oldest.value = year;}
-            if (year_newest.value === null || year > year_newest.value) {year_newest.value = year;}
+            if (year_oldest.value === null || year_start < year_oldest.value) {year_oldest.value = year_start;}
+            if (year_newest.value === null || year_end > year_newest.value) {year_newest.value = year_end;}
           }
     }
 
@@ -140,6 +173,28 @@ const el_flat_categories = computed(
     () => recursive_flatten_event_groups(event_list_index.value)
 );
 
+const legendItems = computed(() => {
+  const items = new Map();
+  const flat = el_flat_categories.value;
+  
+  Object.values(flat).forEach(events => {
+    events.forEach(event => {
+      if (event.ar_path && event.ar_path.length > 0) {
+        const pathStr = event.ar_path.join("/");
+        if (!items.has(pathStr)) {
+          items.set(pathStr, {
+            name: event.event_group_name || event.ar_path[event.ar_path.length - 1],
+            hue: event.hue,
+            link: "/dea/event_group_detail/#/" + pathStr
+          });
+        }
+      }
+    });
+  });
+
+  return Array.from(items.values()).sort((a, b) => a.hue - b.hue);
+});
+
 const dummy = computed(() => {
     console.log("Flattened event list:", el_flat_categories.value);
     return true;
@@ -157,8 +212,8 @@ onMounted(async () => {
     <title>dea | Calendar</title>
   </head>
 
-  <div class="el-container">
-    <div class="el-content">
+  <div class="ca-container">
+    <div class="ca-content">
       <section id="top"></section>
       <Navigation />
       <div class="header-title">Calendar</div>
@@ -182,12 +237,20 @@ onMounted(async () => {
       </div>
       <div v-else>
         <!-- Successfully fetched event list -->
+        <!-- Legend -->
+        <div class="legend-container">
+            <a v-for="item in legendItems" :key="item.name" :href="item.link" class="legend-item">
+                <div class="legend-color" :style="{ backgroundColor: `hsl(${item.hue}, 70%, 40%)` }"></div>
+                <span class="legend-text">{{ item.name }}</span>
+            </a>
+        </div>
+
+        <!-- Timelines -->
         <div v-for="year in Object.keys(el_flat_categories).sort((a,b) => b - a)" :key="year">
           <YearTimeline 
             :year="parseInt(year)" 
             :events_of_the_year="el_flat_categories[year]"
-          />  
-
+          />
         </div>
 
       </div>
@@ -198,21 +261,21 @@ onMounted(async () => {
 <style>
 @import "@/assets/common.css";
 
-/* .el-container {
+.ca-container {
   display: flex;
   flex-direction: row;
   height: 100vh; 
   width: 100%; 
 }
 
-.el-content {
+.ca-content {
   flex: 1; 
   overflow-y: auto; 
   padding: 0;
   box-sizing: border-box;
 }
 
-.el-menu {
+.ca-menu {
   width: 25%;
   background-color: var(--greyish-mild);
   padding-left: 0.5em;
@@ -220,17 +283,6 @@ onMounted(async () => {
   height: 100%;
   overflow-y: auto;
   box-sizing: border-box;
-}
-
-.el-menu-title {
-  font-size: x-large;
-  font-weight: 700;
-  color: var(--purple-deep);
-}
-a.el-menu-title {
-  font-size: medium;
-  font-weight: 700;
-  color: var(--purple-deep);
 }
 
 .retry-button {
@@ -248,5 +300,36 @@ a.el-menu-title {
   padding: 0 1em;
   color: var(--purple-dark);
   font-size: medium;
-} */
+} 
+
+.legend-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1em 2em;
+  justify-content: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.legend-item:hover .legend-text {
+  text-decoration: underline;
+}
+
+.legend-color {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+}
+
+.legend-text {
+    color: var(--grey-mild);
+    font-size: 0.9em;
+}
 </style>
