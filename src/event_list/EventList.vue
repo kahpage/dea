@@ -58,7 +58,7 @@ onMounted(async () => {
       </div>
       <div class="status-message" v-else-if="event_list_index_state === 'error'">
         Failed to fetch event list.
-        <button class="retry-button" @click="fetch_event_list" title="Retry fetching event list.">
+        <button class="retry-button" @click="fetch_el_db" title="Retry fetching event list.">
           Retry
         </button>
       </div>

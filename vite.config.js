@@ -41,6 +41,7 @@ export default defineConfig(({ command }) => {
             "circle_participation",
             "index.html"
           ),
+          calendar: resolve(root, "calendar", "index.html"),
         },
       },
     },
