@@ -47,4 +47,9 @@
   --color-font-1: var(--grey-vibrant);
   --color-font-2: var(--grey-soft);
   --color-font-3: var(--grey-mild);
+  
+  /* For calendar */
+  --event-lightness: 40%;
+  --event-active-saturation: 70%;
+  --event-inactive-saturation: 30%;
 }

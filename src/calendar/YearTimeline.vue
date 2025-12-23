@@ -204,10 +204,6 @@ const monthSeparators = computed(() => {
 @import "@/assets/common.css";
 
 .timeline-wrapper {
-  --event-lightness: 40%;
-  --event-active-saturation: 70%;
-  --event-inactive-saturation: 30%;
-
   display: flex;
   align-items: center;
   width: 95%;

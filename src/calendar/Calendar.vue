@@ -6,7 +6,7 @@
 import Navigation from "@/components/Navigation.vue";
 import YearTimeline from "./YearTimeline.vue";
 import axiosInstance from "@/axios/axios_config.js";
-import { computed, onMounted, ref } from "vue";
+import { computed, onMounted, ref, watch } from "vue";
 
 import { PATH_DB_EXPORTED, fetch_url } from "@/assets/utils.js";
 
@@ -69,37 +69,41 @@ function parse_event_dates(event) {
 
 function collect_event_groups(el_index, ar_path = []) {
   let event_groups_list = []; // Array of {key, name, ar_path, link, events}
-  
+
   let subcategs = Object.keys(el_index).filter(
     (k) => k !== "@databases" && k !== "@count"
   );
   subcategs.sort((a, b) => a.localeCompare(b));
-  
+
   let event_groups = el_index["@databases"] || {};
-  
+
   // Sort event groups deterministically by their display name (alias) or key
-  const event_group_entries = Object.entries(event_groups).sort(([, a], [, b]) => {
-    const nameA = (a && a.aliases && a.aliases[0]) || "";
-    const nameB = (b && b.aliases && b.aliases[0]) || "";
-    if (nameA && nameB) return nameA.localeCompare(nameB);
-    return String((a && a.key) || "").localeCompare(String((b && b.key) || ""));
-  });
-  
+  const event_group_entries = Object.entries(event_groups).sort(
+    ([, a], [, b]) => {
+      const nameA = (a && a.aliases && a.aliases[0]) || "";
+      const nameB = (b && b.aliases && b.aliases[0]) || "";
+      if (nameA && nameB) return nameA.localeCompare(nameB);
+      return String((a && a.key) || "").localeCompare(
+        String((b && b.key) || "")
+      );
+    }
+  );
+
   // == Collect event groups (without hue assignment) ==
   for (const [event_group_key, event_group] of event_group_entries) {
     let event_group_ar_path = ar_path.concat([event_group_key]);
     let event_group_name = event_group.aliases[0];
     let pathStr = event_group_ar_path.join("/");
-    
+
     event_groups_list.push({
       key: event_group_key,
       name: event_group_name,
       ar_path: event_group_ar_path,
       link: "/dea/event_group_detail/#/" + pathStr,
-      events: event_group?.events || {}
+      events: event_group?.events || {},
     });
   }
-  
+
   // == Sub categories ==
   for (const key of subcategs) {
     const sub_groups = collect_event_groups(
@@ -108,49 +112,89 @@ function collect_event_groups(el_index, ar_path = []) {
     );
     event_groups_list = event_groups_list.concat(sub_groups);
   }
-  
+
   return event_groups_list;
 }
 
 const all_event_groups = computed(() => {
   const groups = collect_event_groups(event_list_index.value);
-  
+
   // Assign hues sequentially in increasing order (0 to 360)
   const total = groups.length;
   return groups.map((group, index) => ({
     ...group,
-    hue: total > 0 ? (360 * index) / total : 0
+    hue: total > 0 ? (360 * index) / total : 0,
   }));
 });
+
+// Visibility state for event groups (keyed by group.link)
+const visibleGroups = ref({});
+
+watch(
+  all_event_groups,
+  (groups) => {
+    if (!groups) return;
+    // Initialize visibility to true for new groups, preserve existing toggles
+    for (const g of groups) {
+      if (!(g.link in visibleGroups.value)) {
+        visibleGroups.value[g.link] = true;
+      }
+    }
+  },
+  { immediate: true }
+);
+
+function setAllGroupsVisible(visible) {
+  const groups = all_event_groups.value || [];
+  for (const g of groups) {
+    visibleGroups.value[g.link] = visible;
+  }
+}
+
+function selectAllGroups() {
+  setAllGroupsVisible(true);
+}
+function selectNoneGroups() {
+  setAllGroupsVisible(false);
+}
 
 const el_flat_categories = computed(() => {
   const flat_event_groups = {}; // {year: [events of the year]}
   const event_groups = all_event_groups.value;
-  
+
   for (const event_group of event_groups) {
+    // Skip event groups that are toggled off
+    if (
+      visibleGroups.value &&
+      visibleGroups.value[event_group.link] === false
+    ) {
+      continue;
+    }
     const event_group_name = event_group.name;
     const event_group_ar_path = event_group.ar_path;
     const hue_event_group = event_group.hue;
     const event_group_events = event_group.events;
-    
+
     // Sort events by start date, then name
-    const event_entries = Object.entries(event_group_events).sort(([nameA, dataA], [nameB, dataB]) => {
-      const [startA] = parse_event_dates(dataA);
-      const [startB] = parse_event_dates(dataB);
-      if (startA && startB) {
-        for (let i = 0; i < 3; i++) {
-          const diff = (startA[i] || 0) - (startB[i] || 0);
-          if (diff !== 0) return diff;
+    const event_entries = Object.entries(event_group_events).sort(
+      ([nameA, dataA], [nameB, dataB]) => {
+        const [startA] = parse_event_dates(dataA);
+        const [startB] = parse_event_dates(dataB);
+        if (startA && startB) {
+          for (let i = 0; i < 3; i++) {
+            const diff = (startA[i] || 0) - (startB[i] || 0);
+            if (diff !== 0) return diff;
+          }
+          return nameA.localeCompare(nameB);
+        } else if (startA) {
+          return -1;
+        } else if (startB) {
+          return 1;
         }
         return nameA.localeCompare(nameB);
-      } else if (startA) {
-        return -1;
-      } else if (startB) {
-        return 1;
       }
-      return nameA.localeCompare(nameB);
-    });
-    
+    );
+
     for (const [event_name, event_data] of event_entries) {
       let [date_start, date_end, was_held] = parse_event_dates(event_data);
       if (date_start === null || date_end === null) {
@@ -164,7 +208,7 @@ const el_flat_categories = computed(() => {
         );
         continue;
       }
-      
+
       // Handle events spanning multiple years
       if (year_start !== year_end) {
         for (let year = year_start; year <= year_end; year++) {
@@ -181,7 +225,7 @@ const el_flat_categories = computed(() => {
             was_held: was_held,
             ar_path: event_group_ar_path,
             event_group_name: event_group_name,
-            hue: hue_event_group
+            hue: hue_event_group,
           };
           flat_event_groups[year].push(event);
         }
@@ -198,11 +242,11 @@ const el_flat_categories = computed(() => {
           was_held: was_held,
           ar_path: event_group_ar_path,
           event_group_name: event_group_name,
-          hue: hue_event_group
+          hue: hue_event_group,
         };
         flat_event_groups[year_start].push(event);
       }
-      
+
       // Update oldest and newest years
       if (year_oldest.value === null || year_start < year_oldest.value) {
         year_oldest.value = year_start;
@@ -212,21 +256,30 @@ const el_flat_categories = computed(() => {
       }
     }
   }
-  
+
   return flat_event_groups;
 });
 
 const legendItems = computed(() => {
-  return all_event_groups.value.map(group => ({
+  return all_event_groups.value.map((group) => ({
     name: group.name,
     hue: group.hue,
-    link: group.link
+    link: group.link,
+    path: group.ar_path.join("/"),
   }));
 });
 
 const dummy = computed(() => {
   console.log("Flattened event list:", el_flat_categories.value);
   return true;
+});
+
+const shownEventsCount = computed(() => {
+  const flat = el_flat_categories.value || {};
+  return Object.values(flat).reduce(
+    (sum, arr) => sum + (Array.isArray(arr) ? arr.length : 0),
+    0
+  );
 });
 
 /* Run fetch_event_list on component mount */
@@ -268,18 +321,48 @@ onMounted(async () => {
         <!-- Successfully fetched event list -->
         <!-- Legend -->
         <div class="legend-container">
-          <a
-            v-for="item in legendItems"
-            :key="item.name"
-            :href="item.link"
-            class="legend-item"
+          <div v-for="item in legendItems" :key="item.path" class="legend-item">
+            <input
+              type="checkbox"
+              :id="'legend-' + item.path"
+              v-model="visibleGroups[item.link]"
+              class="legend-checkbox"
+              :style="{
+                backgroundColor: visibleGroups[item.link]
+                  ? `hsl(${item.hue}, var(--event-active-saturation), var(--event-lightness))`
+                  : 'transparent',
+                borderColor: `hsl(${item.hue}, var(--event-active-saturation), var(--event-lightness))`,
+              }"
+              title="Toggle visibility"
+            />
+            <a :href="item.link" class="legend-text">{{ item.name }}</a>
+          </div>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            gap: 0.75em;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0.5em;
+          "
+        >
+          <button class="retry-button" @click="selectAllGroups">
+            Show all
+          </button>
+          <button class="retry-button" @click="selectNoneGroups">
+            Show none
+          </button>
+          <span
+            style="
+              color: var(--grey-mild);
+              font-size: 0.95em;
+              margin-left: 0.5em;
+            "
           >
-            <div
-              class="legend-color"
-              :style="{ backgroundColor: `hsl(${item.hue}, 70%, 40%)` }"
-            ></div>
-            <span class="legend-text">{{ item.name }}</span>
-          </a>
+            Showing {{ shownEventsCount }} events
+          </span>
         </div>
 
         <!-- Timelines -->
@@ -365,6 +448,35 @@ onMounted(async () => {
   width: 1em;
   height: 1em;
   border-radius: 50%;
+}
+
+.legend-checkbox {
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 120ms ease, transform 80ms ease,
+    box-shadow 120ms ease, border-color 120ms ease;
+}
+
+.legend-checkbox:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.15em rgba(0, 0, 0, 0.08);
+}
+
+.legend-checkbox:not(:checked) {
+  background-color: transparent !important;
+}
+
+.legend-checkbox:checked {
+  transform: scale(0.96);
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
 }
 
 .legend-text {
