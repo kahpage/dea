@@ -134,12 +134,13 @@ function recursive_fill_circle_indexes(
     if (Array.isArray(raw_index[key])) {
       /* Content is array: key is an event name */
       let event_circles = [];
+
+      event_ar_paths.value[key] = ar_path.concat(key); // Add event to ar_path index map
       for (const circle_i in raw_index[key]) {
         // Add ar_path and event_name to each circle entry
         let raw_circle = raw_index[key][circle_i];
         let circle_to_add =
           variant == "extensive" ? raw_circle : { names: raw_circle };
-        circle_to_add["ar_path"] = ar_path.concat(key); // add ar_path
         circle_to_add["event_name"] = key; // add event name
         event_circles.push(circle_to_add);
       }
@@ -197,6 +198,9 @@ const circle_index = computed(() => {
 // circle objects in memory. Each string contains event, names and misc
 // joined with tabs, trimmed and lowercased.
 const search_index = ref([]);
+
+// Map from event_name -> ar_path (shared)
+const event_ar_paths = ref({});
 
 function build_search_index_for(arr) {
   if (!arr || !Array.isArray(arr)) return [];
@@ -306,11 +310,16 @@ function dumpFilteredCircles() {
 
 /* PopUpManager */
 const popUpManager = useTemplateRef("popUpManager");
+function getEventHref(event_name) {
+  const path = event_ar_paths.value[event_name] || [];
+  return ["/dea/event_detail/#"].concat(path).join("/");
+}
+
 function popupCircleDetails(circle_partial_db) {
   // console.log("circle_partial_db :", circle_partial_db);
   popUpManager.value.addPopup(markRaw(PopUpCirclePartialdetails), {
     circle_db: circle_partial_db,
-    db_path: circle_partial_db.ar_path,
+    db_path: event_ar_paths.value[circle_partial_db.event_name],
   });
 }
 
@@ -501,9 +510,7 @@ onMounted(async () => {
               <div class="cp-row-col cp-row-col-event">
                 <a
                   class="cp-event-link"
-                  :href="
-                    ['/dea/event_detail/#'].concat(vitem.data.ar_path).join('/')
-                  "
+                  :href="getEventHref(vitem.data.event_name)"
                 >
                   {{ vitem.data.event_name }}
                 </a>
