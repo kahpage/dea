@@ -23,6 +23,23 @@ const PATH_DB_EXPORTED = _is_prod
   ? `https://raw.githubusercontent.com/kahpage/dea_db/refs/heads/master/databases_exported`
   : `/dea/dea_db/databases_exported`; // Path of exported databases
 
+// Escape characters (module-level helpers)
+const escapeHtml = (s) =>
+  String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+const escapeAttr = (s) =>
+  String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/\"/g, "&quot;")
+    .replace(/'/g, "&#39;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/ /g, "%20");
+
 /*
  * Make URLs in text clickable (raw html output)
  * Will use icons for some common domains.
@@ -30,23 +47,8 @@ const PATH_DB_EXPORTED = _is_prod
 function makeLinksClickable(text) {
   if (!text && text !== "") return "";
 
-  // Escape characters
-  const escapeHtml = (s) =>
-    String(s)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;")
-      .replace(" ", "%20");
-  const escapeAttr = (s) =>
-    String(s)
-      .replace(/&/g, "&amp;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;");
-
+  // Markdown-style link regex: [text](https://...)
+  const mdLinkRegex = /\[(.+?)\]\((https?:\/\/[^\s)]+)\)/g;
   // URL regex
   const urlRegex = /(https?:\/\/[^\s,]+)/g;
 
@@ -113,8 +115,19 @@ function makeLinksClickable(text) {
     .replace(/height="[^"]*"/g, "")
     .replace("<svg", '<svg style="width:1em;height:1em;vertical-align:middle"');
 
-  // Replace URLs with clickable links
-  return String(text).replace(urlRegex, (url) => {
+  // First replace Markdown-style links so they take priority over raw URLs
+  let processed = String(text).replace(mdLinkRegex, (match, label, url) => {
+    const displayLabel = escapeHtml(label);
+    const safeHref = escapeAttr(url);
+    // For explicit Markdown-style links, show the provided label and do not render an icon
+    return `<a href="${safeHref}" target="_blank" rel="noopener noreferrer" title="${safeHref}" style="display:inline-block;text-decoration:none;border-bottom:1px solid transparent;transition:border-bottom-color 0.2s;" onmouseover="this.style.borderBottomColor='currentColor'" onmouseout="this.style.borderBottomColor='transparent'">${displayLabel}</a>`;
+  });
+
+  // Replace remaining raw URLs with clickable links, but skip URLs already inside <a> tags
+  return processed.replace(urlRegex, (match, url, offset, str) => {
+    const lastOpen = str.lastIndexOf('<a ', offset);
+    const lastClose = str.lastIndexOf('</a>', offset);
+    if (lastOpen > lastClose) return match; // inside an <a> tag, skip
     const display = escapeHtml(url);
     const safeHref = escapeAttr(url);
     if (isYouTube(url)) {
@@ -175,6 +188,8 @@ async function fetch_url({
 export {
   makeLinksClickable,
   // makeLinksClickableWithIcons,
+  escapeHtml,
+  escapeAttr,
   asyncsleep,
   PATH_PUBLIC,
   PATH_DB_TO_EXPORT,
