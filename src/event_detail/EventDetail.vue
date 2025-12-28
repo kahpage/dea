@@ -80,6 +80,8 @@ const filtered_circles = computed(() => {
 
       if (anyMatch(circle.aliases)) return true;
       if (anyMatch(circle.pen_names)) return true;
+      if (anyMatch(circle?.comments)) return true;
+
       if (
         circle.position !== undefined &&
         circle.position !== null &&
@@ -101,8 +103,7 @@ const filtered_circles = computed(() => {
 
     if (anyIncludes(circle.aliases)) return true;
     if (anyIncludes(circle.pen_names)) return true;
-    if (circle.data?.comments?.toLowerCase().includes(keyword)) return true;
-
+    if (circle?.comments?.toLowerCase().includes(keyword)) return true;
 
     if (
       circle.position !== undefined &&
