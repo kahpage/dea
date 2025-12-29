@@ -1,24 +1,57 @@
 <template>
-  <span :style="{ width: props.width, height: props.height, display: 'flex', box_sizing: 'border-box'}">
+  <span
+    :style="{
+      width: props.width,
+      height: props.height,
+      display: 'flex',
+      box_sizing: 'border-box',
+    }"
+  >
     <div class="chart-div">
       <h3 class="chart-title">{{ props.title }}</h3>
       <h1 class="bar-hover-display" :style="{ opacity: isHovered ? 0.8 : 0 }">
-        {{ hoveredBarName }}: {{ hoveredBarValue }}
+        <div class="hovered-name">
+          <div v-if="hoveredBarPrefix" class="hovered-prefix">
+            {{ hoveredBarPrefix }}
+          </div>
+          <div class="hovered-main">{{ hoveredBarName }}</div>
+        </div>
+        <div class="hovered-value">{{ hoveredBarValue }}</div>
       </h1>
       <div class="chart-container">
         <ul class="chart">
           <li
             v-for="(item, i) in props.data"
-            :key="item.name"
+            :key="item.name + '-' + i"
             class="bar-container"
-            @mouseover="onBarHover(item.name, item.value)"
+            :class="{ clickable: item && item.url }"
+            @mouseover="onBarHover(item.name, item.value, item.prefix)"
             @mouseout="onBarLeave()"
           >
-            <div
-              class="bar"
-              :style="`height: ${((item.value ? item.value : 0) / getMaxitemvalue) * 100}%;`"
-            ></div>
-            <span class="bar-name">{{ item.name }}</span>
+            <a
+              v-if="item && item.url"
+              :href="item.url"
+              target="_blank"
+              rel="noopener"
+              class="bar-link"
+            >
+              <div
+                class="bar"
+                :style="`height: ${
+                  ((item.value ? item.value : 0) / getMaxitemvalue) * 100
+                }%;`"
+              ></div>
+              <span class="bar-name">{{ item.name }}</span>
+            </a>
+            <template v-else>
+              <div
+                class="bar"
+                :style="`height: ${
+                  ((item.value ? item.value : 0) / getMaxitemvalue) * 100
+                }%;`"
+              ></div>
+              <span class="bar-name">{{ item.name }}</span>
+            </template>
           </li>
         </ul>
       </div>
@@ -29,11 +62,11 @@
 <script setup>
 import { ref, computed } from "vue";
 const props = defineProps({
-  data: Array,
+  data: Array, // { value: Number, name: String, prefix: String, url: String }
   title: String,
   width: {
     type: String,
-    default: "95vw",
+    default: "100%",
   },
   height: {
     type: String,
@@ -53,11 +86,16 @@ const getMaxitemvalue = computed(() => {
 
 const isHovered = ref(false);
 const hoveredBarName = ref("");
+const hoveredBarPrefix = ref("");
 const hoveredBarValue = ref("");
 
-function onBarHover(name, value) {
+function onBarHover(name, value, prefix) {
   isHovered.value = true;
-  hoveredBarName.value = name;
+  // Only single-line names allowed; show prefix (if provided) in hover text
+  const base = name === undefined || name === null ? "" : String(name);
+  hoveredBarName.value = base;
+  hoveredBarPrefix.value =
+    prefix === undefined || prefix === null ? "" : String(prefix);
   if (value == undefined || value === null || isNaN(value)) {
     hoveredBarValue.value = "N/A";
   } else {
@@ -66,7 +104,11 @@ function onBarHover(name, value) {
 }
 function onBarLeave() {
   isHovered.value = false;
+  hoveredBarName.value = "";
+  hoveredBarPrefix.value = "";
+  hoveredBarValue.value = "";
 }
+// onBarClick removed in favor of native anchor links for previewability
 </script>
 
 <style scoped>
@@ -128,6 +170,21 @@ function onBarLeave() {
   background: var(--scarlet-vibrant);
 }
 
+.bar-container.clickable {
+  cursor: pointer;
+}
+
+.bar-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end; /* ensure bar sits at bottom and grows upward */
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
 .bar {
   background: var(--scarlet-soft);
   width: 100%;
@@ -162,5 +219,32 @@ function onBarLeave() {
 .bar-hover-display {
   opacity: 0.8;
   transition: opacity 0.3s ease-in-out;
+  text-align: center; /* center lines horizontally */
+}
+
+.hovered-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1em;
+  max-width: 60vw;
+}
+
+.hovered-prefix,
+.hovered-main {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: center;
+}
+
+.hovered-prefix {
+  font-size: 0.85em;
+  opacity: 0.9;
+}
+
+.hovered-main {
+  font-weight: bold;
 }
 </style>

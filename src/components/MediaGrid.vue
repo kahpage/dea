@@ -38,7 +38,7 @@
         </div>
 
         <!-- Image -->
-        <div v-else-if="isImage(media)">
+        <div v-else-if="isImage(media.path)">
           <a
             class="format-image-link"
             :href="props.media_folder_path + '/' + media.path"
@@ -88,19 +88,12 @@
 
 <script setup>
 import { makeLinksClickable } from "@/assets/utils.js";
+import { isImage } from "@/assets/utils.js";
 
 const props = defineProps({
   media_list: Array, // List of media objects
   media_folder_path: String, // Path to the folder containing media files
 });
-
-function isImage(media) {
-  return (
-    media &&
-    media.path &&
-    /\.(jpg|jpeg|png|gif|webp|svg)$/i.test(media.path.toLowerCase())
-  );
-}
 </script>
 
 <style scoped>

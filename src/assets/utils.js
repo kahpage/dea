@@ -185,6 +185,11 @@ async function fetch_url({
   }
 }
 
+function isImage(path) {
+  if (typeof path !== "string") return false;
+  return /\.(jpg|jpeg|png|gif|webp|svg|avif|ico)$/i.test(path.toLowerCase());
+}
+
 export {
   makeLinksClickable,
   // makeLinksClickableWithIcons,
@@ -195,4 +200,5 @@ export {
   PATH_DB_TO_EXPORT,
   PATH_DB_EXPORTED,
   fetch_url,
+  isImage
 };
