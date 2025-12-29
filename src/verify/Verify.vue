@@ -231,7 +231,7 @@ onMounted(async () => {
         </div>
 
         <!-- Verification tools -->
-        <!-- Bar charts -->
+        <!-- Circle participation bar charts -->
         <ToggleShow
           class="vf-toggle-show"
           :button_text="'Circle Participation Charts'"
@@ -243,12 +243,20 @@ onMounted(async () => {
           >
             <div class="vf-eg-name">{{ eg.name }}</div>
             <div class="vf-eg-content">
-              <!-- Some content here {{ eg.name }} -->
+              <p v-if="!eg.events" class="status-message">
+                No events in this event group.
+              </p>
               <BarChart
+                v-else
                 :data="
                   Object.keys(eg.events).map((e) => ({
                     value: eg.events[e].circle_count,
                     name: e,
+                    prefix: eg.events[e]?.dates,
+                    url: ['/dea/event_detail/#']
+                      .concat(eg.ar_path || [])
+                      .concat([e])
+                      .join('/'),
                   }))
                 "
                 :title="'Event participation'"
@@ -256,6 +264,7 @@ onMounted(async () => {
             </div>
           </div>
         </ToggleShow>
+        
       </div>
 
       <!-- <div v-for="eg in filtered_verify_db" :key="eg.name">
