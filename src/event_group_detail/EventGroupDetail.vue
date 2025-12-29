@@ -61,6 +61,21 @@ const db_path_args = computed(() => {
   return props.db_path ? props.db_path.split("/").filter(Boolean) : [];
 });
 
+const chartData = computed(() => {
+  const evs = event_group_data.value?.events;
+  if (!evs) return [];
+    return Object.keys(evs).map((key) => {
+      const ev = evs[key] || {};
+      const dateVal = ev?.dates ?? ev?.date ?? ev?.date_string ?? ev?.datetime ?? "";
+      return {
+        value: ev?.circle_count ?? 0, // Value
+        name: String(key), // Name
+        prefix: String(dateVal), // Prefix (date)
+        url:  ["/dea/event_detail/#"].concat(db_path_args.value || []).concat([key]).join("/"), // Url
+      };
+    });
+});
+
 // Watch for changes in db_path_args and db_path_event_name
 watchEffect(async () => {
   if (db_path_args.value) {
@@ -177,15 +192,7 @@ watchEffect(async () => {
         :button_text="'Stats'"
         v-if="event_group_data?.events"
       >
-        <BarChart
-          :data="
-            Object.keys(event_group_data.events).map((e) => ({
-              value: event_group_data.events[e].circle_count,
-              name: e,
-            }))
-          "
-          :title="'Event participation'"
-        />
+        <BarChart :data="chartData" :title="'Event participation'" />
       </ToggleShow>
     </div>
   </div>
