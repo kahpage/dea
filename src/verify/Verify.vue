@@ -5,11 +5,16 @@
 <script setup>
 import Navigation from "@/components/Navigation.vue";
 import axiosInstance from "@/axios/axios_config.js";
-import { computed, onMounted, ref, watch } from "vue";
+import { computed, onMounted, ref, watch, reactive } from "vue";
 import ToggleShow from "@/components/ToggleShow.vue";
 import BarChart from "@/components/BarChart.vue";
 
-import { PATH_DB_EXPORTED, fetch_url } from "@/assets/utils.js";
+import {
+  PATH_DB_EXPORTED,
+  PATH_DB_TO_EXPORT,
+  fetch_url,
+  isImage,
+} from "@/assets/utils.js";
 
 const verify_db = ref({}); // {eg: {...events}}
 const verify_db_state = ref("loading"); // 'loading', 'loaded', 'error'
@@ -146,6 +151,23 @@ const shownEventsCount = computed(() => {
   return filtered_verify_db.value.length;
 });
 
+function getMaxMediaCount(eg) {
+  if (!eg || !eg.events) return 0;
+  const counts = Object.values(eg.events).map((e) =>
+    e.media ? e.media.length : 0
+  );
+  return Math.max(0, ...counts);
+}
+
+// Track media load failures keyed by "eg.pathStr::eventName::index"
+const failedMedia = reactive({});
+function markMediaFailed(key) {
+  failedMedia[key] = true;
+}
+function mediaFailed(key) {
+  return !!failedMedia[key];
+}
+
 /* Run fetch_verify_db on component mount */
 onMounted(async () => {
   await fetch_verify_db();
@@ -163,23 +185,23 @@ onMounted(async () => {
       <section id="top"></section>
       <Navigation />
       <div class="header-title">Verify</div>
-      <div class="header">Various tools for database verification.</div>
+      <div class="header">Various tools for database verification and visualization.</div>
 
       <div class="status-message" v-if="verify_db_state === 'loading'">
-        Fetching event list...
+        Fetching verify db...
       </div>
       <div class="status-message" v-else-if="verify_db_state === 'error'">
-        Failed to fetch event list.
+        Failed to fetch verify db.
         <button
           class="retry-button"
           @click="fetch_verify_db"
-          title="Retry fetching event list."
+          title="Retry fetching verify db."
         >
           Retry
         </button>
       </div>
       <div v-else>
-        <!-- Successfully fetched event list -->
+        <!-- Successfully fetched verify db-->
         <!-- Legend -->
         <div class="legend-container">
           <div
@@ -241,7 +263,7 @@ onMounted(async () => {
             v-for="eg in filtered_verify_db"
             :key="eg.name"
           >
-            <div class="vf-eg-name">{{ eg.name }}</div>
+            <a :href="eg.link" class="vf-eg-name">{{ eg.name }}</a>
             <div class="vf-eg-content">
               <p v-if="!eg.events" class="status-message">
                 No events in this event group.
@@ -264,7 +286,135 @@ onMounted(async () => {
             </div>
           </div>
         </ToggleShow>
-        
+        <br />
+
+        <!-- Media -->
+        <ToggleShow class="vf-toggle-show" :button_text="'Media'">
+          <div
+            class="vf-eg-div"
+            v-for="eg in filtered_verify_db"
+            :key="eg.name"
+          >
+            <a :href="eg.link" class="vf-eg-name">{{ eg.name }}</a>
+            <div class="vf-eg-content">
+              <p v-if="!eg.events" class="error-text">
+                No events in this event group.
+              </p>
+              <div v-else class="media-container">
+                <table class="media-table">
+                  <thead>
+                    <tr>
+                      <th
+                        v-for="eventName in Object.keys(eg.events)"
+                        :key="eventName"
+                      >
+                        <a
+                          :href="
+                            ['/dea/event_detail/#']
+                              .concat(eg.ar_path || [])
+                              .concat([eventName])
+                              .join('/')
+                          "
+                        >
+                          {{ eventName }}
+                        </a>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="i in getMaxMediaCount(eg)" :key="i">
+                      <td
+                        v-for="eventName in Object.keys(eg.events)"
+                        :key="eventName"
+                        :class="{
+                          'empty-cell':
+                            !eg.events[eventName].media ||
+                            !eg.events[eventName].media[i - 1],
+                        }"
+                      >
+                        <div
+                          v-if="
+                            eg.events[eventName].media &&
+                            eg.events[eventName].media[i - 1]
+                          "
+                          class="media-item"
+                        >
+                          <div
+                            v-if="isImage(eg.events[eventName].media[i - 1])"
+                          >
+                            <div
+                              v-if="
+                                !mediaFailed(
+                                  eg.pathStr + '::' + eventName + '::' + (i - 1)
+                                )
+                              "
+                            >
+                              <img
+                                :src="
+                                  PATH_DB_TO_EXPORT +
+                                  '/' +
+                                  eg.ar_path.concat(['media']).join('/') +
+                                  '/' +
+                                  eg.events[eventName].media[i - 1]
+                                "
+                                class="media-image"
+                                loading="lazy"
+                                @error="
+                                  markMediaFailed(
+                                    eg.pathStr +
+                                      '::' +
+                                      eventName +
+                                      '::' +
+                                      (i - 1)
+                                  )
+                                "
+                                :title="
+                                  eg.events[eventName].media[i - 1]
+                                    ?.split('/')
+                                    ?.pop()
+                                "
+                              />
+                            </div>
+                            <div
+                              v-else
+                              class="error-text"
+                              :title="
+                                eg.events[eventName].media[i - 1]
+                                  ?.split('/')
+                                  ?.pop()
+                              "
+                            >
+                              LOADING ERROR
+                            </div>
+                            {{ eg.events[eventName].media[i - 1] }}
+                          </div>
+                          <div v-else>
+                            <a
+                              :href="
+                                PATH_DB_TO_EXPORT +
+                                '/' +
+                                eg.ar_path.concat(['media']).join('/') +
+                                '/' +
+                                eg.events[eventName].media[i - 1]
+                              "
+                              target="_blank"
+                              :title="
+                                eg.events[eventName].media[i - 1]
+                                  ?.split('/')
+                                  ?.pop()
+                              "
+                              >{{ eg.events[eventName].media[i - 1] }}</a
+                            >
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </ToggleShow>
       </div>
 
       <!-- <div v-for="eg in filtered_verify_db" :key="eg.name">
@@ -465,5 +615,74 @@ onMounted(async () => {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
+}
+
+.media-container {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-width: 100%;
+  max-height: 60vh;
+  position: relative;
+}
+
+.media-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed; /* enforce fixed column widths so cells respect min-width */
+}
+
+.media-table th,
+.media-table td {
+  border: 1px solid var(--grey-mild);
+  padding: 0.5em;
+  width: 10em;
+  min-width: 10em;
+  max-width: 10em;
+  vertical-align: top;
+  background-color: var(--greyish-light);
+  overflow: hidden; /* keep contents inside cell */
+  /* allow wrapping and breaking inside the fixed-width cell */
+  overflow-wrap: anywhere;
+  word-break: break-all; /* cut words if necessary */
+  white-space: normal; /* allow multi-line wrapping */
+}
+
+.media-table th {
+  background-color: var(--scarlet-soft);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 2px solid var(--grey-dark);
+}
+
+.media-item {
+  margin-bottom: 0.5em;
+}
+
+.media-image {
+  width: 100%;
+  height: auto;
+  max-height: 10em;
+  object-fit: contain;
+}
+
+/* ensure long links or filenames wrap or break inside cells */
+.media-table td a {
+  display: block;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.media-table td.empty-cell {
+  background-color: var(--greyish-dark);
+}
+
+.error-text {
+  color: #ff5b5b;
+  font-weight: 700;
+  font-size: 0.95em;
 }
 </style>
