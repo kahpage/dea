@@ -10,6 +10,7 @@
       <a href="/dea/event_list/" class="navigation-button">Event list</a>
       <a href="/dea/circle_participation/" class="navigation-button">Circles</a>
       <a href="/dea/calendar/" class="navigation-button">Calendar</a>
+      <a href="/dea/verify/" class="navigation-button">Verify</a>
       <a href="/dea/about/" class="navigation-button">About</a>
     </div>
     <div class="navigation-right">

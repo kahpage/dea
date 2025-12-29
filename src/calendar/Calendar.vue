@@ -67,7 +67,7 @@ function parse_event_dates(event) {
   return [date_start, date_end, was_held];
 }
 
-function collect_event_groups(el_index, ar_path = []) {
+function recursive_collect_event_groups(el_index, ar_path = []) {
   let event_groups_list = []; // Array of {key, name, ar_path, link, events}
 
   let subcategs = Object.keys(el_index).filter(
@@ -106,7 +106,7 @@ function collect_event_groups(el_index, ar_path = []) {
 
   // == Sub categories ==
   for (const key of subcategs) {
-    const sub_groups = collect_event_groups(
+    const sub_groups = recursive_collect_event_groups(
       el_index[key],
       ar_path.concat([key])
     );
@@ -117,7 +117,7 @@ function collect_event_groups(el_index, ar_path = []) {
 }
 
 const all_event_groups = computed(() => {
-  const groups = collect_event_groups(event_list_index.value);
+  const groups = recursive_collect_event_groups(event_list_index.value);
 
   // Assign hues sequentially in increasing order (0 to 360)
   const total = groups.length;
@@ -267,11 +267,6 @@ const legendItems = computed(() => {
     link: group.link,
     path: group.ar_path.join("/"),
   }));
-});
-
-const dummy = computed(() => {
-  console.log("Flattened event list:", el_flat_categories.value);
-  return true;
 });
 
 const shownEventsCount = computed(() => {

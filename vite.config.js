@@ -42,6 +42,7 @@ export default defineConfig(({ command }) => {
             "index.html"
           ),
           calendar: resolve(root, "calendar", "index.html"),
+          verify: resolve(root, "verify", "index.html"),
         },
       },
     },
