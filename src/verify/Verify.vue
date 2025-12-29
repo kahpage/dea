@@ -59,7 +59,6 @@ function recursive_flaten_verify_db(verify_index, ar_path = []) {
   // == Collect event groups (without hue assignment) ==
   for (const [event_group_key, event_group] of event_group_entries) {
     let event_group_ar_path = ar_path.concat([event_group_key]);
-    let event_group_name = event_group.name;
     let pathStr = event_group_ar_path.join("/");
 
     // add ar_path to event group object
@@ -156,6 +155,8 @@ function getMaxMediaCount(eg) {
   const counts = Object.values(eg.events).map((e) =>
     e.media ? e.media.length : 0
   );
+  // include group-level media defined at eg.media
+  counts.push(eg.media ? eg.media.length : 0);
   return Math.max(0, ...counts);
 }
 
@@ -166,6 +167,56 @@ function markMediaFailed(key) {
 }
 function mediaFailed(key) {
   return !!failedMedia[key];
+}
+
+// Helper to safely extract a displayable basename from a media entry
+function mediaBasename(item) {
+  if (typeof item === "string") return item.split("/").pop();
+  if (!item && item !== 0) return "";
+  if (Array.isArray(item)) return item.map(String).join("/");
+  if (typeof item === "object") {
+    if (item.name) return String(item.name);
+    try {
+      return JSON.stringify(item);
+    } catch (e) {
+      return String(item);
+    }
+  }
+  return String(item);
+}
+
+// Helper to produce a readable label for non-string media entries
+function mediaLabel(item) {
+  if (typeof item === "string") return item;
+  if (!item && item !== 0) return "";
+  if (typeof item === "object") {
+    try {
+      return JSON.stringify(item);
+    } catch (e) {
+      return String(item);
+    }
+  }
+  return String(item);
+}
+
+// Count failed media for a given key prefix. If `type` === 'group' it checks eg.media, otherwise checks eg.events[eventName].media
+function getMediaErrorCount(eg, eventName = null) {
+  let count = 0;
+  if (eventName === null) {
+    // group-level
+    if (!eg.media) return 0;
+    for (let idx = 0; idx < eg.media.length; idx++) {
+      if (failedMedia[eg.pathStr + "::group::" + idx]) count++;
+    }
+    return count;
+  }
+  // per-event
+  const ev = eg.events && eg.events[eventName];
+  if (!ev || !ev.media) return 0;
+  for (let idx = 0; idx < ev.media.length; idx++) {
+    if (failedMedia[eg.pathStr + "::" + eventName + "::" + idx]) count++;
+  }
+  return count;
 }
 
 /* Run fetch_verify_db on component mount */
@@ -185,7 +236,9 @@ onMounted(async () => {
       <section id="top"></section>
       <Navigation />
       <div class="header-title">Verify</div>
-      <div class="header">Various tools for database verification and visualization.</div>
+      <div class="header">
+        Various tools for database verification and visualization.
+      </div>
 
       <div class="status-message" v-if="verify_db_state === 'loading'">
         Fetching verify db...
@@ -304,6 +357,20 @@ onMounted(async () => {
                 <table class="media-table">
                   <thead>
                     <tr>
+                      <th key="group-header">
+                        Event Group
+                        <span
+                          class="header-error-count"
+                          v-if="getMediaErrorCount(eg) > 0"
+                          :title="
+                            getMediaErrorCount(eg) +
+                            (getMediaErrorCount(eg) === 1
+                              ? ' media loading error'
+                              : ' media loading errors')
+                          "
+                          >({{ getMediaErrorCount(eg) }})</span
+                        >
+                      </th>
                       <th
                         v-for="eventName in Object.keys(eg.events)"
                         :key="eventName"
@@ -318,11 +385,84 @@ onMounted(async () => {
                         >
                           {{ eventName }}
                         </a>
+                        <span
+                          class="header-error-count"
+                          v-if="getMediaErrorCount(eg, eventName) > 0"
+                          :title="
+                            getMediaErrorCount(eg, eventName) +
+                            (getMediaErrorCount(eg, eventName) === 1
+                              ? ' media loading error'
+                              : ' media loading errors')
+                          "
+                          >({{ getMediaErrorCount(eg, eventName) }})</span
+                        >
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr v-for="i in getMaxMediaCount(eg)" :key="i">
+                      <!-- group-level media column -->
+                      <td
+                        :key="'group-' + i"
+                        :class="{
+                          'empty-cell': !eg.media || !eg.media[i - 1]?.path,
+                        }"
+                      >
+                        <div
+                          v-if="eg.media && eg.media[i - 1]?.path"
+                          class="media-item"
+                        >
+                          <div v-if="isImage(eg.media[i - 1]?.path)">
+                            <div
+                              v-if="
+                                !mediaFailed(eg.pathStr + '::group::' + (i - 1))
+                              "
+                            >
+                              <img
+                                :src="
+                                  PATH_DB_TO_EXPORT +
+                                  '/' +
+                                  eg.ar_path.concat(['media']).join('/') +
+                                  '/' +
+                                  eg.media[i - 1]?.path
+                                "
+                                class="media-image"
+                                loading="lazy"
+                                @error="
+                                  markMediaFailed(
+                                    eg.pathStr + '::group::' + (i - 1)
+                                  )
+                                "
+                                :title="mediaBasename(eg.media[i - 1]?.path)"
+                              />
+                            </div>
+                            <div
+                              v-else
+                              class="error-text"
+                              :title="mediaBasename(eg.media[i - 1]?.path)"
+                            >
+                              LOADING ERROR
+                            </div>
+                            {{ mediaLabel(eg.media[i - 1]?.path) }}
+                          </div>
+                          <div v-else>
+                            <a
+                              :href="
+                                PATH_DB_TO_EXPORT +
+                                '/' +
+                                eg.ar_path.concat(['media']).join('/') +
+                                '/' +
+                                eg.media[i - 1]?.path
+                              "
+                              target="_blank"
+                              :title="mediaBasename(eg.media[i - 1]?.path)"
+                              >{{ eg.media[i - 1]?.path }}</a
+                            >
+                          </div>
+                        </div>
+                      </td>
+
+                      <!-- per-event media columns -->
                       <td
                         v-for="eventName in Object.keys(eg.events)"
                         :key="eventName"
@@ -369,9 +509,9 @@ onMounted(async () => {
                                   )
                                 "
                                 :title="
-                                  eg.events[eventName].media[i - 1]
-                                    ?.split('/')
-                                    ?.pop()
+                                  mediaBasename(
+                                    eg.events[eventName].media[i - 1]
+                                  )
                                 "
                               />
                             </div>
@@ -379,14 +519,12 @@ onMounted(async () => {
                               v-else
                               class="error-text"
                               :title="
-                                eg.events[eventName].media[i - 1]
-                                  ?.split('/')
-                                  ?.pop()
+                                mediaBasename(eg.events[eventName].media[i - 1])
                               "
                             >
                               LOADING ERROR
                             </div>
-                            {{ eg.events[eventName].media[i - 1] }}
+                            {{ mediaLabel(eg.events[eventName].media[i - 1]) }}
                           </div>
                           <div v-else>
                             <a
@@ -399,11 +537,11 @@ onMounted(async () => {
                               "
                               target="_blank"
                               :title="
-                                eg.events[eventName].media[i - 1]
-                                  ?.split('/')
-                                  ?.pop()
+                                mediaBasename(eg.events[eventName].media[i - 1])
                               "
-                              >{{ eg.events[eventName].media[i - 1] }}</a
+                              >{{
+                                mediaLabel(eg.events[eventName].media[i - 1])
+                              }}</a
                             >
                           </div>
                         </div>
@@ -415,6 +553,7 @@ onMounted(async () => {
             </div>
           </div>
         </ToggleShow>
+        <br />
       </div>
 
       <!-- <div v-for="eg in filtered_verify_db" :key="eg.name">
@@ -656,6 +795,12 @@ onMounted(async () => {
   top: 0;
   z-index: 10;
   border-bottom: 2px solid var(--grey-dark);
+}
+
+.header-error-count {
+  color: #ffd6d6;
+  font-size: 0.85em;
+  margin-left: 0.35em;
 }
 
 .media-item {

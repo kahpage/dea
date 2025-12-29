@@ -186,10 +186,8 @@ async function fetch_url({
 }
 
 function isImage(path) {
-  return (
-    path &&
-    /\.(jpg|jpeg|png|gif|webp|svg|avif)$/i.test(path.toLowerCase())
-  );
+  if (typeof path !== "string") return false;
+  return /\.(jpg|jpeg|png|gif|webp|svg|avif|ico)$/i.test(path.toLowerCase());
 }
 
 export {
