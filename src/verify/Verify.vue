@@ -218,7 +218,60 @@ function getMediaErrorCount(eg, eventName = null) {
   }
   return count;
 }
+// Get total error count for entire group (group media + all events)
+function getTotalGroupErrors(eg) {
+  let total = getMediaErrorCount(eg); // group-level errors
+  if (eg.events) {
+    Object.keys(eg.events).forEach(eventName => {
+      total += getMediaErrorCount(eg, eventName);
+    });
+  }
+  return total;
+}
 
+// Preload all group-level images to trigger error detection
+function preloadGroupMedia(eg) {
+  // Preload group-level media
+  if (eg.media && eg.media.length > 0) {
+    eg.media.forEach((item, idx) => {
+      const path = typeof item === 'string' ? item : item?.path;
+      if (!path || !isImage(path)) return;
+      
+      const imgUrl = PATH_DB_TO_EXPORT + '/' + eg.ar_path.concat(['media']).join('/') + '/' + path;
+      const img = new Image();
+      img.onload = () => {
+        // Successfully loaded, nothing to do
+      };
+      img.onerror = () => {
+        markMediaFailed(eg.pathStr + '::group::' + idx);
+      };
+      img.src = imgUrl;
+    });
+  }
+
+  // Preload all event-level media
+  if (eg.events) {
+    Object.keys(eg.events).forEach(eventName => {
+      const event = eg.events[eventName];
+      if (!event.media || event.media.length === 0) return;
+      
+      event.media.forEach((item, idx) => {
+        const path = typeof item === 'string' ? item : item?.path;
+        if (!path || !isImage(path)) return;
+        
+        const imgUrl = PATH_DB_TO_EXPORT + '/' + eg.ar_path.concat(['media']).join('/') + '/' + path;
+        const img = new Image();
+        img.onload = () => {
+          // Successfully loaded, nothing to do
+        };
+        img.onerror = () => {
+          markMediaFailed(eg.pathStr + '::' + eventName + '::' + idx);
+        };
+        img.src = imgUrl;
+      });
+    });
+  }
+}
 /* Run fetch_verify_db on component mount */
 onMounted(async () => {
   await fetch_verify_db();
@@ -316,7 +369,9 @@ onMounted(async () => {
             v-for="eg in filtered_verify_db"
             :key="eg.name"
           >
-            <a :href="eg.link" class="vf-eg-name">{{ eg.name }}</a>
+            <div class="vf-eg-name-container">
+              <a :href="eg.link" class="vf-eg-name">{{ eg.name }}</a>
+            </div>
             <div class="vf-eg-content">
               <p v-if="!eg.events" class="status-message">
                 No events in this event group.
@@ -348,7 +403,19 @@ onMounted(async () => {
             v-for="eg in filtered_verify_db"
             :key="eg.name"
           >
-            <a :href="eg.link" class="vf-eg-name">{{ eg.name }}</a>
+            <div class="vf-eg-name-container">
+              <a :href="eg.link" class="vf-eg-name">{{ eg.name }}</a>
+              <button
+                class="preload-button-vertical"
+                @click="preloadGroupMedia(eg)"
+                title="Preload all images of the event group"
+              >⟳</button>
+              <span 
+                class="error-count-vertical"
+                v-if="getTotalGroupErrors(eg) > 0"
+                :title="getTotalGroupErrors(eg) + (getTotalGroupErrors(eg) === 1 ? ' total error' : ' total errors')"
+              >({{ getTotalGroupErrors(eg) }})</span>
+            </div>
             <div class="vf-eg-content">
               <p v-if="!eg.events" class="error-text">
                 No events in this event group.
@@ -681,38 +748,65 @@ onMounted(async () => {
   overflow: hidden; /* hide any accidental overflow from children */
 }
 
-.vf-eg-name {
+.vf-eg-name-container {
   background-color: var(--green-mild);
-  color: var(--grey-vibrant);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
   padding: 0.5em;
+  border-top-right-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
+  min-width: 2.5em;
+}
+
+.vf-eg-name {
+  color: var(--grey-vibrant);
   writing-mode: vertical-rl;
   text-orientation: sideways;
   transform: rotate(180deg);
   text-align: center;
   font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.preload-button-vertical {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: var(--grey-vibrant);
+  font-size: 1.2em;
+  padding: 0em;
+  border-radius: 0.3em;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  min-width: 1em;
+  min-height: 1em;
+  max-width: 1em;
+  max-height: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top-right-radius: 0.2em;
-  border-bottom-right-radius: 0.2em;
-  width: 2.5em;
-  min-width: 2.5em;
-  white-space: nowrap;
-  overflow: hidden;
 }
-.vf-eg-content {
-  flex: 1;
-  padding: 0.5em;
-  box-sizing: border-box;
-  min-width: 0; /* allow flex child to shrink to prevent overflow */
-  overflow-x: auto; /* horizontal scroll for large content */
-  overflow-y: hidden;
+
+.preload-button-vertical:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
-.vf-eg-content img,
-.vf-eg-content pre,
-.vf-eg-content table {
-  max-width: 100%;
-  box-sizing: border-box;
+
+.preload-button-vertical:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.error-count-vertical {
+  color: #ff5b5b;
+  font-weight: 700;
+  font-size: 0.95em;
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  padding: 0.25em 0.5em;
+  border-radius: 0.3em;
 }
 
 .vf-eg-content {
@@ -720,6 +814,17 @@ onMounted(async () => {
   background-color: var(--greyish-dark);
   flex: 1;
   padding: 0.5em;
+  box-sizing: border-box;
+  min-width: 0; /* allow flex child to shrink to prevent overflow */
+  overflow-x: auto; /* horizontal scroll for large content */
+  overflow-y: hidden;
+}
+
+.vf-eg-content img,
+.vf-eg-content pre,
+.vf-eg-content table {
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* ToggleShow spacing */
@@ -798,9 +903,28 @@ onMounted(async () => {
 }
 
 .header-error-count {
-  color: #ffd6d6;
+  color: #ffa0a0;
   font-size: 0.85em;
   margin-left: 0.35em;
+}
+
+.preload-button {
+  /* background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4); */
+  color: white;
+  font-size: 1em;
+  padding: 0.2em 0.4em;
+  border-radius: 0.3em;
+  cursor: pointer;
+  /* transition: background-color 0.15s ease; */
+}
+
+.preload-button:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.preload-button:active {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .media-item {
@@ -826,7 +950,7 @@ onMounted(async () => {
 }
 
 .error-text {
-  color: #ff5b5b;
+  color: #ffa0a0;
   font-weight: 700;
   font-size: 0.95em;
 }
