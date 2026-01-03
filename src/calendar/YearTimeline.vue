@@ -41,6 +41,23 @@
           </table>
         </div>
       </div>
+      <div
+        v-if="todayBar"
+        class="today-wrapper"
+        :style="{ left: todayBar.leftPct + '%', width: todayBar.widthPct + '%' }"
+        @mouseenter="hoveredToday = true"
+        @mouseleave="hoveredToday = false"
+      >
+        <div class="today-bar"></div>
+        <div
+          v-if="hoveredToday"
+          class="today-tooltip"
+          ref="todayTooltipRef"
+          :style="todayTooltipStyle"
+        >
+          {{ todayBar.label }}
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -59,9 +76,12 @@ const props = defineProps({
 
 const timelineContainer = ref(null);
 const tooltipRef = ref(null);
+const todayTooltipRef = ref(null);
 const { width: containerWidth } = useElementBounding(timelineContainer);
 const hoveredEventIndex = ref(null);
+const hoveredToday = ref(false);
 const tooltipStyle = ref({});
+const todayTooltipStyle = ref({});
 
 watch(hoveredEventIndex, async (newIndex) => {
   if (newIndex !== null) {
@@ -97,6 +117,36 @@ watch(hoveredEventIndex, async (newIndex) => {
     }
   } else {
     tooltipStyle.value = {};
+  }
+});
+
+watch(hoveredToday, async (newVal) => {
+  if (newVal) {
+    await nextTick();
+    const tooltipEl = Array.isArray(todayTooltipRef.value)
+      ? todayTooltipRef.value[0]
+      : todayTooltipRef.value;
+
+    if (tooltipEl && timelineContainer.value) {
+      const tooltipRect = tooltipEl.getBoundingClientRect();
+      const containerRect = timelineContainer.value.getBoundingClientRect();
+
+      let left = "50%";
+      let transform = "translateX(-50%)";
+
+      if (tooltipRect.left < containerRect.left) {
+        left = "0";
+        transform = "translateX(0)";
+      } else if (tooltipRect.right > containerRect.right) {
+        const overflow = tooltipRect.right - containerRect.right;
+        left = "auto";
+        transform = `translateX(calc(-50% - ${overflow}px))`;
+      }
+
+      todayTooltipStyle.value = { left, transform };
+    }
+  } else {
+    todayTooltipStyle.value = {};
   }
 });
 
@@ -149,6 +199,29 @@ const eventBars = computed(() => {
         },
       };
     });
+});
+
+const todayBar = computed(() => {
+  const today = new Date();
+  if (today.getFullYear() !== props.year) return null;
+
+  const startOfYear = new Date(props.year, 0, 1).getTime();
+  const endOfYear = new Date(props.year + 1, 0, 1).getTime();
+  const yearDuration = endOfYear - startOfYear;
+
+  const startOfDay = new Date(today.getFullYear(), today.getMonth(), today.getDate()).getTime();
+  const nextDay = startOfDay + 24 * 60 * 60 * 1000;
+
+  const leftPct = ((startOfDay - startOfYear) / yearDuration) * 100;
+  const widthPct = ((nextDay - startOfDay) / yearDuration) * 100;
+
+  return {
+    leftPct,
+    widthPct,
+    label: `Today: ${today.getFullYear()}.${String(today.getMonth() + 1).padStart(2, '0')}.${String(
+      today.getDate()
+    ).padStart(2, '0')}`,
+  };
 });
 
 const overlappingEvents = computed(() => {
@@ -332,5 +405,40 @@ const monthSeparators = computed(() => {
 
 .tooltip-link:hover {
   text-decoration: underline;
+}
+
+.today-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  pointer-events: auto;
+}
+
+.today-bar {
+  width: 100%;
+  height: 14px;
+  background-color: #2ecc71; /* green */
+  border-radius: 4px;
+  opacity: 0.95;
+}
+
+.today-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(46, 204, 113, 0.95);
+  color: #012007;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  white-space: nowrap;
+  z-index: 12;
+  margin-bottom: 6px;
+  cursor: default;
 }
 </style>
