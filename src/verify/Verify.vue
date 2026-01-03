@@ -472,14 +472,14 @@ onMounted(async () => {
                       <td
                         :key="'group-' + i"
                         :class="{
-                          'empty-cell': !eg.media || !eg.media[i - 1]?.path,
+                          'empty-cell': !eg.media || !eg.media[i - 1],
                         }"
                       >
                         <div
-                          v-if="eg.media && eg.media[i - 1]?.path"
+                          v-if="eg.media && eg.media[i - 1]"
                           class="media-item"
                         >
-                          <div v-if="isImage(eg.media[i - 1]?.path)">
+                          <div v-if="isImage(eg.media[i - 1])">
                             <div
                               v-if="
                                 !mediaFailed(eg.pathStr + '::group::' + (i - 1))
@@ -491,7 +491,7 @@ onMounted(async () => {
                                   '/' +
                                   eg.ar_path.concat(['media']).join('/') +
                                   '/' +
-                                  eg.media[i - 1]?.path
+                                  eg.media[i - 1]
                                 "
                                 class="media-image"
                                 loading="lazy"
@@ -500,17 +500,17 @@ onMounted(async () => {
                                     eg.pathStr + '::group::' + (i - 1)
                                   )
                                 "
-                                :title="mediaBasename(eg.media[i - 1]?.path)"
+                                :title="mediaBasename(eg.media[i - 1])"
                               />
                             </div>
                             <div
                               v-else
                               class="error-text"
-                              :title="mediaBasename(eg.media[i - 1]?.path)"
+                              :title="mediaBasename(eg.media[i - 1])"
                             >
                               LOADING ERROR
                             </div>
-                            {{ mediaLabel(eg.media[i - 1]?.path) }}
+                            {{ mediaLabel(eg.media[i - 1]) }}
                           </div>
                           <div v-else>
                             <a
@@ -519,11 +519,11 @@ onMounted(async () => {
                                 '/' +
                                 eg.ar_path.concat(['media']).join('/') +
                                 '/' +
-                                eg.media[i - 1]?.path
+                                eg.media[i - 1]
                               "
                               target="_blank"
-                              :title="mediaBasename(eg.media[i - 1]?.path)"
-                              >{{ eg.media[i - 1]?.path }}</a
+                              :title="mediaBasename(eg.media[i - 1])"
+                              >{{ eg.media[i - 1] }}</a
                             >
                           </div>
                         </div>
