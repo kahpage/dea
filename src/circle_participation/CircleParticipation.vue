@@ -56,6 +56,7 @@ async function fetch_circle_raw_indexes(variant) {
     index_count = metadata.value?.compact_index_chunk_count || 0;
     index_state.value = ["cLoading", 0];
   } else if (variant == "extensive") {
+    // For extensive only
     index_parts_ptr = circle_extensive_index_parts;
     index_ptr = circle_extensive_index;
     base_url = [PATH_DB_EXPORTED]

@@ -8,7 +8,6 @@ import axiosInstance from "@/axios/axios_config.js";
 import {
   makeLinksClickable,
   PATH_DB_TO_EXPORT,
-  PATH_DB_EXPORTED,
   fetch_url,
 } from "@/assets/utils.js";
 import EventGroupTable from "@/components/EventGroupTable.vue";
@@ -25,7 +24,7 @@ const event_group_data_state = ref("loading"); // 'loading', 'loaded', 'error'
 
 async function fetch_eg_db() {
   fetch_url({
-    url: [PATH_DB_EXPORTED]
+    url: [PATH_DB_TO_EXPORT]
       .concat(db_path_args.value)
       .concat([`event_group.json`])
       .join("/"),
