@@ -9,7 +9,6 @@ import axiosInstance from "@/axios/axios_config.js";
 import {
   makeLinksClickable,
   PATH_DB_TO_EXPORT,
-  PATH_DB_EXPORTED,
   fetch_url,
 } from "@/assets/utils.js";
 import ToggleShow from "@/components/ToggleShow.vue";
@@ -39,7 +38,7 @@ const event_data_state = ref("loading"); // 'loading', 'loaded', 'error'
 
 async function fetch_ed_db() {
   fetch_url({
-    url: [PATH_DB_EXPORTED].concat(db_path_args.value).join("/") + ".json",
+    url: [PATH_DB_TO_EXPORT].concat(db_path_args.value).join("/") + ".json",
     axiosInstance: axiosInstance,
     on_start: () => {
       event_data.value = {};
