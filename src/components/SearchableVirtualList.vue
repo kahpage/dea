@@ -58,26 +58,27 @@ const props = defineProps({
   },
 });
 
-const filters = ref([]);
+const draft_filters = ref([]);
+const applied_filters = ref([]);
 
 const active_filters = computed(() =>
-  filters.value.filter((filter) => {
+  applied_filters.value.filter((filter) => {
     const query = (filter.query || "").trim();
     return query.length > 0 || filter.useRegex;
   })
 );
 
-const filtered_indexes = computed(() => {
+const filtered_items = computed(() => {
   if (!Array.isArray(props.items) || props.items.length === 0) {
     return [];
   }
 
   const active = active_filters.value;
   if (active.length === 0) {
-    return props.items.map((_, index) => index);
+    return props.items;
   }
 
-  let current_indexes = props.items.map((_, index) => index);
+  let current_items = props.items;
   for (const filter of active) {
     const raw_query = (filter.query || "").trim();
     if (!raw_query && !filter.useRegex) {
@@ -95,27 +96,23 @@ const filtered_indexes = computed(() => {
       } catch (e) {
         return [];
       }
-      current_indexes = current_indexes.filter((index) => {
-        const text = props.searchTextGetter(props.items[index], index);
+      current_items = current_items.filter((item, index) => {
+        const text = props.searchTextGetter(item, index);
         return re.test(text === null || text === undefined ? "" : String(text));
       });
       continue;
     }
 
     const lowered_query = raw_query.toLowerCase();
-    current_indexes = current_indexes.filter((index) => {
-      const text = props.searchTextGetter(props.items[index], index);
+    current_items = current_items.filter((item, index) => {
+      const text = props.searchTextGetter(item, index);
       const normalized = text === null || text === undefined ? "" : String(text);
       return normalized.toLowerCase().includes(lowered_query);
     });
   }
 
-  return current_indexes;
+  return current_items;
 });
-
-const filtered_items = computed(() =>
-  filtered_indexes.value.map((index) => props.items[index])
-);
 
 const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
   filtered_items,
@@ -180,66 +177,39 @@ const visible_list = computed(() =>
 );
 
 function addFilter() {
-  filters.value.push({
-    input: "",
+  draft_filters.value.push({
+    draftInput: "",
+    draftUseRegex: false,
     query: "",
     useRegex: false,
-    debounceTimer: null,
   });
 }
 
 function removeFilter(index) {
-  const filter = filters.value[index];
-  if (filter?.debounceTimer) {
-    clearTimeout(filter.debounceTimer);
-  }
-  filters.value.splice(index, 1);
-  scrollTo(0);
+  draft_filters.value.splice(index, 1);
 }
 
-function commitFilter(index, value) {
-  const filter = filters.value[index];
-  if (!filter) return;
-  filter.query = value;
+function applyFilters() {
+  applied_filters.value = draft_filters.value.map((filter) => ({
+    draftInput: filter.draftInput,
+    draftUseRegex: filter.draftUseRegex,
+    query: filter.draftInput,
+    useRegex: filter.draftUseRegex,
+  }));
   scrollTo(0);
 }
 
 function onFilterInput(index, value) {
-  const filter = filters.value[index];
+  const filter = draft_filters.value[index];
   if (!filter) return;
-  filter.input = value;
-
-  if (filter.debounceTimer) {
-    clearTimeout(filter.debounceTimer);
-    filter.debounceTimer = null;
-  }
-
-  if (props.debounceMs > 0) {
-    filter.debounceTimer = setTimeout(() => {
-      commitFilter(index, value);
-      filter.debounceTimer = null;
-    }, props.debounceMs);
-    return;
-  }
-
-  commitFilter(index, value);
+  filter.draftInput = value;
 }
 
 function onFilterRegex(index, value) {
-  const filter = filters.value[index];
+  const filter = draft_filters.value[index];
   if (!filter) return;
-  filter.useRegex = value;
-  scrollTo(0);
+  filter.draftUseRegex = value;
 }
-
-onBeforeUnmount(() => {
-  for (const filter of filters.value) {
-    if (filter.debounceTimer) {
-      clearTimeout(filter.debounceTimer);
-      filter.debounceTimer = null;
-    }
-  }
-});
 </script>
 
 <template>
@@ -254,6 +224,13 @@ onBeforeUnmount(() => {
           >
             Add filter
           </button>
+          <button
+            class="searchable-virtual-list__filter-button"
+            @click="applyFilters"
+            title="Apply all filtering criterium"
+          >
+            Apply filters
+          </button>
         </div>
 
         <div class="searchable-virtual-list__results">
@@ -263,13 +240,13 @@ onBeforeUnmount(() => {
 
       <div class="searchable-virtual-list__filter-list">
         <div
-          v-for="(filter, index) in filters"
+          v-for="(filter, index) in draft_filters"
           :key="index"
           class="searchable-virtual-list__filter-row"
         >
           <FilterEntry
-            :model-value="filter.input"
-            :use-regex="filter.useRegex"
+            :model-value="filter.draftInput"
+            :use-regex="filter.draftUseRegex"
             :placeholder="searchPlaceholder"
             :regex-label="regexLabel"
             @update:modelValue="(value) => onFilterInput(index, value)"
@@ -290,7 +267,7 @@ onBeforeUnmount(() => {
     <slot
       name="header"
       :items="filtered_items"
-      :filters="filters"
+      :filters="applied_filters"
       :scrollTo="scrollTo"
     />
 
@@ -299,7 +276,7 @@ onBeforeUnmount(() => {
         <slot
           :list="visible_list"
           :items="filtered_items"
-          :filters="filters"
+          :filters="applied_filters"
           :scrollTo="scrollTo"
         />
       </div>
@@ -338,8 +315,9 @@ onBeforeUnmount(() => {
 
 .searchable-virtual-list__filter-actions {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
 }
 
 .searchable-virtual-list__filter-list {
