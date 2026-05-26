@@ -3,8 +3,7 @@
 ... ============================================================ -->
 
 <script setup>
-import { ref, computed, watchEffect } from "vue";
-import { useVirtualList } from "@vueuse/core";
+import { ref, computed, watchEffect, useTemplateRef, markRaw } from "vue";
 import axiosInstance from "@/axios/axios_config.js";
 import {
   makeLinksClickable,
@@ -12,8 +11,7 @@ import {
   fetch_url,
 } from "@/assets/utils.js";
 import ToggleShow from "@/components/ToggleShow.vue";
-import ToggleSwitch from "@/components/ToggleSwitch.vue";
-import { useTemplateRef, markRaw } from "vue";
+import SearchableVirtualList from "@/components/SearchableVirtualList.vue";
 
 import PopUpManager from "@/components/PopUpManager.vue";
 import MediaGrid from "@/components/MediaGrid.vue";
@@ -23,16 +21,6 @@ const props = defineProps({
   db_path: String,
 });
 
-const keywords = ref(""); // For filtering circles in the virtual list
-const use_regex = ref(false); // Whether to use regex search or not
-
-const regex_expr = computed(() => {
-  try {
-    return new RegExp(keywords.value, "i");
-  } catch (e) {
-    return null;
-  }
-});
 const event_data = ref(null);
 const event_data_state = ref("loading"); // 'loading', 'loaded', 'error'
 
@@ -57,85 +45,32 @@ async function fetch_ed_db() {
   });
 }
 
-// Filtered circles based on keywords
-const filtered_circles = computed(() => {
-  if (!event_data.value || !event_data.value.circles) {
-    return [];
-  }
-  // trim to treat whitespace-only as empty
-  const keyword_raw = (keywords.value || "").trim();
-  if (!keyword_raw) {
-    return event_data.value.circles;
-  }
-
-  // If regex mode is enabled, use regex matching (case-insensitive)
-  if (use_regex.value && keyword_raw.length > 0) {
-    if (!regex_expr.value) return [];
-    const re = regex_expr.value;
-    return event_data.value.circles.filter((circle) => {
-      const anyMatch = (arr) =>
-        Array.isArray(arr) &&
-        arr.some((s) => typeof s === "string" && re.test(s));
-
-      if (anyMatch(circle.aliases)) return true;
-      if (anyMatch(circle.pen_names)) return true;
-      if (anyMatch(circle?.comments)) return true;
-
-      if (
-        circle.position !== undefined &&
-        circle.position !== null &&
-        re.test(circle.position.toString())
-      )
-        return true;
-      if (anyMatch(circle.links)) return true;
-
-      return false;
-    });
-  }
-
-  // Default substring matching (case-insensitive)
-  const keyword = keyword_raw.toLowerCase();
-  return event_data.value.circles.filter((circle) => {
-    const anyIncludes = (arr) =>
-      Array.isArray(arr) &&
-      arr.some((s) => typeof s === "string" && s.toLowerCase().includes(keyword));
-
-    if (anyIncludes(circle.aliases)) return true;
-    if (anyIncludes(circle.pen_names)) return true;
-    if (circle?.comments?.toLowerCase().includes(keyword)) return true;
-
-    if (
-      circle.position !== undefined &&
-      circle.position !== null &&
-      circle.position.toString().toLowerCase().includes(keyword)
-    )
-      return true;
-
-    if (anyIncludes(circle.links)) return true;
-
-    return false;
-  });
-});
-
-// Virtual list
-function onSearchUpdate(event) {
-  // Sync keywords with text input
-  keywords.value = event.target.value;
-  scrollTo(0);
-}
-const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
-  filtered_circles,
-  {
-    // Fixed item height must match the CSS row height to avoid
-    // virtualization rendering artifacts for large lists.
-    itemHeight: 22,
-    // overscan: 10,
-  }
-);
-
 const db_path_args = computed(() => {
   return props.db_path ? props.db_path.split("/").filter(Boolean) : [];
 });
+
+function circleSearchText(circle) {
+  const toText = (value) => {
+    if (Array.isArray(value)) {
+      return value
+        .map((entry) => (entry === null || entry === undefined ? "" : String(entry).trim()))
+        .filter(Boolean)
+        .join(" / ");
+    }
+    if (value === null || value === undefined) return "";
+    return String(value).trim();
+  };
+
+  return [
+    toText(circle.aliases),
+    toText(circle.pen_names),
+    toText(circle.comments),
+    toText(circle.position),
+    toText(circle.links),
+  ]
+    .filter(Boolean)
+    .join("\t");
+}
 
 /* PopUpManager */
 const popUpManager = useTemplateRef("popUpManager");
@@ -231,46 +166,34 @@ watchEffect(async () => {
         v-if="event_data?.circles && Array.isArray(event_data.circles)"
         class="ed-div-table"
       >
-        <div class="ed-search-row">
-          <input
-            class="ed-input"
-            :value="keywords"
-            @input="onSearchUpdate"
-            placeholder="Keywords"
-          />
+        <SearchableVirtualList
+          class="ed-vlist"
+          contour-color="var(--scarlet-dark)"
+          rows-color="var(--grey-dark)"
+          :items="event_data.circles"
+          :search-text-getter="circleSearchText"
+          :item-height="22"
+          :regex-empty-returns-all="true"
+        >
+          <template #header>
+            <table class="ed-header-table">
+              <thead>
+                <tr>
+                  <th colspan="5" class="ed-table-title">Participating circles</th>
+                </tr>
+                <tr>
+                  <th style="width: 5%">Details</th>
+                  <th style="width: 10%">Position</th>
+                  <th style="width: 30%">Aliases</th>
+                  <th style="width: 25%">Pen Names</th>
+                  <th style="width: 30%">Links</th>
+                </tr>
+              </thead>
+            </table>
+          </template>
 
-          <div class="ed-input ed-regex-group">
-            <div class="ed-regex-label">Use Regex ?</div>
-            <ToggleSwitch
-              v-model:toggle_value="use_regex"
-              :titleFunc="
-                (state) =>
-                  state ? 'regex search enabled' : 'regex search disabled'
-              "
-            />
-          </div>
-
-          <div class="ed-results">({{ filtered_circles?.length }} results)</div>
-        </div>
-        <table class="ed-header-table">
-          <thead>
-            <tr>
-              <th colspan="5" class="ed-table-title">Participating circles</th>
-            </tr>
-            <tr>
-              <th style="width: 5%">Details</th>
-              <th style="width: 10%">Position</th>
-              <th style="width: 30%">Aliases</th>
-              <th style="width: 25%">Pen Names</th>
-              <th style="width: 30%">Links</th>
-            </tr>
-          </thead>
-        </table>
-
-        <div class="ed-vlist">
-          <div v-bind="containerProps" class="ed-vlist-component">
-            <div v-bind="wrapperProps" class="ed-vlist-wrapper">
-              <table class="ed-body-table">
+          <template #default="{ list }">
+            <table class="ed-body-table">
                 <colgroup>
                   <col style="width: 5%" />
                   <col style="width: 10%" />
@@ -282,23 +205,9 @@ watchEffect(async () => {
                   <tr
                     v-for="vitem in list"
                     :key="vitem.index"
-                    :class="[
-                      'ed-vlist-item',
-                      vitem.index % 2 === 0
-                        ? 'ed-vlist-item-even'
-                        : 'ed-vlist-item-odd',
-                    ]"
+                    v-bind="vitem.rowProps"
                   >
-                    <td
-                      :style="{
-                        backgroundColor:
-                          vitem.index % 2 === 0
-                            ? 'var(--grey-dark)'
-                            : 'var(--greyish-deep)',
-                        color: 'var(--grey-light)',
-                        textAlign: 'center',
-                      }"
-                    >
+                    <td style="text-align: center">
                       <button
                         class="ed-popup-button"
                         @click="popupCircleDetails(vitem.data)"
@@ -307,56 +216,24 @@ watchEffect(async () => {
                         🡵
                       </button>
                     </td>
-                    <td
-                      :style="{
-                        backgroundColor:
-                          vitem.index % 2 === 0
-                            ? 'var(--grey-dark)'
-                            : 'var(--greyish-deep)',
-                        color: 'var(--grey-light)',
-                      }"
-                    >
+                    <td>
                       {{ vitem.data.position ?? "" }}
                     </td>
-                    <td
-                      :style="{
-                        backgroundColor:
-                          vitem.index % 2 === 0
-                            ? 'var(--grey-dark)'
-                            : 'var(--greyish-deep)',
-                        color: 'var(--grey-light)',
-                      }"
-                    >
+                    <td>
                       {{
                         Array.isArray(vitem.data.aliases)
                           ? vitem.data.aliases.join(" / ")
                           : vitem.data.aliases || ""
                       }}
                     </td>
-                    <td
-                      :style="{
-                        backgroundColor:
-                          vitem.index % 2 === 0
-                            ? 'var(--grey-dark)'
-                            : 'var(--greyish-deep)',
-                        color: 'var(--grey-light)',
-                      }"
-                    >
+                    <td>
                       {{
                         Array.isArray(vitem.data.pen_names)
                           ? vitem.data.pen_names.join(" / ")
                           : vitem.data.pen_names || ""
                       }}
                     </td>
-                    <td
-                      :style="{
-                        backgroundColor:
-                          vitem.index % 2 === 0
-                            ? 'var(--grey-dark)'
-                            : 'var(--greyish-deep)',
-                        color: 'var(--grey-light)',
-                      }"
-                    >
+                    <td>
                       <span
                         v-html="
                           makeLinksClickable(
@@ -370,9 +247,8 @@ watchEffect(async () => {
                   </tr>
                 </tbody>
               </table>
-            </div>
-          </div>
-        </div>
+          </template>
+        </SearchableVirtualList>
       </div>
       <!-- ===== SOURCES ===== -->
       <ToggleShow
@@ -569,6 +445,12 @@ p {
   cursor: pointer;
   color: var(--orange-light);
   font-weight: 900;
+  padding: 0;
+  height: var(--svl-item-height);
+  line-height: var(--svl-item-height);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .ed-popup-button:hover {
   color: var(--orange-vibrant);
@@ -577,14 +459,10 @@ p {
 /* Styles for the virtualized circle list (merged .ed-vlist-component rules) */
 .ed-div-table {
   margin-top: 1em;
-  background-color: var(--scarlet-dark);
   color: var(--grey-vibrant);
   text-align: left;
   font-size: 18px;
   font-family: Arial, sans-serif;
-  box-shadow: 0 0 20px #3b393926;
-  border: 3px solid var(--scarlet-dark);
-  border-radius: 5px;
 }
 
 input.ed-input {
@@ -599,55 +477,33 @@ input.ed-input {
 }
 .ed-vlist {
   margin: 0 0.25em;
+  height: 66vh;
+  max-height: 66vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
 }
 
 /* The vlist container must be the scroll container. Keep a single definition. */
 .ed-vlist-component {
-  height: 30em;
-  overflow-y: auto;
-  overflow-x: hidden;
-  position: relative;
-  box-sizing: border-box;
+  flex: 1 1 auto;
 }
 
-.ed-vlist-item {
-  height: 22px;
-  padding: 0;
-  background-color: var(--grey-dark);
-  color: var(--grey-light);
-}
-.ed-vlist-wrapper {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
 .ed-vlist-component table {
   table-layout: fixed;
   border-collapse: collapse;
   border-spacing: 0;
 }
-.ed-body-table tbody tr.ed-vlist-item {
-  height: 22px !important;
-}
-.ed-body-table tbody tr.ed-vlist-item td,
-.ed-body-table tbody tr.ed-vlist-item th,
-.ed-vlist-item td,
-.ed-vlist-item th {
+.ed-body-table tbody tr,
+.ed-body-table td,
+.ed-body-table th {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   padding: 0 0.3em;
   line-height: 22px;
   height: 22px;
-}
-
-.ed-vlist-item-even {
-  background-color: var(--grey-dark);
-}
-.ed-vlist-item-odd {
-  background-color: var(--greyish-deep);
 }
 
 a.ed-event-link {
@@ -666,20 +522,4 @@ a.ed-event-link {
 }
 
 /* Force ed-body-table row coloring to follow the virtual index classes rather than DOM order (which changes with virtualization). */
-.ed-body-table tbody tr {
-  background-color: var(--grey-dark) !important;
-  color: var(--grey-light) !important;
-}
-.ed-body-table tbody tr.ed-vlist-item-odd {
-  background-color: var(--greyish-deep) !important;
-}
-.ed-body-table tbody tr.ed-vlist-item-even {
-  background-color: var(--grey-dark) !important;
-}
-
-/* Neutralize generic nth-child rule for this table to avoid clashes */
-.ed-body-table tbody tr:nth-child(odd),
-.ed-body-table tbody tr:nth-child(even) {
-  background-color: transparent !important;
-}
 </style>
