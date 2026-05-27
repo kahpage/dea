@@ -12,7 +12,11 @@ const circle_compact_index_parts = ref([]);
 const circle_extensive_index_parts = ref([]);
 const circle_compact_index = ref([]);
 const circle_extensive_index = ref([]);
-const index_state = ref(["Idle"]);
+const index_state = ref({
+  stage: "Idle",
+  fetched: 0,
+  parsed: 0,
+});
 
 /* Fetch circle index metadata */
 async function fetch_metadata() {
@@ -21,24 +25,29 @@ async function fetch_metadata() {
     axiosInstance: axiosInstance,
     on_start: () => {
       metadata.value = {};
-      index_state.value = ["Loading"];
+      index_state.value = { stage: "Loading", fetched: 0, parsed: 0 };
     },
     on_success: (fetched_data) => {
       metadata.value = fetched_data;
-      index_state.value = ["Loaded"];
+      index_state.value = { stage: "Loaded", fetched: 0, parsed: 0 };
     },
     on_error: () => {
-      index_state.value = ["Error"];
+      index_state.value = { stage: "Error", fetched: 0, parsed: 0 };
     },
   });
 }
 
 /* Fetch circle raw indexes */
-async function fetch_circle_raw_indexes(variant) {
+async function fetch_circle_raw_indexes(variant, batch_size = 5) {
   let base_url = "";
   let index_count = 0;
   let index_parts_ptr = null;
   let index_ptr = null;
+  let loading_state = "";
+  let loading_parsing_state = "";
+  let parsing_state = "";
+  let loaded_state = "";
+  let error_state = "";
   if (variant == "compact") {
     index_parts_ptr = circle_compact_index_parts;
     index_ptr = circle_compact_index;
@@ -46,7 +55,12 @@ async function fetch_circle_raw_indexes(variant) {
       .concat(["circle_participation_compact_index"])
       .join("/");
     index_count = metadata.value?.compact_index_chunk_count || 0;
-    index_state.value = ["cLoading", 0];
+    loading_state = "cLoading";
+    loading_parsing_state = "cLoadingParsing";
+    parsing_state = "cParsing";
+    loaded_state = "cLoaded";
+    error_state = "cError";
+    index_state.value = { stage: loading_state, fetched: 0, parsed: 0 };
   } else if (variant == "extensive") {
     index_parts_ptr = circle_extensive_index_parts;
     index_ptr = circle_extensive_index;
@@ -54,7 +68,12 @@ async function fetch_circle_raw_indexes(variant) {
       .concat(["circle_participation_extensive_index"])
       .join("/");
     index_count = metadata.value?.extensive_index_chunk_count || 0;
-    index_state.value = ["eLoading", 0];
+    loading_state = "eLoading";
+    loading_parsing_state = "eLoadingParsing";
+    parsing_state = "eParsing";
+    loaded_state = "eLoaded";
+    error_state = "eError";
+    index_state.value = { stage: loading_state, fetched: 0, parsed: 0 };
   } else {
     console.error("fetch_circle_raw_indexes: Unknown variant", variant);
     return;
@@ -68,36 +87,88 @@ async function fetch_circle_raw_indexes(variant) {
     );
   }
 
-  for (let i = index_parts_ptr.value.length; i < index_count; i++) {
-    const part_url = `${base_url}_${i}.json`;
+  index_ptr.value = [];
+  const inflight = new Map();
+  let next_fetch = index_parts_ptr.value.length;
+  let downloaded_count = 0;
+  let parsed_count = 0;
+  let parsing_started = false;
 
-    try {
-      const response = await axiosInstance.get(part_url, {
-        responseType: "json",
-      });
-      index_state.value[1] = i + 1;
+  const update_progress = () => {
+    const stage = parsing_started
+      ? downloaded_count < index_count
+        ? loading_parsing_state
+        : parsing_state
+      : loading_state;
+    index_state.value = {
+      stage,
+      fetched: downloaded_count,
+      parsed: parsed_count,
+    };
+  };
 
-      console.log(`NEW FETCHED: (${part_url})`);
-      index_parts_ptr.value.push(response.data);
-    } catch (error) {
-      index_state.value = [variant == "compact" ? "cError" : "eError"];
-      console.error("Error fetching data:", error);
+  const launch_fetch = (index) => {
+    const part_url = `${base_url}_${index}.json`;
+    const promise = axiosInstance
+      .get(part_url, { responseType: "json" })
+      .then((response) => ({ ok: true, data: response.data }))
+      .catch((error) => ({ ok: false, error }));
+
+    inflight.set(index, promise);
+    promise.then((result) => {
+      if (result.ok) {
+        downloaded_count += 1;
+        update_progress();
+      }
+    });
+  };
+
+  while (next_fetch < index_count && inflight.size < batch_size) {
+    launch_fetch(next_fetch);
+    next_fetch += 1;
+  }
+
+  for (let i = 0; i < index_count; i++) {
+    if (!inflight.has(i)) {
+      launch_fetch(i);
+    }
+
+    const result = await inflight.get(i);
+    inflight.delete(i);
+
+    if (!result || !result.ok) {
+      index_state.value = {
+        stage: error_state,
+        fetched: downloaded_count,
+        parsed: parsed_count,
+      };
+      console.error("Error fetching data:", result?.error);
       return;
+    }
+
+    if (!parsing_started) {
+      parsing_started = true;
+      update_progress();
+      await asyncsleep(10);
+    }
+
+    index_ptr.value = index_ptr.value.concat(
+      recursive_fill_circle_indexes(result.data, [], variant)
+    );
+    parsed_count += 1;
+    update_progress();
+
+    if (next_fetch < index_count) {
+      launch_fetch(next_fetch);
+      next_fetch += 1;
     }
   }
 
-  index_state.value = [variant == "compact" ? "cParsing" : "eParsing", 0];
-  await asyncsleep(10);
-
-  index_ptr.value = [];
-  for (let i = 0; i < index_parts_ptr.value.length; i++) {
-    index_ptr.value = index_ptr.value.concat(
-      recursive_fill_circle_indexes(index_parts_ptr.value[i], [], variant)
-    );
-    index_state.value[1] = i + 1;
-  }
-
-  index_state.value = [variant == "compact" ? "cLoaded" : "eLoaded"];
+  index_state.value = {
+    stage: loaded_state,
+    fetched: downloaded_count,
+    parsed: parsed_count,
+  };
 }
 
 function recursive_fill_circle_indexes(
@@ -136,14 +207,14 @@ function recursive_fill_circle_indexes(
 
 const circle_index = computed(() => {
   if (
-    index_state.value[0] === "cLoaded" &&
+    index_state.value.stage === "cLoaded" &&
     circle_compact_index &&
     circle_compact_index.value &&
     Array.isArray(circle_compact_index.value)
   ) {
     return circle_compact_index.value;
   } else if (
-    index_state.value[0] === "eLoaded" &&
+    index_state.value.stage === "eLoaded" &&
     circle_extensive_index &&
     circle_extensive_index.value &&
     Array.isArray(circle_extensive_index.value)
@@ -197,7 +268,7 @@ onMounted(async () => {
 <template>
   <!-- Title -->
   <head>
-    <title v-if="index_state[0] == 'eEnabled'">
+    <title v-if="index_state.stage == 'eEnabled'">
       dea | Circle Participation (extensive search)
     </title>
     <title v-else>dea | Circle Participation</title>
@@ -206,51 +277,61 @@ onMounted(async () => {
   <div class="header-title">Circle Participation</div>
   <div class="header">List of participating circles in the database.</div>
 
-  <div v-if="index_state[0] == 'Loading'" class="status-message">
+  <div v-if="index_state.stage == 'Loading'" class="status-message">
     Loading circle index metadata...
   </div>
-  <div v-else-if="index_state[0] == 'Loaded'" class="status-message">
+  <div v-else-if="index_state.stage == 'Loaded'" class="status-message">
     Successfully loaded circle index metadata. One of the circle indexes can now
     be downloaded.
   </div>
-  <div v-if="index_state[0] == 'cLoading'" class="status-message">
-    Loading Compact Circle Index... Downloaded {{ index_state[1] }} /
+  <div v-if="index_state.stage == 'cLoading'" class="status-message">
+    Loading Compact Circle Index... Downloaded {{ index_state.fetched }} /
     {{ metadata?.compact_index_chunk_count }}...
   </div>
-  <div v-if="index_state[0] == 'cParsing'" class="status-message">
-    Parsing Compact Circle Index... Parsed {{ index_state[1] }} /
+  <div v-if="index_state.stage == 'cLoadingParsing'" class="status-message">
+    Loading Compact Circle Index... Downloaded {{ index_state.fetched }} /
+    {{ metadata?.compact_index_chunk_count }}. Parsed {{ index_state.parsed }} /
     {{ metadata?.compact_index_chunk_count }}...
   </div>
-  <div v-if="index_state[0] == 'cLoaded'" class="status-message">
+  <div v-if="index_state.stage == 'cParsing'" class="status-message">
+    Parsing Compact Circle Index... Parsed {{ index_state.parsed }} /
+    {{ metadata?.compact_index_chunk_count }}...
+  </div>
+  <div v-if="index_state.stage == 'cLoaded'" class="status-message">
     Successfully loaded Compact Circle Index.
   </div>
-  <div v-if="index_state[0] == 'eLoading'" class="status-message">
-    Loading Extensive Circle Index... Downloaded {{ index_state[1] }} /
+  <div v-if="index_state.stage == 'eLoading'" class="status-message">
+    Loading Extensive Circle Index... Downloaded {{ index_state.fetched }} /
     {{ metadata?.extensive_index_chunk_count }}...
   </div>
-  <div v-if="index_state[0] == 'eParsing'" class="status-message">
-    Parsing Extensive Circle Index... Parsed {{ index_state[1] }} /
+  <div v-if="index_state.stage == 'eLoadingParsing'" class="status-message">
+    Loading Extensive Circle Index... Downloaded {{ index_state.fetched }} /
+    {{ metadata?.extensive_index_chunk_count }}. Parsed {{ index_state.parsed }} /
     {{ metadata?.extensive_index_chunk_count }}...
   </div>
-  <div v-if="index_state[0] == 'eLoaded'" class="status-message">
+  <div v-if="index_state.stage == 'eParsing'" class="status-message">
+    Parsing Extensive Circle Index... Parsed {{ index_state.parsed }} /
+    {{ metadata?.extensive_index_chunk_count }}...
+  </div>
+  <div v-if="index_state.stage == 'eLoaded'" class="status-message">
     Successfully loaded Extensive Circle Index.
   </div>
-  <div v-else-if="index_state[0].endsWith('Error')" class="status-message">
+  <div v-else-if="index_state.stage.endsWith('Error')" class="status-message">
     <!-- buttons -->
     Failed to fetch
     {{
-      index_state[0] == "cError"
+      index_state.stage == "cError"
         ? "circle compact index"
-        : index_state[0] == "eError"
+        : index_state.stage == "eError"
         ? "circle extensive index"
         : "circle index metadata"
     }}.
     <button
       class="retry-button"
       @click="
-        index_state[0] == 'Error'
+        index_state.stage == 'Error'
           ? fetch_metadata()
-          : index_state[0] == 'cError'
+          : index_state.stage == 'cError'
           ? fetch_circle_raw_indexes('compact')
           : fetch_circle_raw_indexes('extensive')
       "
@@ -264,7 +345,7 @@ onMounted(async () => {
   <div class="load-controls-row status-message">
     <div class="load-controls-left">
       <button
-        v-if="index_state[0] == 'Loaded'"
+        v-if="index_state.stage == 'Loaded'"
         class="retry-button"
         @click="fetch_circle_raw_indexes('compact')"
         :title="`Load compact circle index (${
@@ -277,7 +358,7 @@ onMounted(async () => {
       </button>
 
       <button
-        v-if="index_state[0] == 'Loaded' || index_state[0] == 'cLoaded'"
+        v-if="index_state.stage == 'Loaded' || index_state.stage == 'cLoaded'"
         class="retry-button"
         @click="fetch_circle_raw_indexes('extensive')"
         :title="`Load extensive circle index (${
