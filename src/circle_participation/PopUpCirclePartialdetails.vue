@@ -7,12 +7,11 @@
     <div class="popup-circle-div">
       <p class="cd-aliases"> <span class="info-name">Names:</span> {{ circle_db?.names?.join(" / ") }}</p>
       <p class="cd-event"> <span class="info-name">Event:</span> 
-        {{  }}
         <a
           class="cd-event-link"
           :href="
             ['/dea/event_detail/#']
-              .concat(circle_db.ar_path)
+              .concat(db_path || [])
               .join('/')
           "
         >
