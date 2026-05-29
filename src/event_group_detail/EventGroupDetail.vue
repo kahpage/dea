@@ -123,7 +123,6 @@ watchEffect(async () => {
 
       <!-- ===== SOURCES ===== -->
       <ToggleShow
-        class="ts-sources"
         :button_text="'Sources'"
         v-if="event_group_data?.sources"
       >
@@ -140,7 +139,6 @@ watchEffect(async () => {
 
       <!-- ===== LINKS ===== -->
       <ToggleShow
-        class="ts-sources"
         :button_text="'Links'"
         v-if="event_group_data"
       >
@@ -162,7 +160,6 @@ watchEffect(async () => {
 
       <!-- ===== MEDIA ===== -->
       <ToggleShow
-        class="ts-sources"
         :button_text="'Media'"
         v-if="event_group_data"
       >
@@ -176,7 +173,6 @@ watchEffect(async () => {
 
       <!-- ===== COMMENTS ===== -->
       <ToggleShow
-        class="ts-comments"
         :button_text="'Comments'"
         v-if="event_group_data?.comments"
       >
@@ -187,7 +183,6 @@ watchEffect(async () => {
 
       <!-- Stats -->
       <ToggleShow
-        class="ts-sources"
         :button_text="'Stats'"
         v-if="event_group_data?.events"
       >

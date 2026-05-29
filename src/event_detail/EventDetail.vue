@@ -148,7 +148,6 @@ watchEffect(async () => {
 
       <!-- ===== Description ===== -->
       <ToggleShow
-        class="ts-description"
         :button_text="'Description'"
         v-if="event_data?.description"
         :default_hidden="false"
@@ -251,11 +250,7 @@ watchEffect(async () => {
         </SearchableVirtualList>
       </div>
       <!-- ===== SOURCES ===== -->
-      <ToggleShow
-        class="ts-sources"
-        :button_text="'Sources'"
-        v-if="event_data?.sources"
-      >
+      <ToggleShow :button_text="'Sources'" v-if="event_data?.sources">
         <p v-for="(source_, i) in event_data.sources" :key="i">
           <span v-if="source_.type"
             >({{ source_.type[0] }}, {{ source_.type[1] }})
@@ -270,7 +265,6 @@ watchEffect(async () => {
       <!-- ===== Comments ===== -->
 
       <ToggleShow
-        class="ed-comments"
         :button_text="'Comments'"
         v-if="event_data && event_data?.comments"
       >
@@ -280,11 +274,7 @@ watchEffect(async () => {
       </ToggleShow>
 
       <!-- ===== Location ===== -->
-      <ToggleShow
-        class="ts-sources"
-        :button_text="'Location'"
-        v-if="event_data?.locations"
-      >
+      <ToggleShow :button_text="'Location'" v-if="event_data?.locations">
         <div v-for="(loc, i) in event_data.locations" :key="i">
           <p v-if="loc?.description">{{ loc.description }}</p>
           <iframe
@@ -311,7 +301,7 @@ watchEffect(async () => {
       </ToggleShow>
 
       <!-- ===== MEDIA ===== -->
-      <ToggleShow class="ts-sources" :button_text="'Media'" v-if="event_data">
+      <ToggleShow :button_text="'Media'" v-if="event_data">
         <MediaGrid
           :media_list="event_data.media"
           :media_folder_path="
@@ -343,32 +333,6 @@ watchEffect(async () => {
   font-size: x-large;
 }
 
-.table-div {
-  width: 98vw;
-  margin-top: 1em;
-  overflow: hidden;
-  border-radius: 0.7em;
-}
-
-.ed-table {
-  width: 100%;
-  font-size: 1em;
-  font-family: Arial, sans-serif;
-  box-shadow: 0 0 1em rgba(59, 57, 57, 0.15);
-  border: 0.2em solid var(--scarlet-dark);
-  text-align: left;
-  border-collapse: collapse;
-  table-layout: auto;
-}
-
-.ed-table th,
-.ed-table td {
-  text-align: left;
-  color: var(--grey-light);
-  word-wrap: break-word;
-  max-width: 45vw;
-}
-
 thead {
   background-color: var(--scarlet-dark);
   color: var(--grey-vibrant);
@@ -389,53 +353,12 @@ p {
   margin: 0;
 }
 
-/* Description / Sources */
-.ts-sources {
-  margin-left: 1em;
-  width: min-content;
-}
-.ts-description {
-  margin-left: -0.5em;
-  max-width: 95%;
-}
+/* Description */
 .ts-description-div {
-  width: 95%;
+  width: 100%;
 }
 .ts-description-div p {
   word-wrap: break-word;
-}
-
-/* Search row (input + regex toggle + results) */
-.ed-input {
-  margin-top: 1em;
-  margin-left: 1em;
-}
-.ed-search-row {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-.ed-search-row .ed-input {
-  margin-top: 0;
-  margin-left: 0;
-}
-.ed-regex-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.25rem;
-  font-weight: 700;
-  margin-left: 0.25rem;
-}
-.ed-regex-label {
-  font-size: 0.95rem;
-  line-height: 1;
-}
-.ed-results {
-  margin-left: 0.25rem;
-  font-weight: 600;
 }
 
 /* Popup button (single definition) */
@@ -465,13 +388,6 @@ p {
   font-family: Arial, sans-serif;
 }
 
-input.ed-input {
-  background-color: var(--grey-vibrant);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0.4em 0.6em;
-  border-radius: 0.25em;
-}
-
 .ed-header-table {
   width: 100%;
 }
@@ -485,16 +401,6 @@ input.ed-input {
   overflow: hidden;
 }
 
-/* The vlist container must be the scroll container. Keep a single definition. */
-.ed-vlist-component {
-  flex: 1 1 auto;
-}
-
-.ed-vlist-component table {
-  table-layout: fixed;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 .ed-body-table tbody tr,
 .ed-body-table td,
 .ed-body-table th {
@@ -504,10 +410,6 @@ input.ed-input {
   padding: 0 0.3em;
   line-height: 22px;
   height: 22px;
-}
-
-a.ed-event-link {
-  color: var(--scarlet-soft);
 }
 
 .ed-body-table {

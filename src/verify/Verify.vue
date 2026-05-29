@@ -360,10 +360,7 @@ onMounted(async () => {
 
         <!-- Verification tools -->
         <!-- Circle participation bar charts -->
-        <ToggleShow
-          class="vf-toggle-show"
-          :button_text="'Circle Participation Charts'"
-        >
+        <ToggleShow :button_text="'Circle Participation Charts'">
           <div
             class="vf-eg-div"
             v-for="eg in filtered_verify_db"
@@ -397,7 +394,7 @@ onMounted(async () => {
         <br />
 
         <!-- Media -->
-        <ToggleShow class="vf-toggle-show" :button_text="'Media'">
+        <ToggleShow :button_text="'Media'">
           <div
             class="vf-eg-div"
             v-for="eg in filtered_verify_db"
@@ -823,40 +820,6 @@ onMounted(async () => {
 .vf-eg-content img,
 .vf-eg-content pre,
 .vf-eg-content table {
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-/* ToggleShow spacing */
-.vf-toggle-show {
-  margin-left: 0.5em;
-  box-sizing: border-box;
-  display: inline-block; /* allow it to shrink to the button when closed */
-  vertical-align: top;
-  width: auto; /* allow it to be smaller when content is small */
-  max-width: calc(100% - 1em); /* cap width to leave 0.5em gap on both sides */
-  padding-right: 0.5em; /* ensure a visible gap to the right edge */
-}
-
-/* ToggleShow root overrides */
-.vf-toggle-show.ts-div {
-  box-sizing: border-box !important;
-  margin-left: 0.5em !important; /* restore left margin */
-  margin-right: 0.5em !important; /* ensure right margin */
-  max-width: calc(100% - 1em) !important; /* respect both side margins */
-}
-
-/* ToggleShow open: expand */
-.vf-toggle-show.ts-open {
-  display: block !important;
-  width: calc(100% - 1em) !important;
-  max-width: calc(100% - 1em) !important;
-}
-
-/* ToggleShow content: fill width */
-.vf-toggle-show .ts-content {
-  display: block;
-  width: 100%;
   max-width: 100%;
   box-sizing: border-box;
 }

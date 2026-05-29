@@ -10,10 +10,16 @@
       Links: <span v-html="makeLinksClickable(props.event_group_db?.links.join(', '))"></span>
     </div>
     <!-- ===== Description ===== -->
-    <ToggleShow class="ts-description" v-if="props.event_group_db?.description" :button_text="'Description'" :default_hidden="false" >
-      <p v-for="(row, i) in props.event_group_db.description.split('\n')" :key="i">
-        <span v-html="makeLinksClickable(row)"></span>
-      </p>
+    <ToggleShow
+      v-if="props.event_group_db?.description"
+      :button_text="'Description'"
+      :default_hidden="false"
+    >
+      <div class="eg-description">
+        <p v-for="(row, i) in props.event_group_db.description.split('\n')" :key="i">
+          <span v-html="makeLinksClickable(row)"></span>
+        </p>
+      </div>
     </ToggleShow>
 
     <table>
@@ -129,13 +135,13 @@ const eg_href = computed(() => {
 
   .eg-links {}
 
-  .ts-description {
+  .eg-description {
     padding: 0;
     margin: 0;
     margin-top: 1em;
   }
 
-  .ts-description p {
+  .eg-description p {
     margin: 0 0;
     word-wrap: break-word;
   }
