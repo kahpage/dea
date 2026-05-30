@@ -146,6 +146,22 @@ watchEffect(async () => {
         <span v-html="makeLinksClickable(event_data.links.join(', '))"></span>
       </div>
 
+       <!-- ===== Last edited ===== -->
+      <div class="ed-last-edited">
+        Last edited:
+        <span v-if="event_data?.last_edited">
+          {{ event_data.last_edited }}
+        </span>
+        <span
+          v-else
+          class="na"
+          title="The last_edited parameter was not set in the database. Please update the database accordingly"
+          aria-label="Missing last_edited: update database"
+        >
+          N/A
+        </span>
+      </div>
+
       <!-- ===== Description ===== -->
       <ToggleShow
         :button_text="'Description'"
@@ -359,6 +375,18 @@ p {
 }
 .ts-description-div p {
   word-wrap: break-word;
+}
+
+/* Last edited fallback */
+.ed-last-edited {
+  margin-top: 0.5em;
+  color: var(--grey-soft);
+  font-size: 0.9em;
+}
+
+.ed-last-edited .na {
+  color: var(--scarlet-vibrant);
+  font-weight: 700;
 }
 
 /* Popup button (single definition) */

@@ -14,6 +14,7 @@ import EventGroupTable from "@/components/EventGroupTable.vue";
 import ToggleShow from "@/components/ToggleShow.vue";
 import BarChart from "@/components/BarChart.vue";
 import MediaGrid from "@/components/MediaGrid.vue";
+import EventLastEditedTable from "@/components/EventLastEditedTable.vue";
 
 const props = defineProps({
   db_path: String,
@@ -95,6 +96,8 @@ watchEffect(async () => {
     </title>
     <title v-else>dea | Event Group Detail</title>
   </head>
+
+  <!-- Content -->
   <div class="header-title">Event group detail</div>
   <div v-if="!props.db_path" class="header">
     Invalid database to fetch: "{{ props.db_path }}"
@@ -137,27 +140,6 @@ watchEffect(async () => {
         </p>
       </ToggleShow>
 
-      <!-- ===== LINKS ===== -->
-      <ToggleShow
-        :button_text="'Links'"
-        v-if="event_group_data"
-      >
-        <div
-          v-if="
-            !event_group_data?.links ||
-            Array.isArray(event_group_data?.links) &
-              (event_group_data?.links == 0)
-          "
-        >
-          (None)
-        </div>
-        <div class="ed-links">
-          <div v-for="(link, index) in event_group_data?.links" :key="index">
-            <span v-html="makeLinksClickable(link)"></span>
-          </div>
-        </div>
-      </ToggleShow>
-
       <!-- ===== MEDIA ===== -->
       <ToggleShow
         :button_text="'Media'"
@@ -187,6 +169,10 @@ watchEffect(async () => {
         v-if="event_group_data?.events"
       >
         <BarChart :data="chartData" :title="'Event participation'" />
+        <EventLastEditedTable
+          :events="event_group_data?.events"
+          :title="'Event last edited'"
+        />
       </ToggleShow>
     </div>
   </div>

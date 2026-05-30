@@ -6,9 +6,29 @@
   <div class="eg-div">
     <a class="eg-title" :href='eg_href'>{{ headerTitles }}</a>
 
-    <div v-if="props.show_details && props.event_group_db.hasOwnProperty('links') && Array.isArray(props.event_group_db.links)" class="eg-links">
-      Links: <span v-html="makeLinksClickable(props.event_group_db?.links.join(', '))"></span>
+    <!-- ===== Details ===== -->
+    <div v-if="props.show_details">
+      <!-- ===== Links ===== -->
+      <div v-if="props.event_group_db.hasOwnProperty('links') && Array.isArray(props.event_group_db.links)" class="eg-links">
+        Links: <span v-html="makeLinksClickable(props.event_group_db?.links.join(', '))"></span>
+      </div>
+       <!-- ===== Last edited ===== -->
+      <div class="eg-last-edited">
+        Last edited:
+        <span v-if="props.event_group_db?.last_edited">
+          {{ props.event_group_db.last_edited }}
+        </span>
+        <span
+          v-else
+          class="na"
+          title="The last_edited parameter was not set in the database. Please update the database accordingly"
+          aria-label="Missing last_edited: update database"
+        >
+          N/A
+        </span>
+      </div>
     </div>
+    
     <!-- ===== Description ===== -->
     <ToggleShow
       v-if="props.event_group_db?.description"
@@ -144,5 +164,16 @@ const eg_href = computed(() => {
   .eg-description p {
     margin: 0 0;
     word-wrap: break-word;
+  }
+
+  .eg-last-edited {
+    margin-top: 0.5em;
+    color: var(--grey-soft);
+    font-size: 0.9em;
+  }
+
+  .eg-last-edited .na {
+    color: var(--scarlet-vibrant);
+    font-weight: 700;
   }
 </style>
