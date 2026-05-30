@@ -44,25 +44,26 @@ function toggleVisibility() {
 
 .ts-div {
   background-color: var(--purple-deeper);
-  width: auto; /* shrink to content by default */
-  max-width: 100%;
+  width: fit-content; /* minimal footprint when closed */
+  min-width: 5%;
+  max-width: 95%;
   border-radius: 1em;
-  margin: 1em 0.5em; /* keep horizontal margin but allow full width */
+  margin: 0.5em 0.5em;
   box-sizing: border-box;
   overflow-x: hidden; /* prevent children from causing page-level overflow */
 }
 
 .ts-div.ts-open {
-  width: 100%; /* expand to full available width when open */
+  width: 95%; /* expand to near-full width when open */
 }
 
 .ts-button {
-    border: none;
-    color: var(--grey-light);
-    background-color: transparent;
-    font-weight: 700;
-    font-size: large;
-    border-radius: 1em;
+  border: none;
+  color: var(--grey-light);
+  background-color: transparent;
+  font-weight: 700;
+  font-size: large;
+  border-radius: 1em;
   margin: 0.5em;
   white-space: nowrap;
   overflow: hidden;

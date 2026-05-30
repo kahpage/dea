@@ -79,22 +79,27 @@ async function fetch_circle_raw_indexes(variant, batch_size = 5) {
     return;
   }
 
-  index_parts_ptr.value = [];
-
+  // Preserve already-downloaded parts so we can resume without refetching.
+  index_parts_ptr.value = index_parts_ptr.value || [];
   if (index_parts_ptr.value.length > 0) {
     console.log(
-      `Retrying from ${index_parts_ptr.value.length} / ${index_count} for ${variant} index.`
+      `Resuming from ${index_parts_ptr.value.length} / ${index_count} for ${variant} index.`
     );
   }
 
-  index_ptr.value = [];
+  // Keep previously parsed entries as well; don't clear `index_ptr` when resuming.
+  index_ptr.value = index_ptr.value || [];
   const inflight = new Map();
-  let next_fetch = index_parts_ptr.value.length;
-  let downloaded_count = 0;
-  let parsed_count = 0;
+  // Track already downloaded part indices to avoid re-downloading them.
+  const downloadedSet = new Set(index_parts_ptr.value);
+  let next_fetch = 0;
+  let downloaded_count = downloadedSet.size;
+  let parsed_count = downloadedSet.size;
   let parsing_started = false;
+  let aborted = false;
 
   const update_progress = () => {
+    if (aborted) return;
     const stage = parsing_started
       ? downloaded_count < index_count
         ? loading_parsing_state
@@ -117,19 +122,30 @@ async function fetch_circle_raw_indexes(variant, batch_size = 5) {
     inflight.set(index, promise);
     promise.then((result) => {
       if (result.ok) {
-        downloaded_count += 1;
+        // We'll increment downloaded_count when we process the result below.
         update_progress();
       }
     });
   };
 
+  // Launch an initial batch, skipping parts already downloaded.
   while (next_fetch < index_count && inflight.size < batch_size) {
+    if (downloadedSet.has(next_fetch)) {
+      next_fetch += 1;
+      continue;
+    }
     launch_fetch(next_fetch);
     next_fetch += 1;
   }
 
   for (let i = 0; i < index_count; i++) {
+    // Skip parts that were already downloaded and parsed previously.
+    if (downloadedSet.has(i)) {
+      continue;
+    }
+
     if (!inflight.has(i)) {
+      // Aborted
       launch_fetch(i);
     }
 
@@ -137,6 +153,7 @@ async function fetch_circle_raw_indexes(variant, batch_size = 5) {
     inflight.delete(i);
 
     if (!result || !result.ok) {
+      aborted = true;
       index_state.value = {
         stage: error_state,
         fetched: downloaded_count,
@@ -152,13 +169,38 @@ async function fetch_circle_raw_indexes(variant, batch_size = 5) {
       await asyncsleep(10);
     }
 
-    index_ptr.value = index_ptr.value.concat(
-      recursive_fill_circle_indexes(result.data, [], variant)
-    );
-    parsed_count += 1;
+    let parsed_chunk = [];
+    try {
+      parsed_chunk = recursive_fill_circle_indexes(result.data, [], variant);
+    } catch (e) {
+      aborted = true;
+      index_state.value = {
+        stage: error_state,
+        fetched: downloaded_count,
+        parsed: parsed_count,
+      };
+      console.error("Error parsing data:", e);
+      return;
+    }
+
+    index_ptr.value = index_ptr.value.concat(parsed_chunk);
+
+    // Mark this part as downloaded and parsed so future runs will skip it.
+    if (!downloadedSet.has(i)) {
+      index_parts_ptr.value.push(i);
+      downloadedSet.add(i);
+      downloaded_count += 1;
+      parsed_count += 1;
+    }
+
     update_progress();
 
-    if (next_fetch < index_count) {
+    // Fill more inflight slots if available, skipping already downloaded parts.
+    while (next_fetch < index_count && inflight.size < batch_size) {
+      if (downloadedSet.has(next_fetch)) {
+        next_fetch += 1;
+        continue;
+      }
       launch_fetch(next_fetch);
       next_fetch += 1;
     }
@@ -177,6 +219,15 @@ function recursive_fill_circle_indexes(
   variant = "compact"
 ) {
   let current_circle_list = [];
+  // Defensive: if raw_index is null or not an object, abort parsing.
+  if (raw_index === null || typeof raw_index !== "object") {
+    throw new Error("Invalid index node (expected object)");
+  }
+
+  // If raw_index is an array at this level, it's unexpected (no event name key).
+  if (Array.isArray(raw_index)) {
+    throw new Error("Invalid index node (unexpected array)");
+  }
 
   for (const key in raw_index) {
     if (Array.isArray(raw_index[key])) {
