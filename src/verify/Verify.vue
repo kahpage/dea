@@ -8,6 +8,7 @@ import axiosInstance from "@/axios/axios_config.js";
 import { computed, onMounted, ref, watch, reactive } from "vue";
 import ToggleShow from "@/components/ToggleShow.vue";
 import BarChart from "@/components/BarChart.vue";
+import EventLastEditedTable from "@/components/EventLastEditedTable.vue";
 
 import {
   PATH_DB_EXPORTED,
@@ -614,6 +615,30 @@ onMounted(async () => {
                   </tbody>
                 </table>
               </div>
+            </div>
+          </div>
+        </ToggleShow>
+        <br />
+
+        <!-- Last edited -->
+        <ToggleShow :button_text="'Last edited'">
+          <div
+            class="vf-eg-div"
+            v-for="eg in filtered_verify_db"
+            :key="eg.name"
+          >
+            <div class="vf-eg-name-container">
+              <a :href="eg.link" class="vf-eg-name">{{ eg.name }}</a>
+            </div>
+            <div class="vf-eg-content">
+              <p v-if="!eg.events" class="status-message">
+                No events in this event group.
+              </p>
+              <EventLastEditedTable
+                v-else
+                :events="eg.events"
+                :title="'Event last edited'"
+              />
             </div>
           </div>
         </ToggleShow>
